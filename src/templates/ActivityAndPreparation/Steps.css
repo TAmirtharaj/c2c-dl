@@ -1,0 +1,106 @@
+/** @format */
+
+.step-comp-wrapper {
+  width: 100%;
+  float: left;
+  /* margin-bottom: -0.5em; */
+  --bs-gutter-x: 0rem !important;
+  align-items: start;
+}
+
+.step-comp-plainText {
+  display: inline !important;
+}
+
+.step-comp-step-content {
+  width: 80%;
+  text-align: left;
+  position: relative;
+  /* display: inline-block;
+   */
+   display: flex;
+    flex-direction: column;
+}
+
+.step-comp-child-step-content {
+  margin-top: -10px;
+  width: 95%;
+  text-align: left;
+  position: relative;
+  display: inline-block;
+  --bs-gutter-x: -2rem !important;
+  --bs-gutter-y: 0.3rem;
+}
+
+.step-comp-step-box { 
+  margin-top: 0.3em;
+  margin-right: -0.4em;
+  float: left;
+  width: 50px;
+  height: 20px;
+  background-color: rgba(197, 200, 204, 1);
+  border-radius: 1em 0em 0em 1em;
+  pointer-events: none;
+  color: rgba(18, 52, 87, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.8em;
+}
+
+.step-comp-step-text {
+  text-align: center;
+  margin: 0.5em;
+  font-family: Montserrat-Bold;
+  font-size: 0.6875em;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.step-comp-step-count-text {
+  float: left;
+  font-family: Montserrat-Bold;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  /* margin-top: -0.25em; */
+  pointer-events: none;
+  color: #000000;
+}
+
+.step-comp-step-circle {
+  margin-top: 0.4em;
+  margin-right: 0.3em;
+  float: left;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(197, 200, 204, 1);
+  border-radius: 10px;
+  font-family: Montserrat-Bold;
+  font-size: 0.8em;
+  color: rgba(18, 52, 87, 1);
+  text-align: center;
+
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-comp-step-label-col-width {
+  width: 6.1em;
+  border: none;
+  background: transparent;
+  display: flex;
+  /* align-items: center; */
+  margin-top: -0.25em;
+  padding: 0 0 0 5px;
+}
+
+.step-comp-step-label-col-width .clicked {
+  background-color: rgba(59, 191, 174, 1);
+  color: white !important;
+}
+.type-comp-wrapper .video-comp-wrapper {
+  width: 100%;
+  margin-bottom: 15px;
+}

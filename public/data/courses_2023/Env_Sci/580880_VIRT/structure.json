@@ -1,0 +1,1930 @@
+{
+  "locked": true,
+  "courseTitle": "Biodiversity and the Scientific Method Virtual Lab",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/bodyBookmark.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Env_Sci_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Environmental Science",
+                "images": {
+                  "launchPage": "core/Env_Sci_launchPageBg.svg",
+                  "logo": "core/Env_Sci_Subject_Icon.svg"
+                },
+                "titleName2": "Biodiversity and the Scientific Method Virtual Lab",
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, you will receive an introduction to <button class='glossary-text'>ecology</button>, <button class='glossary-text'>species</button> biodiversity, and the steps of the <button class='glossary-text'>scientific method</button>. You will then apply these concepts to explore the effects of various land management strategies on an endangered <button class='glossary-text'>ecosystem</button>."
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Env_Sci/580880VIRT_Env_Sci/580880VIRT_Env_Sci_Time-Requirement.svg",
+                  "width": "100%",
+                  "imgDivWidth": "460px",
+                  "maxWidth": "510px",
+                  "altText": "Activity 1 – 40 minutes\nActivity 2 – 20 minutes\nActivity 3 – 20 minutes"
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "There are no materials needed for this investigation."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Define the terms <button class='glossary-text'>ecology</button>, <button class='glossary-text'>ecosystem</button>, and <button class='glossary-text'>species</button> biodiversity.",
+                    "Describe the differences between native, non-native, endangered, weedy, invasive and <button class='glossary-text'>keystone species</button>.",
+                    "Identify the purpose and steps of the <button class='glossary-text'>scientific method</button>.",
+                    "Create hypotheses, collect and analyze data, and draw conclusions by conducting experiments in a simulation."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "600px",
+                  "imgDivWidth": "430px",
+                  "altText": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "<br>Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "maxWidth": "600px",
+                  "imgDivWidth": "430px",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "maxWidth": "600px",
+                  "imgDivWidth": "430px",
+                  "css": {
+                    "marginTop": "30px"
+                  },
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "When you think of areas of high biodiversity, you may picture <button class='glossary-text'>ecosystems</button> like rainforests and coral reefs. You might also imagine that high biodiversity is only found in pristine, protected lands, free from human interference. But it turns out that biodiversity can be found in some very surprising locations. New research suggests that graveyards and burial grounds can be small hotspots of biodiversity<sup>1</sup>. According to the researchers, graveyards, especially those on the edges of cultivated farmland or in urban areas, can provide safe havens for <button class='glossary-text'>endangered species</button> that have been wiped out in the surrounding areas. Because graveyards are relatively undisturbed, native grasses and wildflowers may be allowed to grow, which can provide important food sources for pollinators like bees and butterflies, which in turn can benefit nearby crops. In most areas, graveyards are already protected from destruction because of their significance to human communities, meaning that they can continue to be havens for many <button class='glossary-text'>species</button>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='citation'><sup class='bodysubscript'>1</sup>Conroy, G. (2021, February 24). Graveyards are surprising hotspots for biodiversity. <i>Scientific American.</i> <br/><span style='word-break: break-all;'>https://www.scientificamerican.com/article/graveyards-are-surprising-hotspots-for-biodiversity/</span></span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Env_Sci/580880VIRT_Env_Sci/580880VIRT_Env_Sci_whyShouldICare.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "80%",
+                  "altText": "Four carved headstones in a grassy graveyard."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "One of the many disciplines within the life sciences is <button class='glossary-text'>ecology</button>, or the study of the relationships between living organisms – including humans – and their physical environment. By better understanding these connections, scientists can gather information about the benefits of <button class='glossary-text'>ecosystems</button> and how to leave the environment healthy for future generations. An ecosystem is a geographic area containing biotic factors (living parts) and abiotic factors (non-living parts). Biotic factors include organisms, such as plants and animals. Abiotic factors include temperature, soil composition, and sources of water. Each factor in an ecosystem depends on all the other factors, whether directly or indirectly."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Ecosystems come in all sizes and varieties. The ponds on a beach created by the changing of ocean tides, called tide pools, are tiny ecosystems. The sand dunes of the Sahara Desert are a very large ecosystem. You can use <span style='whiteSpace: nowrap'><a target='blank' href='https://story.maps.arcgis.com/apps/MapJournal/index.html?appid=dc91db9f6409462b887ebb1695b9c201&webmap=dd6f7f93d54341a69a47002696cf5744'>this website</a></span> to explore the ecosystem in your local area."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The living things in an ecosystem are grouped into <button class='glossary-text'>species</button>. A species is a group of similar individuals living in the same geographic region that are able to interbreed to produce fertile, viable offspring. For example, a marsh ecosystem may be home to three different species of snails; the snails are defined as distinct species due to a combination of appearance, behavior and genetics. Over time they remain distinct species because perhaps Species A does not mate with Species B, as they mate during different times of the year; perhaps Species B and Species C occasionally mate but their hybrid offspring cannot reproduce themselves."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "One aspect of an <button class='glossary-text'>ecosystem</button> that scientists can study is its biodiversity, or the variety within and among organisms in a particular area. This definition is quite broad, so for the purposes of this investigation we will focus on <button class='glossary-text'>species biodiversity</button>, or the number of different species present and the relative abundance of those species. There are different categories of species:"
+                },
+                {
+                  "type": "List",
+                  "text": [
+                    "A species is considered a <button class='glossary-text'>native species</button> when it is living in the geographic area in which it originated. For example, many species of orchid, although considered an exotic plant in most homes around the world, are considered native when in South America.",
+                    "A species is considered a <button class='glossary-text'>non-native species</button> when it is living in a geographic area other than where it originated. Tomatoes, which are a native species of North America, thrive in gardens worldwide; they are an excellent example of a non-native species that poses no threat to the ecosystem to which it has been introduced.",
+                    "A species is considered a <button class='glossary-text'>keystone species</button> if it has a disproportionately large effect on its environment relative to its abundance. The loss of a keystone species results in the instability of the entire ecosystem. Beavers, for example, engineer dams that flood the area, providing the perfect watery habitat for many other species."
+                  ]
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "text": [
+                    "A species is considered an <button class='glossary-text'>endangered species</button> if it is likely to become extinct in the near future. According to the International Union for Conservation of Nature (IUCN), there are three conservation categories that meet this description (in order from least to most concern): Vulnerable, Endangered, and Critically Endangered.",
+                    "A species is considered a <button class='glossary-text'>weedy species</button> when it has the potential to overpopulate its native environment and upset the ecosystem’s balance. The racoon has become a nuisance in some urban areas as development has encroached on its native habitat thus removing natural predators and providing new sources of food.",
+                    "A species is considered an <button class='glossary-text'>invasive species</button> when it is not only a non-native species, but also a threat to populations of existing native species in the area. Lionfish, native to the South Pacific and Indian Oceans, is an unchecked predator in the coral reef ecosystems of the Atlantic Ocean and Caribbean."
+                  ]
+                }
+              ]
+            },
+
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "An ornamental vine species originating in Japan has been introduced to the state of California. A college student studying abroad took a cutting of the vine with her when she returned home. The vine produces beautiful flowers, so the student has allowed her friends and family to plant cuttings of the vine in their own gardens. Which of the following best describes this plant in its new environment?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "non-native species",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "invasive species",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "keystone species",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "weedy species",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "native species",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "This species does not originate in California but there is nothing to suggest that it is harmful to its new environment."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 1",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "A species of sea slug became a popular exotic pet after a social media influencer showcased his sea slug online. But as the influencer’s fame dwindled, his followers got rid of their pet slugs by discarding them in local bodies of water. The sea slug population increased quickly in a lake in Switzerland where it has no natural predators. The locals are having a hard time fishing as the sea slug eats the same algae the native fish rely on as their main food source.",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "invasive species ",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "non-native species ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "keystone species ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "weedy species ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "native species",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "This species is not only outside its native environment, but also harmful to the balance of its new environment."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "For the purposes of this investigation, we will focus on species biodiversity. There are different categories of species:<span className=bodyParaLineBreak><ul><li>A species is considered a native species when it is living in the geographic area in which it originated.</li><span className=bodyParaLineBreak><li>A species is considered a non-native species when it is living in a geographic area other than where it originated. A non-native species does not necessarily pose a threat to the ecosystem to which it has been introduced.</li><span className=bodyParaLineBreak><li>A species is considered a keystone species if it has a disproportionately large effect on its environment relative to its abundance. The loss of a keystone species results in the instability of the entire ecosystem.</li><span className=bodyParaLineBreak><li>A species is considered an endangered species if it is likely to become extinct in the near future. According to the International Union for Conservation of Nature (IUCN), there are three conservation categories that meet this description (in order from least to most concern): Vulnerable, Endangered, and Critically Endangered.</li><span className=bodyParaLineBreak><li>A species is considered a weedy species when it has the potential to overpopulate its native environment and upset the ecosystem’s balance.</li><span className=bodyParaLineBreak><li>A species is considered an invasive species when it is not only a non-native species, but also a threat to populations of existing native species in the area.</li></ul>"
+                },
+                {
+                  "title": "Hint",
+                  "body": "For the purposes of this investigation, we will focus on species biodiversity. There are different categories of species:<span className=bodyParaLineBreak><ul><li>A species is considered a native species when it is living in the geographic area in which it originated.</li><span className=bodyParaLineBreak><li>A species is considered a non-native species when it is living in a geographic area other than where it originated. A non-native species does not necessarily pose a threat to the ecosystem to which it has been introduced.</li><span className=bodyParaLineBreak><li>A species is considered a keystone species if it has a disproportionately large effect on its environment relative to its abundance. The loss of a keystone species results in the instability of the entire ecosystem.</li><span className=bodyParaLineBreak><li>A species is considered an endangered species if it is likely to become extinct in the near future. According to the International Union for Conservation of Nature (IUCN), there are three conservation categories that meet this description (in order from least to most concern): Vulnerable, Endangered, and Critically Endangered.</li><span className=bodyParaLineBreak><li>A species is considered a weedy species when it has the potential to overpopulate its native environment and upset the ecosystem’s balance.</li><span className=bodyParaLineBreak><li>A species is considered an invasive species when it is not only a non-native species, but also a threat to populations of existing native species in the area.</li></ul>"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "The Longleaf Pine Savanna",
+                  "text": "An <button class='glossary-text'>ecosystem</button> unique to the southeastern United States is the longleaf pine savanna. This endangered ecosystem is characterized by stands of <span style='whiteSpace: nowrap'>widely-spaced</span> pine trees and an understory of primarily grasses. Such grassland forest at one point covered almost 90 million acres from southern Virginia to east Texas. Human development cut that range down drastically; but in recent years, conservation efforts have brought the total range up to about 4.5 million acres (Figure 1)."
+                },
+
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Env_Sci/580880VIRT_Env_Sci/580880VIRT_Env_Sci_fig_001.svg",
+                  "altText": "Figure 1: Two maps of the southeast United States. The left map shows the historic range of the longleaf pine, covering more than half of Florida, Georgia, South Carolina, North Carolina and Alabama, the lower third of Mississippi, and parts of Virginia, Louisiana and east Texas. The right map shows the current range of the longleaf pine, covering small parts of North Carolina, South Carolina, Florida, Alabama, Mississippi, Louisiana and east Texas, and about a third of southern Georgia.",
+                  "maxWidth": "650px",
+                  "scrollImg": true,
+                  "imgDivWidth": "550px",
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The longleaf pine savanna is considered a fire-climax community: the <button class='glossary-text'>species</button> in this ecosystem not only can survive fires, but also are dependent upon it. Fire, whether started by lightning or humans, catches quickly and moves fast due to the highly flammable pine needles and wiregrass of the forest floor. Such burns, when done regularly, clear out the understory, which provides several benefits."
+                },
+
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The seeds of the longleaf pine require bare soil for germination, such as the bare ground after a fire. Regular burns prevent shrubs and other woody plants from growing in the understory and shading out a diverse number of <button class='glossary-text'>native species</button>. If the understory becomes thick with shrubs, fire-resistant tree species begin to grow in the forest; this makes encouraging subsequent fires more difficult and over time changes the species make-up of the ecosystem."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Watch the video from The Longleaf Alliance to learn more about this unique ecosystem.<span className=bodyParaLineBreak>"
+                },
+                {
+                  "type": "Video",
+                  "imgDivWidth": "40%",
+                  "imgDivWidthForTablet": {
+                    "P": "40%",
+                    "L": "40%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "80%",
+                    "L": "40%"
+                  },
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "image": "courses_2023/Env_Sci/580880VIRT_Env_Sci/580880VIRT_Env_Sci_VideoIcone.svg",
+                  "desc": "OverView Video",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6323105311112"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<sup>©</sup> The Longleaf Alliance. Used with permission."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What is a unique requirement of the longleaf pine seeds?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "They require bare soil for germination.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "They require alkaline water for germination.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "They require intense sunlight for germination.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "They must be buried deep in the soil for germination.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "They must be exposed to freezing temperatures before germination.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Unlike many other plants, the seeds of the longleaf pine require bare soil for germination, such as the bare ground after a fire."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 2",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What type of community is the longleaf pine savanna?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "a fire-climax",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "a wetland",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "a tundra",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "a forest",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "aquatic",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The longleaf pine savanna is considered a fire-climax community: the species in this ecosystem not only can survive fires, but also are dependent upon it."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "The seeds of the longleaf pine require bare soil for germination. Regular burns prevent shrubs and other woody plants from growing in the understory and shading out a diverse number of native species. If the understory becomes thick with shrubs, fire-resistant tree species begin to grow in the forest; this makes encouraging subsequent fires more difficult and over time changes the species make-up of the ecosystem."
+                },
+                {
+                  "title": "Hint",
+                  "body": "The seeds of the longleaf pine require bare soil for germination. Regular burns prevent shrubs and other woody plants from growing in the understory and shading out a diverse number of native species. If the understory becomes thick with shrubs, fire-resistant tree species begin to grow in the forest; this makes encouraging subsequent fires more difficult and over time changes the species make-up of the ecosystem."
+                }
+              ]
+            },
+
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "The Scientific Method",
+                  "text": "In our day-to-day experience, we all make observations about how the world works. In the fall, the leaves on trees change color. In the springtime, pansies are one of the first flowers to bloom. Sometimes these observations stimulate our curiosity. We might ask ourselves, “What characteristics of pansies are responsible for their early blooming?” The <button class='glossary-text'>scientific method</button> helps us answer such questions."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The scientific method involves doing experiments and making observations to answer a question of interest. The question generally arises from an observation such as “Why are pansies one of the first flowers to bloom each year?” or “Why do apples turn brown after they are cut?” While there are many approaches to answering a question, the scientific method takes a distinctive approach. First, the question must be testable. A <button class='glossary-text'>testable question</button> is one for which empirical, or measurable, data can be collected to answer the question or provide insight. Another important component of testability is reproducibility. The empirical or measurable data must always yield the same results under identical conditions.  "
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The scientific method can be used either to investigate an observed phenomenon or to design an experiment to test a <button class='glossary-text'>hypothesis</button>. A hypothesis is an educated assumption or prediction of what one expects to observe, or the predicted results of an experiment. The investigator integrates previous knowledge in developing the hypothesis and acquires new knowledge in the process of testing the hypothesis."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The new knowledge gained can either support or refute the hypothesis. However, if the data collected are inconsistent with previous findings, and if these new observations or data are reliably reproduced by other investigators, the existing broad scientific understanding or theory may have to be revised and potentially discarded. Science has a built-in mechanism for self-correction, as justified by new evidence, to more accurately reflect reality. The overall process followed in the scientific method is represented in Figure 2."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Env_Sci/580880VIRT_Env_Sci/580880VIRT_Env_Sci_fig_002.svg",
+                  "altText": "Figure 2: A linear flowchart diagram showing eight steps in the scientific method. The first step is make observations. The second step is ask question. The third step is develop hypothesis. The fourth step is design experiment. The fifth step is run experiment and collect data. The sixth step is analyze data. The seventh step is determine if hypothesis is supported or not supported. The eighth step is revise hypothesis and repeat experiment.",
+                  "maxWidth": "850px",
+                  "scrollImg": true,
+                  "imgDivWidth": "650px",
+                  "width": "100%"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Factors relevant to the question being asked are called <button class='glossary-text'>variables</button>. In designing a scientific experiment, only one factor, or variable, is changed at a given time. There are three different kinds of variables involved in an experiment:"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<ul><li>Independent variable</li><li>Dependent variable</li><li>Controlled variable</li></ul><span className=bodyParaLineBreak>The <button class='glossary-text'>independent variable</button> is the factor hypothesized to produce the effect under investigation. This variable can be measured and is often controlled by the investigator. Some common examples are time, temperature, concentration and pH. <button class='glossary-text'>Dependent variables</button> are measurable, and their behavior is based on the status of an independent variable. One controls the rate of change of the independent variable and observes the resulting change in the dependent variable. <button class='glossary-text'>Controlled variables</button> are all other, <span style='whiteSpace: nowrap'>non-independent</span> and <span style='whiteSpace: nowrap'>non-dependent</span> variables and they should remain unchanged while the independent variable is manipulated. These variables are within the experimenter’s control to keep consistent."
+                },
+
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The following is an example of these variables in the context of the question, “How does the amount of oxygen affect the heart rate of a fish?”"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<ul><li>Independent variable - the oxygen level of the water in the fish tank.</li><li>Dependent variable - the heart rate of the fish.</li><li>Controlled variables - the tank water temperature, pH, light level, etc.</li></ul><span className=bodyParaLineBreak>When the experiment is run and repeated to assess reproducibility, the <button class='glossary-text'>hypothesis</button> can be supported or not supported. More questions will likely be generated based on the analysis of the experimental data. Subsequent experiments will ask new questions and the hypothesis will be refined."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 3",
+              "pageTitle": "Knowledge Check Question 3",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 2,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Nina is wondering how some flowers are able to track the sun’s progress through the day. She predicts that if she places a flower in a room with an artificial light source, the flower will not track the light. What has Nina just developed as part of the scientific method?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "a hypothesis",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "an observation",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "an experiment",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "an analysis",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "the method",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "A hypothesis is an educated assumption or prediction of what one expects to observe, or the predicted results of an experiment."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 3",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Ali is designing an experiment to determine which recipe produces the tastiest cake. Which of the following describes the most appropriate dependent variable in such an experiment?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The scores collected from tasters of each cake.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The variations in the recipes used to bake the cakes.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "The equipment used to bake each cake.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The number of tasters asked to sample each cake.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "The temperature at which each cake was baked.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Dependent variables measure the outcome of the experiment, rather than what went into the experiment."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "imgContainer": "leftContainer",
+                  "body": "While there are many approaches to answering a question, the scientific method takes a distinctive approach. First, the question must be testable. A testable question is one for which empirical, or measurable, data can be collected to answer the question or provide insight. Another important component of testability is reproducibility. The empirical or measurable data must always yield the same results under identical conditions.<span className=bodyParaLineBreak>Factors relevant to the question being asked are called variables. In designing a scientific experiment, only one factor, or variable, is changed at a given time. There are three different kinds of variables involved in an experiment. The independent variable is the factor hypothesized to produce the effect under investigation. This variable can be measured and is often controlled by the investigator. Dependent variables are measurable, and their behavior is based on the status of an independent variable. One controls the rate of change of the independent variable and observes the resulting change in the dependent variable. Controlled variables are all other, non-independent and non-dependent variables and they should remain unchanged while the independent variable is manipulated. These variables are within the experimenter’s control to keep consistent.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Env_Sci/580880VIRT_Env_Sci/580880VIRT_Env_Sci_fig_002.svg",
+                      "alt": "Figure 2: A linear flowchart diagram showing eight steps in the scientific method. The first step is make observations. The second step is ask question. The third step is develop hypothesis. The fourth step is design experiment. The fifth step is run experiment and collect data. The sixth step is analyze data. The seventh step is determine if hypothesis is supported or not supported. The eighth step is revise hypothesis and repeat experiment.",
+                      "maxWidth": "810px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "imgContainer": "leftContainer",
+                  "body": "While there are many approaches to answering a question, the scientific method takes a distinctive approach. First, the question must be testable. A testable question is one for which empirical, or measurable, data can be collected to answer the question or provide insight. Another important component of testability is reproducibility. The empirical or measurable data must always yield the same results under identical conditions.<span className=bodyParaLineBreak>Factors relevant to the question being asked are called variables. In designing a scientific experiment, only one factor, or variable, is changed at a given time. There are three different kinds of variables involved in an experiment. The independent variable is the factor hypothesized to produce the effect under investigation. This variable can be measured and is often controlled by the investigator. Dependent variables are measurable, and their behavior is based on the status of an independent variable. One controls the rate of change of the independent variable and observes the resulting change in the dependent variable. Controlled variables are all other, non-independent and non-dependent variables and they should remain unchanged while the independent variable is manipulated. These variables are within the experimenter’s control to keep consistent.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Env_Sci/580880VIRT_Env_Sci/580880VIRT_Env_Sci_fig_002.svg",
+                      "alt": "Figure 2: A linear flowchart diagram showing eight steps in the scientific method. The first step is make observations. The second step is ask question. The third step is develop hypothesis. The fourth step is design experiment. The fifth step is run experiment and collect data. The sixth step is analyze data. The seventh step is determine if hypothesis is supported or not supported. The eighth step is revise hypothesis and repeat experiment.",
+                      "maxWidth": "810px"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are no materials needed for this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "OverView",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are no safety concerns for this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of these lists best describes the steps of the scientific method in order?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "observation, question, hypothesis, experiment, data analysis, hypothesis evaluation",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "data analysis, hypothesis, experiment, observation, question, hypothesis evaluation",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "question, observation, experiment, data analysis, hypothesis, hypothesis evaluation",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "observation, question, hypothesis, experiment, hypothesis evaluation, data analysis",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "question, experiment, hypothesis, observation, hypothesis evaluation, data analysis",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes a hypothesis?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "a prediction about what one expects to observe",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "the variable to be changed in the experiment",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "the controlled conditions of the experiment",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "a broad understanding of a scientific principle",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "the explanation for an observed phenomenon",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following scenarios does NOT follow the scientific method?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Josie runs her experiment once and uses the results to answer her question.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Destiny uses previous knowledge to develop a hypothesis.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Tonya collects empirical data during her experiment to answer her question.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Samantha uses new knowledge after her experiment to evaluate her hypothesis.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Amanda designs her experiment to be reproducible under identical conditions.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Kelly wants to know the optimal water pH for raising goldfish and designs an experiment to answer his question. Which of the following is most likely the independent variable of his experiment?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "the pH of the water in each fish tank",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "the temperature of the water in each fish tank",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "the number of fish in each tank",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "the health of the fish in each tank",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "the size of each fish tank",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Dean is conducting an experiment in which the dissolved oxygen level is experimentally manipulated in three different fish tanks. The resulting heartrate of the fish in each tank would be considered which of the following variables?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "dependent variable",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "controlled variable",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "independent variable",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "discrete variable",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "hypothetical variable",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes an ecosystem?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The snow, grasses, and population of goats living on a mountain.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The microbes collected from a doorknob.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The impact of the weather on an urban city.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The geological features formed by volcanic activity on an island.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The frog species living in a neighborhood pond.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "A species of fish native to the waters off British Columbia, Canada returns each year to the rivers it spawned from to reproduce. The journey is an upstream battle that takes weeks to complete. After their eggs have been laid and fertilized, the fish die; their decomposing bodies provide vital nutrients for both plants and animals in the river ecosystem. Which of the following best describes the fish species?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "keystone species",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "non-native species",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "invasive species",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "endangered species",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "weedy species",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Env_Sci_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In the activities of this simulated investigation, you will apply the <button class='glossary-text'>scientific method</button> to make observations, ask questions, develop hypotheses, and collect and analyze data about how different land management strategies affect <button class='glossary-text'>species</button> biodiversity in a longleaf pine <button class='glossary-text'>ecosystem</button>."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Activity 1",
+              "template": "VirtualLab",
+              "activityPath": "activities/580880_VIRT/activity/story.html"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "waterMark": true,
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Env_Sci_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "courses/580865_VIRT/logo.png",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "altText": "Carolina Distance Learning Logo",
+      "pageSetting": "Portrait A4"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Data",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable",
+            "width": "70%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1. Initial Species Biodiversity"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "headerHidden": true,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "60%"
+                  },
+                  {
+                    "text": "",
+                    "maxLength": 3,
+                    "colWidth": "40%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Total number of species present",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Number of endangered species present",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              },
+              {
+                "type": "Plain",
+                "title": " "
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 2. Species Biodiversity After Single Land Management Change"
+              },
+              {
+                "type": "DataTable",
+                "sr": 1,
+                "headerHidden": true,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "40%"
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "60%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Hypothesis",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "maxLength": 100,
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Total number of species present",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "maxLength": 3,
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Number of endangered species present",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "maxLength": 3,
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": ["Question1"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question1",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "After reviewing all the management strategies, which allows for the greatest species biodiversity? Describe this biodiversity. Why do you think this strategy is so restorative?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "waterMark": true,
+        "title": "Data",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable2",
+            "width": "75%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 3. Species Biodiversity After Multiple Land Management Changes"
+              },
+              {
+                "type": "Box",
+                "text": "The strategy chosen in Activity 1 has already been implemented to the property, so it MUST be one of the strategies in each hypothesis for this activity."
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "headerHidden": false,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "40%"
+                  },
+
+                  {
+                    "text": "Trial 1",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Trial 2",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Trial 3",
+                    "colWidth": "20%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "rowHeight": "60px",
+                      "text": "Hypothesis",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "maxLength": 150,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "maxLength": 150,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "maxLength": 150,
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Total number of species present",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "maxLength": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "maxLength": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "maxLength": 3,
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Number of endangered species present",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "maxLength": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "maxLength": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "maxLength": 3,
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": ["Question2", "Question3"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "2",
+                "listType": "ordered",
+                "text": [
+                  "Which Activity 2 trial resulted in the greatest biodiversity?"
+                ]
+              },
+
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "inputHeight": "100px",
+                "sr": 0,
+                "maxLength": 5,
+                "placeholder": "Write your Answer here..."
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "3",
+                "listType": "ordered",
+                "text": [
+                  "Although Activity 2 is a simulation, what conclusions can you draw about restoration efforts in real ecosystems?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question3",
+                "sr": 1,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "waterMark": true,
+        "title": "Data",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable3",
+            "width": "75%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 3"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 4. Species Biodiversity After Lucrative Land Management Change"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "headerHidden": true,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "60%"
+                  },
+
+                  {
+                    "text": "",
+                    "maxLength": 5,
+                    "colWidth": "40%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Hypothesis",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "maxLength": 100,
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Total number of species present",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "maxLength": 3,
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Number of endangered species present",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "maxLength": 3,
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": ["Question4"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question5",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "4",
+                "listType": "ordered",
+                "text": [
+                  "After reviewing the lucrative management strategies, which is least damaging to the ecosystem (allows for the greatest species biodiversity)? How does this strategy differ from the others in this activity?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question4",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+
+    "pageData": [
+      {
+        "type": "Pages",
+        "disableClick": true,
+        "hideFromList": true,
+        "thumbnailSrc": "core/Page_icon.svg",
+        "content": "Explore a Tapestry of World Ecosystems",
+        "ref": "https://story.maps.arcgis.com/apps/MapJournal/index.html?appid=dc91db9f6409462b887ebb1695b9c201&webmap=dd6f7f93d54341a69a47002696cf5744"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Env_Sci/580880VIRT_Env_Sci/580880VIRT_Env_Sci_fig_001.svg",
+        "altText": "Figure 1: Two maps of the southeast United States. The left map shows the historic range of the longleaf pine, covering more than half of Florida, Georgia, South Carolina, North Carolina and Alabama, the lower third of Mississippi, and parts of Virginia, Louisiana and east Texas. The right map shows the current range of the longleaf pine, covering small parts of North Carolina, South Carolina, Florida, Alabama, Mississippi, Louisiana and east Texas, and about a third of southern Georgia.",
+        "maxWidth": "650px",
+        "scrollImg": true,
+        "content": "Figure 1. Historic versus current range of longleaf pine savanna"
+      },
+
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6323105311112",
+        "content": "Longleaf for the Longrun"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Env_Sci/580880VIRT_Env_Sci/580880VIRT_Env_Sci_fig_002.svg",
+        "altText": "Figure 2: A linear flowchart diagram showing eight steps in the scientific method. The first step is make observations. The second step is ask question. The third step is develop hypothesis. The fourth step is design experiment. The fifth step is run experiment and collect data. The sixth step is analyze data. The seventh step is determine if hypothesis is supported or not supported. The eighth step is revise hypothesis and repeat experiment.",
+        "maxWidth": "850px",
+        "scrollImg": true,
+        "content": "Figure 2. The steps of the scientific method"
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Controlled variable",
+        "content": "One of any other non-independent and non-dependent variables in an investigation; such a variable should remain unchanged"
+      },
+      {
+        "title": "Dependent variable",
+        "content": "The factor that can be measured and is depenedent on the input of the independent variable"
+      },
+      {
+        "title": "Ecology",
+        "content": "The study of relationships between living organisms and their physical environment"
+      },
+      {
+        "title": "Ecosystem",
+        "content": "A geographic area containing biotic and abiotic factors"
+      },
+      {
+        "title": "Endangered species",
+        "content": "A species that is likely to become extinct in the near future"
+      },
+      {
+        "title": "Hypothesis",
+        "content": "An educated assumption or prediction of what one expects to observe, or the predicted results of an experiment"
+      },
+      {
+        "title": "Independent variable",
+        "content": "The factor hypothesized to produce the effect under investigation; this is the variable the investigator can change in an investigation"
+      },
+      {
+        "title": "Invasive species",
+        "content": "A species that is non-native and a threat to populations of existing native species in the area"
+      },
+      {
+        "title": "Keystone species",
+        "content": "A species that has a disproportionately large effect on its environment relative to its abundance"
+      },
+      {
+        "title": "Native species",
+        "content": "A species that is living in the geographic area in which it originated"
+      },
+      {
+        "title": "Non-native species",
+        "content": "A species that is living in an geographic area other than where it originated"
+      },
+      {
+        "title": "Scientific method",
+        "content": "The process of doing experiments and making observations to answer a question of interest"
+      },
+      {
+        "title": "Species",
+        "content": "A group of similar individuals living in the same geographic region that are able to interbreed to produce fertile, viable offspring"
+      },
+      {
+        "title": "Species biodiversity",
+        "content": "The number of different species present and the relative abundance of those species"
+      },
+      {
+        "title": "Testable question",
+        "content": "A question for which empirical, or measurable, data can be collected to answer a question"
+      },
+      {
+        "title": "Variable",
+        "content": "A factor relevant to the question that is to be tested"
+      },
+      {
+        "title": "Weedy species",
+        "content": "A species that has the potential to overpopulate its native environment and upset the ecosystem's balance"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

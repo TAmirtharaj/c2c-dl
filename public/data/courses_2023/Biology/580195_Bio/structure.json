@@ -1,0 +1,2647 @@
+{
+  "locked": true,
+  "courseTitle": "Squid Dissection",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/bodyBookmark.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Biology_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Biology",
+                "images": {
+                  "launchPage": "core/Biology_launchPageBg.svg",
+                  "logo": "core/Biology_subject_icon.svg"
+                },
+                "titleName2": "Squid Dissection ",
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "waterMark": true,
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "infoPopUp":"resource",
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Cephalopods, including the squid, represent a very different evolutionary path from mammals. Nonetheless, many species are highly intelligent and exquisitely adapted to their environment. In this lab, students will become familiar with the anatomy of a squid and begin to identify adaptations needed for survival."
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Biology/580195_Bio/580195_Bio_Time-Requirement.svg",
+                  "desc": "Preparation - 5 minutes\nActivity 1: Dissection - 60 minutes",
+                  "altText": "Preparation - 5 minutes\nActivity 1: Dissection - 60 minutes",
+                  "width": "100%",
+                  "imgDivWidth": "276px",
+                  "maxWidth": "300px",
+                  "scrollImg": true
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Paper towels",
+                    "70% isopropyl alcohol (rubbing alcohol) or other non-bleach disinfectant"
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "containerType":"rightContainer",
+                  "title": "Overview video: Squid Dissection"
+                },
+               {
+                  "type": "Video",
+                  "containerType":"rightContainer",
+                  "imgDivWidth": "200px",
+                  "desc":"Overview video",
+                  "image": "courses_2023/Biology/580195_Bio/580195_Bio_VideoIcone.svg",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6328269194112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Use dissection tools and terminology.",
+                    "Describe the internal and external anatomy of a squid.",
+                    "Discuss the relationship between structural forms and their adaptive value.",
+                    "Summarize key differences between squid, an invertebrate, and vertebrate animals."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "One of the most unique features of squid is its hardened, chitin-containing <button class='glossary-text'>beak</button>, which is not present in other mollusks. This sharp beak allows the squid to tear its prey into small pieces while eating it. But this beak also presents a problem for the organisms that prey on squid, like sperm whales. To the sperm whale, the squid’s beak is indigestible and can cause damage to the digestive tract. This leads them to produce a substance called ambergris (pronounced AM-ber-griss or AM-ber-gree). Ambergris forms around the beaks in the whale’s digestive tract and is often found floating in oceans. But how it leaves the body is up for debate: it is either excreted or it remains in the whale and floats away from the body as it decomposes. Once the ambergris leaves the whale, it oxidizes and takes on a musky aroma. This smell and the resulting flavor historically made ambergris an expensive and highly sought-after additive in perfumes and food products, and lead to large-scale hunting of sperm whales to obtain it. The hunting of whales for their ambergris is now banned and most perfume makers use a synthetically derived chemical instead. However, ambergris that is found without harming whales can still be sold in many parts of the world, though not in the United States, for a high price<sup class='bodySupscript'>1</sup>.<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'><sup class='bodySupscript'>1</sup>Rizzo, J. (2012, September 1). What's ambergris? behind the $60k whale-waste find. <i>National Geographic</i>.<br><span target='blank' style='word-break:break-all'>https://www.nationalgeographic.com/animals/article/120830-ambergris-charlie-naysmith-whale-vomit-<span style='whiteSpace: nowrap'>science</span> </span></span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580195_Bio/580195_Bio_whyShouldICare.svg",
+                  "desc": "Ambergris from a sperm whale showing undigested squid beaks.",
+                  "altText": "Ambergris from a sperm whale showing undigested squid beaks.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Squid belong to the invertebrate phylum <button class='glossary-text'>Mollusca</button>, class <button class='glossary-text'>Cephalopoda</button>, which also includes the octopus and nautilus. Your specimen is either <button class='glossary-text'><i>Loligo pealeii</i></button> (long-finned squid) or <button class='glossary-text'><i>Illex illecebrosus</i></button> (short-finned squid). Both of these species are native to the coastal waters of the northern Atlantic Ocean. They can be distinguished by the relative lengths of their <button class='glossary-text'>fins</button>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Fossil evidence indicates that mollusks evolved more than 600 million years ago. Mollusca are characterized by a <button class='glossary-text'>mantle</button>  (a cavity that encloses a space filled with water) that is used for breathing and excretion, a radula (a scraping tongue-like structure), and a nervous system. Most mollusks are enclosed within a hard protective shell, such as those of clams and oysters. By contrast, the squid has a <button class='glossary-text'>chitinous pen</button> (Figure 1, #24) that serves as the primary point for muscle attachment, which is located on the inner surface of the mantle. Squid appear to have radial symmetry; however, like all mollusks, squid possess bilateral symmetry."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Several directional terms are used to define squid anatomy. <button class='glossary-text'>Posterior</button> refers to the <button class='glossary-text'>siphon</button> side of the squid (see the illustration on the dissection mat), whereas <button class='glossary-text'>anterior</button> refers to the side where the fins are attached. <button class='glossary-text'>Dorsal</button> refers to the end of the squid that tapers down to the fins, whereas <button class='glossary-text'>ventral</button> refers to the end containing the <button class='glossary-text'>arms</button> and <button class='glossary-text'>tentacles</button>."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580195_Bio/580195_Bio_fig_001.svg",
+                  "imgDivWidth": "622px",
+                  "scrollImg": true,
+                  "desc": "Figure 1: Labeled diagram of internal and external squid anatomy",
+                  "altText": "Figure 1: Labeled diagram of internal and external squid anatomy",
+                  "maxWidth": "900px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following parts of this squid is best described as ventral?",
+                  "imageData": {
+                    "image": "courses_2023/Biology/580195_Bio/580195_Bio_Img_003.svg",
+                    "desc": "A profile view of a squid with labeled parts 1-5. The end of the squid with arms and tentacles is number 1. The side of the squid with the siphon is number 2. The body of the squid near the eye is number 3. The side of the squid to which the fins are attached is number 4. The end of the squid that tapers down to the fins is number 5.",
+                    "altText": "A profile view of a squid with labeled parts 1-5. The end of the squid with arms and tentacles is number 1. The side of the squid with the siphon is number 2. The body of the squid near the eye is number 3. The side of the squid to which the fins are attached is number 4. The end of the squid that tapers down to the fins is number 5.",
+                    "imgDivWidth": "345px",
+                    "maxWidth": "500px",
+                    "scrollImg": true
+                  },
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "1",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "2",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "3",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "4",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "5",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Ventral is the term used to refer to the end containing the arms and tentacles."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following parts of this squid is best described as anterior?",
+                  "imageData": {
+                    "image": "courses_2023/Biology/580195_Bio/580195_Bio_Img_003.svg",
+                    "desc": "A profile view of a squid with labeled parts 1-5. The end of the squid with arms and tentacles is number 1. The side of the squid with the siphon is number 2. The body of the squid near the eye is number 3. The side of the squid to which the fins are attached is number 4. The end of the squid that tapers down to the fins is number 5.",
+                    "altText": "A profile view of a squid with labeled parts 1-5. The end of the squid with arms and tentacles is number 1. The side of the squid with the siphon is number 2. The body of the squid near the eye is number 3. The side of the squid to which the fins are attached is number 4. The end of the squid that tapers down to the fins is number 5.",
+                    "imgDivWidth": "345px",
+                    "maxWidth": "500px",
+                    "scrollImg": true
+                  },
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "4",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "2",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "1",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "3",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "5",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Anterior refers to the side of the squid where the fins are attached."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Anatomists and health care providers use very specific terminology that enables them to precisely communicate their work. Directional anatomical terms are used to describe the relative positions of different body structures or to provide instructions for incision placement. Directional terms are used in this and most other dissection guides. Therefore, learning these terms is essential for understanding and studying anatomy. Several directional terms are used to define squid anatomy. Posterior refers to the siphon side of the squid, whereas anterior refers to the side where the fins are attached. Dorsal refers to the end of the squid that tapers down to the fins, whereas ventral refers to the end containing the arms and tentacles.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Biology/580195_Bio/580195_Bio_Img_004.svg",
+                      "alt": "A profile view of a squid with labeled parts. The end of the squid with arms and tentacles is ventral. The side of the squid with the siphon is posterior. The side of the squid to which the fins are attached is anterior. The end of the squid that tapers down to the fins is dorsal.",
+                      "maxWidth": "442px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "Anatomists and health care providers use very specific terminology that enables them to precisely communicate their work. Directional anatomical terms are used to describe the relative positions of different body structures or to provide instructions for incision placement. Directional terms are used in this and most other dissection guides. Therefore, learning these terms is essential for understanding and studying anatomy. Several directional terms are used to define squid anatomy. Posterior refers to the siphon side of the squid, whereas anterior refers to the side where the fins are attached. Dorsal refers to the end of the squid that tapers down to the fins, whereas ventral refers to the end containing the arms and tentacles.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Biology/580195_Bio/580195_Bio_Img_004.svg",
+                      "alt": "A profile view of a squid with labeled parts. The end of the squid with arms and tentacles is ventral. The side of the squid with the siphon is posterior. The side of the squid to which the fins are attached is anterior. The end of the squid that tapers down to the fins is dorsal.",
+                      "maxWidth": "442px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Mollusks move by jet propulsion. Water is taken through the <button class='glossary-text'>siphon</button> and into the <button class='glossary-text'>mantle</button>, and then pushed back out. This creates a forced stream that propels the animal through the water. The squid siphon is located on the <button class='glossary-text'>posterior</button> side of the head and normally points in a <button class='glossary-text'>ventral</button> direction; the forced stream causes the animal to move in a <button class='glossary-text'>dorsal</button> direction. However, the squid can rapidly move the siphon into different positions, using the <button class='glossary-text'>siphon retractor muscle</button>. This enables the animal to quickly change directions."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The long-fin and short-fin squid are <button class='glossary-text'>shoaling</button> (schooling) squid that live in open coastal waters in the western Atlantic. Although some species are solitary, most live in open waters. Whales, seals, tuna, salmon, and sharks are some of the animals that prey on squid. Humans extensively fish and harvest squid. Because squid lack the hard external shell that characterizes some mollusks, they must have a different means of protection from predators. The squid mantle is covered with <button class='glossary-text'>chromatophores</button>, which are small sacs that contain pigments that reflect light. The chromatophores are connected to small, nervecontrolled muscles that dynamically control the sac size. As the sizes of the dynamchromatophores change, the color and pattern of the squid’s epidermis also changes. This ability allows a squid to rapidly blend into its surrounding environment and thereby avoid detection by predators. The rapidly changing epidermal colors and patterns also are used to signal aggression toward other squid, and to attract female squid during male courtship behaviors. Squid also possess an <button class='glossary-text'>ink sac</button> that can discharge a thick, dark ink into the water through a structure called the siphon. The ink can confuse a predator, limit predator visibility, and shroud the escape route taken by the squid."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The <button class='glossary-text'>eyes</button> of squid and other cephalopods are similar to the complex eyes of vertebrates. This is not because cephalopods and vertebrates share a common ancestor, but because of <button class='glossary-text'>convergent evolution</button>, in which common selective pressures select for similar traits in otherwise very different organisms. Squid have one eye on each side of the head, which allows the animal to see predators approaching from any direction. Squid and other cephalopods possess a brain-like structure called the <button class='glossary-text'>cephalic ganglion</button> and a well-developed nervous system, which makes them some of the most intelligent invertebrates."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Unlike other mollusks, cephalopods do not use their foot for locomotion. The squid’s foot was modified into eight shorter <button class='glossary-text'>arms</button> and two longer <button class='glossary-text'>tentacles</button>. The tentacles and the arms are used for catching and holding prey. The tentacles can be extended to grab prey at a distance, and the arms are used to hold prey close to the <button class='glossary-text'>beak</button> and radula, which function to tear the food into smaller pieces. Squid primarily feed on small fish or shrimp, although some species have been observed eating other squid. Once the food has been torn into small pieces, it is consumed by passing through the <button class='glossary-text'>buccal mass</button>, a muscular structure within the head that houses the beak and radula, and into the <button class='glossary-text'>esophagus</button>. The esophagus is a tube that carries food from the buccal mass to the <button class='glossary-text'>stomach</button>, where the digestive process occurs. The food passes from the stomach to the <button class='glossary-text'>cecum</button>, a large, sac-like organ that can expand to hold a large amount of food. <button class='glossary-text'>Liver</button> enzymes pass into the cecum to help break down the food. Undigested food then travels to the intestine, through the <button class='glossary-text'>rectum</button>, and out the <button class='glossary-text'>anus</button>."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Many squid have a life span of one year. Species survival depends on producing as many offspring as possible. Males can become very aggressive with challengers as they compete to mate with a desirable female. The <button class='glossary-text'>chromatophores</button> (which change color to camouflage the squid when it feels threatened) also play a role in male courtship behavior and are used to attract a female."
+                },
+                {
+                  "type": "Plain",
+                  "text": "One of the eight <button class='glossary-text'>arms</button> of male squid has smaller and taller <button class='glossary-text'>suckers</button> than the other arms. This arm is called the <button class='glossary-text'>hectocotylus</button>. When mating, male squid use the hectocotylus to place a packet of sperm (called a spermatophore) inside the female’s <button class='glossary-text'>mantle</button>. The female stores the sperm in a pouch just beneath her mouth until she is ready to fertilize the eggs. Female squid mate with as many partners as possible. Then they travel to an area near the shore where they spawn on rocks or within seaweed stands and fertilize the eggs using the stored spermatophores. Many females spawn in the same area, resulting in the production of hundreds of thousands of eggs. After fertilizing the eggs, the female swims away. Many female squid die soon after spawning. The newly hatched squid must provide all their own food and protection from predators. Most of the fertilized eggs and newly hatched squid are captured and consumed by predators, but sufficient numbers survive to adulthood."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Squid possess three single-chambered hearts. The right and left <button class='glossary-text'>branchial hearts</button> are known as gill hearts because their function is to pump deoxygenated blood from the body through the <button class='glossary-text'>gills</button> (Figure 2). The gills are feathery structures inside the mantle that handle gas exchange. Blood is pumped through the gills, and water flowing over the gills supplies the blood with oxygen. The third heart, called the <button class='glossary-text'>systemic heart</button>, pumps the newly oxygenated blood from the gills to tissues throughout the body."
+                },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": "courses_2023/Biology/580195_Bio/580195_Bio_fig_002.svg",
+                    "imgDivWidth": "374px",
+                    "scrollImg": true,
+                    "desc": "Figure 2: Labeled diagram of squid circulatory system",
+                    "altText": "Figue 2: Labeled diagram of squid circulatory system",
+                    "maxWidth": "460px"
+                  }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp":"resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyBoldSubHeading>Dissection Terminology</span><span className=bodyParaLineBreak>Anatomists and health care providers use very specific terminology that enables them to precisely communicate their work. Directional anatomical terms are used to describe the relative positions of different body structures or to provide instructions for incision placement. Directional terms (Table 1, Figure 3) are used in this and most other dissection guides. Therefore, learning these terms is essential for understanding and studying anatomy."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Biology/580195_Bio/580195_Bio_fig_003.svg",
+                  "imgDivWidth": "397px",
+                  "scrollImg": true,
+                  "desc": "Figure 3: Diagram describing the location of the Transverse, Midsagittal, and Frontal planes in quadrupeds and bipeds",
+                  "altText": "Figure 3: Diagram describing the location of the Transverse, Midsagittal, and Frontal planes in quadrupeds and bipeds",
+                  "maxWidth": "475px"
+                },
+                {
+                  "type": "DataTable",
+                  "title": "Table 1.",
+                  "containerType": "rightContainer",
+                  "sr": 0,
+                  "maxLength": 50,
+                  "tableWidth": "620px",
+                  "allowClick": true,
+                  "header": [
+                    {
+                      "text": "Direction or Plane",
+                      "colWidth": "20%"
+                    },
+                    {
+                      "text": "Definition",
+                      "colWidth": "30%"
+                    }
+                  ],
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "align": "center",
+                        "text": "Superior"
+                      },
+                      {
+                        "type": "text",
+                        "align": "left",
+                        "text": "Above, toward the head"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "align": "center",
+                        "text": "Inferior"
+                      },
+                      {
+                        "type": "text",
+                        "align": "left",
+                        "text": "Below, toward the feet"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "align": "center",
+                        "text": "Anterior"
+                      },
+                      {
+                        "type": "text",
+                        "align": "left",
+                        "text": "Front, synonymous with ventral in bipeds and cranial in quadrupeds"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "align": "center",
+                        "text": "Posterior"
+                      },
+                      {
+                        "type": "text",
+                        "align": "left",
+                        "text": "Back, synonymous with dorsal in bipeds and caudal in quadrupeds"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "align": "center",
+                        "text": "Lateral"
+                      },
+                      {
+                        "type": "text",
+                        "align": "left",
+                        "text": "Toward the right or left side"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "align": "center",
+                        "text": "Medial"
+                      },
+                      {
+                        "type": "text",
+                        "align": "left",
+                        "text": "Toward the midline"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "align": "center",
+                        "text": "Proximal"
+                      },
+                      {
+                        "type": "text",
+                        "align": "left",
+                        "text": "Near or toward the point of reference"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "align": "center",
+                        "text": "Distal"
+                      },
+                      {
+                        "type": "text",
+                        "align": "left",
+                        "text": "Away from the point of reference, which is usually the attachment point"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "align": "center",
+                        "text": "Dorsal"
+                      },
+                      {
+                        "type": "text",
+                        "align": "left",
+                        "text": "Toward the back"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "align": "center",
+                        "text": "Ventral"
+                      },
+                      {
+                        "type": "text",
+                        "align": "left",
+                        "text": "Toward the belly or abdomen"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "align": "center",
+                        "text": "Cranial"
+                      },
+                      {
+                        "type": "text",
+                        "align": "left",
+                        "text": "“Toward the head”"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "align": "center",
+                        "text": "Caudal"
+                      },
+                      {
+                        "type": "text",
+                        "align": "left",
+                        "text": "“Toward the tail”"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "align": "center",
+                        "text": "Superficial"
+                      },
+                      {
+                        "type": "text",
+                        "align": "left",
+                        "text": "Toward or along the surface"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "align": "center",
+                        "text": "Deep"
+                      },
+                      {
+                        "type": "text",
+                        "align": "left",
+                        "text": "A significant distance below the surface"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "align": "center",
+                        "text": "Rostral"
+                      },
+                      {
+                        "type": "text",
+                        "align": "left",
+                        "text": "Toward the nose or mouth"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "align": "center",
+                        "text": "Sagittal plane"
+                      },
+                      {
+                        "type": "text",
+                        "align": "left",
+                        "text": "Divides the body into longitudinal left and right portions"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "align": "center",
+                        "text": "Midsagittal plane"
+                      },
+                      {
+                        "type": "text",
+                        "align": "left",
+                        "text": "Divides the body into equal left and right halves"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "align": "center",
+                        "text": "Transverse plane"
+                      },
+                      {
+                        "type": "text",
+                        "align": "left",
+                        "text": "Perpendicular to the long axis, produces cross-sections"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "align": "center",
+                        "text": "Frontal plane"
+                      },
+                      {
+                        "type": "text",
+                        "align": "left",
+                        "text": "Divides the body into dorsal and ventral portions"
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "The eyes of squid and other cephalopods are similar to the complex eyes of vertebrates, but they do not share this trait from a common ancestor. This is an example of which of the following?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "convergent evolution",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "divergent evolution",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "parallel evolution",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "artificial selection",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "stabilizing selection",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The process of convergent evolution, in which common selective pressures select for similar traits in otherwise very different organisms, independently develops analogous structures that have similar forms or functions but were not present in the last common ancestor."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following characteristics do cephalopods possess?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "a well-developed nervous system",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "a locomotive foot",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "a four-chambered heart",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "a feeding siphon",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "light-perceiving eyespots",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Cephalopods possess a brain-like structure called the cephalic ganglion and a well-developed nervous system, which makes them some of the most intelligent invertebrates.  "
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Squid belong to the invertebrate phylum Mollusca, class Cephalopoda. Mollusks move by jet propulsion. Water is taken through the siphon and into the mantle, and then pushed back out. This creates a forced stream that propels the animal through the water. The squid siphon is located on the posterior side of the head and normally points in a ventral direction; the forced stream causes the animal to move in a dorsal direction. The eyes of squid and other cephalopods are similar to the complex eyes of vertebrates. This is not because cephalopods and vertebrates share a common ancestor, but because of convergent evolution, in which common selective pressures select for similar traits in otherwise very different organisms. Squid and other cephalopods possess a brain-like structure called the cephalic ganglion and a well-developed nervous system, which makes them one of the most intelligent invertebrates. Unlike other mollusks, cephalopods do not use their foot for locomotion. The squid’s foot was modified into eight shorter arms and two longer tentacles. The tentacles and the arms are used for catching and holding prey."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Squid belong to the invertebrate phylum Mollusca, class Cephalopoda. Mollusks move by jet propulsion. Water is taken through the siphon and into the mantle, and then pushed back out. This creates a forced stream that propels the animal through the water. The squid siphon is located on the posterior side of the head and normally points in a ventral direction; the forced stream causes the animal to move in a dorsal direction. The eyes of squid and other cephalopods are similar to the complex eyes of vertebrates. This is not because cephalopods and vertebrates share a common ancestor, but because of convergent evolution, in which common selective pressures select for similar traits in otherwise very different organisms. Squid and other cephalopods possess a brain-like structure called the cephalic ganglion and a well-developed nervous system, which makes them one of the most intelligent invertebrates. Unlike other mollusks, cephalopods do not use their foot for locomotion. The squid’s foot was modified into eight shorter arms and two longer tentacles. The tentacles and the arms are used for catching and holding prey."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "desc": "A map describing the procedural workflow for this investigation. To prepare, set up your work area and dissection tools. For the activity, locate and identify the external structures of the intact specimen. Then, open the specimen and observe its structures. Next, remove one of the specimen’s eyes and observe its structures. Then, remove the buccal mass and beak. Finally, open the mantle and observe its internal structures.",
+                  "altText": "A map describing the procedural workflow for this investigation. To prepare, set up your work area and dissection tools. For the activity, locate and identify the external structures of the intact specimen. Then, open the specimen and observe its structures. Next, remove one of the specimen’s eyes and observe its structures. Then, remove the buccal mass and beak. Finally, open the mantle and observe its internal structures. ",
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Biology/580195_Bio/580195_Bio_ED_001.svg",
+                  "maxWidth": "860px",
+                  "scrollImg": true,
+                  "imgDivWidth": "60%",
+                    "imgDivWidthForTablet": {
+                    "P": "60%",
+                    "L": "60%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "60%",
+                    "L": "60%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Squid",
+                          "image": "courses_2023/Biology/580195_Bio/580195_Bio_material_1.svg",
+                          "desc": "Preserved squid, packed in plastic",
+                          "altText": "Preserved squid, packed in plastic"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Dissection tray",
+                          "image": "courses_2023/Biology/580195_Bio/580195_Bio_material_2.svg",
+                          "desc": "Disposable red foam dissecting tray",
+                          "altText": "Disposable red foam dissecting tray"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Dissection pad",
+                          "image": "courses_2023/Biology/580195_Bio/580195_Bio_material_3.svg",
+                          "desc": "Blue absorbent pad",
+                          "altText": "Blue absorbent pad"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Squid dissection mat",
+                          "image": "courses_2023/Biology/580195_Bio/580195_Bio_material_4.svg",
+                          "desc": "Illustrated squid dissection mat",
+                          "altText": "Illustrated squid dissection mat"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Included in the dissection set",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Scissors",
+                          "image": "courses_2023/Biology/580195_Bio/580195_Bio_material_5.svg",
+                          "desc": "Small 4 1/2-inch scissors made of stainless steel with one sharp and one blunt arm",
+                          "altText": "Small 4 1/2-inch scissors made of stainless steel with one sharp and one blunt arm"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Forceps",
+                          "image": "courses_2023/Biology/580195_Bio/580195_Bio_material_6.svg",
+                          "desc": "Steel forceps",
+                          "altText": "Steel forceps"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Wooden probe",
+                          "image": "courses_2023/Biology/580195_Bio/580195_Bio_material_7.svg",
+                          "desc": "Slender dissection probe made of wood",
+                          "altText": "Slender dissection probe made of wood"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Scalpel",
+                          "image": "courses_2023/Biology/580195_Bio/580195_Bio_material_8.svg",
+                          "desc": "Scalpel with white plastic handle",
+                          "altText": "Scalpel with white plastic handle"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "T-pins",
+                          "image": "courses_2023/Biology/580195_Bio/580195_Bio_material_9.svg",
+                          "desc": "6 T-pins in a plastic bag",
+                          "altText": "6 T-pins in a plastic bag"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from the equipment kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Hand lens",
+                          "image": "courses_2023/Biology/580195_Bio/580195_Bio_material_10.svg",
+                          "desc": "Clear plastic 6x magnifying glass",
+                          "altText": "Clear plastic 6x magnifying glass"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [
+                            "Paper towels",
+                            "70% isopropyl alcohol (rubbing alcohol) or other non-bleach disinfectant"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span><span className=bodyParaLineBreak></span>Replacement supplies for the Squid Dissection investigation can be ordered from Carolina Biological Supply Company, item 580195.<span className=bodyParaLineBreak></span><span className=bodyMediumSubHeading>Call:</span> 866-332-4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp":"resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "This investigation  requires safety glasses, disposable gloves, and a lab apron."
+                },
+                {
+                  "type": "Image",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Plain",
+                  "text": "Follow the instructions for this activity closely and observe established laboratory safety practices, including appropriate personal protective equipment (PPE); safety glasses, gloves, and lab aprons must be worn when dissecting. Do not eat, drink, or chew gum while performing the dissection. Use proper hygiene practices before, during, and after the lab, including washing your hands before and after performing the dissection. Review pertinent portions of any Safety Data Sheets (SDS) before beginning the activity. Keep pets and children away from lab materials and equipment.<span class='bodyParaLineBreak'>Dissections require special attention to safety. Please follow these additional precautions:</span><ul><li style='margin-bottom:-28px'>Clean the counter or work space thoroughly before and after the dissection. If the isopropyl alcohol (or other non-bleach disinfectant) is insufficient for removing grease during cleanup, you may use soap and water, followed by more alcohol/disinfectant.</li></ul>"
+                },
+                {
+                  "type": "PlainImage",
+                  "imgWidth": "12%",
+                  "image": "core/Flammable.svg",
+                  "desc": "flammable symbol",
+                  "altText": "flammable symbol",
+                  "style": { "marginLeft": "27px" },
+                  "text": "Isopropyl alcohol (rubbing alcohol) is flammable. Keep away from open flame if using alcohol as disinfectant."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<ul style='marginBottom:0;'><li>Wash your hands thoroughly with soap and water before and after the dissection.</li><li>Only perform the dissection on the dissecting tray. This will contain both the specimen and any excess fluids.</li><li>Spread the absorbent pad blue-side down underneath the tray to capture any spilled fluid.</li><li>In general, scissors are used more frequently than the scalpel, especially when care must be taken not to cut too deeply into the specimen.</li></ul>"
+                },
+                {
+                  "type": "Video",
+                  "containerType": "rightContainer",
+                  "imgDivMargin":"0 0 0 33px",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Biology/580195_Bio/580195_Bio_VideoIcone_01.svg",
+                  "desc": "Using a Scalpel",
+                  "url": "http://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=5170128655001"
+                }
+              ]
+            },
+            {
+              "title": "Safety (cont... )",
+              "pageTitle": "Safety (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<ul style='marginBottom:0;'><li>Scalpels are used infrequently in most dissection labs and require special handling and disposal:</li><ul style='marginBottom:0;'><li>Never cut toward your holding hand and fingers.</li><li>Cut in a downward motion using a steady, even pressure.</li><li>Always use a sharp blade.</li><li>Do not use a scalpel that is nicked, bent, or damaged.</li><li>Do not use a scalpel to cut through bone or heavy cartilage.</li><li>Never use a scalpel for anything other than dissection.</li></ul></ul>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyBoldSubHeading>Carolina’s Carosafe<sup class='bodySupscript'>®</sup></span><span className=bodyParaLineBreak>Carosafe<sup class='bodySupscript'>®</sup> is a preservative and holding solution for biological specimens. It contains no formaldehyde and is not a tissue fixative. Most specimens in Carosafe<sup class='bodySupscript'>®</sup> are first preserved with a formalin solution and then washed and placed in formaldehyde-free Carosafe<sup class='bodySupscript'>®</sup>. This produces a formalin-preserved specimen that, when dissected, minimizes exposure to formaldehyde."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The primary component of Carosafe<sup class='bodySupscript'>®</sup> is propylene glycol, a common ingredient used in cosmetics and foods. Propylene glycol is on the U.S. Food and Drug Administration’s (FDA’s) list of food additives that are generally recognized as safe. Holding specimens in Carosafe<sup class='bodySupscript'>®</sup> reduces the presence of formaldehyde, thereby diminishing or eliminating unpleasant odor. However, Carosafe<sup class='bodySupscript'>®</sup>-preserved specimens and their surrounding fluid do contain some residual formaldehyde, a by-product of the initial formalin preservation process. The amount present varies by specimen type."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The safe nature of Carosafe<sup class='bodySupscript'>®</sup> also means that in most localities there are no mandated disposal requirements."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The dissection should take place in a well-ventilated setting. For a home setting, this may include opening windows and turning on a ceiling fan. We recommend using the following good laboratory practices during the procedure:"
+                },
+                {
+                  "type": "PlainImage",
+                  "containerType": "rightContainer",
+                  "imgWidth": "12%",
+                  "desc": "warning symbol, \nhealth hazard symbol, \ntoxic symbol",
+                  "altText": "warning symbol, \nhealth hazard symbol, \ntoxic symbol",
+                  "image": "courses_2023/Biology/580195_Bio/Safety_warning_health_hazard_and_corrosion.svg",
+                  "text": "Carolina’s Carosafe<sup class='bodySupscript'>®</sup> causes mild skin irritation if suitable PPE is not worn. Avoid contact with skin and <button class='glossary-text'>eyes</button>. Respiratory irritation may result if Carosafe<sup class='bodySupscript'>®</sup> specimens are used without adequate ventilation. Carosafe<sup class='bodySupscript'>®</sup> specimens contain substances that are carcinogenic and toxic, and should not be ingested."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span className=bodyBoldSubHeading>Storage of Specimens</span><span className=bodyParaLineBreak>If it is necessary to store the specimen between work periods, you may choose to place it in the plastic storage bag with as much of the original solution as possible. Establishing an airtight seal is the best way to retain specimen integrity and prevent drying out of the specimen. First, squeeze as much air out of the specimen bag as possible before securing the opening with a rubber band, tape, or a binder clip. After closing the bag, the specimen can be stored in a larger, airtight box or bag at room temperature."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following materials will you need to supply yourself to complete this investigation?",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "70% isopropyl alcohol",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "scissors",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "cotton balls",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "chlorine bleach",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "safety pins",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following statements about scalpel use is FALSE?",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "It is appropriate to use a scalpel that is nicked or bent.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Always cut away from your holding hand and fingers.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Cut in a downward motion using a steady, even pressure.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Always use a sharp blade.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Do not use a scalpel to cut through bone or heavy cartilage.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following safety hazards is associated with the CaroSafe® preservative in which the specimen is preserved for this investigation?",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "It is a respiratory irritant.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "It is a corrosive material.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "It will stain skin or clothing.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "It is highly flammable.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "It is extremely harmful to aquatic life.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which term is used for the brain-like structure of the squid nervous system?",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "cephalic ganglion",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "buccal mass",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "chitinous pen",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "hectocotylus",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "vena cava",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes proper storage of your specimen if you are unable to complete the investigation in a single sitting?",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Place the specimen in its storage bag with as little air as possible.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Place the specimen in a jar of bleach and store it in the fridge.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Leave the specimen uncovered on the tray in a cool, dark location.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Soak the specimen in a water bath.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Cover the specimen and tray loosely with a paper towel or plastic wrap.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the squid’s hearts pumps oxygenated blood from the gills to the tissues throughout the body?",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "systemic heart ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "gill hearts",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "right and left branchial hearts",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "left branchial heart",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "right branchial heart",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "In mollusk anatomy, which term describes a cavity that encloses a space filled with water?",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "mantle",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "pen",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "radula",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "tentacle",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "cecum",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": " Which of these structures would only be found in the body of a female squid?",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "nidamental glands",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "spermatophoric gland",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "branchial veins",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "ink sac",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "chitinous pen",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Biology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will observe the external anatomy of the <button class='glossary-text'>anterior</button> and <button class='glossary-text'>posterior</button> surfaces of the squid. You will then bisect the squid’s head to observe its neural anatomy and remove its eye. You will then bisect the squid to observe its internal anatomy."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Activity 1",
+              "pageTitle": "Activity 1",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity1",
+              "pageData": [
+                [
+                  {
+                    "type": "PlainImage",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>A</div>&nbsp;Dissection (28 steps)"
+                      },
+                      {
+                        "type": "Box",
+                        "text": "Numbers in parentheses refer to the dissection mat included with your kit."
+                      }
+                    ],
+                    "image": "core/TakeSnapshot.svg",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol",
+                    "imgWidth": "4.5%",
+                    "text": "Lay the squid in the dissection tray with the <button class='glossary-text'>anterior</button> surface facing up. Take a picture. Examine the exterior of the squid. Note the two <span class=bodyFontBold><button class='glossary-text'>fins</button> (9)</span> located at the <button class='glossary-text'>dorsal</button> end of the squid. You may have to pull the fins away from the body to better observe them. Notice the thickness, texture, and size of the fins."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Observe the <button class='glossary-text'>mantle</button><span class=bodyFontBold> (10)</span>. The mantle covers the tube-shaped body. This muscular sac begins with the <span class=bodyFontBold><button class='glossary-text'>collar</button> (6)</span>, which is immediately dorsal to the head, and extends all the way to the fins. Turn the squid so that the two long <span class=bodyFontBold><button class='glossary-text'>tentacles</button> (15)</span> and eight shorter <span class=bodyFontBold><button class='glossary-text'>arms</button> (1)</span> are facing you. Look inside the mantle cavity."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The mantle surface is composed of skin covered with small, pigment-filled sacs called <span class=bodyFontBold><button class='glossary-text'>chromatophores</button> (5)</span>. Observe the chromatophores on all sides of your squid. Use the hand lens, if available, to get a closer view of the mantle. Magnification can also be achieved by using the zoom function on a smartphone camera."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Look at the head of the squid and locate the <span class=bodyFontBold><button class='glossary-text'>eyes</button> (8)</span>. The small auriferous pore is <button class='glossary-text'>ventral</button> to the eye. The auriferous pore is used to equalize intraocular (internal eye) pressure. Apply slight pressure to the eyeball, and fluid should be expelled through this pore. The olfactory crest, a fold of tissue behind the eye, is dorsal to the eye."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "image": "core/TakeSnapshot.svg",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol",
+                    "imgWidth": "4.5%",
+                    "text": "Turn the squid so that you can photograph the <button class='glossary-text'>posterior</button> side."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Locate the <button class='glossary-text'>siphon</button>, or funnel, near the eyes. Locate the powerful <span class=bodyFontBold><button class='glossary-text'>siphon retractor muscle</button> (28)</span> running up the body from the siphon. Squeeze the sides of the siphon and look inside the structure, but do not cut the siphon open yet."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the scissors, carefully cut open the head. Do not cut too deeply, or the underlying structures will be damaged."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Locate the small brain, or <button class='glossary-text'>cephalic ganglion</button>, between the eyes."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Next, look for the optic nerve, which carries neuronal impulses from the eye to the cephalic ganglion."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Remove one of the squid’s eyes. Use forceps to remove the parts of the eye. Locate the cornea, the iris (the colored part of the eye), the retina (located at the back of the eye), and the lens. Place the lens in the dissection tray, and then press on it with your finger."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Numerous appendages are located at the ventral end of the animal. Observe the suction cups, or <span class=bodyFontBold><button class='glossary-text'>suckers</button> (13)</span>, on the arms (1) and tentacles (15). Each sucker is a round cup that is attached to the arm or tentacle by a stalk called a <button class='glossary-text'>pedicle</button>. Notice how the suckers are positioned on the arms and tentacles. Use the hand lens, if available, to closely examine the suckers."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Move the arms and tentacles aside and look into the mouth of the squid. Surrounding the mouth is the muscular <span class=bodyFontBold><button class='glossary-text'>buccal membrane</button> (4)</span>. This muscle supports the two-part <span class=bodyFontBold><button class='glossary-text'>beak</button> (2)</span>. Open and close the beak, and notice that the ventral part overlaps the dorsal part."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "image": "core/TakeSnapshot.svg",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol",
+                    "imgWidth": "4.5%",
+                    "text": "Place the forceps inside the squid’s mouth and firmly, but carefully, pull the muscular <button class='glossary-text'>buccal mass</button> out through the mouth. The <span class=bodyFontBold><button class='glossary-text'>esophagus</button> (7)</span>, which is a long, string-like object, may be attached to the buccal mass. (<span class=bodyFontBold>Note:</span> If this method of removing the buccal mass is not effective, cut through the ring formed by the arms and tentacles, and then remove the buccal mass from the head.) Take a photo of the removed buccal mass."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Take the forceps and remove both parts of the beak. Examine these structures more closely. Notice how sharp the beak is."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "When you remove the beak, the radula also may be removed. The radula consists of fine teeth that are used to grind food. Place the beak and the radula into the dissection tray."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "After the beak has been removed, observe the area where the beak was located. The <span class=bodyFontBold><button class='glossary-text'>superior mandibular muscle</button> (14)</span> is used to operate the squid’s beak. Together with the radula, these structures form the <span class=bodyFontBold><button class='glossary-text'>buccal bulb</button></span>, or <span class=bodyFontBold><button class='glossary-text'>buccal mass</button> (3)</span>. Using the scissors, carefully cut open the buccal mass and observe the internal anatomy of this structure. If you were unable to locate the radula in Step 14, you should be able to find it now. Place the buccal mass in the Petri dish so that you can examine it later."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "With the posterior surface still facing you, use the scissors to carefully cut through the mantle from the collar to the apex, near the fins. Do not cut deeply because the organs located near the surface may be damaged. Note the thickness and strength of the mantle."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Spread the mantle and pin the sides to the dissecting tray. Insert the T-pins at an angle to secure the structure effectively. (The correct display is shown on the back of your dissection mat; become familiar with the correct setup before beginning the activity.) Examine the immediately visible organs. Note the red and blue structures inside the specimen, which have been generated by injecting colored latex into the vascular structures during preservation. Red latex indicates arteries or other oxygenated structures that carry oxygenated blood away from the heart. Blue latex indicates veins that carry deoxygenated blood toward the <button class='glossary-text'>branchial hearts</button>."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "image": "core/TakeSnapshot.svg",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol",
+                    "imgWidth": "4.5%",
+                    "text": "Take a picture of the inside of your squid. Refer to your assessment documents to determine which structures your instructor would like you to label. You may need to take additional pictures to show all of the structures. Determine if your squid is male or female. The easiest way to determine the sex of the squid is to check for the presence of an <button class='glossary-text'>ovary</button>. The ovary contains a large cluster of yellow egg cells found toward the dorsal end. If an ovary is present, the squid is female. If there is no ovary, you should be able to locate the <span class=bodyFontBold><button class='glossary-text'>penis</button> (25)</span>, which indicates that the squid is male. Male squid also have gonads lying beneath the <button class='glossary-text'>cecum</button>."
+                  },
+                  {
+                    "type": "List",
+                    "listType": "ordered",
+                    "style": {
+                      "listStyleType": "lower-alpha"
+                    },
+                    "text": [
+                      "If your squid is female, you will see <span class=bodyFontBold><button class='glossary-text'>nidamental glands</button> (23)</span> near the dorsal end of the squid. The nidamental glands produce the casings that surround the eggs. Adjacent to the nidamental glands is the <span class=bodyFontBold>oviductal gland</span>, which produces some of the external coatings that are used to form the egg clusters. Dorsal to these structures are the <span class=bodyFontBold><button class='glossary-text'>ovaries</button> (24)</span>, which produce the eggs. After examining the female reproductive organs, you may need to carefully remove these organs in order to see other structures and organs.",
+                      "If your squid is male, none of the structures and organs discussed in the preceding paragraph will be found. However, the <span class=bodyFontBold><button class='glossary-text'>spermatophoric gland</button> (29)</span>, which produces sperm, will be located dorsal and <button class='glossary-text'>lateral</button> to one of the branchial hearts. The penis will be located later in this dissection."
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Observe the reddish, feather-like <span class=bodyFontBold><button class='glossary-text'>gills</button> (21)</span> on either side of the squid. Use the scissors to carefully remove both the right and left gills from the squid. You may have to cut through the protective membrane that connects the mantle to the internal organs in order to release the gills. Observe the blue-colored vessel that enters each gill. Deoxygenated blood is carried to the gills through this vessel. When the gills have been removed from the squid, examine their weight and texture."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Squid have three single-chambered hearts. The right and left <span class=bodyFontBold>branchial hearts (18)</span> pump deoxygenated blood through the <span class=bodyFontBold><button class='glossary-text'>branchial veins</button> (19)</span> to the gills to receive oxygen. These two small hearts are colored blue in your specimen. The branchial hearts are located in a blue mass, which also contains the kidney and <span class=bodyFontBold><button class='glossary-text'>posterior vena cava</button> (26)</span>. The posterior vena cava and <span class=bodyFontBold><button class='glossary-text'>anterior vena cava</button> (16)</span> carry deoxygenated blood from the body to the branchial hearts. Locate and remove the branchial hearts using the scissors. Make these cuts very carefully because other organs and structures are attached to the hearts and are located immediately underneath. After removing and observing the branchial hearts, place them in your dissection tray. The third heart of the squid, called the <button class='glossary-text'>systemic heart</button>, is located below the two branchial hearts. To locate the systemic heart, you must first remove the kidney or the brachial heart. The systemic heart is triangular and will have a reddish color in your specimen if the latex has fully penetrated the circulatory system."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Locate the very delicate, silver-and-black structure dorsal to the <span class=bodyFontBold>siphon (12)</span>. This is the <span class=bodyFontBold><button class='glossary-text'>ink sac</button> (22)</span>. With scissors, carefully cut  through the membrane that attaches the ink sac to the siphon. Be very careful while dissecting the ink sac because <span class=bodyFontBold><i>the ink will stain your clothing</i></span>. Gently cut the ink sac open. Dip a toothpick or similar object into the ink and write your name on a piece of paper. If the ink is dry or powdery, add a few drops of water and stir. If your specimen discharged its ink during capture and processing, the sac may contain very little ink."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Near the ink sac, attached to the intestine, are the <span class=bodyFontBold><button class='glossary-text'>rectum</button> (27)</span> and <span class=bodyFontBold><button class='glossary-text'>anus</button> (17)</span>. If your squid is male, the penis is located lateral to the rectum."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The <span class=bodyFontBold><button class='glossary-text'>stomach</button> (30)</span> is the organ that receives food from the esophagus. It is located to the right of the cecum. Cut open the stomach and examine any contents. Pink and white remnants may indicate a last meal of crustaceans, whereas small scales or bones are the remnants of fish."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The <span class=bodyFontBold>cecum (20)</span> is the large structure located at the dorsal end of the intestine. This is the main organ of nutrient absorption. The cecum can expand to accommodate the food from which nutrients are absorbed."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the scissors to carefully cut open the siphon. Press down the sides of the siphon and examine its internal structure. Observe the valves and muscles surrounding the siphon."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Just below the siphon is the <button class='glossary-text'>liver</button>. If the esophagus was not removed along with the buccal mass during Step 15, it may still be present within the liver."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Once you begin removing organs from the squid, you will observe a clear, plastic-like structure on the internal anterior surface. Carefully pull this structure out of the squid, cutting away any membranes that hold it in place. This is the gladius, also called the pen."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "orderedType": "1",
+                  "listType": "ordered",
+                  "text": [
+                    "Place the specimen and all dissected organs and tissues inside the resealable bag. Seal the bag. Dispose of the bagged specimen in the trash bin. Do not discard this bag into dumpsters or outdoor trash receptacles because of the potential danger of exposure to wild animals that forage through trash containers (e.g., feral cats, dogs, and raccoons). Ensure that the bagged waste is transferred directly to trash collectors.",
+                    "Double-bag the dissecting tray and pad, seal the bag, and place it in the trash bin.",
+                    "Wash and dry the dissecting tools before returning them to the equipment case.",
+                    "Sanitize the work space and surrounding area using soap, water, and alcohol."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Biology_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "portrait"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Step 1 Photo",
+                "text": "Insert your photo of the anterior surface of the squid on the dissection tray. The following should be labeled in the photo:<ul style='marginBottom:0; marginTop:10'><li>Fins</li><li>Mantle</li><li>Collar</li><li>Tentacles</li><li>Arms</li><li>Eyes</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Step 5 Photo",
+                "text": "Insert your photo of the posterior surface of the squid on the dissection tray. The following should be labeled in the photo: <ul style='marginBottom:0;'><li>Fins</li><li>Mantle</li><li>Collar</li><li>Tentacles</li><li>Arms</li><li>Siphon</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Step 13 Photo",
+                "text": "Insert your photo of the removed buccal mass. The following should be labeled in the photo: <ul style='marginBottom:0;'><li>Buccal bulb</li><li>Beak</li><li>Superior mandibular muscle</li><li>Esophagus</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Step 19 Photo",
+                "text": "Insert your photo of the inside of the squid. The following should be labeled in the photo: <ul style='marginBottom:0;'><li>Testes (male), or ovaries and nidamental glands (female)</li><li>Gills</li><li>Posterior vena cava</li><li>Anterior vena cava</li><li>Ink sac</li><li>Cecum</li><li>Stomach</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "title": "Questions",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "What is the sex of your squid? How did you identify the sex?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start":2,
+                "listType": "ordered",
+                "text": [
+                  "Which body region contains most of the squid’s internal organs? Propose an explanation for this."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 1,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6328269194112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580195_Bio/580195_Bio_fig_001.svg",
+        "content": "Figure 1. Parts of the squid",
+        "scrollImg": true,
+        "altText": "Figure 1: Labeled diagram of internal and external squid anatomy",
+        "maxWidth": "800px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580195_Bio/580195_Bio_fig_002.svg",
+        "content": "Figure 2. The squid cardiovascular system",
+        "scrollImg": true,
+        "altText": "Figure 2: Labeled diagram of squid circulatory system",
+        "maxWidth": "460px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580195_Bio/580195_Bio_fig_003.svg",
+        "content": "Figure 3. Anatomical planes of a quadruped and biped",
+        "scrollImg": true,
+        "altText": "Figure 3: Diagram describing the location of the Transverse, Midsagittal, and Frontal planes in quadrupeds and bipeds",
+        "maxWidth": "475px"
+      },
+      {
+        "type": "DataTable",
+        "thumbnailSrc": "core/Table_icon.svg",
+        "isResource": true,
+        "allowClick": true,
+        "title": "Table 1.",
+        "tableWidth": "620px",
+        "content": "Table 1. Common anatomical terms",
+        "header": [
+          {
+            "text": "Direction or Plane",
+            "colWidth": "20%"
+          },
+          {
+            "text": "Definition",
+            "colWidth": "30%"
+          }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Superior"
+            },
+            {
+              "type": "text",
+              "align": "left",
+              "text": "Above, toward the head"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Inferior"
+            },
+            {
+              "type": "text",
+              "align": "left",
+              "text": "Below, toward the feet"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Anterior"
+            },
+            {
+              "type": "text",
+              "align": "left",
+              "text": "Front, synonymous with ventral in bipeds and cranial in quadrupeds"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Posterior"
+            },
+            {
+              "type": "text",
+              "align": "left",
+              "text": "Back, synonymous with dorsal in bipeds and caudal in quadrupeds"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Lateral"
+            },
+            {
+              "type": "text",
+              "align": "left",
+              "text": "Toward the right or left side"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Medial"
+            },
+            {
+              "type": "text",
+              "align": "left",
+              "text": "Toward the midline"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Proximal"
+            },
+            {
+              "type": "text",
+              "align": "left",
+              "text": "Near or toward the point of reference"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Distal"
+            },
+            {
+              "type": "text",
+              "align": "left",
+              "text": "Away from the point of reference, which is usually the attachment point"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Dorsal"
+            },
+            {
+              "type": "text",
+              "align": "left",
+              "text": "Toward the back"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Ventral"
+            },
+            {
+              "type": "text",
+              "align": "left",
+              "text": "Toward the belly or abdomen"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Cranial"
+            },
+            {
+              "type": "text",
+              "align": "left",
+              "text": "“Toward the head”"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Superficial"
+            },
+            {
+              "type": "text",
+              "align": "left",
+              "text": "Toward or along the surface"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Deep"
+            },
+            {
+              "type": "text",
+              "align": "left",
+              "text": "A significant distance below the surface"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Rostral"
+            },
+            {
+              "type": "text",
+              "align": "left",
+              "text": "Toward the nose or mouth"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Sagittal plane"
+            },
+            {
+              "type": "text",
+              "align": "left",
+              "text": "Divides the body into longitudinal left and right portions"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Midsagittal plane"
+            },
+            {
+              "type": "text",
+              "align": "left",
+              "text": "Divides the body into equal left and right halves"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Transverse plane"
+            },
+            {
+              "type": "text",
+              "align": "left",
+              "text": "Perpendicular to the long axis, produces cross-sections"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Frontal plane"
+            },
+            {
+              "type": "text",
+              "align": "left",
+              "text": "Divides the body into dorsal and ventral portions"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580195_Bio/580195_Bio_ED_001.svg",
+        "content": "Experimental Design Diagram",
+        "scrollImg": true,
+        "altText": "A map describing the procedural workflow of this investigation. To prepare, set up your work area and dissection tools. For the activity, locate and identify the external structures of the intact specimen. Then, remove the skin from the specimen, and locate and identify the structures of the muscular system. Next, expose the specimen’s gills, and locate and identify the structures of the respiratory system. Then, cut open the specimen’s body wall, and locate and identify the structures of the digestive and circulatory systems. Finally, remove the specimen’s digestive tract, and locate and identify the structures of the urogenital system.",
+        "maxWidth": "860px"
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "http://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=5170128655001",
+        "content": "Using a Scalpel"
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Anterior",
+        "content": "Front; synonymous with ventral in bipdes and caudal in quadapeds"
+      },
+      {
+        "title": "Anterior vena cava",
+        "content": "A large vein that carries blood to the heart from other areas of the body"
+      },
+      {
+        "title": "Anus",
+        "content": "The opening where the gastrointestinal tract ends and waste exits the body"
+      },
+      {
+        "title": "Arms",
+        "content": "The long squid appendages used to pull in prey and which have suckers all along their length"
+      },
+      {
+        "title": "Beak",
+        "content": "The mouth structure used for killing and dismembering prey"
+      },
+      {
+        "title": "Branchial hearts",
+        "content": "The accessory pumps that supplement the action of the systemic heart in a cephalopod"
+      },
+      {
+        "title": "Branchial veins",
+        "content": "The blood vessels that pass deoxygenated blood from the banchial hearts to the gills"
+      },
+      {
+        "title": "Buccal bulb (buccal mass)",
+        "content": "All the mouthparts of the squid"
+      },
+      {
+        "title": "Buccal membrane",
+        "content": "The membrane that surrounds the beak"
+      },
+      {
+        "title": "Caudal",
+        "content": "Toward the tail"
+      },
+      {
+        "title": "Cecum",
+        "content": "The pouch that forms the first part of the large intestine"
+      },
+      {
+        "title": "Cephalic ganglion",
+        "content": "The brain-like structure found in cephalopods"
+      },
+      {
+        "title": "Cephalopoda",
+        "content": "One of eight classes of mollusks characterized by reduced or absent shells, a head and defined eyes, and the presence of tentacles or arms"
+      },
+      {
+        "title": "Chitinous pen",
+        "content": "The primary point of muscle attachment for a cephalopod, due to the absence of a protective shell"
+      },
+      {
+        "title": "Chromatophores",
+        "content": "Small sacs that contain pigments that reflect light"
+      },
+      {
+        "title": "Collar",
+        "content": "The beginning of the squid's tube-shaped body which is immediately dorsal to the head"
+      },
+      {
+        "title": "Convergent evolution",
+        "content": "The evolutionary process of common selective pressures selecting for similar traits in otherwise very different organisms"
+      },
+      {
+        "title": "Cranial",
+        "content": "Toward the head"
+      },
+      {
+        "title": "Deep",
+        "content": "A significant distance below the surface"
+      },
+      {
+        "title": "Distal",
+        "content": "Away from the point of reference, which is usually the attachment point"
+      },
+      {
+        "title": "Dorsal",
+        "content": "Toward the back"
+      },
+      {
+        "title": "Esophagus",
+        "content": "A muscular tube that connects the throat to the stomach"
+      },
+      {
+        "title": "Eyes",
+        "content": "A sensory structure capable of receiving images "
+      },
+      {
+        "title": "Fins",
+        "content": "Squid structures used for propelling, steering and balancing"
+      },
+
+      {
+        "title": "Frontal plane",
+        "content": "Anatomical plane that divides the body into dorsal and ventral portions"
+      },
+      {
+        "title": "Gills",
+        "content": "The resipratory organ that transports oxygen from water to the cardiovascular system"
+      },
+      {
+        "title": "Hectocotylus",
+        "content": "A modificed arm of a male cephalopod used to place a packet of sperm inside a female cephalopod's mantle"
+      },
+      {
+        "title": "<i>Illex illecebrosus</i>",
+        "content": "Short-finned squid"
+      },
+      {
+        "title": "Inferior",
+        "content": "Below, toward the feet"
+      },
+      {
+        "title": "Ink sac",
+        "content": "A small silver and black sack that expels ink as a defense mechanism"
+      },
+      {
+        "title": "Lateral",
+        "content": "Toward the right or left side"
+      },
+      {
+        "title": "Liver",
+        "content": "A large accessory organ of the digestive system"
+      },
+      {
+        "title": "<i>Loligo pealeii</i>",
+        "content": "Long-finned squid"
+      },
+      {
+        "title": "Mantle",
+        "content": "A cavity that encloses a space filled with water"
+      },
+      {
+        "title": "Medial",
+        "content": "Toward the midline"
+      },
+      {
+        "title": "Midsagittal plane",
+        "content": "Anatomical plane that divides the body into equal left and right halves"
+      },
+      {
+        "title": "Mollusca",
+        "content": "A large phylum of invertebrate animals"
+      },
+      {
+        "title": "Nidamental glands",
+        "content": "The glands in female squid that produce the casings surrounding the eggs"
+      },
+      {
+        "title": "Ovaries",
+        "content": "The female gonads that produce eggs (ova)"
+      },
+      {
+        "title": "Operculum",
+        "content": "The bony shield that protects a fish's gills and allows water to pass"
+      },
+      {
+        "title": "Osteichthyes",
+        "content": "A class of fish that includes those with a bony skeleton"
+      },
+      {
+        "title": "Ovary",
+        "content": "The female gonad that produces and stores eggs"
+      },
+      {
+        "title": "Ovidcuctal gland",
+        "content": "A gland in female squid that produces some of the external coatings that are used to form egg clusters"
+      },
+      {
+        "title": "Pedicle",
+        "content": "A stalk that attaches a sucker to the arm or tentacle"
+      },
+      {
+        "title": "Penis",
+        "content": "The male genital organ, an opening in which allows both urine and sperm to exit the body"
+      },
+      {
+        "title": "Posterior",
+        "content": "Back; synonymous with dorsal in bipeds and caudal in quadrapeds"
+      },
+      {
+        "title": "Posterior vena cava",
+        "content": "A large vein that carries blood to the heart from other areas of the body"
+      },
+      {
+        "title": "Proximal",
+        "content": "Near or toward the point of reference"
+      },
+      {
+        "title": "Rectum",
+        "content": "The terminal portion of the large intestine"
+      },
+      {
+        "title": "Rostral",
+        "content": "Toward the nose or mouth"
+      },
+      {
+        "title": "Sagittal plane",
+        "content": "Anatomical plane that divides the body into equal left and right portions"
+      },
+      {
+        "title": "Shoaling",
+        "content": "Schooling"
+      },
+      {
+        "title": "Siphon",
+        "content": "The structure that takes in water then pushes it back out, resulting in propulsion of the body through water"
+      },
+      {
+        "title": "Siphon retractor muscle",
+        "content": "A muscle which allows the squid to rapidly move the siphon"
+      },
+      {
+        "title": "Spermatophoric gland",
+        "content": "A gland in male squid that produces sperm"
+      },
+      {
+        "title": "Stomach",
+        "content": "A muscular organ that receives food from the esophagus"
+      },
+      {
+        "title": "Suckers",
+        "content": "Structures found on tentacles and arms that allow them to tightly grip prey"
+      },
+      {
+        "title": "Superficial",
+        "content": "Toward or along the surface"
+      },
+      {
+        "title": "Superior",
+        "content": "Above, toward the head"
+      },
+      {
+        "title": "Superior mandibular muscle",
+        "content": "The muscle that operates the squid's beak"
+      },
+      {
+        "title": "Systemic heart",
+        "content": "The third heart that pumps newly oxygenated blood from gills to tissues through body of squid"
+      },
+      {
+        "title": "Tentacles",
+        "content": "Two of the appendages on a squid with suckers found on the tips"
+      },
+      {
+        "title": "Transverse plane",
+        "content": "Anatomical plane perpendicular to the long axis and which produces cross-sections"
+      },
+      {
+        "title": "Ventral",
+        "content": "Toward the belly or abdomen"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

@@ -1,0 +1,3201 @@
+{
+  "locked": true,
+  "courseTitle": "Introduction to Graphing",
+  "footerData": {
+    "images": {
+      "logo": "courses/580100/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "courses/580100/launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName2": "Introduction to Graphing",
+                "images": {},
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "pageTitle":"Overview",
+              "showPageTitle":true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Scientific investigation requires the analysis and interpretation of data. Knowing how to graph and what the different components mean allow for an accurate analysis and understanding of data. In this investigation you will practice creating graphs and use some simple statistical tools to analyze graphs and datasets."
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses/580100/TimeRequirement.svg",
+                  "desc": "Activity 1: Graphing by Hand - 20 minutes\nActivity 2: Computer Graphing - 20 minutes\nActivity 3: Linear Regression - 20 minutes",
+                  "altText": "Activity 1: Graphing by Hand - 20 minutes\nActivity 2: Computer Graphing - 20 minutes\nActivity 3: Linear Regression - 20 minutes",
+                  "imgDivWidth": "80%",
+                  "maxWidth": "550px"
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Graphing Software (Excel<span className=bodySupscript>®</span>, Open Office<span className=bodySupscript>®</span>, etc.)",
+                    "Printer to print graphing paper"
+                  ]
+                },
+                {
+                  "type": "Video",
+                  "containerType": "rightContainer",
+                  "imgDivWidth": "200px",
+                  "image": "courses/580100/580100_VideoIcone.svg",
+                  "desc": "OverView Video",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6290182857001"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "title": "Outcomes",
+                  "type": "List",
+                  "text": [
+                    "Create graphs from datasets, both by hand and electronically.",
+                    "Analyze the data in the graphs.",
+                    "Compare the slope of trendlines to interpret the results of an experiment."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Recording, graphing, and reporting results are important tools that are used by researchers and professionals in every scientific field. However, sometimes the data is misrepresented in graphs. Sometimes this occurs by accident, but sometimes misleading data is presented intentionally. Common errors include incomplete or missing labels, the y-axis is too big, too small, or skips values, and sometimes data is left out or plotted incorrectly.<span className=bodyParaLineBreak>Mark Twain has been credited with saying, “There are three kinds of lies: Lies, Damned Lies, and Statistics.” Although it may seem as though Mark Twain was saying that statistics are lies, he was really warning that statistics can be misleading. Everyone has biases, and every study has limitations. Care must be taken to ensure that data is not presented in a way that misleads."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580100/whyShouldICare.svg",
+                  "imgDivWidth": "350px",
+                  "maxWidth": "700px",
+                  "scrollImg": true,
+                  "imgDivMargin": "auto",
+                  "desc": "A pie graph titled Biggest COVID Concerns with three categories. The largest category fills just over half the pie and is labeled Impact on the Economy sixty-eight percent. The second largest category is just over a quarter of the pie and is labeled Family Contracting the Disease sixty-two percent. The smallest category fills the remainder of the pie and is labeled Contracting the Disease forty-eight percent.",
+                  "altText": "A pie graph titled Biggest COVID Concerns with three categories. The largest category fills just over half the pie and is labeled Impact on the Economy sixty-eight percent. The second largest category is just over a quarter of the pie and is labeled Family Contracting the Disease sixty-two percent. The smallest category fills the remainder of the pie and is labeled Contracting the Disease forty-eight percent."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "template": "Background",
+              "waterMark": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Science requires the collection of data to test hypotheses in order to see if it supports or does not support ideas behind the experiment. Collecting data creates a record of observations from experiments that is needed to ensure the ideas in a <button class='glossary-text'>hypothesis</button> are accurate. This allows the scientist to better understand the processes they are investigating. Sharing data is critical since it allows other scientists to examine the experimental setting and draw conclusions based on the data obtained. It also allows for the replication and comparison of data obtained in the experiment to confirm results and conclusions. This will aid in the understanding of a scientific principle."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<button class='resource-text'>Table 1</button>, shows data from a study of plants. Two types of plants, wheat and rye, were grown over 8 weeks, and the height of the plants were measured in centimeters (cm)."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The aim of this experiment was to examine growth rates of the two plant types in comparison with each other in order to find out which grows under a certain set of environmental circumstances."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "waterMark": true,
+              "pageData": [
+                {
+                  "type": "DataTable",
+                  "containerType": "fullContainer",
+                  "title": "Table 1.",
+                  "sr": 10,
+                  "allowClick": true,
+                  "tableWidth": "700px",
+                  "header": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "text": "Height in cm",
+                      "colspan": "6"
+                    }
+                  ],
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "text": "Week<br/>&nbsp;",
+                        "hoverText": "Week",
+                        "fontFamily": "Montserrat-Bold"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Wheat<br/>Plant&nbsp;1",
+                        "hoverText": "Wheat Plant 1",
+                        "fontFamily": "Montserrat-Bold"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Wheat<br/>Plant&nbsp;2",
+                        "hoverText": "Wheat Plant 2",
+                        "fontFamily": "Montserrat-Bold"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Wheat<br/>Plant&nbsp;3",
+                        "hoverText": "Wheat Plant 3",
+                        "fontFamily": "Montserrat-Bold"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Rye<br/>Plant&nbsp;1",
+                        "hoverText": "Rye Plant 1",
+                        "fontFamily": "Montserrat-Bold"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Rye<br/>Plant&nbsp;2",
+                        "hoverText": "Rye Plant 2",
+                        "fontFamily": "Montserrat-Bold"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Rye<br/>Plant&nbsp;3",
+                        "hoverText": "Rye Plant 3",
+                        "fontFamily": "Montserrat-Bold"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "1"
+                      },
+                      {
+                        "type": "text",
+                        "text": "2.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "3.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "0.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "0.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "0.0"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "2"
+                      },
+                      {
+                        "type": "text",
+                        "text": "3.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "3.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "2.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "2.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1.0"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "3"
+                      },
+                      {
+                        "type": "text",
+                        "text": "5.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "5.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "3.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "2.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "2.0"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "4"
+                      },
+                      {
+                        "type": "text",
+                        "text": "6.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "6.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "4.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "2.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "3.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "3.0"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "5"
+                      },
+                      {
+                        "type": "text",
+                        "text": "7.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "7.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "5.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "3.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "4.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "3.0"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "6"
+                      },
+                      {
+                        "type": "text",
+                        "text": "9.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "8.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "7.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "3.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "4.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "3.0"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "7"
+                      },
+                      {
+                        "type": "text",
+                        "text": "10.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "9.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "7.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "4.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "5.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "4.0"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "8"
+                      },
+                      {
+                        "type": "text",
+                        "text": "10.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "10.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "7.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "5.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "6.0"
+                      },
+                      {
+                        "type": "text",
+                        "text": "5.0"
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "When looking at an experiment, the experimenter is typically looking at <button class='glossary-text'>variables</button> that will impact the result. A variable is something that can be changed within an experiment. An <button class='glossary-text'>independent variable</button> is something the experimenter has control over and is able to change in the experiment. Time can be a common independent variable as the total duration of the experiment can be changed or the intervals at which data is collected can be changed. A <button class='glossary-text'>dependent variable</button> changes based on its association with an independent variable. In the data from <button class='resource-text'>Table 1</button>, the measured height of the plant was the dependent variable. The aim of experiments is to determine how an independent variable impacts the dependent variable. This data can then be used to test the <button class='glossary-text'>hypothesis</button> which has been made at the beginning of the experiment."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Data can be presented in different ways. One way is to organize it into a table as it is being collected. When working with a limited amount of data points, this can be the best option; for larger studies, the data in data tables can be overwhelming and difficult to interpret. To help see the trends in large data sets, a scientist may rely on summary statistics and graphical representations of the data."
+                }
+              ]
+            },
+            
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "A researcher wants to know whether athletes who consume pasta before a marathon perform better. The researcher has some participants eat only pasta the day before the marathon and the other participants eat only vegetables. The day of the race, the researcher records the athletes’ race times. In this experiment, what is the independent variable?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "the consumption of pasta",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "the athletes’ race times",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "the number of athletes",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "the researcher’s notes",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "the types of vegetables consumed",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The independent variable is the variable the experimenter manipulates or changes and is thought to influence the dependent variable."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "A researcher wants to know whether athletes who consume pasta before a marathon perform better. The researcher has some participants eat only pasta the day before the marathon and the other participants eat only vegetables. The day of the race, the researcher records the athletes’ race times. In this experiment, what is the <span className=bodyFontBold>dependent</span> variable?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "the athletes’ race times",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "the consumption of pasta",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "the number of athletes",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "the researcher’s notes",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "the types of vegetables consumed",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "A dependent variable is what the experimenter measures and is potentially affected by the independent variable."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "When looking at an experiment, the experimenter is typically looking at variables that will impact the result. A variable is something that can be changed within an experiment. An independent variable is something the experimenter has control over and can change in the experiment. Time can be a common independent variable as the total duration of the experiment can be changed or the intervals at which data is collected can be changed. In the pasta-marathon example, the variable that was changed was whether pasta was consumed the night before the race. A dependent variable changes based on its association with an independent variable. It is the data that the experimenter collects to help answer their testable question."
+                },
+                {
+                  "title": "Hint",
+                  "body": "When looking at an experiment, the experimenter is typically looking at variables that will impact the result. A variable is something that can be changed within an experiment. An independent variable is something the experimenter has control over and can change in the experiment. Time can be a common independent variable as the total duration of the experiment can be changed or the intervals at which data is collected can be changed. In the pasta-marathon example, the variable that was changed was whether pasta was consumed the night before the race. A dependent variable changes based on its association with an independent variable. It is the data that the experimenter collects to help answer their testable question."
+                }
+              ]
+            },
+            {
+              "title": "Summary Statistics",
+              "pageTitle": "Summary Statistics",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Summary statistics are methods of taking many data points and combining them into just a few numbers. The most common summary statistic is an <span className=bodyFontBold>average, or arithmetic mean.</span> An average is the sum of a group of numbers, divided by how many numbers were in the set. To find the arithmetic mean you find the sum of the data to be averaged and divide by the number of data points. For instance: If we wanted to find the <button class='glossary-text'>average</button> wheat plant height in week 8 from the above data we would perform the following calculations:<span className=bodyParaLineBreak><span className=bodyFontBold>Equation 1:</span><span className=bodyParaLineBreak>average = <span className=bodyFraction><span>X<span className=bodySubscript>1</span> + X<span className=bodySubscript>2</span>... + X<span className=bodySubscript>n</span></span><span className=symbol>/</span><span className=bottom>n</span></span><span className=bodyParaLineBreak>In this equation, x<span className=bodySubscript>1</span> indicates the first number in a data set, x<span className=bodySubscript>2</span> would be the second number, and so on. x<span className=bodySubscript>n</span> is the last number in the set. The “n” is the number of items in the set. So a dataset with 8 numbers would go up to x<span className=bodySubscript>8</span>. This is the same “n” that the sum of the numbers is divided by. Using equation 1 for the wheat plant height in week 8 would give the following equation."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "average = <span className=bodyFraction><span>X<span className=bodySubscript>1</span> + X<span className=bodySubscript>2</span> + X<span className=bodySubscript>3</span></span><span className=symbol>/</span><span className=bottom>3</span></span><span className=bodyParaLineBreak>Since there are 3 wheat plants in week 8, there are 3 numbers that would be added together (x<span className=bodySubscript>1</span> x<span className=bodySubscript>2</span> x<span className=bodySubscript>3</span>) divided by the number of plants (3).<span className=bodyParaLineBreak>average = <span className=bodyFraction><span>10 + 10 + 7</span><span className=symbol>/</span><span className=bottom>3</span></span> = 9 cm"
+                }
+              ]
+            },
+            {
+              "title": "Summary Statistics (cont... )",
+              "pageTitle": "Summary Statistics (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In science it is important to know how much variation is found in the data collected. The most common measurement of variation is the <button class='glossary-text'>standard deviation</button>. To calculate the standard deviation:"
+                },
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                  "text": [
+                    "Calculate the <button class='glossary-text'>average</button> of a data set.",
+                    "Calculate the difference between each data point and the average.",
+                    "Square the result.",
+                    "Find the average of these squares. This yields the variance (σ<span className=bodySupscript>2</span>).",
+                    "Taking the square root of the variance gives the standard deviation (SD) as seen in Table&nbsp;2."
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The standard deviation is an indication of the distribution of your data. In the example above, the average height of the plants was 9 cm. The standard deviation was 1.4 cm. Statistically this indicates that 68% of the data was within 1.4 cm of the average. In this way it is a useful tool to gauge how close the results on an experiment are to each other."
+                }
+               
+              ]
+            },
+            {
+              "title": "Summary Statistics (cont... )",
+              "pageTitle": "Summary Statistics (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "containerType": "fullContainer",
+              "pageData": [
+        
+                {
+                  "type": "DataTable",
+                  "title": "Table 2.",
+                  "allowClick": true,
+                  "sr":11,
+                  "tableWidth": "750px",
+                  "header": [
+                    {
+                      "text": "",
+                      "colWidth":"22%"
+                    },
+                    {
+                      "text": "Height at Week 8 (cm)",
+                      "colWidth":"26%"
+                    },
+                    {
+                      "text": "Difference from Average",
+                      "colWidth":"25%"
+                    },
+                    {
+                      "text": "Difference Squared",
+                      "colWidth":"27%"
+                    }
+                  ],
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "text": "Wheat Plant&nbsp;1",
+                        "hoverText": "Wheat Plant 1"
+                      },
+                      {
+                        "type": "text",
+                        "text": "10"
+                      },
+                      {
+                        "type": "text",
+                        "text": "10 – 9 = 1"
+                      },
+                      {
+                        "type": "text",
+                        "text": "(1)<sup class='bodySupscript'>2</sup> = 1",
+                        "hoverText": "(1)2 = 1"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Wheat Plant&nbsp;2",
+                        "hoverText": "Wheat Plant 2"
+                      },
+                      {
+                        "type": "text",
+                        "text": "10"
+                      },
+                      {
+                        "type": "text",
+                        "text": "10 – 9 = 1"
+                      },
+                      {
+                        "type": "text",
+                        "text": "(1)<sup class='bodySupscript'>2</sup> = 1",
+                        "hoverText": "(1)2 = 1"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Wheat Plant&nbsp;3",
+                        "hoverText": "Wheat Plant 3"
+                      },
+                      {
+                        "type": "text",
+                        "text": "7"
+                      },
+                      {
+                        "type": "text",
+                        "text": "7 – 9 = -2"
+                      },
+                      {
+                        "type": "text",
+                        "text": "(-2)<sup class='bodySupscript'>2</sup> = 4",
+                        "hoverText": "(-2)2 = 4"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "",
+                        "rowHeight": "20px"
+                      },
+                      {
+                        "type": "text",
+                        "text": ""
+                      },
+                      {
+                        "type": "text",
+                        "text": ""
+                      },
+                      {
+                        "type": "text",
+                        "text": ""
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Average"
+                      },
+                      {
+                        "type": "text",
+                        "text": "<span class='bodyFraction'><span class='top'>(10 + 10 + 7)</span><span class='bottom'>3</span></span>&nbsp;=&nbsp;9&nbsp;cm",
+                        "hoverText": "(10 + 10 + 7)/3= 9 cm"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Variance"
+                      },
+                      {
+                        "type": "text",
+                        "text": "=&nbsp;<span class='bodyFraction'><span class='top'>(1 + 1 + 4)</span><span class='bottom'>3</span></span>&nbsp;=&nbsp;2",
+                        "hoverText": "=(1 + 1 + 4)/3= 2"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": ""
+                      },
+                      {
+                        "type": "text",
+                        "text": ""
+                      },
+                      {
+                        "type": "text",
+                        "text": "Standard Deviation"
+                      },
+                      {
+                        "type": "text",
+                        "text": "= &radic;<span>variance</span> = &radic;<span>2</span> = 1.4",
+                        "hoverText": "= √variance = √2 = 1.4"
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Interpreting Graphs in Scientific Literature and Popular Press",
+              "pageTitle": "Interpreting Graphs in Scientific Literature and Popular Press",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Graphs are an excellent way to summarize and easily visualize data. Care must be taken when interpreting data from a graph or chart. Information can be lost in summarization and this may be critical to our interpretation. For example, in Figure 1, the <button class='glossary-text'>average</button> age of 4 groups of people was graphed using a bar graph. A bar graph is most useful when directly comparing data as it allows for differences to be more easily seen at a glance. Looking at Figure 1, it is tempting to conclude that the difference between Groups 1 and 2 is much greater than between Groups A and B."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses/580100/Figure1.svg",
+                  "imgDivWidth": "430px",
+                  "desc": "Figure 1. Bar graph with 4 groups.  Each group has an average age. Group 1 is 20 years, Group 2 is 40 years, Group A is 28 years and Group B is 34 years.",
+                  "altText": "Figure 1. Bar graph with 4 groups.  Each group has an average age. Group 1 is 20 years, Group 2 is 40 years, Group A is 28 years and Group B is 34 years.",
+                  "maxWidth": "600px",
+                  "scrollImg": true
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "However, if we look at a graph of all the data that went into the average age, we can see that the variance in Groups 1 and 2 is much greater than in Groups A and B (Figure 2)."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580100/Figure2.svg",
+                  "imgDivWidth": "430px",
+                  "desc": "Figure 2. Graph using the underlying data used for Figure 1.  Groups 1 and 2 have a much larger variance in the data than Groups A and B.",
+                  "altText": "Figure 2. Graph using the underlying data used for Figure 1.  Groups 1 and 2 have a much larger variance in the data than Groups A and B.",
+                  "maxWidth": "600px",
+                  "scrollImg": true
+                }
+              ]
+            },
+            {
+              "title": "Interpreting Graphs in Scientific Literature and Popular Press (cont... )",
+              "pageTitle": "Interpreting Graphs in Scientific Literature and Popular Press (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "This information can be conveyed in the graph by the use of <button class='glossary-text'>error bars</button>. Error bars are a graphical representation of the variance in a dataset. The chart below uses the <button class='glossary-text'>standard deviations</button> from the data to show the variance of the data. There are multiple ways to represent variance, so it is important that the caption of the figure tells the reader what measure is being represented by the error bars (Figure 3)."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Standard deviation is highly influenced by <button class='glossary-text'>outliers</button>, or data points that are highly unusual compared to the rest of the data, so scientists frequently use <button class='glossary-text'>confidence intervals</button> to represent variance on graphs. Confidence intervals express the probability that a data point will fall within the error bars, so error bars with a 99% confidence interval say that 99% of the data will fall between the error bars. Confidence intervals are typically published at 99%, 95%, or 90%. The main point is that when error bars overlap, as they do when comparing Group 1 with Group 2, it is not strong evidence that there is a difference between the two groups, even if the averages are far apart. A real difference is more likely between Group A and Group B."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580100/Figure3.svg",
+                  "imgDivWidth": "340px",
+                  "desc": "Figure 3. Bar graphs showing the average ages of 4 groups with error bars.  Groups 1 and 2 have large error bars and Groups A and B have much smaller error bars.",
+                  "altText": "Figure 3. Bar graphs showing the average ages of 4 groups with error bars.  Groups 1 and 2 have large error bars and Groups A and B have much smaller error bars.",
+                  "maxWidth": "475px",
+                  "scrollImg": true
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Graphs can be misleading when important information is left out. What information is missing from the graph below?",
+                  "imageData": {
+                    "image": "courses/580100/Figure1.svg",
+                    "desc": "Figure 1. Bar graph with 4 groups.  Each group has an average age. Group 1 is 20 years, Group 2 is 40 years, Group A is 28 years and Group B is 34 years.",
+                    "altText": "Figure 1. Bar graph with 4 groups.  Each group has an average age. Group 1 is 20 years, Group 2 is 40 years, Group A is 28 years and Group B is 34 years.",
+                    "imgDivWidth": "87%",
+                    "maxWidth": "600px",
+                    "scrollImg": true
+                  },
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "error bars",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "graph title",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "x-axis label",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "y-axis label",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "average age",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Error bars are a graphical representation of the variance in a dataset. Without a way to show variance in this graph, the size of the difference between Groups 1 and 2 is misleading."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What summary statistic is most commonly used to measure variation in data?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "standard deviation",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "arithmetic mode",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "arithmetic middle",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "arithmetic mean",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "independent and dependent variables",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The most common summary statistic for measuring variance is the standard deviation. The standard deviation is an indication of the distribution of the data."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "imgContainer": "leftContainer",
+                  "body": "Graphs are an excellent way to summarize and easily visualize data. Care must be taken when interpreting data from a graph or chart. Information can be lost in summarization, and this may be critical to our interpretation. Summary statistics are methods of taking many data points and combining them into just a few numbers. In science, it is important to know how much variation is found in the data collected. The most common measurement of variation is the standard deviation. This information can be conveyed in the graph with the use of error bars, which are a graphical representation of the variance in a dataset.<br /><br />When the average age graph is redrawn to show the individual data points that went into the averages (Figure 2), one can easily observe that although it appears as if the difference between Groups 1 and 2 is greater than between Groups A and B, the data really show that Groups 1 and 2 have greater variance than in Groups A and B. Figure 3 shows the bar graph with error bars included.",
+                  "img": [
+                    {
+                      "src": "courses/580100/Figure2.svg",
+                      "alt": "Figure 2. Graph using the underlying data used for Figure 1.  Groups 1 and 2 have a much larger variance in the data than Groups A and B.",
+                      "altText": "Figure 2. Graph using the underlying data used for Figure 1.  Groups 1 and 2 have a much larger variance in the data than Groups A and B.",
+                      "maxHeight": "320px",
+                      "scrollImg": true
+                    },
+                    {
+                      "src": "courses/580100/Figure3.svg",
+                      "alt": "Figure 3. Bar graphs showing the average ages of 4 groups with error bars.  Groups 1 and 2 have large error bars and Groups A and B have much smaller error bars.",
+                      "altText": "Figure 3. Bar graphs showing the average ages of 4 groups with error bars.  Groups 1 and 2 have large error bars and Groups A and B have much smaller error bars.",
+                      "maxHeight": "320px",
+                      "scrollImg": true
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "imgContainer": "leftContainer",
+                  "body": "Graphs are an excellent way to summarize and easily visualize data. Care must be taken when interpreting data from a graph or chart. Information can be lost in summarization, and this may be critical to our interpretation. Summary statistics are methods of taking many data points and combining them into just a few numbers. In science, it is important to know how much variation is found in the data collected. The most common measurement of variation is the standard deviation. This information can be conveyed in the graph with the use of error bars, which are a graphical representation of the variance in a dataset.<br /><br />When the average age graph is redrawn to show the individual data points that went into the averages (Figure 2), one can easily observe that although it appears as if the difference between Groups 1 and 2 is greater than between Groups A and B, the data really show that Groups 1 and 2 have greater variance than in Groups A and B. Figure 3 shows the bar graph with error bars included.",
+                  "img": [
+                    {
+                      "src": "courses/580100/Figure2.svg",
+                      "alt": "Figure 2. Graph using the underlying data used for Figure 1.  Groups 1 and 2 have a much larger variance in the data than Groups A and B.",
+                      "altText": "Figure 2. Graph using the underlying data used for Figure 1.  Groups 1 and 2 have a much larger variance in the data than Groups A and B.",
+                      "maxHeight": "320px",
+                      "scrollImg": true
+                    },
+                    {
+                      "src": "courses/580100/Figure3.svg",
+                      "alt": "Figure 3. Bar graphs showing the average ages of 4 groups with error bars.  Groups 1 and 2 have large error bars and Groups A and B have much smaller error bars.",
+                      "altText": "Figure 3. Bar graphs showing the average ages of 4 groups with error bars.  Groups 1 and 2 have large error bars and Groups A and B have much smaller error bars.",
+                      "maxHeight": "320px",
+                      "scrollImg": true
+                    }
+                  ]
+                }
+              ]
+            },
+          
+            {
+              "title": "Knowledge Check Question 3",
+              "pageTitle": "Knowledge Check Question 3",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 2,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "In the graph below, where are the outliers found?",
+                  "imageData": {
+                    "image": "courses/580100/Figure2.svg",
+                    "imgDivWidth": "87%",
+                    "desc": "Figure 2. Graph using the underlying data used for Figure 1.  Groups 1 and 2 have a much larger variance in the data than Groups A and B.",
+                    "altText": "Figure 2. Graph using the underlying data used for Figure 1.  Groups 1 and 2 have a much larger variance in the data than Groups A and B.",
+                    "maxWidth": "600px",
+                    "scrollImg": true
+                  },
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Groups 1 and 2",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Groups A and B",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Groups 2 and A",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Groups 2 only",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Groups 2, A, and B",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Standard deviation is highly influenced by outliers, or data points that are highly unusual compared to the rest of the data. The data points showing the participants aged 80 and 90 years in Groups 1 and 2, respectively, are outliers."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following lists the most commonly published confidence intervals?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "99%, 95%, or 90%",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "100%, 55%, or 30%",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "90%, 85%, or 50%",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "79%, 55%, or 30%",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "100%, 90%, or 80%",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Confidence intervals are typically published at 99%, 95%, or 90%."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "imgContainer": "leftContainer",
+                  "body": "Standard deviation is highly influenced by outliers, or data points that are highly unusual compared to the rest of the data (such as those in Groups 1 and 2 of Figure 2), so scientists frequently use confidence intervals to represent variance on graphs. Confidence intervals express the probability that a data point will fall within the error bars, so error bars with a 99% confidence interval say that 99% of the data will fall between the error bars. The key to interpreting error bars is to remember that when error bars overlap, as they do when comparing Group 1 with Group 2 in Figure 3, there is not strong evidence that there is a difference between the two groups, even if the averages are far apart. A real difference is more likely between Group A and Group B.",
+                  "img": [
+                    {
+                      "src": "courses/580100/Figure2.svg",
+                      "alt": "Figure 2. Graph using the underlying data used for Figure 1.  Groups 1 and 2 have a much larger variance in the data than Groups A and B.",
+                      "altText": "Figure 2. Graph using the underlying data used for Figure 1.  Groups 1 and 2 have a much larger variance in the data than Groups A and B.",
+                      "maxHeight": "320px",
+                      "scrollImg": true
+                    },
+                    {
+                      "src": "courses/580100/Figure3.svg",
+                      "alt": "Figure 3. Bar graphs showing the average ages of 4 groups with error bars.  Groups 1 and 2 have large error bars and Groups A and B have much smaller error bars.",
+                      "altText": "Figure 3. Bar graphs showing the average ages of 4 groups with error bars.  Groups 1 and 2 have large error bars and Groups A and B have much smaller error bars.",
+                      "maxHeight": "320px",
+                      "scrollImg": true
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "imgContainer": "leftContainer",
+                  "body": "Standard deviation is highly influenced by outliers, or data points that are highly unusual compared to the rest of the data (such as those in Groups 1 and 2 of Figure 2), so scientists frequently use confidence intervals to represent variance on graphs. Confidence intervals express the probability that a data point will fall within the error bars, so error bars with a 99% confidence interval say that 99% of the data will fall between the error bars. The key to interpreting error bars is to remember that when error bars overlap, as they do when comparing Group 1 with Group 2 in Figure 3, there is not strong evidence that there is a difference between the two groups, even if the averages are far apart. A real difference is more likely between Group A and Group B.",
+                  "img": [
+                    {
+                      "src": "courses/580100/Figure2.svg",
+                      "alt": "Figure 2. Graph using the underlying data used for Figure 1.  Groups 1 and 2 have a much larger variance in the data than Groups A and B.",
+                      "altText": "Figure 2. Graph using the underlying data used for Figure 1.  Groups 1 and 2 have a much larger variance in the data than Groups A and B.",
+                      "maxWidth": "500px",
+                      "scrollImg": true
+                    },
+                    {
+                      "src": "courses/580100/Figure3.svg",
+                      "alt": "Figure 3. Bar graphs showing the average ages of 4 groups with error bars.  Groups 1 and 2 have large error bars and Groups A and B have much smaller error bars.",
+                      "altText": "Figure 3. Bar graphs showing the average ages of 4 groups with error bars.  Groups 1 and 2 have large error bars and Groups A and B have much smaller error bars.",
+                      "maxWidth": "400px",
+                      "scrollImg": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "containerType": "fullContainer",
+                  "image": "courses/580100/580100_ED.svg",
+                  "imgDivWidth": "80%",
+                  "maxWidth":"1150px",
+                  "scrollImg":true,
+                  "imgDivWidthForTablet": {
+                    "P": "95%",
+                    "L": "95%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "desc": "This map describes the procedural workflow for this investigation. In Activity 1, you will create two scatter graphs. You will plot wheat and rye plant data sets from Table 1 and create a legend for your graphs. In Activity 2, you will copy the data from Table 1 into a spreadsheet. You will then generate a scatter graph from Wheat Plant data and label the graph elements. In Activity 3, you will generate a trendline for a data set on Activity 2 graph and display the equation on a chart. You will set the y-intercept to “0”. Is a corrected trendline generated for each data set? If not, start Activity 3 over. If yes, determine which wheat plant grew the fastest.",
+                  "altText": "This map describes the procedural workflow for this investigation. In Activity 1, you will create two scatter graphs. You will plot wheat and rye plant data sets from Table 1 and create a legend for your graphs. In Activity 2, you will copy the data from Table 1 into a spreadsheet. You will then generate a scatter graph from Wheat Plant data and label the graph elements. In Activity 3, you will generate a trendline for a data set on Activity 2 graph and display the equation on a chart. You will set the y-intercept to “0”. Is a corrected trendline generated for each data set? If not, start Activity 3 over. If yes, determine which wheat plant grew the fastest."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "isCheckPoint": true,
+              "template": "Materials",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Needed but not supplied:",
+                  "text": "<ul style='line-height:1.8em;margin-top:-5px;'><li>Graphing Software (Excel<span className=bodySupscript>®</span>, Open Office<span className=bodySupscript>®</span>, etc.)</li><li>Printer to print graphing paper</li></ul>"
+                    
+                  
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "screenRatio": [50, 50],
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Given the following data set, calculate the average number of blue jays counted.",
+                      "dataTable": {
+                        "type": "DataTable",
+                        "sr": 0,
+                        "title": "Table.",
+                        "allowClick": true,
+                        "headerHidden": false,
+                        "tableWidth": "500px",
+                        "header": [
+                          {
+                            "text": "Location",
+                            "colWidth": "calc(100% / 3)"
+                          },
+                          {
+                            "text": "Cardinals Counted",
+                            "colWidth": "calc(100% / 3)"
+                          },
+                          {
+                            "text": "Blue Jays Counted",
+                            "colWidth": "calc(100% / 3)"
+                          }
+                        ],
+                        "tableData": [
+                          [
+                            {
+                              "type": "text",
+                              "text": "1"
+                            },
+                            {
+                              "type": "text",
+                              "text": "12"
+                            },
+                            {
+                              "type": "text",
+                              "text": "3"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": "2"
+                            },
+                            {
+                              "type": "text",
+                              "text": "15"
+                            },
+                            {
+                              "type": "text",
+                              "text": "20"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": "3"
+                            },
+                            {
+                              "type": "text",
+                              "text": "9"
+                            },
+                            {
+                              "type": "text",
+                              "text": "0"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": "4"
+                            },
+                            {
+                              "type": "text",
+                              "text": "6"
+                            },
+                            {
+                              "type": "text",
+                              "text": "12"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": "5"
+                            },
+                            {
+                              "type": "text",
+                              "text": "2"
+                            },
+                            {
+                              "type": "text",
+                              "text": "9"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": "6"
+                            },
+                            {
+                              "type": "text",
+                              "text": "16"
+                            },
+                            {
+                              "type": "text",
+                              "text": "22"
+                            }
+                          ]
+                        ]
+                      },
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "11",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "22",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "10",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "21",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "10.5",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "A bar graph shows error bars with a 90% confidence interval. Which of the following is the correct interpretation of these error bars?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "90% of the data will fall between the error bars for each data set.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "90% of the data is made up of outliers.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "10% of the data will fall between the error bars for each data set.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "10% of the data has been averaged.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "90% of the data is unreliable due to human error.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Eduardo is conducting an experiment to determine how time spent on social media affects the academic performance of freshman college students. After gathering a group of participants with varying levels of daily social media usage, he tracks their test scores in a common course for the entire semester. Which of the following describes the independent variable in Eduardo’s experiment?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "the time spent on social media",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "the types of social media platforms used",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "the participants’ test scores",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "the subject of the course",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "the length of the semester",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following describes the calculation for the standard deviation of a data set?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "the square root of the variance",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "the average squared",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "the sum of the differences between each data point and the average",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "the sum of the data points divided by the number of points",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "the differences between each data point and the average, squared; then averaged",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "screenRatio": [60, 40],
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "A bar graph consists of two data sets, each featuring error bars. Although the bars represent two different values on the y-axis, the error bars of each data set share overlapping values. Which of the following is the most accurate interpretation of these two data sets?",
+                      "imageData": {
+                        "image": "courses/580100/PreAssessmentGraph.svg",
+                        "desc": "A bar graph with two data sets showing overlapping error bars.",
+                        "altText": "A bar graph with two data sets showing overlapping error bars.",
+                        "imgDivWidth": "95%",
+                        "imgDivMargin": "auto"
+                      },
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "There is weak evidence to support a difference between the data in each set.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "There is strong evidence to support a difference between the data in each set.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "There is a cause-effect relationship between the data in each set.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Most of the data in each set falls within the values where the error bars overlap.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Most of the data in each set falls outside the values where the error bars overlap.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "courses/580100/Hexagone.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will create two scatter graphs by hand, each featuring the data from the plant types in <button class='resource-text'>Table 1</button>."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Graphing by Hand (19 steps)",
+              "keyID":"activity1",
+              "title": "<div className=order-list-text>A</div>&nbsp;Graphing by Hand (19 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [{
+                      "type": "Plain",
+                      "text": "A common method to look at data is to create an x,y scatter graph. In this first activity, you will create two graphs of the data from <button class='resource-text'>Table 1</button>."
+                    }],
+                    "text": "Print 2 copies of the <a target='_blank' href='images/courses/580100/580100_PDF.pdf'>graphing sheet</a>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Title the first graph “Wheat plant height by week.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Title the second graph “Rye plant height by week” and set aside for later."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "At the bottom of the graph there is a space to label the x-axis. The x-axis runs from left to right, with smaller numbers starting on the left and the numbers increasing as you move to the right."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "At the left of the graph there is a space to label the y-axis. The y-axis runs from the bottom to top of the graph, with smaller numbers starting at the bottom and the size of the numbers increasing as you move up."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "You will now label each axis and decide which pieces of data will be our x-values and our y-values, respectively."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "One method to determine which data should be your x versus y axis is to think about the goal of the experiment. The y-axis should be for data that you measured for, the <button class='glossary-text'>dependent variable</button>. In the data set in Table 1, the scientists were measuring the height each week. This means that the height is the dependent <button class='glossary-text'>variable</button>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Label the y-axis “Height (cm).” It is important to always include the unit of measurement on the axis. In this case the unit is centimeters (cm)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The x-axis is the <button class='glossary-text'>independent variable</button>, the parameter of the experiment that can be controlled. In this experiment the scientists were controlling when they measured the height."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Label the x-axis “Time (weeks).” This indicates that a measurement was taken each week."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Locate the lower left corner of the graph. This will be the origin of your graph. The origin on a graph is where both the values of x and the values of y are 0. If the numbers in a data set are all positive (i.e. there are no negative numbers) it is a best practice to set the origin in the lower left corner. This allows the view of the data to be maximized."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The axes then need to be numerically labeled. Referring to <span className=bodyFontBold>Figure 4</span>, label each axis from 0 to 14 along the darker lines."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Starting with the “Wheat Plant 1” data in <button class='resource-text'>Table 1</button>, count over 1 (for week 1) on the x-axis for time, then count up to 2 from there to indicate 2 cm. Place a dot at this point"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat this process for the remaining data points for “Wheat Plant 1.” Your graph should now look like <span className=bodyFontBold>Figure 4</span>."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses/580100/Figure4.svg",
+                    "imgDivWidth": "345px",
+                    "desc": "Figure 4. Graph showing the basic layout of an x,y scatter plot.  The x-axis is labeled in time and the y- axis is labeled in height.  Wheat Plant 1's data has been plotted.",
+                    "altText": "Figure 4. Graph showing the basic layout of an x,y scatter plot.  The x-axis is labeled in time and the y- axis is labeled in height.  Wheat Plant 1's data has been plotted.",
+                    "maxWidth": "450px",
+                    "scrollImg": true
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using this same process, graph the data for “Wheat Plant 2” and “Wheat Plant 3” on the same graph. You will need to be able to distinguish the data from each set from each other. Use different colors, or symbols to make this differentiation."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "When complete, compare your graph to <span className=bodyFontBold>Figure 5</span>. Your exact colors or symbols may be different, but the data should be in the same locations."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses/580100/Figure5.svg",
+                    "imgDivWidth": "345px",
+                    "desc": "Figure 5. Graph showing the basic layout of an x,y scatter plot.  The x-axis is labeled in time and the y- axis is labeled in height.  All Wheat Plant 1 data has been plotted and a legend has been added to the bottom of the graph.",
+                    "altText": "Figure 5. Graph showing the basic layout of an x,y scatter plot.  The x-axis is labeled in time and the y- axis is labeled in height.  All Wheat Plant 1 data has been plotted and a legend has been added to the bottom of the graph.",
+                    "maxWidth": "440px",
+                    "scrollImg": true
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "You can now create a legend. The legend is what shows another person what the points on your graph represent. Refer to <span className=bodyFontBold>Figure 5</span> for an example legend for this graph."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Create your legend. It is below the x-axis label as in <span className=bodyFontBold>Figure 5</span>. The legend can be anywhere on the graph, so long as it does not interfere with the reading of the graph."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Create your own graph of the data for “Rye plant height by week.” Use the process outlined in this activity to graph all of the data for each plant."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "courses/580100/Hexagone.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will recreate the wheat plant graph from Activity 1 using spreadsheet software such as Microsoft Excel<span className=bodySupscript>®</span>."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "<div className=order-list-text>A</div>&nbsp;Computer Graphing (11 steps)",
+              "keyID":"activity2",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Computer Graphing (11 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [{
+                      "type": "Plain",
+                      "text": "Graphing by hand can be useful for observing trends in small data sets. However, as the quantity of the data grows it can be useful to graph using a computer. This activity will give a general outline of how to graph on a computer. <span className=bodyFontBold>Please note Microsoft Excel<span className=bodySupscript>®</span> was used to generate the figures for this activity. Your exact software may look different or have slightly different labeling than what you will see here. You may need to refer to the documentation of your exact program to determine how to perform a particular step.</span><span className=bodyParaLineBreak>In this activity you will graph the data from <button class='resource-text'>Table 1</button> into your computer."
+                    }],
+                    "text": "Open a new workbook. This will open a new sheet <span className=bodyFontBold>(Figure 6)</span>."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses/580100/Figure6.svg",
+                    "imgDivWidth": "195px",
+                    "desc": "Figure 6. Image showing what a blank workbook looks like in Excel®.",
+                    "altText": "Figure 6. Image showing what a blank workbook looks like in Excel®.",
+                    "maxWidth": "260px",
+                    "scrollImg": true
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "You will see a large sheet with lettered columns and numbered rows. These letters and numbers can be used to refer to a specific cell (the box where information can be typed.) For example the upper left cell is A1 representing column A, row 1."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Starting in cell A1 type “Week.” In cell B1 type “Wheat Plant 1.” Continue across putting each title in a new cell in the first row."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Move to row 2. Type the corresponding numbers under the correct column."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Continue until your table looks like Table 1."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Select the data for Week thru Wheat Plant 3. You can do this by clicking on cell A1 and then dragging down and over to cell D9. All of the data and titles should be selected for the wheat plant <span className=bodyFontBold>(Figure 7)</span>."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses/580100/Figure7.svg",
+                    "imgDivWidth": "300px",
+                    "desc": "Figure 7. Image showing data selection of wheat plant data as shown in Excel®.",
+                    "altText": "Figure 7. Image showing data selection of wheat plant data as shown in Excel®.",
+                    "maxWidth": "390px",
+                    "scrollImg": true
+                  },
+                  {
+                    "type": "Box",
+                    "text": "<span className=bodyFontBold>NOTE:</span> The next several steps may vary greatly depending on the exact software you are using, but the goal is the same."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Find the menu labeled “Insert.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Among the “Charts” find “Scatter,” or “x,y Scatter,” and click it."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "A basic graph similar to <span className=bodyFontBold>Figure 8</span> should appear."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses/580100/Figure8.svg",
+                    "imgDivWidth": "450px",
+                    "desc": "Figure 8. Graph showing initial wheat plant data as shown in Excel®.",
+                    "altText": "Figure 8. Graph showing initial wheat plant data as shown in Excel®.",
+                    "maxWidth": "600px",
+                    "scrollImg": true
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Edit the chart title so that it matches the one created in Activity 1. This can usually be accomplished by clicking (or double clicking) on the title and then typing."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "You can then add a label to each axis. This step in particular is very different depending on your software. You will typically be looking for a menu option titled “Axis Title.” You will need to do this twice, once for each axis. Your graph should now look like <span className=bodyFontBold>Figure 9</span>. You will use this graph again in Activity 3."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses/580100/Figure9.svg",
+                    "imgDivWidth": "450px",
+                    "desc": "Figure 9. Graph of wheat plant data with proper title, and a Time x-axis and a Height y-axis.",
+                    "altText": "Figure 9. Graph of wheat plant data with proper title, and a Time x-axis and a Height y-axis.",
+                    "maxWidth": "600px",
+                    "scrollImg": true
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 3",
+      "menuIcon": "courses/580100/Hexagone.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 3, you will add linear regression lines, or trendlines, to the graph from Activity 2. These lines will be corrected so their <button class='glossary-text'>y-intercepts</button> are at the origin. Based on the corrected trendlines, you will determine which wheat plant grew fastest."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 3",
+          "pages": [
+            {
+              "title": "<div className=order-list-text>A</div>&nbsp;Linear Regression (10 steps)",
+              "keyID":"activity3",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Linear Regression (10 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [{
+                      "type": "Plain",
+                      "text": "Typically if you are graphing using an x,y scatter plot you are looking for trends (a recognizable pattern) in your data. In this activity you are looking to see if there is a trend in height of the plants over time. More specifically, you are looking for the rate at which the plants grew. This rate can be determined from the graph produced in Activity 2."
+                    }],
+                    "text": "In your graph from Activity 2, click on a point from the Wheat Plant 1 dataset."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Right-click on the data point and select “Add Trendline.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Select “Linear.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Select “Display Equation on chart.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The equation displayed on the graph should read y = 1.2381x + 0.9286. Write this in “Wheat Plant 1 trendline equation” in the Data Table."
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "This is the equation of the line. In its general form is <button class='glossary-text'>y = mx + b</button>. The “m” symbol stands for the slope of the line. The slope is how far the line rises (y) over a certain distance (x.) The “b” is called the <button class='glossary-text'>y-intercept</button>; this is the point at which the line crosses the y-axis. For the equation from step 6, this would mean that “1.2381” would be the slope and “0.9286” would be the y-intercept. This equation allows you to find the length of a plant at a certain time. For example, if you wanted to determine the height of the plant in week 9, based on this equation the estimated height would be 12.0715 cm.<span className=bodyParaLineBreak>Y = 1.2381 * 9 + 0.9286<span className=bodyParaLineBreak>Y = 12.0715 cm<span className=bodyParaLineBreak>Since the slope is calculated from <span className=bodyFraction><span>change in y</span><span className=symbol>/</span><span className=bottom>change in x</span></span> it uses the same units as the dataset. In this case, this means that the slope has units of <span className=bodyFraction><span>cm</span><span className=symbol>/</span><span className=bottom>week</span></span>. The slope then means that on <button class='glossary-text'>average</button>, Wheat Plant 1 grew 1.2381 centimeters per week.<span className=bodyParaLineBreak>The y-intercept indicates that at week 0 the plant was likely 0.9286 cm tall. However, in this experiment the plants were all grown from seeds, so at week 0 they should have a height of 0. This information can be added to a trendline without having to add to a dataset."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Right click on the trendline and select “Format Trendline.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Select “Set Intercept” and set the number to 0. This is setting the y-intercept to 0. You can do this whenever you know the exact value of your <button class='glossary-text'>dependent variable</button> at the 0 for the x-axis."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Write the new trendline in “Wheat Plant 1 trendline corrected” in the Data Table."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the same procedure, create a corrected trendline for each additional wheat plant on the graph. Write the corrected equation for each in the data table."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Based on the corrected trend lines, which wheat plant grew fastest? Record your answer in the data table."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "waterMark": true,
+              "pageTitle":"Thank you",
+              "showPageTitle":true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "courses/580100/completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "courses/580100/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2022 Carolina Biological Supply Company",
+      "pageSetting": "portrait"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Step 18 Photo",
+                "text": "Insert a photo of your hand-drawn graph. <br>The following should be visible/indicated in this photo:<ul style='column-count: 2; column-gap: 30px;'><li>Your name and the date</li><li>Data plotted for wheat plant 1, 2, and 3</li><li>Axis labels with units</li><li>Graph title</li><li>Key or legend</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": "Question1",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+               "orderedType": "1",
+                "listType": "ordered",
+                "text": ["Describe the results of this experiment."]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+               
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Step 19 Photo",
+                "text": "Insert a photo of your hand-drawn graph. <br>The following should be visible/indicated in this photo:<ul style='column-count: 2; column-gap: 30px;'><li>Your name and the date</li><li>Data plotted for rye plant 1, 2, and 3</li><li>Axis labels with units</li><li>Graph title</li><li>Key or legend</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": "Question2",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "start": "2",
+                "text": ["What statistical tools could you use to compare the values within each set of plant data in Table 1?"]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+              
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+	       ]
+	      },
+        {
+          "waterMark": true,
+          "title": "Lab Notebook",
+          "pageData": [
+            {
+              "type": "Wrapper",
+              "id": "dataTable1",
+              "tag": "div",
+              "sr": 0,
+              "width": "800px",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "title": "Data Table 1"
+                },
+                {
+                  "type": "DataTable",
+                  "maxLength": 30,
+                  "header": [
+                    {
+                      "text": "Wheat Plant Trendline",
+                      "colWidth": "50%"
+                    },
+                    {
+                      "text": "Equation",
+                      "colWidth": "50%"
+                    }
+                  ],
+                  "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Wheat Plant 1 trendline equation",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Wheat Plant 1 trendline corrected",
+                      "borderBottom": "medium",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "borderBottom": "medium",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Wheat Plant 2 trendline equation",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Wheat Plant 2 trendline corrected",
+                      "borderBottom": "medium",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "borderBottom": "medium",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Wheat Plant 3 trendline equation",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Wheat Plant 3 trendline corrected",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+        "waterMark": false,
+        "title": "Questions",
+        "textAreaId": "Question3",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question3",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+            "listType": "ordered",
+            "start": "3",
+            "text": ["Based on the corrected trend lines, which wheat plant grew fastest?"]
+          },
+          {
+            "type": "Questions",
+            "id": "Question3",
+           
+            "maxLength": 500,
+            "placeholder": "Write your Answer here..."
+          }
+        ]
+      }
+	  ]
+	  },
+      {
+        "waterMark": false,
+        "title": "Questions",
+        "textAreaId": "Question4",
+        "pageData": [
+          {
+		  "type": "Wrapper",
+            "id": "Question4",
+            "tag": "div",
+			 "pageData": [
+        {
+          "type": "Plain",
+          "title": "Question"
+        },
+              {
+            "type": "List",
+             "orderedType": "1",
+            "listType": "ordered",
+            "start": "4",
+            "text": ["Why do you set the y-intercept to 0?"]
+          },
+          {
+            "type": "Questions",
+            "id": "Question4",
+            
+            "maxLength": 500,
+            "placeholder": "Write your Answer here..."
+          }
+        ]
+      }
+	  ]
+	  },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 3000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+          "type": "Videos",
+          "thumbnailSrc": "core/Video_icon.svg",
+          "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6290182857001",
+          "content": "Investigation overview"
+      },
+      {
+        "type": "DataTable",
+        "thumbnailSrc": "core/Table_icon.svg",
+        "content": "Table 1. Wheat plant and rye plant data",
+        "title": "Table 1.",
+        "allowClick": true,
+        "tableWidth": "700px",
+        "sr":10,
+        "isResource":true ,
+          "header": [
+            {
+              "text": ""
+            },
+            {
+              "text": "Height in cm",
+              "colspan": "6"
+            }
+          ],
+          "tableData": [
+            [
+              {
+                "type": "text",
+                "text": "Week<br/>&nbsp;",
+                "hoverText": "Week",
+                "fontFamily": "Montserrat-Bold"
+              },
+              {
+                "type": "text",
+                "text": "Wheat<br/>Plant&nbsp;1",
+                "hoverText": "Wheat Plant 1",
+                "fontFamily": "Montserrat-Bold"
+              },
+              {
+                "type": "text",
+                "text": "Wheat<br/>Plant&nbsp;2",
+                "hoverText": "Wheat Plant 2",
+                "fontFamily": "Montserrat-Bold"
+              },
+              {
+                "type": "text",
+                "text": "Wheat<br/>Plant&nbsp;3",
+                "hoverText": "Wheat Plant 3",
+                "fontFamily": "Montserrat-Bold"
+              },
+              {
+                "type": "text",
+                "text": "Rye<br/>Plant&nbsp;1",
+                "hoverText": "Rye Plant 1",
+                "fontFamily": "Montserrat-Bold"
+              },
+              {
+                "type": "text",
+                "text": "Rye<br/>Plant&nbsp;2",
+                "hoverText": "Rye Plant 2",
+                "fontFamily": "Montserrat-Bold"
+              },
+              {
+                "type": "text",
+                "text": "Rye<br/>Plant&nbsp;3",
+                "hoverText": "Rye Plant 3",
+                "fontFamily": "Montserrat-Bold"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "1"
+              },
+              {
+                "type": "text",
+                "text": "2.0"
+              },
+              {
+                "type": "text",
+                "text": "3.0"
+              },
+              {
+                "type": "text",
+                "text": "0.0"
+              },
+              {
+                "type": "text",
+                "text": "0.0"
+              },
+              {
+                "type": "text",
+                "text": "1.0"
+              },
+              {
+                "type": "text",
+                "text": "0.0"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "2"
+              },
+              {
+                "type": "text",
+                "text": "3.0"
+              },
+              {
+                "type": "text",
+                "text": "3.0"
+              },
+              {
+                "type": "text",
+                "text": "2.0"
+              },
+              {
+                "type": "text",
+                "text": "1.0"
+              },
+              {
+                "type": "text",
+                "text": "2.0"
+              },
+              {
+                "type": "text",
+                "text": "1.0"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "3"
+              },
+              {
+                "type": "text",
+                "text": "5.0"
+              },
+              {
+                "type": "text",
+                "text": "5.0"
+              },
+              {
+                "type": "text",
+                "text": "3.0"
+              },
+              {
+                "type": "text",
+                "text": "1.0"
+              },
+              {
+                "type": "text",
+                "text": "2.0"
+              },
+              {
+                "type": "text",
+                "text": "2.0"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "4"
+              },
+              {
+                "type": "text",
+                "text": "6.0"
+              },
+              {
+                "type": "text",
+                "text": "6.0"
+              },
+              {
+                "type": "text",
+                "text": "4.0"
+              },
+              {
+                "type": "text",
+                "text": "2.0"
+              },
+              {
+                "type": "text",
+                "text": "3.0"
+              },
+              {
+                "type": "text",
+                "text": "3.0"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "5"
+              },
+              {
+                "type": "text",
+                "text": "7.0"
+              },
+              {
+                "type": "text",
+                "text": "7.0"
+              },
+              {
+                "type": "text",
+                "text": "5.0"
+              },
+              {
+                "type": "text",
+                "text": "3.0"
+              },
+              {
+                "type": "text",
+                "text": "4.0"
+              },
+              {
+                "type": "text",
+                "text": "3.0"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "6"
+              },
+              {
+                "type": "text",
+                "text": "9.0"
+              },
+              {
+                "type": "text",
+                "text": "8.0"
+              },
+              {
+                "type": "text",
+                "text": "7.0"
+              },
+              {
+                "type": "text",
+                "text": "3.0"
+              },
+              {
+                "type": "text",
+                "text": "4.0"
+              },
+              {
+                "type": "text",
+                "text": "3.0"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "7"
+              },
+              {
+                "type": "text",
+                "text": "10.0"
+              },
+              {
+                "type": "text",
+                "text": "9.0"
+              },
+              {
+                "type": "text",
+                "text": "7.0"
+              },
+              {
+                "type": "text",
+                "text": "4.0"
+              },
+              {
+                "type": "text",
+                "text": "5.0"
+              },
+              {
+                "type": "text",
+                "text": "4.0"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "8"
+              },
+              {
+                "type": "text",
+                "text": "10.0"
+              },
+              {
+                "type": "text",
+                "text": "10.0"
+              },
+              {
+                "type": "text",
+                "text": "7.0"
+              },
+              {
+                "type": "text",
+                "text": "5.0"
+              },
+              {
+                "type": "text",
+                "text": "6.0"
+              },
+              {
+                "type": "text",
+                "text": "5.0"
+              }
+            ]
+          ]
+      },
+      {
+        "type": "DataTable",
+        "thumbnailSrc": "core/Table_icon.svg",
+        "content": "Table 2. Calculating the standard deviation of wheat plant data",
+        "title": "Table 2.",
+        "allowClick": true,
+        "tableWidth": "750px",
+        "sr":11,
+        "isResource":true ,
+        "header": [
+            {
+              "text": "",
+              "colWidth":"22%"
+              
+            },
+            {
+              "text": "Height at Week 8 (cm)",
+              "colWidth":"26%"
+            },
+            {
+              "text": "Difference from Average",
+              "colWidth":"25%"
+            },
+            {
+              "text": "Difference Squared",
+              "colWidth":"27%"
+            }
+          ],
+          "tableData": [
+            [
+              {
+                "type": "text",
+                "text": "Wheat Plant&nbsp;1",
+                "hoverText": "Wheat Plant 1"
+              },
+              {
+                "type": "text",
+                "text": "10"
+              },
+              {
+                "type": "text",
+                "text": "10 – 9 = 1"
+              },
+              {
+                "type": "text",
+                "text": "(1)<sup class='bodySupscript'>2</sup> = 1",
+                "hoverText": "(1)2 = 1"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Wheat Plant&nbsp;2",
+                "hoverText": "Wheat Plant 2"
+              },
+              {
+                "type": "text",
+                "text": "10"
+              },
+              {
+                "type": "text",
+                "text": "10 – 9 = 1"
+              },
+              {
+                "type": "text",
+                "text": "(1)<sup class='bodySupscript'>2</sup> = 1",
+                "hoverText": "(1)2 = 1"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Wheat Plant&nbsp;3",
+                "hoverText": "Wheat Plant 3"
+              },
+              {
+                "type": "text",
+                "text": "7"
+              },
+              {
+                "type": "text",
+                "text": "7 – 9 = -2"
+              },
+              {
+                "type": "text",
+                "text": "(-2)<sup class='bodySupscript'>2</sup> = 4",
+                "hoverText": "(-2)2 = 4"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "",
+                "rowHeight": "20px"
+              },
+              {
+                "type": "text",
+                "text": ""
+              },
+              {
+                "type": "text",
+                "text": ""
+              },
+              {
+                "type": "text",
+                "text": ""
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Average"
+              },
+              {
+                "type": "text",
+                "text": "<span class='bodyFraction'><span class='top'>(10 + 10 + 7)</span><span class='bottom'>3</span></span>&nbsp;=&nbsp;9&nbsp;cm",
+                "hoverText": "(10 + 10 + 7)/3= 9 cm"
+              },
+              {
+                "type": "text",
+                "text": "Variance"
+              },
+              {
+                "type": "text",
+                "text": "=&nbsp;<span class='bodyFraction'><span class='top'>(1 + 1 + 4)</span><span class='bottom'>3</span></span>&nbsp;=&nbsp;2",
+                "hoverText": "=(1 + 1 + 4)/3= 2"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": ""
+              },
+              {
+                "type": "text",
+                "text": ""
+              },
+              {
+                "type": "text",
+                "text": "Standard Deviation"
+              },
+              {
+                "type": "text",
+                "text": "= &radic;<span>variance</span> = &radic;<span>2</span> = 1.4",
+                "hoverText": "= √variance = √2 = 1.4"
+              }
+            ]
+          ]
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580100/Figure1.svg",
+        "content": "Figure 1. Average age bar graph without error bars",
+        "desc": "Figure 1. Bar graph with 4 groups.  Each group has an average age. Group 1 is 20 years, Group 2 is 40 years, Group A is 28 years and Group B is 34 years.",
+        "altText": "Figure 1. Bar graph with 4 groups.  Each group has an average age. Group 1 is 20 years, Group 2 is 40 years, Group A is 28 years and Group B is 34 years.",
+        "maxWidth": "600px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580100/Figure2.svg",
+        "content": "Figure 2. Average age data points distribution",
+        "desc": "Figure 2. Graph using the underlying data used for Figure 1.  Groups 1 and 2 have a much larger variance in the data than Groups A and B.",
+        "altText": "Figure 2. Graph using the underlying data used for Figure 1.  Groups 1 and 2 have a much larger variance in the data than Groups A and B.",
+        "maxWidth": "600px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580100/Figure3.svg",
+        "content": "Figure 3. Average age bar graph with error bars",
+        "desc": "Figure 3. Bar graphs showing the average ages of 4 groups with error bars.  Groups 1 and 2 have large error bars and Groups A and B have much smaller error bars.",
+        "altText": "Figure 3. Bar graphs showing the average ages of 4 groups with error bars.  Groups 1 and 2 have large error bars and Groups A and B have much smaller error bars.",
+        "maxWidth": "475px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580100/580100_ED.svg",
+        "content": "Experimental Design Diagram",
+        "desc": "This map describes the procedural workflow for this investigation. In Activity 1, you will create two scatter graphs. You will plot wheat and rye plant data sets from Table 1 and create a legend for your graphs. In Activity 2, you will copy the data from Table 1 into a spreadsheet. You will then generate a scatter graph from Wheat Plant data and label the graph elements. In Activity 3, you will generate a trendline for a data set on Activity 2 graph and display the equation on a chart. You will set the y-intercept to “0”. Is a corrected trendline generated for each data set? If not, start Activity 3 over. If yes, determine which wheat plant grew the fastest.",
+        "altText": "This map describes the procedural workflow for this investigation. In Activity 1, you will create two scatter graphs. You will plot wheat and rye plant data sets from Table 1 and create a legend for your graphs. In Activity 2, you will copy the data from Table 1 into a spreadsheet. You will then generate a scatter graph from Wheat Plant data and label the graph elements. In Activity 3, you will generate a trendline for a data set on Activity 2 graph and display the equation on a chart. You will set the y-intercept to “0”. Is a corrected trendline generated for each data set? If not, start Activity 3 over. If yes, determine which wheat plant grew the fastest.",
+        "maxWidth": "1150px",
+        "scrollImg": true
+      },
+      {
+        "type": "PDF",
+        "thumbnailSrc": "core/PDF_icon.svg",
+        "src": "courses/580100/580100_tbl_001.svg",
+        "content": "Printable Graph Template",
+        "ref": "images/courses/580100/580100_PDF.pdf",
+        "disableClick": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580100/Figure4.svg",
+        "content": "Figure 4. Graph of Wheat Plant 1 data set",
+        "desc": "Figure 4. Graph showing the basic layout of an x,y scatter plot.  The x-axis is labeled in time and the y- axis is labeled in height.  Wheat Plant 1's data has been plotted.",
+        "altText": "Figure 4. Graph showing the basic layout of an x,y scatter plot.  The x-axis is labeled in time and the y- axis is labeled in height.  Wheat Plant 1's data has been plotted.",
+        "maxWidth": "450px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580100/Figure5.svg",
+        "content": "Figure 5. Graph of all wheat plant data sets",
+        "desc": "Figure 5. Graph showing the basic layout of an x,y scatter plot.  The x-axis is labeled in time and the y- axis is labeled in height.  All Wheat Plant 1 data has been plotted and a legend has been added to the bottom of the graph.",
+        "altText": "Figure 5. Graph showing the basic layout of an x,y scatter plot.  The x-axis is labeled in time and the y- axis is labeled in height.  All Wheat Plant 1 data has been plotted and a legend has been added to the bottom of the graph.",
+        "maxWidth": "440px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580100/Figure6.svg",
+        "content": "Figure 6. Screenshot of blank Microsoft Excel<span className=bodySupscript>®</span> workbook",
+        "desc": "Figure 6. Image showing what a blank workbook looks like in Excel®.",
+        "altText": "Figure 6. Image showing what a blank workbook looks like in Excel®.",
+        "maxWidth": "260px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580100/Figure7.svg",
+        "content": "Figure 7. Screenshot of wheat plant data selection in Microsoft Excel<span className=bodySupscript>®</span>",
+        "desc": "Figure 7. Image showing data selection of wheat plant data as shown in Excel®.",
+        "altText": "Figure 7. Image showing data selection of wheat plant data as shown in Excel®.",
+        "maxWidth": "390px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580100/Figure8.svg",
+        "content": "Figure 8. Microsoft Excel<span className=bodySupscript>®</span> scatter graph of wheat plant data without labels",
+        "desc": "Figure 8. Graph showing initial wheat plant data as shown in Excel®.",
+        "altText": "Figure 8. Graph showing initial wheat plant data as shown in Excel®.",
+        "maxWidth": "600px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580100/Figure9.svg",
+        "content": "Figure 9. Microsoft Excel<span className=bodySupscript>®</span> scatter graph of wheat plant data with labels",
+        "desc": "Figure 9. Graph of wheat plant data with proper title, and a Time x-axis and a Height y-axis.",
+        "altText": "Figure 9. Graph of wheat plant data with proper title, and a Time x-axis and a Height y-axis.",
+        "maxWidth": "600px",
+        "scrollImg": true
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Average (arithmetic mean)",
+        "content": "The sum of a group of numbers, divided by how many numbers were in the set"
+      },
+      {
+        "title": "Confidence intervals",
+        "content": "Express the probability that a data point will fall within the error bars"
+      },
+      {
+        "title": "Dependent variable",
+        "content": "Changes based on its association with an independent variable"
+      },
+      {
+        "title": "Error bars",
+        "content": "Graphical representation of the variance in a dataset"
+      },
+      {
+        "title": "Hypothesis",
+        "content": "An educated guess made on the basis of prior knowledge or evidence as a starting point"
+      },
+      {
+        "title": "Independent variable",
+        "content": "Something the experimenter has control over and is able to change in the experiment"
+      },
+      {
+        "title": "Outliers",
+        "content": "Data points that are highly unusual compared to the rest of the data"
+      },
+      {
+        "title": "Standard deviation",
+        "content": "A measure of the amount of variation in a data set"
+      },
+      {
+        "title": "Variable",
+        "content": "Something that can be changed within an experiment"
+      },
+      {
+        "title": "Y = mx + b",
+        "content": "The general form of the equation of a line"
+      },
+      {
+        "title": "Y-intercept",
+        "content": "The point at which the line on a graph crosses the y-axis"
+      }
+    ]
+  },
+  "info": {
+
+    "src": "core/Information-Initial.svg",
+
+    "hoverSrc": "core/Information-Hower.svg",
+
+    "resource": {
+
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+
+      "src": "core/resourceImage.svg"
+
+    },
+
+    "kc": {
+
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+
+    },
+
+    "kc-resource": {
+
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+
+      "src": "core/resourceImage.svg"
+
+    },
+
+    "procedure": {
+
+      "text": "You can track completion of each step by clicking on the step number."
+
+    },
+
+    "procedure-resource": {
+
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+
+      "src": "core/resourceImage.svg"
+
+    }
+
+  }
+}

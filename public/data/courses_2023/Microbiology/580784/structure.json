@@ -1,0 +1,2033 @@
+{
+  "locked": true,
+  "courseTitle": "ELISA Simulation",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/bodyBookmark.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Microbiology_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Microbiology",
+                "images": {
+                  "launchPage": "core/Microbiology_launchPageBg.png",
+                  "logo": "core/Microbiology_Subject_Icon.svg"
+                },
+                "titleName2": "ELISA Simulation",
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "waterMark": true,
+              "title": "Overview ",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Antibodies</button> are proteins produced by the body in response to the presence of specific foreign molecules, especially proteins. This reaction to foreign molecules is called “antibody-mediated immunity,” and it is the basis of a technique known as “<button class='glossary-text'>enzyme-linked immunosorbent assay</button>,” or <button class='glossary-text'>ELISA</button>. The purpose of an ELISA is to determine if a particular protein is present in a sample. Besides being used to detect the presence of a protein, an ELISA can also be used to determine the quantity of a protein. In this investigation, you will only determine if a certain protein is present in a sample."
+                },
+
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Microbiology/580784/580784_Microbio_Time-Requirement.svg",
+                  "desc": "Preparation - 5 minutes (35 if perishable samples have been stored in freezer)\nActivity 1: ELISA Simulation - 30 minutes",
+                  "altText": "Preparation - 5 minutes (35 if perishable samples have been stored in freezer)\nActivity 1: ELISA Simulation - 30 minutes",
+                  "width": "100%",
+                  "imgDivWidth": "280px",
+                  "maxWidth": "350px",
+                  "scrollImg": true
+                },
+                {
+                  "type": "List",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Digital camera or mobile device capable of taking photos",
+                    "Sheet of white paper"
+                  ]
+                }
+              ]
+            },
+            {
+              "waterMark": true,
+              "template": "OverView",
+              "title": "Overview (cont... )",
+              "pageTitle": "Overview (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Overview video: ELISA Simulation"
+                },
+                {
+                  "type": "Video",
+                  "width": "100%",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Microbiology/580784/580784_Microbio_VideoIcone.svg",
+                  "desc": "OverView Video",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6332739410112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Describe antibody structure and function.",
+                    "Understand the basic principles of an <button class='glossary-text'>ELISA</button>.",
+                    "Explore how an ELISA can be utilized as either a quantitative or qualitative tool.",
+                    "Examine how an ELISA can be used as a diagnostic tool."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Enzyme-linked immunosorbent assay (ELISA)</button> has been used for years to test for viral and bacterial infections in patients' blood by determining whether they have <button class='glossary-text'>antibodies</button> specific to the <button class='glossary-text'>antigens</button> produced by those <button class='glossary-text'>pathogens</button>. Most at-home tests for       COVID-19 are antigen tests rather than ELISA and identify the presence of COVID antigens in saliva or nasal secretions. However, ELISA is a crucial tool in the development of vaccines for the     SARS-CoV-2 virus which causes COVID-19<sup>1</sup>. For a vaccine to be effective, it must provoke an immune response in the patient and cause them to produce antibodies against the infection. After a trial vaccine is given, the patient’s blood can then be tested using ELISA to determine if they have started making antibodies. Because ELISA can be quantitative, meaning you can determine how many antibodies are present in a sample, it can also be used to determine how strong the immune response is and how long the antibodies last after an infection or vaccination."
+                },
+
+                {
+                  "type": "Plain",
+                  "text": "<span class='citation'><sup class='bodysubscript'>1</sup>Gdoura, M., Ghaloum, F. B., Hamida, M. B., Chamsa, W., Triki, H., & Bahloul, C. (2022). Development of an in-house quantitative Elisa for the evaluation of different covid-19 vaccines in humans. <span class='bodyFontItalic'>Scientific Reports,</span> 12(1). <br/><span style='word-break: break-all'>https://doi.org/10.1038/s41598-022-15378-1</span></span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Microbiology/580784/580784_Microbio_whyShouldICare.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "desc": "Lettuce growing in a plastic trough in a hydroponic greenhouse.",
+                  "altText": "A vial of mRNA vaccine for the SARS-CoV-2 virus."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The body employs several means to defend itself from <button class='glossary-text'>pathogens</button> (disease-causing microbes). The first component of the body’s defense system comprises the skin and other epithelial tissues, such as mucous membranes. These tissues keep pathogens from entering the body, thus preventing them from causing harm. Should this first layer of defense be breached, either by ingestion of a pathogen or as the result of a wound that enables a pathogen to enter the body, the second layer of defense is encountered."
+                },
+                {
+                  "type": "Plain",
+                  "text": "This second layer of defense is known as the <button class='glossary-text'>non-specific immune response</button>. One of the first reactions of the body to pathogen entry is to increase the temperature at the infection site. Most pathogens have enzymes that function best at normal body temperature; elevated temperatures impair their function and hinder microbial metabolism. Chemicals released from damaged tissue attract certain white blood cells(neutrophils and macrophages) that engulf the microbes in a process called phagocytosis. Should this non-specific response be unable to eliminate the pathogen, a third defensive component known as the <button class='glossary-text'>specific immune response</button> will be activated."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Pathogenic microorganisms have specific proteins on their outer surface called <button class='glossary-text'>antigens</button> (short for “antibody generators”). The body recognizes antigens as not being part of the body and will therefore begin producing specific <button class='glossary-text'>antibodies</button> (also known as immunoglobulins) against these antigens. An antibody is a highly specific protein that typically only recognizes one particular antigen. Antibodies are present in body fluids, and are especially abundant in the non-cellular part of blood minus clotting factors, known as <button class='glossary-text'>serum</button>."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Antibodies</button> are large Y-shaped proteins (see Figure 1). The two “arms” of the antibody are capable of binding the specific antigen. The tip of each arm is characterized by a specific protein structure, the <button class='glossary-text'>paratope</button>. The paratope recognizes a unique protein sequence (or <button class='glossary-text'>epitope</button>) in the structure of the antigen and binds to it. This binding will only take place if the paratope is exactly complementary to the epitope in a process analogous to the key/lock principle. In the same way that one key will only fit properly in one lock, so one paratope will recognize and bind to only one epitope. In this way, the pathogen is recognized by the immune system and targeted for elimination."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Microbiology/580784/580784_Microbio_fig_001.svg",
+                  "imgDivWidth": "340px",
+                  "scrollImg": true,
+                  "desc": "Figure 1: Diagram showing an immunoglobulin (or antibody) and its composition of two heavy chains and two light chains",
+                  "altText": "Figure 1: Diagram showing an immunoglobulin (or antibody) and its composition of two heavy chains and two light chains",
+                  "maxWidth": "420px"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What are immunoglobulins?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "They are specific antibodies.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "They are specific antigens.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "They are a type of microbe.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "They are the products of an ELISA.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "They are the products of a non-specific immune response.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The body recognizes antigens as not being part of the body and will therefore begin producing specific antibodies, or immunoglobulins, against these antigens."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What do antibodies recognize on the surface of pathogenic microorganisms? ",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "antigens",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "antibodies",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "DNA",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "ELISA",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "phospholipids",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Pathogenic microorganisms have specific proteins on their outer surface called antigens (short for “antibody generators”)."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Antibodies are present in body fluids and are especially abundant in the non-cellular part of blood minus clotting factors, known as serum.  Antibodies are large Y-shaped proteins. The two “arms” of the antibody can bind the specific antigen. The tip of each arm is characterized by a specific protein structure, the paratope. The paratope recognizes a unique protein sequence (or epitope) in the structure of the antigen and binds to it. This binding will only take place if the paratope is exactly complementary to the epitope in a process analogous to the key/lock principle. In the same way that one key will only fit properly in one lock, so one paratope will recognize and bind to only one epitope. In this way, the pathogen is recognized by the immune system and targeted for elimination.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Microbiology/580784/580784_Microbio_fig_001.svg",
+                      "alt": "Figure 1: Diagram showing an immunoglobulin (or antibody) and its composition of two heavy chains and two light chains",
+                      "maxWidth": "320px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "Antibodies are present in body fluids and are especially abundant in the non-cellular part of blood minus clotting factors, known as serum.  Antibodies are large Y-shaped proteins. The two “arms” of the antibody can bind the specific antigen. The tip of each arm is characterized by a specific protein structure, the paratope. The paratope recognizes a unique protein sequence (or epitope) in the structure of the antigen and binds to it. This binding will only take place if the paratope is exactly complementary to the epitope in a process analogous to the key/lock principle. In the same way that one key will only fit properly in one lock, so one paratope will recognize and bind to only one epitope. In this way, the pathogen is recognized by the immune system and targeted for elimination.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Microbiology/580784/580784_Microbio_fig_001.svg",
+                      "alt": "Figure 1: Diagram showing an immunoglobulin (or antibody) and its composition of two heavy chains and two light chains",
+                      "maxWidth": "320px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The principle of the <button class='glossary-text'>specific immune response</button> has been modified for use as a diagnostic tool both in research and in healthcare known as <button class='glossary-text'>Enzyme-linked immunosorbent assay</button>, or <button class='glossary-text'>ELISA</button>. There are actually two main types of ELISA: <button class='glossary-text'>direct ELISA</button> and <button class='glossary-text'>indirect ELISA</button>. Direct ELISA tests for the presence of a specific antigen in a patient’s blood <button class='glossary-text'>serum</button>. Indirect ELISA is used to detect a specific antibody in a patient’s blood serum. This investigation simulates the indirect ELISA technique commonly used to detect infection by a number of <button class='glossary-text'>pathogens</button>, such as the human immunodeficiency, West Nile, and influenza viruses; and the bacteria that cause Lyme disease and tuberculosis."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Microbiology/580784/580784_Microbio_fig_002.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "520px",
+                  "scrollImg": true,
+                  "maxWidth": "650px",
+                  "disc": "Figure 2: Diagram of an indirect ELISA with a positive result for the presence of a specific antibody.",
+                  "altText": "Figure 2: Diagram of an indirect ELISA with a positive result for the presence of a specific antibody."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Figure 2 depicts an <button class='glossary-text'>indirect ELISA</button> with a positive test result. In step a, a purified sample of a known antigen is added to the wells of a plastic microtiter plate. This antigen may be purified from the pathogen itself, or produced by genetic engineering. The antigen molecules bind to the bottom of each well. In step b, blood <button class='glossary-text'>serum</button> from the patient (or patients) being tested is added to the wells. If the serum samples contain <button class='glossary-text'>antibodies</button> against the known antigen molecules, then tightly-bound <button class='glossary-text'>antigen-serum antibody complexes</button> will form. Because the antibodies in the patient’s serum bind directly to the <button class='glossary-text'>antigens</button>, they are known as <button class='glossary-text'>primary antibodies</button>. In step c, a <button class='glossary-text'>secondary antibody</button> is added, which binds to the primary antibody. Notice that an enzyme is <button class='glossary-text'>conjugated</button>(attached) to the part of the secondary antibody that is not bound to the primary antibody. In step d, a <button class='glossary-text'>chromogen</button> substrate—a molecule that changes color upon interaction with the enzyme conjugated to the secondary antibody—is added. The enzyme-induced color change will only occur if the patient blood serum contained antibodies against the known antigen introduced at the outset of the <button class='glossary-text'>ELISA</button>. If no color change occurs, this is an indication that either the patient has not been infected by the microbe that was the source of the specific antigen, or that the infection is so recent that the patient has not yet produced a detectable amount of antibody molecules. "
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "When performing an actual <button class='glossary-text'>ELISA</button>, the wells are washed with a buffer solution between each step in order to remove unbound antigen and antibody molecules. In this simulation, the ELISA technique will be used only to detect the presence of “<button class='glossary-text'>antibodies</button>” indicating the occurrence of “infection.” As no quantitative results are needed, there is no need to wash away the excess of sample material. If there is no simulated antibody present, no color change will occur."
+                },
+                {
+                  "type": "Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Microbiology/580784/580784_Microbio_VideoIcone_1.svg",
+                  "desc": "Indirect ELISA",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6328607942112"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What would you expect to see if the results of an ELISA were positive?  ",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "a color change",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "a pH change",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "unbound antigen",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "unbound antibodies",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "high viral titers",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The enzyme-induced color change will only occur if the patient blood serum contained antibodies against the known antigen introduced at the outset of the ELISA."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What would you expect to see if the results of an ELISA were negative? ",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "no color change",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "no pH change",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "unbound antigen",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "unbound antibodies",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "low viral titers",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "If there is no antibody present, no color change will occur as a result of the ELISA."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Antibodies are proteins produced by the body in response to the presence of specific foreign molecules, especially proteins. This reaction to foreign molecules is called antibody-mediated immunity, and it is the basis of a technique known as enzyme-linked immunosorbent assay, or ELISA. The purpose of an ELISA is to determine if a particular protein is present in a sample. Besides being used to detect the presence of a protein, an ELISA can also be used to determine the quantity of a protein. In this investigation, you will only determine if a certain protein is present in a sample. This investigation simulates the indirect ELISA technique commonly used to detect infection by viral pathogens (such as the HIV, West Nile, and influenza viruses) and bacterial pathogens (such as those that cause Lyme disease and tuberculosis).",
+                  "img": [
+                    {
+                      "src": "courses_2023/Microbiology/580784/580784_Microbio_fig_002.svg",
+                      "alt": "Figure 2: Diagram of an indirect ELISA with a positive result for the presence of a specific antibody.",
+                      "maxWidth": "500px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "Antibodies are proteins produced by the body in response to the presence of specific foreign molecules, especially proteins. This reaction to foreign molecules is called antibody-mediated immunity, and it is the basis of a technique known as enzyme-linked immunosorbent assay, or ELISA. The purpose of an ELISA is to determine if a particular protein is present in a sample. Besides being used to detect the presence of a protein, an ELISA can also be used to determine the quantity of a protein. In this investigation, you will only determine if a certain protein is present in a sample. This investigation simulates the indirect ELISA technique commonly used to detect infection by viral pathogens (such as the HIV, West Nile, and influenza viruses) and bacterial pathogens (such as those that cause Lyme disease and tuberculosis).",
+                  "img": [
+                    {
+                      "src": "courses_2023/Microbiology/580784/580784_Microbio_fig_002.svg",
+                      "alt": "Figure 2: Diagram of an indirect ELISA with a positive result for the presence of a specific antibody.",
+                      "maxWidth": "500px"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "desc": "A map describing the procedural workflow of this investigation. To prepare, thaw the frozen materials. When you begin the activity, you will first add simulated antigen to microtiter plate wells. Then, you will add the positive and negative controls to the assigned wells. Next, you will add the patient sample from patients A-F to the assigned wells. Then, you will add the simulated secondary antibody and chromogen to the plate wells. Next, you will incubate the plate for 5-10 minutes at room temperature and observe each well for a color change. If the well changes from green to purple, record a positive result for the well. If the color does not change, record a negative result.",
+                  "altText": "A map describing the procedural workflow of this investigation. To prepare, thaw the frozen materials. When you begin the activity, you will first add simulated antigen to microtiter plate wells. Then, you will add the positive and negative controls to the assigned wells. Next, you will add the patient sample from patients A-F to the assigned wells. Then, you will add the simulated secondary antibody and chromogen to the plate wells. Next, you will incubate the plate for 5-10 minutes at room temperature and observe each well for a color change. If the well changes from green to purple, record a positive result for the well. If the color does not change, record a negative result.",
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "imgDivWidth": "96%",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Microbiology/580784/580784_Microbio_ED_001.svg",
+                  "maxWidth": "1600px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "98%",
+                    "L": "98%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the investigation set",
+                      "content": [
+                        {
+                          "type": "Box",
+                          "text": "<span class='bodyFontBold'>Note:</span> Upon receipt, store samples A–F and the positive and negative controls in a freezer (approximately −20° C). If a freezer is unavailable, these materials can be stored in a refrigerator (approximately 4° C) for up to 1 month. All other materials may be stored at room temperature (approximately 25° C)."
+                        },
+                        {
+                          "type": "Plain",
+                          "text": ""
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Simulated antigen, 1 mL",
+                          "image": "courses_2023/Microbiology/580784/580784_Microbio_material_1.svg",
+                          "altText": "Small plastic vial containing simulated antigen"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Simulated secondary antibody, 1 mL",
+                          "image": "courses_2023/Microbiology/580784/580784_Microbio_material_3.svg",
+                          "altText": "Small plastic vial containing simulated secondary antibody"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Simulated chromogen, 1 mL",
+                          "image": "courses_2023/Microbiology/580784/580784_Microbio_material_2.svg",
+                          "altText": "Small plastic vial containing simulated chromogen"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Simulated patient sample A, 1 mL",
+                          "image": "courses_2023/Microbiology/580784/580784_Microbio_material_4.svg",
+                          "altText": "Small plastic vial containing simulated patient sample A"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Simulated patient sample B, 1 mL",
+                          "image": "courses_2023/Microbiology/580784/580784_Microbio_material_5.svg",
+                          "altText": "Small plastic vial containing simulated patient sample B"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Simulated patient sample C, 1 mL",
+                          "image": "courses_2023/Microbiology/580784/580784_Microbio_material_6.svg",
+                          "altText": "Small plastic vial containing simulated patient sample C"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Simulated patient sample D, 1 mL",
+                          "image": "courses_2023/Microbiology/580784/580784_Microbio_material_7.svg",
+                          "altText": "Small plastic vial containing simulated patient sample D"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Simulated patient sample E, 1 mL",
+                          "image": "courses_2023/Microbiology/580784/580784_Microbio_material_8.svg",
+                          "altText": "Small plastic vial containing simulated patient sample E"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Simulated patient sample F, 1 mL",
+                          "image": "courses_2023/Microbiology/580784/580784_Microbio_material_9.svg",
+                          "altText": "Small plastic vial containing simulated patient sample F"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Positive control, 1 mL",
+                          "image": "courses_2023/Microbiology/580784/580784_Microbio_material_10.svg",
+                          "altText": "Small plastic vial containing positive control."
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Negative control, 1 mL",
+                          "image": "courses_2023/Microbiology/580784/580784_Microbio_material_11.svg",
+                          "altText": "Small plastic vial containing negative control"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "11 Needle-point pipettes",
+                          "image": "courses_2023/Microbiology/580784/580784_Microbio_material_12.svg",
+                          "altText": "Plastic pipette with slender, needle-like tip"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Microtiter plate",
+                          "image": "courses_2023/Microbiology/580784/580784_Microbio_material_13.svg",
+                          "altText": "Plastic microtiter plate"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [
+                            "Digital camera or mobile device capable of taking photos",
+                            "Sheet of white paper"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span><span className=bodyParaLineBreak></span>Replacement materials for the ELISA Simulation, item number 580784, can be ordered from Carolina Biological Supply Company.<span className=bodyParaLineBreak></span></span><span className=bodyMediumSubHeading>Call:</span> 866-332-4478 to order."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "isCheckPoint": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "This investigation requires protective eyewear, gloves, and a lab apron or lab coat."
+                },
+                {
+                  "type": "Image",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "image": "core/Key_PPE.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "430px",
+                  "maxWidth": "500px"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Read all the instructions for this laboratory activity before beginning. Follow the instructions closely and observe established laboratory safety practices, including the use of appropriate personal protective equipment (PPE) as described in the Safety and Procedure sections."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Refer to your instructions and video on safe practices in the microbiology laboratory before beginning this investigation."
+                },
+                {
+                  "type": "Video",
+                  "containerType": "rightContainer",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Microbiology/580784/580784_Microbio_VideoIcone_2.svg",
+                  "desc": "Proper Handwashing Technique",
+                  "url": "http://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4573433731001"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "A disease-causing agent produces Antigen X which is recognized by Antibody Y. Which of the following is the portion of Antibody Y that binds to Antigen X?",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "paratope",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "epitope",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "serum",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "chromogen",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "ELISA",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Dr. Richey suspects that a sick patient is infected with a virus. To confirm her diagnosis, Dr. Richey wishes to test her patient’s blood for the presence of the virus and its antigens. Which of the following is the test Dr. Richey should use?",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "direct ELISA",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "indirect ELISA",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "specific immune response",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "non-specific immune response",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "antigen-serum antibody complex",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following lists the correct order of substances added to the wells of a typical indirect ELISA? Wash buffer is not included in these lists.",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "antigen, patient serum, secondary antibody with conjugated enzyme, chromogen",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "patient serum, secondary antibody, antigen with conjugated enzyme, chromogen",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "chromogen, primary antibody with conjugated enzyme, secondary antibody, antigen",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "secondary antibody with conjugated enzyme, antigen, primary antibody, chromogen",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "antigen, primary antibody with conjugated enzyme, patient serum, chromogen",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following could reasonably cause a false negative result in an indirect ELISA?",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The infection is so recent that the patient has not yet produced a detectable number of antibodies.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The patient serum contains antibodies against the known antigen used in the assay.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The patient has not been exposed to a pathogen featuring the known antigen used in the assay.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The patient serum contains enzymes that react with the chromogen used in the assay.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The wells of the assay were not thoroughly washed between steps.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Antibodies are produced in the body by which of the following?",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "a specific immune response",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "a non-specific immune response",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "antigen-serum antibody complexes",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "chromogen",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "serum",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following materials in this investigation will you find stored in your fridge or freezer?",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "the simulated patient samples, and the positive and negative controls",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "the simulated patient samples only",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "the simulated antigen, simulated secondary antibody, and simulated chromogen",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "the simulated antigen only",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "the simulated antigen and simulated secondary antibody",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is a special safety hazard associated with this investigation?",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "There are no special safety concerns.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The positive control contains human body fluids.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The simulated chromogen is a corrosive material.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The simulated patient samples are toxic if inhaled.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The simulated antigen is highly flammable.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "“ELISA” stands for which of the following?",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "enzyme-linked immunosorbent assay",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "energy-localized immune system antibody",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "enzyme-ligated immunosuppressive antigen",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "epitope-linked immune-specific assay",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "epitope-lengthening immune support antibody",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation",
+              "pageTitle": "Preparation (4 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure",
+              "keyID": "preparation",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Clean the work area."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Assemble all necessary materials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "If the samples have been stored in a freezer, allow them to thaw at room temperature for approximately 30 minutes before use."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Put on PPE."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Microbiology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will simulate an indirect <button class='glossary-text'>enzyme-linked immunosorbent assay (ELISA)</button> using simulated patient samples to test for the presence of disease <button class='glossary-text'>antibodies</button>."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Activity 1",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;ELISA Simulation (13 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity1",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the microtiter plate on a level surface."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using a pipette, carefully add 3 drops of simulated antigen to each well in rows A and B of the microtiter plate. Make sure to place the drops in the bottom of the well and consistently on one side of the well. Do not use this pipette for any of the other steps."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "For each of the following steps 4–11, make sure to consistently add the drops on the opposite side of the well from the drops of simulated antigen. Refer to Figure 3 to see how the controls and samples should be distributed."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using a new pipette, add 3 drops of the positive control to wells A1, A2, and A3."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using a new pipette, add 3 drops of the negative control to wells A4, A5, and A6."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using a new pipette, add 3 drops of Patient A sample to wells A7, A8, and A9."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using a new pipette, add 3 drops of Patient B sample to wells A10, A11, and A12."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using a new pipette, add 3 drops of Patient C sample to wells B1, B2, and B3."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using a new pipette, add 3 drops of Patient D sample to wells B4, B5, and B6.10"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using a new pipette, add 3 drops of Patient E sample to wells B7, B8, and B9."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using a new pipette, add 3 drops of Patient F sample to wells B10, B11, and B12."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Take a new pipette, and, without allowing the pipette to touch any of the liquid in the wells, add 3 drops of simulated <button class='glossary-text'>secondary antibody</button> to each well in rows A and B."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Take a new pipette, and without allowing the pipette to touch any of the liquid in the wells, add 3 drops of simulated <button class='glossary-text'>chromogen</button> to each well in rows A and B. All of the wells should contain a light green liquid at this point."
+                  },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": "courses_2023/Microbiology/580784/580784_Microbio_fig_003.svg",
+                    "imgDivWidth": "440px",
+                    "scrollImg": true,
+                    "maxWidth": "550px",
+                    "desc": "Figure 3: Diagram showing two rows (labeled A and B) and 12 columns (numbered 1 through 12) of a microtiter plate, and the contents of each well: positive and negative controls, and patient samples A through F.",
+                    "altText": "Figure 3: Diagram showing two rows (labeled A and B) and 12 columns (numbered 1 through 12) of a microtiter plate, and the contents of each well: positive and negative controls, and patient samples A through F."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Incubation and Observations",
+      "menuIcon": "core/Microbiology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Incubation and Observations",
+          "pages": [
+            {
+              "title": "Extension Activity",
+              "pageTitle": "Incubation and Observations (3 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure",
+              "keyID": "incubationactivity",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Incubate the microtiter plate at room temperature for 5–10 minutes. A color change from green to purple indicates a positive result. Placing the plate on a white sheet of paper will make it easier to see the color change occur.",
+                    "image": "core/Clock.svg",
+                    "desc": "stopwatch symbol",
+                    "altText": "stopwatch symbol",
+                    "imgWidth": "4.5%"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "imgWidth": "5%",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol",
+                    "image": "core/Camera-icon.svg",
+                    "text": "After incubation, take a picture of the plate."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the color changes in <span class=bodyFontBold>Data Table 1</span>. Note the intensity of the purple. Dark purple is indicative of a strong positive result, and light purple is indicative of a weak positive result. Green indicates a negative result."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "orderedType": "1",
+                  "listType": "ordered",
+                  "text": [
+                    "Since the investigation materials do not include real <button class='glossary-text'>serum</button> samples or <button class='glossary-text'>antibodies</button>, no disinfection is required for disposal. Simply rinse the sample containers, microtiter plate, and pipettes with tap water, wrap them in an opaque plastic bag, and discard them in household trash.",
+                    "Clean the workspace with soap and water."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Microbiology_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "courses/580102/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "landscape A4"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable1",
+            "tag": "div",
+            "width": "1000px",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 1"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 3,
+                "sr": 0,
+                "header": [
+                  {
+                    "text": "Sample",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Color",
+                    "maxLength": 15,
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Test result",
+                    "maxLength": 15,
+                    "colWidth": "15%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Positive control"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Negative control"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Patient A"
+                    },
+                    {
+                      "type": "input",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Patient B"
+                    },
+                    {
+                      "type": "input",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Patient C"
+                    },
+                    {
+                      "type": "input",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Patient D"
+                    },
+                    {
+                      "type": "input",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Patient E"
+                    },
+                    {
+                      "type": "input",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Patient F"
+                    },
+                    {
+                      "type": "input",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Photo1",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Incubation and Observation Step 2",
+                "text": "Insert a photo of your well plate. The plate should be oriented the same way as Figure 3."
+              },
+              {
+                "type": "UploadFiles",
+                "maxHeight": "400px",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": ["Question1", "Question2"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": ["Why did you analyze samples in triplicate?"]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "2",
+                "listType": "ordered",
+                "text": [
+                  "Did all the positive results look the same when compared to one another and to the positive control? Explain how such results may have come about."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 1,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question3",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "3",
+                "listType": "ordered",
+                "text": [
+                  "Why was it important to allow all the investigation materials to assume room temperature before beginning the experiment?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question3",
+                "sr": 1,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6332739410112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Microbiology/580784/580784_Microbio_fig_001.svg",
+        "content": "Figure 1. Structure of an antibody",
+        "scrollImg": true,
+        "altText": "Figure 1: Diagram showing an immunoglobulin (or antibody) and its composition of two heavy chains and two light chains",
+        "maxWidth": "420px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Microbiology/580784/580784_Microbio_fig_002.svg",
+        "content": "Figure 2. Indirect ELISA with a positive test result",
+        "scrollImg": true,
+        "altText": "Figure 2: Diagram of an indirect ELISA with a positive result for the presence of a specific antibody.",
+        "maxWidth": "650px"
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6328607942112",
+        "content": "Indirect ELISA"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Microbiology/580784/580784_Microbio_ED_001.svg",
+        "content": "Experimental Design Diagram",
+        "scrollImg": true,
+        "altText": "A map describing the procedural workflow for this investigation. Before starting the activity, learn the parts and functions of the microscope, identify microscope accessories needed, and check your instructor’s directions. In the activity, you will prepare slides as assigned by your instructor, then observe the prepared microscope slides and sketch or photograph your observations.",
+        "maxWidth": "1600px"
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "http://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4573433731001",
+        "content": "Proper Handwashing Technique"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Microbiology/580784/580784_Microbio_fig_003.svg",
+        "content": "Figure 3. Microtiter plate contents",
+        "scrollImg": true,
+        "altText": "Figure 3: Diagram showing two rows (labeled A and B) and 12 columns (numbered 1 through 12) of a microtiter plate, and the contents of each well: positive and negative controls, and patient samples A through F.",
+        "maxWidth": "540px"
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Antibodies",
+        "content": "Highly specific proteins generated by the immune system that recognize only one particular antigen each"
+      },
+      {
+        "title": "Antigens",
+        "content": "Molecules on the outer surfaces of cells and disease-causing agents; short for \"antibody generators\""
+      },
+      {
+        "title": "Antigen-serum antibody complexes",
+        "content": "The structures that form when antibodies in a patient blood serum bind to the known antigen in the wells of an indirect ELISA"
+      },
+      {
+        "title": "Chromogen",
+        "content": "A substance which can be easily converted into a dye or other colored compound"
+      },
+      {
+        "title": "Conjugated",
+        "content": "attached"
+      },
+      {
+        "title": "Direct ELISA",
+        "content": "An ELISA that tests for the presence of a specific antigen in a patient’s blood serum"
+      },
+      {
+        "title": "Enzyme-linked immunosorbent assay (ELISA)",
+        "content": "A diagnostic tool based on the principle of the specific immune response"
+      },
+      {
+        "title": "Epitope",
+        "content": "A unique protein sequence in the structure of an antigen to which an antibody can bind"
+      },
+      {
+        "title": "Indirect ELISA",
+        "content": "An ELISA that tests for a specific antibody in a patient’s blood serum"
+      },
+      {
+        "title": "Non-specific immune response",
+        "content": "A type of response by the immune system that protects against all antigens and is the first line of defense against pathogens; also called innate immune response"
+      },
+      {
+        "title": "Paratope",
+        "content": "The specific protein structure at the tip of each arm of an antibody; it recognizes a unique sequence in the structure of an antigen and binds to it"
+      },
+      {
+        "title": "Pathogens",
+        "content": "Microbes that cause disease"
+      },
+      {
+        "title": "Primary antibody",
+        "content": "An antibody that specifically binds to the antigen in the wells of an ELISA"
+      },
+      {
+        "title": "Secondary antibody",
+        "content": "An antibody that specifically binds to the primary antibodies that remain bound to the antigen in the wells of an ELISA"
+      },
+      {
+        "title": "Specific immune response",
+        "content": "A type of response by the immune system composed of specialized systemic cells and processes that eliminate pathogens; also called acquired immune response"
+      },
+      {
+        "title": "Serum",
+        "content": "The liquid component of blood which does not contain blood cells or clotting factors"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

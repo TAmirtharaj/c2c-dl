@@ -1,0 +1,77 @@
+/** @format */
+
+.resource-wrapper {
+  height: auto;
+  min-height: 48px;
+  margin-left: 8px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  font-size: 13px;
+  font-family: "HelveticaNeueLTStdMd65";
+  border-bottom: 1px solid rgb(255, 255, 255, 0.6);
+  z-index: 1;
+  align-items: center;
+}
+
+.resource-button {
+  width: calc(100% - 8px);
+  /* height: 100%; */
+  height:calc(100% - 8px);
+  position: absolute;
+  border: 0;
+  /* background-color: #0062b8; */
+  background-color: transparent;
+  margin: 0 0 0 4px ;
+}
+.resource-image-wrapper {
+  margin: 10px;
+}
+.resource-content-wrapper {
+  text-align: left;
+  color: #0062b8;
+  height: 80%;
+  margin-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+}
+.resource-sidebar-content {
+  height: 87%;
+  overflow: auto;
+
+}
+.resource-sidebar-content-wrapper {
+  width: 95%;
+  margin: 4px 0 0 0;
+}
+.inner-resource-wrapper {
+  position: relative;
+  margin-left: -8px;
+  display: flex;
+  align-items: center;
+  width:100%
+}
+
+/* Landscape iPad Normal*/
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-max-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* Portrait iPad Normal*/
+@media only screen and (min-width: 768px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-max-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Mobile Potrait */
+@media only screen and (min-device-width: 275px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .resource-sidebar-content {
+    height: 85%;
+    overflow: auto;
+  }
+}
+
+/* Mobile Landscape */
+@media only screen and (min-device-width: 300px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .resource-sidebar-content {
+    height: 75%;
+    overflow: auto;
+  }
+}

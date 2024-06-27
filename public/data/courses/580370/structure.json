@@ -1,0 +1,3271 @@
+{
+  "locked": true,
+  "courseTitle": "Electrochemistry",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg",
+      "altText":"Carolina Distance Learning Logo"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",        
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Chemistry_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Chemistry",
+                "titleName2": "Electrochemistry",
+                "images": {
+                  "launchPage": "core/Chemistry_launchPageBg.svg",
+                  "logo": "core/Chemistry_subject_icon.svg",
+                  "altText":"Stylized image of beakers, flasks, test tubes, and the periodic table"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "waterMark": true,
+              "template": "OverView",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "infoPopUp":"resource",
+              "pageData": [
+
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, students will determine the electrochemical potentials of different chemical cells. Students will calculate voltage differences and observe how the concentration of solutions affects the potential."
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "title": " Needed but not supplied:",
+                  "text": ["Bottled water",
+                  "Permanent marker","Scissors"
+                ]
+                },
+                {
+                  "type": "Image",
+                  "title":"Time Requirements",
+				          "altText":"Preparation – 5 minutes \nActivity 1 – 20 minutes \nActivity 2 – 45 minutes",
+                  "image": "courses/580370/580370_TimeRequirement.svg",
+                  "imgDivWidth": "375px",
+                  "maxWidth":"500px"
+                },
+                {
+                  "type": "Video",
+                  "containerType": "rightContainer",
+                  "width": "100%",
+                  "imgDivWidth": "200px",
+                  "desc": "Overview Video: Electrochemistry",
+                  "image":"courses/580370/580370_VideoIcone.svg",
+                  "url":"https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6298837577001 "
+                }
+              ]
+            }
+            
+          ]
+        },
+
+
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "title": "Outcomes",
+                  "type": "List",
+                  "text": [
+                    "Calculate voltage using half-cell <button className=glossary-text>reduction</button> reactions.",
+                    "Use Nernst’s equation to calculate voltage under nonstandard conditions."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "430px",
+                  "altText": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "430px",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "430px",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Albert Einstein was the first to describe the photoelectric effects which states that when light of a sufficient wavelength hits a metal surface, it can eject electrons from that surface. In a photoelectric sensor, commonly used in automatic doors, a beam of infrared light is emitted across the door’s threshold and received on a metal target. As the light hits the target, the metal is ejecting electrons which creates an electric current. As soon as we approach an automatic door with these components, we interrupt the beam of light, causing the metal to stop generating an electrical current. This triggers a mechanism that opens the doors until sufficient electric current is regained from the light beam being uninterrupted again. "
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='citation'><sup class ='bodysubscript'>1</sup>Social distancing Trader Joes line 2.jpg by dn & wp is available under CC BY 2.0 license at <br> https://commons.wikimedia.org/wiki/File:Social_distancing_Trader_Joes_line_2.jpg  </span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580370/580370_whyShouldICare.svg",
+                  "desc": "Customers entering a store through automatic sliding doors..",
+                  "altText": "Customers entering a store through automatic sliding doors.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "80%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp":"resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "We have come to depend, in many ways, on batteries and the energy they provide through electrochemical reactions. As with most technologies, batteries are continuously being refined. An early battery, the “Voltaic pile,” invented by Allesandro Volta in 1800, was a stack of alternating zinc and silver disks separated by pieces of saltwatersoaked cloth. A later type, known as the Daniell cell, contained a copper electrode covered in copper sulfate solution and a zinc electrode covered in zinc sulfate. Before the invention of the electric generator in 1870, wet cells, such as the Daniell cell, were used to power telegraphs, doorbells, and railway signaling systems."
+                },
+                
+                {
+                  "type": "Plain",
+                  "text": "Despite the near universal availability of electricity from power plants, batteries continue to offer advantages, mainly due to their portability and lack of moving parts. Since the invention of dry cells, in which pastes replace the liquid electrolytes, batteries have become small enough to power phones, hearing aids, pacemakers, and countless other everyday devices."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "A battery’s conversion of chemical energy to electrical energy continues until one of the chemicals or one of the electrodes is consumed. Atoms, ions, and molecules are characterized by the ability to gain outer-shell electrons. This process is called “<button className=glossary-text>reduction</button>.” Species that are more likely to gain electrons will have a higher <button className=glossary-text>reduction potential</button>, which is indicated by a greater number <span style='whiteSpace: nowrap'>(<button className=resource-text>Table 1</button>).</span>"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp":"resource",
+              "template": "ExperimentalDesign",
+              "containerType": "fullContainer",
+              "pageData": [
+                
+                {
+                  "type": "DataTable",
+                  "title": "Table 1.",
+                  "tableHeight": "1.5",
+                  "tableWidth":"34em",
+                  "scrollImg": true,
+                  "maxLength": 20,
+                  "sr": 12,
+                  "allowClick": true,
+                  
+                  
+                  "header": [
+                    {"text":"Atom or Ion","colWidth":"10%"},
+                    {"text":"Reduction Half-Reaction","colWidth":"26%"},
+                    {"text":"Potential, E<sub class=bodySubscript>0</sub> (V)","colWidth":"15%",
+                    "hoverText":"Potential, E0 (V)" },
+                    {"text":"Reactivity","colWidth":"25%"}
+                    
+                  ],
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Li"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Li<sup className=bodySupscript>+</sup> + e<sup className=bodySupscript>-</sup> → Li",
+                        "hoverText":"Li + e → Li " 
+                      },
+                      {
+                        "type": "text",
+                        "text": "-3.05"
+                      },
+                      {
+                        "type": "text",
+                        "text": "be more easily oxidized (i.e., it will lose its electrons more easily)",
+                        "rowspan":6
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Na"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Na<sup className=bodySupscript>+</sup> + e<sup className=bodySupscript>-</sup> → Na",
+                        "hoverText":"Na+ + e– → Na"
+                      },
+                      {
+                        "type": "text",
+                        "text": "-2.71"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Al"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Al<sup className=bodySupscript>3+</sup> + 3 e<sup className=bodySupscript>-</sup> → Al", 
+                        "hoverText":"Al3+ + 3 e– → Al"
+                      },
+                      {
+                        "type": "text",
+                        "text": "-1.66"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Zn"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Zn<sup className=bodySupscript>2+</sup> + 2 e<sup className=bodySupscript>-</sup> → Zn", 
+                        "hoverText":"Zn2+ + 2 e– → Zn"
+                      },
+                      {
+                        "type": "text",
+                        "text": "-0.76"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Fe"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Fe<sup className=bodySupscript>2+</sup> + 2 e<sup className=bodySupscript>-</sup> → Fe", 
+                        "hoverText":"Fe2+ + 2 e– → Fe"
+                      },
+                      {
+                        "type": "text",
+                        "text": "-0.44"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Ni"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Ni<sup className=bodySupscript>2+</sup> + 2 e<sup className=bodySupscript>-</sup> → Ni", 
+                        "hoverText":"Ni2+ + 2 e– → Ni"
+                      },
+                      {
+                        "type": "text",
+                        "text": "-0.28"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "H<sub className=bodySubscript>2</sub> (g)", 
+                        "hoverText":"H2(g)"
+                      },
+                      {
+                        "type": "text",
+                        "text": "2H<sup className=bodySupscript>+</sup> + 2 e<sup className=bodySupscript>-</sup> → H<sub className=bodySubscript>2</sub>(g)", 
+                        "hoverText":"2H+ + 2 e– → H2(g)"
+                      },
+                      {
+                        "type": "text",
+                        "text": "0"
+                      },
+                      {
+                        "type":"text",
+                        "text":"" 
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Cu"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Cu<sup className=bodySupscript>2+</sup> + 2 e<sup className=bodySupscript>-</sup> → Cu",
+                         "hoverText":"Cu2+ + 2 e– → Cu"
+                      },
+                      {
+                        "type": "text",
+                        "text": "0.34"
+                      },
+                      {
+                        "type":"text",
+                        "text":"be reduced more easily (gain electrons)",
+                        "rowspan":6
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "I-", 
+                        "hoverText":"I-"
+                      },
+                      {
+                        "type": "text",
+                        "text": "I<sub className=bodySubscript>2</sub> (s) + 2 e<sup className=bodySupscript>-</sup> → 2 I<sup className=bodySupscript>-</sup>", 
+                        "hoverText":"I2 (s) + 2 e– → 2 I–"
+                      },
+                      {
+                        "type": "text",
+                        "text": "0.54"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Fe<sup className=bodySupscript>2+</sup>", 
+                        "hoverText":"Fe2+"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Fe<sup className=bodySupscript>3+</sup> + e<sup className=bodySupscript>-</sup> → Fe<sup className=bodySupscript>2+</sup>",
+                         "hoverText":"Fe3+ + e– → Fe2+"
+                      },
+                      {
+                        "type": "text",
+                        "text": "0.77"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Ag"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Ag<sup className=bodySupscript>+</sup> + e<sup className=bodySupscript>-</sup> → Ag", 
+                        "hoverText":"Ag+ + e– → Ag"
+                      },
+                      {
+                        "type": "text",
+                        "text": "0.80"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Br<sup className=bodySupscript>-</sup>", 
+                        "hoverText":"Br-"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Br<sub className=bodySubscript>2</sub> (l) + 2 e<sup className=bodySupscript>-</sup> → 2 Br<sup className=bodySupscript>-</sup>", 
+                        "hoverText":"Br2 (l) + 2 e– → 2 Br–"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1.06"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Cl<sup className=bodySupscript>-</sup>", 
+                        "hoverText":"Cl-"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Cl<sub className=bodySubscript>2</sub> (g) + 2 e<sup className=bodySupscript>-</sup> → 2 Cl<sup className=bodySupscript>-</sup>", 
+                        "hoverText":"Cl2 (g) + 2 e– → 2 Cl–"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1.36"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "F<sup className=bodySupscript>-</sup>", 
+                        "hoverText":"F–"
+                      },
+                      {
+                        "type": "text",
+                        "text": "F<sub className=bodySubscript>2</sub> (g) + 2 e<sub className=bodySubscript>-</sub> → 2 F<sup className=bodySupscript>-</sup>", 
+                        "hoverText":"F2 (g) + 2 e– → 2 F–"
+                      },
+                      {
+                        "type": "text",
+                        "text": "2.87"
+                      },
+                      {
+                        "type":"text",
+                        "text":""
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp":"resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button className=glossary-text>Voltaic cells</button> (also known as <button className=glossary-text>galvanic cells</button>) are electrochemical cells that depend on spontaneous <button className=glossary-text>oxidation</button>-<button className=glossary-text>reduction</button> reactions. If both reactions occur in the same container, such as a strip of zinc in a solution of copper(II) sulfate, electrons will be transferred from the zinc strip (higher in the metal activity series) to the copper(II) ions in the solution, causing the copper ions to form copper atoms on the submerged zinc strip. The only energy produced is heat, indicated by a rise in temperature of the copper(II) sulfate solution. If these two reactions are separated into two containers (called “half-cells”), one for oxidation and one for reduction, electrons can be transferred through an external wire that connects both cells. To maintain a balance of charge in each container, the half-cells are connected with a salt bridge. The ions of the salt bridge neutralize the charge buildup in each container. If a load, such as a light bulb, is connected to the external circuit, the electrical energy produced from the redox reactions will power that load."
+                },
+                {
+                  "type":"Plain",
+                  "containerType": "rightContainer",
+                  "subTitle":" Watch the following video: A voltaic cell"
+                },
+                {
+                  "type": "Video",
+                  "containerType": "rightContainer",
+                  "image":"courses/580370/580370_VideoIcone_01.svg",
+                  "url":"https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6314682054112",
+                  "imgDivWidth": "200px",
+                  "desc": "A voltaic cell"
+                }
+              ] 
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 1",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which statement best describes the process of reduction? ",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "An atom gains an electron. ",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "An atom is lost in the reaction. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "An atom loses an electron. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The charge on the battery is reduced.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "An electron is lost into the solution. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Atoms, ions, and molecules can be characterized by their ability to gain outer-shell electrons. The process of an atom gaining an outer-shell electron is called reduction. "
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 1",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": " Which of the following values describes a species that is more likely to gain electrons? ",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "a high reduction potential ",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "a high oxidation potential ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "a low reduction potential ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "a reduction potential of zero ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "an oxidation potential of zero ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Species that are more likely to gain electrons will have a higher reduction potential."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "The process of an atom gaining an outer-shell electron is called reduction. Atoms, ions, and molecules can be characterized by this ability to gain electrons, which is described by their reduction potential (E<span className='bodySubscript'>0</span>); the higher the reduction potential, the more likely the species is to gain electrons. If an electron is gained, the overall charge on the species is lowered, or reduced, since electrons have a negative charge.",
+                  "dataTable":[
+                    {
+                      "type": "DataTable",
+                      "title": "Table 1.",
+                      "tableHeight": "1.5",
+                      "tableWidth":"34em",
+                      "scrollImg": true,
+                      "maxLength": 20,
+                      "sr": 12,
+                      "allowClick": true,
+                      
+                      
+                      "header": [
+                        {"text":"Atom or Ion","colWidth":"10%"},
+                        {"text":"Reduction Half-Reaction","colWidth":"26%"},
+                        {"text":"Potential, E<sub class=bodySubscript>0</sub> (V)","colWidth":"15%",
+                        "hoverText":"Potential, E0 (V)" },
+                        {"text":"Reactivity","colWidth":"25%"}
+                        
+                      ],
+                      "tableData": [
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Li"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Li<sup className=bodySupscript>+</sup> + e<sup className=bodySupscript>-</sup> → Li",
+                            "hoverText":"Li + e → Li " 
+                          },
+                          {
+                            "type": "text",
+                            "text": "-3.05"
+                          },
+                          {
+                            "type": "text",
+                            "text": "be more easily oxidized (i.e., it will lose its electrons more easily)",
+                            "rowspan":6
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Na"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Na<sup className=bodySupscript>+</sup> + e<sup className=bodySupscript>-</sup> → Na",
+                            "hoverText":"Na+ + e– → Na"
+                          },
+                          {
+                            "type": "text",
+                            "text": "-2.71"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Al"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Al<sup className=bodySupscript>3+</sup> + 3 e<sup className=bodySupscript>-</sup> → Al", 
+                            "hoverText":"Al3+ + 3 e– → Al"
+                          },
+                          {
+                            "type": "text",
+                            "text": "-1.66"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Zn"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Zn<sup className=bodySupscript>2+</sup> + 2 e<sup className=bodySupscript>-</sup> → Zn", 
+                            "hoverText":"Zn2+ + 2 e– → Zn"
+                          },
+                          {
+                            "type": "text",
+                            "text": "-0.76"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Fe"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Fe<sup className=bodySupscript>2+</sup> + 2 e<sup className=bodySupscript>-</sup> → Fe", 
+                            "hoverText":"Fe2+ + 2 e– → Fe"
+                          },
+                          {
+                            "type": "text",
+                            "text": "-0.44"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Ni"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Ni<sup className=bodySupscript>2+</sup> + 2 e<sup className=bodySupscript>-</sup> → Ni", 
+                            "hoverText":"Ni2+ + 2 e– → Ni"
+                          },
+                          {
+                            "type": "text",
+                            "text": "-0.28"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "H<sub className=bodySubscript>2</sub> (g)", 
+                            "hoverText":"H2(g)"
+                          },
+                          {
+                            "type": "text",
+                            "text": "2H<sup className=bodySupscript>+</sup> + 2 e<sup className=bodySupscript>-</sup> → H<sub className=bodySubscript>2</sub>(g)", 
+                            "hoverText":"2H+ + 2 e– → H2(g)"
+                          },
+                          {
+                            "type": "text",
+                            "text": "0"
+                          },
+                          {
+                            "type":"text",
+                            "text":"" 
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Cu"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Cu<sup className=bodySupscript>2+</sup> + 2 e<sup className=bodySupscript>-</sup> → Cu",
+                             "hoverText":"Cu2+ + 2 e– → Cu"
+                          },
+                          {
+                            "type": "text",
+                            "text": "0.34"
+                          },
+                          {
+                            "type":"text",
+                            "text":"be reduced more easily (gain electrons)",
+                            "rowspan":6
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "I-", 
+                            "hoverText":"I-"
+                          },
+                          {
+                            "type": "text",
+                            "text": "I<sub className=bodySubscript>2</sub> (s) + 2 e<sup className=bodySupscript>-</sup> → 2 I<sup className=bodySupscript>-</sup>", 
+                            "hoverText":"I2 (s) + 2 e– → 2 I–"
+                          },
+                          {
+                            "type": "text",
+                            "text": "0.54"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Fe<sup className=bodySupscript>2+</sup>", 
+                            "hoverText":"Fe2+"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Fe<sup className=bodySupscript>3+</sup> + e<sup className=bodySupscript>-</sup> → Fe<sup className=bodySupscript>2+</sup>",
+                             "hoverText":"Fe3+ + e– → Fe2+"
+                          },
+                          {
+                            "type": "text",
+                            "text": "0.77"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Ag"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Ag<sup className=bodySupscript>+</sup> + e<sup className=bodySupscript>-</sup> → Ag", 
+                            "hoverText":"Ag+ + e– → Ag"
+                          },
+                          {
+                            "type": "text",
+                            "text": "0.80"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Br<sup className=bodySupscript>-</sup>", 
+                            "hoverText":"Br-"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Br<sub className=bodySubscript>2</sub> (l) + 2 e<sup className=bodySupscript>-</sup> → 2 Br<sup className=bodySupscript>-</sup>", 
+                            "hoverText":"Br2 (l) + 2 e– → 2 Br–"
+                          },
+                          {
+                            "type": "text",
+                            "text": "1.06"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Cl<sup className=bodySupscript>-</sup>", 
+                            "hoverText":"Cl-"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Cl<sub className=bodySubscript>2</sub> (g) + 2 e<sup className=bodySupscript>-</sup> → 2 Cl<sup className=bodySupscript>-</sup>", 
+                            "hoverText":"Cl2 (g) + 2 e– → 2 Cl–"
+                          },
+                          {
+                            "type": "text",
+                            "text": "1.36"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "F<sup className=bodySupscript>-</sup>", 
+                            "hoverText":"F–"
+                          },
+                          {
+                            "type": "text",
+                            "text": "F<sub className=bodySubscript>2</sub> (g) + 2 e<sub className=bodySubscript>-</sub> → 2 F<sup className=bodySupscript>-</sup>", 
+                            "hoverText":"F2 (g) + 2 e– → 2 F–"
+                          },
+                          {
+                            "type": "text",
+                            "text": "2.87"
+                          },
+                          {
+                            "type":"text",
+                            "text":""
+                          }
+                        ]
+                      ]
+                    }
+                ]
+                  
+                  
+                },
+                {
+                  "title": "Hint",
+                  "body": "The process of an atom gaining an outer-shell electron is called reduction. Atoms, ions, and molecules can be characterized by this ability to gain electrons, which is described by their reduction potential (E<span className='bodySubscript'>0</span>); the higher the reduction potential, the more likely the species is to gain electrons. If an electron is gained, the overall charge on the species is lowered, or reduced, since electrons have a negative charge.",
+                  "dataTable":[
+                    {
+                      "type": "DataTable",
+                      "title": "Table 1.",
+                      "tableHeight": "1.5",
+                      "tableWidth":"34em",
+                      "scrollImg": true,
+                      "maxLength": 20,
+                      "sr": 12,
+                      "allowClick": true,
+                      
+                      
+                      "header": [
+                        {"text":"Atom or Ion","colWidth":"10%"},
+                        {"text":"Reduction Half-Reaction","colWidth":"26%"},
+                        {"text":"Potential, E<sub class=bodySubscript>0</sub> (V)","colWidth":"15%",
+                        "hoverText":"Potential, E0 (V)" },
+                        {"text":"Reactivity","colWidth":"25%"}
+                        
+                      ],
+                      "tableData": [
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Li"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Li<sup className=bodySupscript>+</sup> + e<sup className=bodySupscript>-</sup> → Li",
+                            "hoverText":"Li + e → Li " 
+                          },
+                          {
+                            "type": "text",
+                            "text": "-3.05"
+                          },
+                          {
+                            "type": "text",
+                            "text": "be more easily oxidized (i.e., it will lose its electrons more easily)",
+                            "rowspan":6
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Na"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Na<sup className=bodySupscript>+</sup> + e<sup className=bodySupscript>-</sup> → Na",
+                            "hoverText":"Na+ + e– → Na"
+                          },
+                          {
+                            "type": "text",
+                            "text": "-2.71"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Al"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Al<sup className=bodySupscript>3+</sup> + 3 e<sup className=bodySupscript>-</sup> → Al", 
+                            "hoverText":"Al3+ + 3 e– → Al"
+                          },
+                          {
+                            "type": "text",
+                            "text": "-1.66"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Zn"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Zn<sup className=bodySupscript>2+</sup> + 2 e<sup className=bodySupscript>-</sup> → Zn", 
+                            "hoverText":"Zn2+ + 2 e– → Zn"
+                          },
+                          {
+                            "type": "text",
+                            "text": "-0.76"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Fe"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Fe<sup className=bodySupscript>2+</sup> + 2 e<sup className=bodySupscript>-</sup> → Fe", 
+                            "hoverText":"Fe2+ + 2 e– → Fe"
+                          },
+                          {
+                            "type": "text",
+                            "text": "-0.44"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Ni"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Ni<sup className=bodySupscript>2+</sup> + 2 e<sup className=bodySupscript>-</sup> → Ni", 
+                            "hoverText":"Ni2+ + 2 e– → Ni"
+                          },
+                          {
+                            "type": "text",
+                            "text": "-0.28"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "H<sub className=bodySubscript>2</sub> (g)", 
+                            "hoverText":"H2(g)"
+                          },
+                          {
+                            "type": "text",
+                            "text": "2H<sup className=bodySupscript>+</sup> + 2 e<sup className=bodySupscript>-</sup> → H<sub className=bodySubscript>2</sub>(g)", 
+                            "hoverText":"2H+ + 2 e– → H2(g)"
+                          },
+                          {
+                            "type": "text",
+                            "text": "0"
+                          },
+                          {
+                            "type":"text",
+                            "text":"" 
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Cu"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Cu<sup className=bodySupscript>2+</sup> + 2 e<sup className=bodySupscript>-</sup> → Cu",
+                             "hoverText":"Cu2+ + 2 e– → Cu"
+                          },
+                          {
+                            "type": "text",
+                            "text": "0.34"
+                          },
+                          {
+                            "type":"text",
+                            "text":"be reduced more easily (gain electrons)",
+                            "rowspan":6
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "I-", 
+                            "hoverText":"I-"
+                          },
+                          {
+                            "type": "text",
+                            "text": "I<sub className=bodySubscript>2</sub> (s) + 2 e<sup className=bodySupscript>-</sup> → 2 I<sup className=bodySupscript>-</sup>", 
+                            "hoverText":"I2 (s) + 2 e– → 2 I–"
+                          },
+                          {
+                            "type": "text",
+                            "text": "0.54"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Fe<sup className=bodySupscript>2+</sup>", 
+                            "hoverText":"Fe2+"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Fe<sup className=bodySupscript>3+</sup> + e<sup className=bodySupscript>-</sup> → Fe<sup className=bodySupscript>2+</sup>",
+                             "hoverText":"Fe3+ + e– → Fe2+"
+                          },
+                          {
+                            "type": "text",
+                            "text": "0.77"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Ag"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Ag<sup className=bodySupscript>+</sup> + e<sup className=bodySupscript>-</sup> → Ag", 
+                            "hoverText":"Ag+ + e– → Ag"
+                          },
+                          {
+                            "type": "text",
+                            "text": "0.80"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Br<sup className=bodySupscript>-</sup>", 
+                            "hoverText":"Br-"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Br<sub className=bodySubscript>2</sub> (l) + 2 e<sup className=bodySupscript>-</sup> → 2 Br<sup className=bodySupscript>-</sup>", 
+                            "hoverText":"Br2 (l) + 2 e– → 2 Br–"
+                          },
+                          {
+                            "type": "text",
+                            "text": "1.06"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Cl<sup className=bodySupscript>-</sup>", 
+                            "hoverText":"Cl-"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Cl<sub className=bodySubscript>2</sub> (g) + 2 e<sup className=bodySupscript>-</sup> → 2 Cl<sup className=bodySupscript>-</sup>", 
+                            "hoverText":"Cl2 (g) + 2 e– → 2 Cl–"
+                          },
+                          {
+                            "type": "text",
+                            "text": "1.36"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "F<sup className=bodySupscript>-</sup>", 
+                            "hoverText":"F–"
+                          },
+                          {
+                            "type": "text",
+                            "text": "F<sub className=bodySubscript>2</sub> (g) + 2 e<sub className=bodySubscript>-</sub> → 2 F<sup className=bodySupscript>-</sup>", 
+                            "hoverText":"F2 (g) + 2 e– → 2 F–"
+                          },
+                          {
+                            "type": "text",
+                            "text": "2.87"
+                          },
+                          {
+                            "type":"text",
+                            "text":""
+                          }
+                        ]
+                      ]
+                    }
+                ]
+                  
+                  
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp":"resource",
+              "template": "Background",
+              "pageData": [
+              
+                {
+                  "type": "Plain",
+                  "text": "There are several important points to remember about typical <span style='whiteSpace: nowrap'><button className=glossary-text>voltaic cells</button>:</span>"
+                },
+                {
+                  "type":"List",
+                  "listType":"ordered",
+                  "text":["The conversion of chemical energy into electrical energy is spontaneous.","<button className=glossary-text>Oxidation</button> occurs at the <button className=glossary-text>anode</button> half-cell. (<span className='bodyFontBold'>To remember:</span> “Oxidation” and “anode” both begin with vowels.)<ul style='list-style-type:disc'><li>The anode is negatively charged due to an excess of electrons.</li><li>The anode loses mass as the metal is converted into ions from the loss of electrons.</li><li>Example: Zn(s) → Zn<span className='bodySupscript'>2+</span>(aq) + 2e<span className='bodySupscript'>-</span></li></ul>","<button className=glossary-text>Reduction</button> occurs at the <button className=glossary-text>cathode</button> half-cell. (<span className='bodyFontBold'>To remember:</span> “Reduction” and “cathode” both begin with consonants.)<ul style='list-style-type:disc'><li>The cathode is positively charged.</li><li>The cathode gains mass as the metal ions in the solution gain electrons from the cathode and plate out on the cathode as metal atoms.</li><li>Example: Cu<span className='bodySupscript'>2+</span>(aq) + 2e<span className='bodySupscript'>-</span> → Cu(s)","Electrons flow from the <span style='whiteSpace: nowrap'>anode (–)</span> to the <span style='whiteSpace: nowrap'>cathode (+).</span>"]
+                },
+                {
+                  "type":"Plain",
+                  "containerType": "rightContainer",
+                  "text":"Notice that silver is near the bottom of the activity series <span style='whiteSpace: nowrap'>(<button className=resource-text>Table 1</button>),</span> indicating that this metal is less reactive due to a stronger attraction of the outer electrons. This is why some metals are found in nature as pure metals. Many civilizations throughout history have used copper, silver, and gold coins as currencies because these metals do not oxidize or lose their luster as easily as other metals. Oxidation is a common chemical process. Iron loses electrons and corrodes. This results in the formation of Fe<span className='bodySupscript'>3+</span> ions, which react with oxygen to produce iron(III) oxide (Fe<span className='bodySubscript'>2</span>O<span className='bodySubscript'>3</span>), or rust."
+                }
+                
+              ] 
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp":"resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type":"Plain",
+                  "text":"An oxidation reaction, which is a loss of electrons with an increase in charge, requires an accompanying reduction reaction, or a gain of electrons with a reduction in charge. The Metal Activity Series table <span style='whiteSpace: nowrap'>(<button className=resource-text>Table 1</button>)</span> ranks elements according to their chemical activity. This table can be used to predict whether a metal will spontaneously react with the ions of another metal, such as a strip of copper and an aqueous solution of silver nitrate (AgNO<span className='bodySubscript'>3</span>) <span style='whiteSpace: nowrap'>(Figure 1).</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses/580370/580370_fig_001.svg",
+                  "imgDivWidth": "300px",
+                  "maxWidth":"400px",
+                  "desc": "Figure 1. Diagram of a copper strip being oxidized in a solution of silver nitrate",
+                  "altText": "Figure 1. Diagram of a copper strip being oxidized in a solution of silver nitrate"
+                },
+              
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The net ionic equation below describes the reaction. This is considered a single-displacement reaction, because the copper displaces the silver ions from the aqueous silver-nitrate solution.<span className='bodyParaLineBreak'>Cu(s) + 2 Ag<span className='bodySupscript'>+</span>(aq) → Cu<span className='bodySupscript'>2+</span>(aq) + 2 Ag(s)"
+                },
+                {
+                  "type":"Plain",
+                  "containerType": "rightContainer",
+                  "text":"Copper is listed higher than silver in the Metal Activity Series table <span style='whiteSpace: nowrap'>(<button className=resource-text>Table 1</button>).</span> Thus,     copper should oxidize in the silvernitrate solution to form Cu<sup className='bodySupscript'>2+</sup> ions. The copper strip will dissolve, turning the solution blue due to the presence of Cu<sup className='bodySupscript'>2+</sup> ions. Oxidation of copper releases two electrons as shown below; thus, copper is the reducing agent for the Ag<sup className='bodySupscript'>+</sup> ions. <span className='bodyParaLineBreak'>Cu(s) → Cu<sup className='bodySupscript'>2+</sup>(aq) + 2 e<sup className='bodySupscript'>-<sup>"
+                },
+                {
+                  "type":"Plain",
+                  "containerType": "rightContainer",
+                  "text":"Two silver ions will be reduced to two silver atoms by gaining the two electrons lost by each copper atom: Solid silver crystals will form on the surface of the copper strip as they are removed from the aqueous silver-nitrate solution. The Ag+ ions act as oxidizing agents for the copper atoms. <span className='bodyParaLineBreak'>2 Ag<span className='bodySupscript'>+</span>(aq) + 2 e<span className='bodySupscript'>-</span> → 2 Ag(s)"
+                }
+              ] 
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                
+                {
+                  "type":"Plain",
+                  "text":"The <button className=glossary-text>reduction</button> and <button className=glossary-text>oxidation</button> reactions are referred to as half reactions, because each represents half of the entire reaction. The overall net ionic reaction can be written as <span style='whiteSpace: nowrap'>follows:</span>"
+                },
+                {
+                  "type":"Plain",
+                  "text":"Cu(s)→Cu<span className='bodySupscript'>2+</span>(aq) + 2 e<span className='bodySupscript'>-</span>   <span className='bodyFontBold'>oxidation</span><pre>                                   (half reaction)    "
+                },
+                {
+                  "type":"Plain",
+                  "text":"2 Ag<span className='bodySupscript'>+</span>(aq) + 2 e<span className='bodySupscript'>-</span> → 2 Ag(s) <span className='bodyFontBold'>reduction</span> <pre>                                          (half reaction)    "
+                },
+                {
+                  "type":"Plain",
+                  "text":"Cu(s) + 2 Ag<span className='bodySupscript'>+</span>(aq)→Cu2<span className='bodySupscript'>+</span>(aq) + 2 Ag(s)                                      <span className='bodyFontBold'>Overall net ionic equation</span> <pre>                                                             (redox reaction)    "
+                },
+                {
+                  "type":"Plain",
+                  "text":"This reaction is often called a <span className='bodyFontBold'>redox reaction</span> (red from “reduction” and ox from “oxidation”). Notice that the loss and gain of electrons are equal, and that the mass and charge are the same on both sides of the net equation."
+                },
+                {
+                  "type":"Plain",
+                  "containerType": "rightContainer",
+                  "text":"To summarize, if metal A is higher than metal B in the activity series, a spontaneous chemical reaction will occur if metal A is placed in a solution of metal B ions. Metal A is oxidized, and metal B is reduced. Metal A is the reducing agent, and metal B is the oxidizing agent."
+                }
+              ] 
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "waterMark": true,
+              "infoPopUp": "kc",  
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 2",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following is an example of an oxidation half-reaction?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Cu(s) → Cu<span className='bodySupscript'>2+</span>(aq) + 2 e<span className='bodySupscript'>-</span> ",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Cu(s) + 2 Ag<span className='bodySupscript'>+</span>(aq) → Cu<span className='bodySupscript'>2+</span>(aq) + 2 Ag(s) ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Zn<span className='bodySupscript'>2+</span>(aq) + 2e<span className='bodySupscript'>-</span> → Zn(s)",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Cu<span className='bodySupscript'>2+</span>(aq) + 2e<span className='bodySupscript'>-</span> → Cu(s) ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "2 Ag<span className='bodySupscript'>+</span>(aq) + 2e<span className='bodySupscript'>-</span> → 2 Ag(s)  ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Oxidation half reactions are characterized by a loss of electrons. Look for these electrons in the products to indicate this. "
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 2",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following is true about a typical voltaic cell?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The anode is negatively charged, and the cathode is positively charged. ",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Electrons flow from the cathode to the anode ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "The anode gains mass, and the cathode loses mass. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The anode loses electrons, and the cathode gains electrons.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Reduction occurs at the anode, and oxidation occurs at the cathode.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": " Oxidation occurs at the anode half-cell; reduction occurs at the cathode half-cell. Therefore, the anode is negatively charged due to an excess of electrons, and the cathode is positively charged. "
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "  Voltaic cells (also known as galvanic cells) are electrochemical cells that depend on spontaneous oxidation-reduction reactions. If these two reactions are separated into two containers (called “half-cells”), one for oxidation and one for reduction, electrons can be transferred through an external wire that connects both cells. To maintain a balance of charge in each container, the half-cells are connected with a salt bridge. Oxidation occurs at the anode half-cell; reduction occurs at the cathode half-cell. The electrons in the cell flow from the anode to the cathode. If a load, such as a light bulb, is connected to the external circuit, the electrical energy produced from the redox reactions will power that load. "
+                },
+                {
+                  "title": "Hint",
+                  "body": " Voltaic cells (also known as galvanic cells) are electrochemical cells that depend on spontaneous oxidation-reduction reactions. If these two reactions are separated into two containers (called “half-cells”), one for oxidation and one for reduction, electrons can be transferred through an external wire that connects both cells. To maintain a balance of charge in each container, the half-cells are connected with a salt bridge. Oxidation occurs at the anode half-cell; reduction occurs at the cathode half-cell. The electrons in the cell flow from the anode to the cathode. If a load, such as a light bulb, is connected to the external circuit, the electrical energy produced from the redox reactions will power that load."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp":"resource",
+              "template": "Background",
+              "pageData": [
+                
+                {
+                  "type":"Plain",
+                  "text":"Metals have different tendencies to accept electrons in a <button className=glossary-text>reduction</button> half-reaction. This tendency, measured in volts, is known as the <button className=glossary-text>reduction potential</button>. Reduction potentials have been measured for metals and nonmetals against a standard hydrogen gas electrode that has been assigned a voltage of 0 V. These reduction potentials are measured at standard conditions (<span style='whiteSpace: nowrap'>25 °C</span> [298 K], 1 molar concentration for solutions, and 1 atmosphere of pressure for gases). A cell’s potential, measured at these standard conditions, is given the symbol E° and is referred to as the standard reduction potential. <button class='resource-text'>Table 1</button> shows some common standard reduction potentials."
+                },
+                {
+                  "type":"Plain",
+                  "text":"Standard reduction potentials can be used to predict whether two elements will spontaneously react to make a voltaic cell, and the theoretical cell voltage can be calculated using the values from a standard reduction potential table. For example, consider a zinc-copper cell. The reduction reactions have the following electrode <span style='whiteSpace: nowrap'>potentials (E°):</span>"
+                },
+                {
+                  "type":"Plain",
+                  "text":"Cu<sup className='bodySupscript'>2+</sup>(aq) + 2e<sup className='bodySupscript'>-</sup> → Cu(s) E° = +0.34 V<span className='bodyParaLineBreak'> Zn<sup className='bodySupscript'>2+</sup>(aq) + 2e<sup className='bodySupscript'>-</sup> → Zn(s) E° = –0.76 V </span>"
+                },
+                {
+                  "type":"Plain",
+                  "containerType": "rightContainer",
+                  "text":"In order to have a voltaic cell, there must be an <button className=glossary-text>oxidation</button> reaction to accompany a reduction reaction. This balances the electrons lost and gained. By convention, the higher the cell voltage, the more likely that reaction will occur. The +0.34 V of the Cu<sup className='bodySupscript'>2+</sup> reduction is the more positive of the two voltages and will occur as written. The Zn<sup className='bodySupscript'>2+</sup> reduction reaction must be written in reverse, so that it becomes the oxidation half-cell, and the sign of the voltage is reversed, yielding <span style='whiteSpace: nowrap'>+0.76 V.</span> To calculate the total theoretical output of the cell, the two voltages are added."
+                },
+                {
+                  "type":"Plain",
+                  "containerType": "rightContainer",
+                  "text":"In the real world, electrochemical cells usually operate at conditions other than <span style='whiteSpace: nowrap'>1 M,</span> <span style='whiteSpace: nowrap'>25 °C,</span> and 1 atmosphere of pressure. Walther Nernst, a German physicist and chemist, discovered the equation that determines the potential of any cell at nonstandard conditions: <span className='bodyParaLineBreak'><span className=glossary-text>E = E° – RT ln <span className=bodyFraction><span>(Q)</span><span className=symbol>/</span><span className=bottom>nF</span></span></span>"
+                }
+              ] 
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                
+                {
+                  "type":"Plain",
+                  "text":"where E represents the cell potential at nonstandard conditions. E° is the standard cell potential. R is the gas constant (8.31 J/K•mol). T is the temperature (in K), while n is the number of moles of electrons transferred in the redox equation. F is Faraday’s constant, with a value of 96,500 coulombs/mole, which is the quantity of electrical charge carried by one mole of electrons. Q is the reaction quotient, which is the ratio of the concentration of products and the concentration of reactants raised to the powers of their coefficients from the balanced equation. Any solids or water in the balanced equation are not included in this expression. Substituting for the constants R and F, using 298 K for <span style='whiteSpace: nowrap'>25 °C,</span> and converting to log base 10, the equation can be written as <span style='whiteSpace: nowrap'>E = E° – 0.0591 log (Q)/n.</span>"
+                }
+              ] 
+            },
+            {
+              "title": "Knowledge Check Question 3",
+              "waterMark": true,
+              "infoPopUp": "kc",  
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 2,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 3",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What does Q represent in the Nernst equation? ",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "reaction quotient ",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "standard cell potential ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "cell potential at nonstandard conditions ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "gas constant   ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Faraday’s constant ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Q is the reaction quotient, which is the ratio of the concentration of products and the concentration of reactants raised to the powers of their coefficients from the balanced equation."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 3",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": " Which of the following formulas determines the potential of any cell at nonstandard conditions (E)?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "E° – RT ln (Q)/nF ",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "E° + ln (Q)/nF  ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "E° + RT ln (Q)/n ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "E° + RT ln (Q)/nF  ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "E° – RT ln (Q)/F  ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The Nernst equation determines the potential of any cell at nonstandard conditions (E) using the formula E° – RT ln (Q)/nF . "
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "  In the real world, electrochemical cells usually operate at conditions other than 1 M, 25 °C, and 1 atmosphere of pressure. Walther Nernst, a German physicist and chemist, discovered the equation that determines the potential of any cell at nonstandard conditions:<span className='bodyParaLineBreak'>E = E° – RT ln (Q)/nF</span> <span className='bodyParaLineBreak'>Where E represents the cell potential at nonstandard conditions. E° is the standard cell potential. R is the gas constant (8.31 J/K•mol). T is the temperature (in K), while n is the number of moles of electrons transferred in the redox equation. F is Faraday’s constant, with a value of 96,500 coulombs/mole, which is the quantity of electrical charge carried by one mole of electrons. Q is the reaction quotient, which is the ratio of the concentration of products and the concentration of reactants raised to the powers of their coefficients from the balanced equation. Any solids or water in the balanced equation are not included in this expression.</span>"
+                },
+                {
+                  "title": "Hint",
+                  "body": " In the real world, electrochemical cells usually operate at conditions other than 1 M, 25 °C, and 1 atmosphere of pressure. Walther Nernst, a German physicist and chemist, discovered the equation that determines the potential of any cell at nonstandard conditions:<span className='bodyParaLineBreak'>E = E° – RT ln (Q)/nF</span> <span className='bodyParaLineBreak'>Where E represents the cell potential at nonstandard conditions. E° is the standard cell potential. R is the gas constant (8.31 J/K•mol). T is the temperature (in K), while n is the number of moles of electrons transferred in the redox equation. F is Faraday’s constant, with a value of 96,500 coulombs/mole, which is the quantity of electrical charge carried by one mole of electrons. Q is the reaction quotient, which is the ratio of the concentration of products and the concentration of reactants raised to the powers of their coefficients from the balanced equation. Any solids or water in the balanced equation are not included in this expression.</span>"
+                }
+              ]
+            }
+            
+            
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "desc": "This map describes the procedural workflow for this investigation.You will need to practice bringing a microscope slide into focus.In Activity 1, you will need to place slide on the stage. Then focus a muscle tissue type on the field of view. Next you need to record image of tissue under ideal magnification. Then identify structures of magnified tissue. Next calculate total magnification for ideal observation. Are all three muscle types observed? If so, go forward if not go back to the start of activity one. Then compare characteristics of each muscle type.",
+
+                  "altText": "This map describes the procedural workflow for this investigation.You will need to practice bringing a microscope slide into focus.In Activity 1, you will need to place slide on the stage. Then focus a muscle tissue type on the field of view. Next you need to record image of tissue under ideal magnification. Then identify structures of magnified tissue. Next calculate total magnification for ideal observation. Are all three muscle types observed? If so, go forward if not go back to the start of activity one. Then compare characteristics of each muscle type.",
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "containerType": "fullContainer",
+                  "image": "courses/580370/580370_ED.svg",
+                  "imgDivWidth": "65%",
+                  "imgDivWidthForTablet": {
+                    "P": "89%",
+                    "L": "90%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "width": "100%",
+                  "scrollImg": true,
+                  "maxWidth": "1017px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "scrollImg":true,
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Filter paper",
+                          "altText": "2 pieces of white circular filter paper",
+                          "image": "courses/580370/580370_material_001.svg",
+                          "url": "courses/580370/580370_material_001.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Multimeter",
+                          "altText": "Black plastic multimeter with black and red wire leads",
+                          "image": "courses/580370/580370_material_002.svg",
+                          "url": "courses/580370/580370_material_002.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from the chemical kit #1",
+                      "content": [
+                      {
+                        "type": "ImageWithLabel",
+                        "label": "Straight pins, Fe",
+                        "altText": "Straight pins in clear plastic bag",
+                        "image": "courses/580370/580370_material_003.svg",
+                        "url": "courses/580370/580370_material_003.svg"
+                      }
+                    ]
+                    },
+                    {
+                      "title": "Needed from the chemical kit #2",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Magnesium metal ribbon, Mg",
+                          "altText": "Magnesium ribbon in clear plastic bag",
+                          "image": "courses/580370/580370_material_004.svg",
+                          "url": "courses/580370/580370_material_004.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Copper(II) sulfate solution, CuSO<sub class=bodySubscript>4</sub>, 0.5 M",
+                          "altText": "copper sulfate solution in clear plastic bottle",
+                          "image": "courses/580370/580370_material_005.svg",
+                          "url": "courses/580370/580370_material_005.svg"
+                        }
+                    ]
+                    },
+                    {
+                      "title": "Needed from the equipment kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Graduated cylinder, 10 mL",
+                          "altText": "Clear plastic graduated cylinder, 10 millileter",
+                          "image": "courses/580370/580370_material_006.svg",
+                          "url": "courses/580370/580370_material_006.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Plastic dispensing pipet",
+                          "altText": "Clear plastic dropping pipet",
+                          "image": "courses/580370/580370_material_007.svg",
+                          "url": "courses/580370/580370_material_007.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Plastic forceps",
+                          "altText": "Plastic forceps, blue",
+                          "image": "courses/580370/580370_material_008.svg",
+                          "url": "courses/580370/580370_material_008.svg"
+                        }
+                    ]
+                    },
+                    {
+                      "title": "Needed from the Developing an Activity Series kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Magnesium sulfate solution, MgSO<sub class=bodySubscript>4</sub>, 0.1 M",
+                          "altText": "Magnesium sulfate solution in clear plastic bottle",
+                          "image": "courses/580370/580370_material_009.svg",
+                          "url": "courses/580370/580370_material_009.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Iron(II) sulfate solution, FeSO<sub class=bodySubscript>4</sub>, 0.1 M",
+                          "altText": "Iron sulfate solution in clear plastic bottle",
+                          "image": "courses/580370/580370_material_010.svg",
+                          "url": "courses/580370/580370_material_010.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Copper wire, Cu",
+                          "altText": "3 Copper wires, Cu",
+                          "image": "courses/580370/580370_material_011.svg",
+                          "url": "courses/580370/580370_material_011.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "20- compartment tray",
+                          "altText": "Jelly tray with four rows of five wells each",
+                          "image": "courses/580370/580370_material_012.svg",
+                          "url": "courses/580370/580370_material_012.svg"
+                        }
+                    ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": ["Bottled water",
+                          "Permanent marker","Scissors"
+                        ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span><span className=bodyParaLineBreak><span className=bodyParaLineBreak>Replacement investigation kit for Electrochemistry, item number 580370, can be ordered from Carolina Biological Supply Company.<span className=bodyParaLineBreak><span className=bodyMediumSubHeading >Call:</span>  866-332-4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "waterMark": true,
+              "showPageTitle": true,
+              "template": "Safety",
+              "isCheckPoint": true,
+              "pageData": [
+                
+                {
+                  "type": "Plain",
+                  "text": "Wear your goggles, gloves, and lab apron at all times while performing this investigation."
+                },
+                {
+                  "type": "Image",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "430px",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "altText": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Read all the instructions for this laboratory activity before beginning. Follow the instructions closely, and observe established laboratory safety practices, including the use of appropriate personal protective equipment (PPE)."
+                },
+                {
+                  "type": "PlainImage",
+                  "text": "Magnesium is flammable. Keep chemical away from any heat or flame sources.",
+                  "image": "core/Flammable.svg",
+                  "altText":"flammable symbol",
+                  "desc":"flammable symbol",
+                  "imgWidth": "12%"
+                },
+                {
+                  "type": "PlainImage",
+                  "text": "Copper sulfate causes skin irritation. Magnesium sulfate and iron sulfate are harmful if swallowed. Zinc sulfate causes serious eye irritation.",
+                  "image": "core/Warning.svg",
+                  "altText":"warning symbol",
+                  "desc":"warning symbol",
+                  "imgWidth": "12%"
+                },
+                {
+                  "type": "PlainImage",
+                  "containerType": "rightContainer",
+                  "text": "Copper sulfate and magnesium sulfate are toxic to aquatic life.",
+                  "image": "core/Corrosion.svg",
+                  "altText":"corrosion symbol",
+                  "desc":"corrosion symbol",
+                  "style": {
+                    "paddingTop": "1"
+                  },
+                  "imgWidth": "12%"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Do not eat, drink, or chew gum while performing this activity. Wash your hands with soap and water before and after performing the experiments. Clean the work area with soap and water after completing the investigation. Keep pets and children away from lab materials and equipment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "In a typical voltaic cell, where does reduction occur?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "at the cathode half-cell  ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "at the anode half-cell  ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "at the salt bridge  ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "at the reducing agent  ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "at the oxidizing agent  ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "The Nernst equation determines which of the following? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "the potential of a voltaic cell at nonstandard conditions ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "the standard reduction potential of a metal ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "the reducing and oxidizing agents in a net ionic equation ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "the reactivity of a metal  ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "the temperature at which a redox reaction will occur spontaneously ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "A voltaic cell consists of an aluminum (Al) electrode immersed in 0.1 M aluminum nitrate solution in one half-cell and a copper (Cu) electrode immersed in 0.5 M copper (II) sulfate solution in another half-cell. The two half-cells are connected by a salt bridge. The temperature of both half-cells is 25° C. Using Table 1* and the equation below, calculate the potential of this cell under nonstandard conditions. <span className='bodyParaLineBreak'>E = E° – RT ln (Q)/nF </span>",
+                      "instructionText": "", 
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "2.01 V  ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "-1.66 V ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "-2.00 V ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "1.32 V ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "0.56 V ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the purpose of reversing the sign of the voltage for the half-cell reaction with the lower voltage when calculating the total theoretical output of a voltaic cell?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "to convert the half-cell into the oxidation half-cell ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "to convert the half-cell into the reduction half-cell ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "to make the voltage of each half-cell positive ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "to make the voltage of each half-cell negative ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "to cancel out the voltage values of each half-cell ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "How do electrons flow in a typical voltaic cell?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "from the anode to the cathode ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "from the cathode to the anode ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "from the salt bridge to the anode ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "from the salt bridge to the cathode ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "from the cathode to the salt bridge ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following does NOT need to be accounted for when using the Nernst equation? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "solids or water in the balanced redox equation ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "the voltages of each half-cell in the redox reaction ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Faraday’s constant ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "the coefficients of the reactants and products in the balanced redox equation ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "the concentration of the reactants and products in the voltaic cell ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (4 steps)",
+              "pageTitle": "Preparation (4 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure",
+              "keyID": "page21",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Read procedure thoroughly."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Locate and clean work area."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Gather all needed materials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Cut each piece of filter paper into 4 strips."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Chemistry_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will create three half-cells, each featuring magnesium ribbon as a metal electrode in a different metal-sulfate solution. You will create salt bridges between all possible combinations of these half-cells and measure the potential difference for each. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "pageTitle": "Activity 1 (9 steps)",
+              "keyID": "activity1",
+              "title": "Activity 1 (9 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Cut a 1-cm strip of magnesium and place it as a metal electrode in each of the corresponding wells as shown in <span style='whiteSpace: nowrap'><button className=resource-text>Figure 2</button>.</span>",
+                    "typeBefore":[
+                      {
+                        "type":"Plain",
+                        "title":"<span class='bodyBoldSubHeading'>Assembling an Electrochemical Cell</span>"
+                      },
+                      {
+                        "type": "Video",
+                        "image":"courses/580370/580370_VideoIcone_02.svg",
+                        "desc": "Assembling an Electrochemical Cell",
+                        "url":"http://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4887001393001",
+                        "imgDivWidth": "200px",
+                        "align":"right"
+                      },
+                      {
+                        "type":"Plain",
+                        "title": ""
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "<span className='bodyFontBold'>Gently</span> dispense 20 drops of the appropriate solution into wells on the tray (e.g., Cu in the CuSO4(aq) solution, etc.). Avoid splashing solutions into adjacent wells."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Add several drops of one of the metal solutions to a strip of filter paper (the solution you use should be for one of the wells the paper is going between, i.e., if you are going between copper and iron you could use the copper sulfate or iron sulfate solution)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the filter paper between one pair of wells such that each end of the filter paper is in the solutions at either end."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the multimeter to measure an electrical potential difference between two half-cells by following these steps:"
+                 
+                  },
+                  {
+                    "type": "List",
+                    "listType":"ordered",
+                    "orderedType": "a",
+                    "text": [
+                      "Connect the (–) lead (black) to the ‘COM’ port of the multimeter. Connect the (+) lead (red) to the ‘VmA’ port. Turn the dial to ‘2 V’ (this means the meter will read a maximum of 2 V).",
+                      "Connect the (+) lead (red) to the metal electrode in one of the half-cells. Connect the (–) lead (black) to the metal electrode in a different half-cell. Observe the first steady potential on the meter display. (The potential will change slowly, so record the first reading that seems like it is not an artifact from making the connection.)"
+                  
+                    ],
+                    "style": {
+                      "marginBottom": "-2px",
+                      "listStyle": "lower-alpha"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record your data in <span className='bodyFontBold'>Data Table 1</span>"
+                  },
+                  {
+                    "type": "Image",
+                    "image":"courses/580370/580370_fig_002.svg",
+                    "imgDivWidth":"325px",
+                    "maxWidth":"420px",
+                    "scrolling": true,
+                    "altText":"Figure 2. Photo of a 20-compartment tray showing the locations of the copper, iron, and magnesium in the upper left wells.",
+                    "desc":"Figure 2. Photo of a 20-compartment tray showing the locations of the copper, iron, and magnesium in the upper left wells."
+
+                  }
+                ],
+               
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Observe and record the potential difference for all of the possible combinations of half-cells available with the setup you prepared. (You should have 3 different cell potentials.)"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Remove the metal leads with forceps, and set aside."
+                  }
+                ],
+                [  
+                  {
+                    "type": "Plain",
+                    "text": "Rinse the tray with tap water, and dry it with a paper towel."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Chemistry_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will create dilutions of copper sulfate solution ranging from <span style='whiteSpace: nowrap'>0.5 M</span> to <span style='whiteSpace: nowrap'>0.00005 M.</span> These dilutions will each be placed in a different half-cell. Using metal electrodes and salt bridges as in <span style='whiteSpace: nowrap'>Activity 1,</span> you will create <button className=glossary-text>voltaic cells</button> between the lowest-concentration copper half-cell and each of the different copper half-cells, and measure the potential difference of each cell. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "pageTitle": "Activity 2 (14 steps)",
+              "keyID": "activity2",
+              "title": "Activity 2 (14 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Dispense 3 mL of the 0.5 M copper sulfate into the well plate, as shown in <span style='whiteSpace: nowrap'><button className=resource-text>Figure 3</button>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Dispense 1 mL of the 0.5 M copper sulfate solution into a <span style='whiteSpace: nowrap'>10-mL</span> graduated cylinder."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Fill to 10 mL with bottled water. This is now a <span style='whiteSpace: nowrap'>0.05-M</span> copper sulfate solution."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Dispense 3 mL of the diluted copper sulfate solution into a well in the tray. Record its location."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "With a plastic pipette, dispense 1 mL of 0.05 M copper sulfate into a clean <span style='whiteSpace: nowrap'>10-mL</span> graduated cylinder."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Fill to 10 mL with bottled water. This is now a <span style='whiteSpace: nowrap'>0.005 M</span> copper sulfate solution."
+                  }
+                ],
+               
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Dispense 3 mL of the twice-diluted copper sulfate solution into the tray."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat this procedure to produce two more successive dilutions and obtain copper-ion solutions that are <span style='whiteSpace: nowrap'>0.0005 M</span> and <span style='whiteSpace: nowrap'>0.00005 M</span> in concentration. <span className='bodyFontBold'>Keep the extra <span style='whiteSpace: nowrap'>0.00005 M</span> CuSO<span className='bodySubscript'>4</span> solution available.</span>"
+                  }
+                ],
+                [  
+                  {
+                    "type": "Plain",
+                    "text": "Wet several strips of filter paper with the 0.00005 M copper sulfate solution. These will serve as the salt bridges between each of your wells."
+                  }
+                ],
+                [  
+                  {
+                    "type": "Plain",
+                    "text": "As you complete each dilution, add the solution to a different empty well in the tray, using <span style='whiteSpace: nowrap'><button className=resource-text>Figure 3</button></span> as your guide."
+                  }
+                ],
+                [  
+                  {
+                    "type": "Plain",
+                    "text": "Your tray should now contain five copperion solutions (0.5 M, 0.05 M, 0.005 M, <span style='whiteSpace: nowrap'>0.0005 M,</span> and <span style='whiteSpace: nowrap'>0.00005 M).</span>"
+                  }
+                ],
+                [  
+                  {
+                    "type": "Plain",
+                    "text": "Cut the copper wire in half."
+                  }
+                ],
+                [  
+                  {
+                    "type": "Plain",
+                    "text": "Measure the potential difference (as done in <span style='whiteSpace: nowrap'>Activity 1</span>) between the lowest concentration copper half-cell and a half-cell made from each of the different copperion solutions. Connect the cell using the copper wire in such a way that you get a positive voltage reading."
+                  }
+                ],
+                [  
+                  {
+                    "type": "Plain",
+                    "text": "Record the measured potentials in <span className='bodyFontBold'>Data <span style='whiteSpace: nowrap'>Table 2.</span></span>"
+                  },
+                  {
+                    "type": "Image",
+                    "image":"courses/580370/580370_fig_003.svg",
+                    "imgDivWidth":"315px",
+                    "maxWidth":"420px",
+                    "scrollImg":true,
+                    "altText":"Figure 3. Photo of a 20-compartment tray showing locations of the different concentrations of copper sulfate solutions. Four solutions are arranged in a cross around the 0.00005 M copper sulfate solution.",
+                    "desc":"Figure 3. Photo of a 20-compartment tray showing locations of the different concentrations of copper sulfate solutions. Four solutions are arranged in a cross around the 0.00005 M copper sulfate solution."
+
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup ",
+              "pageTitle": "Disposal and Cleanup ",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "listType":"ordered",
+                  "text": [
+                    "Dispose of solutions while keeping the water faucet open. Allow the water to run for a few minutes to dilute the solutions.",
+                    "Rinse and dry the lab equipment and return the materials to your equipment kit.",
+                    "Discard the used metal pieces in the trash. If you have not yet completed the <span className='bodyFontItalic'>Developing an Activity Series</span> investigation, keep all materials and chemicals from that investigation as well as from the chemical sets. When your course is complete, the tray and metals can be thrown in the trash."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "waterMark": true,
+              "pageTitle":"Thank you",
+              "showPageTitle":true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Chemistry_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%",
+                  "altText":"completion"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.png",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2022 Carolina Biological Supply Company",
+      "printSetting":"landscape a4"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable1",
+            "tag": "div",
+            "width": "80%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1 <span className='bodyParaLineBreak'></span>"
+              },
+              
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "sr":0,
+                "alignTitle":"center",
+                "headerHidden": true,
+                "maxLength": 22,
+                "header": [
+                  {"text":"Data Table"},
+                  {"text":"","colWidth":"25%"},
+                  {"text":"","colWidth":"25%"},
+                  {"text":"","colWidth":"26%"}
+                ],
+                "tableData": [
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Half-Cell Combination",
+                      "rowHeight":"20px",
+                      "fontFamily": "HelveticaNeueLTStdMd65","colWidth":"25%"
+                    },
+                    {
+                      "type": "input",
+                      "text": "","colWidth":"25%"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Voltage",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable2",
+            "tag": "div",
+            "width": "80%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 2 <span className='bodyParaLineBreak'></span>"
+              },
+              
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "sr":0,
+                "headerHidden": true,
+                "tableWidth": "98%",
+                "maxLength": 28,
+                "header": [
+                  {"text":"Data Table"},
+                  {"text":"","maxLength": 28,"colWidth":"23%"},
+                  {"text":"","maxLength": 28,"colWidth":"22%"},
+                  {"text":"","maxLength": 28,"colWidth":"22%"}, 
+                  {"text":"","maxLength": 28,"colWidth":"23%"}
+                ],
+                "tableData": [
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Half-Cell Combination",
+                      "rowHeight":"20px",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Voltage",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "align":"center"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "question_1",
+            "tag": "div",
+            "width":"65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+            
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start":"1",
+                "listType": "ordered",
+                "text": ["Use Nernst’s equation to calculate voltage under non-standard conditions."]
+              },
+              {
+                "type": "Questions",
+                "id": "question_1",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Images",
+        "src": "courses/580370/Periodic_Table.svg",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "maxWidth": "2200px",
+        "scrollImg": true,
+        "content": "Periodic Table of the Elements ",
+        "altText":"Periodic Table of the Elements "
+      },
+      {
+        "type":"Videos",
+        "thumbnailSrc":"core/Video_icon.svg",
+        "src":"https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6298837577001 ",
+        "content": " Investigation Overview"
+      },
+      {
+        "type": "DataTable",
+        "thumbnailSrc":"core/Table_icon.svg",
+        "content": "Table 1. Metal Activity Series",
+        "title": "Table 1.",
+        "tableHeight": "1.5",
+        "tableWidth":"550px",
+        "allowClick": true,
+        "isResource":true,
+        "maxLength": 20,
+        "header": [
+          {"text":"Atom or Ion","colWidth":"10%"},
+          {"text":"Reduction Half-Reaction","colWidth":"26%"},
+          {"text":"Potential, E<sub class=bodySubscript>0</sub> (V)","colWidth":"15%",
+          "hoverText":"Potential, E0 (V)" },
+          {"text":"Reactivity","colWidth":"25%"}
+          
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Li"
+            },
+            {
+              "type": "text",
+              "text": "Li<sup className=bodySupscript>+</sup> + e<sup className=bodySupscript>-</sup> → Li",
+              "hoverText":"Li + e → Li "
+            },
+            {
+              "type": "text",
+              "text": "-3.05"
+            },
+            {
+              "type": "text",
+              "text": "be more easily oxidized (i.e., it will lose its electrons more easily)",
+              "rowspan":6
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Na"
+            },
+            {
+              "type": "text",
+              "text": "Na<sup className=bodySupscript>+</sup> + e<sup className=bodySupscript>-</sup> → Na",
+              "hoverText":"Na+ + e– → Na"
+            },
+            {
+              "type": "text",
+              "text": "-2.71"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Al"
+            },
+            {
+              "type": "text",
+              "text": "Al<sup className=bodySupscript>3+</sup> + 3 e<sup className=bodySupscript>-</sup> → Al", 
+              "hoverText":"Al3+ + 3 e– → Al"
+            },
+            {
+              "type": "text",
+              "text": "-1.66"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Zn"
+            },
+            {
+              "type": "text",
+              "text": "Zn<sup className=bodySupscript>2+</sup> + 2 e<sup className=bodySupscript>-</sup> → Zn", 
+              "hoverText":"Zn2+ + 2 e– → Zn"
+            },
+            {
+              "type": "text",
+              "text": "-0.76"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Fe"
+            },
+            {
+              "type": "text",
+              "text": "Fe<sup className=bodySupscript>2+</sup> + 2 e<sup className=bodySupscript>-</sup> → Fe", 
+              "hoverText":"Fe2+ + 2 e– → Fe"
+            },
+            {
+              "type": "text",
+              "text": "-0.44"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Ni"
+            },
+            {
+              "type": "text",
+              "text": "Ni<sup className=bodySupscript>2+</sup> + 2 e<sup className=bodySupscript>-</sup> → Ni", 
+              "hoverText":"Ni2+ + 2 e– → Ni"
+            },
+            {
+              "type": "text",
+              "text": "-0.28"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "H<sub className=bodySubscript>2</sub> (g)", 
+              "hoverText":"H2(g)"
+            },
+            {
+              "type": "text",
+              "text": "2H<sup className=bodySupscript>+</sup> + 2 e<sup className=bodySupscript>-</sup> → H<sub className=bodySubscript>2</sub>(g)", 
+              "hoverText":"2H+ + 2 e– → H2(g)"
+            },
+            {
+              "type": "text",
+              "text": "0"
+            },
+            {
+              "type":"text",
+              "text":"" 
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Cu"
+            },
+            {
+              "type": "text",
+              "text": "Cu<sup className=bodySupscript>2+</sup> + 2 e<sup className=bodySupscript>-</sup> → Cu",
+               "hoverText":"Cu2+ + 2 e– → Cu"
+            },
+            {
+              "type": "text",
+              "text": "0.34"
+            },
+            {
+              "type":"text",
+              "text":"be reduced more easily (gain electrons)",
+              "rowspan":6
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "I-", 
+              "hoverText":"I-"
+            },
+            {
+              "type": "text",
+              "text": "I<sub className=bodySubscript>2</sub> (s) + 2 e<sup className=bodySupscript>-</sup> → 2 I<sup className=bodySupscript>-</sup>", 
+              "hoverText":"I2 (s) + 2 e– → 2 I–"
+            },
+            {
+              "type": "text",
+              "text": "0.54"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Fe<sup className=bodySupscript>2+</sup>", 
+              "hoverText":"Fe2+"
+            },
+            {
+              "type": "text",
+              "text": "Fe<sup className=bodySupscript>3+</sup> + e<sup className=bodySupscript>-</sup> → Fe<sup className=bodySupscript>2+</sup>",
+               "hoverText":"Fe3+ + e– → Fe2+"
+            },
+            {
+              "type": "text",
+              "text": "0.77"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Ag"
+            },
+            {
+              "type": "text",
+              "text": "Ag<sup className=bodySupscript>+</sup> + e<sup className=bodySupscript>-</sup> → Ag", 
+              "hoverText":"Ag+ + e– → Ag"
+            },
+            {
+              "type": "text",
+              "text": "0.80"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Br<sup className=bodySupscript>-</sup>", 
+              "hoverText":"Br-"
+            },
+            {
+              "type": "text",
+              "text": "Br<sub className=bodySubscript>2</sub> (l) + 2 e<sup className=bodySupscript>-</sup> → 2 Br<sup className=bodySupscript>-</sup>", 
+              "hoverText":"Br2 (l) + 2 e– → 2 Br–"
+            },
+            {
+              "type": "text",
+              "text": "1.06"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Cl<sup className=bodySupscript>-</sup>", 
+              "hoverText":"Cl-"
+            },
+            {
+              "type": "text",
+              "text": "Cl<sub className=bodySubscript>2</sub> (g) + 2 e<sup className=bodySupscript>-</sup> → 2 Cl<sup className=bodySupscript>-</sup>", 
+              "hoverText":"Cl2 (g) + 2 e– → 2 Cl–"
+            },
+            {
+              "type": "text",
+              "text": "1.36"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "F<sup className=bodySupscript>-</sup>", 
+              "hoverText":"F–"
+            },
+            {
+              "type": "text",
+              "text": "F<sub className=bodySubscript>2</sub> (g) + 2 e<sub className=bodySubscript>-</sub> → 2 F<sup className=bodySupscript>-</sup>", 
+              "hoverText":"F2 (g) + 2 e– → 2 F–"
+            },
+            {
+              "type": "text",
+              "text": "2.87"
+            },
+            {
+              "type":"text",
+              "text":""
+            }
+          ]
+        ]
+      },
+      {
+        "type":"Videos",
+        "thumbnailSrc":"core/Video_icon.svg",
+        "src":"https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6314682054112",
+        "content": " A voltaic cell"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580370/580370_fig_001.svg",
+        "maxWidth": "400px",
+        "content": "Figure 1. Copper metal in silver nitrate solution",
+        "altText": "Figure 1. Diagram of a copper strip being oxidized in a solution of silver nitrate"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580370/580370_ED.svg",
+        "content": "Experimental Design Diagram",
+        "scrollImg": true,
+        "maxWidth": "1017px",
+        "altText": "This map describes the procedural workflow for this investigation.You will need to practice bringing a microscope slide into focus.In Activity 1, you will need to place slide on the stage. Then focus a muscle tissue type on the field of view. Next you need to record image of tissue under ideal magnification. Then identify structures of magnified tissue. Next calculate total magnification for ideal observation. Are all three muscle types observed? If so, go forward if not go back to the start of activity one. Then compare characteristics of each muscle type."
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "http://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4887001393001",
+        "content": "Assembling an Electrochemical Cell"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580370/580370_fig_002.svg",
+        "maxWidth": "420px",
+        "scrollImg":true,
+        "content": " Figure 2. Activity 1 reaction tray",
+        "altText":"Figure 2. Photo of a 20-compartment tray showing the locations of the copper, iron, and magnesium in the upper left wells."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580370/580370_fig_003.svg",
+        "maxWidth": "420px",
+        "scrollImg":true,
+        "content": " Figure 3. Activity 2 reaction tray",
+        "altText":"Figure 3. Photo of a 20-compartment tray showing locations of the different concentrations of copper sulfate solutions. Four solutions are arranged in a cross around the 0.00005 M copper sulfate solution."
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Anode",
+        "content": "Negatively charged due to an excess of electrons, loses mass as its metal atoms are converted into ions from the loss of electrons "
+      },
+      {
+        "title": "Cathode  ",
+        "content": "Positively charged due to a lack of electrons, gains mass as metal ions in the solution gain electrons from the cathode and plate out on the cathode as metal atoms "
+      },
+      {
+        "title": "E = E° – RT ln (Q)/nF",
+        "content": "Determines the potential of any cell at nonstandard conditions; E represents the cell potential at nonstandard conditions, E° is the standard cell potential, R is the gas constant (8.31 J/K•mol) "
+      },
+      {
+        "title": "Galvanic cells  ",
+        "content": "Electrochemical cells that depend on spontaneous oxidation-reduction reactions; also known as voltaic cells "
+      },
+      {
+        "title": "Oxidation",
+        "content": "A loss of electrons with an increase in charge "
+      },
+      {
+        "title": "Reduction  ",
+        "content": "A gain of electrons with a decrease in charge"
+      },
+      {
+        "title": "Reduction potential ",
+        "content": "Measured in volts, it describes a metal’s tendency to accept electrons in a reduction half-reaction "
+      },
+      {
+        "title": "Voltaic cells",
+        "content": "Electrochemical cells that depend on spontaneous oxidation-reduction reactions; also known as galvanic cells "
+      }
+    ]
+  },
+  "info": {
+
+    "src": "core/Information-Initial.svg",
+
+    "hoverSrc": "core/Information-Hower.svg",
+
+    "resource": {
+
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+
+      "src": "core/resourceImage.svg"
+
+    },
+
+    "kc": {
+
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+
+    },
+
+    "kc-resource": {
+
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+
+      "src": "core/resourceImage.svg"
+
+    },
+
+    "procedure": {
+
+      "text": "You can track completion of each step by clicking on the step number."
+
+    },
+
+    "procedure-resource": {
+
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+
+      "src": "core/resourceImage.svg"
+
+    }
+
+  }
+}

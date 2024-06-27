@@ -1,0 +1,139 @@
+.nav-panel-holder {
+  position: absolute;
+  margin: auto;
+  right: 20px;
+  width: 20%;
+  height: auto;
+  text-align: right;
+  display: inline-flex;
+  top: 0px;
+  bottom: 0px;
+  min-width: 240px;
+  max-width: 275px;
+}
+.common {
+  background-color: transparent;
+  border: none;
+  width: 88px;
+  height: auto;
+  cursor: pointer;
+}
+
+.disable-button {
+  opacity: 0.2;
+  cursor: default;
+  pointer-events: none;
+}
+
+.force-disable{
+  opacity: 0.2;
+  cursor: default;
+  pointer-events: none;
+  /* background: red; */
+}
+.next-button {
+  display: inline-block;
+  /* margin: 4px 0 0 0; */
+  height: calc(100% - 20px);
+
+  
+}
+
+.page-counter-holder {
+  font-family: Montserrat-SemiBold;
+  color: white;
+  margin: auto;
+  display: inline-block;
+  min-width: 50px;
+  text-align: center;
+}
+
+.current-page {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.seperator {
+  margin-left: 2px;
+  margin-right: 2px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.total-pages {
+  display: inline-block;
+  font-size: 10px;
+}
+
+.back-button {
+  display: inline-block;
+  /* margin: 4px 0 0 0; */
+  height: calc(100% - 20px);
+}
+
+.back-button > div {
+  margin-right: 10px;
+}
+
+.next-button > div {
+  margin-right: 10px;
+}
+
+.common > div {
+  float: right;
+  font-family: Montserrat-SemiBold;
+  font-size: 14px;
+  color: white;
+  margin-top: 3px;
+}
+
+.next-button > img {
+  float: right;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .nav-panel-holder {
+    width: 27%;
+    transform: scale(1);
+     right: 10px;
+  }
+  .back-button {
+    width: 110px !important;
+  }
+  .next-button {
+    margin-left: 5px;
+  }
+}
+
+/* Desktop Normal Lower Res*/
+@media only screen and (min-width: 768px) and (max-width: 1230px) and (-webkit-min-device-pixel-ratio: 1) and (-webkit-max-device-pixel-ratio: 1.5) {
+  .nav-panel-holder {
+    width: 25%;
+  } 
+}
+
+/* Portrait iPad Normal*/
+@media only screen and (min-width: 768px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-max-device-pixel-ratio: 2) and (orientation: portrait) {
+  .nav-panel-holder {
+    width: 35%;
+    transform: scale(1);
+     right: 10px;
+  }
+  .back-button {
+    width: 110px !important;
+  }
+  .next-button {
+    margin-left: 5px;
+  }
+}
+
+/* Landscape Phone */
+@media only screen and (min-device-width: 300px) and (max-device-width: 950px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  
+}
+
+/* Portrait Phone */
+@media only screen and (min-device-width: 275px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  
+}

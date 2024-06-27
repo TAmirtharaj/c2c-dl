@@ -1,0 +1,54 @@
+/** @format */
+
+.Notes {
+  width: 85%;
+  right: 30px;
+}
+
+.notes-container {
+  --bs-gutter-x: 0 !important;
+  font-family: "Montserrat-Bold";
+}
+
+.notes-card {
+  text-align: center;
+  border: 2px solid #686868;
+  border-radius: 15px;
+}
+.card-header {
+  /* font-weight: bold; */
+  font-family: "Montserrat-Bold";
+  padding: 7px 16px;
+  background-color: rgb(247 247 247);
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  border-radius: 15px 15px 0 0 !important;
+}
+.notes-body {
+  height: 49vh;
+  font-size: 0.9em;
+  /* height: clamp(40vh, 42vmin, 50vh); */
+  /* width: 75vw; */
+  /* width: clamp(66vw, 120vmin, 75vw); */
+  padding: unset !important;
+  position: relative;
+  border-radius: 0 0 15px 15px;
+  background: white;
+}
+
+.notes-heading {
+  color: #000000;
+  background-color: #bababa;
+}
+
+.notes-container .text-area {
+  height: 98% !important;
+  border-radius: 0 0 15px 15px;
+  outline: none;
+  border-style: none;
+  font-family: 'HelveticaNeueLTStd55Roman';
+}
+
+.mobile .notes-body {
+  height: 42vmin;
+  /* width: 120vmin; */
+}

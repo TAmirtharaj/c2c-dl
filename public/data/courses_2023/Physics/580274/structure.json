@@ -1,0 +1,2839 @@
+{
+  "locked": true,
+  "courseTitle": "Resistors: Series and Parallel",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Physics_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/bodyBookmark.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/TakeSnapshot.svg",
+    "core/disposalAndCleanupIcon.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Physics_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Physics",
+                "titleName2": "Resistors: Series and Parallel",
+                "images": {
+                  "logo": "core/Physics_Subject_Icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "waterMark": true,
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, you will learn how to use a <button class='glossary-text'>digital multimeter</button>, build an elementary circuit on a breadboard, and measure the <button class='glossary-text'>resistance</button> and current at various points in the circuit."
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Physics/580274/580274_Physics_Time-Requirement.svg",
+                  "altText": "Preparation –10 minutes\nActivity 1: Reading Resistor Bands - 10 minutes\nActivity 2: Resistors in Series - 15 minutes\nActivity 3: Resistors in Parallel - 15 minutes\nActivity 4: Combined Circuit - 15 minutes",
+                  "scrollImg": true,
+                  "imgDivWidth": "468px",
+                  "maxWidth": "520px"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "subTitle": "Overview Video: Resistors: Series and Parallel"
+                },
+                {
+                  "type": "Video",
+                  "containerType": "rightContainer",
+                  "desc": "Overview Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Physics/580274/580274_Physics_VideoIcone.svg",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6338400373112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Build <button class='glossary-text'>series</button> and <button class='glossary-text'>parallel</button> circuits.",
+                    "Calculate the overall <button class='glossary-text'>resistance</button> for combinations of <button class='glossary-text'>resistors</button> in series and parallel.",
+                    "Describe the physical basis for resistance.",
+                    "Demonstrate, using the scientific method, an understanding of circuits by collecting and analyzing data, drawing conclusions, and documenting results."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Some of the cells in the heart are electrically excitable, having a charge difference across the plasma membrane that is easily changed. At rest, the electrical potential is negative on the inside of the membrane. When this charge difference is lost and the inner membrane charge shifts toward positive, the cell is said to be depolarized. Restoration of the charge difference is repolarization. There are two clusters, or nodes, of cells with highly unstable resting potentials that undergo cyclical depolarization and repolarization. They set the pace of heart contractions, or heart rate (HR).  "
+                },
+                {
+                  "type": "Plain",
+                  "text": "The sinoatrial (SA) node is commonly called the pacemaker of the heart because it generates the electrical signal for contraction and sets the basic heart rate. If the heart beats too slow (bradycardia) or too fast (tachycardia) it may be necessary to implant a pacemaker. A pacemaker consists of leads, a box, a battery, and a computer. The leads are electrically insulated wires. The leads are very thin and flexible and inserted into chambers on the right side of the heart. The leads are attached to a pacemaker box that contains a battery and a small computer that collects and stores information about the heart rhythm. If the leads sense that the heart has slowed down or missed a beat, the pacemaker will send an electrical impulse to stimulate the heart to restore it to its normal rate."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'>St Jude Medical pacemaker with ruler by Steven Fruitsmaak is available under CC BY 3.0 at<br><span target='blank' style=' word-break: break-all'>https://commons.wikimedia.org/wiki/File:St_Jude_Medical_pacemaker_with_ruler.jpg</span></span>"
+                },
+
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580274/580274_Physics_whyShouldICare.svg",
+                  "altText": "An artificial pacemaker with electrode. The body of the device is about 4 centimeters long, and the electrode measures roughly 58 centimeters.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The conduction of electricity occurs as the result of the concerted movement of charge carriers in materials. For this investigation, we will limit the discussion specifically to two charge carriers: electrons and electron holes."
+                },
+                {
+                  "type": "List",
+                  "text": [
+                    "<button class='glossary-text'>Electrons</button> are subatomic particles with a charge of −1.6 × 10<sup class='bodySupscript'>−19</sup>C that reside (and move) in <button class='glossary-text'>electron clouds</button>.",
+                    "<button class='glossary-text'>Electron holes</button>, which are not actual particles, are classified as the area previously occupied by an electron and have a charge of +1.6 × 10<sup class='bodySupscript'>−19</sup>C relative to its local environment in the electron cloud."
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "text": "The electron clouds of the atoms comprising a material form two distinct electronic energy bands: a <button class='glossary-text'>valence band</button> and a <button class='glossary-text'>conduction band</button>. In <button class='glossary-text'>conductors</button>, the valence band overlaps with the conduction band, so electrons are free to move through the conduction band. In <button class='glossary-text'>semiconductors</button>, there is an energetic separation, termed a band gap, between the valence and conduction bands, but the energy difference is small. <button class='glossary-text'>Insulators</button> have a large band gaps <span style='whiteSpace: nowrap'>(see Figure 1).</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580274/580274_Physics_fig_001.svg",
+                  "imgDivWidth": "350px",
+                  "maxWidth": "410px",
+                  "scrollImg": true,
+                  "altText": "Figure 1: Conduction band gap diagram, showing an overlap for metal, a slight gap for a semiconductor, and a larger gap for insulator"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "If <button class='glossary-text'>electrons</button> are given more energy than the band gap’s, electrons will be excited up to the <button class='glossary-text'>conduction band</button> and be able to generate a current."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Resistance</button>, <span class='bodyFontItalic'>R</span>, is a material’s opposition to the movement of charge carriers. All matter has some resistance to electrical flow measured in terms of the ohm, Ω, which is defined as 1V/A. There are specific electronic devices that are used to reduce voltage in a circuit by converting the electronic energy to heat, referred to as Joule heating."
+                },
+                {
+                  "type": "Plain",
+                  "text": "There are various types of <button class='glossary-text'>resistor</button> construction, but the ones used in this investigation are called <button class='glossary-text'>composition resistors</button> because of their construction. The wire leads enter into the resistor and terminate at a composite material. The composite material is a mixture of carbon dust and ceramic powders. The percentage of the ceramic dust in the resistor determines the resistance of the device. Ceramic is an <button class='glossary-text'>insulator</button>, impeding the charge carriers to traverse the material from carbon atom to carbon atom. A cross section is shown in <span style='whiteSpace: nowrap'>Figure 2.</span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "To label the resistance of the resistor, the resistor has colored bands printed on it <span style='whiteSpace: nowrap'>(see Figure 3).</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580274/580274_Physics_fig_002.svg",
+                  "imgDivWidth": "350px",
+                  "maxWidth": "410px",
+                  "scrollImg": true,
+                  "altText": "Figure 2: A cross section of a composition resistor, labeling the ceramic core, carbon film, nickel cap, lead, and protective lacquer"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580274/580274_Physics_fig_003.svg",
+                  "imgDivWidth": "330px",
+                  "maxWidth": "380px",
+                  "scrollImg": true,
+                  "altText": "Figure 3: The brown, gray, red and silver bands stamped on a resistor"
+                },
+                {
+                  "type": "Plain",
+                  "text": "The four bands, ABCD, provide the <button class='glossary-text'>resistance</button> in a scientific notation style: <span style='whiteSpace: nowrap'>AB × 10<sup class='bodySupscript'>C</sup> ± D Ω.</span> The first three values are determined by these colors: <span style='whiteSpace: nowrap'>black = 0,</span> <span style='whiteSpace: nowrap'>brown = 1;</span> <span style='whiteSpace: nowrap'>red = 2,</span> <span style='whiteSpace: nowrap'>orange = 3,</span> <span style='whiteSpace: nowrap'>yellow = 4,</span> <span style='whiteSpace: nowrap'>green = 5,</span> <span style='whiteSpace: nowrap'>blue = 6,</span> <span style='whiteSpace: nowrap'>violet = 7,</span> <span style='whiteSpace: nowrap'>gray = 8,</span> and <span style='whiteSpace: nowrap'>white = 9.</span> The fourth band, or tolerance, is either gold, ±5%, or silver, ±10%."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Electrical circuits are closed loop devices with an <button class='glossary-text'>electromotive force (emf)</button>, and electronic components (i.e., <span style='whiteSpace: nowrap'><button class='glossary-text'>resistors</button>,</span> <span style='whiteSpace: nowrap'><button class='glossary-text'>transistors</button>,</span> <span style='whiteSpace: nowrap'><button class='glossary-text'>capacitors</button>,</span> motors) in order to perform some task. Typically, either a battery or a power supply provides the circuit with the emf to generate current in the circuit."
+                },
+                {
+                  "type": "Plain",
+                  "text": "To simplify the description of a circuit, it is customary to draw the circuit in what is known as a schematic diagram. This diagram shows the major components of a circuit and the way they are connected. Pertinent to this experiment are the following symbols for resistors <span style='whiteSpace: nowrap'>(see Figure 4)</span> and a voltage source (emf) <span style='whiteSpace: nowrap'>(see Figure 5).</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580274/580274_Physics_fig_004.svg",
+                  "imgDivWidth": "230px",
+                  "maxWidth": "260px",
+                  "scrollImg": true,
+                  "altText": "Figure 4: Schematic diagram symbol for a resistor showing a horizontal line with zigzags in the center"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580274/580274_Physics_fig_005.svg",
+                  "imgDivWidth": "230px",
+                  "maxWidth": "250px",
+                  "scrollImg": true,
+                  "altText": "Figure 5: Schematic diagram symbol for a voltage source showing a plus on the left and minus on the right above v"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "imageData": {
+                    "image": "courses_2023/Physics/580274/580274_Physics_fig_004.svg",
+                    "altText": "Figure 4: A schematic diagram symbol showing a horizontal line with zigzags in the center.",
+                    "imgDivWidth": "220px",
+                    "maxWidth": "270px"
+                  },
+                  "question": "What component of a circuit is represented by this symbol:",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "resistor",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "voltage source",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "capacitor",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "transistor",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "motor",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Resistors in a circuit are represented by this symbol."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "imageData": {
+                    "image": "courses_2023/Physics/580274/580274_Physics_fig_005.svg",
+                    "altText": "Figure 5: A schematic diagram symbol showing a plus on the left and a minus on the right above a V.",
+                    "imgDivWidth": "230px",
+                    "maxWidth": "250px"
+                  },
+                  "question": "What component of a circuit is represented by this symbol?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "voltage source ",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "resistor",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "capacitor",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "transistor",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "motor",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Voltage sources in a circuit are represented by this symbol."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "To simplify the description of a circuit, it is customary to draw the circuit in what is known as a schematic diagram. This diagram shows the major components of a circuit and the way they are connected. Pertinent to this experiment are the following symbols for resistors <span style='whiteSpace: nowrap'>(see Figure 4)</span> and a voltage source (emf) <span style='whiteSpace: nowrap'>(see Figure 5).</span>",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580274/580274_Physics_fig_004.svg",
+                      "alt": "Figure 4: Schematic diagram symbol for a resistor showing a horizontal line with zigzags in the center",
+                      "maxWidth": "230px"
+                    },
+                    {
+                      "src": "courses_2023/Physics/580274/580274_Physics_fig_005.svg",
+                      "alt": "Figure 5: Schematic diagram symbol for a voltage source showing a plus on the left and minus on the right above v",
+                      "maxWidth": "230px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "To simplify the description of a circuit, it is customary to draw the circuit in what is known as a schematic diagram. This diagram shows the major components of a circuit and the way they are connected. Pertinent to this experiment are the following symbols for resistors <span style='whiteSpace: nowrap'>(see Figure 4)</span> and a voltage source (emf) <span style='whiteSpace: nowrap'>(see Figure 5).</span>",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580274/580274_Physics_fig_004.svg",
+                      "alt": "Figure 4: Schematic diagram symbol for a resistor showing a horizontal line with zigzags in the center",
+                      "maxWidth": "230px"
+                    },
+                    {
+                      "src": "courses_2023/Physics/580274/580274_Physics_fig_005.svg",
+                      "alt": "Figure 5: Schematic diagram symbol for a voltage source showing a plus on the left and minus on the right above v",
+                      "maxWidth": "230px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You can imagine that in a circuit, these components could be put in line one after another. This arrangement is called in <button class='glossary-text'>series</button>."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580274/580274_Physics_fig_006.svg",
+                  "imgDivWidth": "150px",
+                  "maxWidth": "160px",
+                  "scrollImg": true,
+                  "altText": "Figure 6: Schematic of a series circuit with R sub 1 and R sub 2 side by side in the circuit and the emf symbol below"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>Total <button class='glossary-text'>resistance</button> for a circuit with a number of <button class='glossary-text'>resistors</button> in <button class='glossary-text'>series</button> is merely the sum of all the individual resistors.</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580274/580274_Equation_001.svg",
+                  "imgDivWidth": "200px",
+                  "maxWidth": "270px",
+                  "scrollImg": true,
+                  "altText": "Equation 1: R sub total equals sigma R sub 1 plus R sub 2 plus ellipses R sub n"
+                },
+                {
+                  "type": "Plain",
+                  "text": "This is derived from using <button class='glossary-text'>Ohm’s law</button>, <span style='whiteSpace: nowrap'><span class='bodyFontItalic'>V = IR</span></span>, and determining the voltage drop across all resistors. The voltage drop across <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>1</sub> is <span style='whiteSpace: nowrap'><span class='bodyFontItalic'>I</span><span class='bodyFontItalic'>R</span><sub class='bodysubscript'>1</sub>,</span> and the voltage drop across <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>2</sub> is <span style='whiteSpace: nowrap'><span class='bodyFontItalic'>I</span><span class='bodyFontItalic'>R</span><sub class='bodysubscript'>2</sub>.</span> Solving for the total voltage loss across both resistors gives the following equation:"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580274/580274_Equation_002.svg",
+                  "imgDivWidth": "206px",
+                  "maxWidth": "285px",
+                  "scrollImg": true,
+                  "altText": "Equation 2: V equals I R sub 1 plus I R sub 2 equals I begin paren R sub 1 plus R sub 2 end paren"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The other possible case is where a circuit branches into many paths, each having a resistor. This arrangement is called in <button class='glossary-text'>parallel</button>."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580274/580274_Physics_fig_007.svg",
+                  "imgDivWidth": "100px",
+                  "maxWidth": "110px",
+                  "scrollImg": true,
+                  "altText": "Figure 7: Schematic of an in parallel circuit, with R sub 1 above and parallel to R sub 2 and the emf symbol below"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>Total <button class='glossary-text'>resistance</button> for a circuit with several <button class='glossary-text'>resistors</button> in <button class='glossary-text'>parallel</button> is merely the inverse of the inverse sum of the resistors.</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580274/580274_Equation_003.svg",
+                  "imgDivWidth": "250px",
+                  "maxWidth": "350px",
+                  "scrollImg": true,
+                  "altText": "Equation 3: Begin fraction 1 over R sub total end fraction equals sigma begin fraction 1 over R sub 1 end fraction plus begin fraction 1 over R sub 2 end fraction plus ellipses begin fraction 1 over R sub n end fraction"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>This too is derived from using <button class='glossary-text'>Ohm’s law</button>. The current will take the path of least resistance (the resistor with the lowest resistance), so the current through each resistor is different, but the charge must be conserved. Therefore:</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580274/580274_Equation_004.svg",
+                  "imgDivWidth": "380px",
+                  "maxWidth": "485px",
+                  "scrollImg": true,
+                  "altText": "Equation 4: I equals I sub 1 plus I sub 2 equals begin fraction V over R sub 1 end fraction plus begin fraction V over R sub 2 end fraction equals V begin paren begin fraction 1 over R sub 1 end fraction plus begin fraction 1 over R sub 2 end fraction end paren equals begin fraction V over R sub total end fraction"
+                },
+                {
+                  "type": "Plain",
+                  "text": "In these elementary circuits, it is easy to reduce a circuit of several resistors in both arrangements to a single resistor of calculated resistance."
+                }
+              ]
+            },
+
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "imageData": {
+                    "image": "courses_2023/Physics/580274/580274_Physics_fig_006.svg",
+                    "altText": "Figure 6: A circuit schematic made up of one loop. A capacitor labeled V is connected to two resistors in series, labeled R1 and R2, respectively.",
+                    "imgDivWidth": "150px",
+                    "maxWidth": "180px"
+                  },
+                  "question": "The resistors in the image below are in series. <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>1</sub> = 10 Ω and <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>2</sub> = 15 Ω.   What is the total resistance of this circuit?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "25 Ω ",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "5 Ω",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "150 Ω",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "6 Ω",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "1.5 Ω",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "10 Ω + 15 Ω = 25 Ω"
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "imageData": {
+                    "image": "courses_2023/Physics/580274/580274_Physics_fig_007.svg",
+                    "altText": "Figure 7: Schematic of an in parallel circuit, with R sub 1 above and parallel to R sub 2 and the emf symbol below",
+                    "imgDivWidth": "100px",
+                    "maxWidth": "130px"
+                  },
+                  "question": "The resistors in the image below are in parallel.  <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>1</sub> = 10 Ω and <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>2</sub> = 15 Ω.  What is the total resistance of this circuit?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "6 Ω",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "25 Ω",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "150 Ω",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "5 Ω",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "1.5 Ω",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "<span class=bodyFraction> <span>1</span> <span class=symbol>/</span> <span class=bottom><span class='bodyFontItalic'>R</span><sub class='bodysubscript'>Total</sub></span> </span> = <span class=bodyFraction> <span>1</span> <span class=symbol>/</span> <span class=bottom>10</span> </span> Ω + <span class=bodyFraction> <span>1</span> <span class=symbol>/</span> <span class=bottom>15</span> </span> Ω = <span class=bodyFraction> <span>5</span> <span class=symbol>/</span> <span class=bottom>30</span> </span> Ω  <span className=bodyParaLineBreak><span class='bodyFontItalic'>R</span><sub class='bodysubscript'>Total</sub> = 6 Ω"
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Total resistance for a circuit with a number of resistors in series is merely the sum of all the individual resistors. Total resistance for a circuit with several resistors in parallel is merely the inverse of the inverse sum of the resistors.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580274/580274_Equation_001.svg",
+                      "alt": "Equation 1: R sub total equals sigma R sub 1 plus R sub 2 plus ellipses R sub n",
+                      "maxWidth": "210px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "Total resistance for a circuit with a number of resistors in series is merely the sum of all the individual resistors. Total resistance for a circuit with several resistors in parallel is merely the inverse of the inverse sum of the resistors.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580274/580274_Equation_001.svg",
+                      "alt": "Equation 1: R sub total equals sigma R sub 1 plus R sub 2 plus ellipses R sub n",
+                      "maxWidth": "210px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "The DMM",
+                  "text": "The <button class='glossary-text'>digital multimeter</button>, <button class='glossary-text'>DMM</button>, is an indispensable tool in the electronics laboratory for the measurement of voltage, <button class='glossary-text'>resistance</button>, and current. First, plug the black probe into the COM (common) port of the DMM. That probe will always remain in that port no matter what measurement is being made. To measure voltage, resistance, and very small currents (milliampères), the red probe should be plugged into the port labeled VΩmA. Of course, you will need to turn the dial from the OFF setting to the appropriate unit and scale for measure. If your DMM displays the letters OL (overload), you are on the wrong scale and must adjust to the next higher range. If you need to measure currents larger than 200 mA, you need to plug the red probe into the port labeled 10 ADC (10 ampères max, DC). This port runs the measured current through a fuse, so in case the current is too high, the fuse blows instead of the DMM. For measuring voltages and resistances, probe either side of the circuit component(s), or in other words, put the DMM in the circuit in <button class='glossary-text'>parallel</button> with the voltage or resistance you want to measure (the red and black lines represent the colored probes of the DMM)."
+                },
+                {
+                  "type": "Plain",
+                  "subTitle": "The Breadboard",
+                  "text": "The breadboard provided will permit you to “build” your circuit without having to permanently attach the components through soldering."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580274/580274_Physics_fig_008.svg",
+                  "imgDivWidth": "270px",
+                  "maxWidth": "310px",
+                  "scrollImg": true,
+                  "altText": "Figure 8: A resistor with back and red arrows on either side showing the digital multimeter is part of the circuit"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580274/580274_Physics_fig_009.svg",
+                  "imgDivWidth": "510px",
+                  "maxWidth": "600px",
+                  "scrollImg": true,
+                  "altText": "Figure 9: Solderless breadboard"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The breadboard has many strips of metal (copper usually) that run underneath the board. The metal strips (yellow lines) are laid out as shown below."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580274/580274_Physics_fig_010.svg",
+                  "imgDivWidth": "540px",
+                  "maxWidth": "600px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "90%",
+                    "L": "90%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "altText": "Figure 10: A breadboard with the metal strips in yellow"
+                },
+                {
+                  "type": "Plain",
+                  "text": "These strips connect the holes on the top of the board. This makes it easy to connect components together to build circuits. To use the breadboard, the wires of components are placed in the holes (the sockets). The holes are made so that they will hold the component in place. Each hole is connected to one of the metal strips running underneath the board. Basically, those drawn lines over the holes show what holes are connected to one another. Typically, the long top and bottom rows of holes are used for power supply connections. A circuit is built by placing components and connecting them together with wires (your circuit must be a complete loop, with all \"lines\" connected)."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "When a path is formed by wires and components from the positive supply node to the negative supply node, we can turn on the power and current flows through the path and the circuit works as connected. Figure 11 shows examples of how connections are made to form <button class='glossary-text'>series</button> and <button class='glossary-text'>parallel</button> circuits."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580274/580274_Physics_fig_011.svg",
+                  "imgDivWidth": "520px",
+                  "maxWidth": "600px",
+                  "imgDivWidthForTablet": {
+                    "P": "90%",
+                    "L": "90%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "scrollImg": true,
+                  "altText": "Figure 11: Two breadboards: one showing connections made to form a series circuit along with its schematic and the other showing connections to form a parallel circuit along with its schematic"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "altText": "A map of the procedural workflow for this investigation. In activity 1, you will determine the stated resistance of the resistor using its bands. Then, you will measure the actual resistance using the digital multimeter and calculate the percent difference between the two. You will repeat this for a total for 5 resistors. In activity 2, you will build a circuit with resistors in series, calculate the total resistance and measure the actual resistance of the resistors. Next, you will switch the order of the resistors and measure the actual resistance of the resistors. In activity 3, you will build a circuit with resistors in parallel, calculate the total resistance and measure the actual resistance of the resistors. Then, you will switch the order of the resistors and measure the actual resistance of the resistors. In activity 4, you will build a combined circuit, calculate the total resistance and measure the actual resistance of the resistors.",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Physics/580274/580274_Physics_ED_001.svg",
+                  "imgDivWidth": "1230px",
+                  "maxWidth": "1550px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "100%",
+                    "L": "95%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "90%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Needed from the equipment kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Assorted resistors 47, 82, 150, 220, and 330",
+                          "image": "courses_2023/Physics/580274/580274_Physics_material_1.svg",
+                          "altText": "Resistor assortment bundle in clear plastic bag"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Digital multimeter",
+                          "image": "courses_2023/Physics/580274/580274_Physics_material_2.svg",
+                          "altText": "Digital multimeter"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Breadboard",
+                          "image": "courses_2023/Physics/580274/580274_Physics_material_3.svg",
+                          "altText": "Mini breadboard"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "2 wires, 1 red and <span style='whiteSpace: nowrap'>1 black,</span> 6 inches",
+                          "image": "courses_2023/Physics/580274/580274_Physics_material_4.svg",
+                          "altText": "6 inch red and black wire"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span> <span className=bodyParaLineBreak></span> <span className=bodyParaLineBreak></span> Replacement supplies for the Resistors: Series and Parallel investigation (item number 580274) can be ordered from Carolina Biological Supply Company.<span className=bodyParaLineBreak></span> <span className=bodyMediumSubHeading>Call:</span> 866.332.4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "isCheckPoint": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Wear your safety goggles at all times while conducting this investigation. Read all the instructions for the activities before beginning. Follow the instructions closely, and observe established laboratory safety practices, including the use of appropriate personal protective equipment."
+                },
+                {
+                  "type": "Image",
+                  "desc": "goggles symbol",
+                  "altText": "goggles symbol",
+                  "image": "core/Key_Goggle.svg",
+                  "imgDivWidth": "78px",
+                  "maxWidth": "120px"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Do not eat, drink, or chew gum while performing this investigation. Wash your hands with soap and water before and after the investigation and clean the work area with soap and water after finishing. Keep pets and children away from lab materials and equipment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.</span>",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the total resistance of the following arrangement of resistors? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "imageData": {
+                        "image": "courses_2023/Physics/580274/580274_Physics_img_001.svg",
+                        "altText": "A partial circuit schematic consisting of two, 100-ohm resistors in series.",
+                        "imgDivWidth": "100%",
+                        "maxWidth": "370px"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "200 Ω",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "100 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "50 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "1000 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "10000 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the total resistance of the following arrangement of resistors? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "imageData": {
+                        "image": "courses_2023/Physics/580274/580274_Physics_img_002.svg",
+                        "altText": "A partial circuit schematic showing a loop with three resistors. Two resistors are on the top edge of the loop and are labeled 10 ohms and 5 ohms from left to right. The third resistor is on the bottom edge of the loop and is labeled 5 ohms.",
+                        "imgDivWidth": "100%",
+                        "maxWidth": "370px"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "3.75 Ω",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "20 Ω ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "2 Ω ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "25 Ω ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "0.267 Ω ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the total resistance of the following arrangement of resistors?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "imageData": {
+                        "image": "courses_2023/Physics/580274/580274_Physics_img_003.svg",
+                        "altText": "A partial circuit schematic showing a loop with two resistors, one each on the top and bottom edges of the loop. Each resistor is labeled 4.7 kilo-ohms.",
+                        "imgDivWidth": "100%",
+                        "maxWidth": "370px"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "2350 Ω",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "2.35 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "9400 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "9.4 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "0.0043 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the total resistance of the following arrangement of resistors?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "imageData": {
+                        "image": "courses_2023/Physics/580274/580274_Physics_img_004.svg",
+                        "altText": "A partial circuit schematic showing a loop with two resistors, one each on the top and bottom edges of the loop. The top resistor is labeled 2 ohms and the bottom resistor is labeled 5 ohms.",
+                        "imgDivWidth": "100%",
+                        "maxWidth": "370px"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "1.43 Ω",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "7 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "0.7 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "3 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "0.143 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the total resistance of the following arrangement of resistors?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "imageData": {
+                        "image": "courses_2023/Physics/580274/580274_Physics_img_005.svg",
+                        "altText": "A partial circuit schematic showing a loop with two resistors, one each on the top and bottom edges of the loop, and a wire extending to the right, away from the loop. Each resistor in the loop is labeled 2 ohms. The resistor on the connected wire is labeled 5 ohms.",
+                        "imgDivWidth": "100%",
+                        "maxWidth": "370px"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "6 Ω",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "1 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "9 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "4 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "5 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the total resistance of the following arrangement of resistors?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "imageData": {
+                        "image": "courses_2023/Physics/580274/580274_Physics_img_006.svg",
+                        "altText": "A partial circuit schematic of two resistors in series along a horizontal wire bent at two different 90-degree angles to form a step-like shape. The leftmost resistor is labeled 500 ohms and the resistor on the vertical portion of the circuit, to the right of the first resistor, is labeled 100 ohms.",
+                        "imgDivWidth": "100%",
+                        "maxWidth": "370px"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "600 Ω",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "400 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "83.3 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "100 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "833 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the total resistance of the following arrangement of resistors?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "imageData": {
+                        "image": "courses_2023/Physics/580274/580274_Physics_img_007.svg",
+                        "altText": "A partial circuit schematic showing two loops oriented horizontally and three resistors, one on each horizontal wire forming the conjoined loops. The topmost resistor and the middle resistor are each labeled 10 ohms. The bottommost resistor is labeled 5 ohms.",
+                        "imgDivWidth": "100%",
+                        "maxWidth": "230px"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "2.5 Ω",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "25 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "5 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "0.4 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "0.04 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the total resistance of the following arrangement of resistors? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "imageData": {
+                        "image": "courses_2023/Physics/580274/580274_Physics_img_008.svg",
+                        "altText": "A partial circuit schematic showing a loop with four resistors, two each on the top and bottom edges of the loop. Each resistor is labeled 2 ohms.",
+                        "imgDivWidth": "100%",
+                        "maxWidth": "370px"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "2 Ω",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "1 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "0 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "8 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "4 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (3 steps)",
+              "pageTitle": "Preparation (3 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure",
+              "keyID": "prep",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Create a work space."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Read through the activities."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Obtain the required materials."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will compare the stated <button class='glossary-text'>resistance</button> of the <button class='glossary-text'>resistor</button> determined using the resistor bands with the measured resistance of the resistor using the <button class='glossary-text'>digital multimeter</button> and calculate the percent difference between the two. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Activity 1",
+              "pageTitle": "Activity 1",
+              "showPageTitle": false,
+              "waterMark": false,
+              "keyID": "activity1",
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>A</div>&nbsp;Reading Resistor Bands (3 steps)"
+                      }
+                    ],
+                    "text": "Choose all 5 <button class='glossary-text'>resistors</button> from the equipment kit."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "For each resistor, record the color bands, translate that into a <button class='glossary-text'>resistance</button>, and measure the actual resistance with the DMM. Record all this information in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 1</span>.</span> Be sure that the DMM is set to the correct range based on the expected resistance from the resistor bands."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate how far the actual resistance is from the labeled one using the equation below. Record your calculations in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 1</span>.</span><span className=bodyParaLineBreak> |(<span class='bodyFontItalic'>R</span><sub class='bodysubscript'>measured</sub> - <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>labeled</sub>)/<span class='bodyFontItalic'>R</span><sub class='bodysubscript'>labeled</sub>| x 100%"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will create a circuit with <button class='glossary-text'>resistors</button> in <button class='glossary-text'>series</button>, calculate the theoretical <button class='glossary-text'>resistance</button> and measure the actual resistance of the circuit.  You will then switch the positions of the resistors and remeasure the resistance of the circuit."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "Activity 2",
+              "pageTitle": "Activity 2",
+              "showPageTitle": false,
+              "waterMark": false,
+              "keyID": "activity2",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>A</div>&nbsp;Resistors in Series (6 steps)"
+                      }
+                    ],
+                    "text": "Choose 3 of the 5 <button class='glossary-text'>resistors</button> used in Activity 1."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the <button class='glossary-text'>resistance</button> of each (as measured in <span style='whiteSpace: nowrap'>Activity 1)</span> in the first row of <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 2</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Build a circuit with the resistors in <button class='glossary-text'>series</button>. The wire of each resistor will need to terminate in the same row as the next. Figure 12 and Steps 3a through 3c provide an example of how to properly connect them in series. You may choose to use different rows in your circuit.<ol type=a><li>Resistor 1 is inserted into the breadboard in row 15 and row 23.</li><li>Resistor 2 is inserted into a hole in row 23 and row 35.</li><li style='margin-bottom:-17px;'>Resistor 3 is inserted into row 35 and row 41. The first two resistors are connected since they are both in row 23. The last two are connected since they are both plugged into row 35.</li></ol>"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580274/580274_Physics_fig_012.svg",
+                    "imgDivWidth": "540px",
+                    "maxWidth": "600px",
+                    "imgDivWidthForMobile": {
+                      "P": "100%",
+                      "L": "100%"
+                    },
+                    "scrollImg": true,
+                    "altText": "Figure 12: Breadboard showing a circuit as described in Steps 3a through 3c"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate <span class='bodyFontItalic'>R<sub class='bodysubscript'><span class='bodyFontItalic'>total</span></sub></span>. Record this value in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 2</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Based upon that measurement, set the DMM to the appropriate range and measure the resistance of the circuit by touching the probes of the DMM on the resistor wires in the beginning and end of the resistor chain (row 15 and row 41 in the Figure 12 example). Record this resistance in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 2</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Swap <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>1</sub> and <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>3</sub> in the breadboard. Record the measured resistance of each resistor in row 2 of <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 2</span>.</span> Measure <span class='bodyFontItalic'>R<sub class='bodysubscript'>total</sub></span> to prove that the order of the resistors does not affect the total resistance. Record this measurement in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 2</span>.</span>"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 3",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 3, you will create a circuit with <button class='glossary-text'>resistors</button> in <button class='glossary-text'>parallel</button>, calculate the theoretical <button class='glossary-text'>resistance</button> and measure the actual resistance of the circuit.  You will then switch the positions of the resistors and remeasure the resistance of the circuit."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 3",
+          "pages": [
+            {
+              "title": "Activity 3",
+              "pageTitle": "Activity 3",
+              "showPageTitle": false,
+              "waterMark": false,
+              "keyID": "activity3",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>A</div>&nbsp;Resistors in Parallel (7 steps)"
+                      }
+                    ],
+                    "text": "Use the 3 <button class='glossary-text'>resistors</button> used in Activity 2."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the <button class='glossary-text'>resistance</button> of each (as measured in <span style='whiteSpace: nowrap'>Activity 2)</span> in the first row of  <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 3</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Build a circuit with the resistors in <button class='glossary-text'>parallel</button>. The wires of all resistors will need to terminate in the same rows. In Figure 13, resistors 1, 2, and 3 are inserted into the breadboard in <span style='whiteSpace: nowrap'>row 27</span> and <span style='whiteSpace: nowrap'>row 39.</span> This is an example of how to properly connect them in parallel. You may choose to use different rows in your circuit."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580274/580274_Physics_fig_013.svg",
+                    "imgDivWidth": "540px",
+                    "maxWidth": "600px",
+                    "imgDivWidthForMobile": {
+                      "P": "100%",
+                      "L": "100%"
+                    },
+                    "scrollImg": true,
+                    "altText": "Figure 13: Breadboard showing parallel circuit as described in Steps 3"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate <span class='bodyFontItalic'>R<sub class='bodysubscript'>total</sub></span>. Record this value in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 3</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Unlike Activity 2, you will need to create contacts for the DMM to measure this parallel arrangement. Plug the black wire into an open slot in the row with the one end of the resistors and the red wire from your kit in a slot in the row of the other ends of the resistors. In Figure 13, the black wire would be inserted into a hole in <span style='whiteSpace: nowrap'>row 27</span> and the red in <span style='whiteSpace: nowrap'>row 39.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Based on the measurement in Step 4, set the DMM to the appropriate range and measure the resistance of the circuit by touching the black probe of the DMM to the black wire and the red probe to the red wire. Record this resistance in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 3</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Swap <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>1</sub> and <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>3</sub> in the breadboard. Record the measured resistance of each resistor in row 2 of <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 3</span>.</span> Measure <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>total</sub> to prove that the order of the resistors does not affect the total resistance. Record this measurement in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 3</span>.</span>"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 4",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 4, you will create a combined circuit with <button class='glossary-text'>resistors</button> in <button class='glossary-text'>series</button> and in <span style='whiteSpace: nowrap'><button class='glossary-text'>parallel</button>,</span> calculate the theoretical <button class='glossary-text'>resistance</button> and measure the actual resistance of the circuit."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 4",
+          "pages": [
+            {
+              "title": "Activity 4",
+              "pageTitle": "Activity 4",
+              "showPageTitle": false,
+              "waterMark": false,
+              "keyID": "activity4",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>A</div>&nbsp;Combined Circuit (5 steps)"
+                      }
+                    ],
+                    "text": "Use the 5 <button class='glossary-text'>resistors</button> used in Activity 1."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the <button class='glossary-text'>resistance</button> of each (as measured in <span style='whiteSpace: nowrap'>Activity 1)</span> in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 4</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Build a circuit with <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>1</sub> leading into a <button class='glossary-text'>parallel</button> arrangement of <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>2</sub>, <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>3</sub>, <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>4</sub>, and <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>5</sub> trailing out from those. Figure 14 and Steps 3a through 3c provide an example of how to properly connect them. You may choose to use different rows in your circuit.<ol type=a><li><span class='bodyFontItalic'>R</span><sub class='bodysubscript'>1</sub> is plugged into rows 20 and 25.</li><li><span class='bodyFontItalic'>R</span><sub class='bodysubscript'>2</sub>, <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>3</sub>, and <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>4</sub> are plugged into rows 25 and 30.</li><li style='margin-bottom:-17px;'><span class='bodyFontItalic'>R</span><sub class='bodysubscript'>5</sub> is plugged into rows 30 and 35.</li></ol>"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580274/580274_Physics_fig_014.svg",
+                    "imgDivWidth": "250px",
+                    "maxWidth": "290px",
+                    "scrollImg": true,
+                    "altText": "Figure 14: Schematic of circuit described in Steps 3a through 3c"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate <span class='bodyFontItalic'>R<sub class='bodysubscript'>total</sub></span>. You can do this by reducing this down.<ol type=a><li>First calculate the resistance of the parallel arrangement of <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>2</sub>, <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>3</sub>, and <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>4</sub>.</li><li style='margin-bottom:-17px;'>That calculated resistance is in <button class='glossary-text'>series</button> to <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>1</sub> and <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>5</sub>. Record this value in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 4</span>.</span></li></ol>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Based on the measurement in Step 4, set the DMM to the appropriate range and measure the resistance of the circuit by touching the black probe of the DMM to the ends of <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>1</sub> and <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>5</sub>. Record this resistance in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 4</span>.</span>"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "orderedType": "1",
+                  "listType": "ordered",
+                  "text": [
+                    "Return the materials to the kit and clean the area."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "altText": "completion",
+                  "desc": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Physics_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "landscape A4"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "75%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1. Resistors"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 10,
+                "sr": 0,
+                "header": [
+                  {
+                    "text": "Color Bands ",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Labeled Resistance (Ω) ",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Measured Resistance (Ω) ",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Percent Deviation",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Within Tolerance?<br>(Yes or No)",
+                    "colWidth": "15%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Activity2",
+            "width": "75%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 2. Resistors in Series Circuit "
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 10,
+                "sr": 0,
+                "header": [
+                  {
+                    "text": "Measured Resistance of <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>1</sub> (Ω)",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Measured Resistance of <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>2</sub> (Ω)",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Measured Resistance of <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>3</sub> (Ω)",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Calculated Total Resistance (Ω)",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Measure Total Resistance (Ω)",
+                    "colWidth": "15%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 2
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Activity3",
+            "width": "75%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 3"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 3. Resistors in Parallel Circuit"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 10,
+                "sr": 0,
+                "header": [
+                  {
+                    "text": "Measured Resistance of <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>1</sub> (Ω)",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Measured Resistance of <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>2</sub> (Ω)",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Measured Resistance of <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>3</sub> (Ω)",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Calculated Total Resistance (Ω)",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Measure Total Resistance (Ω)",
+                    "colWidth": "15%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 2
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Activity4",
+            "width": "80%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 4"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 4. Resistors in Combined Circuit"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 10,
+                "sr": 0,
+                "header": [
+                  {
+                    "text": "Measured Resistance of <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>1</sub> (Ω)",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Measured Resistance of <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>2</sub> (Ω)",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Measured Resistance of <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>3</sub> (Ω)",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Measured Resistance of <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>4</sub> (Ω)",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": " Measured Resistance of <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>5</sub> (Ω)",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Calculated Total Resistance (Ω)",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Measure<br>Total Resistance (Ω)",
+                    "colWidth": "15%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 2
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": "",
+                      "colspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "Question1",
+          "Question2",
+          "Question3",
+          "Question4",
+          "Question5"
+        ],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "What is the total resistance of this circuit? Show your work."
+                ]
+              },
+              {
+                "type": "Image",
+                "image": "courses_2023/Physics/580274/580274_Physics_img_009.svg",
+                "imgDivWidth": "170px",
+                "maxWidth": "220px",
+                "disableClick": false,
+                "scrollImg": true,
+                "altText": "A schematic of two loops oriented horizontally, one above and one below a central wire. On the loops are three resistors, each on a horizontal wire. The topmost resistor is labeled 4.7 kilo-ohms, the middle resistor 3.3 kilo-ohms, and the bottommost resistor 1.2 kilo-ohms."
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 300,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "2",
+                "listType": "ordered",
+                "text": [
+                  "What is the total resistance of this circuit? Show your work."
+                ]
+              },
+              {
+                "type": "Image",
+                "image": "courses_2023/Physics/580274/580274_Physics_img_010.svg",
+                "imgDivWidth": "240px",
+                "maxWidth": "290px",
+                "disableClick": false,
+                "scrollImg": true,
+                "altText": "A schematic of a resistor on a wire connected on its right to two loops oriented horizontally, one above and one below the central wire. On the loops are three additional resistors, each on a horizontal wire. The resistor outside the loops is labeled 30 ohms. Within the loops, the topmost resistor is labeled 13 ohms, the middle resistor 22 ohms, and the bottommost resistor 100 ohms."
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 1,
+                "maxLength": 300,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question3",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "3",
+                "listType": "ordered",
+                "text": [
+                  "What is the total resistance of this circuit? Show your work."
+                ]
+              },
+              {
+                "type": "Image",
+                "image": "courses_2023/Physics/580274/580274_Physics_img_011.svg",
+                "imgDivWidth": "330px",
+                "maxWidth": "400px",
+                "disableClick": false,
+                "scrollImg": true,
+                "altText": "A schematic of two sets of resistors in parallel, with the resistor sets in series. The leftmost set of resistors in parallel are labeled, from top to bottom, 30 ohms and 45 ohms. The rightmost set of resistors in parallel are labeled, from top to bottom, 15 ohms and 20 ohms."
+              },
+              {
+                "type": "Questions",
+                "id": "Question3",
+                "sr": 2,
+                "maxLength": 300,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question4",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "4",
+                "listType": "ordered",
+                "text": [
+                  "What is the total resistance of this circuit? Show your work. "
+                ]
+              },
+              {
+                "type": "Image",
+                "image": "courses_2023/Physics/580274/580274_Physics_img_012.svg",
+                "imgDivWidth": "250px",
+                "maxWidth": "385px",
+                "disableClick": false,
+                "imgDivMargin": "0 0 10px 0",
+                "scrollImg": true,
+                "altText": "A schematic of three resistors in series. From left to right they are labeled 4.7 kilo-ohms, 3.3 kilo-ohms, and 1.5 kilo-ohms."
+              },
+              {
+                "type": "Questions",
+                "id": "Question4",
+                "sr": 3,
+                "maxLength": 300,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question5",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "5",
+                "listType": "ordered",
+                "text": ["Explain the electronic basis for resistance."]
+              },
+              {
+                "type": "Questions",
+                "id": "Question5",
+                "sr": 4,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 3000,
+            "title": "Notes"
+          },
+          
+          {
+            "type": "Box",
+            "id": "Box_Note",
+            "align": "center",
+            "margin": "25px 0 0 0",
+            "text": "In order for your instructor to be able to open your video links, please select the \"Save as PDF\" option rather than \"Print to PDF\"."
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6338400373112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 1. Band gaps for metals, semiconductors and insulators",
+        "src": "courses_2023/Physics/580274/580274_Physics_fig_001.svg",
+        "altText": "Figure 1: Conduction band gap diagram, showing an overlap for metal, a slight gap for a semiconductor, and a larger gap for insulator",
+        "maxWidth": "410px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 2. Cross-section of a ceramic resistor",
+        "src": "courses_2023/Physics/580274/580274_Physics_fig_002.svg",
+        "altText": "Figure 2: A cross section of a composition resistor, labeling the ceramic core, carbon film, nickel cap, lead, and protective lacquer",
+        "maxWidth": "410px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 3. Labels on a resisto",
+        "src": "courses_2023/Physics/580274/580274_Physics_fig_003.svg",
+        "altText": "Figure 3: The brown, gray, red and silver bands stamped on a resistor",
+        "maxWidth": "380px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 4. Symbol for a resistor",
+        "src": "courses_2023/Physics/580274/580274_Physics_fig_004.svg",
+        "altText": "Figure 4: Schematic diagram symbol for a resistor showing a horizontal line with zigzags in the center",
+        "maxWidth": "260px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 5. Symbol for a voltage source ",
+        "src": "courses_2023/Physics/580274/580274_Physics_fig_005.svg",
+        "altText": "Figure 5: Schematic diagram symbol for a voltage source showing a plus on the left and minus on the right above v",
+        "maxWidth": "250px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 6. Circuit diagram for two resistors in series",
+        "src": "courses_2023/Physics/580274/580274_Physics_fig_006.svg",
+        "altText": "Figure 6: Schematic of a series circuit with R sub 1 and R sub 2 side by side in the circuit and the emf symbol below",
+        "maxWidth": "160px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 1. Total resistance for resistors in series",
+        "src": "courses_2023/Physics/580274/580274_Equation_001.svg",
+        "altText": "Equation 1: R sub total equals sigma R sub 1 plus R sub 2 plus ellipses R sub n",
+        "maxWidth": "270px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 2. Ohm’s law applied to resistors in series ",
+        "src": "courses_2023/Physics/580274/580274_Equation_002.svg",
+        "altText": "Equation 2: V equals I R sub 1 plus I R sub 2 equals I begin paren R sub 1 plus R sub 2 end paren",
+        "maxWidth": "285px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 7. Circuit diagram for two resistors in parallel",
+        "src": "courses_2023/Physics/580274/580274_Physics_fig_007.svg",
+        "altText": "Figure 7: Schematic of an in parallel circuit, with R sub 1 above and parallel to R sub 2 and the emf symbol below",
+        "maxWidth": "110px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 3. Total resistance for resistors in parallel",
+        "src": "courses_2023/Physics/580274/580274_Equation_003.svg",
+        "altText": "Equation 3: Begin fraction 1 over R sub total end fraction equals sigma begin fraction 1 over R sub 1 end fraction plus begin fraction 1 over R sub 2 end fraction plus ellipses begin fraction 1 over R sub n end fraction",
+        "maxWidth": "350px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": " Equation 4. Ohm’s law applied to resistors in parallel",
+        "src": "courses_2023/Physics/580274/580274_Equation_004.svg",
+        "altText": "Equation 4: I equals I sub 1 plus I sub 2 equals begin fraction V over R sub 1 end fraction plus begin fraction V over R sub 2 end fraction equals V begin paren begin fraction 1 over R sub 1 end fraction plus begin fraction 1 over R sub 2 end fraction end paren equals begin fraction V over R sub total end fraction",
+        "maxWidth": "485px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 8. Connect DMM to resistor in parallel to measure resistance",
+        "src": "courses_2023/Physics/580274/580274_Physics_fig_008.svg",
+        "altText": "Figure 8: A resistor with back and red arrows on either side showing the digital multimeter is part of the circuit",
+        "maxWidth": "310px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 9. Front view of a breadboard",
+        "src": "courses_2023/Physics/580274/580274_Physics_fig_009.svg",
+        "altText": "Figure 9: Solderless breadboard",
+        "maxWidth": "600px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 10. Back view of a breadboard",
+        "src": "courses_2023/Physics/580274/580274_Physics_fig_010.svg",
+        "altText": "Figure 10: A breadboard with the metal strips in yellow",
+        "maxWidth": "600px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 11. How to connect series and parallel circuits to a breadboard",
+        "src": "courses_2023/Physics/580274/580274_Physics_fig_011.svg",
+        "altText": "Figure 11: Two breadboards: one showing connections made to form a series circuit along with its schematic and the other showing connections to form a parallel circuit along with its schematic",
+        "maxWidth": "600px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Experimental Design Diagram",
+        "src": "courses_2023/Physics/580274/580274_Physics_ED_001.svg",
+        "altText": "A map of the procedural workflow for this investigation. In activity 1, you will determine the stated resistance of the resistor using its bands. Then, you will measure the actual resistance using the digital multimeter and calculate the percent difference between the two. You will repeat this for a total for 5 resistors. In activity 2, you will build a circuit with resistors in series, calculate the total resistance and measure the actual resistance of the resistors. Next, you will switch the order of the resistors and measure the actual resistance of the resistors. In activity 3, you will build a circuit with resistors in parallel, calculate the total resistance and measure the actual resistance of the resistors. Then, you will switch the order of the resistors and measure the actual resistance of the resistors. In activity 4, you will build a combined circuit, calculate the total resistance and measure the actual resistance of the resistors.",
+        "maxWidth": "1550px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 12. Three resistors in series on a breadboard ",
+        "src": "courses_2023/Physics/580274/580274_Physics_fig_012.svg",
+        "altText": "Figure 12: Breadboard showing a circuit as described in Steps 3a through 3c",
+        "maxWidth": "600px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 13. Three resistors in parallel on a breadboard",
+        "src": "courses_2023/Physics/580274/580274_Physics_fig_013.svg",
+        "altText": "Figure 13: Breadboard showing parallel circuit as described in Steps 3",
+        "maxWidth": "600px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 14. Circuit diagram for a combined circuit ",
+        "src": "courses_2023/Physics/580274/580274_Physics_fig_014.svg",
+        "altText": "Figure 14: Schematic of circuit described in Steps 3a through 3c",
+        "maxWidth": "290px",
+        "scrollImg": true
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Capacitor",
+        "content": "An electrical device that stores charge"
+      },
+      {
+        "title": "Composition resistor",
+        "content": "The most common resistor;  a resistor composed of a resisting material and a binding material"
+      },
+      {
+        "title": "Conduction band",
+        "content": "A delocalized band of energy partly filled with electrons in a crystalline solid; these electrons have great mobility and are responsible for electron conductivity"
+      },
+      {
+        "title": "Conductor",
+        "content": "A material that permits electrons to flow freely from particle to particle; the charge can be transferred across the entire surface of the object"
+      },
+      {
+        "title": "Digital multimeter (DMM)",
+        "content": "A device used to measure two or more electrical values - principally voltage, current, and resistance"
+      },
+      {
+        "title": "Electromotive force (emf)",
+        "content": "The electric potential produced by either electrochemical cell or by changing the magnetic field"
+      },
+      {
+        "title": "Electron",
+        "content": "A fundamental particle that has a negative charge"
+      },
+      {
+        "title": "Electron cloud",
+        "content": "A system of electrons surrounding the nucleus of an atom"
+      },
+      {
+        "title": "Electron hole",
+        "content": "The area previously occupied by an electron and have a charge e of <span style='whiteSpace: nowrap'>+1.6 × 10^ −19C</span> relative to its local environment in the electron cloud"
+      },
+      {
+        "title": "Insulator",
+        "content": "A material that impedes the free flow of electrons from atom to atom and molecule to molecule"
+      },
+      {
+        "title": "Ohm's law",
+        "content": "States that the voltage of a circuit is directly proportional to the product of the current and resitance of a circuit"
+      },
+      {
+        "title": "Parallel",
+        "content": "Describes an electrical circuit in which current flows in more than one path at the same time"
+      },
+      {
+        "title": "Resistance (R)",
+        "content": "The measure of how much an object opposes the flow of current"
+      },
+      {
+        "title": "Resistor",
+        "content": "An electronic device used to reduce voltage in a circuit by converting the electrical energy to heat"
+      },
+      {
+        "title": "Semiconductor",
+        "content": "Any class of solids whose electrical conductivity is between that of a conductor and that of an insulator in being nearly as great as that of a metal at high temperatures and nearly absent at low temperatures"
+      },
+      {
+        "title": "Series",
+        "content": "Describes an electrical circuit that permits the entire current to travel through all components"
+      },
+      {
+        "title": "Transistor",
+        "content": "A semiconductor device with three connections that is capable of amplification in addition to rectification"
+      },
+      {
+        "title": "Valence band",
+        "content": "The band of electron orbitals that electrons can jump out of, moving into the conduction band when excited; the outermost electron orbital of any atom of a specific material that electrons can occupy"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables, pages and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<br /><br />You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<br /><br />You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

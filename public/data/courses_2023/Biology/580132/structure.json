@@ -1,0 +1,2940 @@
+{
+  "locked": true,
+  "courseTitle": "Natural Selection: A Brine Shrimp Viability Study",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/bodyBookmark.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Biology_launchPageBg.png",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleSeq": [0, 2, 1, 3],
+                "titleName0": "Biology",
+                "images": {
+                  "logo": "core/Biology_subject_icon.svg"
+                },
+                "titleName2": "Natural Selection:",
+                "titleName1": "A Brine Shrimp Viability Study",
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "waterMark": true,
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Evolution is the result of selection acting upon <button class='glossary-text'>genetic variation</button> within a population where the majority of individuals with advantageous characteristics have an increased likelihood of surviving and reproducing. In this lab, students will test the effects of salt concentration on the hatching viability of <span className='bodyFontItalic'>Artemia</span> (brine shrimp) and relate their variation in salt tolerance to the concept of <button class='glossary-text'>natural selection</button>."
+                },
+                {
+                  "type": "List",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Water, nonchlorinated (bottled spring water or distilled water)*",
+                    "Non-iodized table salt (sodium chloride)**, 5 g",
+                    "Transparent tape",
+                    "Measuring spoon",
+                    "Spoon (for mixing)",
+                    "Large plastic container, such as a bucket or dishpan",
+                    "Graph paper or graphing software"
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "text": "*Common tap water contains chlorine for sanitation, which will negatively affect brine shrimp viability. For best results, use bottled spring water or distilled water."
+                },
+                {
+                  "type": "Box",
+                  "text": "**Be sure to use non-iodized salt."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Biology/580132_Bio/580132_Bio_Time-Requirement.svg",
+                  "desc": "Preparation - 10 minutes\nActivity 1: Brine Shrimp Viability Experiment\n   Day 1 - 60 minutes\n   Day 2 - 45 minutes\n   Day 3 - 45 minutes",
+                  "altText": "Preparation - 10 minutes\nActivity 1: Brine Shrimp Viability Experiment\n   Day 1 - 60 minutes\n   Day 2 - 45 minutes\n   Day 3 - 45 minutes",
+                  "width": "100%",
+                  "imgDivWidth": "590px",
+                  "maxWidth": "630px",
+                  "scrollImg": true,
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": " "
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "Days 1, 2, and 3 <span className='bodyFontBold'><span className='bodyFontItalic'>must</span></span> be consecutive."
+                }
+              ]
+            },
+            {
+              "waterMark": true,
+              "template": "OverView",
+              "title": "Overview (cont...)",
+              "pageTitle": "Overview (cont...)",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Natural Selection: A Brine Shrimp Viability Study"
+                },
+                {
+                  "type": "Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Biology/580132_Bio/580132_Bio_VideoIcone.svg",
+                  "desc": "Overview Video",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6327698180112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "title": "Outcomes",
+                  "type": "List",
+                  "text": [
+                    "Describe the mechanisms of <button class='glossary-text'>genetic variation</button> and the three modes of <button class='glossary-text'>natural selection</button>.",
+                    "Explain and give examples of important biotic and abiotic factors that influence evolution by natural selection.",
+                    "Conduct counts of hatched brine shrimp.",
+                    "Quantify the effects of salinity on hatching viability of brine shrimp.",
+                    "Relate salinity tolerance of brine shrimp to natural selection."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Plants and animals have evolved to live in many harsh environments. River hippos, <span className='bodyFontItalic'>Hippopotamus amphibius</span>, live in sub-Saharan Africa. Due to the average rainfall averaging about three inches a year, and summer temperatures around 120° F, river hippos spend much of their time in the water and rolling in the mud to keep cool; however, this can expose them to bacterial infections."
+                },
+                {
+                  "type": "Plain",
+                  "text": "To cope with their environment, river hippos have evolved a unique adaptation called “blood sweat”. They secrete a fluid that sometimes appears red in the sunlight, hence the nickname. Although called “sweat”, this fluid is different from human sweat, which cools the body by evaporation. River hippo’s skin is sensitive to both drying out and becoming waterlogged, so blood sweat functions as a sunscreen and skin moisturizer that protects their skin in the dry heat but serves as a water repellent when the hippos are in the water for long periods of time. It is also a natural antibiotic. Although its exact chemical composition is unknown, blood sweat is a highly effective adaptation for the river hippos."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580132_Bio/580132_Bio_whyShouldICare.svg",
+                  "desc": "A hippopotamus head above water.",
+                  "altText": "A hippopotamus head above water.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Evolutionary biology</button> is the study of the history of life on Earth and the processes that led to its diversity. Based on principles of adaptation, chance, and history, evolutionary biology seeks to explain all the characteristics of organisms, and therefore occupies a central position in the biological sciences."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Biological evolution, simply put, can be described as descent with modification from a common ancestor. However, it is much more than change over time. Many things change over time; computers have changed from equipment that takes up an entire desk to something that fits into your pocket and horse drawn buggies have been replaced by the first automobiles. Yet, these events do not involve descent through genetic inheritance. The core idea of biological evolution is that all life on Earth ultimately shares a common ancestor. Biological evolution consists of change in the hereditary characteristics of groups of organisms over the course of generations, and through the process of descent with modification, the common ancestor of life on Earth gave rise to the tremendous biodiversity we see documented in the fossil record around us today."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Evolution is considered by many to be a historical process. Many organisms that do not exist today but that are found in the fossil record, have living descendants. These descendants are similar in many ways to their ancestors, but also show a variety of differences, or modifications. Evolution is an ongoing process. Examples can be found in the continual evolution of human pathogens that pose serious health concerns. Many strains of microbes have become increasingly resistant to antimicrobial agents that were once effective in controlling these pathogens. Similar episodes of rapid evolution are occurring with important agricultural pests. Numerous insect species have evolved resistance to pesticides, and even to chemical agents genetically engineered into plants to battle them."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "infoPopUp": "resource",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Evolution is responsible for both the remarkable similarities and the amazing diversity we see among all life-forms. Then how does evolution work? Essential to the process of evolution is <button class='glossary-text'>genetic variation</button> upon which selective forces can act. This variation is often the result of random <button class='glossary-text'>mutations</button>, or “copying errors,” that arise when DNA is replicated prior to cell division during the development of an organism. When organisms reproduce, they pass on their DNA—the set of instructions encoded in living cells for building bodies—to their offspring, and because many traits are encoded in DNA, offspring often inherit the variations of their parents. Mutations generate variant forms of a gene called <button class='glossary-text'>alleles</button>. Other sources of genetic variation are <button class='glossary-text'>gene flow</button> and <button class='glossary-text'>recombination</button> (through sexual reproduction). Evolution occurs as the consequence of several fundamental mechanisms that are both random and nonrandom. These mechanisms of change are <button class='glossary-text'>genetic drift</button>, gene flow, mutation, and <button class='glossary-text'>natural selection</button>. These mechanisms are summarized as follows: <span className='bodyParaLineBreak'></span> <ul style='list-style-type:disc'><li><span className='bodyFontBold'>Genetic drift</span> results from random variation in the survival and reproduction of different genotypes, or genetic makeup of a cell. In genetic drift, the frequencies of alleles fluctuate by pure chance (Figure 1).</li></ul>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580132_Bio/580132_Bio_fig_001.svg",
+                  "imgDivWidth": "342px",
+                  "scrollImg": true,
+                  "desc": "Figure 1: A diagram of genetic drift. In the first generation of rabbits, the big B allele, or variable p, has a frequency of 0.5; the little B allele, or variable q, has a frequency of 0.5; the phenotype ratio is 80% brown coats (dominant) and 20% white coats (recessive). Five brown rabbits (some homozygous, some heterozygous) from the first generation reproduce to create the second generation. The second generation of rabbits has p equals 0.7, q equals 0.3, and a phenotype ratio of 90% brown and 10% white. Two brown rabbits (both homozygous) reproduce to create the third generation. The third generation of rabbits has p equals 1, q equals 0, and a phenotype ratio of 100% brown coats.",
+                  "altText": "Figure 1: A diagram of genetic drift. In the first generation of rabbits, the big B allele, or variable p, has a frequency of 0.5; the little B allele, or variable q, has a frequency of 0.5; the phenotype ratio is 80% brown coats (dominant) and 20% white coats (recessive). Five brown rabbits (some homozygous, some heterozygous) from the first generation reproduce to create the second generation. The second generation of rabbits has p equals 0.7, q equals 0.3, and a phenotype ratio of 90% brown and 10% white. Two brown rabbits (both homozygous) reproduce to create the third generation. The third generation of rabbits has p equals 1, q equals 0, and a phenotype ratio of 100% brown coats.",
+                  "maxWidth": "390px"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'>Genetic_drift_in_a_population_Figure_19_02_02.png by OpenStax, Rice University is available under Creative Commons Attribution 4.0 License at<span  target='blank' style=' word-break: break-all'>https://commons.wikimedia.org/wiki/File:Genetic_drift_in_a_population_Figure_19_02_02.png</span></span> "
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "infoPopUp": "resource",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "<button class='glossary-text'>Gene flow</button> (also known as gene migration) is the movement of genes from one population to another. Gene flow can include several different types of events. Mobility plays an important role in gene flow, as highly mobile individuals tend to be able to migrate more readily. Gene flow is expected to be lower in species that have low mobility or dispersal, that occur in fragmented habitats, and where there are long distances between populations (Figure 2). If genes are introduced into a population where those genes did not previously exist, gene flow becomes a significant source of <button class='glossary-text'>genetic variation</button>. Although animals are thought to be more mobile than plants, pollen and seeds may be carried great distances by animals, water, or wind."
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580132_Bio/580132_Bio_fig_002.svg",
+                  "imgDivWidth": "624px",
+                  "scrollImg": true,
+                  "desc": "Figure 2: A diagram of gene flow. A mountain range separates butterfly Population A from Population B. Population A has orange and black butterflies without defined wing venation. Population B has white and black butterflies with clear wing venation. An individual from Population A migrated over a mountain and mated with an individual in Population B. The resulting offspring is an orange and black butterfly with clear wing venation living amongst Population B.",
+                  "altText": "Figure 2: A diagram of gene flow. A mountain range separates butterfly Population A from Population B. Population A has orange and black butterflies without defined wing venation. Population B has white and black butterflies with clear wing venation. An individual from Population A migrated over a mountain and mated with an individual in Population B. The resulting offspring is an orange and black butterfly with clear wing venation living amongst Population B.",
+                  "maxWidth": "820px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "<button class='glossary-text'>Mutation</button> is a change in DNA, the hereditary material of life. Mutations can be beneficial, neutral, or harmful to an organism’s survival and reproduction. Mutations are not “designed” to supply what an organism needs. Mutations arise randomly, and whether a particular mutation occurs or not is unrelated to how useful that mutation would be.",
+                    "<button class='glossary-text'>Natural selection</button> is the differential reproductive success experienced by different phenotypes (expressed or physical traits) based on both genotype and interactions with the environment. Natural selection is nonrandom and produces change in the frequencies of <button class='glossary-text'>alleles</button> in a population’s <button class='glossary-text'>gene pool</button>."
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "text": "All of these mechanisms cause change in the frequencies of alleles in populations; therefore, all are mechanisms of evolutionary change. However, without <button class='glossary-text'>genetic variation</button><span style='whiteSpace: nowrap'>, some</span> basic mechanisms of evolutionary change cannot operate. Natural selection, <button class='glossary-text'>genetic drift</button>, and <button class='glossary-text'>gene flow</button> do not take place unless there is genetic variation, that is, unless individuals have different genotypes."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Although each of the individual mechanisms involved in evolution seems relatively simple, the process of evolution is not as straightforward as it may appear in this text. The various mechanisms of evolutionary change interact in complex ways, and each has its own nuances and complexities."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "The transportation of pollen to a new location is an example of which of the following?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "gene flow",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "mutation",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "natural selection",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "fitness",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "genetic drift",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Although plants are not mobile, their genes can migrate from one area to another as pollen and seeds are carried great distances by animals, water, or wind. "
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following mechanisms is the movement of genes from one population to another?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "gene flow",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "mutation",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "natural selection",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "fitness",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "genetic drift",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Gene flow is the movement of genes from one population to another, either through organism migration or the dispersal of genetic material."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Evolution occurs as the consequence of several fundamental mechanisms that are both random and nonrandom. These mechanisms of change are genetic drift, gene flow, mutation, and natural selection. Genetic drift is the random variation in the survival and reproduction of different genotypes. Gene flow (Figure 2) is the movement of genes from one population to another. Although animals are thought to be more mobile than plants, pollen and seeds may be carried great distances by animals, water, or wind. Mutations (changes in DNA) can be beneficial, neutral, or harmful to an organism’s survival and reproduction. They arise randomly and their development is unrelated to their usefulness to the organism. Natural selection is the differential reproductive success experienced by different phenotypes based on both genotype and interactions with the environment. Unlike the other mechanisms, natural selection is nonrandom. All these mechanisms cause change in the frequencies of alleles in populations; therefore, all are mechanisms of evolutionary change.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Biology/580132_Bio/580132_Bio_fig_002.svg",
+                      "alt": "Figure 2: A diagram of gene flow. A mountain range separates butterfly Population A from Population B. Population A has orange and black butterflies without defined wing venation. Population B has white and black butterflies with clear wing venation. An individual from Population A migrated over a mountain and mated with an individual in Population B. The resulting offspring is an orange and black butterfly with clear wing venation living amongst Population B.",
+                      "maxWidth": "632px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "Evolution occurs as the consequence of several fundamental mechanisms that are both random and nonrandom. These mechanisms of change are genetic drift, gene flow, mutation, and natural selection. Genetic drift is the random variation in the survival and reproduction of different genotypes. Gene flow (Figure 2) is the movement of genes from one population to another. Although animals are thought to be more mobile than plants, pollen and seeds may be carried great distances by animals, water, or wind. Mutations (changes in DNA) can be beneficial, neutral, or harmful to an organism’s survival and reproduction. They arise randomly and their development is unrelated to their usefulness to the organism. Natural selection is the differential reproductive success experienced by different phenotypes based on both genotype and interactions with the environment. Unlike the other mechanisms, natural selection is nonrandom. All these mechanisms cause change in the frequencies of alleles in populations; therefore, all are mechanisms of evolutionary change.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Biology/580132_Bio/580132_Bio_fig_002.svg",
+                      "alt": "Figure 2: A diagram of gene flow. A mountain range separates butterfly Population A from Population B. Population A has orange and black butterflies without defined wing venation. Population B has white and black butterflies with clear wing venation. An individual from Population A migrated over a mountain and mated with an individual in Population B. The resulting offspring is an orange and black butterfly with clear wing venation living amongst Population B.",
+                      "maxWidth": "632px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Natural Selection",
+                  "text": "<button class='glossary-text'>Natural selection</button> is a fundamental mechanism of evolution and a means by which populations adapt and evolve. Essentially, it is a simple statement about rates of mortality and reproduction, or <button class='glossary-text'>fitness</button>. Those individual organisms who have higher fitness are more likely to produce the greatest number of offspring, whereas organisms with lower fitness are more likely to die and to produce fewer offspring. Development of the traits that allow individuals to survive and reproduce in an environment is referred to as adaptation. Production of fertile offspring is the only determinant in natural selection, and the prerequisite for reproductive success is survival to sexual maturity. After numerous generations, the better adapted individuals become more common in the population. In essence, nature has “filtered out” individuals who are less fit for a particular environment, and the population has evolved. In other words, Darwin’s proposal was that organisms with more beneficial traits, and higher fitness, become predominant in the population, and their <button class='glossary-text'>alleles</button> are expressed."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Environments cannot support unlimited populations. Because resources are limited, more organisms are born than can survive. Some individuals will be more successful at finding food, mating, or avoiding predators and will have a better chance to thrive, reproduce, and pass on their DNA. Environmental "
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "factors that have an effect on adaptation are classified as abiotic (nonliving) components, such as weather, climate, and soil, and biotic (living) components, such as competition, predation, and mating behavior."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Small variations in phenotype can influence whether or not an individual survives and reproduces. Differences in color, for instance, aid some individuals in camouflaging themselves from predators. Sharper eyes and claws help an eagle catch its dinner; brighter coloration improves a male peacock’s chances of attracting a mate. Members of any given species are seldom exactly the same, either in appearance or constitution. Organisms can vary in size, coloration, ability to fight off disease and countless other traits. This variation is often the result of random <button class='glossary-text'>mutations</button>, which consequently, is part of the inheritance process required in natural selection. A change in the genotype of an organism as mutations arise creates changes in the phenotype of that organism. Within a given population, several different alleles for a given trait may exist. The production of new alleles through this route adds to the genetic diversity of a population."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The most common misconception about natural selection is that <span className='bodyFontItalic'>individuals</span> evolve during their lifetime. Granted, natural selection acts on individuals and their inherited characteristics affect their fitness, but the evolutionary impact of natural selection is only apparent in tracking changes in a <span className='bodyFontItalic'>population</span> over time. Thus, populations are the smallest biological unit that can evolve."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The population’s <button class='glossary-text'>gene pool</button> is the sum total of all <button class='glossary-text'>alleles</button> in all individuals making up the population. The gene pool is the reservoir from which the next generation obtains its genes. In generation after generation, advantageous traits help some individuals survive and reproduce, and these traits are passed on to greater and greater numbers of offspring. Depending on the circumstances, after a certain number of generations, such traits become common in the population. The result is a population that is better suited—better adapted—to some aspect of the environment than it was before. The possible outcomes of <button class='glossary-text'>natural selection</button> vary according to the phenotypes that are favored. In general, there are three modes of selection: <span className='bodyParaLineBreak'></span><ul style='list-style-type:disc'><li><button class='glossary-text'>Directional selection</button>—shifts the overall makeup of the population by favoring variants of one extreme.</li><li><button class='glossary-text'>Diversifying (disruptive) selection</button>— favors variants of opposite extremes over intermediate individuals.</li><li><button class='glossary-text'>Stabilizing selection</button>—favors the intermediate and culls extreme variants from the population, thus stabilizing the population.</li></ul>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Separate groups of organisms belonging to the same species may adapt in different ways to better exploit diverse environments or resources. They may also evolve varied characteristics for attracting mates; that is, different groups evolve in different directions. Over time, these groups or populations may become so different that they can no longer interbreed—separate species have formed. Evolution has no single schedule. Sometimes, new species arise in a matter of years; other times, such as in an organism that reproduces every few hours, like bacteria, this can occur in as little as a few days, Other times, species remain stable for long periods, showing little or no evolutionary change."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "As new species are formed over the course of time through natural selection, others may become increasingly rare and finally extinct. At least five times in the past 500 million years, rapid environmental change drove much of life on Earth to extinction. But such mass extinctions offered surviving species an opportunity, as niches that were once inhabited became available and environments changed. Surviving populations adapted to newly available habitats and resources, with each group following its own evolutionary path and diversifying into new, distinct species."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Darwin’s theory of evolution by natural selection ultimately says that as long as there is variation, differential reproduction, and heredity, evolution will occur."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Rapid environmental changes have led to mass extinctions on Earth several times. These mass extinction events led to the development of new species, most likely through which of the following mechanisms?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Populations of surviving species adapted to newly available habitats.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The surviving species had the strongest genes.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "The extinction event removed all species and provided evolution a clean slate.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The new environment triggered shorter generation times in populations of surviving species.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Populations of surviving species acquired mutations from the hazardous new environment.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Mass extinctions offered surviving species an opportunity, as niches that were once inhabited became available; these populations adapted to the newly available habitats, diversifying into new species."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following organisms is most likely to evolve varied characteristics in the shortest period of time?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "bacteria",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "elephants",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "robins",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "sunflowers",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "frogs",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Species with short reproductive cycles, such as bacteria, can show evolutionary change in a matter of days. "
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Darwin’s theory of evolution by natural selection ultimately says that if there is variation, differential reproduction, and heredity, evolution will occur. At least five times in the past 500 million years, rapid environmental change drove much of life on Earth to extinction. But these mass extinctions offered surviving species an opportunity, as niches that were once inhabited became available and environments changed. Surviving populations adapted to newly available habitats and resources, with each group following its own evolutionary path and diversifying into new, distinct species. Evolution has no single schedule. Sometimes, new species arise in a matter of years; other times, such as in an organism that reproduces every few hours, like bacteria, this can occur in as little as a few days. Other times, species remain stable for long periods, showing little or no evolutionary change."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Darwin’s theory of evolution by natural selection ultimately says that if there is variation, differential reproduction, and heredity, evolution will occur. At least five times in the past 500 million years, rapid environmental change drove much of life on Earth to extinction. But these mass extinctions offered surviving species an opportunity, as niches that were once inhabited became available and environments changed. Surviving populations adapted to newly available habitats and resources, with each group following its own evolutionary path and diversifying into new, distinct species. Evolution has no single schedule. Sometimes, new species arise in a matter of years; other times, such as in an organism that reproduces every few hours, like bacteria, this can occur in as little as a few days. Other times, species remain stable for long periods, showing little or no evolutionary change."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Brine Shrimp",
+                  "text": "Brine shrimp (<span className='bodyFontItalic'>Artemia sp.</span>) are small crustaceans found in saltwater lakes around the world. Their development is easy to observe with a microscope or hand lens. A unique adaptation makes them an interesting model for studies of <button class='glossary-text'>natural selection</button>. Under ideal environmental conditions, female brine shrimp produce eggs that hatch quickly into live young; however, when conditions become less conducive, the shrimp instead produce <button class='glossary-text'>cysts</button>—encased embryos that cease development (dormant) until conditions are again favorable (Figure 3). When the temperature or the dissolved oxygen level becomes too low, or the salinity too high, each egg laid is covered in a hardened, brown chorion, which may keep the embryo viable for many years (in a dry, oxygen-free environment). The brine shrimp used in this activity have been stored in this dormant stage. Once the cysts are incubated in saltwater, the embryos quickly resume their development and hatch."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580132_Bio/580132_Bio_fig_003.svg",
+                  "imgDivWidth": "374px",
+                  "scrollImg": true,
+                  "desc": "Figure 3: Microscopic photograph of two dormant brine shrimp eggs",
+                  "altText": "Figure 3: Microscopic photograph of two dormant brine shrimp eggs",
+                  "maxWidth": "432px"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "After the cyst breaks open, the brine shrimp remains attached to the shell, surrounded by a hatching membrane. This stage is known as the <button class='glossary-text'>umbrella stage</button> (Figure 4). The hatching membrane remains attached to the cyst shell for a number of hours, until the young brine shrimp, known as a <button class='glossary-text'>nauplius</button>, emerges (Figure 5). During the first larval stage, the nauplius subsists on yolk reserves until it molts. During the second stage, the nauplius begins to feed on algae. The nauplius progresses through approximately 15 molts before reaching adulthood in 2 to 3 weeks (Figure 6)."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Biology/580132_Bio/580132_Bio_fig_004.svg",
+                  "imgDivWidth": "385px",
+                  "scrollImg": true,
+                  "desc": "Figure 4: Microscopic photograph of a brine shrimp in the umbrella stage",
+                  "altText": "Figure 4: Microscopic photograph of a brine shrimp in the umbrella stage",
+                  "maxWidth": "432px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580132_Bio/580132_Bio_fig_005.svg",
+                  "imgDivWidth": "367px",
+                  "scrollImg": true,
+                  "desc": "Figure 5: Microscopic photograph of a young brine shrimp, known as the Nauplius",
+                  "altText": "Figure 5: Microscopic photograph of a young brine shrimp, known as the Nauplius",
+                  "maxWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580132_Bio/580132_Bio_fig_006.svg",
+                  "imgDivWidth": "304px",
+                  "scrollImg": true,
+                  "desc": "Figure 6: Microscopic photograph of multiple adult brine shrimp",
+                  "altText": "Figure 6: Microscopic photograph of multiple adult brine shrimp",
+                  "maxWidth": "350px"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Brine shrimp populations are greatly influenced by environmental factors, such as water salinity. Given the relatively short development time from cyst to <button class='glossary-text'>nauplius</button> (24–48 hours), the use of brine shrimp in this study is a fast and easy way to observe how some individuals of a population may be better adapted to develop and survive in different environmental conditions."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 3",
+              "pageTitle": "Knowledge Check Question 3",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 2,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following best describes the difference between brine shrimp eggs and cysts?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": " Eggs hatch quickly into live young; cysts contain dormant embryos.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Eggs are produced by female brine shrimp; cysts are produced by male brine shrimp.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Eggs are the embryos in their first 24 hours; cysts are embryos about to hatch.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Eggs hatch into live young; cysts hatch into live, but dormant, young.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Eggs must hatch in salt water; cysts must hatch in fresh water.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Under ideal environmental conditions, female brine shrimp produce eggs that hatch quickly into live young; however, when conditions become less conducive, the shrimp instead produce cysts, which contain dormant embryos."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "For this investigation, you are given brine shrimp in which of the following forms?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "cyst ",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "nauplius",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "egg",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "adult female",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "adult male",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The brine shrimp used in this activity have been stored in the dormant cyst stage."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Brine shrimp (<span className='bodyFontItalic'>Artemia sp.</span>) are small crustaceans found in saltwater lakes around the world. Their development is easy to observe with a microscope or hand lens. A unique adaptation makes them an interesting model for studies of natural selection. Under ideal environmental conditions, female brine shrimp produce eggs that hatch quickly into live young; however, when conditions become less conducive, the shrimp instead produce cysts encased embryos that are dormant until conditions are again favorable (Figure 3). Brine shrimp populations are greatly influenced by environmental factors, such as water salinity. Given the relatively short development time from cyst to nauplius (24–48 hours), the use of brine shrimp in this study is a fast and easy way to observe how some individuals of a population may be better adapted to develop and survive in different environmental conditions.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Biology/580132_Bio/580132_Bio_fig_003.svg",
+                      "alt": "Figure 3: Microscopic photograph of two dormant brine shrimp eggs",
+                      "maxWidth": "360px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "Brine shrimp (<span className='bodyFontItalic'>Artemia sp.</span>) are small crustaceans found in saltwater lakes around the world. Their development is easy to observe with a microscope or hand lens. A unique adaptation makes them an interesting model for studies of natural selection. Under ideal environmental conditions, female brine shrimp produce eggs that hatch quickly into live young; however, when conditions become less conducive, the shrimp instead produce cysts - encased embryos that are dormant until conditions are again favorable (Figure 3). Brine shrimp populations are greatly influenced by environmental factors, such as water salinity. Given the relatively short development time from cyst to nauplius (24–48 hours), the use of brine shrimp in this study is a fast and easy way to observe how some individuals of a population may be better adapted to develop and survive in different environmental conditions.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Biology/580132_Bio/580132_Bio_fig_003.svg",
+                      "alt": "Figure 3: Microscopic photograph of two dormant brine shrimp eggs",
+                      "maxWidth": "360px"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "desc": "A map describing the procedural workflow for this investigation. You will create 3 different salt solutions, then label and prepare 3 Petri dishes per solution. Next, transfer brine shrimp eggs to the Petri dishes and count the number of eggs in each dish. Then, add salt solution to the Petri dishes and allow the dishes to incubate for 24 hours. After 24 hours, count and remove any swimming shrimp in each dish and allow the dishes to incubate for another 24 hours. After 24 more hours, count and remove any swimming shrimp in each dish. Finally, calculate the hatching viability of the shrimp in each solution.",
+                  "altText": "A map describing the procedural workflow for this investigation. You will create 3 different salt solutions, then label and prepare 3 Petri dishes per solution. Next, transfer brine shrimp eggs to the Petri dishes and count the number of eggs in each dish. Then, add salt solution to the Petri dishes and allow the dishes to incubate for 24 hours. After 24 hours, count and remove any swimming shrimp in each dish and allow the dishes to incubate for another 24 hours. After 24 more hours, count and remove any swimming shrimp in each dish. Finally, calculate the hatching viability of the shrimp in each solution.",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Biology/580132_Bio/580132_Bio_ED_001.svg",
+                  "maxWidth": "1112px",
+                  "scrollImg": true,
+                  "imgDivWidth": "66%",
+                  "imgDivWidthForTablet": {
+                    "P": "66%",
+                    "L": "66%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span class=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Brine shrimp eggs",
+                          "image": "courses_2023/Biology/580132_Bio/580132_Bio_material_1.svg",
+                          "altText": "Packet of brine shrimp eggs"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "12 Petri dishes, 15 mm",
+                          "image": "courses_2023/Biology/580132_Bio/580132_Bio_material_2.svg",
+                          "altText": "Empty clear plastic Petri dish"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "4 Disposable pipets",
+                          "image": "courses_2023/Biology/580132_Bio/580132_Bio_material_3.svg",
+                          "altText": "Clear plastic dropping pipet"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Paint brush",
+                          "image": "courses_2023/Biology/580132_Bio/580132_Bio_material_4.svg",
+                          "altText": "Paint brush"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "4 Plastic cups",
+                          "image": "courses_2023/Biology/580132_Bio/580132_Bio_material_5.svg",
+                          "altText": "Clear plastic cup, 10 oz"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from the equipment kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Graduated cylinder, 100 mL",
+                          "image": "courses_2023/Biology/580132_Bio/580132_Bio_material_6.svg",
+                          "altText": "Graduated cylinder, polypropylene, 100 mL"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Graduated cylinder, 25 mL",
+                          "image": "courses_2023/Biology/580132_Bio/580132_Bio_material_7.svg",
+                          "altText": "Graduated cylinder, polypropylene, 25 mL"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Hand lens",
+                          "image": "courses_2023/Biology/580132_Bio/580132_Bio_material_8.svg",
+                          "altText": "Clear plastic 6x magnifying glass"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Beaker, 250 mL",
+                          "image": "courses_2023/Biology/580132_Bio/580132_Bio_material_9.svg",
+                          "altText": "Clear plastic beaker, 250 mL"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Wax pencil",
+                          "image": "courses_2023/Biology/580132_Bio/580132_Bio_material_10.svg",
+                          "altText": "Black grease pencil"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [
+                            "Water, nonchlorinated (bottled spring water or distilled water)*",
+                            "Non-iodized table salt (sodium chloride)**, 5 g",
+                            "Transparent tape",
+                            "Measuring spoon",
+                            "Spoon (for mixing)",
+                            "Large plastic container, such as a bucket or dishpan",
+                            "Graph paper or graphing software"
+                          ]
+                        },
+                        {
+                          "type": "Box",
+                          "text": "*Common tap water contains chlorine for sanitation, which will negatively affect brine shrimp viability. For best results, use bottled spring water or distilled water."
+                        },
+                        {
+                          "type": "Box",
+                          "text": "**Be sure to use non-iodized salt."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span class=bodyBoldSubHeading>Reorder Information:</span><span class=bodyParaLineBreak></span>Replacement supplies for Natural Selection: A Brine Shrimp Viability Study, item number 580132, can be ordered from Carolina Biological Supply Company.<span class=bodyParaLineBreak></span><span class=bodyMediumSubHeading>Call:</span> 866-332-4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Wear your safety goggles and gloves at all times while conducting this investigation."
+                },
+                {
+                  "type": "Image",
+                  "desc": "goggles symbol, gloves symbol",
+                  "altText": "goggles symbol, gloves symbol",
+                  "image": "courses_2023/Biology/580132_Bio/Key_PPE_1.svg",
+                  "imgDivWidth": "230px",
+                  "maxWidth": "310px"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Read all the instructions for this laboratory activity before beginning. Follow the instructions closely and observe established laboratory safety practices, including the use of appropriate personal protective equipment (PPE) as described in the Safety and Procedure sections."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Do not eat, drink, or chew gum while performing this activity. Wash your hands with soap and water before and after performing the activity. Clean up the work area with soap and water after completing the investigation. Keep pets and children away from lab materials and equipment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span class=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes a gene pool?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "all the alleles in breeding individuals in a population",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "all the alleles in all individuals of a species",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "all the alleles in all organisms in the ecosystem",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "the alleles that are under selective pressure",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "the alleles that are not under selective pressure",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "How does recombination occur?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "through sexual reproduction",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "through random variation in the survival of different genotypes",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "through movement of genes from one population to another",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "through copying errors",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "through differential reproductive success ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is an accidental change in the DNA sequence that is passed down to offspring?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "mutation",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "recombination",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "genetic drift",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "gene flow",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "natural selection",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following sources of genetic variation involves the movement of genes from one population to another?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "gene flow",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "genetic drift",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "recombination",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "mutation",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "natural selection",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following individuals has the greatest fitness after three generations? Assume that they are all members of the same species.",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "An individual that lives to the age of 15, has five offspring that in turn each have five offspring.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "An individual that lives to the age of 25, has five offspring that in turn each have one offspring.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "An individual that lives to the age of 25, has three offspring that in turn each have one offspring.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "An individual that lives to the age of 20, has three offspring that in turn each have three offspring.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "An individual that lives to the age of 40 and has no offspring.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is a fundamental assumption of the theory of natural selection?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "More individuals are born in a population than can survive.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Environments can support an unlimited population.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "There are no inheritable variations within a population.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Individuals with undesirable traits will not pass them on to the next generation.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Organisms evolve toward an ideal.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "In pre-industrial times, human babies that were very small had a high mortality rate, while those who were too large were frequently impossible to deliver. What kind of selection is this?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "stabilizing selection",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "directional selection",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "diversifying selection",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "sexual selection",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "artificial selection",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Ancestors of the giraffe that had longer necks could reach branches on trees that other animals could not, giving those with the longest necks a selective advantage. With each generation, giraffe necks became longer. What kind of selection is this?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "directional selection",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "diversifying selection",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "stabilizing selection",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "sexual selection",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "sexual selection",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following items is needed but not supplied for this lab?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 8,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "non-iodized table salt (sodium chloride)",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "brine shrimp eggs",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "petri dishes",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "paint brush",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "disposable pipets",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Mice living on a granite hillside have coloration ranging from light to dark.  The surface of the granite rocks is either very dark or very light.  Dark mice hiding on dark patches are difficult to see and light mice hiding on light patches are equally camouflaged.  Mice with gray fur can be seen everywhere and are preyed upon more heavily. What kind of selection is this? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 8,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "diversifying selection",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "directional selection",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "stabilizing selection",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "sexual selection",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "artificial selection",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (4 steps)",
+              "pageTitle": "Preparation (4 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure",
+              "keyID": "page14",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Read through the Activity."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Obtain all materials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Clean and sanitize work area."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Become familiar with the use of a hand lens. If needed, practice by focusing on small but familiar items, such as the letters on a printed page."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "Keep brine shrimp out of direct sunlight and away from areas that may reach extreme temperatures."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Biology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will hatch brine shrimp in environments with variable concentrations of salt and observe the number of shrimp that hatch in each environment over 3 days."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Brine Shrimp Viability Experiment  ",
+              "pageTitle": " Brine Shrimp Viability Experiment ",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity1",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Label one of the cups “2%,” another cup “1%,” and a third cup “0.5%.”",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div class=order-list-text>A</div> Day 1 (19 steps)"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Prepare a 2% salt solution by dissolving ½ teaspoon of salt in 150 mL of spring water in the cup labeled “2%.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Prepare a 1% salt solution by combining 40 mL of the 2% salt solution (that was made in Step 2) with 40 mL of spring water. Use the 100-mL graduated cylinder for measurement."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Mix thoroughly in the cup labeled “1%.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Prepare a 0.5% salt solution by combining 20 mL of the 1% salt solution with 20 mL of spring water. Use the 100-mL graduated cylinder for measurement."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Mix thoroughly in the cup labeled “0.5%.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Label 3 Petri dishes “0% salt solution 1,” “0% salt solution II,” and “0% salt solution III.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Prepare the Petri dishes for the brine shrimp eggs:<ul style='list-style-type:lower-alpha'><li>Measure and cut two pieces of transparent tape about 2.5 cm (1 in) in length.</li><li>Place one piece of tape (in the center of the bottom) of the labeled Petri dish, sticky side up.</li><li>Cut the other piece of tape in half lengthwise to form two long narrow pieces.</li><li>Place the narrow pieces (sticky side down) on either end of the sticky side up piece in the Petri dish, to hold it in place. The tape pieces should form a letter ‘H’ with the middle of the line of the ‘H’ being the sticky side up. See Figure 7.</li></ul>"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Biology/580132_Bio/580132_Bio_fig_007.svg",
+                    "imgDivWidth": "257px",
+                    "scrollImg": true,
+                    "desc": "Figure 7: Pieces of tape on a Petri dish shaped to form the letter “H” with the sticky side of the tape up for the middle piece (and the other two pieces, sticky side down and holding the other piece of tape in place)",
+                    "altText": "Figure 7: Pieces of tape on a Petri dish shaped to form the letter “H” with the sticky side of the tape up for the middle piece (and the other two pieces, sticky side down and holding the other piece of tape in place)",
+                    "maxWidth": "310px"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Lightly touch the paintbrush to the side of the bag containing the brine shrimp eggs. Collect approximately 20 eggs on the brush."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "Do not cover the tip of the brush with eggs and do not collect too many eggs."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Dab the paintbrush onto the sticky-side-up tape in one of the Petri dishes."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Examine the dish using a hand lens. Place the dish on a light colored surface, or put a piece of white paper under the dish so that it is easier to see."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "Start off using the larger lens on the hand lens to focus, but transfer to the smaller lens of the hand lens to count the eggs."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Count the number of eggs in the dish and record this number in Data Table 1 under “0 Hours.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Measure 10 mL of 0% salt solution (spring water), using the 25-mL graduated cylinder, and pour it slowly into the Petri dish."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "Do not pour the water directly on the eggs. Pour it close to the center of the dish."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat steps 9–13 for the other two 0% salt solution Petri dishes."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the lid on the Petri dishes and set aside."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Follow steps 7–15 for the 0.5%, 1%, and 2% salt solutions. Four sets of 3 Petri dishes, each containing an independent sample of eggs, will be prepared (totaling 12 dishes)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Allow the dishes to sit at room temperature, undisturbed, <span className='bodyFontBold'>for 24 hours.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Reserve the excess 2% salt solution to use as a holding solution for hatched brine shrimp on subsequent days."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Discard any excess 0.5% and 1% salt solution. Rinse out and dry the cups before returning them to the equipment kit."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Label a pipet to correspond to each of the four sets of Petri dishes. Use a separate pipet for each set of Petri dishes to avoid contamination.",
+                    "startNewNumber": true,
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div class=order-list-text>B</div> Day 2 (07 steps)"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Examine one Petri dish section with a hand lens."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "With the appropriate pipet, gently draw up the swimming brine shrimp. Move them into the 2% salt solution cup, and while doing this, count the number of swimming brine shrimp."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the number of swimming shrimp in <span className='bodyFontBold'>Data Table 1</span> under “24 Hours.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat steps 2–4 for each of the Petri dishes."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Allow the dishes to sit at room temperature, undisturbed, <span className='bodyFontBold'>for another 24 hours.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Follow the instructions in the Disposal and Cleanup section to discard removed brine shrimp or use them for the Extension Activity."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Examine each Petri dish with a hand lens.",
+                    "startNewNumber": true,
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div class=order-list-text>C</div> Day 3 (05 steps)"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "With a pipet (use the same pipets from Day 2), gently draw up the swimming brine shrimp. Move them into the 2% salt solution cup, and while doing this, count the number of swimming brine shrimp."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the number of swimming shrimp in <span className='bodyFontBold'>Data Table 1</span> under “48 Hours.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat steps 1–3 for each Petri dish."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using graph paper or graphing software, graph the average hatching viability versus salt concentration. Include a title and label the axes."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Extension Activities",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Extension Activities",
+          "pages": [
+            {
+              "title": "Extension Activities",
+              "pageTitle": "Extension Activities",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Raise the brine shrimp hatchlings to maturity. Brine shrimp can be kept as pets or used to supplement the diet of fish in an aquarium. To keep the brine shrimp hatchlings, fill a container with spring water. (A rinsed 2-L drink bottle with the top cut off works well). Dissolve about 2 tablespoons of non-iodized salt per liter of water. Drop in a coarse-bubbling air stone (or similar bubbler) to circulate and oxygenate the water. To prepare a yeast suspension as food for the hatched brine shrimp, make a salt solution as before, and stir in enough baker’s yeast to make the solution milky. Refrigerate the yeast suspension. Agitate it before each use to re-suspend the yeast. Feed the brine shrimp a few drops of the yeast suspension each day. Avoid overfeeding; the water in the culture should not become cloudy. Each week, draw off about one-quarter of the culture water and replace with fresh saltwater. As the shrimp grow, set up additional containers to avoid over-crowding. Newly hatched brine shrimp normally reach adulthood in 8 days."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "orderedType": "1",
+                  "listType": "ordered",
+                  "text": [
+                    "Dispose of the brine shrimp and any contaminated materials. Brine shrimp should not be released to the environment because they are non-native organisms in many ecosystems. ",
+                    "Place all brine shrimp in the 2% salt solution cup and add about 10 mL of bleach to the cup.",
+                    "Cover the cup and let the mixture sit for 24 hours before pouring the mixture into a sink, and flush generously with tap water. <ul style='list-style-type:lower-alpha'><li>A second disposal option is to feed the brine shrimp to aquarium fish but they need to be transferred to water without salt first. </li><li> A third option for disposal is to freeze the shrimp overnight, and then pour them down the drain.</li></ul>"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "title": "Thank you",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Biology_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "portrait a4"
+    },
+    "pages": [
+      {
+        "title": "Lab Notebook",
+        "waterMark": false,
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable1",
+            "tag": "div",
+            "sr": 0,
+            "width": "95%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1"
+              },
+              {
+                "type": "Box",
+                "text": " Hatching viability = [(#swimming at 24 hours + #swimming at 48 hours)/#eggs at 0 hours] x 100"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "maxLength": 10,
+                "header": [
+                  {
+                    "text": "NaCl (%)",
+                    "colWidth": "25%"
+                  },
+                  {
+                    "text": "Plate section",
+                    "colWidth": "25%"
+                  },
+                  {
+                    "text": "Number of Eggs<br>0 hours",
+                    "colWidth": "20%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Number of Swimming Shrimp<br>24 hours",
+                    "colWidth": "30%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Number of Swimming Shrimp<br>48 hours",
+                    "colWidth": "30%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Hatching viability (%)",
+                    "colWidth": "30%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Average Hatching Viability (%)",
+                    "colWidth": "30%",
+                    "maxLength": 10
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "0",
+                      "rowspan": 3,
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "text",
+                      "text": "I"
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3,
+                      "maxLength": 10
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "II"
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "III"
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "0.5",
+                      "rowspan": 3,
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "text",
+                      "text": "I",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3,
+                      "maxLength": 10
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "II",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "III"
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "1",
+                      "rowspan": 3,
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "text",
+                      "text": "I",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3,
+                      "maxLength": 10
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "II",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "III"
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "2",
+                      "rowspan": 3,
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "text",
+                      "text": "I"
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3,
+                      "maxLength": 10
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "II"
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "III"
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1C Step 5 Photo"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert an image of your graph of average hatching viability against the salt concentration. Make sure that the graph has a title and labeled axes. If you used graphing software, upload an image of the graph and not the spreadsheet file."
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": "Question1",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question1",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "In which Petri dish was the highest hatching viability observed? "
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": "Question2",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "start": "2",
+                "text": [
+                  "Explain, in terms of adaptation, why one saline solution yielded the highest hatching viability of brine shrimp."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": "Question3",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question3",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "start": "3",
+                "text": [
+                  "Describe two variables that are not controlled in this experimental procedure."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question3",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": "Question4",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question4",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "start": "4",
+                "text": [
+                  "If brine shrimp eggs were transported on shorebirds’ feet from one hypersaline lake to a less salty one, what might happen to them?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question4",
+                "start": "4",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": "Question5",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question5",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "start": "5",
+                "text": [
+                  "How could a laboratory researcher determine if there are differences among the brine shrimp that hatched in the solutions of 0%, 1%, and 2% sodium chloride? "
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question5",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": "Question6",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question6",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "start": "6",
+                "text": [
+                  "What are some limitations of this model regarding natural selection?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question6",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6327698180112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580132_Bio/580132_Bio_fig_001.svg",
+        "content": "Figure 1. Genetic drift in a population",
+        "scrollImg": true,
+        "altText": "Figure 1: A diagram of genetic drift. In the first generation of rabbits, the big B allele, or variable p, has a frequency of 0.5; the little B allele, or variable q, has a frequency of 0.5; the phenotype ratio is 80% brown coats (dominant) and 20% white coats (recessive). Five brown rabbits (some homozygous, some heterozygous) from the first generation reproduce to create the second generation. The second generation of rabbits has p equals 0.7, q equals 0.3, and a phenotype ratio of 90% brown and 10% white. Two brown rabbits (both homozygous) reproduce to create the third generation. The third generation of rabbits has p equals 1, q equals 0, and a phenotype ratio of 100% brown coats.",
+        "maxWidth": "390px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580132_Bio/580132_Bio_fig_002.svg",
+        "content": "Figure 2. Gene flow example",
+        "scrollImg": true,
+        "altText": "Figure 2: A diagram of gene flow. A mountain range separates butterfly Population A from Population B. Population A has orange and black butterflies without defined wing venation. Population B has white and black butterflies with clear wing venation. An individual from Population A migrated over a mountain and mated with an individual in Population B. The resulting offspring is an orange and black butterfly with clear wing venation living amongst Population B.",
+        "maxWidth": "820px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580132_Bio/580132_Bio_fig_003.svg",
+        "content": "Figure 3. Brine shrimp cysts ",
+        "scrollImg": true,
+        "altText": "Figure 3: Microscopic photograph of two dormant brine shrimp eggs",
+        "maxWidth": "432px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580132_Bio/580132_Bio_fig_004.svg",
+        "content": "Figure 4. Umbrella stage ",
+        "scrollImg": true,
+        "altText": "Figure 4: Microscopic photograph of a brine shrimp in the umbrella stage",
+        "maxWidth": "432px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580132_Bio/580132_Bio_fig_005.svg",
+        "content": "Figure 5. Nauplius stage ",
+        "scrollImg": true,
+        "altText": "Figure 5: Microscopic photograph of a young brine shrimp, known as the Nauplius",
+        "maxWidth": "430px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580132_Bio/580132_Bio_fig_006.svg",
+        "content": "Figure 6. Adult brine shrimp ",
+        "scrollImg": true,
+        "altText": "Figure 6: Microscopic photograph of multiple adult brine shrimp",
+        "maxWidth": "350px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580132_Bio/580132_Bio_ED_001.svg",
+        "maxWidth": "1112px",
+        "scrollImg": true,
+        "content": "Experimental Design Diagram",
+        "altText": "A map describing the procedural workflow for this investigation. You will create 3 different salt solutions, then label and prepare 3 Petri dishes per solution. Next, transfer brine shrimp eggs to the Petri dishes and count the number of eggs in each dish. Then, add salt solution to the Petri dishes and allow the dishes to incubate for 24 hours. After 24 hours, count and remove any swimming shrimp in each dish and allow the dishes to incubate for another 24 hours. After 24 more hours, count and remove any swimming shrimp in each dish. Finally, calculate the hatching viability of the shrimp in each solution."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580132_Bio/580132_Bio_fig_007.svg",
+        "content": "Figure 7. Petri dish setup",
+        "scrollImg": true,
+        "altText": "Figure 7: Pieces of tape on a Petri dish shaped to form the letter “H” with the sticky side of the tape up for the middle piece (and the other two pieces, sticky side down and holding the other piece of tape in place)",
+        "maxWidth": "310px"
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Allele",
+        "content": " One of two or more versions of a DNA sequence"
+      },
+      {
+        "title": "Cysts",
+        "content": "Dormant, encased brine shrimp embryos that cease development until conditions are favorable for hatching"
+      },
+      {
+        "title": "Directional selection",
+        "content": "A mode of natural selection in which the overall makeup of the population shifts as variants of one extreme are favored"
+      },
+      {
+        "title": "Diversifying (disruptive) selection",
+        "content": " A mode of natural selection in which variants of opposite extremes are favored over intermediate variants"
+      },
+      {
+        "title": "Evolutionary biology",
+        "content": " The study of the history of life on Earth and the processes that led to its diversity"
+      },
+      {
+        "title": "Fitness",
+        "content": "How well an organism is adapted to its environment and is able to reproduce"
+      },
+      {
+        "title": "Gene flow",
+        "content": "The process of transferring genetic material from one population to another"
+      },
+      {
+        "title": "Gene pool",
+        "content": " The sum total of all alleles in all individuals in a population"
+      },
+      {
+        "title": "Genetic drift",
+        "content": " The process of randomly changing the allele frequencies within a population due to random variation in the survival and reproduction of different genotypes in the population"
+      },
+      {
+        "title": "Genetic variation",
+        "content": " The difference in DNA sequence among individuals or between populations"
+      },
+      {
+        "title": "Mutation",
+        "content": " A change in a DNA sequence caused by mistakes during DNA replication or environmental influences such as UV radiation or chemical exposure"
+      },
+      {
+        "title": "Natural selection",
+        "content": " The process in which organisms are better adapted to their environment tend to survive and produce more offspring"
+      },
+      {
+        "title": "Nauplius",
+        "content": " A young brine shrimp"
+      },
+      {
+        "title": "Recombination",
+        "content": " The process of exchanging genes between chromosomes, usually through sexual reproduction"
+      },
+      {
+        "title": "Stabilizing selection ",
+        "content": " A mode of natural selection in which intermediate variants are favored and extreme variants are culled from the population"
+      },
+      {
+        "title": "Umbrella stage",
+        "content": "A stage of brine shrimp development in which the cyst breaks open and the developing animal remains attached to the shell, surrounded by a hatching membrane"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

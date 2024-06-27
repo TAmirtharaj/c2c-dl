@@ -1,0 +1,2849 @@
+{
+  "locked": true,
+  "courseTitle": "Calorimetry",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Physics_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/bodyBookmark.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/TakeSnapshot.svg",
+    "core/disposalAndCleanupIcon.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Physics_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Physics",
+                "titleName2": "Calorimetry",
+                "images": {
+                  "logo": "core/Physics_Subject_Icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "waterMark": true,
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "A <button class='glossary-text'>calorimeter</button> is a device for measuring the <button class='glossary-text'>heat</button> developed during a mechanical, electrical, or chemical reaction, and for calculating the heat capacity of materials. In this investigation, students will create a calorimeter using a pair of foam cups. Students will heat several metal washers in hot water and transfer the water to the calorimeter, applying the equation for the transfer of <button class='glossary-text'>thermal energy</button> to determine the <button class='glossary-text'>specific heat</button> of the metal."
+                },
+                {
+                  "type": "List",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Pencil or wooden spoon",
+                    "Stove for heating water",
+                    "Pot for heating water",
+                    "Water, 300 mL",
+                    "Calculator",
+                    "Tongs, or similar item to remove hot items from water"
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Physics/580402/580402_Physics_Time-Requirement.svg",
+                  "altText": "Preparation – 10 minutes \nActivity 1: Calibrating the Calorimeter:\n                 Thermal Energy Transfer – 45 minutes\nActivity 2: Calculating the Specific Heat of Metal – 45 minutes",
+                  "containerType": "rightContainer",
+                  "scrollImg": true,
+                  "imgDivWidth": "490px",
+                  "maxWidth": "520px"
+                }
+              ]
+            },
+            {
+              "waterMark": true,
+              "template": "OverView",
+              "title": "Overview (cont... )",
+              "pageTitle": "Overview (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Overview Video: Calorimetry"
+                },
+                {
+                  "type": "Video",
+                  "desc": "Overview Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Physics/580402/580402_Physics_VideoIcone.svg",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6339984724112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Investigate how <button class='glossary-text'>thermal energy</button> is transferred between different substances.",
+                    "Apply the equation for the transfer of thermal energy.",
+                    "Determine the <button class='glossary-text'>specific heat</button> of a metal sample."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Cities typically experience much warmer <button class='glossary-text'>temperatures</button> than the surrounding less-developed areas leading to a phenomenon called urban <button class='glossary-text'>heat</button> islands. This increased heat is largely due to the materials commonly used in urban construction and their <button class='glossary-text'>specific heat</button> capacities. The asphalt, metals, and concrete found in cities have low heat capacities and heat up quickly. They also cool down quickly and radiate that heat back into the surrounding air, heating up the environment. In rural areas, there are fewer of these materials and more plant life, which is 70-80% water. The water in plants has a very high heat capacity, acting as a climate modulator and maintaining a more consistent temperature. And, because less heat is being radiated back out, air temperatures are generally cooler.  One common way of decreasing the temperature in urban heat islands is to increase the amount of plant life within the urban area. However, many cities are already densely organized and do not have room for more surface-level parks or green spaces. Urban planners and architects must get creative with new ways to add plants, such as green roofs made of grass instead of metal or asphalt shingles. Some buildings even have gardens of edible plants on their roofs that can be served at local restaurants. Other cities have created greenways along highways or turned the surfaces of parking garages into hanging gardens."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580402/580402_Physics_whyShouldICare.svg",
+                  "altText": "A building complex in an urban area with vegetation growing on several roof surfaces.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Heat</button> and <button class='glossary-text'>temperature</button> touch every aspect of our lives. For example, if you were to chart the high and low temperatures of two different cities that are only a few miles apart for one week, you would see that the ranges are slightly different. Consider choosing a city on the coast, and another city inland. Based on <button class='glossary-text'>specific heat</button> capacity, why do you think the temperature ranges of the city on the coast are more temperate?"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Every day, land heats up much faster than the oceans, and every night the land cools faster. Since water has a large specific heat capacity, the areas near the ocean stay cooler during the day and have a smaller range of temperature compared to inland areas."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Explore the temperature ranges in your area. Are you close to the coast, or in a desert? The summer is usually hotter in the continental US when compared to the coastal US."
+                },
+                {
+                  "type": "Plain",
+                  "text": "What about weather? Heat transfer occurs when air molecules of different temperatures are brought into contact with each other. Consider tornadoes and hurricanes, for example."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<button class='glossary-text'>Thermal energy</button> is the total energy of the particles in a sample of matter due to the vibration of the molecules. <button class='glossary-text'>Kinetic energy</button> is the energy that matter possesses by virtue of its motion. When an object absorbs thermal energy, the molecules vibrate faster, increasing their kinetic energy and thereby increasing the thermal energy of the substance. <span class='bodyFontBold'>Heat</span> is the transfer of thermal energy between objects, and always flows from warm objects to cool objects."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The amount of thermal energy contained in an object is determined by the temperature of the object, the number of atoms (or mass) of the object and the type of material the object is made from. Figure 1 shows a thermal image of a cat sitting by a window. Notice the areas of high and low thermal energy."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580402/580402_Physics_fig_001.svg",
+                  "imgDivWidth": "490px",
+                  "maxWidth": "515px",
+                  "scrollImg": true,
+                  "altText": "Figure 1: Thermal image of a cat sitting on a windowsill"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>In mathematical form, the <button class='glossary-text'>thermal energy</button>, <span class='bodyFontItalic'>Q</span>, of an any object is given by:</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580402/580402_Equation_001.svg",
+                  "imgDivWidth": "100px",
+                  "maxWidth": "130px",
+                  "scrollImg": true,
+                  "altText": "Equation 1: The formula Q equals m times C times delta T"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyFontItalic'>Q</span> = thermal energy, measured in joules (J)<br><span class='bodyFontItalic'>m</span> = the mass of the object, measured in grams (g)<br><span class='bodyFontItalic'>C</span> = the <button class='glossary-text'>specific heat</button> of the substance, measured in J/g∙°C<br>Δ<span class='bodyFontItalic'>T</span> = the change in <button class='glossary-text'>temperature</button> of the object, measured in degrees <span style='whiteSpace: nowrap'>Celsius (°C)</span>"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "In what units is <span class='bodyFontItalic'>Q</span> measured in the thermal energy equation? ",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "joules (J)",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "grams (g)",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "J/g∙°C",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "degrees Celsius (°C)",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Kelvin (K)",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "<span class='bodyFontItalic'>Q</span> = thermal energy, which is measured in joules (J) "
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What happens when an object absorbs thermal energy?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The molecules of the object vibrate faster.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The molecules of the object vibrate slower.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "The object has decreased kinetic energy.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The mass of the object in grams (g) is increased.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "The mass of the object in grams (g) is decreased.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "When an object absorbs thermal energy, the molecules vibrate faster, increasing their kinetic energy and thereby increasing the thermal energy of the substance."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Thermal energy is the total energy of the particles in a sample of matter due to the vibration of the molecules. Kinetic energy is the energy that matter possesses by virtue of its motion. Heat is the transfer of thermal energy between objects, and always flows from warm objects to cool objects. The amount of thermal energy contained in an object is determined by the temperature of the object, the number of atoms (or mass) of the object and the type of material the object is made from.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580402/580402_Equation_001_KCQ.svg",
+                      "alt": "Equation 1: The formula Q equals m times C times delta T",
+                      "maxWidth": "490px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "Thermal energy is the total energy of the particles in a sample of matter due to the vibration of the molecules. Kinetic energy is the energy that matter possesses by virtue of its motion. Heat is the transfer of thermal energy between objects, and always flows from warm objects to cool objects. The amount of thermal energy contained in an object is determined by the temperature of the object, the number of atoms (or mass) of the object and the type of material the object is made from.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580402/580402_Equation_001_KCQ.svg",
+                      "alt": "Equation 1: The formula Q equals m times C times delta T",
+                      "maxWidth": "490px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Temperature</button> is a measure of how warm or cold an object is with respect to some standard. More specifically, temperature is the measure of the average <button class='glossary-text'>kinetic energy</button> (random motion) of the molecules in a substance. Consider a large swimming pool and a glass of water. The swimming pool may possess a greater amount of <button class='glossary-text'>thermal energy</button> than the glass of water, even if the glass of water has a higher temperature, because the pool has a much greater number of water molecules."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Energy can exist in many forms and one of those forms is something we call <button class='glossary-text'>heat</button>. Heat only exists when energy is in transit, and transfers from one object to another because of a difference in temperature between the two objects. There are distinctly different methods for which heat transfer can occur, which we will discuss a little later. Heat transfer touches every aspect of our lives and helps us understand how the world functions. First, let us define a few terms."
+                },
+                {
+                  "type": "Plain",
+                  "text": "When the temperature of an object increases, molecules jiggle faster and move farther apart. This expansion of molecules can therefore be used to measure temperature itself. The device that measures temperature is a thermometer. The type of thermometer used in the metric system is the Celsius scale. The Celsius scale was designed so that the freezing point of water, when water was the most contracted, was labeled 0 °C, and the expansion of water at its boiling point was labeled as 100 °C."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "subTitle": "Temperature vs. Heat",
+                  "text": "Temperature and heat have a relationship, but they are not the same thing. Consider a large swimming pool at 30 °C and a teacup of water at 80 °C. Which has faster-moving molecules? Which contains more heat?"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The swimming pool possesses a greater amount of thermal energy than the glass of water. The glass of water has a higher temperature, and therefore, faster moving molecules, but the pool has a much greater number of water molecules, containing more overall heat."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The “degree of hotness” of an object, or its temperature, depends on the speed of the molecules (the kinetic energy). The “quantity of hotness,” or an object’s thermal energy, depends on both the mass of the object and the total energy of the molecules in that object. Although the swimming pool is at a lower temperature, and therefore has less kinetic energy, there are many more of them, overall adding up to a greater “quantity of hotness.”"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Even cold things (such as ice) have heat, but their molecules are just moving more slowly. For example, which has more thermal energy, a hot burning match or an ice swan sculpture sitting atop a table? The match is burning hot at approximately 600 °C, and the sculpture is a freezing 0 °C. Both are made of molecules. However, the sculpture has more molecules. More molecules equal more thermal energy. Think about trying to melt the whole sculpture with one match—it’s not possible. The match molecules would run out before the ice molecules do."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "How is Heat Measured?",
+                  "text": "<button class='glossary-text'>Heat</button> is measured based on the phase change occurring for an object. For example, by the amount of ice melted, the change in <button class='glossary-text'>temperature</button> of one object, or the amount of water boiling. When we quantify the amount of <button class='glossary-text'>thermal energy</button> transferred between two objects (heat), this is <button class='glossary-text'>calorimetry</button>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "It takes 4.18 joules to raise the temperature of 1 gram of water by 1 Kelvin. Alternatively, it takes 1 calorie to raise the temperature of 1 gram of water by <span style='whiteSpace: nowrap'>1 Kelvin.</span> This “calorie” is not the same type of calories we consume. The calories we consumer are “Calories.” 1,000 calories = 1 Calorie, so <span style='whiteSpace: nowrap'>1 peanut,</span> for example, contains 10 Calories or 10,000 calories. We get the name “Calories” from calorimetry. Our bodies metabolize (burn) food to keep up warm and help us do work."
+                },
+                {
+                  "type": "Plain",
+                  "subTitle": "Heat Transfer",
+                  "text": "According to the second law of thermodynamics, thermal energy is always transferred from a hotter object to a colder object. Heat transfer may occur through three methods. The transfer of thermal energy through direct contact is <button class='glossary-text'>conduction</button>. Heat transfer through the movement of a fluid is <button class='glossary-text'>convection</button>. The transfer of thermal energy over a distance is known as <button class='glossary-text'>radiation</button> (see Figure 2)."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580402/580402_Physics_fig_002.svg",
+                  "imgDivWidth": "510px",
+                  "maxWidth": "525px",
+                  "scrollImg": true,
+                  "altText": "Figure 2: A diagram showing the three methods of heat transfer: conduction, convection and radiation"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Specific Heat",
+                  "text": "The <button class='glossary-text'>specific heat (<span class='bodyFontItalic'>C</span> )</button> of a material is a measure of how much energy is required to raise the <button class='glossary-text'>temperature</button> of 1 gram of the substance by 1 degree Celsius. Water has a relatively high specific <button class='glossary-text'>heat</button> of 4.18 J/g∙°C. It takes <span style='whiteSpace: nowrap'>4.18 joules</span> of <button class='glossary-text'>thermal energy</button> to raise the temperature of 1 gram of water <span style='whiteSpace: nowrap'>1 °C.</span> This makes water a poor conductor of heat, which is why water is a good coolant. Metals like copper, aluminum, or steel have a lower specific heat; thus, such metals are good conductors of heat."
+                },
+                {
+                  "type": "Plain",
+                  "text": "A <button class='glossary-text'>calorimeter</button> can also be used to determine the specific heat of a substance. The calorimeter is filled with a substance with a known specific heat, usually water. A sample of material, such as a piece of metal, is heated and then trans-ferred to the calorimeter. The thermal energy from the heated metal is transferred to the water until the two substances reach thermal equilibrium. The change in temperature (ΔT) is recorded, and the law of heat exchange is applied:<span className=bodyParaLineBreak><span class='bodyFontItalic'>Q</span><sub class='bodysubscript'>Lost</sub> + <span class='bodyFontItalic'>Q</span><sub class='bodysubscript'>Gained</sub> = 0"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "This means that the substance (water), gains the thermal energy lost by the metal. Setting these two quantities equal allows for the calculation of the specific heat of the metal."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span class='bodyFontItalic'>m<sub class='bodysubscript'>w</sub></span> <span class='bodyFontItalic'>C<sub class='bodysubscript'>w</sub></span> Δ<span class='bodyFontItalic'>T<sub class='bodysubscript'>w</sub></span> = <span class='bodyFontItalic'>-m<sub class='bodysubscript'>m</sub></span> <span class='bodyFontItalic'>C<sub class='bodysubscript'>m</sub></span> Δ<span class='bodyFontItalic'>T<sub class='bodysubscript'>m</sub></span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span class='bodyFontItalic'>m<sub class='bodysubscript'>w</sub></span> = the mass of the water<br><span class='bodyFontItalic'>C<sub class='bodysubscript'>w</sub></span> = the specific heat of water (4.18 J/g∙C)<br>Δ<span class='bodyFontItalic'>T<sub class='bodysubscript'>w</sub></span> = the change in temperature of the water<br><span class='bodyFontItalic'>m<sub class='bodysubscript'>m</sub></span> = the mass of the metal<br><span class='bodyFontItalic'>C<sub class='bodysubscript'>m</sub></span> = the specific heat of metal (unknown J/g∙C)<br>Δ<span class='bodyFontItalic'>T<sub class='bodysubscript'>m</sub></span> = the change in temperature of the metal"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "There is a negative for the metal’s side of the equation because it is losing heat."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span style='padding-bottom:5px;display:block;'>Solving for the specific heat of the metal gives:</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580402/580402_Equation_002.svg",
+                  "imgDivWidth": "150px",
+                  "maxWidth": "200px",
+                  "scrollImg": true,
+                  "altText": "Equation 2: The formula C sub m equals the value of m sub w times C sub w times delta T sub w, divided by m sub m times delta T sub m"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "How many joules does it take to raise the temperature of 1 gram of water 1 °C?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "4.18",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "0.418",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "600",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "6.00",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "30.8",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Water has a relatively high specific heat of 4.18 J/g∙°C, meaning it takes 4.18 joules of thermal energy to raise the temperature of 1 gram of water 1 °C. "
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Water does not transfer heat as easily as other materials, such as metals. Which of the following methods describes how water is warmed as it touches the inside of a hot pot?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "conduction",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "convection",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "radiation",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "specific heat",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "calorimetry",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The transfer of thermal energy through direct contact is called conduction. Heat is transferred from the pot to the water, which touches the inside of the pot. Convection is how warm water near the bottom of the pot rises to the surface as cooler water sinks to the bottom, only to be warmed by conduction."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "According to the second law of thermodynamics, thermal energy is always transferred from a hotter object to a colder object. Heat transfer may occur through three methods. The transfer of thermal energy through direct contact is conduction. Heat transfer through the movement of a fluid is convection. The transfer of thermal energy over a distance is known as radiation. The specific heat (C) of a material is a measure of how much energy is required to raise the temperature of 1 gram of the substance by 1 degree Celsius. Water has a relatively high specific heat of 4.18 J/g∙°C.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580402/580402_Physics_fig_002.svg",
+                      "alt": "Figure 2: A diagram showing the three methods of heat transfer: conduction, convection and radiation",
+                      "maxWidth": "77%"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "According to the second law of thermodynamics, thermal energy is always transferred from a hotter object to a colder object. Heat transfer may occur through three methods. The transfer of thermal energy through direct contact is conduction. Heat transfer through the movement of a fluid is convection. The transfer of thermal energy over a distance is known as radiation. The specific heat (C) of a material is a measure of how much energy is required to raise the temperature of 1 gram of the substance by 1 degree Celsius. Water has a relatively high specific heat of 4.18 J/g∙°C.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580402/580402_Physics_fig_002.svg",
+                      "alt": "Figure 2: A diagram showing the three methods of heat transfer: conduction, convection and radiation",
+                      "maxWidth": "77%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "altText": "A procedural map of the activities in this investigation. To prepare, you will cool water in the refrigerator and record the temperature. Then, you will prepare washers for heating and construct the calorimeter. In Activity 1, you will measure the volume of hot and cold water, combine them in the calorimeter and measure the change in water temperature over time. Then, you will repeat this with new volumes of hot and cold water. In activity 2, you will measure the mass of metal washers. Then, you will heat the washers in boiling water. Next, you will add a water sample to the calorimeter. Then, you will measure the mass of the water sample. Next, you will record the temperature of the water in the calorimeter. Then, you will transfer the heated washers to the calorimeter and record the temperature of the water in the calorimeter at regular intervals. Finally, you will calculate the change in temperature, the specific heat of the metal and the percent error.",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Physics/580402/580402_Physics_ED_001.svg",
+                  "imgDivWidth": "100%",
+                  "maxWidth": "1600px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "100%",
+                    "L": "95%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "90%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "4 Foam cups",
+                          "image": "courses_2023/Physics/580402/580402_Physics_material_1.svg",
+                          "altText": "White foam cup"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Plastic lid",
+                          "image": "courses_2023/Physics/580402/580402_Physics_material_2.svg",
+                          "altText": "Styrofoam cup lid"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Thermometer",
+                          "image": "courses_2023/Physics/580402/580402_Physics_material_3.svg",
+                          "altText": "Glass thermometer with red bulb"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "5 Large washers",
+                          "image": "courses_2023/Physics/580402/580402_Physics_material_4.svg",
+                          "altText": "7/8 inch flat large washer"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Beaker, 250 mL",
+                          "image": "courses_2023/Physics/580402/580402_Physics_material_5.svg",
+                          "altText": "Polypropylene beaker, 250 milliliters"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Electronic scale",
+                          "image": "courses_2023/Physics/580402/580402_Physics_material_6.svg",
+                          "altText": "Electronic balance"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "String",
+                          "image": "courses_2023/Physics/580402/580402_Physics_material_7.svg",
+                          "altText": "White string on black spool"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Graduated cylinder, 250 mL",
+                          "image": "courses_2023/Physics/580402/580402_Physics_material_8.svg",
+                          "altText": "Clear plastic graduated cylinder, 250 milliliters"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [
+                            "Pencil or wooden spoon",
+                            "Stove for heating water",
+                            "Pot for heating water",
+                            "Water, 300 mL",
+                            "Calculator",
+                            "Tongs, or similar item to remove hot items from water"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span> <span className=bodyParaLineBreak></span> <span className=bodyParaLineBreak></span> Replacement supplies for the Calorimeter investigation (item 580402) can be ordered from Carolina Biological Supply Company.<span className=bodyParaLineBreak></span> <span className=bodyMediumSubHeading>Call:</span> 866.332.4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "isCheckPoint": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Wear safety goggles at all times while conducting this investigation. Personal protective equipment (PPE) may need to include gloves and an apron due to the nature of heating water on a stove."
+                },
+                {
+                  "type": "Image",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "375px",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "altText": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Read all instructions for these activities before beginning. Follow the instructions closely, and observe established laboratory safety practices, including the use of appropriate PPE."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Use caution when handling hot water. Wear safety goggles while boiling water to avoid eye injury. Turn off the stove or appliances when finished. Avoid direct contact with hot water and containers filled with hot water."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Do not eat, drink, or chew gum while performing these activities. Wash your hands with soap and water before and after performing each activity. Clean the work area with soap and water after completing the investigation. Keep pets and children away from lab materials and equipment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.</span>",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "In this investigation, you will determine the specific heat of a metal sample using which of the following?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "a calorimeter",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "a pot",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "a thermometer",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "radiation",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "a spectrometer",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the temperature of an object?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The measure of the average kinetic energy (random motion) of the molecules in a substance.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The total energy of the particles in a sample of matter due to the vibration of molecules.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The energy that matter possesses by virtue of its motion.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The transfer of thermal energy between objects.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The total amount of thermal energy contained within an object.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "If 12,000 J of heat is added to a 50 kg sample of iron, what will be its change in temperature? Assume the specific heat capacity of iron is 448 J/kg•°C.",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "0.536 °C",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "240 °C",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "26.8 °C",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "53.6 °C",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "0.024 °C",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "You have a 250 mL cup of tea at 99 °C and a 5,000 L pond of solid ice at 0 °C. Which of the following statements is NOT true?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The cup of tea has a higher thermal energy than the pond.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The cup of tea has a higher temperature than the pond.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The molecules in the cup of tea are moving faster than those in the pond.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The pond has more molecules than the cup of tea.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "If you poured the tea on the ice, heat would flow from the tea to the pond of ice.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "You are boiling water in a pot and accidentally touch the hot metal of the pot. The heat is transferred from the pot to your hand through which of the following methods?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "conduction",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "radiation",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "convection",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "convection and radiation",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "transformation",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "A 5.0 g piece of metal is heated to 220 °C and dropped into a calorimeter containing 45 g of water at 20 °C. The final temperature of the mixture is 23 °C. What is the specific heat of the metal? <span style='whiteSpace: nowrap'>(C<sub class='bodysubscript'>water</sub> = 4.18 J/g•°C)</span>",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "0.57 J/g•°C",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "0.0071 J/g•°C",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "30.5 J/g•°C",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "4.18 J/g•°C",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "197 J/g•°C",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is NOT a safety consideration for working with boiling hot water?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Boiling water is corrosive.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Wear safety googles when boiling water to prevent eye injury.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Turn off your stove or appliances when finished.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Avoid direct contact with hot water and containers.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Use caution when transferring water to the cup as it is light and can easily spill.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Based on the information in Table 1, which of the following substances is the best conductor of heat?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "dataTable": {
+                        "type": "DataTable",
+                        "tableWidth": "310px",
+                        "title": "Table 1.",
+                        "sr": 10,
+                        "allowClick": true,
+                        "header": [
+                          {
+                            "text": "Substance",
+                            "colWidth": "40%"
+                          },
+                          {
+                            "text": "Specific Heat (J/g∙°C)",
+                            "colWidth": "60%"
+                          }
+                        ],
+                        "tableData": [
+                          [
+                            {
+                              "type": "text",
+                              "text": "Water"
+                            },
+                            {
+                              "type": "text",
+                              "text": "4.186"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": "Copper"
+                            },
+                            {
+                              "type": "text",
+                              "text": "0.386"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": "Aluminum"
+                            },
+                            {
+                              "type": "text",
+                              "text": "0.900"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": "Zinc"
+                            },
+                            {
+                              "type": "text",
+                              "text": "0.387"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": "Steel"
+                            },
+                            {
+                              "type": "text",
+                              "text": "0.466"
+                            }
+                          ]
+                        ]
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "copper",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "water",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "zinc",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "aluminum",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "steel",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (8 steps)",
+              "pageTitle": "Preparation (8 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "keyID": "preparation",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Clean the work space."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Read through the activities."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Obtain all materials."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Fill the 250 mL beaker with 200 mL of water and place it in a refrigerator for ~10 minutes. Place a thermometer in the beaker. Record the coldest <button class='glossary-text'>temperature</button> of the water in the refrigerator in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 1</span></span>.",
+                    "image": "core/Clock.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "stopwatch symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "<span class=bodyFontBold>Activity 2 only:</span> Collect five large washers and tie them together with a piece of string so that at least 10 cm of string extends from the knot."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "<span class=bodyFontBold>Activity 2 only:</span> Tie the piece of string to a pencil or a wooden spoon that is long enough to rest across the top of the pot. The washers should hang from the string such that the washers are completely submerged in the water but not in contact with the bottom of the pot."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "text": "<span className=bodyBoldSubHeading>Create the calorimeter</span> (Figure 3):"
+                      }
+                    ],
+                    "text": "Collect two foam cups and the plastic lid from the equipment kit. Place one cup inside the other to create the <button class='glossary-text'>calorimeter</button>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the plastic lid on the inner cup. Open the hole in the lid to allow the thermometer to rest in the cup."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580402/580402_Physics_fig_003.svg",
+                    "imgDivWidth": "165.63px",
+                    "maxWidth": "195px",
+                    "scrollImg": true,
+                    "altText": "Figure 3: Calorimeter setup, which includes 2 foam cups nested together with a thermometer pushed through a plastic lid"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will calibrate your <button class='glossary-text'>calorimeter</button> by adding 2 different volumes of hot water to a given volume of cold water in your calorimeter and measure the final <button class='glossary-text'>temperature</button>. You will use this information to help understand the sources of error in Activity 2 and get an estimate of how long the <button class='glossary-text'>heat</button> transfer will take. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Calibrating the Calorimeter: Thermal Energy Transfer",
+              "pageTitle": "Calibrating the Calorimeter: Thermal Energy Transfer (20 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "activity1",
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "With the graduated cylinder, measure and <button class='glossary-text'>heat</button> 50 mL of water. You can use a mug in the microwave to heat this water. Take the <button class='glossary-text'>temperature</button> of the water using the thermometer. The water should be at least 80 °C."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Measure and pour 10 mL of hot water into a new foam cup. Use the thermometer to measure the temperature of the hot water. Record this information in <span class=bodyFontBold>Data Table 1</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Remove the beaker of cold water from the refrigerator."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the graduated cylinder to measure 50 mL of cold water from the beaker."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Pour the 50 mL of cold water from the beaker into the <button class='glossary-text'>calorimeter</button>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Return the beaker with the remaining cold water to the refrigerator."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Pour the 10 mL of hot water into the calorimeter containing the cold water."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the thermometer in the calorimeter and place the plastic lid on the calorimeter."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "In <span class=bodyFontBold>Data Table 2</span>, record the temperature of the water every 15 seconds for the next 90 seconds. Select the highest value from this table, and record this as the final temperature of the cold water and the hot water in <span class=bodyFontBold>Data Table 1</span>.",
+                    "image": "core/Clock.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "stopwatch symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Pour out the water from all the foam cups, including the calorimeter."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using your preferred heat source, measure and heat 50 mL of water. This sample of water should be between <span style='whiteSpace: nowrap'>40 °C</span> and <span style='whiteSpace: nowrap'>45 °C.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Keep the warm water in a single foam cup."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the graduated cylinder to measure 50 mL of cold water from the beaker in the refrigerator."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Pour the 50 mL of cold water into the calorimeter."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the thermometer to measure the initial temperatures of the cold water in the calorimeter and the warm water in the single foam cup."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record these values in <span class=bodyFontBold>Data Table 1</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Pour the 50 mL of warm water from the foam cup into the 50 mL of cold water in the calorimeter."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the thermometer in the calorimeter and put the plastic lid on the calorimeter."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "In <span class=bodyFontBold>Data Table 3</span>, record the temperature of the water in the calorimeter every 15 seconds for the next <span style='whiteSpace: nowrap'>90 seconds.</span>",
+                    "image": "core/Clock.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "stopwatch symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Find the highest temperature in <span class=bodyFontBold>Data Table 3</span>, and record this value in <span class=bodyFontBold>Data Table 1</span> as the final temperature of the cold water and the warm water."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will measure the <button class='glossary-text'>temperature</button> change in the <button class='glossary-text'>calorimeter</button> water after hot washers are added to the calorimeter. You will use <button class='resource-text'>Equation 2</button> for the transfer of <button class='glossary-text'>thermal energy</button> to determine the experimental <button class='glossary-text'>specific heat</button> of the metal. Finally, you will compare your experimental value to the actual value by calculating percent error."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "Calculating the Specific Heat of Metal",
+              "pageTitle": "Calculating the Specific Heat of Metal (13 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "activity2",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the scale to measure the mass of the five large washers. Record this value in <span class=bodyFontBold>Data Table 5</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Fill a pot with at least 300 mL of tap water."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the washers in the pot so that the washers are suspended from the string. The washers should be submerged in the water but not in contact with the bottom of the pot. Allow the water to come to a boil. The washers need to remain in the hot water long enough to reach the <button class='glossary-text'>temperature</button> of boiling water <span style='whiteSpace: nowrap'>(100 °C/212 °F).</span> Add more water as needed to fully submerge the washers."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Continue to boil for approximately 10 minutes.",
+                    "image": "core/Clock.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "stopwatch symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "While waiting for the water to boil, weigh the empty <button class='glossary-text'>calorimeter</button> on the scale and record the value in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 5</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Fill the inner cup of the calorimeter with 100 mL of tap water and weigh again. Subtract the mass of the calorimeter from this value. Record the mass of the water in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 5</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Allow the water to come to room temperature, and measure the initial temperature of the water in the calorimeter. Record this value in <span class=bodyFontBold>Data Table 5</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Remove the plastic lid from the cup. Quickly transfer the washers from the pot to the water. Do not allow the washers to touch the thermometer."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Replace the lid on the cup. Use the string to raise and lower the washers several times, stirring the water."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "In <span class=bodyFontBold>Data Table 4</span>, record the temperature of the system every 15 seconds for <span style='whiteSpace: nowrap'>2 minutes.</span> From the data, select the highest temperature and record this value in <span class=bodyFontBold>Data Table 5</span> as the final temperature of both the water and the zinc washers.",
+                    "image": "core/Clock.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "stopwatch symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Complete <span class=bodyFontBold>Data Table 5</span> using 100 °C for the initial temperature of the metal and <span style='whiteSpace: nowrap'>4.186 J/g∙°C</span> as the <button class='glossary-text'>specific heat</button> of water."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "<span style='padding-bottom:5px;display:block;'>Calculate the specific <button class='glossary-text'>heat</button> for the metal washers. Record this value in <span class=bodyFontBold>Data Table 5</span>.</span>"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580402/580402_Equation_002.svg",
+                    "imgDivWidth": "150px",
+                    "maxWidth": "200px",
+                    "scrollImg": true,
+                    "altText": "Equation 2: The formula C sub m equals the value of m sub w times C sub w times delta T sub w, divided by m sub m times delta T sub m"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the percent difference between the experimental value for the specific heat of the metal washers and the specific heat for zinc listed in Table 1. Record this value in <span class=bodyFontBold>Data Table 5</span>."
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "percent error = <span className=bodyFraction><span>| actual-experimental |</span> <span className=symbol>/</span><span className=bottom>actual</span></span> × 100"
+                  },
+                  {
+                    "title": "Table 1.",
+                    "allowClick": true,
+                    "type": "DataTable",
+                    "sr": 11,
+                    "tableWidth": "310px",
+                    "header": [
+                      {
+                        "text": "Substance",
+                        "colWidth": "40%"
+                      },
+                      {
+                        "text": "Specific Heat (J/g∙°C)",
+                        "colWidth": "60%"
+                      }
+                    ],
+                    "tableData": [
+                      [
+                        {
+                          "type": "text",
+                          "text": "Water"
+                        },
+                        {
+                          "type": "text",
+                          "text": "4.186"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Copper"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.386"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Aluminum"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.900"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Zinc"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.387"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Steel"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.466"
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "orderedType": "1",
+                  "listType": "ordered",
+                  "text": [
+                    "Dispose of the water.",
+                    "Carefully dry the washers and the thermometer and return the materials to the equipment kit.",
+                    "Clean up your work space."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "altText": "completion",
+                  "desc": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Physics_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "landscape A4"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 10,
+                "sr": 0,
+                "headerHidden": true,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "25%"
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "25%"
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "25%"
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "25%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span style='color:white; font-weight: 500;'>50 mL of Cold Water + 10 mL of Hot Water",
+                      "hoverText": "50 mL of Cold Water + 10 mL of Hot Water",
+                      "colspan": 2,
+                      "rowHeight": "45px",
+                      "color": "#6b6b6b",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "text": "<span style='color:white; font-weight: 500;'>50 mL of Cold Water + 50 mL of Warm Water",
+                      "hoverText": "50 mL of Cold Water + 50 mL of Warm Water",
+                      "colspan": 2,
+                      "rowHeight": "45px",
+                      "color": "#6b6b6b",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Initial Temperature of Cold Water"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "Initial Temperature of Cold Water"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Initial Temperature of Hot Water"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "Initial Temperature of Warm Water"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Final Temperature of Water"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "Final Temperature of Water"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "50%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 2. Cold Water + Hot Water"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 10,
+                "sr": 0,
+                "header": [
+                  {
+                    "text": "Time (s)",
+                    "colWidth": "45%"
+                  },
+                  {
+                    "text": "Temperature (°C)",
+                    "colWidth": "55%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "15"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "30"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "45"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "60"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "75"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "90"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "50%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 3. Cold Water + Warm Water"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 10,
+                "sr": 0,
+                "header": [
+                  {
+                    "text": "Time (s)",
+                    "colWidth": "45%"
+                  },
+                  {
+                    "text": "Temperature (°C)",
+                    "colWidth": "55%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "15"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "30"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "45"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "60"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "75"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "90"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": ["Question1", "Question2", "Question3", "Question4"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "When you added 10 mL of hot water to 50 mL of cold water, what was the final temperature?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "2",
+                "listType": "ordered",
+                "text": [
+                  "Describe how the energy was transferred between the hot and the cold water.  Which law of thermodynamics predicts this behavior?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 1,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question3",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "3",
+                "listType": "ordered",
+                "text": [
+                  "Describe what would happen to the temperature of the water if it were left sitting in a room for several minutes?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question3",
+                "sr": 2,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question4",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "4",
+                "listType": "ordered",
+                "text": [
+                  "How did the final temperature of the water compare when warm water was added to the cold water and when hot water was added?  What does this indicate about the difference between heat and temperature?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question4",
+                "sr": 3,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "50%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 4"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 10,
+                "sr": 0,
+                "header": [
+                  {
+                    "text": "Time (s)",
+                    "colWidth": "45%"
+                  },
+                  {
+                    "text": "Temperature (°C)",
+                    "colWidth": "55%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "15"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "30"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "45"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "60"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "75"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "90"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "105"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "120"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 5"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 20,
+                "headerHidden": true,
+                "sr": 0,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "40%"
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "60%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Mass of Calorimeter"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Mass of Water (<span class='bodyFontItalic'>m<sub class='bodysubscript'>w</sub></span>)"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "rowHeight": "58px",
+                      "text": "Specific Heat of Water (<span class='bodyFontItalic'>C<sub class='bodysubscript'>w</sub></span>)"
+                    },
+                    {
+                      "type": "text",
+                      "text": "4.18 J/g∙ °C"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Initial Temperature of Water (<span class='bodyFontItalic'>T<sub class='bodysubscript'>wI</sub></span>)"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Final Temperature of Water (<span class='bodyFontItalic'>T<sub class='bodysubscript'>wF</sub></span>)"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Temperature Change of Water"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Mass of Metal Washers (<span class='bodyFontItalic'>m<sub class='bodysubscript'>m</sub></span>)"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "rowHeight": "58px",
+                      "text": "Initial Temperature of Metal (<span class='bodyFontItalic'>T<sub class='bodysubscript'>mI</sub></span>)"
+                    },
+                    {
+                      "type": "text",
+                      "text": "100 °C"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Final Temperature of Metal (<span class='bodyFontItalic'>T<sub class='bodysubscript'>mF</sub></span>)"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Temperature Change of Metal"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Specific Heat of Metal Washers (<span class='bodyFontItalic'>C<sub class='bodysubscript'>m</sub></span>)"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Percent Error"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 3000,
+            "title": "Notes"
+          },
+          
+          {
+            "type": "Box",
+            "id": "Box_Note",
+            "align": "center",
+            "margin": "25px 0 0 0",
+            "text": "In order for your instructor to be able to open your video links, please select the \"Save as PDF\" option rather than \"Print to PDF\"."
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6339984724112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 1. A thermal image",
+        "src": "courses_2023/Physics/580402/580402_Physics_fig_001.svg",
+        "altText": "Figure 1: Thermal image of a cat sitting on a windowsill",
+        "maxWidth": "515px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 1. Thermal energy (<span class='bodyFontItalic'>Q</span> )",
+        "src": "courses_2023/Physics/580402/580402_Equation_001.svg",
+        "altText": "Equation 1: The formula Q equals m times C times delta T",
+        "maxWidth": "130px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 2. Methods of heat transfer",
+        "src": "courses_2023/Physics/580402/580402_Physics_fig_002.svg",
+        "altText": "Figure 2: A diagram showing the three methods of heat transfer: conduction, convection and radiation",
+        "maxWidth": "515px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 2. Specific heat of a metal <span style='whiteSpace: nowrap'>(<span class='bodyFontItalic'>C<sub class='bodysubscript'>m</sub></span> )</span>",
+        "src": "courses_2023/Physics/580402/580402_Equation_002.svg",
+        "altText": "Equation 2: The formula C sub m equals the value of m sub w times C sub w times delta T sub w, divided by m sub m times delta T sub m",
+        "maxWidth": "200px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Experimental Design Diagram",
+        "src": "courses_2023/Physics/580402/580402_Physics_ED_001.svg",
+        "altText": "A procedural map of the activities in this investigation. To prepare, you will cool water in the refrigerator and record the temperature. Then, you will prepare washers for heating and construct the calorimeter. In Activity 1, you will measure the volume of hot and cold water, combine them in the calorimeter and measure the change in water temperature over time. Then, you will repeat this with new volumes of hot and cold water. In activity 2, you will measure the mass of metal washers. Then, you will heat the washers in boiling water. Next, you will add a water sample to the calorimeter. Then, you will measure the mass of the water sample. Next, you will record the temperature of the water in the calorimeter. Then, you will transfer the heated washers to the calorimeter and record the temperature of the water in the calorimeter at regular intervals. Finally, you will calculate the change in temperature, the specific heat of the metal and the percent error.",
+        "maxWidth": "1600px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 3. Calorimeter set up",
+        "src": "courses_2023/Physics/580402/580402_Physics_fig_003.svg",
+        "altText": "Figure 3: Calorimeter setup, which includes 2 foam cups nested together with a thermometer pushed through a plastic lid",
+        "maxWidth": "195px",
+        "scrollImg": true
+      },
+      {
+        "type": "DataTable",
+        "thumbnailSrc": "core/Table_icon.svg",
+        "isResource": true,
+        "allowClick": true,
+        "tableWidth": "310px",
+        "title": "Table 1.",
+        "content": "Table 1. Specific heats of various metals",
+        "sr": 12,
+        "header": [
+          {
+            "text": "Substance",
+            "colWidth": "40%"
+          },
+          {
+            "text": "Specific Heat (J/g∙°C)",
+            "colWidth": "60%"
+          }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "text": "Water"
+            },
+            {
+              "type": "text",
+              "text": "4.186"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Copper"
+            },
+            {
+              "type": "text",
+              "text": "0.386"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Aluminum"
+            },
+            {
+              "type": "text",
+              "text": "0.900"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Zinc"
+            },
+            {
+              "type": "text",
+              "text": "0.387"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Steel"
+            },
+            {
+              "type": "text",
+              "text": "0.466"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Calorimeter",
+        "content": "a device for measuring the heat developed during a mechanical, electrical, or chemical reaction, and for calculating the heat capacity of materials."
+      },
+      {
+        "title": "Calorimetry",
+        "content": "the process of measuring heat energy"
+      },
+      {
+        "title": "Conduction",
+        "content": "the transfer of heat between 2 objects that are physically touching"
+      },
+      {
+        "title": "Convection",
+        "content": "the transfer of heat through the movement of a fluid"
+      },
+      {
+        "title": "Heat",
+        "content": "energy that is transferred from one body to another as the result of a difference in temperature"
+      },
+      {
+        "title": "Kinetic energy",
+        "content": "the energy that matter possesses by virtue of its motion"
+      },
+      {
+        "title": "Radiation",
+        "content": "the transfer of energy through particles or waves"
+      },
+      {
+        "title": "Specific heat (<span class='bodyFontItalic'>C</span> )",
+        "content": "the amount of heat energy necessary to raise the temperature of 1 gram of a substance by 1 °C"
+      },
+      {
+        "title": "Temperature (<span class='bodyFontItalic'>T</span> )",
+        "content": "the measure of the average kinetic energy of the molecules in a substance"
+      },
+      {
+        "title": "Thermal energy",
+        "content": "the total energy of the particles in a sample of matter due to the vibration of the molecules"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

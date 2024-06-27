@@ -1,0 +1,64 @@
+.why-should-i-care-comp-container {
+}
+
+.why-should-i-care-comp-left-container {
+  width: 55%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.why-should-i-care-comp-right-container {
+  width: calc(45% - 25px);
+  height: 100%;
+  float: right;
+  position: relative;
+  margin-left: 25px;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 1000px) and (max-height: 330px) and (orientation: landscape) {
+  .why-should-i-care-comp-right-container {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-left: 0;
+  }
+}
+
+/* Landscape iPhone */
+@media only screen and (min-device-width: 300px) and (max-device-width: 765px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .why-should-i-care-comp-right-container {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-left: 0;
+  }
+}
+
+/* Portrait iPhone */
+@media only screen and (min-device-width: 275px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .why-should-i-care-comp-right-container {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-left: 0;
+  }
+}
+
+/* Landscape iPad Normal*/
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-max-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* Portrait iPad Normal*/
+@media only screen and (min-width: 768px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-max-device-pixel-ratio: 2) and (orientation: portrait) {
+  .why-should-i-care-comp-right-container {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-left: 0;
+  }
+}

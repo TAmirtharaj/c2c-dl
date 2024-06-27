@@ -1,0 +1,3509 @@
+{
+  "locked": true,
+  "courseTitle": "Blood Typing Virtual Lab ",
+  "footerData": {
+    "images": {
+      "logo": "courses_2023/Biology/580247_Bio_VIRT/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/bodyBookmark.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "courses_2023/Biology/580247_Bio_VIRT/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "courses_2023/Biology/580247_Bio_VIRT/Biology_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Biology",
+                "images": {
+                  "launchPage": "courses_2023/Biology/580247_Bio_VIRT/Biology_launchPageBg.svg",
+                  "logo": "core/Biology_subject_icon.svg"
+                },
+                "titleName2": "Blood Typing Virtual Lab ",
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "waterMark": true,
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, you are introduced to the ABO and Rh blood typing systems, the process of <button class='glossary-text'>agglutination</button>, and how it is used in the typing of human blood. You will practice identifying agglutination and determining blood type before performing a simulation of EldonCard blood typing."
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_Time-Requirement.svg",
+                  "desc": "Activity 1: Blood Typing with Simulated Blood - 10 minutes\nActivity 2: Blood Typing with EldonCards - 15 minutes",
+                  "altText": "Activity 1: Blood Typing with Simulated Blood - 10 minutes\nActivity 2: Blood Typing with EldonCards - 15 minutes",
+                  "width": "100%",
+                  "imgDivWidth": "290px",
+                  "maxWidth": "370px",
+                  "scrollImg": true
+                },
+				{
+				  "type":"List",
+				  "containerType":"rightContainer",
+				  "title":"Needed but not supplied:",
+				  "text":[
+				  "There are no materials required for this investigation"
+				  ]
+				}
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Determine blood types based on <button class='glossary-text'>agglutination</button> reactions.", 
+                    "Predict agglutination reactions when incompatible whole blood encounters <button class='glossary-text'>antibodies</button> from blood <button class='glossary-text'>serum</button>.", 
+                    "Identify compatible blood types for transfusion.", 
+                    "Describe the factors determining ABO and Rh blood types and their inheritance.",
+                    "Explain how parental blood type may affect the health of a fetus."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "courses_2023/Biology/580247_Bio_VIRT/Key_PPE.svg",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "<br>Protocol symbols",
+                  "image": "courses_2023/Biology/580247_Bio_VIRT/Key_protocol.svg",
+                  "desc": "video link symbol, camera symbol, stopwatch symbol",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "courses_2023/Biology/580247_Bio_VIRT/Key_Hazard.svg",
+                  "desc": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Do you know your blood type? Maybe you have type A blood. You might even know whether you are positive or negative for <button class='glossary-text'>Rh factor</button>. It turns out that the ABO and Rh blood group systems are just two of many different systems used to categorize human blood. The International Society of Blood Transfusion (ISBT) maintains an official record of current blood group systems, of which there are 43. According to the ISBT, “the term ‘blood group’ usually refers to an individual’s combination of Red Blood Cell (RBC) surface <button class='glossary-text'>antigens</button>”<sup class='bodySupscript'>1</sup>. These antigens are part of RBC membrane proteins with a variety of functions, and it is these different proteins that distinguish each blood group. For example, the Duffy blood group system defines blood type by the presence of a certain receptor protein; the Gerbich blood group system focuses on certain structural components of the RBC cytoskeleton.<span className=bodyParaLineBreak><span class='bodyParaLineBreak citation' style='line-height: 1.1em;'><sup class='bodySupscript'>1</sup>ISBT. “Red Cell Immunogenetics and Blood Group Terminology: ISBT Working Party.” <i>ISBT Working Party | The International Society of Blood Transfusion (ISBT)</i>,<br><span target='blank' style='word-break:break-all'>https://www.isbtweb.org/isbt-working-parties/rcibgt.html</span>.</span></span> "
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_whyShouldICare.svg",
+                  "desc": "A collection of bags of donated blood.",
+                  "altText": "A collection of bags of donated blood.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "infoPopUp":"resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "When an individual must receive a blood transfusion, it is critically important to match his or her blood type to that of an appropriate donor. A mismatch could result in a serious and potentially fatal transfusion reaction. The reaction between mismatched blood types occurs because the recipient has <button class='glossary-text'>antibodies</button>, proteins generated by the immune system, in his or her blood <button class='glossary-text'>serum</button> (the liquid portion of blood, minus clotting factors). These antibodies recognize and bind specifically to <button class='glossary-text'>antigens</button>, molecules on the surfaces of the donor red blood cells (RBCs). This causes clumping, or <button class='glossary-text'>agglutination</button>, of the donor RBCs."
+                },
+                {
+                  "type": "Plain",
+                  "text": "There are a variety of different antigens on the surface of RBCs. The two most important types to consider for a blood transfusion are the <span class=bodyFontBold>A</span> and/or <button class='glossary-text'>B antigens</button> and the <button class='glossary-text'>D antigen</button> (also known as the <button class='glossary-text'>Rh factor</button>). The presence or absence of antigens A and B can be used to identify an individual’s blood type within the <button class='glossary-text'>ABO group system</button>."
+                },
+                {
+                  "type": "List",
+                  "text": ["If someone has type A blood, his or her RBCs carry the <button class='glossary-text'>A antigen</button> on their surfaces and the immune system produces antibodies specific to the B antigen. If he or she receives blood donated by someone with B or AB blood, the anti-B antibodies will bind to the B antigens, causing the RBCs to agglutinate.",
+                  "A person with type B blood has the B antigen on the RBCs and produces antibodies against the A antigen.",
+				          "Someone with type AB blood has both A and B antigens, and does not produce antibodies against either antigen.",
+                  "An individual with type O blood has neither A nor B antigens and generates antibodies against both A and B."
+                ]
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_Fig_001.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "440px",
+                  "scrollImg": true,
+                  "altText": "Figure 1: A table of the ABO system of blood and the IgM antibodies present in the blood plasma.",
+                  "maxWidth": "550px"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type":"Plain",
+                  "text":"The <button class='glossary-text'>D antigen</button> belongs to the Rh blood group system, which was named for the rhesus monkeys in which it was first studied. A D-positive (D+) individual has the D antigen on the surfaces of RBCs and does not produce anti-D <button class='glossary-text'>antibodies</button>. A D-negative (D–) person lacks the D antigen and will produce anti-D antibodies. The D antigen is not only important for matching the transfusion to the recipient’s blood, it is also a consideration during pregnancy and birth. <button class='glossary-text'>Hemolytic disease of the newborn (HDN)</button> is an often fatal condition that may occur when a woman who is D– carries a D+ fetus. This situation can only arise if the father is D+; if both parents are D–, there is no risk of the fetus being D+. However, if the fetus is D+, the mother’s anti-D antibodies may cross the placenta, enter the bloodstream of the fetus, and attack the RBCs. HDN does not usually occur with the first D+ fetus, because the mother’s immune system is not exposed to the antigen until the time of birth. However, if the mother later becomes pregnant with another D+ fetus, her immune system will produce anti-D antibodies. HDN once caused the deaths of many babies. However, an injection of anti-D antibodies during pregnancy can shield the antigen from the immune system, thus protecting the fetus."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "The condition hemolytic disease of the newborn (HDN) would likely occur in which of the following situations? ",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "a Rh-negative woman carries a Rh-positive fetus",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "an individual with type A blood receives a donation of type O blood",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "a Rh-positive woman carries a Rh-positive fetus 12",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "a Rh-positive woman carries a Rh-negative fetus",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "an individual with type O blood receives a donation of type AB blood",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "HDN is an often-fatal condition that may occur when a Rh-negative woman carries a Rh-positive fetus."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What does it mean if an individual has type A blood?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "They have A antigens on the surfaces of RBCs and produce anti-B antibodies.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "They have B antigens on the surfaces of RBCs and produce anti-A antibodies.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "They have A antigens on the surfaces of RBCs and produce anti-A antibodies.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "They have Rh antigens on the surfaces of RBCs and produce anti-D antibodies.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "They lack Rh antigens on the surfaces of RBCs and produce anti-B antibodies.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": " Someone with type A blood carries the A antigen on the surfaces of RBCs, and the immune system produces anti-B antibodies."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "There are several different antigens on the surface of RBCs. The two most important types to consider for a blood transfusion are the A and/or B antigens and the Rh (or D) antigen. The Rh antigen belongs to the Rh blood group system, which was named for the rhesus monkeys in which it was first studied. A Rh-positive individual has the Rh antigen on the surfaces of RBCs and does not produce anti-Rh antibodies. A Rh-negative person lacks the Rh antigen and will produce anti-Rh antibodies. The Rh antigen is not only important for matching the transfusion to the recipient’s blood, but it is also a consideration during pregnancy and birth.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_Fig_001.svg",
+                      "alt": "Figure 1: A table of the ABO system of blood and the IgM antibodies present in the blood plasma.",
+					            "maxWidth":"85%"
+                     
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "There are several different antigens on the surface of RBCs. The two most important types to consider for a blood transfusion are the A and/or B antigens and the Rh (or D) antigen. The Rh antigen belongs to the Rh blood group system, which was named for the rhesus monkeys in which it was first studied. A Rh-positive individual has the Rh antigen on the surfaces of RBCs and does not produce anti-Rh antibodies. A Rh-negative person lacks the Rh antigen and will produce anti-Rh antibodies. The Rh antigen is not only important for matching the transfusion to the recipient’s blood, but it is also a consideration during pregnancy and birth.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_Fig_001.svg",
+                       "alt": "Figure 1: A table of the ABO system of blood and the IgM antibodies present in the blood plasma.",
+					             "maxWidth":"85%"
+                     
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "When the ABO and Rh blood groups are combined, the basic information needed to start crossmatching blood donors and recipients is obtained. For example, someone with type A+ blood could safely receive blood from another individual with type A+ blood. In an emergency situation with no A+ donor blood available, he or she could receive blood of certain other types: A–, O+, or O–. Types B+, B–, AB+, and AB– could not be used, because the A+ recipient’s anti-B <button class='glossary-text'>antibodies</button> would cause the donated cells to agglutinate. It is important to remember that ABO and Rh are only two of many different blood type groups, and there are some rare blood types besides these two commonly used systems."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The <button class='glossary-text'>antigens</button> and antibodies that are associated with each of the different ABO and Rh blood types are summarized in <button class='resource-text'>Table 1</button>."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The inheritance of blood types is well understood. Inheritance of ABO blood groups is of particular interest because it provides an example of <span style='whiteSpace: nowrap'><button class='glossary-text'>codominance</button><span class=bodyFontBold>:</span></span> a situation in which two different versions, or <button class='glossary-text'>alleles</button>, of the same gene are both expressed. The <i>I<sup class='bodySupscript'>&nbsp;A</sup></i> or <i>I<sup class='bodySupscript'>&nbsp;B</sup></i> allele codes for enzymes that catalyze the binding of the A or <button class='glossary-text'>B antigen</button>, respectively, to the surface of RBCs. The <i>i</i> allele eliminates the ability to bind A or B antigens. Thus, an individual with the type A blood <button class='glossary-text'>phenotype</button> (observable trait) could have the <button class='glossary-text'>genotype</button> (genetic makeup) <i>I<sup class='bodySupscript'>&nbsp;A</sup></i><i>I<sup class='bodySupscript'>&nbsp;A</sup></i> or the genotype <i>I<sup class='bodySupscript'>&nbsp;A</sup></i><i>i</i>. Likewise, someone with type B blood could have genotypes <i>I<sup class='bodySupscript'>&nbsp;B</sup></i><i>I<sup class='bodySupscript'>&nbsp;B</sup></i> or <i>I<sup class='bodySupscript'>&nbsp;B</sup></i><i>i</i>. Type AB blood requires the <i>I<sup class='bodySupscript'>&nbsp;A</sup></i><i>I<sup class='bodySupscript'>&nbsp;B</sup></i> genotype, and type O blood means the genotype is <i>ii</i>."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                
+                {
+                  "type": "DataTable",
+                  "sr":10,
+                  "containerType":"fullContainer",
+                  "allowClick": true,
+                  "title": "Table 1.",
+                  "tableHeight": "1.5",
+                  "tableWidth":"700px",
+                  "content": "Table 1.",
+                  "header": [
+                    {
+                      "text": "Blood type",
+                      "colWidth": "50px"
+                    },
+                    {
+                      "text": "A antigen",
+                      "colWidth": "50px"
+                    },
+                    {
+                      "text": "Anti-A antibody",
+                      "colWidth": "30px"
+                    },
+                    {
+                      "text": "B antigen",
+                      "colWidth": "30px"
+                    },
+                    {
+                      "text": "Anti-B antibody",
+                      "colWidth": "30px"
+                    },
+                    {
+                      "text": "D antigen",
+                      "colWidth": "30px"
+                    },
+                    {
+                      "text": "Anti-D antibody",
+                      "colWidth": "30px"
+                    }
+                  ],
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "text": "A+"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent "
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "A-"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent "
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "B+"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present "
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "B-"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present "
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "AB+"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present"
+                      },  
+                      {
+                        "type": "text",
+                        "text": "Absent "
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "AB-"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present"
+                      },  
+                      {
+                        "type": "text",
+                        "text": "Absent "
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "O+"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent"
+                      },  
+                      {
+                        "type": "text",
+                        "text": "Present "
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "O-"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent"
+                      },  
+                      {
+                        "type": "text",
+                        "text": "Present "
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Absent"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Present"
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp":"resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "People with type O blood were once thought to lack <button class='glossary-text'>antigens</button> on the surface of their RBCs, and those with type O– blood were referred to as “universal donors.” We now know that all the ABO blood groups have a weak <button class='glossary-text'>H antigen</button>. The presence of the <i>I<sup class='bodySupscript'>&nbsp;A</sup></i> or <i>I<sup class='bodySupscript'>&nbsp;B</sup></i> allele actually codes for enzymes that catalyze the binding of the A or <button class='glossary-text'>B antigen</button> to the H antigen. The <i>i</i> allele eliminates the ability to bind A or B antigen to the H antigen; therefore, type O RBCs have more exposed H antigen. The production of H antigen is controlled by a gene locus with two <button class='glossary-text'>alleles</button> (<i>H</i> and <i>h</i>) on chromosome 19. These are independent of the ABO locus, which is on chromosome 9. Because the <i>h</i> allele is uncommon, the <button class='glossary-text'>genotype</button> <i>hh</i> is very rare. The <i>hh</i> individuals produce RBCs without the H antigen, a condition called the <button class='glossary-text'>Bombay phenotype</button>, named for Bombay (now Mumbai), India, where it was first discovered. In the absence of the H antigen, antigens A and B have nothing with which to bind. As a result, when individuals possessing the Bombay phenotype are tested with anti-A and anti-B <button class='glossary-text'>antibodies</button>, they appear to belong to group O. However, these individuals cannot receive blood from type O donors who have H antigens, because their <i>hh</i> RBCs are agglutinated by anti-H antibodies. They may receive blood only from others with the Bombay phenotype."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The basis of most blood-type testing is the <button class='glossary-text'>agglutination</button> that occurs when RBC antigens react with antibodies in sera that have been collected from a source free of potentially disease-causing agents. Blood from the subject being tested is mixed with three different antibody-containing sera, known as antisera: anti-A, anti-B, and anti-D. All possible reactions that can occur when blood of different types is mixed with these three antisera are listed in Table 2."
+                },
+                {
+                  "type": "DataTable",
+                  "sr":20,
+                  "containerType":"rightContainer",
+                  "allowClick": true,
+                  "title": "Table 2.",
+                  "tableHeight": "1.5",
+                  "tableWidth":"700px",
+                  "content": "Table 1.",
+                  "header": [
+                    {
+                      "text": "Blood type",
+                      "colWidth": "10%"
+                    },
+                    {
+                      "text": "Anti-A",
+                      "colWidth": "10%"
+                    },
+                    {
+                      "text": "Anti-B",
+                      "colWidth": "10%"
+                    },
+                    {
+                      "text": "Anti-D/Rh",
+                      "colWidth": "10%"
+                    }
+                  ],
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "text": "A+"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Agglutination"
+                      },
+                      {
+                        "type": "text",
+                        "text": "No agglutination"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Agglutination"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "A-"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Agglutination"
+                      },
+                      {
+                        "type": "text",
+                        "text": "No agglutination"
+                      },
+                      {
+                        "type": "text",
+                        "text": "No agglutination"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "B+"
+                      },
+                      {
+                        "type": "text",
+                        "text": "No agglutination"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Agglutination"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Agglutination"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "B-"
+                      },
+                      {
+                        "type": "text",
+                        "text": "No agglutination"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Agglutination"
+                      },
+                      {
+                        "type": "text",
+                        "text": "No agglutination"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "AB+"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Agglutination"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Agglutination"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Agglutination"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "AB-"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Agglutination"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Agglutination"
+                      },
+                      {
+                        "type": "text",
+                        "text": "No agglutination"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "O+"
+                      },
+                      {
+                        "type": "text",
+                        "text": "No agglutination"
+                      },
+                      {
+                        "type": "text",
+                        "text": "No agglutination"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Agglutination"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "O-"
+                      },
+                      {
+                        "type": "text",
+                        "text": "No agglutination"
+                      },
+                      {
+                        "type": "text",
+                        "text": "No agglutination"
+                      },
+                      {
+                        "type": "text",
+                        "text": "No agglutination"
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp":"resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will assess images of realistically simulated blood on slides. The procedure used to prepare the slides was identical to an actual blood-typing method in which antisera are mixed with whole blood on special blood-typing slides. The blood-typing slides shown in this investigation have two wells on the left: the top is for anti-A, and the bottom is for anti-B. There is also a well on the right for anti-D (<button class='glossary-text'>Rh factor</button>). A drop of blood was placed in each well, followed by a drop of the appropriate <button class='glossary-text'>antiserum</button>. The contents of each well were thoroughly mixed to permit <button class='glossary-text'>antibodies</button> and <button class='glossary-text'>antigens</button> to contact one another. The images of the slides you will examine show that, after mixing, the contents of a well may appear granular or lumpy, indicating that <button class='glossary-text'>agglutination</button> occurred. If the fluid in the well appears smooth and uniform in appearance, then no agglutination took place."
+                },
+                {
+                  "type": "Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_VideoIcone1.svg",
+                  "desc": "Blood Typing with simulated Blood",
+                  "url": "https://players.brightcove.net/17907428001/SkDpWxU9l_default/index.html?videoId=5613025870001"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The EldonCard method of blood testing is demonstrated in Activity 2 using a simulation. This method is designed for easy portability, storage, and use. Other methods of blood type testing use liquid sera containing specific antibodies, which must be stored in a refrigerator. The sera are mixed with whole blood on special slides. EldonCards do not need to be refrigerated, and require no additional reagents or equipment, other than a container of tap water and a pipette. Each test field on an EldonCard contains a small amount of dried antibodies obtained from a source free of potentially disease-causing microbes. Adding water causes renaturation and activation of the antibodies. Tilting the EldonCard during the test reduces the chances of obtaining false positive results by preventing nonspecific agglutination. The control field lacks antibodies, so no agglutination should occur in the control if the test is conducted correctly."
+                },
+                {
+                  "type": "Video",
+                  "containerType":"rightContainer",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_VideoIcone2.svg",
+                  "desc": "Blood Typing with Eldoncards",
+                  "url": "https://players.brightcove.net/17907428001/SkDpWxU9l_default/index.html?videoId=5613163699001"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "In an emergency, someone with type A+ blood could receive which of the following types of blood?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "O+",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "B+",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "AB+",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "B-",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "AB-",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Someone with type A+ blood could receive blood from certain other blood types: A–, O+, or O–. Other types could not be used because the A+ recipient’s anti-B antibodies would cause the donated cells to agglutinate. "
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "In an emergency, someone with type O- blood could receive which of the following types of blood?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "O-",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "A-",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "B-",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "AB+",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "A+",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Someone with type O- blood could only receive more O- blood. This blood type contains antibodies against A, B, and D antigens, causing it to agglutinate any other blood types."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "When the ABO and Rh blood groups are combined, the basic information needed to start cross-matching blood donors and recipients is obtained. It is important to remember that ABO and Rh are only two of several different groups of blood types, and there are some rare blood types besides these two commonly used systems. People with type O blood were once thought to lack antigens on the surface of their RBCs, and those with type O– blood were referred to as “universal donors.” We now know that all ABO blood groups have a weak H antigen. ",
+                  "dataTable":[
+                    {
+                      "type": "DataTable",
+                      "allowClick": true,
+                      "title": "Table 1.",
+                      "sr":10,
+                      "tableHeight": "1.5",
+                      "tableWidth":"700px",
+                      "content": "Table 1.",
+                      "header": [
+                        {
+                          "text": "Blood type",
+                          "colWidth": "10%"
+                        },
+                        {
+                          "text": "A antigen",
+                          "colWidth": "10%"
+                        },
+                        {
+                          "text": "Anti-A antibody",
+                          "colWidth": "10%"
+                        },
+                        {
+                          "text": "B antigen",
+                          "colWidth": "10%"
+                        },
+                        {
+                          "text": "Anti-B antibody",
+                          "colWidth": "10%"
+                        },
+                        {
+                          "text": "D antigen",
+                          "colWidth": "10%"
+                        },
+                        {
+                          "text": "Anti-D antibody",
+                          "colWidth": "10%"
+                        }
+                      ],
+                      "tableData": [
+                        [
+                          {
+                            "type": "text",
+                            "text": "A+"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "A-"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "B+"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "B-"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "AB+"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },  
+                          {
+                            "type": "text",
+                            "text": "Absent "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "AB-"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },  
+                          {
+                            "type": "text",
+                            "text": "Absent "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "O+"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },  
+                          {
+                            "type": "text",
+                            "text": "Present "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "O-"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },  
+                          {
+                            "type": "text",
+                            "text": "Present "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          }
+                        ]
+                      ]
+                    }
+                ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "When the ABO and Rh blood groups are combined, the basic information needed to start cross-matching blood donors and recipients is obtained. It is important to remember that ABO and Rh are only two of several different groups of blood types, and there are some rare blood types besides these two commonly used systems. People with type O blood were once thought to lack antigens on the surface of their RBCs, and those with type O– blood were referred to as “universal donors.” We now know that all ABO blood groups have a weak H antigen. ",
+                  "dataTable":[
+                    {
+                      "type": "DataTable",
+                      "allowClick": true,
+                      "title": "Table 1.",
+                      "sr":10,
+                      "tableHeight": "1.5",
+                      "tableWidth":"700px",
+                      "content": "Table 1.",
+                      "header": [
+                        {
+                          "text": "Blood type",
+                          "colWidth": "10%"
+                        },
+                        {
+                          "text": "A antigen",
+                          "colWidth": "10%"
+                        },
+                        {
+                          "text": "Anti-A antibody",
+                          "colWidth": "10%"
+                        },
+                        {
+                          "text": "B antigen",
+                          "colWidth": "10%"
+                        },
+                        {
+                          "text": "Anti-B antibody",
+                          "colWidth": "10%"
+                        },
+                        {
+                          "text": "D antigen",
+                          "colWidth": "10%"
+                        },
+                        {
+                          "text": "Anti-D antibody",
+                          "colWidth": "10%"
+                        }
+                      ],
+                      "tableData": [
+                        [
+                          {
+                            "type": "text",
+                            "text": "A+"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "A-"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "B+"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "B-"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "AB+"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },  
+                          {
+                            "type": "text",
+                            "text": "Absent "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "AB-"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },  
+                          {
+                            "type": "text",
+                            "text": "Absent "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "O+"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },  
+                          {
+                            "type": "text",
+                            "text": "Present "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "O-"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },  
+                          {
+                            "type": "text",
+                            "text": "Present "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Absent"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Present"
+                          }
+                        ]
+                      ]
+                    }
+                ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp":"resource",
+              "template": "Materials",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": 
+                    "There are no materials required for this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are no safety concerns for this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "A blood sample contains anti-A and anti-D antibodies.  What is the blood type?",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "B-",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "B+",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "AB-",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "O-",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "A+",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Why are type O- individuals traditionally referred to as “universal donors”?",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Type O- blood lacks surface antigens that could bind to a recipient’s antibodies.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Type O- blood lacks antibodies that could bind to a recipient’s antigens.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Type O- blood lacks platelets so it does not clot after it is donated.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Type O- blood is Rh-negative so it can be donated to a pregnant woman.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Type O- blood lacks the H antigen that could bind to a recipient’s antibodies.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "A woman with type AB blood marries a man with type O blood. Which of the following lists all the possible blood types their children might have?",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "A or B",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "A or AB",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "AB or O",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "B or AB",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "B or O",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following blood types is an example of codominance?",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "AB",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "B",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "O",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "A",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Rh-positive",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the role of the H antigen on the surface of red blood cells (RBCs)?",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "They bind A or B antigens to the RBC surface.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "They produce anti-A or anti-B antibodies.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "They produce anti-D antibodies.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "They bind D antigens to the RBC surface.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "They signify the condition called Bombay phenotype.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following situations would result in agglutination?",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "A patient with type O blood receives type A blood.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "A patient with type A blood receives type O blood.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "A patient with Rh-positive blood receives Rh-negative blood.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "A patient with type AB blood receives type B blood.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "A patient with Rh-positive blood receives Rh-positive blood.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the liquid portion of blood without any clotting factors?",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "serum",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "antigen",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "antibody",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "red blood cell",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "white blood cell",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "An individual with a blood genotype of ii has which type of blood?",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "O",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "A",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "B",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "AB",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "AO",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "The process of a donor’s red blood cells clumping after transfusion into an incompatible recipient is referred to as which of the following?",
+                      "shuffle": false,
+                      "assessmentRef": 8,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "agglutination",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "hemolytic disease of the newborn ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "codominance",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Bombay phenotype",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "blood typing",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "The situation where two versions of the same gene are expressed is referred to as which of the following?",
+                      "shuffle": false,
+                      "assessmentRef": 9,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "codominance",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "alleles",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "genotype",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "agglutination",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "blood phenotype",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Biology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will observe images of simulated blood mixed with simulated <button class='glossary-text'>antibodies</button> and determine whether <button class='glossary-text'>agglutination</button> has occurred in each mix. You will then use the information to determine the blood type of each simulated blood sample."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Activity 1",
+              "pageTitle": "Activity 1",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity1",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>A</div>&nbsp;Blood Typing with Simulated Blood (1 step)",
+                        "text":"Each slide shown has had a sample added to each well along with a drop of the appropriate <button class='glossary-text'>antiserum</button>. The antisera in the wells are:<ul><li>top left, anti-A</li><li>bottom left, anti-B</li><li>right, anti-D (anti-Rh)</li></ul>"
+                      }
+                    ],
+                    "text": "For each well, determine whether <button class='glossary-text'>agglutination</button> has occurred, and enter your observation in <span class=bodyFontBold>Data Table 1</span>. Then use the agglutination data in Tabel 2 to determine the blood type."
+                  },
+                  {
+                    "type": "Image",
+                    "image": [
+                      {
+                        "src": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_Fig_002.svg",
+                        "maxWidth": "250px",
+                        "scrollImg": true,
+                        "altText": "Figure 2: Photo of a blood-typing slide with three wells, each containing red fluid. The fluid in the top left well contains clumps. The fluid in the other wells is smooth and uniform.",
+                        "style": {
+                          "width": "25%"
+                        }
+                      },
+                      {
+                        "src": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_Fig_003.svg",
+                        "maxWidth": "250px",
+                        "scrollImg": true,
+                        "altText": "Figure 3: Photo of a blood-typing slide with three wells, each containing red fluid. The fluid in the bottom left well has a grainy appearance. The fluid in the other wells is smooth and uniform.",
+                        "style": {
+                          "width": "25%"
+                        }
+                      },
+                      {
+                        "src": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_Fig_004.svg",
+                        "maxWidth": "250px",
+                        "scrollImg": true,
+                        "altText": "Figure 4: Photo of a blood-typing slide with three wells, each containing red fluid. The fluid in the top left well contains clumps. The fluid in the bottom left well has a grainy appearance. The fluid in the right well is lumpy and uneven.",
+                        "style": {
+                          "width": "25%"
+                        }
+                      },
+                      {
+                        "src": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_Fig_005.svg",
+                        "maxWidth": "250px",
+                        "scrollImg": true,
+                        "altText": "Figure 5: Photo of a blood-typing slide with three wells, each containing red fluid. The fluid in the top left well contains clumps. The fluid in the bottom left well has a grainy appearance. The fluid in the right well is lumpy and uneven.",
+                        "style": {
+                          "width": "25%"
+                        }
+                      }
+                    ],
+                 
+                    "imgDivWidth": "100%",
+                    "scrollImg": true
+                  },
+                  {
+                    "type": "Image",
+                    "image": [
+                      {
+                        "src": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_Fig_006.svg",
+                        "maxWidth": "250px",
+                        "scrollImg": true,
+                        "altText": "Figure 6: Photo of a blood-typing slide with three wells, each containing red fluid. The fluid in the left wells appears smooth and uniform. The fluid in the right well is lumpy and uneven.",
+                        "style": {
+                          "width": "25%"
+                        }
+                      },
+                      {
+                        "src": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_Fig_007.svg",
+                        "maxWidth": "250px",
+                        "scrollImg": true,
+                        "altText": "Figure 7: Photo of a blood-typing slide with three wells, each containing red fluid. The fluid in the top left well contains lumps. The fluid in the bottom left well has a grainy appearance. The fluid in the right well appears smooth and uniform.",
+                        "style": {
+                          "width": "25%"
+                        }
+                      },
+                      {
+                        "src": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_Fig_008.svg",
+                        "maxWidth": "250px",
+                        "scrollImg": true,
+                        "altText": "Figure 8: Photo of a blood-typing slide with three wells, each containing red fluid. The fluid in the top left well appears smooth and uniform. The fluid in the bottom left well has a grainy appearance. The fluid in the right well is lumpy and uneven.",
+                        "style": {
+                          "width": "25%"
+                        }
+                      }
+                    ],
+                 
+                    "altText": [
+                      "Figure 6: Photo of a blood-typing slide with three wells, each containing red fluid. The fluid in the left wells appears smooth and uniform. The fluid in the right well is lumpy and uneven.",
+                      "Figure 7: Photo of a blood-typing slide with three wells, each containing red fluid. The fluid in the top left well contains lumps. The fluid in the bottom left well has a grainy appearance. The fluid in the right well appears smooth and uniform.",
+                      "Figure 8: Photo of a blood-typing slide with three wells, each containing red fluid. The fluid in the top left well appears smooth and uniform. The fluid in the bottom left well has a grainy appearance. The fluid in the right well is lumpy and uneven."
+                    ],
+                    "imgDivWidth": "100%",
+                    "scrollImg": true
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Biology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Activity 2 is a simulation. You will follow the doctor’s instructions to learn how to prepare and interpret an EldonCard. Then, you will type several other patients’ blood on your own."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "Activity 2",
+              "template": "VirtualLab",
+              "activityPath": "activities/580247_Bio_VIRT/activity2/story.html"
+            }
+          ]
+        }
+      ]
+    },
+    
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Biology_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "courses_2023/Biology/580247_Bio_VIRT/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "portrait"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "title":"Activity 1",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1. Blood Typing with Simulated Blood"
+              },
+              {
+                "type": "DataTable",
+                "sr":0,
+                "tableHeight": "1.5",
+                "maxLength": 3,
+                "header": [
+                  {
+                    "text": "Figure",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Agglutination in anti-A well? (yes/no)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Agglutination in anti-B well? (yes/no) ",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Agglutination in anti-D/Rh well? (yes/no)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "ABO/Rh blood type",
+                    "colWidth": "20%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "2",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "3",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "4",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "5",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "6",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "7",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "8",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    }
+                  ]
+                ]
+              }
+            ]
+          } 
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "title":"Activity 2",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 2. Blood Typing with EldonCards"
+              },
+              {
+                "type": "DataTable",
+                "sr":0,
+                "tableHeight": "1.5",
+                "maxLength": 3,
+                "header": [
+                  {
+                    "text": "Patient",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Agglutination in anti-A field? (yes/no)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Agglutination in anti-B field? (yes/no)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Agglutination in anti-D/Rh field? (yes/no)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "ABO/Rh blood type",
+                    "colWidth": "20%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "1",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "2",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "3",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    },
+                    {
+                      "type": "input",
+                      "align": "center"
+                    }
+                  ]
+                ]
+              }
+            ]
+          } 
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "title": "Questions",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "Based on the results for Patient 1, what is their genotype for the ABO alleles? Is there more than one possible genotype? If so, why?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start":2,
+                "listType": "ordered",
+                "text": [
+                  "Based on the results for Patient 3, to which blood types could they donate blood? From which blood types could they receive blood?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 1,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      }, 
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_Fig_001.svg",
+        "content": "Figure 1. ABO blood groups",
+        "scrollImg": true,
+        "altText": "Figure 1: A table of the ABO system of blood and the IgM antibodies present in the blood plasma.",
+        "maxWidth": "550px"
+      },
+      {
+        "type": "DataTable",
+        "sr":10,
+        "thumbnailSrc": "core/Table_icon.svg",
+        "isResource": true,
+        "allowClick": true,
+        "title": "Table 1.",
+        "tableWidth": "620px",
+        "content": "Table 1. Presence or absence of antigens and antibodies in common blood types",
+        "header": [
+          {
+            "text": "Blood type",
+            "colWidth": "10%"
+          },
+          {
+            "text": "A antigen",
+            "colWidth": "10%"
+          },
+          {
+            "text": "Anti-A antibody",
+            "colWidth": "10%"
+          },
+          {
+            "text": "B antigen",
+            "colWidth": "10%"
+          },
+          {
+            "text": "Anti-B antibody",
+            "colWidth": "10%"
+          },
+          {
+            "text": "D antigen",
+            "colWidth": "10%"
+          },
+          {
+            "text": "Anti-D antibody",
+            "colWidth": "10%"
+          }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "text": "A+"
+            },
+            {
+              "type": "text",
+              "text": "Present"
+            },
+            {
+              "type": "text",
+              "text": "Absent "
+            },
+            {
+              "type": "text",
+              "text": "Absent"
+            },
+            {
+              "type": "text",
+              "text": "Present"
+            },
+            {
+              "type": "text",
+              "text": "Present"
+            },
+            {
+              "type": "text",
+              "text": "Absent"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "A-"
+            },
+            {
+              "type": "text",
+              "text": "Present"
+            },
+            {
+              "type": "text",
+              "text": "Absent "
+            },
+            {
+              "type": "text",
+              "text": "Absent"
+            },
+            {
+              "type": "text",
+              "text": "Present"
+            },
+            {
+              "type": "text",
+              "text": "Absent"
+            },
+            {
+              "type": "text",
+              "text": "Present"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "B+"
+            },
+            {
+              "type": "text",
+              "text": "Absent"
+            },
+            {
+              "type": "text",
+              "text": "Present "
+            },
+            {
+              "type": "text",
+              "text": "Present"
+            },
+            {
+              "type": "text",
+              "text": "Absent"
+            },
+            {
+              "type": "text",
+              "text": "Present"
+            },
+            {
+              "type": "text",
+              "text": "Absent"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "B-"
+            },
+            {
+              "type": "text",
+              "text": "Absent"
+            },
+            {
+              "type": "text",
+              "text": "Present "
+            },
+            {
+              "type": "text",
+              "text": "Present"
+            },
+            {
+              "type": "text",
+              "text": "Absent"
+            },
+            {
+              "type": "text",
+              "text": "Absent"
+            },
+            {
+              "type": "text",
+              "text": "Present"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "AB+"
+            },
+            {
+              "type": "text",
+              "text": "Present"
+            },  
+            {
+              "type": "text",
+              "text": "Absent "
+            },
+            {
+              "type": "text",
+              "text": "Present"
+            },
+            {
+              "type": "text",
+              "text": "Absent"
+            },
+            {
+              "type": "text",
+              "text": "Present"
+            },
+            {
+              "type": "text",
+              "text": "Absent"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "AB-"
+            },
+            {
+              "type": "text",
+              "text": "Present"
+            },  
+            {
+              "type": "text",
+              "text": "Absent "
+            },
+            {
+              "type": "text",
+              "text": "Present"
+            },
+            {
+              "type": "text",
+              "text": "Absent"
+            },
+            {
+              "type": "text",
+              "text": "Absent"
+            },
+            {
+              "type": "text",
+              "text": "Present"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "O+"
+            },
+            {
+              "type": "text",
+              "text": "Absent"
+            },  
+            {
+              "type": "text",
+              "text": "Present "
+            },
+            {
+              "type": "text",
+              "text": "Absent"
+            },
+            {
+              "type": "text",
+              "text": "Present"
+            },
+            {
+              "type": "text",
+              "text": "Present"
+            },
+            {
+              "type": "text",
+              "text": "Absent"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "O-"
+            },
+            {
+              "type": "text",
+              "text": "Absent"
+            },  
+            {
+              "type": "text",
+              "text": "Present "
+            },
+            {
+              "type": "text",
+              "text": "Absent"
+            },
+            {
+              "type": "text",
+              "text": "Present"
+            },
+            {
+              "type": "text",
+              "text": "Absent"
+            },
+            {
+              "type": "text",
+              "text": "Present"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "DataTable",
+        "sr":20,
+        "thumbnailSrc": "core/Table_icon.svg",
+        "isResource": true,
+        "allowClick": true,
+        "title": "Table 2.",
+        "tableWidth": "620px",
+        "content": "Table 2. Expected agglutination results for common blood types",
+        "header": [
+          {
+            "text": "Blood type",
+            "colWidth": "10%"
+          },
+          {
+            "text": "Anti-A",
+            "colWidth": "10%"
+          },
+          {
+            "text": "Anti-B",
+            "colWidth": "10%"
+          },
+          {
+            "text": "Anti-D/Rh",
+            "colWidth": "10%"
+          }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "text": "A+"
+            },
+            {
+              "type": "text",
+              "text": "Agglutination"
+            },
+            {
+              "type": "text",
+              "text": "No agglutination"
+            },
+            {
+              "type": "text",
+              "text": "Agglutination"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "A-"
+            },
+            {
+              "type": "text",
+              "text": "Agglutination"
+            },
+            {
+              "type": "text",
+              "text": "No agglutination"
+            },
+            {
+              "type": "text",
+              "text": "No agglutination"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "B+"
+            },
+            {
+              "type": "text",
+              "text": "No agglutination"
+            },
+            {
+              "type": "text",
+              "text": "Agglutination"
+            },
+            {
+              "type": "text",
+              "text": "Agglutination"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "B-"
+            },
+            {
+              "type": "text",
+              "text": "No agglutination"
+            },
+            {
+              "type": "text",
+              "text": "Agglutination"
+            },
+            {
+              "type": "text",
+              "text": "No agglutination"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "AB+"
+            },
+            {
+              "type": "text",
+              "text": "Agglutination"
+            },
+            {
+              "type": "text",
+              "text": "Agglutination"
+            },
+            {
+              "type": "text",
+              "text": "Agglutination"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "AB-"
+            },
+            {
+              "type": "text",
+              "text": "Agglutination"
+            },
+            {
+              "type": "text",
+              "text": "Agglutination"
+            },
+            {
+              "type": "text",
+              "text": "No agglutination"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "O+"
+            },
+            {
+              "type": "text",
+              "text": "No agglutination"
+            },
+            {
+              "type": "text",
+              "text": "No agglutination"
+            },
+            {
+              "type": "text",
+              "text": "Agglutination"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "O-"
+            },
+            {
+              "type": "text",
+              "text": "No agglutination"
+            },
+            {
+              "type": "text",
+              "text": "No agglutination"
+            },
+            {
+              "type": "text",
+              "text": "No agglutination"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/SkDpWxU9l_default/index.html?videoId=5613025870001",
+        "content": "Blood Typing with Simulated Blood"
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/SkDpWxU9l_default/index.html?videoId=5613163699001",
+        "content": "Blood Typing with EldonCards"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_Fig_002.svg",
+        "content": "Figure 2. Simulated blood slide 1",
+        "scrollImg": true,
+        "altText": "Figure 2: Photo of a blood-typing slide with three wells, each containing red fluid. The fluid in the top left well contains clumps. The fluid in the other wells is smooth and uniform.",
+        "maxWidth": "250px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_Fig_003.svg",
+        "content": "Figure 3. Simulated blood slide 2 ",
+        "scrollImg": true,
+        "altText": "Figure 3: Photo of a blood-typing slide with three wells, each containing red fluid. The fluid in the bottom left well has a grainy appearance. The fluid in the other wells is smooth and uniform.",
+        "maxWidth": "250px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_Fig_004.svg",
+        "content": "Figure 4. Simulated blood slide 3",
+        "scrollImg": true,
+        "altText": "Figure 4: Photo of a blood-typing slide with three wells, each containing red fluid. The fluid in the top left well contains clumps. The fluid in the bottom left well has a grainy appearance. The fluid in the right well is lumpy and uneven.",
+        "maxWidth": "250px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_Fig_005.svg",
+        "content": "Figure 5. Simulated blood slide 4",
+        "scrollImg": true,
+        "altText": "Figure 5: Photo of a blood-typing slide with three wells, each containing red fluid. The fluid in all three wells appears smooth and uniform.",
+        "maxWidth": "250px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_Fig_006.svg",
+        "content": "Figure 6. Simulated blood slide 5",
+        "scrollImg": true,
+        "altText": "Figure 6: Photo of a blood-typing slide with three wells, each containing red fluid. The fluid in the left wells appears smooth and uniform. The fluid in the right well is lumpy and uneven.",
+        "maxWidth": "250px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_Fig_007.svg",
+        "content": "Figure 7. Simulated blood slide 6",
+        "scrollImg": true,
+        "altText": "Figure 7: Photo of a blood-typing slide with three wells, each containing red fluid. The fluid in the top left well contains lumps. The fluid in the bottom left well has a grainy appearance. The fluid in the right well appears smooth and uniform.",
+        "maxWidth": "250px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580247_Bio_VIRT/580247_Bio_Fig_008.svg",
+        "content": "Figure 8. Simulated blood slide 7",
+        "scrollImg": true,
+        "altText": "Figure 8: Photo of a blood-typing slide with three wells, each containing red fluid. The fluid in the top left well appears smooth and uniform. The fluid in the bottom left well has a grainy appearance. The fluid in the right well is lumpy and uneven.",
+        "maxWidth": "250px"
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "A antigen",
+        "content": "A type of red blood cell surface protein used in the ABO blood group system"
+      },
+      {
+        "title": "ABO group system",
+        "content": "A system for categorizing human blood that denotes the presence of one, both, or neither of the A and B antigens on red blood cells (RBCs)"
+      },
+      {
+        "title": "Agglutination",
+        "content": "The sticking together of cells into a clump or mass"
+      },
+      {
+        "title": "Alleles",
+        "content": "Two or more versions of a gene"
+      },
+      {
+        "title": "Antibodies",
+        "content": "Antigen-binding proteins generated by the immune system"
+      },
+      {
+        "title": "Antigens",
+        "content": "Molecules on the surface of cells and disease-causing agents"
+      },
+      {
+        "title": "Antiserum",
+        "content": "A serum containing antibodies; plural, antisera"
+      }
+      ,
+      {
+        "title": "B antigen",
+        "content": "A type of red blood cell surface protein used in the ABO blood group system"
+      },
+      {
+        "title": "Bombay phenotype",
+        "content": "A condition in which individuals do not express the H antigen"
+      },
+      {
+        "title": "Codominance",
+        "content": "A situation in which two different versions of the same gene are both expressed"
+      },
+      {
+        "title": "D antigen",
+        "content": "A type of red blood cell surface protein used in the Rh blood group system; also called Rh factor or Rh antigen"
+      },
+      {
+        "title": "Genotype",
+        "content": "The genetic makeup of an individual cell or organism that determines or contributes to the phenotype" 
+      },
+      {
+        "title": "H antigen",
+        "content": "A type of red blood cell surface protein to which antigens of the ABO group bind"
+      },
+      {
+        "title": "Hemolytic disease of the newborn (HDN)",
+        "content": "An often fatal condition that may occur when an Rh-negative woman carries an Rh-positive fetus"
+      },
+      {
+        "title": "Phenotype",
+        "content": "The physical expression of a trait"
+      },
+      {
+        "title": "Rh factor",
+        "content": "A type of red blood cell surface protein used in the Rh blood group system; also called Rh antigen or D antigen"
+      },
+      {
+        "title": "Serum",
+        "content": "The liquid portion of the blood without clotting factors"
+      }
+    ]
+  },
+  "info": {
+
+    "src": "core/Information-Initial.svg",
+
+    "hoverSrc": "core/Information-Hower.svg",
+
+    "resource": {
+
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+
+      "src": "core/resourceImage.svg"
+
+    },
+
+    "kc": {
+
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+
+    },
+
+    "kc-resource": {
+
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+
+      "src": "core/resourceImage.svg"
+
+    },
+
+    "procedure": {
+
+      "text": "You can track completion of each step by clicking on the step number."
+
+    },
+
+    "procedure-resource": {
+
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+
+      "src": "core/resourceImage.svg"
+
+    }
+
+  }
+}

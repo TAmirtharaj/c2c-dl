@@ -1,0 +1,36 @@
+/** @format */
+.mcss-form-comp-button-disable {
+  opacity: 0.5;
+  cursor: default;
+  pointer-events: none;
+}
+
+.mcss-form-comp-button {
+  height: 37px;
+  margin-right: 20px;
+  margin-top: 1em;
+  min-width: 100px;
+  margin-bottom: 5px;
+}
+
+.drag-drop-holder {
+  height: 360px;
+  width: 62vw;
+}
+@media only screen and (min-device-width: 300px) and (max-device-width: 1000px) and (orientation: landscape) {
+  .drag-drop-holder {
+    height: 225px;
+    /* height: 210px; */
+    width: 62vw;
+  }
+  .form-button {
+    /* margin-top: 20px; */
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 1000px) and (-webkit-device-pixel-ratio: 3) {
+  .drag-drop-holder {
+    height: 320px;
+    width: 62vw;
+  }
+}

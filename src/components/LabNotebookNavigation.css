@@ -1,0 +1,40 @@
+.lightbox-left-navigation {
+  position: absolute;
+  top: 40%;
+  left: -22px;
+  cursor: pointer;
+}
+
+.lightbox-right-navigation {
+  position: absolute;
+  top: 40%;
+  right: -22px;
+  cursor: pointer;
+}
+
+.lightbox-left-navigation.disabled,
+.lightbox-right-navigation.disabled {
+  display: none;
+  cursor: default;
+  pointer-events: none;
+}
+
+/* Landscape iPad Normal*/
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-max-device-pixel-ratio: 2) and (orientation: landscape) {
+  .lightbox-right-navigation {
+    right: -32px;
+  }
+  .lightbox-left-navigation {
+    left: -32px;
+  }
+}
+
+/* Portrait iPad Normal*/
+@media only screen and (min-width: 768px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-max-device-pixel-ratio: 2) and (orientation: portrait) {
+  .lightbox-right-navigation {
+    right: -32px;
+  }
+  .lightbox-left-navigation {
+    left: -32px;
+  }
+}

@@ -1,0 +1,2255 @@
+{
+  "locked": true,
+  "courseTitle": "Introduction to Histology: Reproductive System Virtual Lab",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/bodyBookmark.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Anatomy_Physiology_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Anatomy & Physiology ",
+                "images": {
+                  "launchPage": "core/Anatomy_Physiology_launchPageBg.svg",
+                  "logo": "core/Anatomy_Physiology_subject_icon.svg"
+                },
+                "titleName1": "Introduction to Histology: ",
+                "titleName2": " Reproductive System Virtual Lab",
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "waterMark": false,
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, you will learn about the processes, structures, and tissues of the male and female reproductive systems. You will also examine testis, ovarian, and uterine tissues through a virtual microscope, all while learning about the basics of microscopy.  "
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "title": "Time Requirements",
+                  "image": "courses/580576_VIRT/580576_VIRT_TimeRequirement.svg",
+                  "width": "100%",
+                  "imgDivWidth": "312px",
+                  "scrollImg": true,
+                  "maxWidth": "330px",
+                  "altText": "Activity 1: Microscope Tutorial – 15 minutes \n Activity 2: Examining Reproductive System Tissues - 60 minutes",
+                  "desc": "Activity 1: Microscope Tutorial – 15 minutes \n Activity 2: Examining Reproductive System Tissues - 60 minutes"
+                },
+                {
+                  "type": "List",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Paper ",
+                    "Colored pencils ",
+                    "Digital camera or mobile device capable of taking photos "
+                
+                  ]
+                }
+             
+              ]
+            }
+          
+          ]
+        },
+
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "title": "Outcomes",
+                  "type": "List",
+                  "text": [
+                    "  Identify and describe the reproductive and supporting tissues of the male and female reproductive systems.",
+                    "Observe and discuss the stages of follicular development. ",
+                    "Recognize and describe the tissue types of the uterine wall.",
+                    " Identify cells involved in <button class='glossary-text'>sperm</button> production."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+       
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Ancient Greek philosophers thought the female reproductive system was an internal version of the male reproductive system: the vagina was an internal penis, the womb was an internal <button class='glossary-text'>scrotum</button>, and the <button class='glossary-text'>ovaries</button> were internal testicles. This one-sex model was considered the correct view of human anatomy until the late 17th century<sup class='bodySupscript'>1</sup>. Then the two-sex model was proposed, which acknowledged physical differences between male and female reproductive organs, and differences between masculinity and femininity. Contemporary research on biological maleness versus femaleness complicates, and may contradict, the two-sex model."
+                },
+               
+                {
+                  "type": "Plain",
+                  "text": "The difficulty in distinguishing between two sexes greatly impacts athletics, especially for females. The prevailing methods for determining if an athlete is female identify sex chromosomes and testosterone levels. However, some females have an intersex condition and feature a Y chromosome; and both males and females produce testosterone, and there is no standard for production levels in each sex. In the Olympics, if a female athlete is found to have an intersex condition, they must lower their testosterone levels before competing. Even though the World Medical Association has advised doctors not to administer testosterone-lowering interventions, female athletes have been denied eligibility in international games based on hormone levels. Currently, males in international sports are not required to undergo chromosomal testing or hormone monitoring to compete<sup class='bodySupscript'>2</sup>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'><sup>1 </sup>Laqueur, T. (1992). Making sex: body and gender from the Greeks to Freud. Cambridge, Mass.: Harvard University Press, 1992. <span target='blank' style=' word-break: break-all'>http://hdl.handle.net/2027/heb.31961.0001.001</span>.</span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'><sup>2 </sup> Savulescu, J. (May 9, 2019). Ten ethical flaws in the Caster Semenya decision on intersex in sport. The Conversation. <span target='blank' style=' word-break: break-all'>https://theconversation.com/ten-ethical-flaws-in-the-caster-semenya-decision-on-intersex-in-sport-116448</span>.</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580576_VIRT/580576_VIRT_whyShouldICare.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "desc": "Eight female athletes in competition attire waiting at the starting line of an outdoor track.",
+                  "altText": "Eight female athletes in competition attire waiting at the starting line of an outdoor track."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In order to reproduce, the body produces <button class='glossary-text'>gametes</button>, cells that contain only half of the genetic materials. Both males and females have dedicated organs for this process, the <button class='glossary-text'>gonads</button>. In the female, <button class='glossary-text'>ova</button> (or eggs) are produced in the <button class='glossary-text'>ovaries</button>, and in the male, <button class='glossary-text'>sperm</button> is produced in the <button class='glossary-text'>testes</button>. The gonads are also responsible for the production of sex hormones, which play a dual role in the body. They prepare the body for reproduction, and during puberty, they stimulate the development of the <button class='glossary-text'>secondary sex characteristics</button>. This investigation focuses mainly on the areas where the gametes are being formed and where the fetus develops."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Male gametes are formed in the testes (see Figures 1 and 2). The testes are located in a pouch, the <button class='glossary-text'>scrotum</button>, which is located outside the body cavity. On the outside, the testis is covered by a two-layered tunic, the <button class='glossary-text'>tunica vaginalis</button>. This membrane has a similar structure as the <button class='glossary-text'>peritoneum</button>, which covers the abdominal cavity. This tunic is made up of two layers: the outer <button class='glossary-text'>parietal layer</button> and the inner <button class='glossary-text'>visceral layer</button>. Deep in the tunica vaginalis is a layer of dense connective tissue, the <button class='glossary-text'>tunica albuginea</button>, which forms fibrous partitions, the <button class='glossary-text'>septa</button>. The tunica albuginea contains blood vessels that provide the underlying tissue with nutrients and oxygen. It also contains lymph vessels that assist in draining excess fluid from the testis. This layer also contains the <button class='glossary-text'>efferent ductules</button>, which transport the mature sperm out of the testis."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses/580576_VIRT/580576_VIRT_fig_001.svg",
+                  "imgDivWidth": "477px",
+                  "maxWidth": "600px",
+                  "scrollImg": true,
+                  "desc": "Figure 1: Labeled cross section of the testis",
+                  "altText": "Figure 1: Labeled cross section of the testis",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                  
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580576_VIRT/580576_VIRT_fig_002.svg",
+                  "imgDivWidth": "404px",
+                  "scrollImg": true,
+                  "maxWidth": "495px",
+                  "desc": "Figure 2: A testis showing septa, blood vessels, interstitial cells, spermatozoa, and seminiferous tubules",
+                  "altText": "Figure 2: A testis showing septa, blood vessels, interstitial cells, spermatozoa, and seminiferous tubules",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+             "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+               
+                {
+                  "type": "Plain",
+                  "text": "Each septum divides the testis into <button class='glossary-text'>lobules</button>. These lobules contain the <button class='glossary-text'>seminiferous tubules</button>. These tubules are lined with epithelial cells, which produce the <button class='glossary-text'>spermatozoa</button>, or sperm cells. Each of these tubules has a distinct <span className='bodyFontItalic'>U</span> shape and is connected to a <button class='glossary-text'>straight tubule</button> that then connects to the <button class='glossary-text'>rete testis</button>. This connects to the <button class='glossary-text'>efferent ductules</button> and then to the epididymis. These tubules are surrounded by blood vessels and <button class='glossary-text'>interstitial cells</button>, which produce the male sex hormone, testosterone."
+                }
+           
+              ]
+            },
+          
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "The tunica albuginea contains blood and lymph vessels. Which of the following best describes the function of these vessels?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "They provide nutrients and oxygen, as well as assist in draining excess fluid.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "They produce the male sex hormone testosterone.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "They facilitate the maturation of the female ova.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "They produce the cuboidal cells surrounding an oocyte.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "They enlarge the intercellular spaces into one large space.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The tunica albuginea contains blood vessels that provide the underlying tissue with nutrients and oxygen. The tunica albuginea contains lymph vessels that assist in draining excess fluid from the testis."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "The tunica albuginea is made up of which of the following layer(s)?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "outer parietal layer and the inner visceral layer",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "outer sperm layer and the inner visceral layer",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "outer parietal layer and the sperm visceral layer",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "outer parietal layer and the intercellular spaces",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "outer medulla and inner cortex",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "This tunic is made up of two layers: the outer parietal layer and the inner visceral layer."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Male gametes are formed in the testes. The testes are located in a pouch, the scrotum, which is located outside the body cavity. On the outside, the testis is covered by a two-layered tunic, the tunica vaginalis. This membrane has a similar structure to that of the peritoneum, which covers the abdominal cavity. Deep in the tunica vaginalis is a layer of dense connective tissue, the tunica albuginea, which forms fibrous partitions, the septa. The tunica albuginea contains blood vessels that provide the underlying tissue with nutrients and oxygen. It also contains lymph vessels that assist in draining excess fluid from the testis. This layer also contains the efferent ductules, which transport the mature sperm out of the testis.",
+                  "img": [
+                    {
+                      "src": "courses/580576_VIRT/580576_VIRT_fig_001.svg",
+                      "alt": "Figure 1: Labeled cross section of the testis",
+                      "scrollImg": true,"maxWidth": "568px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "Male gametes are formed in the testes. The testes are located in a pouch, the scrotum, which is located outside the body cavity. On the outside, the testis is covered by a two-layered tunic, the tunica vaginalis. This membrane has a similar structure to that of the peritoneum, which covers the abdominal cavity. Deep in the tunica vaginalis is a layer of dense connective tissue, the tunica albuginea, which forms fibrous partitions, the septa. The tunica albuginea contains blood vessels that provide the underlying tissue with nutrients and oxygen. It also contains lymph vessels that assist in draining excess fluid from the testis. This layer also contains the efferent ductules, which transport the mature sperm out of the testis.",
+                  "img": [
+                    {
+                      "src": "courses/580576_VIRT/580576_VIRT_fig_001.svg",
+                      "alt": "Figure 1: Labeled cross section of the testis",
+                      "scrollImg": true,"maxWidth": "568px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "infoPopUp": "resource",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+               
+            
+                {
+                  "type": "Plain",
+                  "text": "Female <button class='glossary-text'>gametes</button> are produced in the <button class='glossary-text'>ovaries</button>, which are located in the abdominal pelvic area (see Figure 3) and are suspended by <button class='glossary-text'>ovarian</button> and <button class='glossary-text'>broad ligaments</button> and the <button class='glossary-text'>suspensory ligaments</button>, which also contain the blood vessels supplying the ovary."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "desc": "Figure 3: The female reproductive system labeled, the uterus and ovaries scheme, and the phases of the menstrual cycle",
+                  "image": "courses/580576_VIRT/580576_VIRT_fig_003.svg",
+                  "width": "100%",
+                  "imgDivWidth": "499px",
+                  "scrollImg": true,
+                  "maxWidth": "580px",
+                  "altText": "Figure 3: The female reproductive system labeled, the uterus and ovaries scheme, and the phases of the menstrual cycle",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+           
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "infoPopUp": "resource",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The outer layer of <button class='glossary-text'>peritoneum</button> is made up of cuboidal epithelium, which sits on top of the <button class='glossary-text'>tunica albuginea</button>. The <button class='glossary-text'>ovaries</button> have an outer layer, the <button class='glossary-text'>cortex</button>, and an inner layer, the <button class='glossary-text'>medulla</button>, which is made up of loose connective tissue. The medulla contains blood vessels and nerves. The production and maturation of the female <button class='glossary-text'>ova</button>, or eggs, takes place in the cortex. This takes place in structures called <button class='glossary-text'>ovarian follicles</button>. The process of egg maturation starts with a <button class='glossary-text'>primary oocyte</button> (see Figure 4). This haploid cell has a large nucleus and starts off with a size of approximate 25 µm. During the maturation process, it grows to about 100 µm. At this point, the follicular cells divide and produce cuboidal cells surrounding the oocyte and are called the <button class='glossary-text'>primary follicle</button>. The cells in the follicular tissue become larger and form layers surrounding the developing oocyte. These cells surrounding the oocyte become rounded and grainy looking in appearance; they are called <button class='glossary-text'>granulosa cells</button>. Further divisions now enlarge the intercellular spaces into one large space, the <button class='glossary-text'>antrum</button>, which is filled with <button class='glossary-text'>follicular fluid</button>. At this point, the follicle becomes a <button class='glossary-text'>secondary follicle</button>. One of these secondary follicles is selected and goes through a maturation process during the first 14 days of the ovarian cycle and becomes a <button class='glossary-text'>tertiary follicle</button>, also known as a <button class='glossary-text'>Graafian follicle</button>, or <button class='glossary-text'>vesicular follicle</button>. At this point, the oocyte moves into the antrum. The outer layer of the tertiary follicle fuses with the outer layer of the ovary and opens up, releasing the oocyte. The empty tertiary follicle collapses, creating the <button class='glossary-text'>corpus luteum</button>, which slowly degenerates and is absorbed into the surrounding tissue."
+                },
+            
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "desc": "Figure 4: Ovaries with primary oocyte, granulosa cells, follicle, antrum, and oocyte nuclei labeled",
+                  "image": "courses/580576_VIRT/580576_VIRT_fig_004.svg",
+                  "width": "100%",
+                  "imgDivWidth": "437px",
+                  "scrollImg": true,
+                  "maxWidth": "505px",
+                  "altText": "Figure 4: Ovaries with primary oocyte, granulosa cells, follicle, antrum, and oocyte nuclei labeled",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                } 
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following structures distinguishes a secondary follicle from a primary follicle?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "the antrum",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "the cortex",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "the medulla",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "corpus luteum",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "primary oocyte",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "A primary follicle does not have an antrum while a secondary follicle does."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following can be found in the antrum of a secondary follicle?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "follicular fluid",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "corpus luteum",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "blood",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "lymph fluid",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "granulosa cells",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The antrum is filled with follicular fluid."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "The process of egg maturation starts with a primary oocyte.  At this point, the follicular cells divide and produce cuboidal cells surrounding the oocyte and are called the primary follicle. The cells in the follicular tissue become larger and form layers surrounding the developing oocyte. These cells surrounding the oocyte become rounded and grainy looking in appearance; they are called granulosa cells. Further divisions now enlarge the intercellular spaces into one large space, the antrum, which is filled with follicular fluid. At this point, the follicle becomes a secondary follicle. One of these secondary follicles is selected and goes through a maturation process during the first 14 days of the ovarian cycle and becomes a tertiary follicle, also known as a Graafian follicle, or vesicular follicle.",
+                  "img": [
+                    {
+                      "src": "courses/580576_VIRT/580576_VIRT_fig_004.svg",
+                      "alt": "Figure 4: Ovaries with primary oocyte, granulosa cells, follicle, antrum, and oocyte nuclei labeled",
+                      "scrollImg": true,
+                      "maxWidth": "505px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "The process of egg maturation starts with a primary oocyte.  At this point, the follicular cells divide and produce cuboidal cells surrounding the oocyte and are called the primary follicle. The cells in the follicular tissue become larger and form layers surrounding the developing oocyte. These cells surrounding the oocyte become rounded and grainy looking in appearance; they are called granulosa cells. Further divisions now enlarge the intercellular spaces into one large space, the antrum, which is filled with follicular fluid. At this point, the follicle becomes a secondary follicle. One of these secondary follicles is selected and goes through a maturation process during the first 14 days of the ovarian cycle and becomes a tertiary follicle, also known as a Graafian follicle, or vesicular follicle.",
+                  "img": [
+                    {
+                      "src": "courses/580576_VIRT/580576_VIRT_fig_004.svg",
+                      "alt": "Figure 4: Ovaries with primary oocyte, granulosa cells, follicle, antrum, and oocyte nuclei labeled",
+                      "scrollImg": true,
+                      "maxWidth": "505px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "infoPopUp": "resource",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The <button class='glossary-text'>uterus</button> (see <button class='resource-text'>Figure 3</button>) is the area where the fertilized egg attaches itself and develops into a fetus. The uterus is made up of three areas: the <button class='glossary-text'>fundus</button>, located superior to the entry of the fallopian tubes; the <button class='glossary-text'>cervix</button>, which separates the uterus from the vagina; and the <span style='whiteSpace: nowrap'><button class='glossary-text'>uterine body</button>,</span> which makes up the main portion of the uterus."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The uterus is made up of three distinct layers:"
+                },
+                {
+                  "type": "List",
+                  "text": [
+                    "The outer perimetrium consists mainly of fibrous tissue.",
+                    "The myometrium (see Figure 5) sits under the perimetrium and consists of smooth muscle cells in three layers—an outer layer of longitudinal muscles, followed by a thick layer of circular muscles, and an inner layer of longitudinal muscles.",
+                   
+                    "The <button class='glossary-text'>endometrium</button> is made up of simple columnar epithelium tissue on top of a layer of <button class='glossary-text'>lamina propria</button>. <button class='glossary-text'>Uterine glands</button> are between the columnar epithelium. There are also two layers of the endometrium—<button class='glossary-text'>stratum functionalis</button>, which sheds off during each menstruation period, and <button class='glossary-text'>stratum basalis</button>, which creates a new functionalis after menstruation ends."
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "desc": "Figure 5: Uterine glands, endometrium/lamina propria, columnar epithelium, and myometrium in the uterus",
+                  "image": "courses/580576_VIRT/580576_VIRT_fig_005.svg",
+                  "width": "100%",
+                  "imgDivWidth": "499px",
+                  "scrollImg": true,
+                  "maxWidth": "560px",
+                  "altText": "Figure 5: Uterine glands, endometrium/lamina propria, columnar epithelium, and myometrium in the uterus",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 3",
+              "pageTitle": "Knowledge Check Question 3",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 2,
+              "pageData": [
+                {
+                  "type": "KC",
+              
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following is the layer of the uterus shed during each menstruation period?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "stratum functionalis",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "myometrium",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "fundus",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "perimetrium",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "stratum basalis",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The stratum functionalis, a layer of the uterus’ endometrium, is shed during each menstruation period."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following is the layer of the uterus that creates a new stratum functionalis after menstruation ends?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "stratum basalis",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "cervix",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "myometrium",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "fundus",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "perimetrium",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The stratum basalis creates a new stratum functionalis after menstruation ends."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "The uterus is the area where the fertilized egg attaches itself and develops into a fetus. The uterus is made up of three areas: the fundus, located superior to the entry of the fallopian tubes; the cervix, which separates the uterus from the vagina; and the uterine body, which makes up the main portion of the uterus. The uterus is made up of three distinct layers. The outer perimetrium consists mainly of fibrous tissue. The myometrium sits under the perimetrium and consists of smooth muscle cells in three layers—an outer layer of longitudinal muscles, followed by a thick layer of circular muscles, and an inner layer of longitudinal muscles. The endometrium is made up of simple columnar epithelium tissue on top of a layer of lamina propria. Uterine glands are between the columnar epithelium. There are two layers of the endometrium, stratum functionalis, and stratum basalis, which creates a new functionalis after menstruation ends."
+                
+                 
+                },
+                {
+                  "title": "Hint",
+                  "body": "The uterus is the area where the fertilized egg attaches itself and develops into a fetus. The uterus is made up of three areas: the fundus, located superior to the entry of the fallopian tubes; the cervix, which separates the uterus from the vagina; and the uterine body, which makes up the main portion of the uterus. The uterus is made up of three distinct layers. The outer perimetrium consists mainly of fibrous tissue. The myometrium sits under the perimetrium and consists of smooth muscle cells in three layers—an outer layer of longitudinal muscles, followed by a thick layer of circular muscles, and an inner layer of longitudinal muscles. The endometrium is made up of simple columnar epithelium tissue on top of a layer of lamina propria. Uterine glands are between the columnar epithelium. There are two layers of the endometrium, stratum functionalis, and stratum basalis, which creates a new functionalis after menstruation ends."
+             
+                 
+                }
+              ]
+            }
+           
+          ]
+        },
+       {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "pageData": [
+                {
+                  "type": "List",
+                  "title": "<span className=bodyBoldSubHeading>Needed but not supplied:</span>",
+                  "text": [
+                    "Paper",
+                    "Colored pencils",
+                    "Digital camera or mobile device capable of taking photos"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "isCheckPoint": true,
+              "pageData": [
+            
+                {
+                  "type": "Plain",
+                  "text": "There are no safety concerns for this investigation."
+                }
+              ]
+            }
+          
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the structures of a testis from largest to smallest? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "lobule, seminiferous tubule, spermatozoa ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "rete testis, lobule, interstitial cells ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "seminiferous tubule, septum, efferent ductules",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "spermatozoa, rete testis, straight tubule ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "rete testis, straight tubule, spermatozoa ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the role of interstitial cells in the testes? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "testosterone production ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "testosterone recycling ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "fluid secretion ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "fluid draining ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "nutrient and oxygen delivery ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following describes the function of the cortex and medulla of the ovaries, respectively? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "egg maturation; circulatory and nervous system support ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "egg production; egg maturation ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "structural support; egg maturation ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "circulatory system support; egg production ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "egg maturation; egg expulsion ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "As the follicle surrounding an oocyte matures, which of the following structures is formed and fills with follicular fluid? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "antrum",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "septum",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "granulosa cell ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "corpus luteum ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "cuboidal cell ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "At which point in the oocyte maturation process does the oocyte move into the antrum? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "when the secondary follicle matures into a tertiary follicle ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "when the primary follicle matures into a secondary follicle ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "when the cells surrounding the oocyte become rounded and grainy ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "when tertiary follicle collapses ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "four days after the formation of the secondary oocyte ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following structures gives rise to the corpus luteum? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "an empty tertiary follicle ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "a maturing oocyte ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "a released oocyte ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "an antrum ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "the ovarian medulla ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Uterine glands are located in which of the following tissues? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "endometrium ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "myometrium ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "perimetrium",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "cortex",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "medulla ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Anatomy_Physiology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will complete a tutorial of the virtual microscope. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Activity 1",
+              "template": "VirtualLab",
+              "activityPath": "activities/580576_VIRT/activity1/story.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Anatomy_Physiology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will view and sketch tissues from the reproductive system under magnification. The total magnification used for each drawing and the characteristics of each tissue will be recorded in the Lab Notebook in <span class=bodyFontBold>Data Table 1</span>.  "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "Activity 2",
+              "template": "VirtualLab",
+              "activityPath": "activities/580576_VIRT/activity2/story.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "waterMark": true,
+              "pageTitle":"Thank you",
+              "showPageTitle":true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Anatomy_Physiology_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "pageSetting": "portrait",
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2022 Carolina Biological Supply Company"
+    },
+    "pages": [
+   
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable1",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              { 
+                "type": "Plain", 
+                "title": "Activity 2 "
+              },
+              { 
+                "type": "Plain", 
+                "title": "Data Table 1A "
+              },
+
+              { 
+                "type":"Box",
+                "text":"Total magnification = (eyepiece lens power) x (objective lens power) "
+              },
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+             
+                "header": [
+                  {
+                   "text": "Tissue Type:<br/>Testis",
+                   "colWidth":"20%"
+                  },
+                  {
+                    "text":"Magnification Used ",
+                    "maxLength": 30,
+                    "colWidth":"20%"
+                  },
+                  {
+                    "text":"Tissue Comparison: <br/> What is specific about these structures compared to others in the same slide? ",
+                    "maxLength": 200,
+                   "colWidth":"60%"
+                  }
+                 
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "Septa"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                 
+                  ],
+                 
+                 
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "Interstitial cells "
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                 
+                  ],
+          
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "Spermatozoa "
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  
+                  ], 
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "Seminiferous tubule "
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "Blood vessels "
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  
+                  ]
+             
+            
+                ]
+              }
+             
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable2",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+
+              { 
+                "type": "Plain", 
+                "title": "Data Table 1B "
+              },
+              { 
+                "type": "Box", 
+                "text": "Total magnification = (eyepiece lens power) x (objective lens power)"
+              },
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+              
+                "header": [
+                  {
+                   "text": "Tissue Type: <br/>Mammal Ovary",
+                   "colWidth":"20%"
+                  },
+                  {
+                    "text":"Magnification Used ",
+                    "maxLength": 30,
+                   "colWidth":"20%"
+                  },
+                  {
+                    "text":"Tissue Comparison: <br/>What is specific about these structures compared to others in the same slide?",
+                    "maxLength": 200,
+                   "colWidth":"60%"
+                  }
+                 
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "Oocyte nuclei"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                 
+                  ],
+                 
+                 
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "Follicle"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                 
+                  ],
+          
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "Antrum"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  
+                  ], 
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "Primary oocyte"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "Granulosa cells"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "Cortex"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "Medulla"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  
+                  ]
+             
+            
+                ]
+              }
+             
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable3",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              { 
+                "type": "Plain", 
+                "title": "Data Table 1C"
+              },
+              { 
+                "type": "Box", 
+                "text": "Total magnification = (eyepiece lens power) x (objective lens power)"
+              },
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+             
+                "header": [
+                  {
+                   "text": "Tissue Type:<br/>Mammal Ovary Follicles",
+                   "colWidth":"20%"
+                  },
+                  {
+                    "text":"Magnification Used",
+                    "maxLength": 30,
+                   "colWidth":"20%"
+                  },
+                  {
+                    "text":"Tissue Comparison: <br/>What is specific about these structures compared to others in the same slide?",
+                    "maxLength": 200,
+                   "colWidth":"60%"
+                  }
+                 
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "Primary follicle"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                 
+                  ],
+                 
+                 
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "Secondary follicle"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                 
+                  ],
+          
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "Tertiary follicle"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  
+                  ], 
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "Corpus luteum"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  
+                  ]
+                
+            
+            
+                ]
+              }
+             
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable4",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              { 
+                "type": "Plain", 
+                "title": "Data Table 1D "
+              },
+              { 
+                "type": "Box", 
+                "text": "Total magnification = (eyepiece lens power) x (objective lens power) "
+              },
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+               
+                "header": [
+                  {
+                   "text": "Tissue Type:<br/>Human Uterus",
+                   "colWidth":"20%"
+                  },
+                  {
+                    "text":"Magnification Used",
+                    "maxLength": 30,
+                   "colWidth":"20%"
+                  },
+                  {
+                    "text":"Tissue Comparison: <br/>What is specific about these structures compared to others in the same organ? ",
+                    "maxLength": 200,
+                   "colWidth":"60%"
+                  }
+                 
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "Myometrium"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                 
+                  ],
+                 
+                 
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "Endometrium"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                 
+                  ],
+          
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "Uterine gland"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  
+                  ], 
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "Columnar  epithelium"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  
+                  ]
+                
+            
+            
+                ]
+              }
+             
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2 Photos ",
+                "text": "Insert the photos of your drawings of the reproductive system slides in the appropriate sections below."
+              },
+              {
+                "type": "Plain",
+                "subTitle":"Testis",
+                "text": "The following structures should be labeled in the photo:<ul style='column-count: 1'><li>Septa</li><li>Interstitial cells </li><li>Spermatozoa</li><li>Seminiferous tubule </li><li>Blood vessels </li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr":0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "subTitle":"Ovary – layers",
+                "text": "The following structures should be labeled in the photo: <ul style='column-count: 1'><li>Cortex</li><li>Medulla</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr":1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              
+              {
+                "type": "Plain",
+                "subTitle":"Ovary – ovarian follicles",
+                "text": "The following structures should be labeled in the photo:<ul style='column-count: 1'><li>Oocyte nuclei</li><li>Follicle</li><li>Antrum</li><li>Primary oocyte</li><li>Granulosa cells</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr":2,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "subTitle":"Ovarian follicles",
+                "text": "The following structures should be labeled in the photo: <ul style='column-count: 1'><li>Primary follicle</li><li>Secondary follicle</li><li>Tertiary follicle</li><li>Corpus luteum</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr":3,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "subTitle":"Uterus ",
+                "text": "The following structures should be labeled in the photo: <ul style='column-count: 1'><li>Myometrium</li><li>Endometrium</li><li>Uterine gland</li><li>Columnar epithelium</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 4,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+
+    "pageData": [
+     
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580576_VIRT/580576_VIRT_fig_001.svg",
+        "content": "Figure 1. The parts of the testis ",
+        "scrollImg": true,
+        "maxWidth": "600px",
+        "altText": "Figure 1: Labeled cross section of the testis"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580576_VIRT/580576_VIRT_fig_002.svg",
+        "content": " Figure 2. Testis micrograph",
+        "scrollImg": true,
+        "maxWidth": "495px",
+        "altText": "Figure 2: A testis showing septa, blood vessels, interstitial cells, spermatozoa, and seminiferous tubules "
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580576_VIRT/580576_VIRT_fig_003.svg",
+        "content": "Figure 3. The parts of the uterus and ovary",
+        "scrollImg": true,
+        "maxWidth": "580px",
+        "altText": "Figure 3: The female reproductive system labeled, the uterus and ovaries scheme, and the phases of the menstrual cycle"
+      },
+     
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580576_VIRT/580576_VIRT_fig_004.svg",
+        "content": "Figure 4. Ovary micrograph",
+        "scrollImg": true,
+        "maxWidth": "505px",
+        "altText": "Figure 4: Ovaries with primary oocyte, granulosa cells, follicle, antrum, and oocyte nuclei labeled"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580576_VIRT/580576_VIRT_fig_005.svg",
+        "content": " Figure 5. Uterus micrograph ",
+        "scrollImg": true,
+        "maxWidth": "560px",
+        "altText": "Figure 5: Uterine glands, endometrium/lamina propria, columnar epithelium, and myometrium in the uterus"
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Antrum",
+        "content": "The large space filled with follicular fluid that characterizes a secondary follicle"
+      },
+      {
+        "title": "Broad ligaments",
+        "content": "One of three types of ligaments by which ovaries are suspended in the abdominal pelvic area; they contain blood vessels supplying the ovary"
+      },
+      {
+        "title": "Cervix",
+        "content": "One of three major areas of the uterus; it separates the uterus from the vagina"
+      },
+      {
+        "title": "Corpus luteum",
+        "content": "The structure that forms from the collapsed tertiary follicle following oocyte release, which slowly degenerates and is absorbed into the surrounding tissue"
+      },
+      {
+        "title": "Cortex",
+        "content": "The outer layer of an organ"
+      },
+      {
+        "title": "Efferent ductules",
+        "content": "Small ducts that transport the mature sperm out of the testis"
+      },
+      {
+        "title": "Endometrium",
+        "content": "The innermost of three major layers of the uterus made up of simple columnar epithelium tissue on top of a layer of lamina propria"
+      },
+      {
+        "title": "Follicular fluid",
+        "content": "The fluid that surrounds the developing oocyte"
+      },
+      {
+        "title": "Fundus",
+        "content": "One of the three major areas of the uterus; it is located superior to the entry of the fallopian tubes"
+      },
+      {
+        "title": "Gametes",
+        "content": "Cells that contain only half the genetic material of the organism"
+      },
+      {
+        "title": "Gonads",
+        "content": "The gamete-producing organs"
+      },
+      {
+        "title": "Graafian follicle",
+        "content": "The ovarian follicle that forms from the secondary follicle during the first 14 days of the ovarian cycle"
+      },
+      {
+        "title": "Granulosa cells",
+        "content": "The rounded, grainy-looking cells surrounding an oocyte"
+      },
+      {
+        "title": "Interstitial cells",
+        "content": "The cells in the testes that produce the male sex hormone testosterone"
+      },
+      {
+        "title": "Lamina propria",
+        "content": "A layer of loose connective tissue  "
+      },
+      {
+        "title": "Lobules",
+        "content": "Areas of the testis that contain the seminiferous tubules"
+      },
+      {
+        "title": "Medulla",
+        "content": "The inner layer of an organ"
+      },
+      {
+        "title": "Ova",
+        "content": "The female gametes released from either of the female ovaries; they are capable of developing into a new organism when fertilized by a sperm cell; also called eggs; singular, ovum"
+      },
+      {
+        "title": "Ovarian follicles",
+        "content": "The site of production and maturation of the female ova (eggs); located in the ovarian cortex"
+      },
+      {
+        "title": "Ovarian ligaments",
+        "content": "One of three types of ligaments by which ovaries are suspended in the abdominal pelvic area; they contain blood vessels supplying the ovary"
+      },
+      {
+        "title": "Ovaries",
+        "content": "The female gonads and the site of female ova (egg) production"
+      },
+      {
+        "title": "Parietal layer",
+        "content": "The outer layer of the tunica vaginalis"
+      },
+      {
+        "title": "Peritoneum",
+        "content": "A membrane that lines the inside of the abdomen and pelvis"
+      },
+      {
+        "title": "Primary follicle",
+        "content": "The cuboidal cells that are produced by follicular cell division and surround the primary oocyte"
+      },
+      {
+        "title": "Primary oocyte",
+        "content": "A haploid cell with a large nucleus that starts the egg maturation process"
+      },
+      {
+        "title": "Rete testis",
+        "content": "The portion of the testis that connects the straight tubules to the efferent ductules"
+      },
+      {
+        "title": "Scrotum",
+        "content": "The pouch outside the body cavity that contains the male testes"
+      },
+      {
+        "title": "Secondary follicle",
+        "content": "The layers of granulosa cells that surround oocytes in mid-growth stages"
+      },
+      {
+        "title": "Secondary sex characteristics",
+        "content": "The various characteristics specific to females or males but not directly concerned with reproduction, such as breast development in females and chest hair in males"
+      },
+      {
+        "title": "Seminiferous tubules",
+        "content": "The ducts in the testis lined with epithelial cells and that produce the spermatozoa (sperm cells)"
+      },
+      {
+        "title": "Septa",
+        "content": "The fibrous partitions of the tunica albuginea in the testes"
+      },
+      {
+        "title": "Sperm (spermatozoa)",
+        "content": "The male gametes produced in male testes and that are capable of fertilizing female ova (eggs)"
+      },
+      {
+        "title": "Straight tubule",
+        "content": "The portion of the testis that connects each seminiferous tubule to the rete testis"
+      },
+      {
+        "title": "Stratum basalis",
+        "content": "The layer of the endometrium that creates a new stratum functionalis after menstruation ends"
+      },
+      {
+        "title": "Stratum functionalis",
+        "content": "The layer of the endometrium that is shed during each menstruation period"
+      },
+      {
+        "title": "Suspensory ligaments",
+        "content": "The of three types of ligaments by which ovaries are suspended in the abdominal pelvic area; they contain blood vessels supplying the ovary"
+      },
+      {
+        "title": "Tertiary follicle",
+        "content": "The ovarian follicle that forms from the secondary follicle during the first 14 days of the ovarian cycle"
+      },
+      {
+        "title": "Tunica albuginea",
+        "content": "The layer of dense connective tissue deep to the tunica vaginalis; it contains blood vessels to supply nutrients and oxygen to underyling testicular tissue, and lymph vessels to drain excess fluid from the testis"
+      },
+      {
+        "title": "Tunica vaginalis",
+        "content": "A two-layered tunic that covers each testis and has a similar structure to the peritoneum"
+      },
+      {
+        "title": "Uterine body",
+        "content": "The main portion of the uterus"
+      },
+      {
+        "title": "Uterine glands",
+        "content": "Glands in the endometrium that secrete a glycogen-rich mucous fluid during the luteal phase of the menstrual cycle"
+      },
+      {
+        "title": "Uterus",
+        "content": "The organ to which a fertilized egg can attach and develop into a fetus"
+      },
+      {
+        "title": "Vesicular follicle",
+        "content": "The ovarian follicle that forms from the secondary follicle during the first 14 days of the ovarian cycle"
+      },
+      {
+        "title": "Visceral layer",
+        "content": "The inner layer of the tunica vaginalis"
+      }
+ 
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

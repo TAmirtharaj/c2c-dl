@@ -1,0 +1,3802 @@
+{
+  "locked": true,
+  "courseTitle": "Rock Cycle",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Geology_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/bodyBookmark.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/TakeSnapshot.svg",
+    "core/disposalAndCleanupIcon.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Geology_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Geology",
+                "titleName2": "Rock Cycle",
+                "images": {
+                  "logo": "core/Geology_Subject_Icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, students will learn to identify and classify <button class='glossary-text'>rocks</button> as igneous, sedimentary, or metamorphic based on the rocks’ composition and texture. Students will also learn how to interpret a rock’s physical characteristics to piece together how it might have been formed via the rock cycle."
+                },
+                {
+                  "type": "List",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Printed <a target='blank' href='images/courses_2023/Geology/580850/580850_Sediment_Gauge.pdf'>Sediment Gauge</a>",
+                    "Paper towels",
+                    "Collected rock or sediment sample"
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Geology/580850/580850_Geology_Time-Requirement.svg",
+                  "altText": "Preparation - 15 minutes \nActivity 1: Determining Sediment and Grain Size - 30 minutes \nActivity 2: Rock Type Identification - 60 minutes",
+                  "desc": "Preparation - 15 minutes \nActivity 1: Determining Sediment and Grain Size - 30 minutes \nActivity 2: Rock Type Identification - 60 minutes",
+                  "containerType": "rightContainer",
+                  "scrollImg": true,
+                  "imgDivWidth": "460px",
+                  "maxWidth": "510px"
+                }
+              ]
+            },
+            {
+              "waterMark": true,
+              "template": "OverView",
+              "title": "Overview (cont... )",
+              "pageTitle": "Overview (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Overview Video: Rock Cycle"
+                },
+                {
+                  "type": "Video",
+                  "desc": "Overview Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Geology/580850/580850_Geology_VideoIcone.svg",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6339782389112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Define what a <button class='glossary-text'>rock</button> is, and describe how to distinguish between a rock and a mineral.",
+                    "Explain the different processes that form rocks in the rock cycle and how rocks are recycled to make new ones.",
+                    "Identify the texture (grain size, shape, and orientation) and composition (mineral content) of a rock specimen to determine if it is igneous, sedimentary, or metamorphic.",
+                    "Devise and apply a hierarchical classification scheme that can be used to identify common rocks based on comparing observations to the rock dichotomous keys."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "desc": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "desc":"video link symbol, camera symbol, stopwatch symbol"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "desc":"warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "At Grand Canyon National Park in Arizona, the Colorado River has been slowly eroding a <button class='glossary-text'>rock</button> formation, leaving high canyon walls and a way of travel back through time to the ancient past of the area. This area is primarily composed of sedimentary rock, which are formed in horizontal layers called strata. Each layer was formed by the primary sediments available at the time of their formation. These layers reflect the atmospheric composition, chemical reactions, water availability, and biological activity of the time, which affect the color, thickness, and composition of the layers. Because new sediment is added on the top, the deeper the layer the older the rock. Even when the layers have been disturbed by <button class='glossary-text'>erosion</button>, seismic activity, or geological uplift, the color and chemical composition can still often be traced through various rock formations. As organisms die, their remains may be trapped by the sediment and fossilized, providing another clue to what Earth was like in that geological period.  The layers can even be radioactively dated to determine the precise age of the rocks. As the river continues to deepen the canyon, new layers are revealed, and scientists are able to deepen our understanding of our planet’s history."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Geology/580850/580850_Geology_whyShouldICare.svg",
+                  "desc": "Grand Canyon National Park showing the horizontal striped pattern of strata in the walls of the Grand Canyon.",
+                  "altText": "Grand Canyon National Park showing the horizontal striped pattern of strata in the walls of the Grand Canyon.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Rocks</button> help form the foundations of the homes we live in, the roads we walk on, and the mountains we climb. A <span class='bodyFontBold'>rock</span> is a naturally occurring, inorganic solid composed of one or more aggregated minerals. For example, orthoclase, quartz, biotite, and amphibole are all minerals; however, if they combine into a single solid, then they become the igneous rock granite. <span style='whiteSpace: nowrap'>Table 1</span> is a list of common rocks and the minerals that comprise them."
+                },
+                {
+                  "type": "DataTable",
+                  "tableHeight": "1.5",
+                  "sr": 10,
+                  "width": "70%",
+                  "allowClick": true,
+                  "title": "Table 1.",
+                  "tableWidth": "540px",
+                  "header": [
+                    {
+                      "text": "Rock (Type)",
+                      "colWidth": "40%"
+                    },
+                    {
+                      "text": "Mineral Constituents",
+                      "colWidth": "40%"
+                    }
+                  ],
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "text": "basalt (igneous)",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "olivine, plagioclase, feldspar, pyroxene",
+                        "align": "left"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "rhyolite (igneous)",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "orthoclase, quartz, biotite, amphibole",
+                        "align": "left"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "slate (metamorphic)",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "mica, quartz",
+                        "align": "left"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "schist (metamorphic)",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "mica, garnet, quartz",
+                        "align": "left"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "sandstone (sedimentary)",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "quartz",
+                        "align": "left"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "limestone (sedimentary)",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "calcite",
+                        "align": "left"
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "When identifying an unknown rock sample, you must characterize the texture and composition of the rock. Texture refers to the size, shape, and orientation of mineral grains that make up the rock. Grains can be macroscopic or microscopic in size; rounded, angular, or subangular (somewhat angular or slightly rounded) in shape; and randomly or preferentially oriented (arranged in the same direction). The composition refers to the minerals that constitute the rock. This investigation will focus on identifying the three different types of rocks—igneous, sedimentary, and metamorphic—and how the different textures and compositions can aid with the identification of a specific rock."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyFontBold'>Igneous Rocks</span> <span class='bodyParaLineBreak'>Igneous <button class='glossary-text'>rocks</button> are those that form from the cooling and solidification of melted (i.e., molten) rock material. The sub types of igneous rock include intrusive and extrusive. <button class='glossary-text'>Intrusive igneous rocks</button> form deep within the earth’s crust. Due to the insulating effect of the earth’s crust, they take a long time to cool and solidify and thus tend to have large to very large mineral grains. These grains also tend to be angular to subangular in shape and are often oriented in a random pattern. Common intrusive igneous rocks include diorite <span style='whiteSpace: nowrap'>(Figure 1),</span> red granite (Figure 2), and gabbro (Figure 3).</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Geology/580850/580850_Geology_fig_001.svg",
+                  "desc": "Figure 1: Diorite",
+                  "altText": "Figure 1: Diorite",
+                  "imgDivWidth": "358px",
+                  "maxWidth": "427px",
+                  "scrollImg": true,
+                  "width": "100%"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Geology/580850/580850_Geology_fig_002.svg",
+                  "desc": "Figure 2: Red granite ",
+                  "altText": "Figure 2: Red granite ",
+                  "imgDivWidth": "363px",
+                  "maxWidth": "427px",
+                  "scrollImg": true,
+                  "imgDivMargin": "10px",
+                  "width": "100%"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Geology/580850/580850_Geology_fig_003.svg",
+                  "desc": "Figure 3: Gabbro",
+                  "altText": "Figure 3: Gabbro",
+                  "imgDivWidth": "363px",
+                  "maxWidth": "438px",
+                  "scrollImg": true,
+                  "imgDivMargin": "10px",
+                  "width": "100%"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Extrusive igneous rocks</button> are formed at or near the surface of the earth from the cooling and solidification of lava (i.e., molten <button class='glossary-text'>rock</button> at the earth’s surface). Because these rocks cool quickly, they tend to have microscopic mineral grains, which make determination of shape and orientation extremely difficult. However, these latter characteristics are typically much the same as those in intrusive rocks but at a microscopic scale. Common extrusive igneous rocks include pumice (Figure 4), obsidian (Figure 5), and basalt (Figure 6)."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Geology/580850/580850_Geology_fig_004.svg",
+                  "desc": "Figure 4: Volcanic rock",
+                  "altText": "Figure 4: Volcanic rock",
+                  "imgDivWidth": "358px",
+                  "maxWidth": "427px",
+                  "scrollImg": true,
+                  "width": "100%"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Geology/580850/580850_Geology_fig_005.svg",
+                  "desc": "Figure 5: Obsidian ",
+                  "altText": "Figure 5: Obsidian ",
+                  "imgDivWidth": "363px",
+                  "maxWidth": "427px",
+                  "scrollImg": true,
+                  "imgDivMargin": "10px",
+                  "width": "100%"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Geology/580850/580850_Geology_fig_006.svg",
+                  "desc": "Figure 6: Basalt",
+                  "altText": "Figure 6: Basalt",
+                  "imgDivWidth": "363px",
+                  "maxWidth": "438px",
+                  "scrollImg": true,
+                  "imgDivMargin": "10px",
+                  "width": "100%"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What will this investigation focus on?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "identifying igneous, sedimentary, and metamorphic rocks",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "identifying mica, garnet, and quartz",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "identifying orthoclase, quartz, and biotite",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "comparing igneous rock weights",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "identifying random mineral patterns",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "This investigation will focus on identifying the three different types of <span style='whiteSpace: nowrap'>rocks—igneous</span>, sedimentary, and metamorphic—and how the different textures and compositions can aid with the identification of a specific rock."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "As you identify the three types of rock in this investigation, which of the following characteristics must be characterized?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "composition and texture",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "composition only",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "texture and density",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "density only",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "composition and density",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "When identifying an unknown rock sample, you must characterize the texture and composition of the rock."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "A rock is a naturally occurring, inorganic solid composed of one or more aggregated minerals. When identifying an unknown rock sample, you must characterize the texture and composition of the rock. Texture refers to the size, shape, and orientation of mineral grains that make up the rock. Grains can be macroscopic or microscopic in size; rounded, angular, or sub-angular (somewhat angular or slightly rounded) in shape; and randomly or preferentially oriented (arranged in the same direction). The composition refers to the minerals that constitute the rock. This investigation will focus on identifying the three different types of rocks—igneous, sedimentary, and metamorphic—and how the different textures and compositions can aid with the identification of a specific rock.",
+                  "dataTable": [
+                    {
+                      "type": "DataTable",
+                      "containerType": "fullContainer",
+                      "title": "Table 1.",
+                      "sr": 11,
+                      "tableWidth": "70%",
+                      "allowClick": true,
+                      "header": [
+                        {
+                          "text": "Rock (Type)",
+                          "colWidth": "40%"
+                        },
+                        {
+                          "text": "Mineral Constituents",
+                          "colWidth": "40%"
+                        }
+                      ],
+                      "tableData": [
+                        [
+                          {
+                            "type": "text",
+                            "text": "basalt (igneous)",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "olivine, plagioclase, feldspar, pyroxene",
+                            "align": "left"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "rhyolite (igneous)",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "orthoclase, quartz, biotite, amphibole",
+                            "align": "left"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "slate (metamorphic)",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "mica, quartz",
+                            "align": "left"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "schist (metamorphic)",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "mica, garnet, quartz",
+                            "align": "left"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "sandstone (sedimentary)",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "quartz",
+                            "align": "left"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "limestone (sedimentary)",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "calcite",
+                            "align": "left"
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "A rock is a naturally occurring, inorganic solid composed of one or more aggregated minerals. When identifying an unknown rock sample, you must characterize the texture and composition of the rock. Texture refers to the size, shape, and orientation of mineral grains that make up the rock. Grains can be macroscopic or microscopic in size; rounded, angular, or sub-angular (somewhat angular or slightly rounded) in shape; and randomly or preferentially oriented (arranged in the same direction). The composition refers to the minerals that constitute the rock. This investigation will focus on identifying the three different types of rocks—igneous, sedimentary, and metamorphic—and how the different textures and compositions can aid with the identification of a specific rock.",
+                  "dataTable": [
+                    {
+                      "type": "DataTable",
+                      "containerType": "fullContainer",
+                      "title": "Table 1.",
+                      "sr": 11,
+                      "tableWidth": "70%",
+                      "allowClick": true,
+                      "header": [
+                        {
+                          "text": "Rock (Type)",
+                          "colWidth": "40%"
+                        },
+                        {
+                          "text": "Mineral Constituents",
+                          "colWidth": "40%"
+                        }
+                      ],
+                      "tableData": [
+                        [
+                          {
+                            "type": "text",
+                            "text": "basalt (igneous)",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "olivine, plagioclase, feldspar, pyroxene",
+                            "align": "left"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "rhyolite (igneous)",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "orthoclase, quartz, biotite, amphibole",
+                            "align": "left"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "slate (metamorphic)",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "mica, quartz",
+                            "align": "left"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "schist (metamorphic)",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "mica, garnet, quartz",
+                            "align": "left"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "sandstone (sedimentary)",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "quartz",
+                            "align": "left"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "limestone (sedimentary)",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "calcite",
+                            "align": "left"
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyFontBold'>Sedimentary Rocks</span> <span class='bodyParaLineBreak'>Sedimentary <button class='glossary-text'>rocks</button> form from a complex process that follows four general steps: <button class='glossary-text'>weathering</button>, <button class='glossary-text'>erosion</button>, <button class='glossary-text'>deposition</button>, and <button class='glossary-text'>lithification</button> (Figure 7). <span class='bodyFontBold'>Weathering</span> starts the process and refers to the breakdown of previous rock material by physical and/or chemical means into small, transportable particles known as sediment. Source rocks for sediment can be igneous, metamorphic, and other sedimentary rocks. Sediment can vary in size from microscopic to ultramacroscopic. Table 2 presents some of the typical sediment sizes and their common names.</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Geology/580850/580850_Geology_fig_007.svg",
+                  "desc": "Figure 7: Labeled geological processes: weathering (break down of material), erosion (movements of sediment, and deposition (dropping of sediment to a new location).",
+                  "altText": "Figure 7: Labeled geological processes: weathering (break down of material), erosion (movements of sediment, and deposition (dropping of sediment to a new location).",
+                  "imgDivWidth": "487px",
+                  "maxWidth": "600px",
+                  "scrollImg": true,
+                  "width": "100%"
+                },
+                {
+                  "type": "DataTable",
+                  "containerType": "rightContainer",
+                  "tableHeight": "1.5",
+                  "sr": 11,
+                  "width": "70%",
+                  "allowClick": true,
+                  "title": "Table 2.",
+                  "tableWidth": "540px",
+                  "header": [
+                    {
+                      "text": "Sediment Size Ranges",
+                      "colWidth": "40%"
+                    },
+                    {
+                      "text": "Common Name",
+                      "colWidth": "40%"
+                    }
+                  ],
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "text": "< 1/256 mm",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "clay or mud",
+                        "align": "left"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "1/256 mm to 1/16 mm",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "silt",
+                        "align": "left"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "1/16 mm to 2 mm",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "sand",
+                        "align": "left"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "> 2 mm",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "cobble",
+                        "align": "left"
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span class='bodyFontBold'>Erosion</span> is the second step in sedimentary rock formation. This involves the transportation of sediment from its source region to the area where it will be deposited. The principal agent of erosion is water; other agents include gravity, ice, and wind. The larger the sediment particles, the more work the agent of erosion must perform to move the sediment. For example, it takes a lower water velocity to move sand-size particles than it does to move cobblesize particles. Likewise, clay- or mud-size particles require much less water velocity to move than do <span style='whiteSpace: nowrap'>sand-size</span> particles."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span class='bodyFontBold'>Deposition</span> is when particles being carried by the agents of erosion are expelled from the agent and laid down in everthickening layers of sediment. The catalyst for such expulsion and layering is usually the decrease in agent velocity (in the case of water, wind, and gravity) or melting (in the case of ice). Typical environments of deposition include lake and ocean bottoms, streambeds, glacial valleys and outwash plains, deserts (e.g., sand dunes), and the downslope segments of steep hills or cliffs (i.e., where gravity deposits material that then moves downslope under the influence of gravity)."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The final step in sedimentary <button class='glossary-text'>rock</button> formation is <button class='glossary-text'>lithification</button>, which is the hardening of layered sediment into rock. When sediment is first deposited, it is loose and unconsolidated, much like beach sand. However, as the layers of sediment build up over time, the bottommost layers become compressed by the weight of the overlying layers. This compression causes the sediment grains to pack closer and closer together. Sometimes this compression alone can cause the sediment grains to “stick” to one another. More often, however, water in between the sediment grains will deposit minerals that act as cement and glue to bind the particles, much like mortar in a wall binds brick. It is through these sub-processes of compaction and cementation that loose, unconsolidated sediment becomes lithified, or hardened, into sedimentary rock."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Sedimentary rocks come in a variety of textures, from very fine grained to very coarse grained. However, unlike igneous and metamorphic rocks, the individual grains of sedimentary rocks are typically not held together as tightly, which means a light tap on the table will usually result in some particles falling off. Furthermore, most sedimentary rocks are randomly oriented, with rounded grains. The rounded grains are the result of the <button class='glossary-text'>erosion</button> process. As grains are transported downstream, they collide with other grains, streambeds, and other hard objects, which causes angular corners and edges to be smoothed. By the time the particles are deposited, they have often lost their angular characteristics."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Compositionally, sedimentary rocks are largely composed of clay, quartz, and calcite, though other minerals are possible. One of the easiest ways to determine if a rock has calcite in it is to place a drop of weak acid, such as citric acid or vinegar, on it. These acids will react with the calcite (CaCO<sub>3</sub>) and cause effervescence, which is observed as bubbling in the drop of acid. Quartz is easy to identify as well because it has a hardness greater than glass. Finally, clay-rich rocks will most often display fine, laminate layering in a profile view (i.e., side view). Figure 8 shows how this layering might appear."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Geology/580850/580850_Geology_fig_008.svg",
+                  "desc": "Figure 8: Profile view of layering in a clay-rich rock",
+                  "altText": "Figure 8: Profile view of layering in a clay-rich rock",
+                  "imgDivWidth": "363px",
+                  "maxWidth": "450px",
+                  "imgDivMargin": "10px",
+                  "scrollImg": true,
+                  "width": "100%"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What is the final step in sedimentary rock formation?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "lithification",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "weathering",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "erosion",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "deposition",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "sedimentation",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The final step in sedimentary rock formation is lithification, which is the hardening of layered sediment into rock."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What typically happens when a sedimentary rock is lightly tapped on a table?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "some particles fall off",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "nothing",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "the table is dented",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "the rock shatters",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "a metallic sound is produced",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Unlike igneous and metamorphic rocks, the individual grains of sedimentary rocks are typically not held together as tightly, which means a light tap on the table will usually result in some particles falling off."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "When sediment is first deposited, it is loose and unconsolidated, much like beach sand. However, as the layers of sediment build up over time, the <span style='whiteSpace: nowrap'>bottom-most</span> layers become compressed by the weight of the over-lying layers. This compression causes the sediment grains to pack closer and closer together. Sometimes this compression alone can cause the sediment grains to “stick” to one another. More often, however, water in between the sediment grains will deposit minerals that act as cement and glue to bind the particles, much like mortar in a wall binds brick. It is through these sub-processes of compaction and cementation that loose, unconsolidated sediment becomes lithified, or hardened, into sedimentary rock. Sedimentary rocks come in a variety of textures, from very fine grained to very coarse grained. Most sedimentary rocks are randomly oriented, with rounded grains. The rounded grains are the result of the erosion process. Unlike igneous and metamorphic rocks, the individual grains of sedimentary rocks are typically not held together as tightly.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Geology/580850/580850_Geology_fig_008.svg",
+                      "alt": "Figure 8: Profile view of layering in a clay-rich rock",
+                      "maxWidth": "384px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "When sediment is first deposited, it is loose and unconsolidated, much like beach sand. However, as the layers of sediment build up over time, the <span style='whiteSpace: nowrap'>bottom-most</span> layers become compressed by the weight of the over-lying layers. This compression causes the sediment grains to pack closer and closer together. Sometimes this compression alone can cause the sediment grains to “stick” to one another. More often, however, water in between the sediment grains will deposit minerals that act as cement and glue to bind the particles, much like mortar in a wall binds brick. It is through these sub-processes of compaction and cementation that loose, unconsolidated sediment becomes lithified, or hardened, into sedimentary rock. Sedimentary rocks come in a variety of textures, from very fine grained to very coarse grained. Most sedimentary rocks are randomly oriented, with rounded grains. The rounded grains are the result of the erosion process. Unlike igneous and metamorphic rocks, the individual grains of sedimentary rocks are typically not held together as tightly.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Geology/580850/580850_Geology_fig_008.svg",
+                      "alt": "Figure 8: Profile view of layering in a clay-rich rock",
+                      "maxWidth": "384px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyFontBold'>Metamorphic Rocks</span> <span class='bodyParaLineBreak'>Metamorphic <button class='glossary-text'>rocks</button> are formed when other rocks—igneous, sedimentary, or even existing metamorphic rocks—undergo some change in physical characteristic and/or chemistry.</span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "These changes are known as <button class='glossary-text'>metamorphism</button>. The agents of metamorphism are extreme heat; extreme pressure; and, to a lesser extent, chemically active fluids. The heat for metamorphism usually comes from the earth’s natural geothermal gradient (i.e., temperature in the earth’s crust increases with depth), magma beneath the surface, and/or frictional heat from platetectonic forces. It is important to note that the heat for metamorphism is never high enough to melt the rock. If the rock melts, then it becomes magma, and when the magma cools and solidifies, it becomes an igneous rock. Metamorphic heat causes the rock to become extremely hot, but it does not melt it."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The pressure for metamorphism has two principal sources. The first is simply depth. As you go deeper in the earth’s crust, the confining stresses (the stresses that are equal in all three dimensions) on rocks increase much like the pressure on your body increases as you dive deeper in a pool. The other is directional, or compressional stress, which is onedimensional stress caused principally by plate tectonics. Figure 9 illustrates these two types of stress for metamorphism: confining stress, which pushes on a rock from all sides, and compressional stress, which pushes on a rock along a single axis."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Geology/580850/580850_Geology_fig_009.svg",
+                  "desc": "Figure 9: Two principal stresses for metamorphism: confining stress, pushing the rock from all sides, and compressional stress, pushing on the rock along a single axis",
+                  "altText": "Figure 9: Two principal stresses for metamorphism: confining stress, pushing the rock from all sides, and compressional stress, pushing on the rock along a single axis",
+                  "imgDivWidth": "371px",
+                  "maxWidth": "450px",
+                  "imgDivMargin": "10px",
+                  "scrollImg": true,
+                  "width": "100%"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Chemically active fluids are extremely hotwater solutions that have a large amount of dissolved minerals in them. These solutions are usually found in association with underground magma chambers and thus are localized in their influence and not a primary agent of <button class='glossary-text'>metamorphism</button>. As these chemically active fluids are driven away from magma chambers, they take their mineral solutes and deposit them in other places. Along with the heat these fluids bring, the mineral solutes can metamorphose preexisting <button class='glossary-text'>rock</button> by dramatically altering the rock’s chemical makeup."
+                },
+                {
+                  "type": "Plain",
+                  "text": "When extreme compressional (or directional) stress is applied to a rock, it will often cause the elongated mineral constituents to align with their long axes perpendicular to the direction of stress (Figure 10). The result is a textural element called “preferred orientation,” and it evidences itself in specimens through a physical characteristic referred to as <button class='glossary-text'>foliation</button>. Foliation looks much like layering in sedimentary rocks, but it is not the result of depositional processes; instead, it is the result of stress in the crust. A way to differentiate layering from foliation is to see how easily the laminations part in the rock. If they part easily, then you may be dealing with a layered sedimentary rock. If the laminations are difficult or impossible to part, then you may be observing metamorphic foliation. (Figure 11 is an example of foliation in black shale.) This is not a foolproof test, but it is a good one for a budding geologist."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Geology/580850/580850_Geology_fig_010.svg",
+                  "desc": "Figure 10: Elongated mineral constituents aligned with their long axes perpendicular to the direction of stress, resulting in preferred orientation",
+                  "altText": "Figure 10: Elongated mineral constituents aligned with their long axes perpendicular to the direction of stress, resulting in preferred orientation",
+                  "imgDivWidth": "371px",
+                  "maxWidth": "450px",
+                  "scrollImg": true,
+                  "imgDivMargin": "10px",
+                  "width": "100%"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Geology/580850/580850_Geology_fig_011.svg",
+                  "desc": "Figure 11: Foliation in black shale",
+                  "altText": "Figure 11: Foliation in black shale",
+                  "imgDivWidth": "371px",
+                  "maxWidth": "450px",
+                  "scrollImg": true,
+                  "imgDivMargin": "10px",
+                  "width": "100%"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Metamorphic <button class='glossary-text'>rocks</button> can display a range of grain sizes; however, the grains in these samples will most often be fused together. Whereas sedimentary and igneous rocks usually possess grains that are easily distinguishable from one another in specimens, such is not the case with metamorphic rocks. The extreme forces of heat and pressure tend to weld these mineral grains in a three-dimensional array that makes distinguishing one grain from the next very difficult. In addition, metamorphic rocks are most often very hard and, like igneous rocks, possess tightly formed grains that do not easily break apart."
+                },
+                {
+                  "type": "Plain",
+                  "text": "In terms of composition, metamorphic rocks comprise a vast spectrum of minerals that commonly include quartz, mica, and calcite. Quartz is harder than glass, so it is easy to identify against a glass streak plate. Mica grains typically appear as small flakes of what look like glitter, while calcite reacts with weak acids and displays the property of effervescence."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyFontBold'>Rock Cycle</span> <span class='bodyParaLineBreak'>The rock cycle conceptualizes the evolution, or life cycle, of a rock. Like nitrogen in the air or carbon in the soil, rocks are not in stasis. To the contrary, they are in a constant state of flux, or change. Rocks change from one type of rock to another over time (Figure 12). For example, an igneous rock can undergo <button class='glossary-text'>weathering</button>, <button class='glossary-text'>erosion</button>, <button class='glossary-text'>deposition</button>, and <button class='glossary-text'>lithification</button> to become a sedimentary rock. Likewise, a sedimentary rock can encounter extreme heat and pressure at depth in the earth’s crust and become a metamorphic rock. In fact, any rock can become any other type of rock, including its own type. So a metamorphic rock can undergo further heat and pressure and become a different type of metamorphic rock as well.</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Geology/580850/580850_Geology_fig_012.svg",
+                  "desc": "Figure 12: The rock cycle, demonstrating how rocks change from igneous, sedimentary, and metamorphic over time",
+                  "altText": "Figure 12: The rock cycle, demonstrating how rocks change from igneous, sedimentary, and metamorphic over time",
+                  "imgDivWidth": "483px",
+                  "maxWidth": "800px",
+                  "scrollImg": true,
+                  "imgDivMargin": "10px",
+                  "width": "100%"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 3",
+              "pageTitle": "Knowledge Check Question 3",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "infoPopUp": "kc-resource",
+              "kcRef": 2,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "An igneous rock can undergo weathering, erosion, deposition, and lithification to become what type of rock?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "sedimentary",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "quartz",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "intrusive igneous",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "extrusive igneous",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "metamorphic",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Sedimentary rock is formed by the processes of weathering, erosion, deposition, and lithification."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "A metamorphic rock can undergo further heat and pressure and become a different type of what rock?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "metamorphic",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "quartz",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "intrusive igneous",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "extrusive igneous ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "sedimentary",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Heat and pressure form metamorphic rock."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "The rock cycle conceptualizes the evolution, or life cycle, of a rock. ",
+                  "img": [
+                    {
+                      "src": "courses_2023/Geology/580850/580850_Geology_fig_012.svg",
+                      "alt": "Figure 12: The rock cycle, demonstrating how rocks change from igneous, sedimentary, and metamorphic over time",
+                      "maxWidth": "550px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "The rock cycle conceptualizes the evolution, or life cycle, of a rock. ",
+                  "img": [
+                    {
+                      "src": "courses_2023/Geology/580850/580850_Geology_fig_012.svg",
+                      "alt": "Figure 12: The rock cycle, demonstrating how rocks change from igneous, sedimentary, and metamorphic over time",
+                      "maxWidth": "550px"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "altText": "A map of the procedural workflow of this investigation. Before beginning, you will obtain a sediment sample and print out the sediment gauge.  In activity 1, you will use the sediment gauge to determine the size of the particles in each of the samples.  In activity 2, you will determine the grain size, grain shape, and grain orientation. Then, you will tap the rock on a hard surface and observe grain cohesion. Next, you will add acid and observe effervescence. Then, you will scratch the glass plate with the rock and observe. Next, you will observe the rock for glittery appearance, layers, and foliation. Then, you will classify the rock based on its properties. Finally, you will repeat this until you have classified rocks A-F.",
+                  "desc": "A map of the procedural workflow of this investigation. Before beginning, you will obtain a sediment sample and print out the sediment gauge.  In activity 1, you will use the sediment gauge to determine the size of the particles in each of the samples.  In activity 2, you will determine the grain size, grain shape, and grain orientation. Then, you will tap the rock on a hard surface and observe grain cohesion. Next, you will add acid and observe effervescence. Then, you will scratch the glass plate with the rock and observe. Next, you will observe the rock for glittery appearance, layers, and foliation. Then, you will classify the rock based on its properties. Finally, you will repeat this until you have classified rocks A-F.",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Geology/580850/580850_Geology_ED_001.svg",
+                  "imgDivWidth": "96%",
+                  "maxWidth": "1456px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "96%",
+                    "L": "96%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "80%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Needed from the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Bag of sand",
+                          "image": "courses_2023/Geology/580850/580850_Geology_material_1.svg",
+                          "altText": "White dirt or sand in a plastic bag"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Bag of clay",
+                          "image": "courses_2023/Geology/580850/580850_Geology_material_2.svg",
+                          "altText": "Brown dirt or sand in a plastic bag"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Bag of pebbles",
+                          "image": "courses_2023/Geology/580850/580850_Geology_material_3.svg",
+                          "altText": "Gravel, loose"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Rock sample A",
+                          "image": "courses_2023/Geology/580850/580850_Geology_material_4.svg",
+                          "altText": "Rock sample A"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Rock sample B",
+                          "image": "courses_2023/Geology/580850/580850_Geology_material_5.svg",
+                          "altText": "Rock sample B"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Rock sample C",
+                          "image": "courses_2023/Geology/580850/580850_Geology_material_6.svg",
+                          "altText": "Rock sample C"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Rock sample D",
+                          "image": "courses_2023/Geology/580850/580850_Geology_material_7.svg",
+                          "altText": "Rock sample D"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Rock sample E",
+                          "image": "courses_2023/Geology/580850/580850_Geology_material_8.svg",
+                          "altText": "Rock sample E"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Rock sample F",
+                          "image": "courses_2023/Geology/580850/580850_Geology_material_9.svg",
+                          "altText": "Rock sample F"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Glass streak plate",
+                          "image": "courses_2023/Geology/580850/580850_Geology_material_10.svg",
+                          "altText": "Clear glass streak plate"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Acetic acid, 3M, 7 mL",
+                          "image": "courses_2023/Geology/580850/580850_Geology_material_11.svg",
+                          "altText": "7-mL bottle of acetic acid"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from the equipment kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Hand lens",
+                          "image": "courses_2023/Geology/580850/580850_Geology_material_12.svg",
+                          "altText": "Clear plastic 6x magnifying glass"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [
+                            "Printed <a target='blank' href='images/courses_2023/Geology/580850/580850_Sediment_Gauge.pdf'>Sediment Gauge</a>",
+                            "Paper towels",
+                            "Collected rock or sediment sample"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span> <span className=bodyParaLineBreak></span> <span className=bodyParaLineBreak></span>Replacement supplies for the Rock Cycle investigation can be ordered from Carolina Biological Supply Company, kit 580850.<span className=bodyParaLineBreak></span> <span className=bodyMediumSubHeading>Call:</span> 866.332.4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "isCheckPoint": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Wear googles, an apron, and gloves when handling acetic acid. Wear eye protection and an apron if <button class='glossary-text'>rocks</button> and minerals need to be broken to reveal a fresh surface."
+                },
+                {
+                  "type": "Image",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "altText": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Read all instructions for each laboratory activity before beginning. Follow the instructions closely, and observe established laboratory safety practices, including the use of appropriate personal protective equipment (PPE) described in this section and the Activity sections."
+                },
+                {
+                  "type": "PlainImage",
+                  "text": "Acetic acid is a corrosive material. Use this near a source of running water that can be used as a safety eyewash or safety shower if any corrosive material comes in contact with your skin or eyes.",
+                  "image": "core/Corrosion.svg",
+                  "imgWidth": "12%",
+                  "desc": "corrosion symbol",
+                  "altText": "corrosion symbol"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Do not eat, drink, or chew gum while performing these activities. Wash your hands with soap and water before and after performing each activity. Clean the work area with soap and water after completing the investigations. Keep pets and children away from lab materials and equipment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.</span>",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "You find a rock composed of mica, quartz and garnet. This rock is most likely which of the following?",
+                      "dataTable": {
+                        "type": "DataTable",
+                        "title": "Table 1",
+                        "tableWidth": "80%",
+                        "allowClick": true,
+                        "header": [
+                          {
+                            "text": "Rock (Type)",
+                            "colWidth": "40%"
+                          },
+                          {
+                            "text": "Mineral Constituents",
+                            "colWidth": "40%"
+                          }
+                        ],
+                        "tableData": [
+                          [
+                            {
+                              "type": "text",
+                              "text": "basalt (igneous)",
+                              "align": "left"
+                            },
+                            {
+                              "type": "text",
+                              "text": "olivine, plagioclase, feldspar, pyroxene",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": "rhyolite (igneous)",
+                              "align": "left"
+                            },
+                            {
+                              "type": "text",
+                              "text": "orthoclase, quartz, biotite, amphibole",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": "slate (metamorphic)",
+                              "align": "left"
+                            },
+                            {
+                              "type": "text",
+                              "text": "mica, quartz",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": "schist (metamorphic)",
+                              "align": "left"
+                            },
+                            {
+                              "type": "text",
+                              "text": "mica, garnet, quartz",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": "sandstone (sedimentary)",
+                              "align": "left"
+                            },
+                            {
+                              "type": "text",
+                              "text": "quartz",
+                              "align": "left"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "text": "limestone (sedimentary)",
+                              "align": "left"
+                            },
+                            {
+                              "type": "text",
+                              "text": "calcite",
+                              "align": "left"
+                            }
+                          ]
+                        ]
+                      },
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "schist",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "slate",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "sandstone",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "limestone",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "rhyolite",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which rocks form from the cooling and solidification of melted rock material?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "igneous",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "sedimentary",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "metamorphic",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "cobble",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "foliated",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Obsidian, pumice, and basalt are all types of which of the following?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "extrusive igneous rock",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "metamorphic rock",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "sedimentary rock",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "lithified rock",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "intrusive igneous rock",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following describes when particles being carried by agents of erosion are expelled from the agent and laid down in ever-thickening layers of sediment?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "deposition",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "weathering",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "lithification",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "foliation",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "metamorphism",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following looks much like layering in sedimentary rocks, but is not the result of depositional processes?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "foliation",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "erosion",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "lithification",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "intrusion",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "earthquake",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following materials will you need to supply yourself in order to complete this investigation?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "collected rock sample",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "distilled water",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "a rock hammer",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "permanent markers",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "filter paper",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "If a drop of weak acid is placed on a rock and bubbles are produced, what mineral is likely present?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "calcite",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "quartz",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "mica",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "feldspar",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "orthoclase",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is a safety consideration for this lab?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Acetic acid is corrosive.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The hand lens has sharp edges.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Acetic acid can stain skin or clothing.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The rock samples are an environmental hazard.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Rock sample F is a choking hazard for pets or children.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following lists sediment sizes from largest to smallest?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "cobble > sand > silt > clay",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "clay > cobble > silt > sand",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "mud > silt > sand > cobble",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "sand > silt > mud > cobble",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "cobble > clay > sand > silt",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (2 steps)",
+              "pageTitle": "Preparation (2 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure-resource",
+              "keyID": "page14",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Obtain a small sample of sediment from outside. Sediment is not the same as soil. Sediment does not contain organic material but can typically be found under topsoil or along a riverbed."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "If you haven't already, print the <a target='blank' href='images/courses_2023/Geology/580850/580850_Sediment_Gauge.pdf'>Sediment Gauge</a> (Figure 13) on standard 8½ × 11” paper."
+                  },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": "courses_2023/Geology/580850/580850_Geology_fig_013.svg",
+                    "desc": "Figure 13: Sediment gauge to aid in identification of rock type, with images of grain size for pebbles, granules, coarse sand, medium sand, fine sand, silt, and clay; rounding (angular, sub-rounded, and well-rounded); poorly sorted and well sorted; and grains and matrix",
+                    "altText": "Figure 13: Sediment gauge to aid in identification of rock type, with images of grain size for pebbles, granules, coarse sand, medium sand, fine sand, silt, and clay; rounding (angular, sub-rounded, and well-rounded); poorly sorted and well sorted; and grains and matrix",
+                    "imgDivWidth": "480px",
+                    "maxWidth": "560px",
+                    "scrollImg": true,
+                    "width": "100%"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Geology_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will determine the grain size of the particles in 4 sediment <span style='whiteSpace: nowrap'>samples – 3</span> provided in the investigation and 1 that you collected."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "<div className=order-list-text>A</div>&nbsp;Determining Sediment and Grain Size (2 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Determining Sediment and Grain Size (2 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "keyID": "page11",
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Pour out a small sample (approximately the size of a dime) of each sediment type (clay, sand, pebbles, and the collected sample) onto a paper towel."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the Sediment Gauge to determine the grain size of each sample. Compare the size of the <button class='glossary-text'>rock</button> particles to the scale on the gauge to determine the approximate size of each particle. Record the size of the particles in <span class='bodyFontBold'>Data Table 1</span>."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Geology_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will evaluate 6 unknown <button class='glossary-text'>rock</button> samples by their grain size, grain shape, grain orientation, reactivity with acid, luster, composition, laying, and <button class='glossary-text'>foliation</button> to determine the rock type."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "<div className=order-list-text>A</div>&nbsp;Rock Type Identification (13 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Rock Type Identification (13 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "page18",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Ensure you have six <button class='glossary-text'>rock</button> samples labeled “A” through “F.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record all information in <span class='bodyFontBold'>Data Table 2</span> for sample A by following Steps 3–12."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Check the mineral grain size with the Sediment Gauge (<button class='resource-text'>Figure 13</button>). Are the grains clay (very fine grained), silt (fine grained), sand (coarse grained), or cobble (very coarse grained) in size?"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Examine the grain shape. Are the grains angular, sub-rounded, or well-rounded? You may need to use a hand lens to see this."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Examine the grain orientation (sorting). Are the grains randomly oriented, or do they evidence preferred orientation?"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Do the rock grains break apart easily? Tap the rock lightly on a hard surface. Do particles fall off?"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Add a drop of acetic acid to the rock sample. Does any bubbling occur?"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Check for the presence of quartz. Does the rock sample scratch the glass plate when dragged across it? If so, there might be some quartz present."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Examine the rock sample for a glittery appearance. If there is a glittery appearance, then mica is most likely present. Visible glitter with the naked eye means a large amount of mica is present."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Does the rock display layering? Remember, if the laminations part easily, it’s probably layering."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Does the rock display <button class='glossary-text'>foliation</button>? Remember, if the laminations do not part easily, it’s probably foliation."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use Table 3 to determine the type identity for sample A. Choose the type that best fits the physical properties for the sample."
+                  },
+                  {
+                    "type": "DataTable",
+                    "tableHeight": "1.5",
+                    "sr": 15,
+                    "width": "76%",
+                    "allowClick": true,
+                    "title": "Table 3. Rock Type Identification Table",
+                    "tableWidth": "840px",
+                    "header": [
+                      {
+                        "text": "Type",
+                        "colWidth": "20%"
+                      },
+                      {
+                        "text": "Grain Size",
+                        "colWidth": "20%"
+                      },
+                      {
+                        "text": "Grain Shape",
+                        "colWidth": "20%"
+                      },
+                      {
+                        "text": "Grain Orientation",
+                        "colWidth": "20%"
+                      },
+                      {
+                        "text": "Grains Break Apart Easily?",
+                        "colWidth": "20%"
+                      },
+                      {
+                        "text": "React with Acid?",
+                        "colWidth": "20%"
+                      }
+                    ],
+                    "tableData": [
+                      [
+                        {
+                          "type": "text",
+                          "text": "Igneous",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Fine to coarse",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Angular to <span style='whiteSpace: nowrap'>sub-rounded</span>",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Random",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "No",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "No",
+                          "align": "left"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Sedimentary",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Fine to coarse",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Usually rounded",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Random",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Yes",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Sometimes",
+                          "align": "left"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Metamorphic",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Fine to coarse",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Hard to observe because grains are fused",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Often preferred orientation",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "No",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Sometimes",
+                          "align": "left"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "<span style='color:white; font-weight: 500;'>Type",
+                          "hoverText": "Flower Characteristics",
+                          "borderBottom": "medium",
+                          "color": "#6b6b6b",
+                          "align": "center",
+                          "fontFamily": "HelveticaNeueLTStdMd65",
+                          "colWidth": "9%"
+                        },
+                        {
+                          "type": "text",
+                          "text": "<span style='color:white; font-weight: 500;'>Is There Quartz?",
+                          "hoverText": "Flower Characteristics",
+                          "borderBottom": "medium",
+                          "color": "#6b6b6b",
+                          "align": "center",
+                          "colspan": 2,
+                          "fontFamily": "HelveticaNeueLTStdMd65",
+                          "colWidth": "9%",
+                          "maxLength": 5
+                        },
+                        {
+                          "type": "text",
+                          "text": "<span style='color:white; font-weight: 500;'>Is There Mica?",
+                          "hoverText": "Flower Characteristics",
+                          "borderBottom": "medium",
+                          "color": "#6b6b6b",
+                          "align": "center",
+                          "fontFamily": "HelveticaNeueLTStdMd65",
+                          "colWidth": "9%",
+                          "maxLength": 5
+                        },
+                        {
+                          "type": "text",
+                          "text": "<span style='color:white; font-weight: 500;'>Is There Layering?",
+                          "hoverText": "Flower Characteristics",
+                          "borderBottom": "medium",
+                          "color": "#6b6b6b",
+                          "align": "center",
+                          "fontFamily": "HelveticaNeueLTStdMd65",
+                          "colWidth": "9%",
+                          "maxLength": 5
+                        },
+                        {
+                          "type": "text",
+                          "text": "<span style='color:white; font-weight: 500;'>Is There Foliation?",
+                          "hoverText": "Flower Characteristics",
+                          "borderBottom": "medium",
+                          "color": "#6b6b6b",
+                          "align": "center",
+                          "fontFamily": "HelveticaNeueLTStdMd65",
+                          "colWidth": "9%",
+                          "maxLength": 5
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Igneous",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Often, but it will only be a small percentage of the rock",
+                          "colspan": 2,
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Very small amounts",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "No",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "No",
+                          "align": "left"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Sedimentary",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Very common and will often comprise most of the rock",
+                          "colspan": 2,
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Very small amounts",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Yes, often",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "No",
+                          "align": "left"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Metamorphic",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Common",
+                          "colspan": 2,
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Can be large amounts",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "No",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Yes, often",
+                          "align": "left"
+                        }
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat Steps 2–12 for samples B through F."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "start": "1",
+                  "listType": "ordered",
+                  "text": [
+                    "Dispose of solutions down the drain with the water running. Allow the faucet to run a few minutes to dilute the solutions.",
+                    "Rinse and dry the lab equipment, and return the materials to the equipment kit.",
+                    "Sanitize the work space."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "altText": "completion",
+                  "desc": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Geology_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "landscape A4"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "tableHeight": "1.5",
+                "header": [
+                  {
+                    "text": "Material",
+                    "colWidth": "25%"
+                  },
+                  {
+                    "text": "Particle Size",
+                    "colWidth": "45%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Clay"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Sand"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Pebbles"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Collected Sample"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 2"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "tableHeight": "1.5",
+                "header": [
+                  {
+                    "text": "Sample",
+                    "colWidth": "5%",
+                    "maxLength": 20
+                  },
+                  {
+                    "text": "Grain Size",
+                    "colWidth": "15%",
+                    "maxLength": 20
+                  },
+                  {
+                    "text": "Grain Shape",
+                    "colWidth": "15%",
+                    "maxLength": 30
+                  },
+                  {
+                    "text": "Grain Orientation",
+                    "colWidth": "15%",
+                    "maxLength": 20
+                  },
+                  {
+                    "text": "Grains Break Apart Easily?",
+                    "colWidth": "15%",
+                    "maxLength": 5
+                  },
+                  {
+                    "text": "React with Acid?",
+                    "colWidth": "15%",
+                    "maxLength": 5
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "A"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "B"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "C"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "E"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "F"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "DataTable",
+                "sr": 1,
+                "tableHeight": "1.5",
+                "header": [
+                  {
+                    "text": "Sample",
+                    "colWidth": "5%",
+                    "maxLength": 5
+                  },
+                  {
+                    "text": "Is there Quartz?",
+                    "colWidth": "15%",
+                    "maxLength": 5
+                  },
+                  {
+                    "text": "Is there Mica?",
+                    "colWidth": "15%",
+                    "maxLength": 5
+                  },
+                  {
+                    "text": "Is there Layering?",
+                    "colWidth": "15%",
+                    "maxLength": 5
+                  },
+                  {
+                    "text": "Is there Foliation?",
+                    "colWidth": "15%",
+                    "maxLength": 5
+                  },
+                  {
+                    "text": "Rock Type",
+                    "colWidth": "25%",
+                    "maxLength": 20
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "A"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "B"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "C"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "D"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "E"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "F"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 3000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6339782389112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "PDF",
+        "thumbnailSrc": "core/PDF_icon.svg",
+        "content": "Printable Sediment Gauge",
+        "ref": "images/courses_2023/Geology/580850/580850_Sediment_Gauge.pdf",
+        "disableClick": true,
+        "scrollImg": true,
+        "isResource": true
+      },
+      {
+        "type": "DataTable",
+        "thumbnailSrc": "core/Table_icon.svg",
+        "content": "Table 1. Mineral constituents of rock types",
+        "isResource": true,
+        "title": "Table 1.",
+        "allowClick": true,
+        "containerType": "fullContainer",
+        "tableHeight": "1.5",
+        "sr": 10,
+        "tableWidth": "540px",
+        "header": [
+          {
+            "text": "Rock (Type)",
+            "colWidth": "40%"
+          },
+          {
+            "text": "Mineral Constituents",
+            "colWidth": "40%"
+          }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "text": "basalt (igneous)",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "olivine, plagioclase, feldspar, pyroxene",
+              "align": "left"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "rhyolite (igneous)",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "orthoclase, quartz, biotite, amphibole",
+              "align": "left"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "slate (metamorphic)",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "mica, quartz",
+              "align": "left"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "schist (metamorphic)",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "mica, garnet, quartz",
+              "align": "left"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "sandstone (sedimentary)",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "quartz",
+              "align": "left"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "limestone (sedimentary)",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "calcite",
+              "align": "left"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 1. Diorite",
+        "src": "courses_2023/Geology/580850/580850_Geology_fig_001.svg",
+        "altText": "Figure 1: Diorite",
+        "maxWidth": "427px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 2. Red granite",
+        "src": "courses_2023/Geology/580850/580850_Geology_fig_002.svg",
+        "altText": "Figure 2: Red granite ",
+        "maxWidth": "427px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 3. Gabbro",
+        "src": "courses_2023/Geology/580850/580850_Geology_fig_003.svg",
+        "altText": "Figure 3: Gabbro",
+        "maxWidth": "438px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 4. Volcanic rock",
+        "src": "courses_2023/Geology/580850/580850_Geology_fig_004.svg",
+        "altText": "Figure 4: Volcanic rock",
+        "maxWidth": "427px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 5. Obsidian",
+        "src": "courses_2023/Geology/580850/580850_Geology_fig_005.svg",
+        "altText": "Figure 5: Obsidian",
+        "maxWidth": "427px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 6. Basalt",
+        "src": "courses_2023/Geology/580850/580850_Geology_fig_006.svg",
+        "altText": "Figure 6: Basalt",
+        "maxWidth": "438px",
+        "scrollImg": true
+      },
+      {
+        "thumbnailSrc": "core/Table_icon.svg",
+        "content": "Table 2. Sediment sizes and names",
+        "isResource": true,
+        "type": "DataTable",
+        "containerType": "rightContainer",
+        "title": "Table 2.",
+        "allowClick": true,
+        "sr": 10,
+        "tableWidth": "540px",
+        "header": [
+          {
+            "text": "Sediment Size Ranges",
+            "colWidth": "40%"
+          },
+          {
+            "text": "Common Name",
+            "colWidth": "40%"
+          }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "text": "< 1/256 mm",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "clay or mud",
+              "align": "left"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "1/256 mm to 1/16 mm",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "silt",
+              "align": "left"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "1/16 mm to 2 mm",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "sand",
+              "align": "left"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "> 2 mm",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "cobble",
+              "align": "left"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 7. Weathering, erosion, and deposition",
+        "src": "courses_2023/Geology/580850/580850_Geology_fig_007.svg",
+        "altText": "Figure 7: Labeled geological processes: weathering (break down of material), erosion (movements of sediment, and deposition (dropping of sediment to a new location).",
+        "maxWidth": "600px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 8. Laminate layering",
+        "src": "courses_2023/Geology/580850/580850_Geology_fig_008.svg",
+        "altText": "Figure 8: Profile view of layering in a clay-rich rock",
+        "maxWidth": "450px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 9. Two types of stress in metamorphism",
+        "src": "courses_2023/Geology/580850/580850_Geology_fig_009.svg",
+        "altText": "Figure 9: Two principal stresses for metamorphism: confining stress, pushing the rock from all sides, and compressional stress, pushing on the rock along a single axis",
+        "maxWidth": "450px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 10. Preferred orientation due to stress",
+        "src": "courses_2023/Geology/580850/580850_Geology_fig_010.svg",
+        "altText": "Figure 10: Elongated mineral constituents aligned with their long axes perpendicular to the direction of stress, resulting in preferred orientation",
+        "maxWidth": "450px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 11. Foliation in black shale",
+        "src": "courses_2023/Geology/580850/580850_Geology_fig_011.svg",
+        "altText": "Figure 11: Foliation in black shale",
+        "maxWidth": "450px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 12. The rock cycle",
+        "src": "courses_2023/Geology/580850/580850_Geology_fig_012.svg",
+        "altText": "Figure 12: The rock cycle, demonstrating how rocks change from igneous, sedimentary, and metamorphic over time",
+        "maxWidth": "800px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Experimental Design Diagram",
+        "src": "courses_2023/Geology/580850/580850_Geology_ED_001.svg",
+        "altText": "A map of the procedural workflow of this investigation. Before beginning, you will obtain a sediment sample and print out the sediment gauge. In activity 1, you will use the sediment gauge to determine the size of the particles in each of the samples.  In activity 2, you will determine the grain size, grain shape, and grain orientation. Then, you will tap the rock on a hard surface and observe grain cohesion. Next, you will add acid and observe effervescence. Then, you will scratch the glass plate with the rock and observe. Next, you will observe the rock for glittery appearance, layers, and foliation. Then, you will classify the rock based on its properties. Finally, you will repeat this until you have classified rocks A-F.",
+        "maxWidth": "1456px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 13. Sediment gauge",
+        "src": "courses_2023/Geology/580850/580850_Geology_fig_013.svg",
+        "altText": "Figure 13: Sediment gauge to aid in identification of rock type, with images of grain size for pebbles, granules, coarse sand, medium sand, fine sand, silt, and clay; rounding (angular, sub-rounded, and well-rounded); poorly sorted and well sorted; and grains and matrix",
+        "maxWidth": "560px",
+        "scrollImg": true
+      },
+      {
+        "thumbnailSrc": "core/Table_icon.svg",
+        "content": "Table 3. Rock type identification table",
+        "isResource": true,
+        "type": "DataTable",
+        "containerType": "rightContainer",
+        "title": "Table 3.",
+        "allowClick": true,
+        "sr": 10,
+        "tableWidth": "740px",
+        "header": [
+          {
+            "text": "Type",
+            "colWidth": "20%"
+          },
+          {
+            "text": "Grain Size",
+            "colWidth": "20%"
+          },
+          {
+            "text": "Grain Shape",
+            "colWidth": "20%"
+          },
+          {
+            "text": "Grain Orientation",
+            "colWidth": "20%"
+          },
+          {
+            "text": "Grains Break Apart Easily?",
+            "colWidth": "20%"
+          },
+          {
+            "text": "React with Acid?",
+            "colWidth": "20%"
+          }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "text": "Igneous",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Fine to coarse",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Angular to <span style='whiteSpace: nowrap'>sub-rounded</span>",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Random",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "No",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "No",
+              "align": "left"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Sedimentary",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Fine to coarse",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Usually rounded",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Random",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Yes",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Sometimes",
+              "align": "left"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Metamorphic",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Fine to coarse",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Hard to observe because grains are fused",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Often preferred orientation",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "No",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Sometimes",
+              "align": "left"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "<span style='color:white; font-weight: 500;'>Type",
+              "hoverText": "Flower Characteristics",
+              "borderBottom": "medium",
+              "color": "#6b6b6b",
+              "align": "center",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "colWidth": "9%"
+            },
+            {
+              "type": "text",
+              "text": "<span style='color:white; font-weight: 500;'>Is There Quartz?",
+              "hoverText": "Flower Characteristics",
+              "borderBottom": "medium",
+              "color": "#6b6b6b",
+              "align": "center",
+              "colspan": 2,
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "colWidth": "9%",
+              "maxLength": 5
+            },
+            {
+              "type": "text",
+              "text": "<span style='color:white; font-weight: 500;'>Is There Mica?",
+              "hoverText": "Flower Characteristics",
+              "borderBottom": "medium",
+              "color": "#6b6b6b",
+              "align": "center",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "colWidth": "9%",
+              "maxLength": 5
+            },
+            {
+              "type": "text",
+              "text": "<span style='color:white; font-weight: 500;'>Is There Layering?",
+              "hoverText": "Flower Characteristics",
+              "borderBottom": "medium",
+              "color": "#6b6b6b",
+              "align": "center",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "colWidth": "9%",
+              "maxLength": 5
+            },
+            {
+              "type": "text",
+              "text": "<span style='color:white; font-weight: 500;'>Is There Foliation?",
+              "hoverText": "Flower Characteristics",
+              "borderBottom": "medium",
+              "color": "#6b6b6b",
+              "align": "center",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "colWidth": "9%",
+              "maxLength": 5
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Igneous",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Often, but it will only be a small percentage of the rock",
+              "colspan": 2,
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Very small amounts",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "No",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "No",
+              "align": "left"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Sedimentary",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Very common and will often comprise most of the rock",
+              "colspan": 2,
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Very small amounts",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Yes, often",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "No",
+              "align": "left"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Metamorphic",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Common",
+              "colspan": 2,
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Can be large amounts",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "No",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Yes, often",
+              "align": "left"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Deposition",
+        "content": "When particles being carried by the agents of erosion are expelled from the agent and laid down in ever-thickening layers of sediment"
+      },
+      {
+        "title": "Erosion",
+        "content": "The action of surface processes that removes soil, rock, or dissolved material from one location on the Earth's crust, and then transports it to another location where it is deposited"
+      },
+      {
+        "title": "Extrusive igneous rock",
+        "content": "A subtype of igneous rock that forms at or near the surface of the earth from the cooling and solidification of lava (i.e., molten rock at the earth’s surface)"
+      },
+      {
+        "title": "Foliation",
+        "content": "A physical characteristic that looks like layers due to deposition but is due to stress on the crust"
+      },
+      {
+        "title": "Intrusive igneous rock",
+        "content": "A subtype of igneous rock that forms deep within the earth’s crust"
+      },
+      {
+        "title": "Lithification",
+        "content": "The hardening of layered sediment into rock"
+      },
+      {
+        "title": "Metamorphism",
+        "content": "The formation of metamorphic rock from other rock types as they undergo some change in physical characteristic and/or chemistry"
+      },
+      {
+        "title": "Rock",
+        "content": "A coherent, naturally occurring solid consisting of an aggregate of minerals, pieces of <span style='whiteSpace: nowrap'>pre-existing</span> rocks, volcanic glass, or even a mass of organic material"
+      },
+      {
+        "title": "Weathering",
+        "content": "The breakdown of previous rock material by physical and/or chemical means into small, transportable particles known as sediment"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

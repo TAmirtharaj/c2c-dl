@@ -1,0 +1,3700 @@
+{
+  "locked": true,
+  "courseTitle": "Perch Dissection",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/bodyBookmark.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Biology_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Biology",
+                "images": {
+                  "logo": "core/Biology_subject_icon.svg"
+                },
+                "titleName2": "Perch Dissection",
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "waterMark": true,
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "This lab examines the anatomical structure of bony fish, and some of the adaptations that allow fish to live in an aquatic environment, through the dissection of a yellow perch."
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Biology/580191/580191_Bio_Time-Requirement.svg",
+                  "desc": "Preparation - 5 minutes\nActivity 1: Perch Dissection - 90 minutes",
+                  "altText": "Preparation - 5 minutes\nActivity 1: Perch Dissection - 90 minutes",
+                  "width": "100%",
+                  "imgDivWidth": "294px",
+                  "maxWidth": "320px",
+                  "scrollImg": true
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Paper towels",
+                    "70% isopropyl alcohol (rubbing alcohol) or other non-bleach disinfectant"
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "title": "Overview video: Perch Dissection"
+                },
+                {
+                  "type": "Video",
+                  "containerType": "rightContainer",
+                  "imgDivWidth": "200px",
+                  "desc": "OverView Video",
+                  "image": "courses_2023/Biology/580191/580191_Bio_VideoIcone.svg",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6328268321112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Apply basic anatomical terminology while examining the internal and external anatomy of the yellow perch.",
+                    "Identify and describe specific anatomical features of bony fish, and relate these structures to their functions.",
+                    "Identify the adaptations fish possess that allow them to live in an aquatic habitat.",
+                    "Classify a variety of bony fish based on anatomical features."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Yellow perch represent an important link in the food chain in many freshwater ecosystems and have helped conservationists understand the complex role that invasive species can play in ecosystem dynamics. Traditionally, the Great Lakes have sustained very large perch populations, which also kept their predator populations of bass and walleye healthy and controlled the population of their smaller prey species.  However, perch populations in the Great Lakes began to rapidly decline in the 1980s because of an introduced, invasive species, <span class='bodyFontItalic'>Alosa pseudoharengus</span>, commonly called the alewife. Alewives competed with the bass and walleye to catch yellow perch juveniles, leading to dramatic decreases in both predator and prey populations. When the alewife population began to decline in the 2000s, predator species, like the walleye, began to recover quickly. However, the yellow perch population has not recovered to previous levels, despite their high reproductive rates. While scientists are still trying to work out exactly why the perch population has not recovered, one possible culprit might be another Great Lakes invasive species, the zebra mussel. The zebra mussel eats the zooplankton and phytoplankton on which the juvenile perch feed, which might be further limiting the population<sup class='bodySupscript'>1</sup>.<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'><sup class='bodySupscript'>1</sup>McCracken, J. (2021, July 8). Low but stable: Yellow perch populations in Great Lakes' bays and open waters. <i>Great Lakes Now</i>.<br><span target='blank' style='word-break:break-all'>https://www.greatlakesnow.org/2021/07/yellow-perch-low-populations-wisconsin-michigan-fishing/</span></span></span> "
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580191/580191_Bio_whyShouldICare.svg",
+                  "desc": "A yellow perch fish.",
+                  "altText": "A yellow perch fish.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'>The image Yellow Perch by Sam Stukel, USFWS is available under available under Creative Commons Attribution 2.0 License at<br><span target='blank' style='word-break:break-all'>https://commons.wikimedia.org/wiki/File:Yellow_Perch_%2847383261152%29.jpg</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this activity you will examine the internal and external anatomy of the yellow perch. Although we frequently think of all gilled, finned organisms as fish, the term fish is not phylogenetically valid. Rather, it is a <button class='glossary-text'>paraphyletic</button> term. A paraphyletic grouping excludes a group descended from the common ancestor, and may be depicted in the form of a phylogenetic tree, as the Tetrapods are in the example in Figure 1."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Biology/580191/580191_Bio_fig_001.svg",
+                  "imgDivWidth": "489px",
+                  "scrollImg": true,
+                  "desc": "Figure 1: A phylogenetic tree of tetrapods",
+                  "altText": "Figure 1: A phylogenetic tree of tetrapods",
+                  "maxWidth": "600px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The yellow perch is part of a class of organisms known as <button class='glossary-text'>Osteichthyes</button> (bony fish). Osteichthyes are distinguished from other fish based on their calcified, bony skeleton. The class can be divided into two sub-classes: the <button class='glossary-text'>Actinopterygii</button> (rayed-fin fish) and the <button class='glossary-text'>Sarcopterygii</button> (lobe-fin fish). Terrestrial vertebrates evolved from the latter, but the perch belongs to the former group."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Perch are small freshwater fish that live in lakes, ponds, and rivers. They are predators, feeding on smaller fish, shellfish, and insect larvae. There are three species of perch worldwide: the European or red perch, the Balkhash perch, and the yellow or lake perch. The yellow perch, the smallest of the three, is native to North America, and is particularly common in the Great Lakes. They grow to be about 38 cm long and weigh about 1 kg. They are a key prey for bass and walleye salmon. They are also valuable to sport and commercial fisheries associated with this predator species."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Yellow perch spawn annually in the spring. Eggs are laid at night in gelatinous strands around submerged structures such as trees, shrubs, or weeds. Spawning is communal, and the eggs are fertilized externally, making perch <button class='glossary-text'>oviparous</button>. Perch provide no parental care to their eggs, which hatch in two to three weeks. Young perch feed primarily on zooplankton. Males typically mature in two to three years, whereas females take a little longer and are slightly larger at sexual maturity. Most perch live between nine and ten years."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Since yellow perch are an important prey species for birds and other fish, they generally prefer habitats with dense aquatic vegetation. These habitats not only provide protection for the perch, but are also highly productive environments that support the insects and fish that perch feed upon."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "How many species of perch are there?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "3",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "5",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "12",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "38",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "9",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "There are three species of perch worldwide: the European or red perch, the Balkhash perch, and the yellow or lake perch."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which type of habitat do yellow perch prefer?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "dense aquatic vegetation",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "deep and sandy waters",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "saltwater",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "warm and sandy waters",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "shallow water without vegetation",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Yellow perch generally prefer habitats with dense aquatic vegetation. These habitats not only provide protection for the perch but are also highly productive environments that support the insects and fish that perch feed upon."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "The yellow perch, the smallest of the species, is native to North America, and is particularly common in the Great Lakes. They generally prefer habitats with dense aquatic vegetation. These habitats not only provide protection for the perch, but are also highly productive environments that support the insects and fish that perch feed upon. Yellow perch spawn annually in the spring. Eggs are laid at night in gelatinous strands around submerged structures such as trees, shrubs, or weeds. Spawning is communal, and the eggs are fertilized externally, making perch oviparous. Young perch feed primarily on zooplankton. Males typically mature in two to three years, whereas females take a little longer and are slightly larger at sexual maturity. Most perch live between nine and ten years. "
+                },
+                {
+                  "title": "Hint",
+                  "body": "The yellow perch, the smallest of the species, is native to North America, and is particularly common in the Great Lakes. They generally prefer habitats with dense aquatic vegetation. These habitats not only provide protection for the perch, but are also highly productive environments that support the insects and fish that perch feed upon. Yellow perch spawn annually in the spring. Eggs are laid at night in gelatinous strands around submerged structures such as trees, shrubs, or weeds. Spawning is communal, and the eggs are fertilized externally, making perch oviparous. Young perch feed primarily on zooplankton. Males typically mature in two to three years, whereas females take a little longer and are slightly larger at sexual maturity. Most perch live between nine and ten years. "
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyBoldSubHeading>Orientation</span><span className=bodyParaLineBreak>You should become familiar with some common anatomical terms before you begin the dissection. Take a moment to study the terms in Table 1."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyBoldSubHeading>External Anatomy</span>"
+                },
+                {
+                  "type": "Box",
+                  "text": "Terms in <span class=bodyFontBold>bold</span> followed by a number are structures that can be found on your accompanying dissection mat."
+                },
+                {
+                  "type": "Plain",
+                  "text": "There are three main regions of a perch’s exterior: the head, trunk, and tail. The head extends from the snout to the <button class='glossary-text'>caudal</button> edge of the gill opening, which is called the <button class='glossary-text'>operculum</button> (13). The position of a fish’s <button class='glossary-text'>mouth</button> (11) may indicate its typical feeding method, which will have teeth and membranous lips. Perch have small teeth that line the lower jaw and the front of the upper jaw. These teeth are used to capture and hold prey during swallowing. Perch do not chew. They also have four nasal openings, or <button class='glossary-text'>nares</button> (12), which, unlike land animals, have no connection between them and the pharynx in the perch. The nares are structured so that water enters through the <button class='glossary-text'>anterior</button> openings and exits through the <button class='glossary-text'>posterior</button> openings, passing over the olfactory epithelium, a specialized tissue that senses smell. Caudal to the nares are the <button class='glossary-text'>eyes</button> (5). As with many fish, perch eyes lack eyelids and are situated on the side of the head. This orientation of the eyes gives the perch a very wide field of view and good monocular vision; however, the perch’s depth perception is not as good as animals with forward-facing eyes, whose binocular vision provides more overlap between each eye’s field of view. At the caudal edge of the head is the <span class=bodyFontBold>operculum</span> (13), a bony shield that protects the fish’s <button class='glossary-text'>gills</button> (6) and allows water to pass out of the oral cavity during swallowing and gas exchange."
+                },
+                {
+                  "type": "DataTable",
+                  "containerType": "rightContainer",
+                  "thumbnailSrc": "core/Table_icon.svg",
+                  "allowClick": true,
+                  "title": "Table 1.",
+                  "tableHeight": "1.5",
+                  "tableWidth": "700px",
+                  "maxLength": 20,
+                  "content": "Table 1.",
+                  "headerHidden": true,
+                  "header": [
+                    { "text": "", "colWidth": "30" },
+                    { "text": "", "colWidth": "70%" }
+                  ],
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "color": "#6b6b6b",
+                        "align": "center",
+                        "text": "<span style='color:white; font-weight: 600;'>Common Anatomical Terms</span>",
+                        "hoverText": "Common Anatomical Terms",
+                        "colspan": "2"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "color": "#6b6b6b",
+                        "align": "center",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='color:white; font-weight: 600;'>Direction or Plane</span>",
+                        "hoverText": "Direction or Plane"
+                      },
+                      {
+                        "type": "text",
+                        "color": "#6b6b6b",
+                        "align": "center",
+                        "text": "<span style='color:white; font-weight: 600;'>Definition</span>",
+                        "hoverText": "Definition"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Superior</span>",
+                        "hoverText": "Superior"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Above, toward the head"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Inferior</span>",
+                        "hoverText": "Inferior"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Below, toward the tail"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Anterior</span>",
+                        "hoverText": "Anterior"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Front"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Posterior</span>",
+                        "hoverText": "Posterior"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Back"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Lateral</span>",
+                        "hoverText": "Lateral"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward the right or left side"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Medial</span>",
+                        "hoverText": "Medial"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward the midline"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Proximal</span>",
+                        "hoverText": "Proximal"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Near or toward a point of reference or attachment"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Distal</span>",
+                        "hoverText": "Distal"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Away from a point of reference, usually the attachment point"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Dorsal</span>",
+                        "hoverText": "Dorsal"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward the back"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Ventral</span>",
+                        "hoverText": "Ventral"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward the abdomen"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Cranial</span>",
+                        "hoverText": "Cranial"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward the head"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Caudal</span>",
+                        "hoverText": "Caudal"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Away from the head"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Superficial</span>",
+                        "hoverText": "Superficial"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward or along the surface"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Deep</span>",
+                        "hoverText": "Deep"
+                      },
+                      {
+                        "type": "text",
+                        "text": "A significant distance below the surface"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Rostral</span>",
+                        "hoverText": "Rostral"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward the nose or mouth"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Sagittal plane</span>",
+                        "hoverText": "Sagittal plane"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Divides the body into longitudinal left and right portions"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Midsagittal plane</span>",
+                        "hoverText": "Midsagittal plane"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Divides the body into equal left and right halves; often referred to as the midline or median plane"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Transverse plane</span>",
+                        "hoverText": "Transverse plane"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Perpendicular to the sagittal plane; produces cross-sections"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Frontal plane</span>",
+                        "hoverText": "Frontal plane"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Divides the body into dorsal and ventral portions"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Dextral</span>",
+                        "hoverText": "Dextral"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward the specimen’s right"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "<span style='font-weight: 600;'>Sinistral</span>",
+                        "hoverText": "Sinistral"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward the specimen’s left"
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "When looking at the perch’s trunk and tail, the body size increases from the head to midway down the <button class='glossary-text'>dorsal fin</button> (4), then decreases toward the tail. This fusiform, or torpedo, shape is a common pattern among fish. They also have two sets of paired fins: the <button class='glossary-text'>pectoral fins</button> (15), on opposite sides of the trunk caudal to the operculum, and the <button class='glossary-text'>pelvic fins</button> (16), found <button class='glossary-text'>ventral</button> and caudal to the pectoral fins. "
+                },
+                {
+                  "type": "Plain",
+                  "text": "These two sets of fins are very important for directional movement in perch. In addition to the paired fins, there are four unpaired fins: the <button class='glossary-text'>cranial</button> and the caudal dorsal fins (also known as the spiny and the soft dorsal fins), the <button class='glossary-text'>anal fin</button> (1), and the <button class='glossary-text'>caudal fin</button> (3). The <button class='glossary-text'>dorsal</button> and anal fins stabilize the fish, similar to a keel on a boat, while the caudal fin provides propulsion. The two dorsal fins, cranial and caudal, differ in their support structures. The cranial dorsal fin contains several sharp spines, whereas the caudal dorsal fin contains several soft rays. Cranial to the anal fin, on the ventral surface of the perch, is the anal opening, the exit from the digestive system, and the <button class='glossary-text'>urogenital opening</button> (23), the opening for the reproductive and excretory systems."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The <button class='glossary-text'>lateral</button> surface of the perch has a distinct line along each side of the fish from the operculum to the caudal fin. This <button class='glossary-text'>lateral line</button> (9) is a specialized sense organ used to detect vibrations, current direction, pressure, and temperature."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The external surface of the perch is mainly comprised of skin and <button class='glossary-text'>scales</button> (18). The skin is composed of an epidermis and thick dermis. The epidermis contains mucous glands that produce the typical slippery coating found on many fish. This mucus lubricates the perch for smooth movement and helps protect the skin from damage and infection. The dermis contains connective tissues, nerves, blood vessels, pigment glands, and is the scale production site. The scales provide a protective barrier for the skin. Perch have ctenoid scales, named for the ctenii (“teeth”) on the <button class='glossary-text'>posterior</button> edge. On the frilled, <button class='glossary-text'>anterior</button> edge are grooves that radiate from the center, or focus. Scales grow continuously throughout the life of the fish. As a scale grows, concentric rings called circuli are formed. Seasonal differences in growth rate produce different circuli spacing. Darker rings formed by closely spaced circuli indicate times of reduced food availability, lower metabolism, and slower growth (during winter, for example). Counting the circuli on a scale is one way for field biologists to determine a fish’s age."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following structures is the most caudal? ",
+                  "imageData": {
+                    "image": "courses_2023/Biology/580191/580191_Bio_Img_001.svg",
+                    "desc": "A fish illustration with structures numbered 1-5. The tail fin is number 1. The belly fin toward the tail is number 2. The back fin is number 3. The side fin behind the gills is number 4. The head is number 5.",
+                    "altText": "A fish illustration with structures numbered 1-5. The tail fin is number 1. The belly fin toward the tail is number 2. The back fin is number 3. The side fin behind the gills is number 4. The head is number 5.",
+                    "imgDivWidth": "60%",
+                    "maxWidth": "600px",
+                    "scrollImg": true
+                  },
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "1",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "2",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "3",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "4",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "5",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Structure 1 is the most caudal (away from the head)."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following structures lies along the fish’s dorsal surface?",
+                  "imageData": {
+                    "image": "courses_2023/Biology/580191/580191_Bio_Img_001.svg",
+                    "desc": "A fish illustration with structures numbered 1-5. The tail fin is number 1. The belly fin toward the tail is number 2. The back fin is number 3. The side fin behind the gills is number 4. The head is number 5.",
+                    "altText": "A fish illustration with structures numbered 1-5. The tail fin is number 1. The belly fin toward the tail is number 2. The back fin is number 3. The side fin behind the gills is number 4. The head is number 5.",
+                    "imgDivWidth": "70%",
+                    "maxWidth": "600px",
+                    "scrollImg": true
+                  },
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "3",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "2",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "1",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "4",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "5",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Structure 3 lies on the fish’s dorsal surface (toward the back). "
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": " ",
+                  "dataTable": [
+                    {
+                      "type": "DataTable",
+                      "containerType": "rightContainer",
+                      "thumbnailSrc": "core/Table_icon.svg",
+                      "isResource": true,
+                      "allowClick": true,
+                      "title": "Table 1.",
+                      "tableHeight": "1.5",
+                      "tableWidth": "700px",
+                      "maxLength": 20,
+                      "content": "Table 1.",
+                      "headerHidden": true,
+                      "header": [
+                        { "text": "", "colWidth": "30" },
+                        { "text": "", "colWidth": "70%" }
+                      ],
+                      "tableData": [
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "color": "#6b6b6b",
+                            "align": "center",
+                            "text": "<span style='color:white; font-weight: 600;'>Common Anatomical Terms</span>",
+                            "hoverText": "Common Anatomical Terms",
+                            "colspan": "2"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "color": "#6b6b6b",
+                            "align": "center",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='color:white; font-weight: 600;'>Direction or Plane</span>",
+                            "hoverText": "Direction or Plane"
+                          },
+                          {
+                            "type": "text",
+                            "color": "#6b6b6b",
+                            "align": "center",
+                            "text": "<span style='color:white; font-weight: 600;'>Definition</span>",
+                            "hoverText": "Definition"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Superior</span>",
+                            "hoverText": "Superior"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Above, toward the head"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Inferior</span>",
+                            "hoverText": "Inferior"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Below, toward the tail"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Anterior</span>",
+                            "hoverText": "Anterior"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Front"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Posterior</span>",
+                            "hoverText": "Posterior"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Back"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Lateral</span>",
+                            "hoverText": "Lateral"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the right or left side"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Medial</span>",
+                            "hoverText": "Medial"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the midline"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Proximal</span>",
+                            "hoverText": "Proximal"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Near or toward a point of reference or attachment"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Distal</span>",
+                            "hoverText": "Distal"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Away from a point of reference, usually the attachment point"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Dorsal</span>",
+                            "hoverText": "Dorsal"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the back"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Ventral</span>",
+                            "hoverText": "Ventral"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the abdomen"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Cranial</span>",
+                            "hoverText": "Cranial"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the head"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Caudal</span>",
+                            "hoverText": "Caudal"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Away from the head"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Superficial</span>",
+                            "hoverText": "Superficial"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward or along the surface"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Deep</span>",
+                            "hoverText": "Deep"
+                          },
+                          {
+                            "type": "text",
+                            "text": "A significant distance below the surface"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Rostral</span>",
+                            "hoverText": "Rostral"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the nose or mouth"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Sagittal plane</span>",
+                            "hoverText": "Sagittal plane"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Divides the body into longitudinal left and right portions"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Midsagittal plane</span>",
+                            "hoverText": "Midsagittal plane"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Divides the body into equal left and right halves; often referred to as the midline or median plane"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Transverse plane</span>",
+                            "hoverText": "Transverse plane"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Perpendicular to the sagittal plane; produces cross-sections"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Frontal plane</span>",
+                            "hoverText": "Frontal plane"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Divides the body into dorsal and ventral portions"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Dextral</span>",
+                            "hoverText": "Dextral"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the specimen’s right"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Sinistral</span>",
+                            "hoverText": "Sinistral"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the specimen’s left"
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": " ",
+                  "dataTable": [
+                    {
+                      "type": "DataTable",
+                      "containerType": "rightContainer",
+                      "thumbnailSrc": "core/Table_icon.svg",
+                      "isResource": true,
+                      "allowClick": true,
+                      "title": "Table 1.",
+                      "tableHeight": "1.5",
+                      "tableWidth": "700px",
+                      "maxLength": 20,
+                      "content": "Table 1.",
+                      "headerHidden": true,
+                      "header": [
+                        { "text": "", "colWidth": "30" },
+                        { "text": "", "colWidth": "70%" }
+                      ],
+                      "tableData": [
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "color": "#6b6b6b",
+                            "align": "center",
+                            "text": "<span style='color:white; font-weight: 600;'>Common Anatomical Terms</span>",
+                            "hoverText": "Common Anatomical Terms",
+                            "colspan": "2"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "color": "#6b6b6b",
+                            "align": "center",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='color:white; font-weight: 600;'>Direction or Plane</span>",
+                            "hoverText": "Direction or Plane"
+                          },
+                          {
+                            "type": "text",
+                            "color": "#6b6b6b",
+                            "align": "center",
+                            "text": "<span style='color:white; font-weight: 600;'>Definition</span>",
+                            "hoverText": "Definition"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Superior</span>",
+                            "hoverText": "Superior"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Above, toward the head"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Inferior</span>",
+                            "hoverText": "Inferior"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Below, toward the tail"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Anterior</span>",
+                            "hoverText": "Anterior"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Front"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Posterior</span>",
+                            "hoverText": "Posterior"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Back"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Lateral</span>",
+                            "hoverText": "Lateral"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the right or left side"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Medial</span>",
+                            "hoverText": "Medial"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the midline"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Proximal</span>",
+                            "hoverText": "Proximal"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Near or toward a point of reference or attachment"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Distal</span>",
+                            "hoverText": "Distal"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Away from a point of reference, usually the attachment point"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Dorsal</span>",
+                            "hoverText": "Dorsal"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the back"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Ventral</span>",
+                            "hoverText": "Ventral"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the abdomen"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Cranial</span>",
+                            "hoverText": "Cranial"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the head"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Caudal</span>",
+                            "hoverText": "Caudal"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Away from the head"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Superficial</span>",
+                            "hoverText": "Superficial"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward or along the surface"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Deep</span>",
+                            "hoverText": "Deep"
+                          },
+                          {
+                            "type": "text",
+                            "text": "A significant distance below the surface"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Rostral</span>",
+                            "hoverText": "Rostral"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the nose or mouth"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Sagittal plane</span>",
+                            "hoverText": "Sagittal plane"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Divides the body into longitudinal left and right portions"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Midsagittal plane</span>",
+                            "hoverText": "Midsagittal plane"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Divides the body into equal left and right halves; often referred to as the midline or median plane"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Transverse plane</span>",
+                            "hoverText": "Transverse plane"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Perpendicular to the sagittal plane; produces cross-sections"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Frontal plane</span>",
+                            "hoverText": "Frontal plane"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Divides the body into dorsal and ventral portions"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Dextral</span>",
+                            "hoverText": "Dextral"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the specimen’s right"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "<span style='font-weight: 600;'>Sinistral</span>",
+                            "hoverText": "Sinistral"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the specimen’s left"
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyBoldSubHeading>Muscular System</span><span className=bodyParaLineBreak>The muscular system of fish is fairly simple compared with quadrupeds, but it serves the same purpose—to move the bones and cartilage of the skeletal system. To see the musculature, a perch must be skinned by separating the skin from the underlying muscle by breaking the fascia, the connective tissue holding the skin to the muscle. With the exception of specialized muscles that control the jaws and fins, most of the musculature consists of large, segmented, v-shaped muscle groups called <button class='glossary-text'>myotomes</button>. Individual myotomes are separated from each other by a sheet of connective tissue, the myoseptum. The myotomes are also separated into <button class='glossary-text'>dorsal</button> and <button class='glossary-text'>ventral</button> groups by a transverse septum. Contractions in the myotomes bend the fish’s body generating their undulating swimming movement."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyBoldSubHeading>Respiratory System</span><span className=bodyParaLineBreak>Fish breathe through <button class='glossary-text'>gills</button>, which each have many gill filaments, or highly vascularized structures that provide a large surface area for gas exchange. These filaments are supported by the branchial arch, or gill arch, a bony structure. Gill rakers are hard spiny projections that protect the delicate filaments and prevent large objects from passing through the gills."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span className=bodyBoldSubHeading>Digestive System</span><span className=bodyParaLineBreak>Under the body wall of the perch is the <button class='glossary-text'>coelom</button>, the body cavity that houses the internal organs. The coelom is filled with fluid that supports and lubricates the organs. Coelomic fluid also acts as a medium for waste movement and, in females, for egg movement. This coelom is divided into two main parts: a large peritoneal cavity that contains the visceral organs, and a smaller pericardial cavity that contains the <button class='glossary-text'>heart</button>. The membrane lining the peritoneal cavity is called the parietal peritoneum. The pericardial cavity is lined with a membrane called the parietal pericardium."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The <button class='glossary-text'>liver</button> (10), a large organ located at the <button class='glossary-text'>cranial</button> end of the peritoneal cavity, serves many functions. It produces bile, which is stored in the gallbladder, a small greenish organ exposed when lifting the liver. Bile is released into the <button class='glossary-text'>small intestine</button> where it breaks down fats in food. The liver itself filters blood and breaks down toxins. It produces, stores, and releases glycogen, an energy storage molecule formed from complex glucose units. The liver also stores various nutrients. The esophagus, which is a short, straight tube, is located at the cranial end under the liver, and connects the pharynx (the cavity behind the nose and <button class='glossary-text'>mouth</button>) to the <button class='glossary-text'>stomach</button>. The elastic esophagus expands temporarily to permit swallowed prey’s passage to the stomach, a muscular organ where the food is churned and broken down by digestive fluids. The stomach’s (20) main pouch protrudes caudally from both the entrance at the esophagus and the exit to the small intestine."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Food from the <button class='glossary-text'>stomach</button> enters the <button class='glossary-text'>small intestine</button> (8), where it is further digested and nutrients are absorbed. The carnivorous perch has a relatively short small intestine. Herbivorous fish tend to have much longer intestines. This tendency reflects the relative digestibility of different foods. In general, herbivorous animals’ digestive systems are longer and more complex than carnivorous animals. At the <button class='glossary-text'>cranial</button> end of the perch’s small intestine are three short sacs, the <button class='glossary-text'>pyloric caeca</button> (17), which are believed to function in both digestion and nutrient absorption. Sometimes visible near the pyloric region is the pancreas, a gland that secretes digestive enzymes into the small intestine and releases hormones into the bloodstream. At the <button class='glossary-text'>caudal</button> end, the small intestine merges into the <button class='glossary-text'>large intestine</button> (8), a straight tube that carries waste to the <button class='glossary-text'>anus</button> (2), where it exits the body. Though not part of the digestive system, the <button class='glossary-text'>spleen</button> (19) may be visible along the early portion of the small intestine. It is often encased in a layer of fat. The spleen is a highly vascular organ that filters blood, produces white blood cells, and functions in immunity. Also, the <button class='glossary-text'>swim bladder</button> (21), which is <button class='glossary-text'>dorsal</button> to the peritoneal cavity, normally contains a gas mixture. By adjusting the gas volume in the swim bladder, perch maintain buoyancy and remain at an appropriate depth with minimal energy expenditure."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyBoldSubHeading>Circulatory System</span><span className=bodyParaLineBreak>When first looking at the pericardial cavity, the membrane covering the surface of the <button class='glossary-text'>heart</button> (7) is called the visceral pericardium. The membrane separating the pericardial and peritoneal cavities is called the transverse septum. It consists of the caudal portion of the parietal pericardium and the cranial portion of the parietal peritoneum. The heart occupies most of the pericardial cavity."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "A fish’s heart has two chambers: a thin-walled atrium and a thick-walled ventricle, as well as two additional cavities. Blood enters the atrium through the sac-like sinus venosus (Figure 2). There is no valve between the two that would prevent backward flow. From the atrium, blood flows through the bicuspid valve into the ventricle. The bicuspid valve prevents blood from flowing back into the atrium when the ventricle contracts. Blood exits the ventricle through another valve before passing into the bulbus arteriosus, an extension of the <button class='glossary-text'>ventral</button> aorta. From the ventral aorta, the blood flows into the <button class='glossary-text'>gills</button>."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580191/580191_Bio_fig_002.svg",
+                  "imgDivWidth": "499px",
+                  "scrollImg": true,
+                  "desc": "Figure 2: A lateral view of the perch, with labels for the arteries (colored red), veins (colored blue), capillaries, kidney, liver, and heart anatomy.",
+                  "altText": "Figure 2: A lateral view of the perch, with labels for the arteries (colored red), veins (colored blue), capillaries, kidney, liver, and heart anatomy.",
+                  "maxWidth": "550px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The blood enters the <button class='glossary-text'>gills</button> through afferent branchial arteries, passes through the gill filament capillaries, and then exits the gills through the efferent branchial arteries. From there, oxygenated blood enters the <button class='glossary-text'>dorsal</button> aorta and continues on into the numerous arteries that branch off, supplying blood to the different regions of the body. The blood returns to the <button class='glossary-text'>heart</button> through the systemic veins and the hepatic portal system. The hepatic portal system consists of veins from the <button class='glossary-text'>stomach</button>, intestine, and other organs that pass blood to <button class='glossary-text'>liver</button> capillary beds. The liver filters the blood and removes toxins. The blood then travels into the hepatic veins and the sinus venosus."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyBoldSubHeading>Urogenital System</span><span className=bodyParaLineBreak>The urogenital system is comprised of both the reproductive and excretory systems. The excretory organs include the long kidneys and the urinary bladder. The kidneys are found dorsal to the <button class='glossary-text'>swim bladder</button>. Kidneys produce urine from nitrogenous wastes collected from the blood. From the kidneys, urine travels through the Wolffian ducts and into the urinary bladder. The bladder periodically expels the waste through the urinary pore in males or the common urogenital pore in females. The gonads occupy the same general space, whether the fish is male or female. In male perch, a pair of <button class='glossary-text'>testes</button> (22) are found <button class='glossary-text'>caudal</button> to the stomach and <button class='glossary-text'>ventral</button> to the swim bladder. Testes produce sperm (male gametes) and male sex hormones. From the testes, the sperm pass through the vas deferens into the genital sinus and are expelled through the genital pore. Fertilization is external; a male releases its sperm over eggs once they are deposited by the female. Female perch have a single large <button class='glossary-text'>ovary</button> (14) occupying the same position as the testes in males. The ovary produces and stores the eggs. The ovary varies dramatically in size based on the season. From the ovary, eggs are released into the oviduct then exit through the urogenital sinus and urogenital pore."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span className=bodyBoldSubHeading>Nervous System</span><span className=bodyParaLineBreak>Similar to other chordates, the nervous system consists of two main parts: the central nervous system (the brain and spinal cord) and the peripheral nervous system (all other nerves). The brain is enclosed in a clear, jelly-like material and is covered by a dark membrane, the meninx. Tetrapod vertebrate brains are covered by multiple meninges; for example, a human brain has three. Perch brains have five sections."
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "listType": "ordered",
+                  "style": {
+                    "listStyleType": "lower-alpha",
+                    "marginBottom": "0px"
+                  },
+                  "text": [
+                    "The <button class='glossary-text'>telencephalon</button>, or forebrain, includes the cerebral hemispheres and the olfactory lobes where the olfactory nerves connect with the brain. The olfactory lobes process the sensory input gathered from water flowing through the <button class='glossary-text'>nares</button>.",
+                    "The <button class='glossary-text'>cerebrum</button> serves the same functions observed in other vertebrates: control of voluntary movements, thinking, and problem-solving.",
+                    "The <button class='glossary-text'>diencephalon</button>, located between the cerebrum and the optic lobes, includes the thalamus, hypothalamus, pineal body, and the <button class='glossary-text'>posterior</button> lobe of the <button class='glossary-text'>pituitary gland</button>. These portions of the brain control many aspects of hormone production and homeostasis.",
+                    "The <span class=bodyFontBold>pituitary gland</span>, composed of two lobes located on the ventral side of the brain, is an important endocrine gland that secretes several hormones, some of which regulate the release of other hormones.",
+                    "The <button class='glossary-text'>mesencephalon</button>, or midbrain, consists of the optic lobes. The large optic lobe size indicates the importance of vision in the life of a perch."
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "A ventral view of the brain reveals paired optic nerves that carry nerve impulses from the <button class='glossary-text'>eyes</button> to the optic lobes. The metencephalon, or cere-bellum, coordinates activity and equilibrium. The myelencephalon, or medulla oblongata, is an elongated region that controls heart rate, the constriction and dilation of blood vessels, many reflexes, and other vital functions."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 3",
+              "pageTitle": "Knowledge Check Question 3",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 2,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "In addition to the paired fins, there are four unpaired fins. What are the four paired fins commonly referred to?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "the spiny and the soft dorsal fins",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "the retracted and the protruding dorsal fins",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "the webbed and the fused dorsal fins",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "the rostral and the cranial dorsal fins",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "the internal and the external dorsal fins",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "In addition to the paired fins, there are four unpaired fins: the cranial and the caudal dorsal fins (also known as the spiny and the soft dorsal fins), the anal fin, and the caudal fin."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Where is the opening for the reproductive and excretory systems located? ",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "cranial to the anal fin",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "proximal to the anal fin",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "frontal to the anal fin",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "dextral to the anal fin",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "sinistral to the anal fin",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Cranial to the anal fin, on the ventral surface of the perch, is the anal opening, the exit from the digestive system, and the urogenital opening, the opening for the reproductive and excretory systems."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "When looking at the perch’s trunk and tail, the body size increases from the head to midway down the dorsal fin, then decreases toward the tail. This fusiform, or torpedo, shape is a common pattern among fish. They also have two sets of paired fins: the pectoral fins, on opposite sides of the trunk caudal to the operculum, and the pelvic fins, found ventral and caudal to the pectoral fins. These two sets of fins are very important for directional movement in perch. In addition to the paired fins, there are four unpaired fins: the cranial and the caudal dorsal fins (also called the spiny and soft dorsal fins), the anal fin, and the caudal fin. The dorsal and anal fins stabilize the fish, like a keel on a boat, while the caudal fin provides propulsion. The two dorsal fins, cranial and caudal, differ in their support structures. The cranial dorsal fin contains several sharp spines, whereas the caudal dorsal fin contains several soft rays. Cranial to the anal fin, on the ventral surface of the perch, is the anal opening.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Biology/580191/580191_Bio_fig_002.svg",
+                      "alt": "Figure 2: A lateral view of the perch, with labels for the arteries (colored red), veins (colored blue), capillaries, kidney, liver, and heart anatomy.",
+                      "imgDivWidth": "632px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "When looking at the perch’s trunk and tail, the body size increases from the head to midway down the dorsal fin, then decreases toward the tail. This fusiform, or torpedo, shape is a common pattern among fish. They also have two sets of paired fins: the pectoral fins, on opposite sides of the trunk caudal to the operculum, and the pelvic fins, found ventral and caudal to the pectoral fins. These two sets of fins are very important for directional movement in perch. In addition to the paired fins, there are four unpaired fins: the cranial and the caudal dorsal fins (also called the spiny and soft dorsal fins), the anal fin, and the caudal fin. The dorsal and anal fins stabilize the fish, like a keel on a boat, while the caudal fin provides propulsion. The two dorsal fins, cranial and caudal, differ in their support structures. The cranial dorsal fin contains several sharp spines, whereas the caudal dorsal fin contains several soft rays. Cranial to the anal fin, on the ventral surface of the perch, is the anal opening.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Biology/580191/580191_Bio_fig_002.svg",
+                      "alt": "Figure 2: A lateral view of the perch, with labels for the arteries (colored red), veins (colored blue), capillaries, kidney, liver, and heart anatomy.",
+                      "imgDivWidth": "632px"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "desc": "A map describing the procedural workflow of this investigation. To prepare, set up your work area and dissection tools. For the activity, locate and identify the external structures of the intact specimen. Then, remove the skin from the specimen, and locate and identify the structures of the muscular system. Next, expose the specimen’s gills, and locate and identify the structures of the respiratory system. Then, cut open the specimen’s body wall, and locate and identify the structures of the digestive and circulatory systems. Finally, remove the specimen’s digestive tract, and locate and identify the structures of the urogenital system. ",
+                  "altText": "A map describing the procedural workflow of this investigation. To prepare, set up your work area and dissection tools. For the activity, locate and identify the external structures of the intact specimen. Then, remove the skin from the specimen, and locate and identify the structures of the muscular system. Next, expose the specimen’s gills, and locate and identify the structures of the respiratory system. Then, cut open the specimen’s body wall, and locate and identify the structures of the digestive and circulatory systems. Finally, remove the specimen’s digestive tract, and locate and identify the structures of the urogenital system. ",
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "containerType": "fullContainer",
+                  "imgDivWidth": "80%",
+                  "image": "courses_2023/Biology/580191/580191_Bio_ED_001.svg",
+                  "maxWidth": "1202px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "80%",
+                    "L": "80%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Carosafe<sup class=bodySupscript>®</sup> perch",
+                          "image": "courses_2023/Biology/580191/580191_Bio_material_1.svg",
+                          "url": "courses_2023/Biology/580191/580191_Bio_material_1.svg",
+                          "desc": "Preserved perch in a vacuum-sealed clear bag",
+                          "altText": "Preserved perch in a vacuum-sealed clear bag"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Perch dissection mat",
+                          "image": "courses_2023/Biology/580191/580191_Bio_material_2.svg",
+                          "url": "courses_2023/Biology/580191/580191_Bio_material_2.svg",
+                          "desc": "Colored perch dissection mat",
+                          "altText": "Colored perch dissection mat"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Dissecting tray",
+                          "image": "courses_2023/Biology/580191/580191_Bio_material_3.svg",
+                          "url": "courses_2023/Biology/580191/580191_Bio_material_3.svg",
+                          "desc": "Disposable red foam dissecting tray",
+                          "altText": "Disposable red foam dissecting tray"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Absorbent pads",
+                          "image": "courses_2023/Biology/580191/580191_Bio_material_4.svg",
+                          "url": "courses_2023/Biology/580191/580191_Bio_material_4.svg",
+                          "desc": "Blue absorbent pad",
+                          "altText": "Blue absorbent pad"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Self-locking storage bags",
+                          "image": "courses_2023/Biology/580191/580191_Bio_material_5.svg",
+                          "url": "courses_2023/Biology/580191/580191_Bio_material_5.svg",
+                          "desc": "Clear plastic self-locking storage bags",
+                          "altText": " Clear plastic self-locking storage bags"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from the dissection kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Scissors",
+                          "image": "courses_2023/Biology/580191/580191_Bio_material_6.svg",
+                          "url": "courses_2023/Biology/580191/580191_Bio_material_6.svg",
+                          "desc": "Small 4 1/2-inch scissors made of stainless steel with one sharp and one blunt arm",
+                          "altText": "Small 4 1/2-inch scissors made of stainless steel with one sharp and one blunt arm"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Forceps",
+                          "image": "courses_2023/Biology/580191/580191_Bio_material_7.svg",
+                          "url": "courses_2023/Biology/580191/580191_Bio_material_7.svg",
+                          "desc": "Steel forceps",
+                          "altText": "Steel forceps"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Wooden probe",
+                          "image": "courses_2023/Biology/580191/580191_Bio_material_8.svg",
+                          "url": "courses_2023/Biology/580191/580191_Bio_material_8.svg",
+                          "desc": "Slender wooden dissection probe ",
+                          "altText": "Slender wooden dissection probe "
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Scalpel",
+                          "image": "courses_2023/Biology/580191/580191_Bio_material_10.svg",
+                          "url": "courses_2023/Biology/580191/580191_Bio_material_10.svg",
+                          "desc": "Scalpel with white plastic handle",
+                          "altText": "Scalpel with white plastic handle"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "T-pins",
+                          "image": "courses_2023/Biology/580191/580191_Bio_material_11.svg",
+                          "url": "courses_2023/Biology/580191/580191_Bio_material_11.svg",
+                          "desc": "T-pin",
+                          "altText": "T-pin"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [
+                            "Paper towels",
+                            "70% isopropyl alcohol (rubbing alcohol) or other non-bleach disinfectant",
+                            "Ruler",
+                            "Hand lens (optional)",
+                            "Camera or cell phone capable of taking photographs"
+                          ]
+                        },
+                        {
+                            "type": "Box",                             
+                            "text": "<span class='bodyFontBold'>Note:</span> You can use your camera to help you see small structures. After you take a picture you can zoom in on the structures that you are interested in. This is also helpful when you are labeling the structures for your lab submission."
+                         }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span><span className=bodyParaLineBreak></span>Replacement supplies for the Perch Dissection investigation can be ordered from Carolina Biological Supply Company, item number 580191.<span className=bodyParaLineBreak></span><span className=bodyMediumSubHeading>Call:</span> 866-332-4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "This investigation requires safety goggles, disposable gloves, and a lab apron."
+                },
+                {
+                  "type": "Image",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Plain",
+                  "text": "Follow the instructions for this activity closely and observe established laboratory safety practices, including wearing appropriate personal protective equipment (PPE); safety goggles, gloves, and lab aprons must be worn when dissecting. Do not eat, drink, or chew gum while performing the dissection. Use proper hygiene practices before, during, and after the lab, including washing your hands before and after performing the dissection. Review pertinent portions of any Safety Data Sheets (SDS) before beginning the activity. Keep pets and children away from lab materials and equipment."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Dissections require special attention to safety. Please follow these additional precautions:"
+                },
+                {
+                  "type": "List",
+                  "text": [
+                    "Clean the counter or workspace thoroughly before and after the dissection, using isopropyl alcohol (or other non-bleach disinfectant)."
+                  ]
+                },
+                {
+                  "type": "PlainImage",
+                  "imgWidth": "12%",
+                  "desc": "flammable symbol",
+                  "style": { "marginLeft": "33px" },
+                  "altText": "flammable symbol",
+                  "image": "core/Flammable.svg",
+                  "text": "Isopropyl alcohol (rubbing alcohol) is flammable. Keep away from open flame if using alcohol as disinfectant."
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "text": [
+                    "Wash your hands thoroughly with soap and water before and after the dissection.",
+                    "Only perform the dissection on the dissecting tray. This will contain both the specimen and any excess fluids.",
+                    "Spread the absorbent pad blue side down underneath the tray to capture any spilled fluid.",
+                    "In general, scissors are used more frequently than the scalpel, especially when care must be taken not to cut too deeply into the specimen."
+                  ]
+                },
+                {
+                  "type": "Video",
+                  "imgDivMargin": "0 0 0 30px",
+                  "containerType": "rightContainer",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Biology/580191/580191_Bio_VideoIcone_1.svg",
+                  "desc": "Using a scalpel",
+                  "url": "http://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=5170128655001"
+                }
+              ]
+            },
+            {
+              "title": "Safety (cont... )",
+              "pageTitle": "Safety (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Never cut toward your holding hand and fingers.",
+                    "Cut in a downward motion using a steady, even pressure.",
+                    "Always use a sharp blade.",
+                    "Do not use a scalpel that is nicked, bent, or damaged.",
+                    "Do not use a scalpel to cut through bone or heavy cartilage.",
+                    "Never use a scalpel for anything other than dissection."
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyBoldSubHeading>Carolina’s Carosafe<sup class='bodySupscript'>®</sup></span><span className=bodyParaLineBreak>Carosafe<sup class='bodySupscript'>®</sup> is a preservative and holding solution for biological specimens. It contains no formaldehyde and is not a tissue fixative. Most specimens in Carosafe<sup class='bodySupscript'>®</sup> are first preserved with a formalin solution and then washed and placed in formaldehyde-free Carosafe<sup class='bodySupscript'>®</sup>. This produces a formalin-preserved specimen that, when dissected, minimizes exposure to formaldehyde."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The primary component of Carosafe<sup class='bodySupscript'>®</sup> is propylene glycol, a common ingredient used in cosmetics and foods. Propylene glycol is on the U.S. Food and Drug Administration’s (FDA’s) list of food additives that are generally recognized as safe. Holding specimens in Carosafe<sup class='bodySupscript'>®</sup> reduces the presence of formaldehyde, thereby diminishing or eliminating unpleasant odor. However, Carosafe<sup class='bodySupscript'>®</sup> preserved specimens and their surrounding fluid do contain some residual formaldehyde, a by-product of the initial formalin preservation process. The amount present varies by specimen type."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The dissection should take place in a well-ventilated setting. For a home setting, this may include opening windows and turning on a ceiling fan."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The safe nature of Carosafe<sup class='bodySupscript'>®</sup> also means that in most localities there are no mandated disposal requirements."
+                },
+                {
+                  "type": "PlainImage",
+                  "containerType": "rightContainer",
+                  "imgWidth": "12%",
+                  "desc": "warning symbol, health hazard symbol, toxic symbol",
+                  "altText": "warning symbol, health hazard symbol, toxic symbol",
+                  "image": "courses_2023/Biology/580191/Safety_warning_health_hazard_and_corrosion.svg",
+                  "text": "Carolina’s Carosafe<sup class='bodySupscript'>®</sup> causes mild skin irritation if proper PPE is not worn. Avoid contact with skin and <button class='glossary-text'>eyes</button>. Respiratory irritation may result if Carosafe<sup class='bodySupscript'>®</sup> specimens are used without adequate ventilation. Carosafe<sup class='bodySupscript'>®</sup> specimens contain substances that are carcinogenic and toxic, and should not be ingested."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span className=bodyBoldSubHeading>Storage of Specimens</span><span className=bodyParaLineBreak>If it is necessary to store the specimen between work periods, you may choose to place it in the plastic storage bag with as much of the original solution as possible. Establishing an airtight seal is the best way to retain specimen integrity and prevent drying out of the specimen. First, squeeze as much air out of the specimen bag as possible before securing the opening with a rubber band, tape, or a binder clip. After closing the bag, the specimen can be stored in a larger, airtight box or bag at room temperature."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of following terms is applied to the nasal openings of the perch? ",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "nares",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "caeca",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "circuli",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "lobes",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "lateral lines",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the function of the perch’s spleen? ",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "blood filtration, production of white blood cells, and immunity",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "bile production, blood filtration, and storage of glucose as glycogen",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "maintenance of buoyancy",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "detection of vibrations, current direction, pressure and temperature",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "digestion and nutrient absorption",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following correctly lists the structures through which ingested food would pass as it makes its way through the digestive tract of the perch?",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "mouth, pharynx, esophagus, stomach, small intestine, large intestine, anus ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "mouth, esophagus, pharynx, stomach, large intestine, small intestine, anus",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "mouth, pharynx, esophagus, small intestine, large intestine, stomach, anus",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "mouth, esophagus, stomach, pharynx, small intestine, large intestine, anus ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "mouth, esophagus, pharynx, small intestine, stomach, large intestine, anus",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the function of the swim bladder of the perch?",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "buoyancy and maintenance of appropriate depth in the water ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "digestion and nutrient absorption",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "propulsion through the water",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "allowing water to pass over the olfactory epithelium",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "expelling the contents of the reproductive and excretory systems",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following describes the plane on which Structure 2 of this fish is found?",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "imageData": {
+                        "image": "courses_2023/Biology/580191/580191_Bio_Img_001.svg",
+                        "desc": "A fish illustration with structures numbered 1-5. The tail fin is number 1. The belly fin toward the tail is number 2. The back fin is number 3. The side fin behind the gills is number 4. The head is number 5.",
+                        "altText": "A fish illustration with structures numbered 1-5. The tail fin is number 1. The belly fin toward the tail is number 2. The back fin is number 3. The side fin behind the gills is number 4. The head is number 5.",
+                        "imgDivWidth": "80%",
+                        "maxWidth": "600px",
+                        "scrollImg": true
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "ventral",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "lateral",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "dorsal",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "medial",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "cranial",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following items will you need to supply yourself to complete this investigation?",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "70% isopropyl alcohol",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "resealable plastic bags",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "scissors",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "safety pins",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "distilled water",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 6,
+                          "text": "a foam cup ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following statements about scalpel use is INCORRECT?",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "It is acceptable to use a scalpel that is nicked or bent.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Always cut away from your holding hand and fingers.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Cut in a downward motion using a steady, even pressure.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Always use a sharp blade.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Do not use a scalpel to cut through bone or heavy cartilage.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": " Which of the following safety hazards is associated with the CaroSafe<sup class='bodySupscript'>®</sup> preservative? ",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "It should be used in a well-ventilated room.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "It is a corrosive material.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "It will stain skin or clothing.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "It is highly flammable.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "It is extremely harmful to aquatic life.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Biology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will examine the external anatomy of the perch. You will then skin the perch and examine its musculature. Finally, you will make a cut on the <button class='glossary-text'>lateral</button> surface of the body wall and examine the digestive, cardiovascular, and urogenital systems of the perch. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Perch Dissection",
+              "pageTitle": "Perch Dissection",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity1",
+              "pageData": [
+                [
+                  {
+                    "type": "PlainImage",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>A</div>&nbsp;External Anatomy (12 steps)"
+                      }
+                    ],
+                    "image": "core/TakeSnapshot.svg",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol",
+                    "imgWidth": "4.5%",
+                    "text": "Lay your specimen on its side in the dissecting tray and take a photograph."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Examine its exterior, noting the three main regions: the head, trunk, and tail. The head extends from the snout to the <button class='glossary-text'>caudal</button> edge of the gill opening, the <button class='glossary-text'>operculum</button> (13)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "As you examine the <button class='glossary-text'>mouth</button>, observe the teeth and the membranous lips."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Locate the four nasal openings, or <button class='glossary-text'>nares</button> (12)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Caudal to the nares are the <button class='glossary-text'>eyes</button> (5); examine these."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "At the caudal edge of the head is the <span class=bodyFontBold>operculum</span> (13). Lift the operculum to view the gill structure. These will be examined more thoroughly later."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Examine the trunk and tail, and note the shape of the fish. Moving caudally, the body size increases from the head to midway down the <button class='glossary-text'>dorsal fin</button> (4), then decreases toward the tail."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Observe the two sets of paired fins: the <button class='glossary-text'>pectoral fins</button> (15) and the <button class='glossary-text'>pelvic fins</button> (16). In addition to the paired fins, locate the four unpaired fins: the <button class='glossary-text'>cranial</button> and the caudal dorsal fins, the <button class='glossary-text'>anal fin</button> (1), and the <button class='glossary-text'>caudal fin</button> (3)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Next, locate the anal opening and the <button class='glossary-text'>urogenital opening</button> (23)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Examine the <button class='glossary-text'>lateral</button> surface of the perch. Identify the <button class='glossary-text'>lateral line</button> (9)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Survey the skin and <button class='glossary-text'>scales</button> (18) of the perch."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Detach a scale with the forceps and examine it with the hand lens, if available."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "startNewNumber": true,
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>B</div>&nbsp;Muscular System (4 steps)"
+                      }
+                    ],
+                    "text": "To view the musculature, you must first skin the perch."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Beginning at the junction of the head with the trunk (Figure 3), pinch the skin with forceps. Using your scissors, carefully cut an opening in the skin. Avoid damaging any additional tissue."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Biology/580191/580191_Bio_fig_003.svg",
+                    "imgDivWidth": "515px",
+                    "scrollImg": true,
+                    "desc": "Figure 3: Left lateral view of a preserved perch, with the myotomes labeled.",
+                    "altText": "Figure 3: Left lateral view of a preserved perch, with the myotomes labeled.",
+                    "maxWidth": "550px",
+                    "imgDivWidthForMobile": {
+                      "P": "100%",
+                      "L": "100%"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Insert the scissors flat between the muscle and skin and methodically separate the skin from the underlying muscle by breaking the fascia."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "image": "core/TakeSnapshot.svg",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol",
+                    "imgWidth": "4.5%",
+                    "text": "Remove the skin from both sides of the perch from the junction of the head and trunk, to the edge of the caudal fin. Take a photograph to document this."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "startNewNumber": true,
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>C</div>&nbsp;Respiratory System (3 steps)"
+                      }
+                    ],
+                    "image": "core/TakeSnapshot.svg",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol",
+                    "imgWidth": "4.5%",
+                    "text": "Lift the operculum on the perch’s left side and carefully use the scissors to cut it off and expose the <button class='glossary-text'>gills</button>, as shown in Figure 4. Take a photograph of this step."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Biology/580191/580191_Bio_fig_004.svg",
+                    "imgDivWidth": "515px",
+                    "scrollImg": true,
+                    "desc": "Figure 4: Close up view of a preserved perch, with the gills’ rakers, arches and filaments labeled.",
+                    "altText": "Figure 4: Close up view of a preserved perch, with the gills’ rakers, arches and filaments labeled.",
+                    "maxWidth": "500px",
+                    "imgDivWidthForMobile": {
+                      "P": "100%",
+                      "L": "100%"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Lift one entire gill and cut it free."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the gill in a small cup of water and examine it using the hand lens (if available) to identify its parts."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "startNewNumber": true,
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>D</div>&nbsp;Digestive System (11 steps)"
+                      }
+                    ],
+                    "text": "Starting at the point indicated in Figure 5, make the incisions shown with the dashed lines. While cutting, be careful not to damage any internal organs. If possible, try to leave the membranous lining of the body cavity intact."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Biology/580191/580191_Bio_fig_005.svg",
+                    "imgDivWidth": "515px",
+                    "scrollImg": true,
+                    "desc": "Figure 5: Black and white sketch of a perch (left lateral view) with a dotted line starting near the anal fin and continuing up, going towards the gills, and back around, ending at the anal fin.",
+                    "altText": "Figure 5: Black and white sketch of a perch (left lateral view) with a dotted line starting near the anal fin and continuing up, going towards the gills, and back around, ending at the anal fin.",
+                    "maxWidth": "500px",
+                    "imgDivWidthForMobile": {
+                      "P": "100%",
+                      "L": "100%"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Lift the body wall away, and expose the <button class='glossary-text'>coelom</button>. Removing the pectoral fin may help this process."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "image": "core/TakeSnapshot.svg",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol",
+                    "imgWidth": "4.5%",
+                    "text": "Examine the visceral organs and take a photograph of them. If fat surrounds and obscures the organs, carefully remove it."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Gently move the <button class='glossary-text'>ovaries</button>, if the perch is female, (14) or <button class='glossary-text'>testes</button>, if the perch is male, (22) to fully view the digestive tract."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Remove the <button class='glossary-text'>liver</button> (10) to expose the other organs and follow the path of digestion. At the cranial end of the exposed space, the esophagus, will be visible."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Identify the <button class='glossary-text'>stomach</button> (20) and the <button class='glossary-text'>small intestine</button> (8)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "At the cranial end of the perch’s small intestine, find the <button class='glossary-text'>pyloric caeca</button> (17)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Though not always visible, look for the pancreas. It may be visible."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "At the caudal end, identify where the small intestine merges into the <button class='glossary-text'>large intestine</button>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The <button class='glossary-text'>spleen</button> (19) may be visible along the early portion of the small intestine."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Also note the <button class='glossary-text'>swim bladder</button> (21), immediately <button class='glossary-text'>dorsal</button> to the peritoneal cavity."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "startNewNumber": true,
+                    "image": "core/TakeSnapshot.svg",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol",
+                    "imgWidth": "4.5%",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>E</div>&nbsp;Circulatory System (2 steps)"
+                      }
+                    ],
+                    "text": "Examine the pericardial cavity, the visceral pericardium, and the transverse septum and photograph the entire <button class='glossary-text'>heart</button>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using <button class='resource-text'>Figure 2</button> as guidance, attempt to trace the blood flow by reflecting on where the gills and heart are located and the roles they play in blood flow."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "startNewNumber": true,
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>F</div>&nbsp;Urogenital System (3 steps)"
+                      }
+                    ],
+                    "text": "To view the urogenital system clearly, remove the perch’s digestive tract by cutting through the esophagus and the intestine at the <button class='glossary-text'>anus</button>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Carefully remove any membranes that obscure the urogenital organs."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Examine the kidneys, urinary bladder, <button class='glossary-text'>testes</button>, if male, (22) or <button class='glossary-text'>ovary</button>, if female (14)."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "orderedType": "1",
+                  "listType": "ordered",
+                  "text": [
+                    "Dispose of any excess fluids down the drain with the water running. Allow the faucet to run for about 30 seconds to dilute the fluids.",
+                    "Place the specimen in its storage bag and seal tightly. If you are finished working with your specimen, put the bag into an opaque trash bag for disposal in the household garbage.",
+                    "Rinse and carefully air dry the dissection tools, and return the materials to your dissection kit.",
+                    "Sanitize the workspace with isopropyl alcohol (or other non-bleach disinfectant) and paper towels. If this is insufficient for removing grease during cleanup, use soap and water, followed by more alcohol or disinfectant."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Biology_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "portrait"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1A Step 1 Photo",
+                "text": "Insert the photo of the specimen’s external anatomy. The following structures should be labeled: <ul style='column-count: 2; column-gap: 30px;'><li>Anal fin</li><li>Caudal fin</li><li>Dorsal fin</li><li>Eye</li><li>Lateral line </li><li>Nare</li><li>Operculum</li><li>Pectoral fin</li><li>Pelvic fin </li><li>Scales</li><li>Urogenital opening</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1B Step 4 Photo ",
+                "text": "Insert the photo of the specimen’s musculature.  The skin should be removed from both sides of the perch from the junction of the head and trunk, to the edge of the caudal fin."
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1C Step 1 Photo",
+                "text": "Insert the photo of the specimen’s gill structures.  The following structures should be labeled:<ul><li>Gill rakers</li><li>Gill arch</li><li>Gill filaments</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1D Step 3 Photos ",
+                "text": "Insert the photo(s) of the specimen’s visceral organs. The following structures should be labeled. You may upload a maximum of 2 photos for this step.<ul><li>Liver</li><li>Ovary (female) or testes (male)</li><li>Spleen</li><li>Swim bladder</li><li>Stomach</li><li>Intestine</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": ""
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1E Step 1 Photo",
+                "text": "Insert the photo of the specimen’s heart within the body cavity. The heart should be labeled."
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6328268321112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580191/580191_Bio_fig_001.svg",
+        "content": "Figure 1. Tetrapod phylogenetic tree",
+        "scrollImg": true,
+        "altText": "Figure 1: A phylogenetic tree of tetrapods",
+        "maxWidth": "500px"
+      },
+      {
+        "type": "DataTable",
+        "thumbnailSrc": "core/Table_icon.svg",
+        "isResource": true,
+        "allowClick": true,
+        "title": "Table 1.",
+        "tableWidth": "620px",
+        "content": "Table 1. Anatomical terms",
+        "headerHidden": true,
+        "header": [
+          { "text": "", "colWidth": "30" },
+          { "text": "", "colWidth": "70%" }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "color": "#6b6b6b",
+              "align": "center",
+              "text": "<span style='color:white; font-weight: 600;'>Common Anatomical Terms</span>",
+              "hoverText": "Common Anatomical Terms",
+              "colspan": "2"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "color": "#6b6b6b",
+              "align": "center",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='color:white; font-weight: 600;'>Direction or Plane</span>",
+              "hoverText": "Direction or Plane"
+            },
+            {
+              "type": "text",
+              "color": "#6b6b6b",
+              "align": "center",
+              "text": "<span style='color:white; font-weight: 600;'>Definition</span>",
+              "hoverText": "Definition"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Superior</span>",
+              "hoverText": "Superior"
+            },
+            {
+              "type": "text",
+              "text": "Above, toward the head"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Inferior</span>",
+              "hoverText": "Inferior"
+            },
+            {
+              "type": "text",
+              "text": "Below, toward the tail"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Anterior</span>",
+              "hoverText": "Anterior"
+            },
+            {
+              "type": "text",
+              "text": "Front"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Posterior</span>",
+              "hoverText": "Posterior"
+            },
+            {
+              "type": "text",
+              "text": "Back"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Lateral</span>",
+              "hoverText": "Lateral"
+            },
+            {
+              "type": "text",
+              "text": "Toward the right or left side"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Medial</span>",
+              "hoverText": "Medial"
+            },
+            {
+              "type": "text",
+              "text": "Toward the midline"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Proximal</span>",
+              "hoverText": "Proximal"
+            },
+            {
+              "type": "text",
+              "text": "Near or toward a point of reference or attachment"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Distal</span>",
+              "hoverText": "Distal"
+            },
+            {
+              "type": "text",
+              "text": "Away from a point of reference, usually the attachment point"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Dorsal</span>",
+              "hoverText": "Dorsal"
+            },
+            {
+              "type": "text",
+              "text": "Toward the back"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Ventral</span>",
+              "hoverText": "Ventral"
+            },
+            {
+              "type": "text",
+              "text": "Toward the abdomen"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Cranial</span>",
+              "hoverText": "Cranial"
+            },
+            {
+              "type": "text",
+              "text": "Toward the head"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Caudal</span>",
+              "hoverText": "Caudal"
+            },
+            {
+              "type": "text",
+              "text": "Away from the head"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Superficial</span>",
+              "hoverText": "Superficial"
+            },
+            {
+              "type": "text",
+              "text": "Toward or along the surface"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Deep</span>",
+              "hoverText": "Deep"
+            },
+            {
+              "type": "text",
+              "text": "A significant distance below the surface"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Rostral</span>",
+              "hoverText": "Rostral"
+            },
+            {
+              "type": "text",
+              "text": "Toward the nose or mouth"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Sagittal plane</span>",
+              "hoverText": "Sagittal plane"
+            },
+            {
+              "type": "text",
+              "text": "Divides the body into longitudinal left and right portions"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Midsagittal plane</span>",
+              "hoverText": "Midsagittal plane"
+            },
+            {
+              "type": "text",
+              "text": "Divides the body into equal left and right halves; often referred to as the midline or median plane"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Transverse plane</span>",
+              "hoverText": "Transverse plane"
+            },
+            {
+              "type": "text",
+              "text": "Perpendicular to the sagittal plane; produces cross-sections"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Frontal plane</span>",
+              "hoverText": "Frontal plane"
+            },
+            {
+              "type": "text",
+              "text": "Divides the body into dorsal and ventral portions"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Dextral</span>",
+              "hoverText": "Dextral"
+            },
+            {
+              "type": "text",
+              "text": "Toward the specimen’s right"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "<span style='font-weight: 600;'>Sinistral</span>",
+              "hoverText": "Sinistral"
+            },
+            {
+              "type": "text",
+              "text": "Toward the specimen’s left"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580191/580191_Bio_fig_002.svg",
+        "content": "Figure 2. Circulatory system of perch",
+        "scrollImg": true,
+        "altText": "Figure 2: A lateral view of the perch, with labels for the arteries (colored red), veins (colored blue), capillaries, kidney, liver, and heart anatomy.",
+        "maxWidth": "500px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580191/580191_Bio_ED_001.svg",
+        "content": "Experimental Design Diagram",
+        "scrollImg": true,
+        "altText": "A map describing the procedural workflow of this investigation. To prepare, set up your work area and dissection tools. For the activity, locate and identify the external structures of the intact specimen. Then, remove the skin from the specimen, and locate and identify the structures of the muscular system. Next, expose the specimen’s gills, and locate and identify the structures of the respiratory system. Then, cut open the specimen’s body wall, and locate and identify the structures of the digestive and circulatory systems. Finally, remove the specimen’s digestive tract, and locate and identify the structures of the urogenital system.",
+        "maxWidth": "1202px"
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "http://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=5170128655001",
+        "content": "Using a Scalpel"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580191/580191_Bio_fig_003.svg",
+        "content": "Figure 3. Myotomes of dissected perch",
+        "scrollImg": true,
+        "altText": "Figure 3: Left lateral view of a preserved perch, with the myotomes labeled.",
+        "maxWidth": "500px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580191/580191_Bio_fig_004.svg",
+        "content": "Figure 4. Labeled perch gills ",
+        "scrollImg": true,
+        "altText": "Figure 4: Close up view of a preserved perch, with the gills’ rakers, arches and filaments labeled.",
+        "maxWidth": "500px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580191/580191_Bio_fig_005.svg",
+        "content": "Figure 5. Activity 1D incision diagram",
+        "scrollImg": true,
+        "altText": "Figure 5: Black and white sketch of a perch (left lateral view) with a dotted line starting near the anal fin and continuing up, going towards the gills, and back around, ending at the anal fin.",
+        "maxWidth": "500px"
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Actinopterygii",
+        "content": "A subclass of bony fish characterized by having fins with rays"
+      },
+      {
+        "title": "Anal fin",
+        "content": "A median unpaired fin on the lower posterior part of the body behind the vent and sometimes confluent with the caudal fin"
+      },
+      {
+        "title": "Anterior",
+        "content": "Front"
+      },
+      {
+        "title": "Anus",
+        "content": "The orifice by which waste from the large intestine exits the body"
+      },
+      {
+        "title": "Caudal",
+        "content": "Away from the head"
+      },
+      {
+        "title": "Caudal fin",
+        "content": "The tail fin"
+      },
+      {
+        "title": "Cerebrum",
+        "content": "The part of the brain that controls voluntary movements, thinking, and problem solving"
+      },
+      {
+        "title": "Coelom",
+        "content": "The body cavity that houses the internal organs"
+      },
+      {
+        "title": "Cranial",
+        "content": "Toward the head"
+      },
+      {
+        "title": "Deep",
+        "content": "A significant distance below the surface"
+      },
+      {
+        "title": "Dextral",
+        "content": "Toward the speciman's right"
+      },
+      {
+        "title": "Diencephalon",
+        "content": "Part of the brain that controls hormone production and homeostasis"
+      },
+      {
+        "title": "Distal",
+        "content": "Away from a point of reference, usually the attachment point"
+      },
+      {
+        "title": "Dorsal",
+        "content": "Toward the back"
+      },
+      {
+        "title": "Dorsal fin",
+        "content": "A fin along the middle of the back of a fish"
+      },
+      {
+        "title": "Eyes",
+        "content": "A pair of sensory structures capable of receiving images"
+      },
+      {
+        "title": "Frontal plane",
+        "content": "Divides the body into dorsal and ventral portions"
+      },
+      {
+        "title": "Gills",
+        "content": "The resipratory organ that transports oxygen from water to the cardiovascular system"
+      },
+      {
+        "title": "Heart",
+        "content": "The hollow muscular organ that pumps blood throughout the body"
+      },
+      {
+        "title": "Inferior",
+        "content": "Below, toward the tail"
+      },
+      {
+        "title": "Large intestine",
+        "content": "The digestive system organ that carries waste from the small intestine to the anus"
+      },
+      {
+        "title": "Lateral",
+        "content": "Toward the right or left side"
+      },
+      {
+        "title": "Lateral line",
+        "content": "A specialized sense organ used to detect vibrations, current direction, pressure, and temperature"
+      },
+      {
+        "title": "Liver",
+        "content": "A large organ that sits on the right side of the belly and performs many important functions including removes toxins, maintaining blood sugar levels, and regulating blood clotting"
+      },
+      {
+        "title": "Medial",
+        "content": "Toward the midline"
+      },
+      {
+        "title": "Mesencephalon",
+        "content": "The midbrain; it consists of the optic lobes"
+      },
+      {
+        "title": "Midsagittal plane",
+        "content": "Divides the body into equal left and right halves; often referred to as the midline or median plane"
+      },
+      {
+        "title": "Mouth",
+        "content": "The orifice through which food and air enter the body; also called the oral cavity"
+      },
+      {
+        "title": "Myotome",
+        "content": "A large, v-shaped muscle group that contract to aid in bending a fish's body while swimming"
+      },
+      {
+        "title": "Nares",
+        "content": "Nasal openings"
+      },
+      {
+        "title": "Operculum",
+        "content": "The bony shield that protects a fish's gills and allows water to pass"
+      },
+      {
+        "title": "Osteichthyes",
+        "content": "A class of fish that includes those with a bony skeleton"
+      },
+      {
+        "title": "Ovary",
+        "content": "The female gonad that produces and stores eggs"
+      },
+      {
+        "title": "Oviparous",
+        "content": "Describes an organism that produces young by means of eggs that are hatched after they have been laid by the parent"
+      },
+      {
+        "title": "Paraphyletic",
+        "content": "Describes a taxonomic group descended from a common evolutionary ancestor or ancestral group, but which does not include all the descendent group"
+      },
+      {
+        "title": "Pectoral fins",
+        "content": "A pair of fins situated on each side of the body just behind the fish's head"
+      },
+      {
+        "title": "Pelvic fins",
+        "content": "A pair of fins situated on the underside of a fish's body"
+      },
+      {
+        "title": "Pituitary gland",
+        "content": "The endocrine gland on the ventral side of the brain that secretes and regulates hormones"
+      },
+      {
+        "title": "Posterior",
+        "content": "Back"
+      },
+      {
+        "title": "Proximal",
+        "content": "Near or toward a point of reference or attachment"
+      },
+      {
+        "title": "Pyloric caeca",
+        "content": "Three short sacs that function in both digesting and nutrient absorption"
+      },
+      {
+        "title": "Rostral",
+        "content": "Toward the nose or mouth"
+      },
+      {
+        "title": "Sagittal plane",
+        "content": "Divides the body into longitudinal left and right portions"
+      },
+      {
+        "title": "Sarcopterygii",
+        "content": "A subclass of bony fish that are known as lobe-finned fish"
+      },
+      {
+        "title": "Scales",
+        "content": "A type of body covering that provides a protective barrier for the skin"
+      },
+      {
+        "title": "Sinistral",
+        "content": "Toward the speciman's left"
+      },
+      {
+        "title": "Small intestine",
+        "content": "The digestive system organ after the stomach where food is further digested and nutrients are absorbed"
+      },
+      {
+        "title": "Spleen",
+        "content": "The vascular organ that filters blood, produces white blood cells, and functions in immunity"
+      },
+      {
+        "title": "Stomach",
+        "content": "The muscular organ in the digestive system between the esophagus and small intestine"
+      },
+      {
+        "title": "Superficial",
+        "content": "Toward or along the surface"
+      },
+      {
+        "title": "Superior",
+        "content": "Above, toward the head"
+      },
+      {
+        "title": "Swim bladder",
+        "content": "An inflatable organ that allows fish to maintain buoyancy"
+      },
+      {
+        "title": "Telencephalon",
+        "content": "The forebrain; it includes the cerebral hemispheres and olfactory lobes"
+      },
+      {
+        "title": "Testes",
+        "content": "The male gonads that produce the hormone testosterone and sperm (the male gametes)"
+      },
+      {
+        "title": "Transverse plane",
+        "content": "Perpendicular to the sagittal plane; produces cross-sections"
+      },
+      {
+        "title": "Urogenital opening",
+        "content": "The opening by which both urine and sperm exit the body; it is located at the tip of the penis"
+      },
+      {
+        "title": "Ventral",
+        "content": "Toward the abdomen"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

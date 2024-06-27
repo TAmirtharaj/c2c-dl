@@ -1,0 +1,2585 @@
+{
+  "locked": true,
+  "courseTitle": "Molar Mass by Freezing Point Depression",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Chemistry_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Chemistry_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Chemistry",
+                "titleName2": "Molar Mass by Freezing Point Depression",
+                "images": {
+                  "logo": "core/Chemistry_subject_icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "waterMark": true,
+              "template": "OverView",
+              "pageTitle":"Overview",
+              "showPageTitle":true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this lab you will determine the molar mass of an organic solute using freezing point depression data for a solvent. Given the actual value for the compound’s molar mass, the percentage error will be determined."
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses/580332/580332_TimeRequirement.svg",
+                  "imgDivWidth": "520px",
+                  "desc": "Preparation - 15 minutes\nActivity 1: Freezing Point of Pure Lauric Acid - 20 minutes\nActivity 2: Freezing Point of a Lauric Acid/Benzoic Acid Mixture - 40 minutes\nData Analysis - 30 minutes",
+                  "altText": "Preparation - 15 minutes\nActivity 1: Freezing Point of Pure Lauric Acid - 20 minutes\nActivity 2: Freezing Point of a Lauric Acid/Benzoic Acid Mixture - 40 minutes\nData Analysis - 30 minutes",
+                  "maxWidth": "650px"
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Water",
+                    "Paper towels",
+                    "Stove or microwave",
+                    "Pot, saucepan, or microwavable container large enough to hold 300 mL (10 oz) of water",
+                    "Oven mitt or pot holder",
+                    "Timer, stopwatch, or cell phone stopwatch",
+                    "Hard-sided secondary container"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Overview (cont... )",
+              "pageTitle": "Overview (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Overview Video: Molar Mass by Freezing Point Depression"
+                },
+                {
+                  "type": "Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses/580332/580332_VideoIcone.svg",
+                  "desc": "OverView Video",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6312062295112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Determine the freezing point of a substance.",
+                    "Determine the change in freezing point between a pure solvent and a solution of that solvent.",
+                    "Calculate the <button class='glossary-text'>molality</button> of the solute in solution.",
+                    "Calculate the theoretical and the experimental molar mass of the solute.",
+                    "Calculate the percent error of the experimental molar mass."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Salting the roads is a customary practice when impending wintry weather is looming. The reason this process has lingered for so long is freezing point depression. While pure water freezes at 0&nbsp;°C, when mixed with salt its freezing point drops well below zero and can assist with avoiding ice on roads or walkways. Another, more delectable, example of this concept is ice cream and sugar. Water is a large component of ice cream; while not directly added, it is the main component in the milk or cream that is used. The chemistry comes when sugar is added to the mixture. Just as salt does with water on roads and walkways, sugar dissolves in the water found in milk or cream. The fact that sugar dissolves is important as this allows it to find its way in between water molecules and prevents them from making an organized, crystalline pattern that we would recognize as ice. One may think that the fat in the cream or milk would behave in much the same way, but the fat does not dissolve in water. As a result, it cannot get in the way of crystalline formation on a molecular level."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580332/580332_whyShouldICare.svg",
+                  "desc": "Two waffle cones with scoops of ice cream held up in front of a shop window.",
+                  "altText": "Two waffle cones with scoops of ice cream held up in front of a shop window.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Adding a solute to a solvent elevates the solvent’s boiling point and reduces its freezing point. This change is proportional to the number of solute particles dissolved in the solvent. It is the number of solute particles and not the compound identity that determines the boiling point elevation and freezing point depression magnitude. Ionic compounds such as sodium chloride (NaCl) and calcium chloride (CaCl<span class=bodySubscript>2</span>) change the boiling point and freezing point more than molecular compounds because they dissociate into two or more individual particles when dissolved. For example, when dissolved in water one mole of NaCl dissociates into two moles of particles: one mole of Na<span class=bodySupscript>+</span> ions and one mole of Cl<span class=bodySupscript>-</span> ions. One mole of CaCl<span class=bodySubscript>2</span> will dissociate into three moles of particles: one mole of Ca<span class=bodySupscript>2+</span> ions and two moles of Cl<span class=bodySupscript>-</span> ions. This is why calcium chloride is more effective for deicing highways than sodium chloride. It decreases the freezing point of water further, inducing melting at lower temperatures."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<button class='glossary-text'>Colligative properties</button> are properties based solely on the number of solute particles and not their identity. The colligative properties of antifreeze in water allow it to protect a car engine from extreme heat and cold. Antifreeze elevates the boiling point of a car’s cooling system water, reducing the risk that the engine will overheat. It also lowers its freezing point, reducing the risk of cracking the engine block from ice formation during the winter."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What are colligative properties?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "properties based on the number of solute particles and not their identity",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "properties based on the intermolecular forces between molecules",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "properties based on the number of chemical bonds between atoms in a molecule",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "properties based on the types of chemical bonds between atoms in a molecule",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "properties based on the identity of solute particles and not their number",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Colligative properties are properties based solely on the number of solute particles and not their identity."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which is the best example of a colligative property?  ",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Pasta water boils at a higher temperature with the addition of table salt.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Ice cream tastes better with the addition of table salt to the recipe.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Table sugar dissolves faster in a warm cup of tea than a cold cup of tea.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Ice cubes become cloudy when made from cold water rather than warm water.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Calcium chloride becomes a liquid at extremely high temperatures.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Adding a solute to a solvent elevates the solvent’s boiling point and reduces its freezing point. So, the addition of table salt (NaCl) to water will cause it to boil at a higher temperature than distilled water."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Colligative properties are properties based on quantity rather than identity. For example, adding a solute to a solvent elevates the solvent’s boiling point and reduces its freezing point. This change is proportional to the number of solute particles dissolved in the solvent. It is the number of solute particles and not the compound identity that determines the boiling point elevation and freezing point depression magnitude. Ionic compounds such as sodium chloride (NaCl) and calcium chloride (CaCl<span class=bodySubscript>2</span>) change the boiling point and freezing point more than molecular compounds because they dissociate into two or more individual particles when dissolved."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Colligative properties are properties based on quantity rather than identity. For example, adding a solute to a solvent elevates the solvent’s boiling point and reduces its freezing point. This change is proportional to the number of solute particles dissolved in the solvent. It is the number of solute particles and not the compound identity that determines the boiling point elevation and freezing point depression magnitude. Ionic compounds such as sodium chloride (NaCl) and calcium chloride (CaCl<span class=bodySubscript>2</span>) change the boiling point and freezing point more than molecular compounds because they dissociate into two or more individual particles when dissolved."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The magnitude of a solution’s boiling point elevation and freezing point depression is the product of its <button class='glossary-text'>molality (m)</button> and the solvent’s molal boiling point elevation constant (<button class='glossary-text'>K<span class=bodySubscript> b</span></button> ) or molal freezing point depression constant (<button class='glossary-text'>K<span class=bodySubscript> f</span></button> ). Molality is the number of moles of solute per kilogram of solvent. The boiling point elevation and freezing point depression constants depend on the solvent alone.<span class=bodyParaLineBreak>For example, water’s boiling point elevation constant (K<span class=bodySubscript> b</span> ) is 0.51&nbsp;°C • kg/mol, and its molal freezing point depression constant (K<span class=bodySubscript> f</span> ) is 1.86&nbsp;°C • kg/mol. This means that for every mole of solute dissolved in one kilogram of water, the boiling point will be elevated 0.51&nbsp;°C and the freezing point will be lowered 1.86&nbsp;°C. For molecular compounds that do not dissociate, the relationship is shown by the following two equations:<span class=bodyParaLineBreak>(1) ΔT<span class=bodySubscript>b</span> = mK<span class=bodySubscript> b</span><span class=bodyParaLineBreak>(2) ΔT<span class=bodySubscript>f</span> = mK<span class=bodySubscript> f</span></span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Where ΔT<span class=bodySubscript>b</span> is the change in boiling point between the solvent and the solution, and ΔT<span class=bodySubscript>f</span> is the change in freezing point between the solvent and the solution.<span class=bodyParaLineBreak>For ionic compounds that can dissociate into two or more particles, the equations are multiplied by a factor (<span class=bodyFontBold>i</span>), which represents the total number of ion moles that the compound dissociates into. For example, CaCl<span class=bodySubscript>2</span> has an <span class=bodyFontBold>i</span>&nbsp;=&nbsp;3."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which statement is true regarding boiling point elevation and freezing point depression constants?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "They are dependent on the solvent only.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "They are dependent on the solvent and the solute.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "They are dependent on the number of ion moles a solute dissociates into.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "They are dependent on the molality of the solution.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "They are dependent on the solute only.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The boiling point elevation and freezing point depression constants depend on the solvent alone. For example, water’s boiling point elevation constant (K<span class=bodySubscript>b</span>) is 0.51&nbsp;°C•kg/mol, and its molal freezing point depression constant (K<span class=bodySubscript>f</span>) is 1.86&nbsp;°C•kg/mol. "
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following values are required to calculate the magnitude of a solution’s freezing point depression?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "the number of ion moles of solute, molality of the solution, freezing point depression constant",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "the molality of the solution and the molar mass of the solute",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "the temperature of the solvent, the molality of the solution, boiling point elevation constant",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "molality of the solution and the number of ion moles of solute",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "molarity of the solution and the freezing point depression constant",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "ΔT<span class=bodySubscript>f</span> = i(mK<span class=bodySubscript>f</span>), where ΔT<span class=bodySubscript>f</span> is the change in freezing point between the solvent and the solution, i is the total number of ion moles the solute dissociates into, m is the molality of the solution, and K<span class=bodySubscript>f</span> is the freezing point depression constant."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "The magnitude of a solution’s boiling point elevation and freezing point depression is the product of its molality (m) and the solvent’s molal boiling point elevation constant (K<span class=bodySubscript>b</span>) or molal freezing point depression constant (K<span class=bodySubscript>f</span>). Molality is the number of moles of solute per kilogram of solvent. The boiling point elevation and freezing point depression constants depend on the solvent alone.<span class=bodyParaLineBreak>For example, water’s boiling point elevation constant (K<span class=bodySubscript>b</span>) is 0.51&nbsp;°C•kg/mol, and its molal freezing point depression constant (K<span class=bodySubscript>f</span>) is 1.86&nbsp;°C•kg/mol. This means that for every mole of solute dissolved in one kilogram of water, the boiling point will be elevated 0.51&nbsp;°C and the freezing point will be lowered 1.86&nbsp;°C. For ionic compounds that can dissociate into two or more particles, such calculations are multiplied by a factor (i), which represents the total number of ion moles that the compound dissociates into. For example, CaCl<span class=bodySubscript>2</span> has an i = 3."
+                },
+                {
+                  "title": "Hint",
+                  "body": "The magnitude of a solution’s boiling point elevation and freezing point depression is the product of its molality (m) and the solvent’s molal boiling point elevation constant (K<span class=bodySubscript>b</span>) or molal freezing point depression constant (K<span class=bodySubscript>f</span>). Molality is the number of moles of solute per kilogram of solvent. The boiling point elevation and freezing point depression constants depend on the solvent alone.<span class=bodyParaLineBreak>For example, water’s boiling point elevation constant (K<span class=bodySubscript>b</span>) is 0.51&nbsp;°C•kg/mol, and its molal freezing point depression constant (K<span class=bodySubscript>f</span>) is 1.86&nbsp;°C•kg/mol. This means that for every mole of solute dissolved in one kilogram of water, the boiling point will be elevated 0.51&nbsp;°C and the freezing point will be lowered 1.86&nbsp;°C. For ionic compounds that can dissociate into two or more particles, such calculations are multiplied by a factor (i), which represents the total number of ion moles that the compound dissociates into. For example, CaCl<span class=bodySubscript>2</span> has an i = 3."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Because boiling point elevation and freezing point depression depend on the amount of solute added to a solvent, both properties can be used to determine the molar mass of a solute. In this lab you will depress the freezing point of a solvent by adding a given mass of non-ionizing molecular solute. Rearranging equation (2) and solving for the solute’s <button class='glossary-text'>molality</button> results in the following equation (3).<span class=bodyParaLineBreak>(3) <span class=bodyFontBold>m</span> = <span class=bodyFraction><span>ΔT<span class=bodySubscript>f</span></span><span class=symbol>/</span><span class=bottom><button class='glossary-text'>K<span class=bodySubscript> f</span></button></span></span><span class=bodyParaLineBreak>If the solvent mass is known, then the moles of solute can be calculated using the molality equation (4) and rearranging it to solve for moles of solute, equation (5).<span class=bodyParaLineBreak>(4) <span class=bodyFontBold>m</span> = <span class=bodyFraction><span>moles of solute</span><span class=symbol>/</span><span class=bottom>kg of solvent</span></span><span class=bodyParaLineBreak>(5) moles of solute = <span class=bodyFontBold>m</span> × kg of solvent"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "If the solute mass is known, then the solute molar mass can be calculated using equation (6):<span class=bodyParaLineBreak>(6) molar mass = <span class=bodyFraction><span>g of solute</span><span class=symbol>/</span><span class=bottom>moles of solute</span></span>"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 3",
+              "pageTitle": "Knowledge Check Question 3",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 2,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following equations will you use to solve for molality in this investigation?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "m = <span class=bodyFraction><span>ΔT<span class=bodySubscript>f</span></span><span class=symbol>/</span><span class=bottom>K<span class=bodySubscript> f</span></span></span>",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "m = <span class=bodyFraction><span>moles of solute</span><span class=symbol>/</span><span class=bottom>kg of solvent</span></span>",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "m = ΔT<span class=bodySubscript>f</span>",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "m = <span class=bodyFraction><span>g of solute</span><span class=symbol>/</span><span class=bottom>moles of solute</span></span>",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "m = <span class=bodyFraction><span>M</span><span class=symbol>/</span><span class=bottom>i</span></span>",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "In this investigation, the molality equation m = <span class=bodyFraction><span>ΔT<span class=bodySubscript>f</span></span><span class=symbol>/</span><span class=bottom>K<span class=bodySubscript>f</span></span></span> is derived from the equation ΔT<span class=bodySubscript>f</span> = mK<span class=bodySubscript>f</span> used to calculate the magnitude of change in the freezing point of a solution."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following describes the ultimate purpose of depressing the freezing point of a solvent with a molecular solute in this investigation?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "to determine the molar mass of the solute",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "to determine the molality of the solution",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "to determine the freezing point depression constant of the solvent",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "to determine the ionization factor of the solute",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "to determine the kilograms of solvent",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Because freezing point depression depends on the amount of solute added to a solvent, this property can be used to determine the molar mass of a solute. Depressing the freezing point of a solvent with a molecular solute will allow you to calculate the molality of the solution, which in turn will allow you to calculate the molar mass of the solute."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "In this lab you will depress the freezing point of a solvent by adding a given mass of non-ionizing molecular solute. Rearranging the equation ΔT<span class=bodySubscript>f</span> = mK<span class=bodySubscript>f</span> and solving for the solute’s molality results in the equation m = <span class=bodyFraction><span>ΔT<span class=bodySubscript>f</span></span><span class=symbol>/</span><span class=bottom>K<span class=bodySubscript>f</span></span></span>. If the solvent mass is known, then the moles of solute can be calculated using the definition of molality (moles of solvent/kg of solvent) and rearranging it to solve for moles of solute, equation. If the solute mass is known, then the solute molar mass can be calculated."
+                },
+                {
+                  "title": "Hint",
+                  "body": "In this lab you will depress the freezing point of a solvent by adding a given mass of non-ionizing molecular solute. Rearranging the equation ΔT<span class=bodySubscript>f</span> = mK<span class=bodySubscript>f</span> and solving for the solute’s molality results in the equation m = <span class=bodyFraction><span>ΔT<span class=bodySubscript>f</span></span><span class=symbol>/</span><span class=bottom>K<span class=bodySubscript>f</span></span></span>. If the solvent mass is known, then the moles of solute can be calculated using the definition of molality (moles of solvent/kg of solvent) and rearranging it to solve for moles of solute, equation. If the solute mass is known, then the solute molar mass can be calculated."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "desc": "This map describes the procedural workflow for this investigation. You will start by pre-heating a water bath. In Activity 1, you will melt a known mass of lauric acid in a hot water bath and record its temperature as it cools to determine its freezing point. In Activity 2, you will determine the freezing point of a mixture of lauric acid and benzoic acid. You will use this data to determine the molar mass of benzoic acid. ",
+
+                  "altText": "This map describes the procedural workflow for this investigation. You will start by pre-heating a water bath. In Activity 1, you will melt a known mass of lauric acid in a hot water bath and record its temperature as it cools to determine its freezing point. In Activity 2, you will determine the freezing point of a mixture of lauric acid and benzoic acid. You will use this data to determine the molar mass of benzoic acid. ",
+                  "containerType": "fullContainer",
+                  "image": "courses/580332/580332_ED.svg",
+                  "imgDivWidth": "80%",
+                  "imgDivWidthForTablet": {
+                    "P": "90%",
+                    "L": "90%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "scrollImg": true,
+                  "maxWidth": "1200px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span class=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Lauric acid, 12 g",
+                          "image": "courses/580332/580332_material_001.svg",
+                          "desc": "Plastic bottle with black cap containing 12 grams of lauric acid",
+                          "altText": "Plastic bottle with black cap containing 12 grams of lauric acid"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Benzoic acid, 2 g",
+                          "image": "courses/580332/580332_material_002.svg",
+                          "desc": "Plastic bottle with black cap containing 2 grams of benzoic acid",
+                          "altText": "Plastic bottle with black cap containing 2 grams of benzoic acid"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "4 Glass test tubes, 16 × 125 mm",
+                          "image": "courses/580332/580332_material_003.svg",
+                          "desc": "Glass test tube 16 x 125 mm",
+                          "altText": "Glass test tube 16 x 125 mm"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from the equipment kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "2 Weigh boats",
+                          "image": "courses/580332/580332_material_004.svg",
+                          "desc": "White plastic weigh boat",
+                          "altText": "White plastic weigh boat"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Electronic balance",
+                          "image": "courses/580332/580332_material_005.svg",
+                          "desc": "Electronic balance",
+                          "altText": "Electronic balance"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Thermometer",
+                          "image": "courses/580332/580332_material_006.svg",
+                          "desc": "Glass alcohol thermometer with red bulb",
+                          "altText": "Glass alcohol thermometer with red bulb"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Beaker, 250 mL",
+                          "image": "courses/580332/580332_material_007.svg",
+                          "desc": "Clear plastic 250-mL beaker",
+                          "altText": "Clear plastic 250-mL beaker"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Test tube rack",
+                          "image": "courses/580332/580332_material_008.svg",
+                          "desc": "White cardboard test tube rack",
+                          "altText": "White cardboard test tube rack"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "2 Plastic spoons",
+                          "image": "courses/580332/580332_material_009.svg",
+                          "desc": "White plastic spoon",
+                          "altText": "White plastic spoon"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Grease pencil",
+                          "image": "courses/580332/580332_material_010.svg",
+                          "desc": "Wax pencil",
+                          "altText": "Wax pencil"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [
+                            "Water",
+                            "Paper towels",
+                            "Stove or microwave",
+                            "Pot, saucepan, or microwavable container large enough to hold 300 mL (10 oz) of water",
+                            "Oven mitt or pot holder",
+                            "Timer, stopwatch, or cell phone stopwatch",
+                            "Hard-sided secondary container"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span class=bodyBoldSubHeading>Reorder Information: </span> <span class=bodyParaLineBreak><span class=bodyParaLineBreak>A replacement kit for Molar Mass by Freezing Point Depression (item number 580332) can be ordered from Carolina Biological Supply Company.<span class=bodyParaLineBreak><span class=bodyMediumSubHeading >Call:</span> 866-332-4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Goggles, gloves, and a lab apron are required at all times while conducting this investigation."
+                },
+                {
+                  "type": "Image",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "altText": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class=bodyParaLineBreak>Read all of the instructions for this laboratory activity before beginning. Follow the instructions closely and observe established laboratory safety practices, including the use of appropriate personal protective equipment (PPE) as described in the Safety and Procedure sections."
+                },
+                {
+                  "type": "PlainImage",
+                  "image": "core/Warning.svg",
+                  "text": "<span class=bodyFontBold>Lauric acid</span> can cause eye irritation.<br><span class=bodyFontBold>Benzoic acid</span> can cause respiratory irritation.",
+                  "imgWidth": "12%",
+                  "desc": "warning symbol",
+                  "altText": "warning symbol"
+                },
+                {
+                  "type": "PlainImage",
+                  "image": "core/Corrosion.svg",
+                  "text": "<span class=bodyFontBold>Benzoic acid</span> is corrosive and can cause serious eye damage.",
+                  "imgWidth": "12%",
+                  "desc": "corrosion symbol",
+                  "altText": "corrosion symbol"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Do not pour warm lauric acid or the lauric acid/benzoic acid solution down the sink. It will solidify and clog the drain. After completing all the activities, discard the test tubes and their contents in the trash. The chemicals provided are safe to discard in the trash."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "During the activity, water will be heated to near boiling temperatures. Handle with care to avoid burns."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Do not eat, drink, or chew gum while performing this activity. Wash your hands with soap and water before and after performing this activity. Clean up the work area with soap and water after completing this investigation. Keep pets and children away from lab materials and equipment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span class=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the freezing point depression (ΔT<span class=bodySubscript>f</span>) for 0.845 g of benzoic acid dissolved in 17.5 g of camphor? Camphor has a freezing point depression constant (K<span class=bodySubscript>f</span>) of 37.8&nbsp;°C•kg/mol. The molar mass of benzoic acid (C<span class=bodySubscript>7</span>H<span class=bodySubscript>6</span>O<span class=bodySubscript>2</span>) is 122 g/mol.",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "15.0&nbsp;°C",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "37.0&nbsp;°C",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "25.1&nbsp;°C",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "9.8&nbsp;°C",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "1.2&nbsp;°C",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "In this investigation, you will use the freezing point depression values of lauric acid and a lauric acid-benzoic acid mixture to ultimately calculate what value of benzoic acid?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "molar mass",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "freezing point",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "concentration",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "percent error",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "molecular weight",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes colligative properties?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "properties based on the number of solutes particles, not their identity",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "properties based on the orientation between bonded molecules",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "properties based on the surface area of the substance",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "properties based on the enthalpy of the system",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "properties based on the reactivity of the solute particles",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "The addition of sodium chloride to water will have what effect on the freezing point and boiling point of the water?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "freezing point decreases; boiling point increases",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "freezing point increases; boiling point decreases",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "freezing point and boiling point increase",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "freezing point and boiling point decrease",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "freezing point remains unchanged; boiling point increases",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "When disposing of the lauric acid provided in this investigation, which of the following warnings must you heed?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Do not pour warm lauric acid down the sink.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Do not dispose of lauric acid with household trash.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Do not mix excess lauric acid and benzoic acid together.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Do not allow warm lauric acid to resolidify in the test tubes.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Do not dispose of lauric acid without an intermediate container.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is a safety hazard associated with the benzoic acid provided in the lab kit for this investigation?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "It is corrosive and can cause serious eye damage.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "It is highly flammable.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "It is a mutagen and could impair fertility.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "It is a mild skin irritant.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "It will stain skin and clothing.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following steps should be taken before starting any of the activities in this investigation?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Heat tap water to approximately 80&nbsp;°C.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Melt the lauric acid in the microwave.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Calibrate the electronic balance using the known mass provided.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Create a 1 M benzoic acid solution.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Determine the volume of each glass test tube provided.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following compounds would lower the freezing point of water the most?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "calcium chloride (CaCl<span class=bodySubscript>2</span>)",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "sodium chloride (NaCl)",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "benzoic acid (C<span class=bodySubscript>7</span>H<span class=bodySubscript>6</span>O<span class=bodySubscript>2</span>)",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "table sugar (C<span class=bodySubscript>11</span>H<span class=bodySubscript>22</span>O<span class=bodySubscript>11</span>)",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "lithium chloride (LiCl)",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (4 steps)",
+              "pageTitle": "Preparation (4 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure",
+              "keyID": "preparation",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Read the procedure."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Obtain all materials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Select a clean work area."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Heat 300 mL (10 oz) of tap water to approximately 80&nbsp;°C. This can be performed on a stove in a pot or saucepan or in a microwave. If microwaving, use a microwave-safe container, and heat in one-minute intervals until the desired temperature is reached."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "<span class=bodyFontBold>Helpful Tips:</span><span class=bodyParaLineBreak><ul><li>The pocket scale has a four- to five-second delay when measuring quantities less than one gram. When adding small increments to the scale, wait for the readout to stop changing prior to adding additional chemicals.</li><li>The scale shuts off after one minute of inactivity. Be sure to record the mass measurements within this time frame.</li><li>Record the exact amount of lauric and benzoic acid used in each activity. The values provided are approximate. The mass of lauric and benzoic acid that is used is not important; however, the mass must be measured precisely and recorded.</li></ul>"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Chemistry_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will melt a known mass of lauric acid in a hot water bath and record its temperature as it cools to determine its freezing point."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "pageTitle": "<div class=order-list-text>A</div>&nbsp;Freezing Point of Pure Lauric Acid (16 steps)",
+              "keyID": "activity1",
+              "title": "<div class=order-list-text>A</div>&nbsp;Freezing Point of Pure Lauric Acid (16 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Label a weigh boat “lauric acid.” Place the boat on the scale and tare to 0.0 g by pressing the right-hand button."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using a plastic spoon, transfer approximately 3 g of lauric acid into the weigh boat. Use this spoon only for the lauric acid. Record the exact weight in <span class=bodyFontBold>Data Table 2</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Transfer the lauric acid from the weigh boat into the test tube."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "The best method for transferring a solid from a weigh boat into a test tube is to bend the opposite corners of the weigh boat making a funnel shape. Place one of the corners into the test tube and lightly tap the weigh boat to slide the chemical into the test tube. See Figure&nbsp;1."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses/580332/580332_fig_001.svg",
+                    "imgDivWidth": "352px",
+                    "maxWidth": "440px",
+                    "scrollImg": true,
+                    "desc": "Figure 1: Photo showing a folded weighing boat pouring lauric acid into a glass test tube",
+                    "altText": "Figure 1: Photo showing a folded weighing boat pouring lauric acid into a glass test tube"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the test tube with the lauric acid in the test tube rack."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Check the hot water to ensure it is approximately 80&nbsp;°C. Carefully pour the hot water into the 250-mL plastic beaker until it is nearly full. This is your hot water bath."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Insert the thermometer into the lauric acid test tube, and place the tube in the hot water bath."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Carefully tilt the test tube so that any lauric acid powder on the walls of the tube will be melted by the hot water. Do not let any water from the bath splash into the tube."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Keeping the test tube submerged with one hand, gently stir the solid lauric acid with the thermometer to speed its melting."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Once the solid lauric acid has melted completely, remove the test tube from the warm water and continue to stir gently to keep the temperature uniform as it cools."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Save the beaker of warm water for the end of this activity."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "image": "core/Clock.svg",
+                    "imgWidth": "4.5%",
+                    "style": {
+                      "marginBottom": "8px"
+                    },
+                    "text": "When the temperature reaches 65&nbsp;°C, start recording the temperature in <span class=bodyFontBold>Data Table 1</span> every 30 seconds using a timer.",
+                    "desc": "stopwatch symbol",
+                    "altText": "stopwatch symbol"
+                  },
+
+                  {
+                    "type": "Box",
+                    "text": "When the temperature reaches 65&nbsp;°C, that is considered 0.0 sec. Start the timer. This data measures the cooling curve of the lauric acid solvent."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "image": "core/Clock.svg",
+                    "imgWidth": "4.5%",
+                    "text": "Continue stirring and recording the temperature every 30 seconds until the temperature reading remains constant for four consecutive measurements. This is lauric acid’s freezing point.",
+                    "desc": "stopwatch symbol",
+                    "altText": "stopwatch symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "image": "core/TakeSnapshot.svg",
+                    "imgWidth": "4.5%",
+                    "text": "Take a photograph of the crystallizing lauric acid.",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the test tube back in the test tube rack."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Dip a paper towel in the warm water bath. Remove the thermometer from the test tube and wipe it down well with the wet paper towel to remove any lauric acid crystals. <span class=bodyFontBold>Do not pour the warm lauric acid down the drain of the sink. It will solidify and clog the pipe.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "If necessary, wash the thermometer with hot water to remove any remaining lauric acid crystals. The thermometer must be completely clean before proceeding to the next activity."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Chemistry_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will use a similar procedure to that of Activity 1 to determine the freezing point of a mixture of lauric acid and benzoic acid. You will then repeat the activity using a different mass of benzoic acid. Finally, you will use the data from Activities 1 and 2 to perform a series of calculations to determine the molar mass of benzoic acid."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "<div class=order-list-text>A</div>&nbsp;Freezing Point of a Lauric Acid/ Benzoic Acid Mixture (7 steps)",
+              "keyID": "activity2",
+              "pageTitle": "<div class=order-list-text>A</div>&nbsp;Freezing Point of a Lauric Acid/ Benzoic Acid Mixture (7 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the weigh boat labeled “lauric acid,” weigh 3 g of lauric acid, and place it in a new test tube (outlined in steps 1– 4 of Activity 1). Record the exact mass in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 2</span></span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Label another weigh boat “benzoic acid.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the boat on the scale and tare it. Use a clean spoon and weigh 0.4 g of benzoic acid. Record the exact mass in <span class=bodyFontBold>Data Table 2</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Add the 0.4 g of benzoic acid to the 3 g of lauric acid in the test tube."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Reheat the water to approximately 80&nbsp;°C"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "image": "core/Clock.svg",
+                    "imgWidth": "4.5%",
+                    "text": "Repeat steps 5 –17 outlined in Activity 1, and record the temperature every 30 seconds until the temperature remains constant for four consecutive readings. This will be the freezing point for the “lauric acid + 0.4 g benzoic acid” solution.",
+                    "desc": "stopwatch symbol",
+                    "altText": "stopwatch symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat Steps 1– 6 using 3.0 g lauric acid and 0.5 g benzoic acid."
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Calculations for Molar Mass of Benzoic Acid",
+          "pages": [
+            {
+              "title": "Calculations for Molar Mass of Benzoic Acid",
+              "pageTitle": "Calculations for Molar Mass of Benzoic Acid",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Use three significant figures for all the answers. Record the answers in <span class=bodyFontBold>Data Table 2</span>."
+                },
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                  "text": [
+                    "Calculate and record the freezing point depression, which is the difference in freezing point (ΔT<span class=bodySubscript>f</span> ) between the pure lauric acid and the lauric acid with benzoic acid added.",
+                    "Calculate and the record the <button class='glossary-text'>molality (m)</button> of benzoic acid. Benzoic acid is the solute and lauric acid, the solvent. The freezing point depression constant (<button class='glossary-text'>k<span class=bodySubscript>f</span></button>) for lauric acid is 3.90&nbsp;°C • kg/mol <span class=bodyFontBold>m</span> = ΔT<span class=bodySubscript>f</span> / k<span class=bodySubscript>f</span> .",
+                    "Calculate and record the moles of benzoic acid in the solvent. Remember to convert your mass of lauric acid to kilograms (1,000 grams per kilogram).<span class=bodyParaLineBreak>moles of benzoic acid = <span class=bodyFontBold>m</span> × kg of lauric acid",
+                    "Calculate and record the experimental benzoic acid molar mass.<br>molar mass of benzoic acid = grams benzoic acid/moles of benzoic acid",
+                    "Calculate and record the average experimental benzoic acid molar mass."
+                  ]
+                },
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                  "start": 6,
+                  "containerType": "rightContainer",
+                  "text": [
+                    "Calculate the percent error using the following equation, the accepted molar mass of benzoic acid is 122.12 g/mol:<span class=bodyParaLineBreak><span class=bodyFraction><span>accepted molar mass - experimental molar mass</span><span class=symbol>/</span><span class=bottom>accepted molar mass</span></span> × 100 = percent error"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                  "orderedType": "1",
+                  "start": "1",
+                  "text": [
+                    "Dispose of the weigh boats and spoons in the trash.",
+                    "Place the test tubes with their contents in the hard-sided secondary container; place the secondary container in the trash.",
+                    "<span class=bodyFontBold>Do not pour the warm lauric acid and benzoic acid down the drain of the sink. It will solidify and clog the pipe.</span>",
+                    "Rinse and dry the 250-mL beaker and thermometer. Return the thermometer to its holder.",
+                    "Clean and sanitize the workspace."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "waterMark": true,
+              "template": "Completion",
+              "pageTitle":"Thank you",
+              "showPageTitle":true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Chemistry_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2022 Carolina Biological Supply Company",
+      "pageSetting": "Landscape"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "DataTable1",
+            "sr": 0,
+            "tag": "div",
+            "width": "1000px",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activities 1 and 2"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 10,
+                "header": [
+                  {
+                    "text": "Time (minutes)",
+                    "colWidth": "25%"
+                  },
+                  {
+                    "text": "Temperature (°C) Pure Lauric Acid",
+                    "colWidth": "25%"
+                  },
+                  {
+                    "text": "Temperature (°C) Lauric Acid + 0.4 g Benzoic Acid",
+                    "colWidth": "25%"
+                  },
+                  {
+                    "text": "Temperature (°C) Lauric Acid + 0.5 g Benzoic Acid",
+                    "colWidth": "25%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "align": "left",
+                      "rowHeight": "58px",
+                      "text": "0.0"
+                    },
+                    {
+                      "type": "text",
+                      "align": "left",
+                      "text": "60.0"
+                    },
+                    {
+                      "type": "text",
+                      "align": "left",
+                      "text": "65.0"
+                    },
+                    {
+                      "type": "text",
+                      "align": "left",
+                      "text": "65.0"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "left",
+
+                      "text": "0.5"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "left",
+
+                      "text": "1.0"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "left",
+
+                      "text": "1.5"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "left",
+
+                      "text": "2.0"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "left",
+
+                      "text": "2.5"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "left",
+
+                      "text": "3.0"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "left",
+
+                      "text": "3.5"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "left",
+
+                      "text": "4.0"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "left",
+
+                      "text": "4.5"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "left",
+
+                      "text": "5.0"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "left",
+
+                      "text": "5.5"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "left",
+
+                      "text": "6.0"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "left",
+                      "text": "6.5"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "left",
+
+                      "text": "7.0"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "left",
+
+                      "text": "7.5"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "left",
+
+                      "text": "8.0"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Questions",
+        "textAreaId": "Question1",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question1",
+            "sr": 0,
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "Describe your observations during the four consecutive constant temperature readings. What observations were made after these readings? "
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "DataTable2",
+            "sr": 0,
+            "tag": "div",
+            "width": "1000px",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 2"
+              },
+              {
+                "type": "Plain",
+                "text": "Calculation directions for this data table are provided below."
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 20,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "25%"
+                  },
+                  {
+                    "text": "Pure Lauric Acid",
+                    "colWidth": "25%"
+                  },
+                  {
+                    "text": "Lauric Acid + 0.4 g Benzoic Acid",
+                    "colWidth": "25%"
+                  },
+                  {
+                    "text": "Lauric Acid + 0.5 g Benzoic Acid",
+                    "colWidth": "25%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span class=bodyFontBold>Mass of Lauric Acid (g)</span>",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span class=bodyFontBold>Mass of Benzoic Acid (g)</span>",
+                      "align": "left"
+                    },
+                    {
+                      "type": "text",
+                      "text": "0 g",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span class=bodyFontBold>Freezing Point (°C)</span>",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span class=bodyFontBold>Freezing Point Depression, ΔT<span class=bodySubscript>f</span></span>",
+                      "align": "left"
+                    },
+                    {
+                      "type": "text",
+                      "text": "",
+                      "color": "gray"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span class=bodyFontBold>Molality of Benzoic Acid in Lauric Acid</span>",
+                      "align": "left"
+                    },
+                    {
+                      "type": "text",
+                      "text": "",
+                      "color": "gray"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span class=bodyFontBold>Moles of Benzoic Acid</span>",
+                      "align": "left"
+                    },
+                    {
+                      "type": "text",
+                      "text": "",
+                      "color": "gray"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span class=bodyFontBold>Experimental Molar Mass of Benzoic Acid</span>",
+                      "align": "left"
+                    },
+                    {
+                      "type": "text",
+                      "text": "",
+                      "color": "gray"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span class=bodyFontBold>Average Molar Mass</span>",
+                      "align": "left"
+                    },
+                    {
+                      "type": "text",
+                      "text": "",
+                      "color": "gray"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span class=bodyFontBold>Percent Error</span>",
+                      "align": "left"
+                    },
+                    {
+                      "type": "text",
+                      "text": "",
+                      "color": "gray"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "info1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Calculations for Molar Mass of Benzoic Acid",
+                "text": "Use three significant figures for all the answers. Record the answers in Data Table 2.<span class=bodyParaLineBreak><ol><li>Calculate and record the freezing point depression, which is the difference in freezing point (ΔT<span class=bodySubscript>f</span> ) between the pure lauric acid and the lauric acid with benzoic acid added.</li><li>Calculate and the record the <button class='glossary-text'>molality (m)</button> of benzoic acid. Benzoic acid is the solute and lauric acid, the solvent. The freezing point depression constant (<button class='glossary-text'>k<span class=bodySubscript>f</span></button>) for lauric acid is 3.90&nbsp;°C • kg/mol <span class=bodyFontBold>m</span> = ΔT<span class=bodySubscript>f</span>/k<span class=bodySubscript>f</span>.</li><span class=bodyParaLineBreak><li>Calculate and record the moles of benzoic acid in the solvent. Remember to convert your mass of lauric acid to kilograms (1,000 grams per kilogram).<span class=bodyParaLineBreak>moles of benzoic acid = <span class=bodyFontBold>m</span> × kg of lauric acid<span class=bodyParaLineBreak></li><span class=bodyParaLineBreak><li>Calculate and record the experimental benzoic acid molar mass.<br>molar mass of benzoic acid = grams benzoic acid/moles of benzoic acid</li><span class=bodyParaLineBreak><li>Calculate and record the average experimental benzoic acid molar mass.</li><li>Calculate the percent error using the following equation, the accepted molar mass of benzoic acid is 122.12 g/mol:<span class=bodyParaLineBreak><span class=bodyFraction><span>accepted molar mass - experimental molar mass</span><span class=symbol>/</span><span class=bottom>accepted molar mass</span></span> × 100 = percent error</li></ol>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Questions",
+        "textAreaId": "Question2",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "sr": 0,
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "2",
+                "listType": "ordered",
+                "text": [
+                  "What are some possible sources of error in this experiment?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Step 13 Photo"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert the photo of lauric acid crystallizing in a test tube.<br>The following should be visible in this photo:<ul><li>The thermometer in the test tube</li><li>The crystallizing lauric acid</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580332/Periodic_Table.svg",
+        "content": "Periodic Table of the Elements",
+        "altText": "Periodic Table of the Elements",
+        "maxWidth": "2200px",
+        "scrollImg": true
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6312062295112",
+        "content": "Investigation overview"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580332/580332_ED.svg",
+        "content": "Experimental Design Diagram",
+        "altText": "This map describes the procedural workflow for this investigation. You will start by pre-heating a water bath. In Activity 1, you will melt a known mass of lauric acid in a hot water bath and record its temperature as it cools to determine its freezing point. In Activity 2, you will determine the freezing point of a mixture of lauric acid and benzoic acid. You will use this data to determine the molar mass of benzoic acid. ",
+        "scrollImg": true,
+        "maxWidth": "1200px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580332/580332_fig_001.svg",
+        "content": "Figure 1. Weigh boat-test tube transfer technique",
+        "altText": "Figure 1: Photo showing a folded weighing boat pouring lauric acid into a glass test tube",
+        "maxWidth": "440px",
+        "scrollImg": true
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Colligative properties",
+        "content": "Properties based solely on the number of solute particles and not their identity."
+      },
+      {
+        "title": "K<span class=bodySubscript>b</span>",
+        "content": "Solvent’s molal boiling point elevation constant."
+      },
+      {
+        "title": "K<span class=bodySubscript>f</span>",
+        "content": "Molal freezing point depression constant."
+      },
+      {
+        "title": "Molality (m)",
+        "content": "The number of moles of solute per kilogram of solvent."
+      }
+    ]
+  },
+  "info": {
+
+    "src": "core/Information-Initial.svg",
+
+    "hoverSrc": "core/Information-Hower.svg",
+
+    "resource": {
+
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+
+      "src": "core/resourceImage.svg"
+
+    },
+
+    "kc": {
+
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+
+    },
+
+    "kc-resource": {
+
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+
+      "src": "core/resourceImage.svg"
+
+    },
+
+    "procedure": {
+
+      "text": "You can track completion of each step by clicking on the step number."
+
+    },
+
+    "procedure-resource": {
+
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+
+      "src": "core/resourceImage.svg"
+
+    }
+
+  }
+}

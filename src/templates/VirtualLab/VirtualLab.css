@@ -1,0 +1,12 @@
+.key-comp-container {
+}
+/* Portrait iPad Normal*/
+@media only screen and (min-width: 768px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+/* Portrait iPad Normal*/
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .key-comp-container .image-text-comp-wrapper-right {
+    margin-right: -10%;
+    margin-top: 3%;
+  }
+}

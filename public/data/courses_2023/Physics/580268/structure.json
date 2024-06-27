@@ -1,0 +1,1583 @@
+{
+  "locked": true,
+  "courseTitle": "Electric Fields and Electric Potential",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Physics_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/bodyBookmark.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/TakeSnapshot.svg",
+    "core/disposalAndCleanupIcon.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Physics_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Physics",
+                "titleName2": "Electric Fields and Electric Potential",
+                "images": {
+                  "logo": "core/Physics_Subject_Icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "waterMark": true,
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, you will measure <button class='glossary-text'>electric potentials</button> in a <span style='whiteSpace: nowrap'>two-dimensional</span> system and draw potential lines from those measurements."
+                },
+                {
+                  "type": "List",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Several pieces of cardboard, 9.5 x 11\"",
+                    "Colored pencils, pens",
+                    "Paper clips"
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Physics/580268/580268_Physics_Time-Requirement.svg",
+                  "altText": "Preparation – 15 minutes \nActivity 1: Electric Fields and Electric Potential\n                 Two-Point Charges – 30 minutes \n                 Bar Charges – 2 hours",
+                  "scrollImg": true,
+                  "imgDivWidth": "450px",
+                  "maxWidth": "500px"
+                }
+              ]
+            },
+            {
+              "waterMark": true,
+              "template": "OverView",
+              "title": "Overview (cont... )",
+              "pageTitle": "Overview (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Overview Video: Electric Fields and Electric Potential"
+                },
+                {
+                  "type": "Video",
+                  "desc": "Overview Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Physics/580268/580268_Physics_VideoIcone.svg",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6339728787112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Define potential lines.",
+                    "Use a multimeter to measure <button class='glossary-text'>electric potential</button> on a surface.",
+                    "Explain the properties of equipotential surfaces.",
+                    "Demonstrate, using the scientific method, an understanding of Electrostatics by collecting and analyzing data, drawing conclusions, and documenting results."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "desc": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "desc":"video link symbol, camera symbol, stopwatch symbol"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "desc":"warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Alessandro Volta was an Italian physicist who invented the electric battery. This is why the unit for <button class='glossary-text'>electric potential</button>, joule per coulomb, is named in honor of him, the volt. Prior to inventing the battery, Luigi Galvani experimented with animal tissue and electric currents. In 1791, Galvani was able to generate an electrical current by making contact with two different metals on the leg muscle of a skinned frog. He was able to reproduce his results with frog spinal tissue as well.  Galvani thought that there was electricity in living tissue, which he called “animal electricity.” Although the tools available to Galvani in the eighteenth century didn’t allow for him to prove “animal electricity”, his findings laid the foundation for the emerging field of electrophysiology."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Galvani also inspired Volta to experiment and discover that animal tissue wasn’t necessary to produce an electrical current. Volta thought the frog tissue was simply conducting the current that was flowing between the metals, “metallic electricity.”  Volta was able to detect the flow of energy between two metal disks when he placed them on his tongue, and he realized that animal tissue was not needed to generate an electric current. In 1800, Volta announced the production of the first electric battery and the first source of continuous current, without the need for animal tissue to be included."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'>Piccolino, M. (1997). Luigi Galvani and animal electricity: two centuries after the foundation of electrophysiology. <span class='bodyFontItalic'>Trends in Neurosciences</span>. 20 (10):  443-448. <br><span target='blank' style=' word-break: break-all'>https://doi.org/10.1016/S0166-2236(97)01101-6.</span></span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580268/580268_Physics_whyShouldICare.svg",
+                  "altText": "Hand drawn images of Galvani's preparation of frogs for electricity studies.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'>frog preperation according to Galvani Wellcome L0002011.jpg By Wellcome Collection gallery is available under CC BY 4.0 at <br><span target='blank' style=' word-break: break-all'>https://commons.wikimedia.org/wiki/File:Frog_preperation_according_to_Galvani_Wellcome_L0002011.jpg</span></span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>The space surrounding a point charge contains a residual field of force, <img src='images/courses_2023/Physics/580268/580268_Physics_img_03.svg' style='width:2.2%;margin-bottom: 2px;' title='Capital e with a vector over it pointing to the right, the symbol for electric field'></img> known as an <button class='glossary-text'>electric field</button>. Any charge, <span class='bodyFontItalic'>q</span>, placed within this field will experience a force, <img src='images/courses_2023/Physics/580268/580268_Physics_img_04.svg' style='width:2.2%;margin-bottom: 2px;' title='Capital f with a vector over it pointing to the right, the symbol for forces'></img> as determined by the relationship</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580268/580268_Physics_Equation_001.svg",
+                  "imgDivWidth": "105px",
+                  "maxWidth": "140px",
+                  "scrollImg": true,
+                  "altText": "Equation 1: Vector E equals begin fraction vector F over q end fraction"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>and is measured in N/C (Newtons/Coulomb). One assumption inherent in this relationship is that the charge, <span class='bodyFontItalic'>q</span>, is small in relation to the field otherwise it would have its own influence on the field. <button class='glossary-text'>Work</button> done by a force is given as</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580268/580268_Physics_Equation_002.svg",
+                  "imgDivWidth": "133px",
+                  "maxWidth": "168px",
+                  "scrollImg": true,
+                  "altText": "Equation 2: W equals vector F delta vector S cosine theta"
+                },
+                {
+                  "type": "Plain",
+                  "text": "where <img src='images/courses_2023/Physics/580268/580268_Physics_img_05.svg' style='width:4.2%;margin-bottom: 3px;' title='Delta and capital s with a vector over it pointing to the right, the symbol for displacement'></img> is the displacement, and <span class='bodyFontItalic'>θ</span> is the angle between it and the force."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Electric fields lines are usually illustrated by drawing the lines of force. There are several rules that govern electric field lines."
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "text": [
+                    "Electric field lines always run from the positive charge(s) and ends at negative charge(s).",
+                    "Electric field lines are perpendicular to the direction of the force on a positive charge placed in the field.",
+                    "The density of electric field lines indicates the strength of the <img src='images/courses_2023/Physics/580268/580268_Physics_img_03.svg' style='width:2.2%;margin-bottom: 7px;' title='Capital e with a vector over it pointing to the right, the symbol for electric field'></img> field."
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span style='padding-bottom:5px;display:block;'>One method to map the effects of a charge within a field is through determining <button class='glossary-text'>lines of equal potential</button>. These are positions within the electric field where the <button class='glossary-text'>electric potential</button> is constant. Since an electric field is a conservative force like gravity, work done by an external force against it to move a charge, <span class='bodyFontItalic'>q</span>, is stored as potential energy. Combining the force and work equations above, we can derive an expression for this change in electric potential energy, <span title='Delta and capital U, an expression for electric potential energy' class='bodyFontItalic'>ΔU</span>.</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580268/580268_Physics_Equation_003.svg",
+                  "imgDivWidth": "165px",
+                  "maxWidth": "218px",
+                  "scrollImg": true,
+                  "altText": "Equation 3: Delta U equals minus sign q vector E delta vector S cosine theta"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>The <button class='glossary-text'>electric potential difference</button>, <span class='bodyFontItalic' title='Delta and capital V, an expression for electric potential difference'>ΔV</span>, between two points is defined as the <button class='glossary-text'>work</button> done to move a charge between those two points.</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580268/580268_Physics_Equation_004.svg",
+                  "imgDivWidth": "148px",
+                  "maxWidth": "208px",
+                  "scrollImg": true,
+                  "altText": "Equation 4: Delta V equals minus sign vector E delta vector S cosine theta"
+                },
+                {
+                  "type": "Plain",
+                  "text": "If <span class='bodyFontItalic' title='Delta and capital V, an expression for electric potential difference'>ΔV</span> = 0, those two points have the same potential. Unless <img src='images/courses_2023/Physics/580268/580268_Physics_img_03.svg' style='width:2.2%;margin-bottom: 4px;' title='Capital e with a vector over it pointing to the right, the symbol for electric field'></img> or <img src='images/courses_2023/Physics/580268/580268_Physics_img_04.svg' style='width:2.2%;margin-bottom: 4px;' title='Capital f with a vector over it pointing to the right, the symbol for forces'></img> have no value, this requires that <span class='bodyFontItalic'>θ</span> be 90°, which tells us that the <button class='glossary-text'>electric field</button> is perpendicular to the charge’s displacement. The lines formed from the points of zero potential difference are termed equipotential lines. Experimentally, it is far easier mapping positions of equal potential and then drawing the electric field lines through them at right angles."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580268/580268_Physics_fig_001.svg",
+                  "imgDivWidth": "253px",
+                  "maxWidth": "300px",
+                  "scrollImg": true,
+                  "altText": "Figure 1: The relationship between electric field lines and equipotential lines"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What is Δ<span class='bodyFontItalic'>V</span>?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "electric potential difference",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "stored potential energy",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "a charge",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "a charge difference",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "potential energy",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The electric potential difference, Δ<span class='bodyFontItalic'>V</span>, between two points is defined as the work done to move a charge between those two points."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which below is a rule that governs electric field lines?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Lines always run from the positive charge(s) to negative.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Lines always run from the negative charge(s) to positive.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Lines are parallel to the direction of the force.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The mass of electric field lines indicates the strength of the field.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "The volume of electric field lines indicates the strength of the field.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Electric field lines always run from the positive charge(s) and ends at negative charge(s)."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Electric fields lines are usually illustrated by drawing the lines of force. One method to map the effects of a charge within a field is through determining lines of equal potential. These are positions within the electric field where the electric potential is constant. Since an electric field is a conservative force like gravity, work done by an external force against it to move a charge, <span class='bodyFontItalic'>q</span>, is stored as potential energy. Combining the force and work equations, we can derive an expression for this change in electric potential energy.<span className=bodyParaLineBreak>If <span class='bodyFontItalic'>ΔV</span> = 0, those two points have the same potential. Unless or have no value, this requires that <span class='bodyFontItalic'>θ</span> be 90°, which tells us that the electric field is perpendicular to the charge’s displacement. The lines formed from the points of zero potential difference are termed equipotential lines. Experimentally, it is far easier mapping positions of equal potential and then drawing the electric field lines through them at right angles.</span>",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580268/580268_Physics_Equation_004.svg",
+                      "alt": "Equation 4: Delta V equals minus sign vector E delta vector S cosine theta",
+                      "maxWidth": "165px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "Electric fields lines are usually illustrated by drawing the lines of force. One method to map the effects of a charge within a field is through determining lines of equal potential. These are positions within the electric field where the electric potential is constant. Since an electric field is a conservative force like gravity, work done by an external force against it to move a charge, <span class='bodyFontItalic'>q</span>, is stored as potential energy. Combining the force and work equations, we can derive an expression for this change in electric potential energy.<span className=bodyParaLineBreak>If <span class='bodyFontItalic'>ΔV</span> = 0, those two points have the same potential. Unless or have no value, this requires that <span class='bodyFontItalic'>θ</span> be 90°, which tells us that the electric field is perpendicular to the charge’s displacement. The lines formed from the points of zero potential difference are termed equipotential lines. Experimentally, it is far easier mapping positions of equal potential and then drawing the electric field lines through them at right angles.</span>",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580268/580268_Physics_Equation_004.svg",
+                      "alt": "Equation 4: Delta V equals minus sign vector E delta vector S cosine theta",
+                      "maxWidth": "165px"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "altText": "A map of the procedural workflow of this investigation. Before beginning, you will prepare the work surface with cardboard. In Activity 1, you will attach the conductive paper to the cardboard, attach the pins to the conductive paper with conducting paint, and attach the alligator clips. Then, you will mark the locations on the white plotting paper. Next, you will measure the potentials on the conducting paper. Then, you will locate and record five points with the given voltage. Once you have done this for all voltages listed, you will photograph the equipotential map. Next, you will draw T-bars on the conductive paper with conducting paint, attach the alligator clips to the T-bars, and mark the locations on the white plotting paper. Then, you will measure the potentials on the conducting paper. Next, you will locate and record five points with a given voltage. Once you have done this for all voltages listed, you will photograph the equipotential map.",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Physics/580268/580268_Physics_ED_001.svg",
+                  "imgDivWidth": "100%",
+                  "maxWidth": "1750px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "100%",
+                    "L": "95%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "90%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Conducting paint",
+                          "image": "courses_2023/Physics/580268/580268_Physics_material_1.svg",
+                          "altText": "Tube of  conducting paint"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "3 Sheets of electric field conductive paper (1 is extra in case of ink issues)",
+                          "image": "courses_2023/Physics/580268/580268_Physics_material_2.svg",
+                          "altText": "Conductive paper"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "3 Sheets of white plotting paper",
+                          "image": "courses_2023/Physics/580268/580268_Physics_material_3.svg",
+                          "altText": "Non-conductive grid paper"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "2 Metal pushpins",
+                          "image": "courses_2023/Physics/580268/580268_Physics_material_4.svg",
+                          "altText": "Straight pin"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from the equipment kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Battery, 9-Volt",
+                          "image": "courses_2023/Physics/580268/580268_Physics_material_5.svg",
+                          "altText": "Energizer alkaline battery, 9 volt"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Battery cap with alligator clamps",
+                          "image": "courses_2023/Physics/580268/580268_Physics_material_6.svg",
+                          "altText": "9 volt lead with alligator clips"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Digital multimeter (DMM)",
+                          "image": "courses_2023/Physics/580268/580268_Physics_material_7.svg",
+                          "altText": "Digital multimeter"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Transparent tape",
+                          "image": "courses_2023/Physics/580268/580268_Physics_material_8.svg",
+                          "altText": "Transparent tape"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [
+                            "Several pieces of cardboard, 9.5 x 11\"",
+                            "Colored pencils, pens",
+                            "Paper clips"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span> <span className=bodyParaLineBreak></span> <span className=bodyParaLineBreak></span> Replacement supplies for the Electric Fields and Electric Potential investigation (item number 580268) can be ordered from Carolina Biological Supply Company.<span className=bodyParaLineBreak></span> <span className=bodyMediumSubHeading>Call:</span> 866.332.4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "isCheckPoint": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Wear your safety goggles at all times while conducting this investigation. Read all the instructions for this laboratory activity before beginning. Follow the instructions closely and observe established laboratory safety practices, including the use of appropriate personal protective equipment."
+                },
+                {
+                  "type": "Image",
+                  "desc": "goggles symbol",
+                  "altText": "goggles symbol",
+                  "image": "core/Key_Goggle.svg",
+                  "imgDivWidth": "74px",
+                  "maxWidth": "120px"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Do not eat, drink, or chew gum while performing this investigation. Wash your hands with soap and water before and after the investigation and clean up the <button class='glossary-text'>work</button> area with soap and water after finishing. Keep pets and children away from lab materials and equipment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.</span>",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which statement is true?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Electric field lines are perpendicular to the direction of the force on a positive charge placed in the field.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Electric field lines are parallel to the direction of the force on a positive charge placed in the field.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Electric field lines always run from the negative charge(s) and end at positive charge(s).",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The density of the electric field lines indicates the source of the electric field.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Equipotential values increase as you move away from the charge.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "An electric field is created by a positive charge.  The distribution of the electric field lines and equipotential lines is shown below.  Rank the magnitude of the equipotential for each of the points indicated.",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "imageData": {
+                        "image": "courses_2023/Physics/580268/580268_Physics_img_01.svg",
+                        "desc": "Two concentric circles with a dot in the center of both circles. Eight arrows radiate out from the center dot and are equidistantly spaced. Four points are placed throughout the diagram. Point A is just outside the inside circle. Point B is on the line of the outside circle. Point C is between the inside circle and the center dot. Point D is on the line of the outside circle.",
+                        "altText": "Two concentric circles with a dot in the center of both circles. Eight arrows radiate out from the center dot and are equidistantly spaced. Four points are placed throughout the diagram. Point A is just outside the inside circle. Point B is on the line of the outside circle. Point C is between the inside circle and the center dot. Point D is on the line of the outside circle.",
+                        "imgDivWidth": "55%",
+                        "maxWidth": "270px"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "V<sub class='bodysubscript'>C</sub> > V<sub class='bodysubscript'>A</sub> > V<sub class='bodysubscript'>D</sub> = V<sub class='bodysubscript'>B</sub>",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "V<sub class='bodysubscript'>D</sub> = V<sub class='bodysubscript'>B</sub>  > V<sub class='bodysubscript'>A</sub> > V<sub class='bodysubscript'>C</sub>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "V<sub class='bodysubscript'>D</sub> = V<sub class='bodysubscript'>B</sub>  > V<sub class='bodysubscript'>A</sub> = V<sub class='bodysubscript'>C</sub>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "V<sub class='bodysubscript'>A</sub> = V<sub class='bodysubscript'>B</sub>  = V<sub class='bodysubscript'>C</sub> = V<sub class='bodysubscript'>D</sub>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "V<sub class='bodysubscript'>A</sub> > V<sub class='bodysubscript'>B</sub> > V<sub class='bodysubscript'>C</sub> > V<sub class='bodysubscript'>D</sub>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "An electric field is created by a positive charge.  The distribution of the electric field lines and equipotential lines is shown below.  A sample positive test charge is moved between points A-D.  Which statement about the work done is true?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "imageData": {
+                        "image": "courses_2023/Physics/580268/580268_Physics_img_01.svg",
+                        "desc": "Two concentric circles with a dot in the center of both circles. Eight arrows radiate out from the center dot and are equidistantly spaced. Four points are placed throughout the diagram. Point A is just outside the inside circle. Point B is on the line of the outside circle. Point C is between the inside circle and the center dot. Point D is on the line of the outside circle.",
+                        "altText": "Two concentric circles with a dot in the center of both circles. Eight arrows radiate out from the center dot and are equidistantly spaced. Four points are placed throughout the diagram. Point A is just outside the inside circle. Point B is on the line of the outside circle. Point C is between the inside circle and the center dot. Point D is on the line of the outside circle.",
+                        "imgDivWidth": "55%",
+                        "maxWidth": "270px"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "W <sub class='bodysubscript'>D--> C</sub> > W <sub class='bodysubscript'>C--> A</sub>",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "W<sub class='bodysubscript'>C--> B</sub> > W<sub class='bodysubscript'>C-->A</sub>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "W<sub class='bodysubscript'>A-->C</sub> > W <sub class='bodysubscript'>A-->D</sub>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "W<sub class='bodysubscript'>B-->D</sub> > W<sub class='bodysubscript'>D -->B</sub>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "W<sub class='bodysubscript'>D-->A</sub> > W<sub class='bodysubscript'>A-->B</sub>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the direction of the electric field generated by a negative charge?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "toward the charge",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "away from the charge",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "parallel to the charge",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "A negative charge does not generate electric field lines.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The field lines are circular and expand away from the charge.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (3 steps)",
+              "pageTitle": "Preparation (3 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure-resource",
+              "keyID": "prep",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Read through the procedure."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Prepare work surface with cardboard and any protective measures for its surface."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Watch the following video on how to set up video recordings for physics experiments:"
+                  },
+                  {
+                    "type": "Video",
+                    "width": "100%",
+                    "imgDivWidth": "200px",
+                    "image": "courses_2023/Physics/580268/580268_Physics_VideoIcone_1.svg",
+                    "desc":"Camera recording techniques for physics",
+                    "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6290143757001"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will create two different circuits using conductive paper and conducting paint and measure the voltage at various points on the paper. You will then draw the equipotential lines on voltage field blotting paper and compare the field lines generated by the different paint configurations."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Exploring Simple Harmonic Motion",
+              "pageTitle": "Electric Fields and Electric Potential",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "activity1",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>A</div>&nbsp;Two-Point Charges (13 steps)"
+                      }
+                    ],
+                    "text": "Take a sheet of the electronic field conductive paper and affix to a flat sheet of cardboard using tape. The pushpins are long and can damage the surface upon which this is set."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place two drops of the conducting paint on the conducting graph paper surface at points ([10, 10] and <span style='whiteSpace: nowrap'>[15, 15]).</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Embed the heads of the pins in the drops (the sharp ends of the pins point up)."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Allow the paint to dry for 1.5 hours (or use a hairdryer to accelerate the drying) so that the pins stand. Be careful not to blow the pin over.",
+                    "image": "core/Clock.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "stopwatch symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Connect the alligator clips to the base of the pins when the pins can stand reliably."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Mark the locations on the white voltage field plotting paper. Do not write on the black paper."
+                  },
+                  {
+                    "type":"Box",
+                    "text": "<span class=bodyFontBold>Note:</span> The dipole configuration does not work if the pins are pushed through the conductive paper. You get a constant voltage all over the paper."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580268/580268_Physics_fig_002.svg",
+                    "imgDivWidth": "353px",
+                    "maxWidth": "420px",
+                    "scrollImg": true,
+                    "altText": "Figure 2: Close up view of the electronic field paper showing two straight pins standing upright in conducting paint at points 10,10 and 15,15"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Connect one end of the additional black wire with alligator clips to the black probe of the DMM."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Connect the other end of that wire to the other pushpin. The setup should look similar to Figure 3."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580268/580268_Physics_fig_003.svg",
+                    "imgDivWidth": "399px",
+                    "maxWidth": "500px",
+                    "scrollImg": true,
+                    "altText": "Figure 3: Digital multimeter setup"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Turn on the DMM and set to 20-Volt range."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the DMM’s red probe to measure potentials on the black paper. Move the probe slowly over the paper."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Starting at the line exactly between the pins, locate 5 points that have 4.5-Volt (or close to 4.5-Volt) potential. Mark those down on the white plotting paper and connect the dots."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat Step 9 for 7.5-Volt, 6.0-Volt, 3.0-Volt, and 1.5-Volt potentials. It is best if each marked potential is differentiated by color on the white plotting paper."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Take a picture of your equipotential map for submission in the Lab Notebook.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "startNewNumber": true,
+                    "typeBefore": [
+                      {
+                        "type": "Plain",                      
+                        "title": "<div className=order-list-text>B</div>&nbsp;Bar Charges (8 steps)"
+                      },
+                      {
+                        "type":"Box",
+                        "text": "<span class=bodyFontBold>Note:</span> To obtain accurate results for this activity, it is helpful give the alligator clips enough conductive paint to grab without clipping the conductive paper. This can be done a couple of ways.<span className=bodyParaLineBreak><span class=bodyFontBold>Two methods for applying conductive paint:</span><span className=bodyParaLineBreak><span class=bodyFontBold>Method 1:</span> Apply the conductive paint so that there is excess paint at the portion where the paint meets the edge of the paper. This excess can be in the form of a bead that rises off the paper. After drying, the alligator clip can grab this paint bead without grabbing the conductive paper.</span><span className=bodyParaLineBreak><span class=bodyFontBold>Method 2:</span> Collect a paper clip. Take a straight edge of the paper clip and bend it 90 degrees prior to the curve of the paper clip. Bend it again 90 degrees in the opposite direction. Do this several times until a straight portion of the paper clip breaks off. Take that broken off straight portion of the paper clip and bend it 90 degrees towards the middle of the clip. Again, repeat the bending until the straight portion of the paper clip is broken in half. Take each half and bend them once at 90 degrees to have two L-shaped clips. Each of these L-shaped clips can then have one leg embedded in the conductive paint that touches the edge of the paper. These create makeshift posts that the alligator clips can be attached to and avoid involving the conductive paper when clipping the alligator clip to the conductive paint.</span>"
+                      }
+                    ],
+                    "text": "Using the conductive paint, “draw” T-shaped bars, as shown in Figure 4."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580268/580268_Physics_fig_004.svg",
+                    "imgDivWidth": "331px",
+                    "maxWidth": "400px",
+                    "scrollImg": true,
+                    "altText": "Figure 4: Digital multimeter showing two T-shaped bars"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Allow the paint to dry for approximately 1.5 hours.",
+                    "image": "core/Clock.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "stopwatch symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Once dry, connect the wires as directed in Steps 3–5 of Activity Part A, but instead of the wires being clipped to the pins, both alligator clips should be attached to the end of each T bar, as shown in Figure 5."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580268/580268_Physics_fig_005.svg",
+                    "imgDivWidth": "455px",
+                    "maxWidth": "480px",
+                    "scrollImg": true,
+                    "altText": "Figure 5: Digital multimeter setup showing alligator clips attached to the end of each T bar"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Turn on the DMM and set to 20-Volt range."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the DMM’s red probe to measure potentials on the black paper. Move the probe slowly over the paper."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Starting at the line between the bars and spanning upward and downward, locate 5 points that have <span style='whiteSpace: nowrap'>4.5-Volt</span> <span style='whiteSpace: nowrap'>(or close to 4.5-Volt)</span> of potential. Mark those down on the white plotting paper and connect the dots."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat Step 6 for 7.5, 6.0, 3.0, and 1.5-Volt potentials. It is best if each plotted potential is differentiated by color on the white plotting paper."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Take a picture of your equipotential map for submission in the Lab Notebook.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "orderedType": "1",
+                  "listType": "ordered",
+                  "text": [
+                    "Disconnect all wires and the cap from the battery.", 
+                    "Turn the DMM off.", 
+                    "Return the materials to the equipment kit, and clean the area."
+                ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "altText": "completion",
+                  "desc": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Physics_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "landscape A4"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Activity1",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Activity 1A Step 13 Photo"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert your photo of the equipotential map from Activity 1A."
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Activity1",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1B Step 8 Photo"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert your photo of the equipotential map from Activity 1B."
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "Question1"
+        ],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "id": "Question1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "Based on your results from the two activities, on a separate piece of paper draw the electric field lines that you would expect from a positive point charge and a negative bar.  Upload your image here."
+                ]
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "Question2"
+        ],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "id": "Question2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": 2,
+                "listType": "ordered",
+                "text": [
+                  "Referring to the image below, derive an expression for the kinematic behavior and kinetic energy of a positive particle initially at rest with mass, <span class='bodyFontItalic'>m</span>, and charge <span class='bodyFontItalic'>q</span>. Record your derivation on a separate piece of paper and upload your answer here."
+                ]
+              },
+              {
+                "type": "Image",
+                "image": "courses_2023/Physics/580268/580268_Physics_img_02.svg",
+                "imgDivWidth": "39%",
+                "maxWidth": "280px",
+                "disableClick": false,
+                "scrollImg": true,
+                "altText": "A vertical bar on the left is separated from a vertical bar on the right by distance x. The left bar is labeled plus, and the right bar is labeled minus. A circle with a plus in the center is located at the midpoint of the left bar and between the two bars. An arrow extends from the circle toward the right bar and is labeled v. Four arrows, two above the circle and two below the circle, run the length of the distance between the two bars, pointing to the right bar. The topmost of these four arrows is labeled capital E."
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 3000,
+            "title": "Notes"
+          },
+          
+          {
+            "type": "Box",
+            "id": "Box_Note",
+            "align": "center",
+            "margin": "25px 0 0 0",
+            "text": "In order for your instructor to be able to open your video links, please select the \"Save as PDF\" option rather than \"Print to PDF\"."
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6339728787112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 1. Electric field",
+        "src": "courses_2023/Physics/580268/580268_Physics_Equation_001.svg",
+        "altText": "Equation 1: Vector E equals begin fraction vector F over q end fraction",
+        "maxWidth": "140px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 2. Work done by a force",
+        "src": "courses_2023/Physics/580268/580268_Physics_Equation_002.svg",
+        "altText": "Equation 2: W equals vector F delta vector S cosine theta",
+        "maxWidth": "168px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 3. Change in electrical potential energy",
+        "src": "courses_2023/Physics/580268/580268_Physics_Equation_003.svg",
+        "altText": "Equation 3: Delta U equals minus sign q vector E delta vector S cosine theta",
+        "maxWidth": "218px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 4. Electric potential difference",
+        "src": "courses_2023/Physics/580268/580268_Physics_Equation_004.svg",
+        "altText": "Equation 4: Delta V equals minus sign vector E delta vector S cosine theta",
+        "maxWidth": "208px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 1. Lines of equipotential and electric field",
+        "src": "courses_2023/Physics/580268/580268_Physics_fig_001.svg",
+        "altText": "Figure 1: The relationship between electric field lines and equipotential lines",
+        "maxWidth": "300px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Experimental Design Diagram",
+        "src": "courses_2023/Physics/580268/580268_Physics_ED_001.svg",
+        "altText": "A map of the procedural workflow of this investigation. Before beginning, you will prepare the work surface with cardboard. In Activity 1, you will attach the conductive paper to the cardboard, attach the pins to the conductive paper with conducting paint, and attach the alligator clips. Then, you will mark the locations on the white plotting paper. Next, you will measure the potentials on the conducting paper. Then, you will locate and record five points with the given voltage. Once you have done this for all voltages listed, you will photograph the equipotential map. Next, you will draw T-bars on the conductive paper with conducting paint, attach the alligator clips to the T-bars, and mark the locations on the white plotting paper. Then, you will measure the potentials on the conducting paper. Next, you will locate and record five points with a given voltage. Once you have done this for all voltages listed, you will photograph the equipotential map.",
+        "maxWidth": "1750px",
+        "scrollImg": true
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6290143757001",
+        "content": "Camera Recording Techniques – Physics"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 2. Pins in conductive paint on top of conductive paper",
+        "src": "courses_2023/Physics/580268/580268_Physics_fig_002.svg",
+        "altText": "Figure 2: Close up view of the electronic field paper showing two straight pins standing upright in conducting paint at points 10,10 and 15,15",
+        "maxWidth": "420px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 3. Activity 1A apparatus setup",
+        "src": "courses_2023/Physics/580268/580268_Physics_fig_003.svg",
+        "altText": "Figure 3: Digital multimeter setup",
+        "maxWidth": "500px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 4. T-Shaped bars on conductive paper",
+        "src": "courses_2023/Physics/580268/580268_Physics_fig_004.svg",
+        "altText": "Figure 4: Digital multimeter showing two T-shaped bars",
+        "maxWidth": "400px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 5. Activity 1B apparatus setup",
+        "src": "courses_2023/Physics/580268/580268_Physics_fig_005.svg",
+        "altText": "Figure 5: Digital multimeter setup showing alligator clips attached to the end of each T bar",
+        "maxWidth": "480px",
+        "scrollImg": true
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Electric field (E)",
+        "content": "A residual field of force surrounding a point charge"
+      },
+      {
+        "title": "Electric potential",
+        "content": "The amount of work needed to move a unit charge from a reference point to a specific point against an electric field"
+      },
+      {
+        "title": "Electric potential difference (Δ<span class='bodyFontItalic'>V</span> )",
+        "content": "The work done to move a charge between two points"
+      },
+      {
+        "title": "Line of equal potential",
+        "content": "A line joining points having the same electric potential"
+      },
+      {
+        "title": "Work",
+        "content": "Transfer of energy due to the application of force along a displacement"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

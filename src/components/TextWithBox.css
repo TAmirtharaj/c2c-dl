@@ -1,0 +1,120 @@
+.box-text-comp-wrapper-left {
+  width: 100%;
+  /* display: inline-block; */
+  position: relative;
+}
+
+.box-text-comp-wrapper-right {
+  /* width: 49%; */
+  /* float: right; */
+  display: inline-block;
+}
+
+.box-text-comp-wrapper {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.box-text-comp-used-as-child {
+  margin-left: 2em;
+}
+
+.box-text-comp-heading {
+  float: left;
+  margin: 5px;
+  width: 100%;
+  height: auto;
+  clear: both;
+  top: 10px;
+  text-align: left;
+}
+
+.box-text-comp-subHeading {
+  float: left;
+  margin: 5px;
+  width: 100%;
+  height: auto;
+  clear: both;
+  top: 10px;
+  text-align: left;
+}
+
+.box-text-comp-rounded-box {
+  /* margin: 5px;
+  padding: 5px 10px;
+  margin-top: 10px; */
+
+  /* margin-left: 5px;
+  margin-bottom: 3px; */
+  padding: 5px;
+  float: left;
+  min-height: max-content;
+}
+
+.box-text-comp-text-para {
+  float: left;
+  margin: 10px;
+  width: calc(100% - 20px);
+  height: auto;
+  clear: both;
+  text-align: left;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 1000px) and (max-height: 330px) and (orientation: landscape) {
+  .box-text-comp-wrapper-left {
+    width: 100%;
+  }
+
+  .box-text-comp-wrapper-right {
+    width: 100%;
+    float: left;
+  }
+}
+
+/* Landscape iPhone */
+@media only screen and (min-device-width: 300px) and (max-device-width: 765px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .box-text-comp-wrapper-left {
+    width: 100%;
+  }
+
+  .box-text-comp-wrapper-right {
+    width: 100%;
+    float: left;
+  }
+}
+
+/* Portrait iPhone */
+@media only screen and (min-device-width: 275px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .box-text-comp-wrapper-left {
+    width: 100%;
+  }
+
+  .box-text-comp-wrapper-right {
+    width: 100%;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .box-text-comp-wrapper-left {
+    width: 50%;
+  }
+
+  .box-text-comp-wrapper-right {
+    width: 100%;
+    float: left;
+  }
+}
+
+/* Portrait iPad Normal*/
+@media only screen and (min-width: 768px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .box-text-comp-wrapper-left {
+    width: 100%;
+  }
+
+  .box-text-comp-wrapper-right {
+    width: 100%;
+    float: left;
+  }
+}

@@ -1,0 +1,43 @@
+/** @format */
+
+.video-comp-wrapper {
+  width: 100%;
+  float: left;
+  /* padding: 0; */
+  padding: 5px 0 5px 0;
+}
+
+.video-comp-wrapper .box-text-comp-heading {
+  margin-bottom: 10px;
+  line-height: 20px;
+  margin-left: 5px;
+}
+
+.video-ordered-list{
+  margin-bottom: 0rem
+}
+.image-text-comp-video {
+  /* float: left;
+  height: auto;
+  clear: both;
+  text-align: left;
+  cursor: pointer;
+  margin: 5px; */
+  height: auto;
+  cursor: pointer;
+  display: grid;
+
+  width: inherit;
+  /* margin: auto; */
+  /* display: flex; */
+}
+.image-text-comp-image-img {
+  width: -webkit-fill-available !important;
+  width: -moz-available !important;
+  position: relative !important;
+}
+
+.image-text-comp-image > img {
+  width: 100%;
+  height: auto;
+}

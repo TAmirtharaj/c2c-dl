@@ -1,0 +1,260 @@
+/** @format */
+
+.tab-comp-wrapper {
+  display: inline-block;
+  width: 97%;
+  /* float: left; */
+  height: 100%;
+  margin-left: 0.4em;
+}
+
+.tab-comp-list {
+  border-bottom: 0 !important;
+  /* margin: 0;
+  vertical-align: middle; */
+}
+
+.tab-comp-list-item {
+  display: inline-block;
+  /* padding: 0.5rem 0.5rem; */
+  padding: 0.2rem;
+
+  border-radius: 10px 10px 0px 0px;
+
+  background-color: rgba(90, 161, 219, 1);
+  border: solid rgba(90, 161, 219, 1);
+  color: rgba(255, 255, 255, 1);
+  border-width: 2px 2px 0 2px;
+  margin-right: 2px;
+  cursor: pointer;
+  /* width: 30%; */
+
+  /* height: 2.0625em; */
+  height: 2.35em;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: center;
+  font-size: 0.875em;
+}
+
+.tab-comp-list-item:last-child {
+  margin-right: 0;
+}
+
+.tab-comp-list-item-width {
+  /* width: 30%; */
+  width: 100%;
+}
+
+.tab-button-wrapper:not(:last-child) {
+  margin-right: 2px;
+}
+
+.tab-comp-list-item:hover {
+  color: rgba(90, 161, 219, 1);
+  border-color: rgba(90, 161, 219, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border-bottom: 0;
+  padding-top: calc(0.2rem + 2px);
+}
+
+.tab-button-white-patch {
+  position: absolute;
+  height: 7px;
+  top: 1.8em;
+  width: inherit;
+  background: rgb(255, 255, 255);
+  margin: 0 2px 0 2px;
+}
+
+.tab-comp-list-active {
+  color: rgba(90, 161, 219, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border: solid rgba(90, 161, 219, 1);
+
+  border-width: 2px 2px 0 2px;
+  padding-top: calc(0.2rem + 2px);
+
+   cursor: default;
+  pointer-events: none; 
+}
+
+.tab-comp-tab-content {
+  margin-top: -2px;
+  min-height: 90%;
+  border-radius: 0px 0px 10px 10px;
+  border: solid rgba(90, 161, 219, 1);
+  border-width: 2px 2px 2px 2px;
+  /* border-top: 0; */
+  background-color: rgba(255, 255, 255, 1);
+  text-align: left;
+  padding: 0.5em 0.5em;
+  overflow-y: auto;
+  max-height: 90%;
+}
+
+.accordion-button {
+  display: inline-block !important;
+  background-color: rgba(90, 161, 219, 1) !important;
+  /* margin-bottom: 0.5em; */
+  color: rgba(255, 255, 255, 1) !important;
+  /* box-shadow: none; */
+  padding: 0.5rem 1rem !important;
+  margin-right: 1em;
+  border-radius: 0%;
+}
+
+.accordion-button:focus {
+  /* z-index: 0; */
+  border-color: rgba(90, 161, 219, 1) !important;
+  outline: 0;
+  box-shadow: 0 0 0 0 rgba(90, 161, 219, 1) !important;
+}
+
+.accordion-button:after {
+  content: "";
+  background-image: url(/public/images/core/moreBtnTabComp.svg);
+  float: right;
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: "";
+  background-image: url(/public/images/core/moreBtnOpenTabComp.svg);
+  transform: rotate(0deg);
+}
+
+.accordion-item {
+  background-color: transparent !important;
+  border: 0px solid rgba(90, 161, 219, 1) !important;
+  margin-bottom: 1em;
+}
+
+.accordion-item:first-of-type {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.accordion-item:last-of-type {
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.accordionItemBody {
+  background-color: white !important;
+  border: 2px solid rgba(90, 161, 219, 1);
+  border-top: 0;
+  border-color: rgba(90, 161, 219, 1) !important;
+}
+
+.tabPortrait-tab-comp-list-item-width {
+  /* width: 31%;
+   */
+  width: 100%;
+}
+
+.tab-button-wrapper {
+  width: 100%;
+}
+
+.tabPortrait-tab-comp-tab-content {
+  /* margin-top: -0.5em; */
+  margin-top: -2px;
+  min-height: 100%;
+  border-radius: 0px 0px 10px 10px;
+  border: solid rgba(90, 161, 219, 1);
+  border-width: 2px 2px 2px 2px;
+  background-color: rgba(255, 255, 255, 1);
+  text-align: left;
+  padding: 0.5em 0.5em;
+}
+
+.tabLandscape-tab-comp-list-item-width {
+  /* width: 31%; */
+  width: 100%;
+}
+
+.tabLandscape-tab-comp-tab-content {
+  /* margin-top: -0.5em; */
+  margin-top: -2px;
+  min-height: 70%;
+  border-radius: 0px 0px 10px 10px;
+  border: solid rgba(90, 161, 219, 1);
+  border-width: 2px 2px 2px 2px;
+  background-color: rgba(255, 255, 255, 1);
+  text-align: left;
+  padding: 0.5em 0.5em;
+}
+
+.tab-container {
+  position: relative;
+  margin-left: 5px;
+  height: 100%;
+}
+
+.nav {
+  flex-wrap: nowrap;
+}
+.toolTip {
+  min-width: calc(30% - 10px);
+  /* background-color: rgba(90, 161, 219, 1); */
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+
+  display: block;
+  /* top: 0%; */
+  top: -16px;
+  position: absolute;
+  text-align: center;
+  z-index: 10;
+}
+
+.toolTipTitle {
+  min-width: calc(30% - 10px);
+  background-color: rgba(90, 161, 219, 1);
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+
+  display: block;
+  /* top: 0%; */
+  top: -36px;
+  position: absolute;
+  text-align: center;
+  z-index: 10;
+}
+.toolTip::after {
+  content: "";
+  position: absolute;
+  text-align: center;
+  top: 100%;
+  left: 10%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(90, 161, 219, 1) transparent transparent transparent;
+}
+
+.wrapper-container-tab {
+  margin-bottom: 0%;
+}

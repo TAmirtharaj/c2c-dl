@@ -1,0 +1,1729 @@
+{
+  "locked": true,
+  "courseTitle": "HIV Immunoassay Virtual Lab ",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/bodyBookmark.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Anatomy_Physiology_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Anatomy & Physiology ",
+                "images": {
+                  "launchPage": "core/Anatomy_Physiology_launchPageBg.svg",
+                  "logo": "core/Anatomy_Physiology_subject_icon.svg"
+                },
+                "titleName2": "HIV Immunoassay Virtual Lab",
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, you will learn about how the <button class='glossary-text'>western blot</button> technique is used in an HIV immunoassay test to diagnose patients with HIV. You will then perform a simulated HIV immunoassay to determine which patients are positive for the HIV virus. "
+                },
+             
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses/580795_VIRT/580795_VIRT_TimeRequirement.svg",
+                  "imgDivWidth": "95px",
+                  "scrollImg": true,
+                  "maxWidth": "130px",
+                  "altText": "Activity 1 – 60 minutes ",
+                  "desc": "Activity 1 – 60 minutes "
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "title": "Needed but not supplied:",
+                  "text": 
+                    "There are no additional materials needed for this investigation."
+                }
+              
+              ]
+            }
+          
+          ]
+        },
+
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Describe how a <button class='glossary-text'>western blot</button> isolates HIV proteins in a blood sample.",
+                    "Describe the steps of an HIV immunoassay. ",
+                    "Identify the characteristics of the HIV virus and infection. ",
+                    "Interpret HIV immunoassay results. "
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The year 2020 saw around 30,000 new HIV diagnoses in the United States.<sup class='bodySupscript'>1</sup> HIV, which stands for <button class='glossary-text'>human immunodeficiency virus</button>, attacks a person's immune system. If left untreated, the immune system is rendered ineffective against even the most common pathogens, resulting in the condition known as AIDS. It may take years for AIDS symptoms to develop; as many as 1 in 7 people have the HIV virus but are not aware of their status.<sup class='bodySupscript'>2</sup> This makes testing so important in the treatment and prevention of HIV."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The ability for the HIV virus to persist in the body, undetectable to the immune system, makes it extremely difficult to cure. Currently, the most effective methods for slowing the spread of HIV rely on prevention and testing. "
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'><sup class='bodySupscript'>1</sup>Centers for Disease Control and Prevention (CDC). 2022, October 24. HIV in the United States by Region: HIV Diagnoses. <span className='bodyFontItalic'> Centers for Disease Control and Prevention.</span><br><span target='blank' style=' word-break: break-all'>http://www.cdc.gov/hiv/statistics/overview/diagnoses.html</span></span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'><sup class='bodySupscript'>2</sup>HIV.gov. 2019, June 10. Too Many People Living with HIV in the U.S. Don’t Know It. <span className='bodyFontItalic'>HIV.gov.</span><br><span target='blank' style=' word-break: break-all'>https://www.hiv.gov/blog/too-many-people-living-hiv-us-don-t-know-it</span></span>"
+                },
+               
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580795_VIRT/580795_VIRT_whyShouldICare.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "desc": "An electron micrograph of two HIV virus particles.",
+                  "altText": "An electron micrograph of two HIV virus particles."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Human immunodeficiency virus (HIV)</button> is the virus that causes <button class='glossary-text'>acquired immunodeficiency syndrome (AIDS)</button>. It is primarily transmitted through contact with infected body fluids, such as through anal or vaginal sex, sharing needles or syringes. It was first detected in the United States in the early 1980s. During the initial outbreak, it was highly stigmatized, as many people who were initially dying from the unknown disease belonged to marginalized populations of homosexual men and IV drug users.  Because of the population that was succumbing to the disease, moral debates limited funding and research.  However, it rapidly spread outside of these populations and became a global pandemic. As of 2020, the Centers for Disease Control (CDC) estimates that 37.7 million people worldwide are infected with HIV, over 1 million people of which live in the US<sup class='bodySupscript'>1</sup>. The hardest hit areas globally are Eastern and Southern Africa."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'><sup class='bodySupscript'>1</sup>CDC HIV Statistics Center. (10 August, 2022). Statistics Overview. <span class='bodyFontItalic'>CDC.gov</span> <br><span target='blank' style=' word-break: break-all'>https://www.cdc.gov/hiv/statistics/overview/index.html</span></span>"
+                },
+                
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580795_VIRT/580795_Bio_fig_001.svg",
+                  "imgDivWidth": "365px",
+                  "scrollImg": true,
+                  "maxWidth": "455px",
+                  "altText": "Figure 1: The structure of an HIV virion showing its envelope, capsid, RNA, enzymes and receptors."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'>attribution: HIV Virion Structure by NIAID is available under CC BY 2.0 license at<br><span target='blank' style=' word-break: break-all'>https://www.flickr.com/photos/niaid/5080768345</span></span>"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Mechanism of HIV Infection",
+                  "text": "HIV is a <button class='glossary-text'>retrovirus</button> which consists of genetic material in the form of single-stranded RNA which is surrounded by a protein coat or <button class='glossary-text'>capsid</button>. The capsid is surrounded by a lipoprotein membrane or <button class='glossary-text'>envelope</button> which contains receptor proteins. HIV specifically targets immune system cells, namely <button class='glossary-text'>CD4+ T cells</button>, also known as <button class='glossary-text'>helper T cells</button>. Once HIV <button class='glossary-text'>virions</button> enter a patient’s bloodstream, the proteins on HIV’s envelope bind to <button class='glossary-text'>CD4 receptors</button> on T-cells, which causes the virus and cell membranes to fuse allowing the capsid and RNA from virus to enter T-cell. HIV contains the enzyme <button class='glossary-text'>reverse transcriptase</button> which transcribes HIV’s RNA into DNA. It is called reverse transcriptase because normally the flow of genetic information in transcription goes from DNA to RNA. Once in the nucleus, the viral capsid dissolves, releasing the newly formed DNA strands. Then, the viral enzyme <button class='glossary-text'>integrase</button> cuts the cell’s DNA and splices in the viral DNA along the cellular strand. The virus then starts using the infected cell’s own enzymes to transcribe this viral DNA into multiple copies of the original viral RNA and translate them into viral proteins to form the capsid and necessary enzymes. These newly formed viruses are then exported to the cell membrane and engulfed in a new lipoprotein membrane made from the cell’s membrane. These new virions are released from the cell back into the bloodstream, often destroying the T-cell in the process. "
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580795_VIRT/580795_Bio_fig_002.svg",
+                  "imgDivWidth": "480px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "scrollImg": true,
+                  "maxWidth": "590px",
+                  "altText": "Figure 2: An infographic of the replication cycle of HIV within a T-cell."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'>attribution: HIV Virus Replication Cycle by NIAID is available under CC BY 2.0 license at <br><span target='blank' style=' word-break: break-all'>https://www.flickr.com/photos/niaid/5057022555</span></span>"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "HIV typically targets which of the following immune cells? ",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "helper T cells ",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "B cells ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "macrophages ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "NK cells ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "monocytes ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": " HIV tends to infect helper T cells and uses their cellular machinery to replicate themselves, destroying many of these cells in the process."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following best describes the infection of helper T cells by HIV? ",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The virus infects the cell with an RNA genome. ",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The virus infects the cell with a DNA genome. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "The virus infects the cell with a protein envelope. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The virus infects the cell with steroid proteins. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "The virus infects the cell with virions. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": " HIV uses an RNA genome to infect the host cell, which is reverse transcribed into DNA instructions for making more viruses. "
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": " Once HIV enters the bloodstream, it recognizes and infects specific immune cells, in particular helper T cells. During the initial infection, large amounts of the virus are generated in these helper T cells: the viral envelope binds to proteins on the T-cell surface, allowing the two membranes to fuse and the viral RNA genome to enter the host cell; use reverse transcription, the viral genome is replicated into DNA which provides the host cell with blueprints for creating viral proteins. This replication process tends to destroy the host cell. Over time, the depletion of helper T cells in the host body results in the host being unable to fight off infection, at which point the infection is called AIDS (acquired immune deficiency syndrome)."
+                },
+                {
+                  "title": "Hint",
+                  "body": " Once HIV enters the bloodstream, it recognizes and infects specific immune cells, in particular helper T cells. During the initial infection, large amounts of the virus are generated in these helper T cells: the viral envelope binds to proteins on the T-cell surface, allowing the two membranes to fuse and the viral RNA genome to enter the host cell; use reverse transcription, the viral genome is replicated into DNA which provides the host cell with blueprints for creating viral proteins. This replication process tends to destroy the host cell. Over time, the depletion of helper T cells in the host body results in the host being unable to fight off infection, at which point the infection is called AIDS (acquired immune deficiency syndrome)."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Effects of HIV on the Immune System",
+                  "text": "As part of its replication, HIV destroys immune cells. It does this in several ways. First, HIV directly destroys some of helper T-cells when it replicates inside of them, and the viral particles are released through the cell membrane. HIV does not destroy all the helper T-cells that are infected, but instead is able to “hide” in the genome of some of them. In addition, HIV can “hide” inside lymphocytes, which are resistant to killer T cells. These immune cells serve as reservoirs of the virus. However, what makes HIV so destructive is that it also destroys CD4 T-cells that are not infected, called <button class='glossary-text'>bystander CD4 T-Cells</button>. If HIV begins reverse transcription within a T-cell and is detected, the T-cell will attempt to prevent this process. The virus then sends out a signal which causes the cell to undergo <button class='glossary-text'>pyroptosis</button>. Pyroptosis is an explosive form of cell death that releases <button class='glossary-text'>cytotoxic</button> chemicals, causing an immune cascade that causes other T-cells to undergo pyroptosis as well. This can knock out many surrounding T-cells rapidly and can destroy the body’s ability to fight infection."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "If left untreated, HIV develops into AIDS which is diagnosed when a patient’s T-cell count drops below a certain threshold (generally 200-300 cells/mm<sup class='bodySupscript'>3</sup>).  Patients do not die directly from HIV infection or AIDS, but instead die from secondary infections that a healthy immune system would easily be able to fight off.  Even though HIV destroys many immune cells, the body is still able to produce some <button class='glossary-text'>antibodies</button> for it. Antibodies are produced by <button class='glossary-text'>B lymphocytes or B-cells</button>, which are not as affected by HIV infection. Often patients experience a latency period where they are infected, but the levels of HIV in the blood are too low to detect. This occurs because the virus is “hiding” in cell, meaning that it has been incorporated into cell’s DNA, but is not actively being transcribed. Antibodies are only produced during active HIV infection, not <button class='glossary-text'>latent infections</button>, so testing must be conducted in an appropriate window. It is recommended that annual testing be performed if a person has had anal or vaginal sex, shared needles or syringes with someone who is HIV positive."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which immune cells produce antibodies against the HIV antigen?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "B cells",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "T cells",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "NK Cells",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "macrophages",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "monocytes",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "B lymphocytes or B cells are immune cells which produce antibodies. T cells identify pathogens and activate other adaptive immune cells. NK cells kill infected cells. Macrophages phagocytose bacteria and other pathogens and monocytes are immature immune cells which can become macrophages or dendritic cells."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "When will antibodies to HIV be produced in the body?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "during active HIV infection",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "during latent HIV infection",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "during both active and latent HIV infections",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "never",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "when HIV has progressed to AIDS",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "An active HIV infection occurs when HIV virions are actively replicating within T cells. The virus particles can be detected by the body and B cells can make antibodies against them. Latent HIV infection refers to the periods when the virus has been incorporated into the host cell’s DNA, but is not actively replicating. The B cells cannot detect the infection at this stage and so do not produce antibodies. "
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Even though HIV destroys many immune cells, the body is still able to produce some antibodies for it. Antibodies are produced by B Lymphocytes or B-Cells, which are not as affected by HIV infection. Often patients experience a latency period where they are infected, but the levels of HIV in the blood are too low to detect. This occurs because the virus is “hiding” in cell, meaning that it has been incorporated into cell’s DNA, but is not actively being transcribed. Antibodies are only produced during active HIV infection, not latent infections, so testing must be conducted in an appropriate window."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Even though HIV destroys many immune cells, the body is still able to produce some antibodies for it. Antibodies are produced by B Lymphocytes or B-Cells, which are not as affected by HIV infection. Often patients experience a latency period where they are infected, but the levels of HIV in the blood are too low to detect. This occurs because the virus is “hiding” in cell, meaning that it has been incorporated into cell’s DNA, but is not actively being transcribed. Antibodies are only produced during active HIV infection, not latent infections, so testing must be conducted in an appropriate window."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "HIV Prevention and Treatments",
+                  "text": "There is no standard cure for HIV infection. There have been cases of a few people who have been cured through bone marrow transplants, which transplants essentially a new immune system into the patient. Although in 1985, researchers thought a vaccine would be developed quickly, it has been difficult to develop a vaccine against HIV because of the virus’s unique way of interacting with and invading the immune system. Current research into new treatments cures and vaccines is ongoing. However, since its initial detection and characterization, prevention, testing and treatments have greatly improved.  Prevention involves following safe sexual practices, using clean needles if using IV drugs, and frequent testing for those at high risk. Additionally, medications called <button class='glossary-text'>PrEP</button> or <button class='glossary-text'>pre-exposure prophylaxis</button> that limit HIVs ability to initially spread by inhibiting its ability to bind to T-cells and can be used to prevent infection at those at high risk."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Treatments for HIV after infection include <button class='glossary-text'>antiretrovirals</button> which limit HIV replication in people who are already infected. This prevents HIV from destroying a large part of the immune system and can allow people to live with the infection for many years without developing AIDS. These treatments can lower HIV viral loads to nearly undetectable levels but cannot completely get rid of the virus because it is already incorporated into the host’s DNA and can become reactivated if treatment is stopped.  Virus in latency period. Those taking antiretrovirals can be expected to live a full and healthy life without ever developing AIDS. "
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "subTitle": "HIV Testing",
+                  "text": "Testing is critical for those at risk for HIV because the sooner it can be detected and the sooner medications are started, the higher survival rate is for HIV positive people. Additionally, early detection prevents HIV from being spread to others.  HIV can be detected through several types of immune assays including <button class='glossary-text'>Western blot</button> <span class=bodyFontBold>immunoassay</span> which is the focus of this lab simulation."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "template": "VirtualLab",
+              "activityPath": "activities/580795_VIRT/activity1/story.html"
+            },
+            {
+              "title": "Knowledge Check Question 3",
+              "pageTitle": "Knowledge Check Question 3",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 2,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following virtual items will NOT be used during this investigation?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "a thermocycler",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "washing solutions",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "blotting paper",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "a rocking platform",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "a gel cassette",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "A western blot assay requires a gel cassette with the separated blood samples, blotting paper for use in the electrophoretic transfer, a rocking platform to evenly distribute solutions over the gel during the immunoassays and washing solutions to remove any protein unbound to the antibodies. The test does not require a thermocycler."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following virtual materials is provided in this investigation?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "patient blood proteins sorted by gel electrophoresis",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "the sequence of the HIV genome",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "whole blood samples from HIV-positive patients",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "HIV-infected cell cultures from around the world",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "blood plasma samples from patients of unknown HIV status",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "In a western blot immunoassay for HIV, a blood sample will be taken from the patients. Then the cell components will be separated via centrifuge and the proteins isolated. The proteins will then be separated by size using Gel Electrophoresis. In this lab, the blood samples have already been centrifuged and run on the gel. You will begin the lab with patient blood proteins sorted by gel electrophoresis."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Western blot is a test to identify specific proteins out of the mix of proteins located in cells. It can, therefore, be used to detect HIV antibodies from blood. The western blot assay requires a gel cassette, a rocking platform, blotting paper and washing solutions among other supplies. In this simulation, the cell lysis, component separation, and gel electrophoresis have already been performed. You will start the lab with patient blood samples which have been separated and run on a gel. You will then use this gel to perform the western blot assay."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Western blot is a test to identify specific proteins out of the mix of proteins located in cells. It can, therefore, be used to detect HIV antibodies from blood. The western blot assay requires a gel cassette, a rocking platform, blotting paper and washing solutions among other supplies. In this simulation, the cell lysis, component separation, and gel electrophoresis have already been performed. You will start the lab with patient blood samples which have been separated and run on a gel. You will then use this gel to perform the western blot assay."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 4",
+              "pageTitle": "Knowledge Check Question 4",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 3,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "How are proteins transferred from a gel to nitrocellulose paper during a western blot?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "electrophoretic transfer",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "bacterial transformation",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "reverse transcription",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "enzyme-linked immunosorbent assay",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "gel electrophoresis",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Once the patients’ samples have been run on the gel, the proteins will be transferred from the gel to nitrocellulose paper. This is done by making a gel cassette “sandwich” with the foam, blotting paper, nitrocellulose membrane and gel and putting it back into the gel electrophoresis machine. As the current is run through the machine, the proteins will transfer to the nitrocellulose membrane. This process is called electrophoretic transfer."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following will be directly detected in this HIV immunoassay investigation?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "HIV antibodies",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "HIV RNA",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "infected T cells",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "DNA reverse transcribed from HIV RNA",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "HIV proteins",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "In the western blot for HIV, the blood samples are being tested for active HIV infection. This means that the patient is actively producing HIV antibodies against the virus. These antibodies will be detected in the immunoassay. "
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "In a western blot assay proteins on the gel will be transferred to the nitrocellulose membrane via electric current in a process called electrophoretic transfer. The nitrocellulose membrane has been treated with antibodies to identify the HIV antibodies."
+                },
+                {
+                  "title": "Hint",
+                  "body": "In a western blot assay proteins on the gel will be transferred to the nitrocellulose membrane via electric current in a process called electrophoretic transfer. The nitrocellulose membrane has been treated with antibodies to identify the HIV antibodies."
+                }
+              ]
+            }
+
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "OverView",
+              "pageData": [
+                
+                {
+                  "type": "Plain",
+                  "text": 
+                  "There are no materials needed for this investigation. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "isCheckPoint": true,
+              "pageData": [
+                 
+                
+                {
+                  "type": "Plain",
+                  "text": "There are no safety concerns for this investigation."
+                }
+        
+              ]
+            }
+          
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following cells are often destroyed as they produce large amounts of HIV virus during the early stages of infection?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "helper T cells",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "B cells",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "macrophages",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "red blood cells",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "brain cells",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the point at which an HIV infection is considered AIDS?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "low T-cell count creates susceptibility to opportunistic infections",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "T-cell count is at pre-infection levels",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "T-cell count is higher than pre-infection levels",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "viral load in the bloodstream is very low",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "high viral load in the bloodstream causes impediments to blood flow",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the HIV genome?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "single-stranded RNAs",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "double-stranded RNAs",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "single-stranded DNAs",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "double-stranded DNAs",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "circular DNA plasmid",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What characteristic of HIV allows the virus to remain undetectable in a patient for months or years after infection?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "HIV integrates its genome into that of the host cells.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "HIV lacks viral envelope proteins.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "HIV reverse transcribes the host genome as it produces more viruses.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "HIV is transported to the nucleus after entering a host cell.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "HIV is similar in size to a host cell.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following molecules will bind to the protein of interest and be visualized during a western blot?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "antibodies",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "glycoproteins",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "cellulose",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "enzymes",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "DNA",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "During a western blot, the proteins from a collected sample are run through gel electrophoresis to separate them based on size. Gel electrophoresis is then followed by which of these steps?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The proteins are transferred from the gel to a membrane using electricity.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The gel is incubated in a protein solution to visualize the gel bands.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The gel is washed with fluorescent probes to visualize the gel bands under UV light.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The proteins that are not of interest are removed from the gel using electricity.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The gel is dried and sliced into a thin membrane before being stained.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes how an HIV immunoassay differs from a traditional western blot?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The protein of interest is an HIV antibody rather than a viral protein.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "No secondary antibody is applied in an HIV immunoassay.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The protein of interest is transferred from a membrane to a gel before visualization.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The molecule of interest is the HIV genome rather than a protein.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The protein of interest is collected from human patients rather than model organisms.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the purpose of the horseradish peroxidase enzyme used in an HIV immunoassay?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The enzyme visualizes the protein of interest through a color-change reaction.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The enzyme separates the proteins during gel electrophoresis.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The enzyme removes excess HIV proteins during membrane preparation.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The enzyme removes the proteins not of interest in the gel prior to membrane transfer.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The enzyme alters the protein of interest so it will fluoresce under UV light.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                   
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Anatomy_Physiology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, you will perform an <button class='glossary-text'>electrophoretic transfer</button> of patient blood proteins from a gel to <button class='glossary-text'>nitrocellulose membrane</button>, which you will then wash in a series of solutions to detect and visualize the presence of HIV <button class='glossary-text'>antibodies</button> in the samples. You will interpret the results of this HIV immunoassay to determine which patients are HIV-positive. You record your data in the Lab Notebook in <span class=bodyFontBold>Data Table 1</span>."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Activity 1",
+              "template": "VirtualLab",
+              "activityPath": "activities/580795_VIRT/activity2/story.html"
+            }
+          ]
+        }
+      ]
+    },
+   
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Anatomy_Physiology_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "pageSetting": "portrait",
+      "logo": "courses/580795_VIRT/logo.png",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2022 Carolina Biological Supply Company"
+    },
+    "pages": [
+     
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable1",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+
+              { 
+                "type": "Plain", 
+                "title": "Activity 1"
+              },
+              { 
+                "type": "Plain", 
+                "title": "Data Table 1"
+              },
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "header": [
+                  {
+                   "text": "Lane ",
+                   "colWidth":"15%"
+                  },
+                  {
+                   "text": "Patient ",
+                   "colWidth":"15%"
+                  },
+                  {
+                   "text": "Presence of HIV Antibodies (+/-)",
+                   "colWidth":"15%",
+                   "maxLength": 15
+                  },
+                  {
+                    "text":"Justification ",
+                    "colspan": 5,
+                    "colWidth":"85%",
+                    "maxLength": 500
+                  }
+                 
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "1"
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "width": "15%",
+                      "text": "Positive control "
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                 
+                 
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "3 "
+                    },
+                    {
+                      "type": "text",
+                      "width": "15%",
+                      "text": "Negative control",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "5"
+                    },
+                    {
+                      "type": "text",
+                      "width": "15%",
+                      "text": "A",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "7"
+                    },
+                    {
+                      "type": "text",
+                      "width": "15%",
+                      "text": "B",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "9"
+                    },
+                    {
+                      "type": "text",
+                      "width": "15%",
+                      "text": "C",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "rowHeight": "50px",
+                      "text": "11"
+                    },
+                    {
+                      "type": "text",
+                      "width": "15%",
+                      "text": "D",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+             
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+
+    "pageData": [
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580795_VIRT/580795_Bio_fig_001.svg",
+        "content": "Figure 1. HIV virion structure",
+        "scrollImg": true,
+        "maxWidth": "455px",
+        "altText": "Figure 1: The structure of an HIV virion showing its envelope, capsid, RNA, enzymes and receptors."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580795_VIRT/580795_Bio_fig_002.svg",
+        "content": "Figure 2. HIV Virus Replication Cycle",
+        "scrollImg": true,
+        "maxWidth": "590px",
+        "altText": "Figure 2: An infographic of the replication cycle of HIV within a T-cell."
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Acquired immunodeficiency syndrome (AIDS) ",
+        "content": "A syndrome caused by the destruction of T-cells and other immune cells by HIV, which makes patient vulnerable to infections"
+      },
+      {
+        "title": "Antibody",
+        "content": "A highly specific proteis generated by the immune system that recognizes only one particular antigen"
+      },
+      {
+        "title": "Antigen",
+        "content": "A molecule on the outer surfaces of cells and disease-causing agents; short for \"antibody generators\""
+      },
+      {
+        "title": "Antiretroviral",
+        "content": "A type of medication that inhibits the ability of retroviruses to perform reverse transcription, limiting the number of viruses within a patient's body"
+      },
+      {
+        "title": "B lymphocyte (B cell)",
+        "content": "A type of leukocyte (white blood cell) that makes antibodies; it is one of two types of leukocytes that are pre-programmed to bind to specific antigens via receptors embedded in their cell membranes"
+      },
+      {
+        "title": "Bystander CD4 T-cell",
+        "content": "A type of T-cell that is not directly infected by HIV"
+      },
+      {
+        "title": "Capsid",
+        "content": "A protein coat surrounding the genetic material of a virus"
+      },
+      {
+        "title": "CD4 receptor",
+        "content": "A specific protein receptor on helper T-cells that allows them to recognize other molecules"
+      },
+      {
+        "title": "CD4+ T-cell",
+        "content": "An adaptive immune cell made in the thymus that identifies infections and activates other immune cells to respond"
+      },
+      {
+        "title": "Cytotoxic",
+        "content": "Able to kill a cell"
+      },
+      {
+        "title": "Electrophoretic transfer",
+        "content": "The process of transfering molecules from one surface to another by running an electric current between them"
+      },
+      {
+        "title": "Envelope",
+        "content": "A lipoprotien membrane that surrounds some types of viruses and which contains receptors that allow the virus to attach to the membranes of cells"
+      },
+      {
+        "title": "Gel electrophoresis",
+        "content": "A technique for separating molecules by size by running an electric current through an agrose gel"
+      },
+      {
+        "title": "Helper T cell",
+        "content": "See \"CD4+ T-cell\""
+      },
+      {
+        "title": "Horseradish peroxidase enzyme",
+        "content": "An enzyme extracted from the horesradish plant which can be used to prodce a color change in immunoassays"
+      },
+      {
+        "title": "Human immunodeficiency virus (HIV)",
+        "content": "A retrovirus that attacks immune cells in humans and can cause AIDS"
+      },
+      {
+        "title": "Integrase",
+        "content": "An enzyme produced by HIV viruses that allows them to splice sections of HIV DNA into a cell's DNA strand"
+      },
+      {
+        "title": "Latent infection",
+        "content": "A period of time when a patient has been infected by a virus like HIV but it is not actively producing antibodies against it"
+      },
+      {
+        "title": "Nitrocellulose membrane ",
+        "content": "A thin sheet that can receive electric current during electrophoretic transfer"
+      },
+      {
+        "title": "PrEP",
+        "content": "Medications that prevent HIV infection by inhibiting its ability to bind to CD4 receptors on T-cells; also called pre-exposure prophylaxis"
+      },
+      {
+        "title": "Pryoptosis",
+        "content": "A form a programmed cell death where the cell bursts open releasing cytotoxic chemicals and signals nearby immune cells to undergo the the same process"
+      },
+      {
+        "title": "Retrovirus",
+        "content": "A virus that stores its genetic information as RNA and uses reverse transcriptase to transcribe its RNA to DNA after infecting a cell"
+      },
+      {
+        "title": "Reverse transcriptase",
+        "content": "An enzyme that transcribes RNA into DNA"
+      },
+      {
+        "title": "Virion",
+        "content": "The complete infectious particle of a virus"
+      },
+      {
+        "title": "Western blot",
+        "content": "A type of immunoassay that involves separating proteins by size via gel electrophoresis, eletrophoretically transferring the proteins to blotting paper, and detecting them via antibodies"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

@@ -1,0 +1,3446 @@
+{
+  "locked": true,
+  "courseTitle": "Momentum",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Physics_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/bodyBookmark.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/TakeSnapshot.svg",
+    "core/disposalAndCleanupIcon.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Physics_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Physics",
+                "titleName2": "Momentum",
+                "images": {
+                  "logo": "core/Physics_Subject_Icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "waterMark": false,
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Students will investigate how the law of conservation of <button class='glossary-text'>momentum</button> applies to collisions by performing a series of experiments and recording data on mass, displacement, and time. They will then use this data to calculate the velocity and momentum of moving components of a system before and after a collision."
+                },
+                {
+                  "type": "List",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Books",
+                    "Calculator or computer",
+                    "Masking tape",
+                    "Permanent marker",
+                    "Timer or stopwatch",
+                    "Table (or other level surface)",
+                    "Smartphone, tablet, or other digital recording device (optional)"
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Physics/580401/580401_Physics_Time-Requirement.svg",
+                  "altText": "Preparation – 15 minutes \nActivity 1: Elastic Collision with Equal Masses – 25 minutes \nActivity 2: Elastic Collision with Mass Added to Cart A – 25 minutes \nActivity 3: Elastic Collision with Mass Added to Carts A and B – 25 minutes",
+                  "containerType": "rightContainer",
+                  "scrollImg": true,
+                  "imgDivWidth": "520px",
+                  "maxWidth": "580px"
+                }
+              ]
+            },
+            {
+              "waterMark": true,
+              "template": "OverView",
+              "title": "Overview (cont... )",
+              "pageTitle": "Overview (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Overview Video: Momentum"
+                },
+                {
+                  "type": "Video",
+                  "desc": "Overview Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Physics/580401/580401_Physics_VideoIcone.svg",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6339984020112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Describe collisions between two dynamic carts of varying mass.",
+                    "Determine how differences in cart mass affect the collisions.",
+                    "Apply the law of conservation of <button class='glossary-text'>momentum</button> to collisions."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "image": "core/Key_PPE.svg",
+                  "imgDivWidth": "430px",
+                  "maxWidth": "500px"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "desc": "video link symbol, camera symbol, stopwatch symbol",
+                  "image": "core/Key_protocol.svg",
+                  "imgDivWidth": "430px",
+                  "maxWidth": "500px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "desc": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "imgDivWidth": "430px",
+                  "maxWidth": "500px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Understanding <button class='glossary-text'>momentum</button> plays a key role in designing cars and minimizing fatalities and injuries in car crashes. Impulse is the change in momentum of an object and is directly proportional to the force and time of an impact. Therefore, increasing the time over which a collision and its change in momentum occurs decreases the force on an object. This can help explain why you might have seen a car accident where the car itself is destroyed, but the passenger only sustained minor injuries.  Most modern cars have built-in crumple zones on their front, back, and sides. These areas are designed to compress and fold on impact to increase the time that a collision takes. While this causes more damage to the vehicle, it greatly reduces the force on the passenger and decreases the rate of injury or death.  Many other standard safety features, such as seat belts and air bags, also increase the time it takes for passengers to change their momentum, especially their head, reducing whiplash injuries. These safety features have contributed to a steady decrease in auto fatalities despite an increase in cars on the road and miles traveled."
+                },
+
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580401/580401_Physics_whyShouldICare.svg",
+                  "altText": "Two cars in a rear-end collision crash test. The front end of one car and the back end of the other car are crumpled.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The mathematical quantities that are used to describe the motion of objects can be divided into two categories with distinct definitions:"
+                },
+                {
+                  "type": "List",
+                  "text": [
+                    "<button class='glossary-text'>Scalars</button> are quantities that are fully described by a magnitude (or numerical value) alone.",
+                    "<button class='glossary-text'>Vectors</button> are quantities that are fully described by both a magnitude and a direction."
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "text": "The importance of direction in motion calculations is critical to obtaining accurate results. Velocity vectors reveal how fast something is moving and in what direction, whereas displacement is the distance an object travels away from its starting point in a specific direction."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'><button class='glossary-text'>Momentum</button>, which is a vector, is the quantity of motion of a moving body, measured as a product of its mass and velocity. The <span style='whiteSpace: nowrap'>momentum (<span class='bodyFontBold'><i>p</i></span>)</span> of an object is the product of its <span style='whiteSpace: nowrap'>mass (<i>m</i>)</span> in kilograms times its <span style='whiteSpace: nowrap'>velocity (<span class='bodyFontBold'><i>v</i></span>)</span> (in meters per second, or m/s), as in the following equation:</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580401/580401_Equation_001.svg",
+                  "imgDivWidth": "100px",
+                  "maxWidth": "140px",
+                  "scrollImg": true,
+                  "altText": "Equation 1: p equals m v"
+                },
+
+                {
+                  "type": "Plain",
+                  "text": "Momentum is in many areas of our everyday lives. We experience momentum firsthand in our travels, and we watch it in our favorite sporting events."
+                },
+
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Every time you drive a car, you bring the mass of the car and everything in it up to a speed, giving the car momentum. You’re aware that you should keep a good amount of stopping distance between your car and the vehicle in front to avoid a collision if that vehicle stops suddenly."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "In sports, why are outfield walls in baseball padded? Why do players wear pads and gloves? The answer is in momentum or, more specifically, in the Impulse-Momentum Theorem. Momentum and force have a relationship. When playing baseball, for example, you cannot change the mass of a regulation ball or the speed at which the ball was hit toward you, but you can change the amount of time you are in contact with catching that ball. If you move your hand in the direction of the ball’s motion while you catch it, this small increase in time will diminish the force your hand feels. In boxing, boxers are told to “roll with the punches” so their bodies feel less force when they are hit. A receiver catching a football is an excellent example of an inelastic collision. The mass of the football and the mass of the receiver are now together as one and moving at the same speed as each other."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The law of conservation of momentum holds that the amount of momentum in a system must remain constant if that system is not affected by external forces. This law is often applied to analyzing collisions—if there are no external forces on the system, the total momentum of all the components of the system before the collision must equal the total momentum of those components after the collision."
+                }
+              ]
+            },
+
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What does the law of conservation of momentum state?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The amount of momentum in a system must remain constant if that system is not affected by external forces.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Energy can be converted from one form to another with the interaction of heat and work.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Energy cannot be created or destroyed.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "At absolute zero, there is no momentum.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Mass is neither created nor destroyed.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The law of conservation of momentum states that the amount of momentum in a system must remain constant if that system is not affected by external forces."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "How can the momentum (<i>p</i>) of an object be calculated?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "<i>p</i> = <i>mv</i>",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "<i>p</i> = <i>m/v</i>",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "<i>p</i> = <i>mv <sup>2</sup></i>",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "<i>p</i> = <i>mv/2</i>",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "<i>p</i> = <i>2mv</i>",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The momentum (<i>p</i>) of an object is the product of its mass (<i>m</i>) in kilograms times its velocity (<i>v</i>) in meters per second."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Momentum, which is a vector, is the quantity of motion of a moving body, measured as a product of its mass and velocity. The momentum (<i>p</i>) of an object is the product of its mass (<i>m</i>) in kilograms times its velocity (<i>v</i>) (in meters per second, or m/s). Momentum is in many areas of our everyday lives. We experience momentum firsthand in our travels, and we watch it in our favorite sporting events. The law of conservation of momentum holds that the amount of momentum in a system must remain constant if that system is not affected by external forces. This law is often applied to analyzing collisions. If there are no external forces on the system, the total momentum of all the components of the system before the collision must equal the total momentum of those components after the collision."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Momentum, which is a vector, is the quantity of motion of a moving body, measured as a product of its mass and velocity. The momentum (<i>p</i>) of an object is the product of its mass (<i>m</i>) in kilograms times its velocity (<i>v</i>) (in meters per second, or m/s). Momentum is in many areas of our everyday lives. We experience momentum firsthand in our travels, and we watch it in our favorite sporting events. The law of conservation of momentum holds that the amount of momentum in a system must remain constant if that system is not affected by external forces. This law is often applied to analyzing collisions. If there are no external forces on the system, the total momentum of all the components of the system before the collision must equal the total momentum of those components after the collision."
+                }
+              ]
+            },
+
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The game of billards offers a good example of the law of conservation of <span style='whiteSpace: nowrap'><button class='glossary-text'>momentum</button>.</span> Consider a cue ball that strikes a stationary ball <span style='whiteSpace: nowrap'>(see Figure 1).</span> The cue ball starts with a <span style='whiteSpace: nowrap'>mass (<i>m</i><sub>1</sub>)</span> and a <span style='whiteSpace: nowrap'>velocity (<span class='bodyFontBoldItalic'>v</span><sub>1</sub>).</span> The stationary ball starts with a <span style='whiteSpace: nowrap'>mass (<i>m</i><sub>2</sub>)</span> and a <span style='whiteSpace: nowrap'>velocity (<span class='bodyFontBoldItalic'>v</span><sub>2</sub>).</span> After the collision, the two balls move at different velocities than those before the collision, but the total momentum of the system (i.e., the sum of the momentums of each ball) is the same before and after the collision."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580401/580401_Physics_fig_001.svg",
+                  "imgDivWidth": "430px",
+                  "maxWidth": "580px",
+                  "scrollImg": true,
+                  "altText": "Figure 1: A cue ball hitting a one ball, with the balls moving at different velocities but having the same total momentum"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>The application of the law of conservation to this example is demonstrated by the following equation:</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580401/580401_Equation_002.svg",
+                  "imgDivWidth": "250px",
+                  "maxWidth": "300px",
+                  "scrollImg": true,
+                  "altText": "Equation 2: p sub 1 plus p sub 2 equals p sub 1 prime plus p sub 2 prime \nm sub 1 v sub 1 plus m sub 2 v sub 2 equals m sub 1 v sub 1 prime plus m sub 2 v sub 2 prime"
+                },
+                {
+                  "type": "Box",
+                  "text": "<span class='bodyFontBold'>Note:</span> By convention, momentum and velocity after the collision are indicated with a prime symbol ('). <span class='bodyFontBoldItalic'>v</span> ' is read “<span class='bodyFontBoldItalic'>v</span> prime.”"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Consider the collision of the billiard balls. The cue ball has a <span style='whiteSpace: nowrap'>mass (<i>m</i><sub>1</sub>)</span> of <span style='whiteSpace: nowrap'>0.17 kg</span> and an initial <span style='whiteSpace: nowrap'>velocity (<span class='bodyFontBoldItalic'>v</span><sub>1</sub>)</span> of <span style='whiteSpace: nowrap'>3 m/s.</span> The cue ball strikes a stationary ball that has a <span style='whiteSpace: nowrap'>mass (<i>m</i><sub>2</sub>)</span> of <span style='whiteSpace: nowrap'>0.16 kg</span> and a <span style='whiteSpace: nowrap'>velocity (<span class='bodyFontBoldItalic'>v</span><sub>2</sub>)</span> of <span style='whiteSpace: nowrap'>0 m/s.</span> After the collision, the cue ball has a velocity (<span class='bodyFontBoldItalic'>v</span><sub>1</sub>') of <span style='whiteSpace: nowrap'>1.2 m/s.</span> What is the final velocity of the other ball?"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The law of conservation of momentum can be applied using the following equations:"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <i>m</i><sub>1</sub><span class='bodyFontBoldItalic'>v</span><sub>1</sub> + <i>m</i><sub>2</sub><span class='bodyFontBoldItalic'>v</span><sub>2</sub> = <i>m</i><sub>1</sub><span class='bodyFontBoldItalic'>v</span><sub>1</sub>' + <i>m</i><sub>2</sub><span class='bodyFontBoldItalic'>v</span><sub>2</sub>'"
+                },
+
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "(0.17 kg) (3 <span class='bodyFraction'><span class='top'><i>m</i></span><span class='bottom'><i>s</i></span></span>) + (0.16 kg) (0 <span class='bodyFraction'><span class='top'><i>m</i></span><span class='bottom'><i>s</i></span></span>) = (0.17 kg) (1.2 <span class='bodyFraction'><span class='top'><i>m</i></span><span class='bottom'><i>s</i></span></span>) + (0.16 kg) (<span class='bodyFontBoldItalic'>v</span><sub>2</sub>')"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 0.51 kg · <span class='bodyFraction'><span class='top'><i>m</i></span><span class='bottom'><i>s</i></span></span> = 0.204 kg · <span class='bodyFraction'><span class='top'><i>m</i></span><span class='bottom'><i>s</i></span></span> + (0.16 kg) (<span class='bodyFontBoldItalic'>v</span><sub>2</sub>')"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 0.306 kg · <span class='bodyFraction'><span class='top'><i>m</i></span><span class='bottom'><i>s</i></span></span> = (0.16 kg) (<span class='bodyFontBoldItalic'>v</span><sub>2</sub>')"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <span class='bodyFontBoldItalic'>v</span><sub>2</sub>' = 1.9 <i>m/s</i>"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The <button class='glossary-text'>momentum</button> before the collision, represented by the left side of the equation, should equal the momentum after the collision, represented by the right side of the equation:"
+                },
+
+                {
+                  "type": "Plain",
+                  "text": "(0.17 kg) (3 <span class='bodyFraction'><span class='top'><i>m</i></span><span class='bottom'><i>s</i></span></span>) + (0.16 kg) (0 <span class='bodyFraction'><span class='top'><i>m</i></span><span class='bottom'><i>s</i></span></span>) = (0.17 kg) (1.2 <span class='bodyFraction'><span class='top'><i>m</i></span><span class='bottom'><i>s</i></span></span>) + (0.16 kg) (1.9 <span class='bodyFraction'><span class='top'><i>m</i></span><span class='bottom'><i>s</i></span></span>)"
+                },
+                {
+                  "type": "Plain",
+                  "text": "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 0.51 kg · <span class='bodyFraction'><span class='top'><i>m</i></span><span class='bottom'><i>s</i></span></span> = 0.51 kg · <span class='bodyFraction'><span class='top'><i>m</i></span><span class='bottom'><i>s</i></span></span>"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Consider the collision of a cue ball and a billiard ball. The cue ball has a mass (<i>m</i><sub>1</sub>) of 0.15 kg and an initial velocity (<i>v</i><sub>1</sub>) of 5 m/s. The cue ball strikes the stationary billiard ball that has a mass (<i>m</i><sub>2</sub>) of 0.16 kg and a velocity (<i>v</i><sub>2</sub>) of 0 m/s. After the collision, the cue ball has a velocity (<i>v</i><sub>1</sub>') of 1.5 m/s. What is the final velocity (<i>v</i><sub>2</sub>') of the billiard ball?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "3.28 m/s",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "1.5 m/s",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "5 m/s",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "1.98 m/s",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "32.8 m/s",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "<div style='display:flex;'><img style='margin-right:5px;' width='230px'src='./images/courses_2023/Physics/580401/580401_Equation_002.svg' title= 'Equation 2: p sub 1 plus p sub 2 equals p sub 1 prime plus p sub 2 prime \nm sub 1 v sub 1 plus m sub 2 v sub 2 equals m sub 1 v sub 1 prime plus m sub 2 v sub 2 prime' alt= 'Equation 2: p sub 1 plus p sub 2 equals p sub 1 prime plus p sub 2 prime \nm sub 1 v sub 1 plus m sub 2 v sub 2 equals m sub 1 v sub 1 prime plus m sub 2 v sub 2 prime'><div>  After the collision, the billiard ball has a final velocity (<i>v</i><sub>2</sub>') of 3.28 m/s. </div></div>"
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "The momentum before the collision, represented by the left side of the equation, should _______ the momentum after the collision, represented by the right side of the equation.",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "equal",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "be lesser",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "be more than ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "be faster than",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "be slower than",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The momentum before the collision, represented by the left side of the equation, should equal the momentum after the collision, represented by the right side of the equation."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "imgContainer": "leftContainer",
+                  "body": "Consider the collision of the billiard balls in Figure 1. The cue ball has a mass (<i>m</i><sub>1</sub>) of 0.17 kg and an initial velocity (<i>v</i><sub>1</sub>) of 3 m/s. The cue ball strikes a stationary ball that has a mass (<i>m</i><sub>2</sub>) of 0.16 kg and a velocity (<i>v</i><sub>2</sub>) of 0 m/s. After the collision, the cue ball has a velocity (<i>v</i><sub>1</sub>') of 1.2 m/s. After the collision the other ball has a final velocity (<i>v</i><sub>2</sub>') of 1.9 m/s.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580401/580401_Physics_fig_001.svg",
+                      "alt": "Figure 1: A cue ball hitting a one ball, with the balls moving at different velocities but having the same total momentum",
+                      "maxWidth": "430px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "imgContainer": "leftContainer",
+                  "body": "Consider the collision of the billiard balls in Figure 1. The cue ball has a mass (<i>m</i><sub>1</sub>) of 0.17 kg and an initial velocity (<i>v</i><sub>1</sub>) of 3 m/s. The cue ball strikes a stationary ball that has a mass (<i>m</i><sub>2</sub>) of 0.16 kg and a velocity (<i>v</i><sub>2</sub>) of 0 m/s. After the collision, the cue ball has a velocity (<i>v</i><sub>1</sub>') of 1.2 m/s. After the collision the other ball has a final velocity (<i>v</i><sub>2</sub>') of 1.9 m/s.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580401/580401_Physics_fig_001.svg",
+                      "alt": "Figure 1: A cue ball hitting a one ball, with the balls moving at different velocities but having the same total momentum",
+                      "maxWidth": "430px"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "altText": "A map of the procedural workflow of activity 1. Before beginning, you will set up the momentum carts, ramp and track. Then, you will mark the track for the carts and measure and mark the release point. In activity 1, you will measure the cart masses. Then, you will measure the initial velocity of cart A. You will repeat for 3 trials. Next, you will collide cart A with cart B. Then you will measure the time and displacement for cart A. Next, you will calculate the final velocity for cart A. You will repeat this for 3 trials. Then, you will collide cart A with cart B and measure the time and displacement for cart B. Next, you will calculate the final velocity of cart B. Finally, repeat this for 3 trials. You will then proceed to activity 2.",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Physics/580401/580401_Physics_ED_001.svg",
+                  "imgDivWidth": "96%",
+                  "maxWidth": "1500px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "96%",
+                    "L": "96%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+
+            {
+              "title": "Experimental Design (cont... )",
+              "pageTitle": "Experimental Design (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "altText": "After completing activity 1, in activity 2, you will add washers to cart A and measure the cart mass. Then, you will measure the initial velocity of cart A. You will repeat for 3 trials. Next, you will collide cart A with cart B. Then you will measure the time and displacement for cart A. Next, you will calculate the final velocity for cart A. You will repeat this for 3 trials. Then, you will collide cart A with cart B and measure the time and displacement for cart B. Next, you will calculate the final velocity of cart B. Finally, repeat this for 3 trials. You will then proceed to activity 3.",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Physics/580401/580401_Physics_ED_002.svg",
+                  "imgDivWidth": "77%",
+                  "maxWidth": "1200px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "77%",
+                    "L": "77%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "85%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Experimental Design (cont... )",
+              "pageTitle": "Experimental Design (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "altText": "After completing activity 2, in activity 3, you will add washers to cart A and measure the cart mass. Then, you will measure the initial velocity of cart A. You will repeat for 3 trials. Next, you will collide cart A with cart B. Then you will measure the time and displacement for cart A. Next, you will calculate the final velocity for cart A. You will repeat this for 3 trials. Then, you will collide cart A with cart B and measure the time and displacement for cart B. Next, you will calculate the final velocity of cart B. Finally, repeat this for 3 trials.",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Physics/580401/580401_Physics_ED_003.svg",
+                  "imgDivWidth": "79%",
+                  "maxWidth": "1200px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "79%",
+                    "L": "79%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "85%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Foam board",
+                          "image": "courses_2023/Physics/580401/580401_Physics_material_1.svg",
+                          "altText": "White foam board"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "2 Dynamic carts",
+                          "image": "courses_2023/Physics/580401/580401_Physics_material_2.svg",
+                          "altText": "Plastic dynamic cart"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from the equipment kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Tape measure",
+                          "image": "courses_2023/Physics/580401/580401_Physics_material_3.svg",
+                          "altText": "White measuring tape, 150 centimeters (60 inches)"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "String",
+                          "image": "courses_2023/Physics/580401/580401_Physics_material_4.svg",
+                          "altText": "White string on black spool"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Pocket scale",
+                          "image": "courses_2023/Physics/580401/580401_Physics_material_5.svg",
+                          "altText": "Electronic pocket scale  "
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "30 Washers (weights)",
+                          "image": "courses_2023/Physics/580401/580401_Physics_material_6.svg",
+                          "altText": "7/8 inch flat large washer"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Protractor",
+                          "image": "courses_2023/Physics/580401/580401_Physics_material_7.svg",
+                          "altText": "Clear plastic protractor"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [
+                            "Books",
+                            "Calculator or computer",
+                            "Masking tape",
+                            "Permanent marker",
+                            "Timer or stopwatch",
+                            "Table (or other level surface)",
+                            "Smartphone, tablet, or other digital recording device (optional)"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span> <span className=bodyParaLineBreak></span> <span className=bodyParaLineBreak></span> Replacement supplies for the Momentum investigation (item number 580401) can be ordered from Carolina Biological Supply Company.<span className=bodyParaLineBreak></span> <span className=bodyMediumSubHeading>Call:</span> 866.332.4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "altText": "goggles symbol",
+                  "image": "core/Key_Goggle.svg",
+                  "imgDivWidth": "78px",
+                  "maxWidth": "120px"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Safety goggles should be worn at all times during this activity, which involves the movement and acceleration of objects. Take care during the execution of this investigation to avoid injury."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Read all the instructions for this investigation before beginning. Follow the instructions closely, and observe established safety practices, including the use of appropriate personal protective equipment."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Do not eat, drink, or chew gum while performing this activity. Wash your hands with soap and water before and after performing the activity. Clean the work area with soap and water after completing the investigation. Keep pets and children away from lab materials and equipment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Technology",
+          "pages": [
+            {
+              "title": "Technology",
+              "pageTitle": "Technology",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "isCheckPoint": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Alternate Methods for Collecting Data Using Digital Devices",
+                  "text": "Much of the uncertainty in physics experiments arises from human reaction time error in measuring the times of events. Some of the time intervals are very short, which increases the effect of human error due to reaction time."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Observing the experiment from a good vantage point that removes parallax errors and recording measurements for multiple trials helps to minimize error; using a digital device as an alternate method of data collection may further minimize error. Many digital devices, such as smartphones and tablets, have cameras and software that allow the user to pause or slow down the video. If you film the activity against a scale such as a tape measure, you can use your video playback program to record position and time data. This can provide more accurate data and may eliminate the need for multiple trials."
+                },
+                {
+                  "type": "Plain",
+                  "text": "If the time on your device’s playback program is not sufficiently accurate, you may download an app such as the following free apps:"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<ul style='margin-bottom: 0;'><li><span class='bodyBoldSubHeading'>OnForm</span><br><a target='_blank' href='https://www.hudl.com/products/technique'>iOS and Android</a></li><span className=bodyParaLineBreak><li><span class='bodyBoldSubHeading'>SloPro</span><br><a target='_blank' href='https://apps.apple.com/us/app/slopro-1000fps-slow-motion/id507232505'>iOS</a><br><a target='_blank' href='https://slopro.en.uptodown.com/android'>Android</a></li></ul>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Or you may upload the video to your computer. Your operating system or software suite may include video playback programs, or these programs may be available for download."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.</span>",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is a vector?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "momentum",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "speed",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "distance",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "time",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "mass",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following would increase the momentum of an object?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "increasing its mass",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "decreasing its velocity",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "decreasing its kinetic energy",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "increasing the time over which a collision takes place",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "increasing its displacement from the collision",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following represents the units of momentum?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "kg·m/s",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "kg·m/s<sup>2</sup>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "kg·m<sup>2</sup>/s<sup>2</sup>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "kg·m",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "kg/s",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Boxers are trained to “roll with the punches”, which means they move their body with each punch they receive. Which of the following explains why this strategy decreases the force felt by the boxer?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "It increases the time over which the collision takes place.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "It decreases the time over which the collision takes place.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "It increases the speed of the collision.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "It decreases the speed of the collision.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "It decreases the momentum of the collision.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "When there is no outside source affecting a system, what will happen to the momentum?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The momentum will stay the same.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The momentum will increase.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The momentum will decrease.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The momentum will equal the net force of the system.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The momentum will be inversely related to the sum of the masses.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Ball A strikes a stationary Ball B, causing both balls to be in motion after the collision. Which of the following statements is true about the speed of the balls?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The speed of Ball A decreases and the speed of Ball B increases.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The speed of Ball A increases and the speed of Ball B increases.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The speed of Ball A decreases and the speed of Ball B decreases.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The speed of Ball A increases and the speed of Ball B decreases.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The speed of Ball A remains the same and the speed of Ball B increases.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is an example of an elastic collision?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "A rubber ball drops, which hits the floor and rebounds back into the air.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "One car crashes into another car and the bumpers stick together.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "A baseball catcher catches a baseball, and their hand is pushed backward.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "A ball of mud drops, which hits the floor, and splatters and sticks to the floor.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "A wad of gum is thrown at the wall, which sticks to the wall.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Safety goggles should be worn at all times while conducting this investigation for which of the following reasons?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The investigation involves the movement and acceleration of objects.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The investigation uses corrosive chemicals.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The investigation uses sharp materials.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The investigation involves moving at high speeds.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The investigation involves close examination of small objects.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (10 steps)",
+              "pageTitle": "Preparation (10 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "keyID": "page14",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "text": "For an overview of how to assemble your <button class='glossary-text'>momentum</button> carts, see the video:"
+                      },
+                      {
+                        "type": "Video",
+                        "marginLeft": "20px",
+                        "imgDivMargin": "0 0 12px 0",
+                        "imgDivWidth": "200px",
+                        "desc":"Setting up a Momentum Cart",
+                        "image": "courses_2023/Physics/580401/580401_Physics_VideoIcone_1.svg",
+                        "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4573412161001"
+                      }
+                    ],
+                    "text": "Attach a rubber stopper to the front of one cart with the steel nut provided. This is <span style='whiteSpace: nowrap'>Cart A.</span>"
+                  }
+                ],
+
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Secure a steel spring with a rubber stopper, and attach it to the front bumper of the other cart. This is <span style='whiteSpace: nowrap'>Cart B.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "On a level surface, such as a table, use the foam board and one or more books to set up a ramp at a 10–15° angle <span style='whiteSpace: nowrap'>(see Figure 2).</span> Measure the angle with the protractor."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "<span class='bodyFontBold'>Note:</span> The foam board may bend in the middle as the cart rolls down the ramp, especially in Activities 2 and 3 when mass is added to the carts. It may be necessary to add one or more books beneath the foam board for support. The angle of the board should allow the cart to transition from the board to the table without its front end or rubber stopper contacting the table."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Secure the tape measure along the level surface where the carts will move. The starting point of the tape measure should begin at the lower edge of the foam board."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using pieces of masking tape, mark 10 cm increments along the length of the table."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Mark the piece of tape 20 cm from the foam board as the <span class='bodyFontBold'>start point</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Mark the piece of tape 70 cm from the foam board as the <span class='bodyFontBold'>end point</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place Cart B beyond the end point so that the steel spring bumper is by the piece of tape <span style='whiteSpace: nowrap'>(see Figure 2).</span>"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580401/580401_Physics_fig_002.svg",
+                    "imgDivWidth": "650px",
+                    "maxWidth": "900px",
+                    "scrollImg": true,
+                    "altText": "Figure 2: The experimental setup described in the preparation steps"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place a book (cart-stopping barrier) at the other end of Cart B so that the steel spring bumper is beyond the end point when Cart B makes contact with the book <span style='whiteSpace: nowrap'>(see Figure 2).</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place Cart A at the top of the foam board so that the back end of the cart is even with the end of the board. Use a permanent marker or piece of tape to make a line on the board indicating the <span class='bodyFontBold'>release point</span>. The front of the cart should be behind this line at the start of every trial."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will build a ramp set up and release a dynamics cart on it to create a collision between two dynamics carts of equal masses. You will measure the resulting time and displacement and calculate the average velocity of each cart. You will use this as a control trial against the data collected in <span style='whiteSpace: nowrap'>Activities 2 and 3.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "<div className=order-list-text>A</div>&nbsp; Elastic Collision with Equal Masses (17 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp; Elastic Collision with Equal Masses (17 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "page15",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the pocket scale to measure the mass of Cart A and Cart B, and record the data in the appropriate sections of <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Tables 1A</span>,</span> <span class='bodyFontBold'>1B</span>, and <span class='bodyFontBold'>1C</span>."
+                  }
+                ],
+
+                [
+                  {
+                    "type": "Plain",
+                    "text": "To measure Cart A’s initial velocity (<span class='bodyFontBoldItalic'>v</span><sub>A</sub>), remove Cart B and place Cart A behind the release point at the raised end of the foam board."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Prepare to measure the time it takes for Cart A to travel from the start point to the end point. You will start the timer when the rear of <span style='whiteSpace: nowrap'>Cart A</span> crosses the start point and stop the timer when the front of <span style='whiteSpace: nowrap'>Cart A</span> strikes the barrier. The displacement for this trial is <span style='whiteSpace: nowrap'>50 cm.</span> Record the displacement in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Table 1A</span>,</span> remembering to convert centimeters to meters."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "image": "core/Clock.svg",
+                    "altText": "stopwatch symbol",
+                    "imgWidth": "4.5%",
+                    "text": "Start the timer as you release Cart A, and allow the cart to travel down the ramp onto the level surface, stopping the timer when the cart strikes the barrier. Record the time in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Table 1A</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat Steps 2–4 for two more trials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Now determine Cart A’s final velocity (<span class='bodyFontBoldItalic'>v</span><sub>A</sub>'). Place Cart B on the level surface. The spring should be at the start point <span style='whiteSpace: nowrap'>(see <button class='resource-text'>Figure 2</button>).</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place Cart A at the raised end of the foam board behind the release point."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Release Cart A, and allow it to impact Cart B. It is important that the impact is straight and that both carts travel in a straight line along Cart A’s original direction after the collision."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "image": "core/Clock.svg",
+                    "altText": "stopwatch symbol",
+                    "imgWidth": "4.5%",
+                    "text": "Start timing when Cart A collides with Cart B, and stop timing when Cart A stops moving. Record the time in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Table 1B</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Observe the displacement Cart A traveled after the collision. If the cart did not move, the displacement is zero; if the cart moved backward, the displacement is negative."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the displacement in <span class='bodyFontBold'>Data Table 1B</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat Steps 6–11 for two more trials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Now measure Cart B’s final velocity (<span class='bodyFontBoldItalic'>v</span><sub> B</sub>'). Place Cart A at the raised end of the foam board behind the release point. Return Cart B to the start point."
+                  }
+                ],
+
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Release Cart A, and allow it to impact Cart B. It is important that the impact is straight and that both carts travel in a straight line along Cart A’s original direction after the collision."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "image": "core/Clock.svg",
+                    "altText": "stopwatch symbol",
+                    "imgWidth": "4.5%",
+                    "text": "Start timing when Cart A collides with Cart B, and stop timing when Cart B reaches the end point. This displacement is 50 cm. Record this value in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Table 1C</span>.</span>"
+                  }
+                ],
+
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat Steps 13–15 for two more trials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Complete <span class='bodyFontBold'>Data Tables 1A</span>, <span class='bodyFontBold'>1B</span>, and <span class='bodyFontBold'>1C</span> by calculating the average velocity of the carts before and after the collision."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will repeat Activity 1 but with additional mass added to the cart going down the ramp. You will measure the resulting time and displacement and calculate the average velocity of each cart. You will then compare your results to <span style='whiteSpace: nowrap'>Activity 1</span> to understand the effect of mass on <span style='whiteSpace: nowrap'><button class='glossary-text'>momentum</button>.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "<div className=order-list-text>A</div>&nbsp; Elastic Collision with Mass Added to Cart A (20 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp; Elastic Collision with Mass Added to Cart A (20 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "page16",
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Add 5 large washers to Cart A."
+                  }
+                ],
+
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the pocket scale, measure the mass of Cart A with the washers. Record this value in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Tables 2A</span></span> and <span class='bodyFontBold'>2B</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the pocket scale, measure the mass of the empty Cart B. Record this value in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Table 2C</span>.</span>"
+                  }
+                ],
+
+                [
+                  {
+                    "type": "Plain",
+                    "text": "To measure Cart A’s initial velocity (<span class='bodyFontBoldItalic'>v</span><sub>A</sub>), remove Cart B and place Cart A behind the release point at the raised end of the foam board."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Prepare to measure the time it takes for Cart A to travel from the start point to the end point. You will start the timer when the rear of Cart A crosses the start point and stop the timer when the front of Cart A strikes the barrier. The displacement for this trial is <span style='whiteSpace: nowrap'>50 cm.</span>"
+                  }
+                ],
+
+                [
+                  {
+                    "type": "PlainImage",
+                    "image": "core/Clock.svg",
+                    "altText": "stopwatch symbol",
+                    "imgWidth": "4.5%",
+                    "text": "Release Cart A and start the timer, allowing the cart to travel down the ramp onto the level surface. Stop the timer when Cart A strikes the barrier. Record the time in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Table 2A</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat Steps 4–6 for two more trials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Now determine Cart A’s final velocity (<span class='bodyFontBoldItalic'>v</span><sub>A</sub>'). Place Cart B on the level surface. The spring should be at the start point."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place Cart A at the raised end of the foam board behind the release point."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Release Cart A, and allow it to impact Cart B. It is important that the impact is straight and that both carts travel in a straight line along <span style='whiteSpace: nowrap'>Cart A’s</span> original direction after the collision."
+                  }
+                ],
+
+                [
+                  {
+                    "type": "PlainImage",
+                    "image": "core/Clock.svg",
+                    "altText": "stopwatch symbol",
+                    "imgWidth": "4.5%",
+                    "text": "Start timing when Cart A collides with Cart B, and stop timing when Cart A stops moving. Record the time in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Table 2B</span>.</span>"
+                  }
+                ],
+
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Observe the displacement Cart A traveled after the collision. If the cart did not move, the displacement is zero; if the cart moved backward, the displacement is negative."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "To calculate the final velocity, you need to mark the end point. Use a piece of tape to mark a position on the level surface <span style='whiteSpace: nowrap'>40 cm</span> from the end of the foam board. Record a displacement of <span style='whiteSpace: nowrap'>20 cm (40 cm – 20 cm)</span> in <span class='bodyFontBold'>Data Table 2B</span> as the displacement Cart A traveled after the collision."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "<span class='bodyFontBold'>Note:</span> The 40 cm mark is a suggested end point. Variables such as the angle of the ramp and the type of surface you use may require you to select a different displacement to calculate Cart A’s final velocity (<span class='bodyFontBoldItalic'>v</span><sub>A</sub>'). The displacement should be about ½ to ²/₃ the total displacement Cart A travels after the collision so that the velocity of Cart A over this displacement can be considered constant. Measure the displacement to the end point you select from the start point at <span style='whiteSpace: nowrap'>20 cm.</span> Record this displacement in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Table 2B</span>.</span> Remember, if Cart A reversed direction, <span class='bodyFontBoldItalic'>v</span><sub>A</sub>' is negative."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat Steps 8–13 for two more trials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Now find Cart B’s final velocity (<span class='bodyFontBoldItalic'>v</span><sub> B</sub>'). Place Cart A at the raised end of the foam board behind the release point. Return Cart B to the start point."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Release Cart A, and allow it to impact Cart B. It is important that the impact is straight and that both carts travel in a straight line along <span style='whiteSpace: nowrap'>Cart A’s</span> original direction."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "image": "core/Clock.svg",
+                    "altText": "stopwatch symbol",
+                    "imgWidth": "4.5%",
+                    "text": "Start the timer when the vehicles collide, and stop it when Cart B reaches the end point. Record the time in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Table 2C</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat Steps 15–17 for two more trials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Measure the displacement from the start point to the end point. (This displacement should be <span style='whiteSpace: nowrap'>50 cm.)</span> Record this value in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Table 2C</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Complete <span class='bodyFontBold'>Data Tables 2A</span>, <span class='bodyFontBold'>2B</span>, and <span class='bodyFontBold'>2C</span> by calculating the average velocity of the carts before and after the collision."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 3",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 3, you will repeat Activity 2 but with additional mass added to each cart. You will measure the resulting time and displacement and calculate the average velocity of each cart. You will then compare your results to Activity 1 to understand the effect of mass on <span style='whiteSpace: nowrap'><button class='glossary-text'>momentum</button>.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 3",
+          "pages": [
+            {
+              "title": "<div className=order-list-text>A</div>&nbsp; Elastic Collision with Mass Added to Carts A and B (20 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp; Elastic Collision with Mass Added to Carts A and B (20 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "page17",
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [
+                      {
+                        "type": "Box",
+                        "text": "<span class='bodyFontBold'>Note:</span> For this activity, the mass of the target cart, Cart B, should be greater than the mass of <span style='whiteSpace: nowrap'>Cart A.</span> In this scenario, <span style='whiteSpace: nowrap'>Cart A</span> will likely reverse direction after the collision. If the mass of <span style='whiteSpace: nowrap'>Cart A</span> is too small, it will move too fast to record an accurate time. The numbers of washers in <span style='whiteSpace: nowrap'>Step 1</span> are suggestions. You may need to adjust the number of washers in each cart to get an accurate measurement for time for each cart."
+                      }
+                    ],
+                    "text": "Place 11 large washers in Cart B and 5 small washers in Cart A."
+                  }
+                ],
+
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the pocket scale, measure the mass of Cart B with the 11 washers. Record this value in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Table 3C</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the pocket scale, measure the mass of Cart A with the 5 small washers. Record this value in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Tables 3A</span> and <span class='bodyFontBold'>3B</span>.</span>"
+                  }
+                ],
+
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using a piece of tape, mark a new <span class='bodyFontBold'>start point</span> on the level surface <span style='whiteSpace: nowrap'>35 cm</span> from the lower end of the foam board."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "<span class='bodyFontBold'>Note:</span> In this scenario, Cart A will likely reverse direction after the collision. Moving the start point (where the collision will occur) farther from the foam board should provide adequate space for Cart A to move after the collision so that you can record a time and calculate a velocity. Remember, if Cart A reverses direction after the collision, then <span class='bodyFontBoldItalic'>v</span><sub>A</sub>' is negative."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Now determine Cart A’s initial velocity (<span class='bodyFontBoldItalic'>v</span><sub>A</sub>). Remove Cart B, and place<span style='whiteSpace: nowrap'> Cart A</span> behind the release point at the raised end of the foam board."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Release Cart A, and allow it to travel down the ramp onto the level surface."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "image": "core/Clock.svg",
+                    "altText": "stopwatch symbol",
+                    "imgWidth": "4.5%",
+                    "text": "Measure the time it takes for Cart A to travel from the start point to the end point. Start the timer when the rear of Cart A crosses the start point, and stop the timer when the front of <span style='whiteSpace: nowrap'>Cart A</span> strikes the barrier. The displacement for this trial is <span style='whiteSpace: nowrap'>35 cm (70 cm – 35 cm).</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat this process for two more trials, and record the data in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Table 3A</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Now find Cart A’s final velocity (<span class='bodyFontBoldItalic'>v</span><sub>A</sub>'). Place <span style='whiteSpace: nowrap'>Cart B</span> on the level surface at the start point."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place Cart A at the raised end of the foam board behind the release point. Release Cart A, and allow it to impact <span style='whiteSpace: nowrap'>Cart B.</span> It is important that the impact is straight and that both carts travel in a straight line after the collision."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Observe the displacement and direction Cart A travels after the collision. If Cart A does not move after the collision, remove a washer from <span style='whiteSpace: nowrap'>Cart A</span> and repeat <span style='whiteSpace: nowrap'>Step 10.</span>"
+                  }
+                ],
+
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Once Cart A and B move consistently after the collision, measure a point 10 cm from the start point. This is the end position for <span style='whiteSpace: nowrap'>Cart A.</span> Record this displacement in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Table 3B</span>.</span>"
+                  },
+                  {
+                    "type": "Box",
+                    "text": "<span class='bodyFontBold'>Note:</span> The 10 cm mark is a suggested end point. Variables, such as the angle of the ramp and the type of surface you use, may require you to select a different displacement to calculate Cart A’s final velocity (<span class='bodyFontBoldItalic'>v</span><sub>A</sub>'). The displacement should be about ½ to ²/₃ the total displacement <span style='whiteSpace: nowrap'>Cart A</span> travels after the collision so that the velocity of <span style='whiteSpace: nowrap'>Cart A</span> over this displacement can be considered constant. Measure the displacement to the end point you select from the start point at <span style='whiteSpace: nowrap'>35 cm.</span> Record this displacement in <span style='whiteSpace: nowrap'>Data Table 3B.</span> Remember, if Cart A reverses direction, <span class='bodyFontBoldItalic'>v</span><sub>A</sub>' is negative."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "image": "core/Clock.svg",
+                    "altText": "stopwatch symbol",
+                    "imgWidth": "4.5%",
+                    "text": "Record the time for Cart A to travel from the start point (where the collision occurs) to the end point for <span style='whiteSpace: nowrap'>Cart A</span> <span style='whiteSpace: nowrap'>(10 cm</span> from the start point)."
+                  }
+                ],
+
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat this process for two more trials, and record the data in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Table 3B</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Now find Cart B’s final velocity (<span class='bodyFontBoldItalic'>v</span><sub> B</sub>'). Measure the displacement from the start point to the end point. This displacement should be <span style='whiteSpace: nowrap'>35 cm (70 cm – 35 cm).</span> Record this displacement in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Table 3C</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place Cart A at the raised end of the foam board behind the release point."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Release Cart A, and allow it to impact Cart B. It is important that the impact is straight and that both carts travel in a straight line along <span style='whiteSpace: nowrap'>Cart A’s</span> original direction after the collision."
+                  }
+                ],
+
+                [
+                  {
+                    "type": "PlainImage",
+                    "image": "core/Clock.svg",
+                    "altText": "stopwatch symbol",
+                    "imgWidth": "4.5%",
+                    "text": "Record the time it takes for Cart B to travel from the start point to the end point."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat this process for two more trials, and record the data in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Table 3C</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Complete <span class='bodyFontBold'>Data Tables 3A</span>, <span class='bodyFontBold'>3B</span>, and <span class='bodyFontBold'>3C</span> by calculating the average velocity of the carts before and after the collision."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Calculations",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Calculations",
+          "pages": [
+            {
+              "title": "Calculations (3 teps)",
+              "pageTitle": "Calculations (3 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "page18",
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "text": "Apply the law of conservation of <button class='glossary-text'>momentum</button> to the two-cart system by calculating the momentum before and after the collision."
+                      }
+                    ],
+                    "text": "Calculate the momentum of the system before the collision (the left side of the equation) and after the collision (the right side of the equation). Remember that the velocity of <span style='whiteSpace: nowrap'>Cart B</span> before the collision is 0."
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "<i>m</i><sub>A</sub><span class='bodyFontBoldItalic'>v</span><sub>A</sub> + <i>m</i><sub> B</sub><span class='bodyFontBoldItalic'>v</span><sub> B</sub> = <i>m</i><sub>A</sub><span class='bodyFontBoldItalic'>v</span><sub>A</sub>' + <i>m</i><sub> B</sub><span class='bodyFontBoldItalic'>v</span><sub> B</sub>'"
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "Momentum before the collision = <i>m</i><sub>A</sub><span class='bodyFontBoldItalic'>v</span><sub>A</sub> + <i>m</i><sub> B</sub><span class='bodyFontBoldItalic'>v</span><sub> B</sub>"
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "Momentum after the collision = <i>m</i><sub>A</sub><span class='bodyFontBoldItalic'>v</span><sub>A</sub>' + <i>m</i><sub> B</sub><span class='bodyFontBoldItalic'>v</span><sub> B</sub>'"
+                  }
+                ],
+
+                [
+                  {
+                    "type": "Plain",
+                    "text": "<span style='padding-bottom:5px;display:block;'>Calculate the percent difference between the two values.</span>"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580401/580401_Equation_003.svg",
+                    "imgDivWidth": "450px",
+                    "maxWidth": "500px",
+                    "scrollImg": true,
+                    "disableClick": false,
+                    "altText": "percent difference equals begin absolute value begin fraction first value minus second value over secondary fraction begin paren first value plus second value over 2 end paren end secondary fraction end primary fraction end absolute value times 100 percent"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Explain any difference in the values before and after the collision."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                  "orderedType": "1",
+                  "text": [
+                    "Return the materials to the equipment kit, and clean the area."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "altText": "completion",
+                  "desc": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Physics_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "landscape A4"
+    },
+    "pages": [
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "70%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1A. Cart A before collision"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "maxLength": 20,
+                "header": [
+                  {
+                    "text": "Cart A mass, <i>m</i><sub>A</sub> (kg)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Displacement, Δ<i>x</i> (m)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Time, <span style='whiteSpace: nowrap'><i>t</i> (s)</span>",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Average time, <span style='whiteSpace: nowrap'><i>t</i> (s)</span>",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Velocity, <i>v</i><sub>A</sub> = <span style='whiteSpace: nowrap'>Δ<i>x</i> /<i>t</i> (m/s)</span>",
+                    "colWidth": "20%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "70%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 1B. Cart A after collision"
+              },
+              {
+                "type": "DataTable",
+                "sr": 1,
+                "maxLength": 20,
+                "header": [
+                  {
+                    "text": "Cart A mass, <i>m</i><sub>A</sub> (kg)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Displacement, Δ<i>x</i> (m)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Time, <span style='whiteSpace: nowrap'><i>t</i> (s)</span>",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Average time, <span style='whiteSpace: nowrap'><i>t</i> (s)</span>",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Velocity, <i>v</i><sub>A</sub>' = <span style='whiteSpace: nowrap'>Δ<i>x</i> /<i>t</i> (m/s)</span>",
+                    "colWidth": "20%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "70%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 1C. Cart B after collision"
+              },
+              {
+                "type": "DataTable",
+                "sr": 2,
+                "maxLength": 20,
+                "header": [
+                  {
+                    "text": "Cart B mass, <i>m</i><sub> B</sub> (kg)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Displacement, Δ<i>x</i> (m)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Time, <span style='whiteSpace: nowrap'><i>t</i> (s)</span>",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Average time, <span style='whiteSpace: nowrap'><i>t</i> (s)</span>",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Velocity, <i>v</i><sub> B</sub>' = <span style='whiteSpace: nowrap'>Δ<i>x</i> /<i>t</i> (m/s)</span>",
+                    "colWidth": "20%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": ["Question1", "Question2", "Question3", "Question4"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "What was the total momentum of the system before the collision?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 250,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "2",
+                "listType": "ordered",
+                "text": [
+                  "What was the total momentum of the system after the collision?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 1,
+                "maxLength": 250,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question3",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "3",
+                "listType": "ordered",
+                "text": [
+                  "What is the percent difference between the momentum before and after the collision?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question3",
+                "sr": 2,
+                "maxLength": 250,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question4",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "4",
+                "listType": "ordered",
+                "text": [
+                  "Explain any difference in the values before and after the collision."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question4",
+                "sr": 3,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "70%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 2A. Cart A before collision"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "maxLength": 20,
+                "header": [
+                  {
+                    "text": "Cart A mass, <i>m</i><sub>A</sub> (kg)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Displacement, Δ<i>x</i> (m)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Time, <span style='whiteSpace: nowrap'><i>t</i> (s)</span>",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Average time, <span style='whiteSpace: nowrap'><i>t</i> (s)</span>",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Velocity, <i>v</i><sub>A</sub> = <span style='whiteSpace: nowrap'>Δ<i>x</i> /<i>t</i> (m/s)</span>",
+                    "colWidth": "20%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "70%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 2B. Cart A after collision"
+              },
+              {
+                "type": "DataTable",
+                "sr": 1,
+                "maxLength": 20,
+                "header": [
+                  {
+                    "text": "Cart A mass, <i>m</i><sub>A</sub> (kg)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Displacement, Δ<i>x</i> (m)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Time, <span style='whiteSpace: nowrap'><i>t</i> (s)</span>",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Average time, <span style='whiteSpace: nowrap'><i>t</i> (s)</span>",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Velocity, <i>v</i><sub>A</sub>' = <span style='whiteSpace: nowrap'>Δ<i>x</i> /<i>t</i> (m/s)</span>",
+                    "colWidth": "20%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "70%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 2C. Cart B after collision"
+              },
+              {
+                "type": "DataTable",
+                "sr": 2,
+                "maxLength": 20,
+                "header": [
+                  {
+                    "text": "Cart B mass, <i>m</i><sub> B</sub> (kg)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Displacement, Δ<i>x</i> (m)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Time, <span style='whiteSpace: nowrap'><i>t</i> (s)</span>",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Average time, <span style='whiteSpace: nowrap'><i>t</i> (s)</span>",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Velocity, <i>v</i><sub> B</sub>' = <span style='whiteSpace: nowrap'>Δ<i>x</i> /<i>t</i> (m/s)</span>",
+                    "colWidth": "20%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": ["Question5", "Question6", "Question7", "Question8"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question5",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "5",
+                "listType": "ordered",
+                "text": [
+                  "What was the total momentum of the system before the collision?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question5",
+                "sr": 0,
+                "maxLength": 250,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+
+          {
+            "type": "Wrapper",
+            "id": "Question6",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "6",
+                "listType": "ordered",
+                "text": [
+                  "What was the total momentum of the system after the collision?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question6",
+                "sr": 1,
+                "maxLength": 250,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question7",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "7",
+                "listType": "ordered",
+                "text": [
+                  "What is the percent difference between the momentum before and after the collision? "
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question7",
+                "sr": 2,
+                "maxLength": 250,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question8",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "8",
+                "listType": "ordered",
+                "text": [
+                  "Explain any difference in the values before and after the collision."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question8",
+                "sr": 3,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "70%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 3"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 3A. Cart A before collision"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "maxLength": 20,
+                "header": [
+                  {
+                    "text": "Cart A mass, <i>m</i><sub>A</sub> (kg)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Displacement, Δ<i>x</i> (m)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Time, <span style='whiteSpace: nowrap'><i>t</i> (s)</span>",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Average time, <span style='whiteSpace: nowrap'><i>t</i> (s)</span>",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Velocity, <i>v</i><sub>A</sub> = <span style='whiteSpace: nowrap'>Δ<i>x</i> /<i>t</i> (m/s)</span>",
+                    "colWidth": "20%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "70%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 3B. Cart A after collision"
+              },
+              {
+                "type": "DataTable",
+                "sr": 1,
+                "maxLength": 20,
+                "header": [
+                  {
+                    "text": "Cart A mass, <i>m</i><sub>A</sub> (kg)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Displacement, Δ<i>x</i> (m)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Time, <span style='whiteSpace: nowrap'><i>t</i> (s)</span>",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Average time, <span style='whiteSpace: nowrap'><i>t</i> (s)</span>",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Velocity, <i>v</i><sub>A</sub>' = <span style='whiteSpace: nowrap'>Δ<i>x</i> /<i>t</i> (m/s)</span>",
+                    "colWidth": "20%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "70%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 3C. Cart B after collision"
+              },
+              {
+                "type": "DataTable",
+                "sr": 2,
+                "maxLength": 20,
+                "header": [
+                  {
+                    "text": "Cart B mass, <i>m</i><sub> B</sub> (kg)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Displacement, Δ<i>x</i> (m)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Time, <span style='whiteSpace: nowrap'><i>t</i> (s)</span>",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Average time, <span style='whiteSpace: nowrap'><i>t</i> (s)</span>",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Velocity, <i>v</i><sub> B</sub>' = <span style='whiteSpace: nowrap'>Δ<i>x</i> /<i>t</i> (m/s)</span>",
+                    "colWidth": "20%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "rowspan": 3,
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": ["Question9", "Question10", "Question11", "Question12"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question9",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "9",
+                "listType": "ordered",
+                "text": [
+                  "What was the total momentum of the system before the collision?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question9",
+                "sr": 0,
+                "maxLength": 250,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+
+          {
+            "type": "Wrapper",
+            "id": "Question10",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "10",
+                "listType": "ordered",
+                "text": [
+                  "What was the total momentum of the system after the collision?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question10",
+                "sr": 1,
+                "maxLength": 250,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question11",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "11",
+                "listType": "ordered",
+                "text": [
+                  "What is the percent difference between the momentum before and after the collision?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question11",
+                "sr": 2,
+                "maxLength": 250,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question12",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "12",
+                "listType": "ordered",
+                "text": [
+                  "Explain any difference in the values before and after the collision."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question12",
+                "sr": 3,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": ["Question13", "Question14", "Question15"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question13",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "13",
+                "listType": "ordered",
+                "text": [
+                  "The Law of Conservation of Momentum states that total momentum before a collision equals the total momentum after a collision provided there are no outside forces acting on the objects in the system. What outside forces are acting on the present system that could affect the results of the experiments?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question13",
+                "sr": 0,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+
+          {
+            "type": "Wrapper",
+            "id": "Question14",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "14",
+                "listType": "ordered",
+                "text": [
+                  "What did you observe when Cart A containing mass collided with Cart B containing no mass?  How does the Law of Conservation of Momentum explain this collision?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question14",
+                "sr": 1,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question15",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "15",
+                "listType": "ordered",
+                "text": [
+                  "In one of the experiments, Cart A may reverse direction after the collision. How is this accounted for in your calculations?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question15",
+                "sr": 2,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 3000,
+            "title": "Notes"
+          },
+          
+          {
+            "type": "Box",
+            "id": "Box_Note",
+            "align": "center",
+            "margin": "25px 0 0 0",
+            "text": "In order for your instructor to be able to open your video links, please select the \"Save as PDF\" option rather than \"Print to PDF\"."
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6339984020112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 1. Momentum",
+        "src": "courses_2023/Physics/580401/580401_Equation_001.svg",
+        "maxWidth": "140px",
+        "scrollImg": true,
+        "altText": "Equation 1: p equals m v"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 1. The elastic collision between 2 billiard balls",
+        "src": "courses_2023/Physics/580401/580401_Physics_fig_001.svg",
+        "imgDivWidth": "430px",
+        "maxWidth": "580px",
+        "scrollImg": true,
+        "altText": "Figure 1: A cue ball hitting a one ball, with the balls moving at different velocities but having the same total momentum"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 2. Law of conservation of momentum",
+        "src": "courses_2023/Physics/580401/580401_Equation_002.svg",
+        "maxWidth": "300px",
+        "scrollImg": true,
+        "altText": "Equation 2: p sub 1 plus p sub 2 equals p sub 1 prime plus p sub 2 prime \nm sub 1 v sub 1 plus m sub 2 v sub 2 equals m sub 1 v sub 1 prime plus m sub 2 v sub 2 prime"
+      },
+
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Experimental Design Diagram",
+
+        "scrollImg": true,
+        "altText": "A map of the procedural workflow of activity 1. Before beginning, you will set up the momentum carts, ramp and track. Then, you will mark the track for the carts and measure and mark the release point. In activity 1, you will measure the cart masses. Then, you will measure the initial velocity of cart A. You will repeat for 3 trials. Next, you will collide cart A with cart B. Then you will measure the time and displacement for cart A. Next, you will calculate the final velocity for cart A. You will repeat this for 3 trials. Then, you will collide cart A with cart B and measure the time and displacement for cart B. Next, you will calculate the final velocity of cart B. Finally, repeat this for 3 trials. You will then proceed to activity 2.",
+        "src": "courses_2023/Physics/580401/580401_Physics_ED_001.svg",
+        "maxWidth": "1500px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Experimental Design Diagram <span style='whiteSpace: nowrap'>(cont... )</span>",
+        "altText": "After completing activity 1, in activity 2, you will add washers to cart A and measure the cart mass. Then, you will measure the initial velocity of cart A. You will repeat for 3 trials. Next, you will collide cart A with cart B. Then you will measure the time and displacement for cart A. Next, you will calculate the final velocity for cart A. You will repeat this for 3 trials. Then, you will collide cart A with cart B and measure the time and displacement for cart B. Next, you will calculate the final velocity of cart B. Finally, repeat this for 3 trials. You will then proceed to activity 3.",
+        "src": "courses_2023/Physics/580401/580401_Physics_ED_002.svg",
+        "maxWidth": "1200px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Experimental Design Diagram <span style='whiteSpace: nowrap'>(cont... )</span>",
+        "altText": "After completing activity 2, in activity 3, you will add washers to cart A and measure the cart mass. Then, you will measure the initial velocity of cart A. You will repeat for 3 trials. Next, you will collide cart A with cart B. Then you will measure the time and displacement for cart A. Next, you will calculate the final velocity for cart A. You will repeat this for 3 trials. Then, you will collide cart A with cart B and measure the time and displacement for cart B. Next, you will calculate the final velocity of cart B. Finally, repeat this for 3 trials.",
+        "src": "courses_2023/Physics/580401/580401_Physics_ED_003.svg",
+        "maxWidth": "1200px",
+        "scrollImg": true
+      },
+      {
+        "type": "Pages",
+        "disableClick": true,
+        "hideFromList": true,
+        "thumbnailSrc": "core/Page_icon.svg",
+        "content": "OnForm iOS and Android apps",
+        "ref": "https://www.hudl.com/products/technique"
+      },
+      {
+        "type": "Pages",
+        "disableClick": true,
+        "hideFromList": true,
+        "thumbnailSrc": "core/Page_icon.svg",
+        "content": "SloPro iOS app",
+        "ref": "https://apps.apple.com/us/app/slopro-1000fps-slow-motion/id507232505"
+      },
+      {
+        "type": "Pages",
+        "disableClick": true,
+        "hideFromList": true,
+        "thumbnailSrc": "core/Page_icon.svg",
+        "content": "SloPro Android app",
+        "ref": "https://slopro.en.uptodown.com/android"
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4573412161001",
+        "content": "Setting up a Momentum Cart"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 2. Cart and ramp set up",
+        "src": "courses_2023/Physics/580401/580401_Physics_fig_002.svg",
+        "imgDivWidth": "650px",
+        "maxWidth": "900px",
+        "scrollImg": true,
+        "altText": "Figure 2: The experimental setup described in the preparation steps"
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Momentum",
+        "content": "The quantity of motion of a moving body measured as a product of its mass and velocity; it is a vector quantity"
+      },
+      {
+        "title": "Scalar",
+        "content": "A quantity with a magnitude but not a direction"
+      },
+      {
+        "title": "Vector",
+        "content": "A quantity with a direction and a magnitude (or size)"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

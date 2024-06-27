@@ -1,0 +1,2101 @@
+{
+  "locked": true,
+  "courseTitle": "PCR Virtual Lab",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/bodyBookmark.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Biology_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Biology",
+                "images": {
+                  "launchPage": "core/Biology_launchPageBg.svg",
+                  "logo": "core/Biology_subject_icon.svg"
+                },
+                "titleName2": "PCR Virtual Lab",
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, you will learn about <button class='glossary-text'>DNA replication</button> and how scientists artificially replicate DNA through the technique of <button class='glossary-text'>PCR</button>. You will apply these concepts as you prepare reagents and set up parameters for PCR reactions in a thermocycler. You will also learn about and conduct an analysis of your results via gel electrophoresis."
+                },
+                {
+                  "type": "Plain",
+                  "title": "Needed but not supplied:",
+                  "text": 
+                    "There are no materials required for this investigation."
+                  
+                }
+              ]
+            }
+          ]
+        },
+
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                 
+                  "type": "List",
+                  "text": [
+                    "Describe the structure of a <button class='glossary-text'>nucleotide</button> and a DNA double helix.",
+                    "Describe the process of <button class='glossary-text'>DNA replication</button> by living cells.",
+                    "Describe the purpose and applications of <button class='glossary-text'>PCR</button>.",
+                    "Set up and run PCR reactions using positive and negative controls.",
+                    "Analyze the results of PCR by running gel electrophoresis with a molecular weight control."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+       
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>PCR</button> plays an important role in saving lives during pandemics and other global health emergencies. During the COVID-19 pandemic, PCR testing was the first type of testing available for patients to determine whether they had the virus. It was instrumental in helping individuals, organizations, and governments determine how to proceed with contact tracking and quarantining.  Even after the development of at-home antigen tests, PCR testing is still used for confirmatory testing and in clinical trials, as it is the most accurate test available."
+                },
+                {
+                  "type": "Plain",
+                  "text": "PCR also plays an important role in helping us prepare for future pandemics. Many communities regularly test wastewater for viral DNA using PCR-based tests, which can help show the viral load in a community before people begin showing symptoms. This can help hospitals prepare for increased illness and public health officials encourage vaccinations. This method can also be used to detect emerging viruses that have not yet been identified as threats. By testing for genes of concern, or viral genes that could make a virus more deadly or more infectious, rather than whole viral sequences, PCR can be a tool in preventing an unknown virus from taking hold."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580228_VIRT/580228_Bio_whyShouldICare.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "desc": "A healthcare worker wearing a face shield and PPE inserts a swab into a patient's nose.",
+                  "altText": "A healthcare worker wearing a face shield and PPE inserts a swab into a patient's nose."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "DNA Structure",
+                  "text": "Deoxyribonucleic acid, or DNA, is a double-stranded polymer also known as a DNA double helix. This important hereditary molecule is composed of building blocks called <button class='glossary-text'>nucleotides</button>. Each nucleotide consists of one of four <button class='glossary-text'>nitrogenous bases</button> (cytosine, guanine, adenine or thymine), a <button class='glossary-text'>deoxyribose</button> sugar, and a <button class='glossary-text'>phosphate group</button>. "
+                },
+                {
+                  "type": "Plain",
+                  "text": "Within each strand of DNA, each nucleotide is covalently linked to the next by a <button class='glossary-text'>phosphodiester linkage</button> between the sugar of one nucleotide and the phosphate of the next, resulting in an alternating sugar-phosphate backbone."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_001.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "400px",
+                  "scrollImg": true,
+                  "maxWidth": "500px",
+                  "altText": "Figure 1: Structure of DNA molecules"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Hydrogen bonds</button> between complementary <button class='glossary-text'>nitrogenous bases</button> hold the two strands together: a cytosine (Figure 2, blue) on one strand always with a guanine (green) on the other, and an adenine (purple) on one strand always with a thymine (red) on the other. The hydrogen bonds are highlighted in yellow."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Each strand of DNA has directionality, with one end of the strand called <button class='glossary-text'>5’</button> (read as <span class='bodyFontItalic'>five prime</span>) and the opposite end called <button class='glossary-text'>3’</button> (three prime). These names refer to the way the carbon atoms in the <button class='glossary-text'>deoxyribose</button> sugar of each <button class='glossary-text'>nucleotide</button> are numbered."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_002.svg",
+                  "imgDivWidth": "390px",
+                  "scrollImg": true,
+                  "maxWidth": "490px",
+                  "altText": "Figure 2: The chemical structure of a portion of a DNA molecule with two nucleotides in the left strand and two nucleotides in the right strand. The left strand has the nucleotides adenine and guanine which are chemically bonded to the nucleotides in the right strand, thymine and cytosine, respectively. The chemical bonds between the nucleotides of each strand are indicated."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_003.svg",
+                  "imgDivWidth": "220px",
+                  "scrollImg": true,
+                  "maxWidth": "270px",
+                  "altText": "Figure 3: The chemical structure of one strand of DNA molecule consisting of two nucleotides. The top end of the strand is labeled five prime. The bottom end of the strand is labeled three prime. The carbon atoms in the deoxyribose sugar in each nucleotide in the strand, starting from the oxygen atom in the ring and moving clockwise around the ring, are labeled one prime, two prime, three prime, four prime and five prime."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The <button class='glossary-text'>5’</button> end has a free <button class='glossary-text'>phosphate group</button> (PO<sub class='bodysubscript'>4</sub><sup class='bodySupscript'>3-</sup>) attached to the 5’ carbon of the <button class='glossary-text'>deoxyribose</button>, and the <button class='glossary-text'>3’</button> end has a free hydroxyl group (-OH) attached to the 3’ carbon of the deoxyribose. The two strands are <button class='glossary-text'>anti-parallel</button>, running in opposite directions of one another."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_004.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "435px",
+                  "scrollImg": true,
+                  "maxWidth": "540px",
+                  "altText": "Figure 4: The chemical structure of a portion of a DNA molecule with two nucleotides in the left strand and two nucleotides in the right strand. The top end of the left strand is labeled five prime and the bottom end of the left strand is labeled three prime. The top end of the right strand is labeled three prime and the bottom end of the right strand is labeled five prime."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "If one strand of a DNA molecule has the nucleotide sequence adenine (A), thymine (T), thymine (T), cytosine (C), what would its complimentary strand look like?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "TAAG",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "ATTC",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "TCCA",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "GCCT",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The complimentary strand to ATTC would be TAAG."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following correctly describes a nucleotide?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "a deoxyribose sugar, a phosphate group, and a nitrogenous base",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "a ribose sugar, a phosphorus atom and a nitrogenous base",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "a four-carbon sugar, a phosphate group, and two nitrogenous bases",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "two complimentary bases attracted by hydrogen bonds",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "a deoxyribose or a phosphodiester, and a nitrogenous base",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Each nucleotide consists of one of four nitrogenous bases (cytosine, guanine, adenine or thymine), a deoxyribose sugar, and a phosphate group."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Deoxyribonucleic acid, or DNA, is a double-stranded polymer, also known as a DNA double helix. This important hereditary molecule is composed of building blocks called nucleotides. Within each strand of DNA, each nucleotide is covalently linked to the next by a phosphodiester linkage between the sugar of one nucleotide and the phosphate of the next, resulting in an alternating sugar-phosphate backbone. Hydrogen bonds between complementary nitrogenous bases hold the two strands together: a cytosine (C) on one strand always with a guanine (G) on the other, and an adenine (A) on one strand always with a thymine (T) on the other."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Deoxyribonucleic acid, or DNA, is a double-stranded polymer, also known as a DNA double helix. This important hereditary molecule is composed of building blocks called nucleotides. Within each strand of DNA, each nucleotide is covalently linked to the next by a phosphodiester linkage between the sugar of one nucleotide and the phosphate of the next, resulting in an alternating sugar-phosphate backbone. Hydrogen bonds between complementary nitrogenous bases hold the two strands together: a cytosine (C) on one strand always with a guanine (G) on the other, and an adenine (A) on one strand always with a thymine (T) on the other."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "DNA Replication <span class='bodyFontItalic'>in Vivo</span>",
+                  "text": "The complementary nature of the four <button class='glossary-text'>nitrogenous bases</button> forms the basis of DNA as the genetic material within all living cells and in some viruses. When DNA is synthesized in living cells, it is said to be synthesized <span class='bodyFontItalic'>in Vivo</span>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "During <button class='glossary-text'>DNA replication</button> (Figure 5), the DNA double helix is unwound and the <button class='glossary-text'>hydrogen bonds</button> holding the two strands together are broken. The two separated DNA strands are now templates for two new strands of DNA. The new DNA strands are synthesized by DNA polymerase, which incorporates new base pairs using complements to the bases on the parent, or template, strand. DNA polymerase adds new <button class='glossary-text'>nucleotides</button> to the <button class='glossary-text'>3’</button> end via the free -OH group of the previous nucleotide; thus, all new strands of DNA are synthesized in a <button class='glossary-text'>5’</button> to 3’ direction. DNA polymerase cannot add nucleotides <button class='glossary-text'><span class='bodyFontItalic'>de novo</span></button>: it requires a nucleotide with a 3’ -OH to which it can add the new nucleotide and extend the new DNA chain. These nucleotides are provided by the action of <button class='glossary-text'>primase</button>, an enzyme which synthesizes short single-stranded ribonucleic acid (RNA) sequences, which can bind to the template and provide a starting point for DNA replication. These short sequences are known as <button class='glossary-text'>primers</button>."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_005.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "500px",
+                  "scrollImg": true,
+                  "maxWidth": "625px",
+                  "altText": "Figure 5: A vertical DNA molecule with 2 strands together at the top that spread apart toward the bottom. An enzyme is placed on top of the DNA where the strands are together. Helicase is placed at the crux of the DNA where the strands begin to separate. Primase is attached to the left strand near the helicase. Further down the left strand a new DNA strand is attached with the top and bottom of the strand labeled 5 prime and 3 prime, respectively. A short segment of the new strand at the 5 prime end is labeled primer. DNA polymerase is attached to the new double stranded left side molecule toward the end. The DNA polymerase has an arrow indicating it is moving away from the main body of the original DNA molecule. The right strand also has a new strand attached to it to form a new double stranded molecule. A second DNA polymerase is attached to the right double stranded molecule near the position of the helicase. The second DNA polymerase has an arrow indicating the enzyme is moving toward the helicase."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are many different DNA polymerases found across different organisms, and even within one cell, there may be several distinctive polymerases. While these polymerases play different roles and have varied functions, all DNA polymerases require a DNA template to copy, a <button class='glossary-text'>primer</button> to start the <button class='glossary-text'>extension</button> process, and <button class='glossary-text'>nucleotides</button> for the creation of the new DNA strand."
+                },
+                {
+                  "type": "Plain",
+                  "text": "In 1976, a DNA polymerase was isolated from thermophilic gram-negative bacteria <span class='bodyFontItalic'>Thermus aquaticus</span>. <span class='bodyFontItalic'>T. aquaticus</span> was first found in the hot springs of Yellowstone National Park. Growth at such high temperatures requires that this species can replicate its DNA at high temperatures, and indeed, its DNA polymerase is stable at temperatures as high as 95 °C. This polymerase, named <button class='glossary-text'>Taq polymerase</button> (after <span class='bodyFontItalic'>T. aquaticus</span>), revolutionized biology by making it possible to amplify desired portions of DNA through repeated heating during the <button class='glossary-text'>denaturation</button> and elongation steps in the <button class='glossary-text'>polymerase chain reaction (PCR)</button>."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "subTitle": "Polymerase Chain Reaction",
+                  "text": "PCR is a method that allows specific target DNA sequences to be amplified from very small quantities of original DNA. There are several required ingredients that are combined to perform PCR. These include:<span className=bodyParaLineBreak><ul><li>The double-stranded (ds) DNA is the molecule from which copies of the target DNA sequence will be made. It acts as a template, just as in <button class='glossary-text'>DNA replication</button> in living cells.</li><li>Primers are complimentary to portions of the dsDNA template and mark the beginning and end of the target DNA sequence. There are two different primers that are required – a <button class='glossary-text'>forward primer</button> and a <button class='glossary-text'>reverse primer</button> – one for each strand of DNA.</li><li>The free nucleotides (<span class=bodyFontBold>dNTPs</span>) are the building blocks for synthesizing the newly replicated DNA strands during the PCR process. There are four different kinds of dNTPs, one for each <button class='glossary-text'>nitrogenous base</button>.</li><li>Taq polymerase is the heat-resistant DNA polymerase. It uses the dNTPs to build new complimentary strands of DNA from template strands in the PCR reaction.</li></ul></span>"
+                }
+
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Once the reaction mix is made, it must go through a series of heating and cooling cycles to facilitate the replication process.<span className=bodyParaLineBreak><ul><li>The reaction mix is heated up to 94 °C to separate the two strands of DNA in a process known as <button class='glossary-text'>denaturation</button>.</li><li>After separation, the reaction is cooled to a temperature between 50 and 68 °C to allow the <button class='glossary-text'>primers</button> to bind, or <button class='glossary-text'>anneal</button>, to the template.</li><li>Finally, during <button class='glossary-text'>extension</button>, also called elongation, the temperature is increased to 72 °C, the temperature at which the <button class='glossary-text'>Taq polymerase</button> is physiologically active, and the new strand is synthesized. </li></ul></span>"
+                },
+                {
+                  "type": "Video",
+                  "containerType": "rightContainer",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Biology/580228_VIRT/580228_Bio_VideoIcone_01.svg",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6328042008112"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "This process is repeated many times, resulting in an exponential increase in the quantity of the DNA of interest because the amount of DNA doubles during each full cycle of <button class='glossary-text'>PCR</button>. This exponential increase can continue until the limiting reactants, the <button class='glossary-text'>primers</button> and <button class='glossary-text'>nucleotides</button>, are depleted and/or the <button class='glossary-text'>Taq polymerase</button> is inactivated from repeated heating."
+                },
+                {
+                  "type": "Plain",
+                  "text": "In the 1980s, the ability of researchers to quickly and cheaply synthesize <button class='glossary-text'>oligonucleotides</button> or short sequences of DNA that could be anywhere from 10 nucleotides up to hundreds, made PCR even more widely used. In PCR, primers are such oligonucleotides, approximately 20 base pairs, that are complementary to the target DNA of interest."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The <button class='glossary-text'>forward primer</button> is complementary to the <button class='glossary-text'>anti-sense strand</button> of the target DNA, which is the strand that does not code for messenger ribonucleic acid (mRNA) required for making a protein. The <button class='glossary-text'>reverse primer</button> is complimentary to the <button class='glossary-text'>sense strand</button>, which is the coding strand for mRNA, and ultimately a protein."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_006.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "475px",
+                  "scrollImg": true,
+                  "maxWidth": "590px",
+                  "altText": "Figure 6: A diagram showing how one double stranded DNA molecule becomes two molecules after one PCR cycle, then two molecules become four after two PCR cycles, four molecules become eight molecules after three cycles, and eight molecules become sixteen after four cycles and this pattern repeats for thirty five cycles. Below the diagram is the formula two to the n power where n equals the number of cycles."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>PCR</button> is a very sensitive methodology, and it is quite easy to contaminate samples. One copy of a DNA sequence is all that is needed to produce billions of copies, whether it is your target sequence or not. This can lead to false positives, which is a serious issue especially in the areas of forensics and disease diagnosis. To reduce the chance of contamination, take the following precautions.<span className=bodyParaLineBreak><ul><li>Gloves should always be worn and changed often. While scientists often wear gloves to protect themselves from harm during experiments, in this case the gloves protect the PCR reaction from any DNA or other contaminants you may carry.</li><li>If possible, establish separate areas for PCR set-up and analysis by gel electrophoresis.</li><li>All work areas should be cleaned thoroughly with 10% bleach and rinsed with 70% ethanol.</li><li>A negative control, or <span class=bodyFontBold>no template control (NTC)</span>, should be included in each experiment. No product should be detected in this control; the presence of a product suggests that there is contamination and that the experiment needs to be repeated.</li></ul></span>"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following best describes the reason Taq polymerase, rather than another kind of DNA polymerase, is used in PCR reactions?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Taq polymerase resists the high temperature of the denaturation step.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Taq polymerase elongates DNA more efficiently than any other polymerase.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Taq polymerase does not require primers to replicate DNA.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Taq polymerase comes from bacteria and so is cost effective to produce.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Taq polymerase comes from fungi and so is cost effective to produce.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "<span class='bodyFontItalic'>T. aquaticus</span> grows at high temperatures; therefore, its DNA polymerase is stable at temperatures as high as 95 °C."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following describes the steps that are repeated in each cycle of a PCR reaction?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "denaturation, annealing, extension",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "priming, synthesis, elongation",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "acquisition, priming, cooling",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "denaturation, extension, annealing",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "rehydration, expansion, cooling",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "PCR has three steps:<ol><li>The denaturation of the template into single strands.</li><li>The annealing of primers to each strand for new strand synthesis.</li><li>The extension of the new DNA strands from the primers.</li></ol>"
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "In 1976, a DNA polymerase was isolated from thermophilic gram-negative bacteria <span class='bodyFontItalic'>Thermus aquaticus. T. aquaticus</span> was first found in the hot springs of Yellowstone National Park. Taq polymerase (after <span class='bodyFontItalic'>T. aquaticus</span>), revolutionized biology by making it possible to amplify desired portions of DNA through repeated heating during the denaturation and elongation steps in the polymerase chain reaction (PCR)."
+                },
+                {
+                  "title": "Hint",
+                  "body": "In 1976, a DNA polymerase was isolated from thermophilic gram-negative bacteria <span class='bodyFontItalic'>Thermus aquaticus. T. aquaticus</span> was first found in the hot springs of Yellowstone National Park. Taq polymerase (after <span class='bodyFontItalic'>T. aquaticus</span>), revolutionized biology by making it possible to amplify desired portions of DNA through repeated heating during the denaturation and elongation steps in the polymerase chain reaction (PCR)."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "PCR Analysis",
+                  "text": "Once a <button class='glossary-text'>PCR</button> reaction is complete, scientists need to visualize the products from the reaction. They can then see if the target DNA sequence has been successfully amplified. The target sequence can reveal information about the presence of certain mutations in the sample DNA, or it can be extracted and used in other applications. The way scientists visualize PCR products is to organize them according to size."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The PCR products are forced through a medium called agarose gel. Made from a long-chain sugar molecule found in seaweed, agarose can be prepared such that it forms a structure like Jell-o. But unlike Jell-o, agarose gels set at room temperature. Agarose gels are made using the following steps.<ul><li>Agarose powder is added to a buffer solution to create a mixture containing between 1% and 2% agarose. For example, 1 gram of agarose powder would be added to 100 mL of buffer to make a 1% agarose gel.</li></ul>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<ul><li>The agarose powder will not be fully dissolved in the buffer when the two substances are initially combined. To dissolve the agarose, and to loosen the structure of the agarose molecules, the solution is heated. Microwaving the solution, with intermittent swirling, is the most common way to accomplish this step.</li><li>Once the agarose is fully dissolved, the solution is left to cool slightly before being poured into a casting tray, such as this one. When the solution reaches room temperature, it will solidify, taking on a milky appearance. Gels can be reused by melting them in the microwave and repouring them into a clean casting tray.</li></ul>"
+                }
+                
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "When casting the gel, it is important to add a comb to the tray as the gel solidifies (Figure 7). When the comb is removed it leaves behind wells (Figure 8). It is into these wells that each <button class='glossary-text'>PCR</button> product is added so they can be run through the gel. Each well marks the top of the lane that the PCR products will travel down during electrophoresis, just like a swimmer swimming in his lane at the pool."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_007.svg",
+                  "imgDivWidth": "275px",
+                  "scrollImg": true,
+                  "maxWidth": "340px",
+                  "altText": "Figure 7: Six-well comb positioned in a gel chamber, showing molten agarose being poured into the center of the chamber"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_008.svg",
+                  "imgDivWidth": "380px",
+                  "scrollImg": true,
+                  "maxWidth": "470px",
+                  "altText": "Figure 8: An agarose gel with a micropipette tip adding small volumes of liquid into wells inside the gel."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "This video shows how to prepare an agarose gel in detail."
+                },
+                {
+                  "type": "Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Biology/580228_VIRT/580228_Bio_VideoIcone.svg",
+                  "url": "http://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4573409701001"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "On a microscopic level, agarose gels are porous. This provides an ideal medium for sorting molecules by size as some molecules are small enough to pass through the pores while others are not. DNA can migrate through an agarose gel when an electric current is applied. The gel is placed in a chamber with two electrodes, one positive and one negative. DNA has a negative charge, thanks to its many <button class='glossary-text'>phosphate groups</button>, and so is attracted to the charge of the positive electrode. By loading DNA samples at the negative end of the chamber, the molecules can migrate through the length of the gel."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The electric current can travel through the gel because not only is the gel made with buffer, but also the gel is submerged in buffer as the current is applied. The buffer is a solution that contains ions (charged particles). This allows an electric current to flow easily through the gel and the gel chamber. When the gel is running, you can tell the power is on and electricity is flowing when bubbles are produced at each end of the gel chamber (Figure 9)."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The longer, or larger, a DNA fragment is the slower it migrates through the microscopic pores of the gel; these fragments travel only a short distance. The shorter, or smaller, a DNA fragment is the faster it migrates through the gel; these fragments travel much farther."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_009.svg",
+                  "imgDivWidth": "380px",
+                  "scrollImg": true,
+                  "maxWidth": "470px",
+                  "altText": "Figure 9: A gel electrophoresis box filled with clear buffer solution producing many very small bubbles from the short end of the box."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "An agarose gel alone only reveals the relative sizes of <button class='glossary-text'>PCR</button> products. To estimate the number of <button class='glossary-text'>nucleotides</button> in, or the base pair (bp) size of, each DNA fragment in a gel, scientists run a <button class='glossary-text'>molecular weight marker</button>, or DNA ladder, alongside their PCR products. The marker contains only DNA fragments of known size, acting as a ruler against which the PCR products can be measured (Figure 10). It also serves as a positive control since it definitely contains DNA fragments."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_010.svg",
+                  "imgDivWidth": "155px",
+                  "scrollImg": true,
+                  "maxWidth": "190px",
+                  "altText": "Figure 10: A DNA molecular weight marker key with an example of the marker as run through a two percent agarose one x T A E gel using five microliters of marker per lane. The example has ten horizontal bands arranged vertically starting with a one thousand base pair sized band at the top and decreasing by one hundred base pair increments to the last band at one hundred base pairs."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The <button class='glossary-text'>PCR</button> products appear as bands after electrophoresis, but only after a chemical additive binds to the DNA to visualize it. Intercalating dyes fluoresce under ultraviolet (UV) light when bound to DNA (Figure 11). The dye can be added to the PCR products or gel prior to casting the gel, or added to the gel after electrophoresis. Colorimetric dyes can be seen without UV equipment. After electrophoresis, the gel soaks in a dye solution until the bands are visible; then the excess dye is rinsed from the gel with water (Figure 12)."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_011.svg",
+                  "imgDivWidth": "310px",
+                  "scrollImg": true,
+                  "maxWidth": "385px",
+                  "altText": "Figure 11: An agarose gel with four lanes of glowing bands."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_012.svg",
+                  "imgDivWidth": "285px",
+                  "scrollImg": true,
+                  "maxWidth": "355px",
+                  "altText": "Figure 12: An agarose gel with four lanes of dyed bands."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 3",
+              "pageTitle": "Knowledge Check Question 3",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 2,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Lily is running her PCR products through a gel for analysis. After the electrophoresis process is complete, she realizes she placed the loaded wells closest to the positive electrode in the chamber. Which of the following best describes what she should expect to see in her gel?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The DNA will migrate off the short end of the gel leaving no bands.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The bands will appear as expected.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "The bands will appear shorter than they really are.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The lane containing the negative control will show contamination.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "The DNA will remain in the wells and not migrate into the gel.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "DNA is negatively charged and is attracted to the positive electrode in the gel electrophoresis chamber. Placing the loaded wells of a gel at the positive end of the gel chamber will cause the DNA to migrate off the short end of the gel, rather than through the length of the gel."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Jon has just run his PCR products through a gel by electrophoresis. After staining his gel, the PCR products remain in the wells and no other bands are present. Assuming PCR was successful, which of the following would best explain the reason for Jon’s lack of bands?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Jon added distilled water to the gel chamber for electrophoresis.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Jon set up the gel chamber with the loaded wells near the negative electrode.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Jon did not stain the gel after electrophoresis was complete.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Jon made a 1% agarose gel rather than a 2% agarose gel.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Jon’s PCR sample contained only small DNA fragments.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "DNA can migrate through an agarose gel when an electric current is applied. Gels are submerged in buffer solution during electrophoresis; the buffer contains ions that conduct electricity. Distilled water lacks ions and does not conduct electricity as well."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "DNA can migrate through an agarose gel when an electric current is applied. The gel is placed in a chamber with two electrodes, one positive and one negative. DNA has a negative charge, thanks to its many phosphate groups, and so is attracted to the charge of the positive electrode. By loading DNA samples at the negative end of the chamber, the molecules can migrate through the length of the gel.<span className=bodyParaLineBreak>The electric current can travel through the gel because not only is the gel made with buffer, but also the gel is submerged in buffer as the current is applied. The buffer is a solution that contains ions (charged particles). This allows an electric current to flow easily through the gel and the gel chamber. When the gel is running, you can tell the power is on and electricity is flowing when bubbles are produced at each end of the gel chamber. The longer, or larger, a DNA fragment is the slower it migrates through the microscopic pores of the gel; these fragments travel only a short distance. The shorter, or smaller, a DNA fragment is the faster it migrates through the gel; these fragments travel much farther.</span>"
+                },
+                {
+                  "title": "Hint",
+                  "body": "DNA can migrate through an agarose gel when an electric current is applied. The gel is placed in a chamber with two electrodes, one positive and one negative. DNA has a negative charge, thanks to its many phosphate groups, and so is attracted to the charge of the positive electrode. By loading DNA samples at the negative end of the chamber, the molecules can migrate through the length of the gel.<span className=bodyParaLineBreak>The electric current can travel through the gel because not only is the gel made with buffer, but also the gel is submerged in buffer as the current is applied. The buffer is a solution that contains ions (charged particles). This allows an electric current to flow easily through the gel and the gel chamber. When the gel is running, you can tell the power is on and electricity is flowing when bubbles are produced at each end of the gel chamber. The longer, or larger, a DNA fragment is the slower it migrates through the microscopic pores of the gel; these fragments travel only a short distance. The shorter, or smaller, a DNA fragment is the faster it migrates through the gel; these fragments travel much farther.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are no materials required for this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are no safety concerns for this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following bands contains DNA fragments with the largest number of base pairs?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "a band near the top of the gel",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "a band near the bottom of the gel",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "a band in the middle of the gel",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "a band in the lane closest to the molecular weight marker",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "a band in the lane closest to the positive electrode",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the function of primers during the process of DNA replication?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Primers provide DNA polymerase with a starting point for DNA synthesis.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Primers protect the separated DNA strands after the molecule is denatured.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Primers identify the target DNA sequence so it can be visualized.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Primers separate the two strands of DNA by breaking hydrogen bonds.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Primers protect the helical structure of the DNA yet to be unwound.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },                 
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Rory has just run a PCR experiment. After running his PCR products through gel electrophoresis, he discovered that his no template control (NTC) contains PCR product. Which of the following would most likely cause the contamination in Rory’s NTC sample?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "He did not wear gloves while preparing or analyzing his PCR reactions.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "He separated his PCR preparation station from his PCR analysis station.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "He did not include a positive control to compare against his negative control.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "He disinfected the lab bench before starting his experiment but not after.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "He used a colorimetric dye to visualize the PCR products in the gel.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the benefit of the PCR technique?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "PCR allows scientists to produce a large quantity of target DNA from a very small sample.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "PCR provides scientists with a method of visualizing the nucleotide sequence of a targeted segment of DNA.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "PCR gives scientists insight into DNA replication in living cells by mimicking the process artificially.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "PCR allows companies to efficiently synthesize custom-made oligonucleotides, such as primers.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "PCR creates DNA fingerprints, allowing governments to assign biological IDs to individuals.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is NOT an ingredient of a PCR mix?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "RNA primase",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "DNA sample",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "primers",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "dNTPs",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Taq polymerase",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the temperature changes during a typical PCR cycle?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "94 °C, 55 °C, 72 °C",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "72 °C, 60 °C, 100 °C",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "30 °C, 88 °C, 0 °C",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "55 °C, 105 °C, 195 °C",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "25 °C, 94 °C, 60 °C",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the purpose of running PCR products through gel electrophoresis?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Gel electrophoresis separates DNA based on size.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Gel electrophoresis separates DNA based on polarity.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Gel electrophoresis separates DNA based on quantity.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Gel electrophoresis separates DNA based on its number of strands.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Gel electrophoresis separates DNA based on its nucleotide sequence.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the microscopic structure of agarose medium used in gel electrophoresis?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "It is porous, like a dish sponge.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "It is solid, like a concrete wall.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "It is granular, like sand.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "It is compartmentalized, like rooms in a building.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "It is sheet-like, like a stack of paper.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Biology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will learn about the purpose, parts and proper use of a micropipette."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Activity 1",
+              "template": "VirtualLab",
+              "activityPath": "activities/580228_VIRT/activity1/story.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Biology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will create <button class='glossary-text'>PCR</button> reactions and add to them control and experimental DNA samples. You will then program a thermocycler to run your samples."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "Activity 2",
+              "template": "VirtualLab",
+              "activityPath": "activities/580228_VIRT/activity2/story.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 3",
+      "menuIcon": "core/Biology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 3 you will prepare and load an agarose gel with the <button class='glossary-text'>PCR</button> reactions from Activity 2, then conduct gel electrophoresis. The gel will then be analyzed to determine which students are positive for the COVID-19 virus."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 3",
+          "pages": [
+            {
+              "title": "Activity 3",
+              "template": "VirtualLab",
+              "activityPath": "activities/580228_VIRT/activity3/story.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "waterMark": true,
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Biology_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%",
+                  "imgDivWidthForMobile": {
+                    "P": "80%",
+                    "L": "40%" 
+                }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "courses_2023/Biology/580228_VIRT/logo.png",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable1",
+            "width": "70%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 1."
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 20,
+                "sr": 0,
+                "header": [
+                  {
+                    "text": "Reaction Tube #",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "DNA Sample",
+                    "colWidth": "22%"
+                  },
+                  {
+                    "text": "Reaction<br>Volume (µL)",
+                    "colWidth": "21%"
+                  },
+                  {
+                    "text": "Gel Lane #",
+                    "colWidth": "21%",
+                    "maxLength": 3
+                  },
+                  {
+                    "text": "COVID-19 Present?",
+                    "colWidth": "21%",
+                    "maxLength": 15
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "1"
+                    },
+                    {
+                      "type": "text",
+                      "text": "COVID-19 DNA"
+                    },
+                    {
+                      "type": "text",
+                      "text": "25"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "2"
+                    },
+                    {
+                      "type": "text",
+                      "text": "NTC (water)"
+                    },
+                    {
+                      "type": "text",
+                      "text": "25"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "3"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Student A"
+                    },
+                    {
+                      "type": "text",
+                      "text": "25"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "4"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Student B"
+                    },
+                    {
+                      "type": "text",
+                      "text": "25"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "5"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Student C"
+                    },
+                    {
+                      "type": "text",
+                      "text": "25"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "6"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Student D"
+                    },
+                    {
+                      "type": "text",
+                      "text": "25"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "7"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Student E"
+                    },
+                    {
+                      "type": "text",
+                      "text": "25"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+              
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": "Question1, Question2",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question1",
+            "width":"65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "Which students tested positive for COVID-19? Use evidence from your PCR analysis to support your answer."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "2",
+                "listType": "ordered",
+                "text": [
+                  "What is the size of the PCR product produced when COVID-19 DNA is present in a patient’s tissue sample? _______ bp"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 1,
+                "inputHeight": "100px",
+                "maxLength": 4,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          
+          {
+            "type": "Wrapper",
+            "id": "Question3",
+            "width":"65%",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "3",
+                "start": "3",
+                "listType": "ordered",
+                "text": [
+                  "The lane containing the NTC sample lacks bands. Is this result expected? How would you interpret the presence of bands in this lane?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question3",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+          
+        ]
+      },     
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+
+    "pageData": [
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_001.svg",
+        "content": "Figure 1. DNA nucleotides",
+        "scrollImg": true,
+        "maxWidth": "500px",
+        "altText": "Figure 1: Structure of DNA molecules"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_002.svg",
+        "content": "Figure 2. Complementary base pairing",
+        "scrollImg": true,
+        "maxWidth": "490px",
+        "altText": "Figure 2: The chemical structure of a portion of a DNA molecule with two nucleotides in the left strand and two nucleotides in the right strand. The left strand has the nucleotides adenine and guanine which are chemically bonded to the nucleotides in the right strand, thymine and cytosine, respectively. The chemical bonds between the nucleotides of each strand are indicated."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_003.svg",
+        "content": "Figure 3. Carbon numbering in DNA",
+        "scrollImg": true,
+        "maxWidth": "270px",
+        "altText": "Figure 3: The chemical structure of one strand of DNA molecule consisting of two nucleotides. The top end of the strand is labeled five prime. The bottom end of the strand is labeled three prime. The carbon atoms in the deoxyribose sugar in each nucleotide in the strand, starting from the oxygen atom in the ring and moving clockwise around the ring, are labeled one prime, two prime, three prime, four prime and five prime."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_004.svg",
+        "content": "Figure 4. Anti-parallel DNA strands",
+        "scrollImg": true,
+        "maxWidth": "540px",
+        "altText": "Figure 4: The chemical structure of a portion of a DNA molecule with two nucleotides in the left strand and two nucleotides in the right strand. The top end of the left strand is labeled five prime and the bottom end of the left strand is labeled three prime. The top end of the right strand is labeled three prime and the bottom end of the right strand is labeled five prime."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_005.svg",
+        "content": "Figure 5. DNA replication",
+        "scrollImg": true,
+        "maxWidth": "625px",
+        "altText": "Figure 5: A vertical DNA molecule with 2 strands together at the top that spread apart toward the bottom. An enzyme is placed on top of the DNA where the strands are together. Helicase is placed at the crux of the DNA where the strands begin to separate. Primase is attached to the left strand near the helicase. Further down the left strand a new DNA strand is attached with the top and bottom of the strand labeled 5 prime and 3 prime, respectively. A short segment of the new strand at the 5 prime end is labeled primer. DNA polymerase is attached to the new double stranded left side molecule toward the end. The DNA polymerase has an arrow indicating it is moving away from the main body of the original DNA molecule. The right strand also has a new strand attached to it to form a new double stranded molecule. A second DNA polymerase is attached to the right double stranded molecule near the position of the helicase. The second DNA polymerase has an arrow indicating the enzyme is moving toward the helicase."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_006.svg",
+        "content": "Figure 6. Exponential PCR amplification",
+        "scrollImg": true,
+        "maxWidth": "590px",
+        "altText": "Figure 6: A diagram showing how one double stranded DNA molecule becomes two molecules after one PCR cycle, then two molecules become four after two PCR cycles, four molecules become eight molecules after three cycles, and eight molecules become sixteen after four cycles and this pattern repeats for thirty five cycles. Below the diagram is the formula two to the n power where n equals the number of cycles."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_007.svg",
+        "content": "Figure 7. Gel box and comb set up",
+        "scrollImg": true,
+        "maxWidth": "340px",
+        "altText": "Figure 7: Six-well comb positioned in a gel chamber, showing molten agarose being poured into the center of the chamber"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_008.svg",
+        "content": "Figure 8. Gel wells",
+        "scrollImg": true,
+        "maxWidth": "470px",
+        "altText": "Figure 8: An agarose gel with a micropipette tip adding small volumes of liquid into wells inside the gel."
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "http://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4573409701001",
+        "content": "Pouring a Gel"
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6328042008112",
+        "content": "PCR Thermocycling"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_009.svg",
+        "content": "Figure 9. Bubble production in gel chamber",
+        "scrollImg": true,
+        "maxWidth": "470px",
+        "altText": "Figure 9: A gel electrophoresis box filled with clear buffer solution producing many very small bubbles from the short end of the box."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_010.svg",
+        "content": "Figure 10. 100 bp ladder",
+        "scrollImg": true,
+        "maxWidth": "190px",
+        "altText": "Figure 10: A DNA molecular weight marker key with an example of the marker as run through a two percent agarose one x T A E gel using five microliters of marker per lane. The example has ten horizontal bands arranged vertically starting with a one thousand base pair sized band at the top and decreasing by one hundred base pair increments to the last band at one hundred base pairs."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_011.svg",
+        "content": "Figure 11. Gel bands stained with intercalating dye",
+        "scrollImg": true,
+        "maxWidth": "385px",
+        "altText": "Figure 11: An agarose gel with four lanes of glowing bands."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580228_VIRT/580228_Bio_fig_012.svg",
+        "content": "Figure 12. Gel bands stained with colorimetric dye",
+        "scrollImg": true,
+        "maxWidth": "355px",
+        "altText": "Figure 12: An agarose gel with four lanes of dyed bands."
+      }
+     
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "3'",
+        "content": "The name of the third carbon atom of the deoxyribose in each DNA nucleotide; it also designates an end of a DNA strand; prounounced \"three prime\""
+      },
+      {
+        "title": "5'",
+        "content": "The name of the fifth carbon atom of the deoxyribose in each DNA nucleotide; it also designates an end of a DNA strand; prounounced \"five prime\""
+      },
+      {
+        "title": "Anneal",
+        "content": "The complementary pairing of a nucleic acid strand with another nucleic acid strand by hydrogen bonding"
+      },
+      {
+        "title": "Anti-parallel",
+        "content": "Describes two molecules side by side oriented in opposite directions"
+      },
+      {
+        "title": "Anti-sense strand",
+        "content": "The non-coding DNA strand "
+      },
+      {
+        "title": "<span class='bodyFontItalic'>De novo</span>",
+        "content": "From the beginning"
+      },
+      {
+        "title": "Denaturation",
+        "content": "The process of two strands of a DNA molecule separating during PCR"
+      },
+      {
+        "title": "Deoxyribose",
+        "content": "A five-carbon sugar molecule that makes up part of a nucleotide"
+      },
+      {
+        "title": "DNA replication",
+        "content": "The process of synthesizing a new DNA molecule"
+      },
+      {
+        "title": "Extension",
+        "content": "The process of synthesizing a new DNA strand by Taq polymerase during PCR; also called elongation"
+      },
+      {
+        "title": "Forward primer",
+        "content": "The primer that anneals to the anti-sense strand of double-stranded DNA"
+      },
+      {
+        "title": "Hydrogen bond",
+        "content": "A weak bond between a hydrogen atom and a pair of other atoms having a high affinity for electrons"
+      },
+      {
+        "title": "Molecular weight marker",
+        "content": "A series of DNA fragments of known size, acting as a ruler against which the PCR products can be measured. Also called a DNA ladder"
+      },
+      {
+        "title": "Nitrogenous base",
+        "content": "The nitrogen-containing compound that makes up part of a nucleotide"
+      },
+      {
+        "title": "Nucleotide",
+        "content": "The monomer of a nucleic acid"
+      },
+      {
+        "title": "Oligonucleotide",
+        "content": "A polynucleotide whose molecules contain a relatively small number of nucleotides"
+      },
+      {
+        "title": "Phosphate group",
+        "content": "A chemical structure that consists of one phosphorous atom and four oxygen atoms, and makes up part of a nucleotide"
+      },
+      {
+        "title": "Phosphodiester linkage",
+        "content": "The bond formed between the sugar molecule of one nucleotide and the phosphate group of the next nucleotide in a nucleic acid"
+      },
+      {
+        "title": "Polymerase chain reaction (PCR)",
+        "content": "A technique to make many copies of a specific DNA region artificially"
+      },
+      {
+        "title": "Primase",
+        "content": "The enzyme that synthesizes RNA primers during DNA replication"
+      },
+      {
+        "title": "Primer",
+        "content": "A short nucleic acid fragment, usually RNA, that targets unique sequences"
+      },
+      {
+        "title": "Reverse primer",
+        "content": "The primer that anneals to the sense strand of double-stranded DNA"
+      },
+      {
+        "title": "Sense strand",
+        "content": "The coding DNA strand"
+      },
+      {
+        "title": "Taq polymerase",
+        "content": "The heat-resistant DNA polymerase used in PCR reactions"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

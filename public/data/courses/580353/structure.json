@@ -1,0 +1,4152 @@
+{
+  "locked": true,
+  "courseTitle": "Measurement and Uncertainty (Dry Lab)",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg",
+      "altText": "Carolina Distance Learning Logo"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Chemistry_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Chemistry (Dry Lab)",
+                "titleName2": "Measurement and Uncertainty",
+                "images": {
+                  "logo": "core/Chemistry_subject_icon.svg",
+                  "altText": "Stylized image of beakers, flasks, test tubes, and the periodic table"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "waterMark": true,
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, students will use basic scientific measuring equipment to determine the <button class='glossary-text'>accuracy</button> and <button class='glossary-text'>uncertainty</button> associated with measurements using common laboratory glassware."
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Calculator",
+                    "No other materials are required at this time."
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "altText": "Preparation – 5 minutes \nActivity 1: Determination of Uncertainty in Lab Balance – 20 minutes \nActivity 2: Determination of Uncertainty in Common Glassware – 60 minutes \nActivity 3: Determination of Accuracy in Common Glassware – 40 minutes",
+                  "title": "Time Requirements",
+                  "image": "courses/580353/580353_TimeRequirement.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidthForTablet": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "650px",
+                  "imgDivWidth": "520px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "title": "Outcomes",
+                  "type": "List",
+                  "text": [
+                    "Determine the <button class='glossary-text'>uncertainty</button> of measurements with <button class='glossary-text'>standard</button> glassware and equipment.",
+                    "Determine the <button class='glossary-text'>accuracy</button> of measurements with standard glassware."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidthForTablet": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "desc": " video link symbol, camera symbol, stopwatch symbol",
+                  "altText": " video link symbol, camera symbol, stopwatch symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidthForTablet": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidthForTablet": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "scrollImg": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Communication is paramount in the scientific community because reproducibility is what establishes the theories and laws we recognize within the various scientific disciplines. If presented theories cannot be reproduced by scientists across the globe, they will not be confirmed. And scientists cannot reproduce an experiment if the conditions, procedures, and results are not clearly communicated via terminology every scientist understands. The General Conference on Weights and Measures began creating a common language among scientists when they defined the International System of Units, abbreviated SI (from the French Le Systeme International d’Unites). You can consider the SI system as the modern form of the metric system. The SI system is the only system of measurement that is officially recognized in nearly every country in the world. When reporting measurements, <button class='glossary-text'>significant figures</button> complement the SI units by allowing scientists to recognize how precise a reported answer is, or how much <button class='glossary-text'>uncertainty</button> there is within reported results. This also allows scientists to immediately gauge whether their equipment is capable of accurately reproducing the reported values of an experiment. "
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580353/580353_whyShouldICare.svg",
+                  "desc": "Five scientists in lab coats posing as if in the middle of a discussion in a laboratory setting.",
+                  "altText": "Five scientists in lab coats posing as if in the middle of a discussion in a laboratory setting.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "80%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Measurements can come in many forms—such as length, weight (mass), volume, and temperature—but there are many other forms you may encounter in the future. This investigation will focus on two: how to measure weight and volume, and some common equipment used to measure both."
+                },
+                {
+                  "type": "Plain",
+                  "subTitle": "Using Your Balance",
+                  "text": "To measure the weight of an object (more scientifically referred to as the mass), a balance or scale is used. Figure 1 shows a small balance that was used to weigh all substances in this investigation. This balance has complete instructions on its use on the inside of its lid. When looking at the top of the balance, there are five points of interest. First, is the pan; this is the large, flat surface above the LCD screen. Objects you wish to weigh are placed on the pan. Below the pan is the LCD screen. This is where the mass of an object on the pan is displayed. Below the screen are three buttons reading, from left to right, ON/ OFF, MODE, and TARE. When you first turn on the balance by pressing the ON/OFF button, the screen should read “0.00g“ (<span class='bodyFontItalic'>g</span> stands for <span class='bodyFontItalic'>grams</span> in this instance).This indicates there is no mass on the balance. If the letter at the end is not <span class='bodyFontItalic'>g</span>, you would press the MODE button until “g” is listed as the units. If the screen is not indicating a mass of 0.00, pressing the TARE button will re-zero the scale. "
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580353/580353_fig_001.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidthForTablet": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "320px",
+                  "maxWidth": "400px",
+                  "scrollImg": true,
+                  "altText": "Figure 1: Scale displaying a reading of 0.00 grams and the lid showing the instructions",
+                  "desc": "Figure 1: Scale displaying a reading of 0.00 grams and the lid showing the instructions"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The scale should reset to 0.00 g. The scale has a maximum capacity of 100 g; if a mass greater than 100 g is placed on the pan, the screen will read “0_Ld,” indicating too large a mass has been placed on the pan.  Although you are not using an actual balance with this dry lab, you will see images of the electronic balance. When you get your kit, the balance you will receive will be exactly like the images in the dry lab manual. You will use the same set of steps shown here to measure masses using the balance."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Measuring Liquids ",
+                  "text": "To measure a volume of liquid, typically a piece of glassware, such as a beaker or graduated cylinder, is used. The equipment is placed on a flat countertop or table, and liquid is poured into it. The bottom of the meniscus (the concave layer of water at the top) is where the volume is measured against the scale (Figure 2). As you will see in Activity 2, the volume you read from a particular piece of glassware may be at best an estimate. "
+                },
+                {
+                  "type": "Image",
+                  "image": "courses/580353/580353_fig_002.svg",
+                  "imgDivWidth": "250px",
+                  "maxWidth": "310px",
+                  "scrollImg": true,
+                  "altText": "Figure 2: diagram showing a close up of reading a meniscus ",
+                  "desc": " Figure 2: diagram showing a close up of reading a meniscus "
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Having measurable results is an integral part of the scientific method. Scientists must contend with two main factors while taking measurements: the <button class='glossary-text'>accuracy</button> of the measurement and the <button class='glossary-text'>precision</button> of the measurement. Accuracy is how close a set of data is to the actual value. Accuracy is gauged by comparing the measured value of a known <button class='glossary-text'>standard</button> to its true value.” Ignore color of text.<span class='bodyParaLineBreak'>Precision refers to how close a data point is to other measurements in a data set. </span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "A data set that is accurate is not necessarily precise, whereas a very precise data set could be highly inaccurate. Forces that affect the accuracy and precision in measurements are <button class='glossary-text'>error</button>. In scientific settings, error is defined as the difference between the measured value and the actual value, where the actual value is a known value, sometimes referred to as a standard. Two main types of error exist: <button class='glossary-text'>systematic error</button> and <button class='glossary-text'>random error</button>."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Systematic error causes measurements to be inaccurate by a certain value in a particular direction. Systematic error can be further divided into absolute and <button class='glossary-text'>relative error</button>. <button class='glossary-text'>Absolute error</button> has both magnitude and direction and is represented as a discrete value. For example, if your alarm clock is slow by five minutes, it has a systematic, absolute error. Each morning, you will be getting up five minutes later than planned and dealing with the potential repercussions. Absolute error can be calculated as follows:"
+                }
+              ]
+            },
+            {
+              "title": "Measuring Liquids (cont... )",
+              "pageTitle": "Measuring Liquids (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>absolute error</button> = <span symbol>|measurement - actual value</span>|<br>  absolute <button class='glossary-text'>error</button> = <span symbol>|6:35 - 6:40</span>| = 5 minutes"
+                },
+                {
+                  "type": "Plain",
+                  "text": "The || brackets indicate that you take the absolute value of a calculation. An absolute value means the value in the bracket will always be positive."
+                },
+                {
+                  "type": "Plain",
+                  "text": "There is a second type of <button class='glossary-text'>systematic error</button> called <button class='glossary-text'>relative error </button>, or <button class='glossary-text'>percent error</button>, which is expressed as a percentage. One of the more common measuring devices with built-in percent error is the speedometer of a car. Most automobile manufacturers have a tolerance of ±2% in their speedometers. This means that any given speedometer could read between 2% too slow or 2% too fast. If your speedometer reads 61 mph while actually traveling 60 mph, the percent error is calculated using the equation below."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "relative error = <span class=bodyFraction><span>|measurement - actual value|</span><span class=symbol>/</span><span class=bottom>actual value</span></span> x 100<span class=syambol>%</span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "relative error = <span class=bodyFraction><span>|61 mph - 60 mph|</span><span class=symbol>/</span><span class=bottom>60 mph</span></span> x 100<span class=syambol>%</span> = 1.6%"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Related to relative error is the concept of percent error. <span class='bodyFontBold'>Percent error</span> is calculated by comparing a measurement against an accepted value. Typically an accepted value is measured with a high level of <button class='glossary-text'>precision</button> and <button class='glossary-text'>accuracy</button>, but it is still a measured value—no matter what, there is always some form of <button class='glossary-text'>error</button> associated with a measured value."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "percent error = <span class=bodyFraction><span>|measurement - accepted value|</span><span class=symbol>/</span><span class=bottom>accepted value</span></span> x 100<span class=syambol>%</span>"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 1",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Most automobile manufacturers have a tolerance of ±2% in their speedometers. Which of the following best describes the meaning of this tolerance? ",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The car’s actual speed could be 2 percent faster than the speedometer’s displayed speed. ",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The car’s actual speed could be 20 times faster than the speedometer’s displayed speed.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "The car’s actual speed could be 2 times slower than the speedometer’s displayed speed. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The car’s actual speed could be 2 mph slower than the speedometer's displayed speed. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "The car’s actual speed could be 20 mph faster than the speedometer’s displayed speed. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "A tolerance of ±2% means that any given speedometer could read between 2% too slow or 2% too fast."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 1",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "A scale at the gym displays your weight as 149 lbs when your actual weight is 150 lbs. What type of error is this? ",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "absolute error ",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "percent error ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "relative error ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "experimental error ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "random error ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": " The scale at the gym being off by 1 lb is an example of absolute error.  "
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Systematic error is a type of error that causes measurements to be inaccurate by a certain value in a particular direction. Systematic error can be further divided into absolute and relative error. Absolute error has both magnitude and direction and is represented as a discrete value.  For example, if your alarm clock is slow by five minutes it has a systematic, absolute error. Each morning you will be getting up five minutes later than planned and dealing with the potential repercussions. Relative error, or percent error, is expressed as a percentage. One of the more common measuring devices with built-in percent error is the speedometer of a car. Most automobile manufacturers have a tolerance of ±2% in their speedometers. This means that any given speedometer could read between 2% too slow or 2% too fast. <span class='bodyParaLineBreak'> relative error = <span class=bodyFraction><span>|measurement - actual value|</span><span class=symbol>/</span><span class=bottom>actual value</span></span> x 100<span class=syambol>%</span> <br> relative error = <span class=bodyFraction><span>|61 mph - 60 mph|</span><span class=symbol>/</span><span class=bottom>60 mph</span></span> x 100<span class=syambol>%</span> = 1.6%"
+                },
+                {
+                  "title": "Hint",
+                  "body": "Systematic error is a type of error that causes measurements to be inaccurate by a certain value in a particular direction. Systematic error can be further divided into absolute and relative error. Absolute error has both magnitude and direction and is represented as a discrete value.  For example, if your alarm clock is slow by five minutes it has a systematic, absolute error. Each morning you will be getting up five minutes later than planned and dealing with the potential repercussions. Relative error, or percent error, is expressed as a percentage. One of the more common measuring devices with built-in percent error is the speedometer of a car. Most automobile manufacturers have a tolerance of ±2% in their speedometers. This means that any given speedometer could read between 2% too slow or 2% too fast. <span class='bodyParaLineBreak'> relative error = <span class=bodyFraction><span>|measurement - actual value|</span><span class=symbol>/</span><span class=bottom>actual value</span></span> x 100<span class=syambol>%</span> <br> relative error = <span class=bodyFraction><span>|61 mph - 60 mph|</span><span class=symbol>/</span><span class=bottom>60 mph</span></span> x 100<span class=syambol>%</span> = 1.6%"
+                }
+              ]
+            },
+            {
+              "title": "Measuring Liquids (cont... )",
+              "pageTitle": "Measuring Liquids (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "An important characteristic of <button class='glossary-text'>systematic error</button>, both absolute and relative, is that it can be either corrected or accounted for in future measurements since it has both direction and magnitude. With your alarm clock, you could change the time so that it is no longer 5 minutes fast; with the speedometer, you could mathematically correct for the <button class='glossary-text'>relative error</button> in future readings."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Although systematic <button class='glossary-text'>error</button> can be corrected for if discovered, <button class='glossary-text'>random error</button> will be present in all measurements. Through improved experimental design and best lab practices, random error can be reduced but can never be eliminated. The most common form of random error in a lab setting comes from the equipment. This type of random error is most commonly referred to as <button class='glossary-text'>uncertainty</button>. Uncertainty is the limit of quantifiable measurement with confidence using measuring equipment."
+                },
+                {
+                  "type": "Plain",
+                  "text": "One method for determining the uncertainty of an analog measuring device is to utilize the scale provided on the equipment. For example, on a 10-mL graduated cylinder, there are graduations (lines) every 0.1 mL. <span class='bodyParaLineBreak'> In <button class='resource-text'>Figure 2</button>, the bottom of the meniscus is between the graduations of 6.7 and 6.8. Most people would read the volume as 6.75 mL. You can say with certainty that the water is between 6.70 and 6.80 mL, but many people would have difficulty determining a finer range of certainty. </span> "
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": " A simple method for determining the measured value and the uncertainty is as follows:"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "measured value = <span class=bodyFraction><span>high interval + low interval</span><span class=symbol>/</span><span class=bottom>2</span></span> <br> 6.75 = <span class=bodyFraction><span>6.80 + 6.70</span><span class=symbol>/</span><span class=bottom>2</span></span> <br> uncertainty = <span class=bodyFraction><span>high interval - low interval</span><span class=symbol>/</span><span class=bottom>2</span></span> <br> 0.05 = <span class=bodyFraction><span>6.80 - 6.70</span><span class=symbol>/</span><span class=bottom>2</span></span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The measured value in this example would be 6.75 mL ± 0.05 mL. The ±0.05 mL indicates confidence that the actual value for this measurement is between 6.80 mL and 6.70 mL."
+                }
+              ]
+            },
+            {
+              "title": "Measuring Liquids (cont... )",
+              "pageTitle": "Measuring Liquids (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "With a digital device, such as a balance, <button class='glossary-text'>uncertainty</button> is generally limited to the last significant figure. For example, a balance that can read to tenths of a gram would have an uncertainty in the tenths place, typically of ±0.1 or ±0.2 grams. Uncertainty is generally calculated using a <button class='glossary-text'>standard</button> and a high number of measurements. A standard is a chemical or piece of equipment that has a known quantity associated with it, in this case a mass. For this activity, plastic cups are used as your standard for determining the uncertainty in your balance."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Error</button>, uncertainty, and equipment segue into the mathematical concept of <button class='glossary-text'>significant figures</button>. Significant figures are digits relating to the <button class='glossary-text'>precision</button> of measurement. There are some general rules for determining if a digit is significant:"
+                },
+                {
+                  "type": "List",
+                  "text": [
+                    "All nonzero digits are considered significant.",
+                    "Zeros appearing anywhere between two nonzero digits are significant (0.1003 has four significant figures).",
+                    "Leading zeros are not significant (0.0076 has two significant figures).",
+                    "Trailing zeros in a number containing a decimal point are significant. For example, 35.000 has five significant figures."
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Uncertainty limits the precision and the number of significant figures in a measurement. In the example discussed, the 6.75 mL of water in the graduated cylinder has three significant figures. The “6“ before the decimal and the “7“ and “5“ after the decimal are all considered significant. This is confirmed with the uncertainty of 0.05 mL. In this instance, the uncertainty indicates that there are no additional significant figures beyond the hundredths place. However, if the graduated cylinder was measured at 6.75 but the uncertainty was determined to be 0.20 mL, the number of significant figures would be limited to two and the measurement would be reported as 6.8 mL ± 0.2 mL."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "In the next example, let’s assume that the volume measurement above had a <button class='glossary-text'>relative error</button> of 1%.<br> 6.75 mL x <span class=bodyFraction><span>1%</span><span class=symbol>/</span><span class=bottom>100%</span></span> = 0.0675 mL"
+                }
+              ]
+            },
+            {
+              "title": "Measuring Liquids (cont... )",
+              "pageTitle": "Measuring Liquids (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "This would equate to an <button class='glossary-text'>absolute error</button> of 0.0675 mL in the measurement. Like 6.75 mL, 0.0675 mL has three <button class='glossary-text'>significant figures</button>. However, the process of multiplication and division has added a false <button class='glossary-text'>precision</button> to the result. The measurement 6.75 mL ± 0.0675 mL is incorrect because the calculated <button class='glossary-text'>error</button> has additional precision that the original measurement can contain. In this instance, the proper measured value would be written as 6.75 mL ± 0.07 mL. In general, you cannot gain significant figures and you cannot gain precision in a measurement through mathematical functions."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 2",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What is one way to reduce uncertainty when using analog measuring equipment? ",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Use the scale provided on the equipment. ",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Guess at whatever number you want.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Never use glass equipment.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "If only two numbers are reported on a scale, estimate what the next three numbers would be. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "There is no way to reduce uncertainty.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "If the bottom of the meniscus is between the graduations of 6.7 and 6.8. Most people would read the volume as 6.75 mL. You can say with certainty, based on the scale, that the water is between 6.70 and 6.80 mL, but many people would have difficulty determining a finer range of certainty. "
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "kc-resource",
+                  "pageTitle": "Knowledge Check Question 2",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "A balance that can read to what degree typically has an uncertainty of ±0.1 or ±0.2 grams? ",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "tenths of a gram",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "hundredths of a gram ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "hundreds of grams",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "tens of ounces",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "thousandths of a meter ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "A balance that can read to tenths of a gram would have an uncertainty in the tenth’s place, typically of ±0.1 or ±0.2 grams."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": " Although systematic error can be corrected for if discovered, random error will be present in all measurements. Through improved experimental design and best lab practices, random error can be reduced but it can never be eliminated. The most common form of random error in a lab setting comes from the equipment. This type of random error is most commonly referred to as uncertainty. Uncertainty is the limit of quantifiable measurement with confidence using measuring equipment. One method for determining the uncertainty of an analog measuring device is to utilize the scale provided on the equipment. For example, on the 10-mL graduated cylinder below, there are graduations (lines) every 0.1 mL. With a digital device, such as the balance supplied in your equipment kit, uncertainty is generally limited to the last significant figure.",
+                  "img": [
+                    {
+                      "src": "courses/580353/580353_fig_001.svg",
+                      "maxWidth": "65%",
+                      "alt": "Figure 1: Scale displaying a reading of 0.00 grams and the lid showing the instructions"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "Although systematic error can be corrected for if discovered, random error will be present in all measurements. Through improved experimental design and best lab practices, random error can be reduced but it can never be eliminated. The most common form of random error in a lab setting comes from the equipment. This type of random error is most commonly referred to as uncertainty. Uncertainty is the limit of quantifiable measurement with confidence using measuring equipment. One method for determining the uncertainty of an analog measuring device is to utilize the scale provided on the equipment. For example, on the 10-mL graduated cylinder below, there are graduations (lines) every 0.1 mL. With a digital device, such as the balance supplied in your equipment kit, uncertainty is generally limited to the last significant figure.",
+                  "img": [
+                    {
+                      "src": "courses/580353/580353_fig_001.svg",
+                      "maxWidth": "65%",
+                      "alt": "Figure 1: Scale displaying a reading of 0.00 grams and the lid showing the instructions"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "desc": "This map describes the workflow for this investigation. In Activity 1, you will take the mass of two different plastic cups; you will take five readings per cup. Then, you will determine the average mass of each cup, the deviation from the average for each trial, and the deviation from the average for each cup. In Activity 2, you will take volume measurements using four different glassware items. For each item, you will measure its mass, add a target volume of water to the item, record the highest and lowest volume intervals, calculate uncertainty, and measure the mass of the item with its water. Once all the glassware items have been tested, you will calculate the mass of the water within each item. In Activity 3, you will use the current room temperature to calculate the volumes of water from Activity 2. Finally, you will compare the measured volumes against the calculated volumes. ",
+                  "altText": "This map describes the workflow for this investigation. In Activity 1, you will take the mass of two different plastic cups; you will take five readings per cup. Then, you will determine the average mass of each cup, the deviation from the average for each trial, and the deviation from the average for each cup. In Activity 2, you will take volume measurements using four different glassware items. For each item, you will measure its mass, add a target volume of water to the item, record the highest and lowest volume intervals, calculate uncertainty, and measure the mass of the item with its water. Once all the glassware items have been tested, you will calculate the mass of the water within each item. In Activity 3, you will use the current room temperature to calculate the volumes of water from Activity 2. Finally, you will compare the measured volumes against the calculated volumes. ",
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "containerType": "fullContainer",
+                  "image": "courses/580353/580353_ED.svg",
+                  "imgDivWidth": "80%",
+                  "imgDivWidthForTablet": {
+                    "P": "89%",
+                    "L": "90%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "width": "100%",
+                  "scrollImg": true,
+                  "maxWidth": "1200px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "pageData": [
+                {
+                  "type": "List",
+                  "title": "Needed but not supplied",
+                  "text": [
+                    "Calculator",
+                    "No other materials are required at this time."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "waterMark": true,
+              "showPageTitle": true,
+              "template": "Safety",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are no safety concerns for this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span class=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes an object of known mass that can be used to establish uncertainty in measurements made with a balance? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "standard",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "trial",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "deviation ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "value ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "variation ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "The mass of a wooden block is reported to be 5.20 g ± 0.05 g. What does the “0.05 g” indicate about the measurement?  ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "the confidence interval ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "the number of significant figures ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "the percent error ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "random error ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "the average ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Charlie is a chemistry student conducting an experiment at home, as approved by his professor. Despite attempts to eliminate sources of experimental error from his design, Charlie still finds his results have measurable uncertainty. Which of the following statements from Charlie’s professor best explains the results? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "There is no way to eliminate all uncertainty. ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The only way to eliminate all uncertainty is to use the best equipment possible. ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Uncertainty can be eliminated if you have a lab partner replicate the results.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Uncertainty can be eliminated if all the equipment is properly cleaned.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The only way to eliminate uncertainty is to perform experiments in a formal lab setting.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following statements about significant figures is incorrect? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "They are digits that describe the accuracy of measurement. ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Trailing zeroes in a number containing a decimal point are significant. ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Leading zeroes are not significant. ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "All non-zero digits are considered significant. ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The number of significant figures in a measurement is limited by uncertainty. ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "How many significant figures are in the number 9641.25? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "6",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "2",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "4",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "3",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "0",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "How many significant figures are in the number 0.08546000? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "7",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "9",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "4",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "3",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "5",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following refers to how close data are to their actual values? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "accuracy",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "precision",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "error ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "uncertainty ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "significance",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "An object known to be 20 mm in length is measured as 18 mm in length. What is the percent error? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "10% ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "2% ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "1% ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "5% ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "8% ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (1 step)",
+              "pageTitle": "Preparation (1 step)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure",
+              "keyID": "preparation",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Read all the instructions for this laboratory activity before beginning. Follow the instructions closely."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Chemistry_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will determine the <button class='glossary-text'>uncertainty</button> in an electronic balance by analyzing data about the mass of two different plastic cups. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "pageTitle": "<div class=order-list-text>A</div>&nbsp;Determination of Uncertainty in Lab Balance (11 steps)",
+              "keyID": "activity1",
+              "title": "<div class=order-list-text>A</div>&nbsp;Determination of Uncertainty in Lab Balance (11 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Assume your balance is turned on, and the reading is stabilized at 0.00 <span style='whiteSpace: nowrap'>(see Figure 3).</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Two cups are labeled “#1” and “#2” (see Figure 4)."
+                  },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": [
+                      {
+                        "src": "courses/580353/580353_fig_003.svg",
+                        "maxWidth": "400px",
+                        "scrollImg": true,
+                        "desc": "Figure 3: Scale displaying a reading of 0.00 grams",
+                        "altText": "Figure 3: Scale displaying a reading of 0.00 grams"
+                      },
+                      {
+                        "src": "courses/580353/580353_fig_004.svg",
+                        "maxWidth": "400px",
+                        "scrollImg": true,
+                        "desc": "Figure 4: Two empty transparent plastic cups labeled '1' and '2'",
+                        "altText": "Figure 4: Two empty transparent plastic cups labeled '1' and '2'"
+                      }
+                    ],
+                    "desc": [
+                      "Figure 3: Scale displaying a reading of 0.00 grams",
+                      "Figure 4: Two empty transparent plastic cups labeled '1' and '2'"
+                    ],
+                    "altText": [
+                      "Figure 3: Scale displaying a reading of 0.00 grams",
+                      "Figure 4: Two empty transparent plastic cups labeled '1' and '2'"
+                    ],
+                    "imgDivWidth": "320px"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Assume Cup #1 is placed on the balance. The mass is shown in Figure 5. Record this in <span class='bodyFontBold'>Data Table 1</span> below “Mass of Cup #1” as <span style='whiteSpace: nowrap'>Trial 1.</span>"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses/580353/580353_fig_005.svg",
+                    "imgDivWidth": "296px",
+                    "maxWidth": "370px",
+                    "scrollImg": true,
+                    "altText": "Figure 5: Cup 1 on a weighing scale showing a reading of 10.52 grams",
+                    "desc": "Figure 5: Cup 1 on a weighing scale showing a reading of 10.52 grams"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Assume Cup #1 is removed from the balance, and the balance is restabilized at 0.00."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat Steps 3 and 4 for four additional trials, recording the readings shown in Figures 6–9 in <span class='bodyFontBold'>Data Table 1</span> as <span style='whiteSpace: nowrap'>Trials 2–5.</span>"
+                  },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": [
+                      {
+                        "src": "courses/580353/580353_fig_006.svg",
+                        "maxWidth": "370px",
+                        "scrollImg": true,
+                        "desc": "Figure 6: Cup 1 on a weighing scale showing a reading of 10.54 grams",
+                        "altText": "Figure 6: Cup 1 on a weighing scale showing a reading of 10.54 grams"
+                      },
+                      {
+                        "src": "courses/580353/580353_fig_007.svg",
+                        "maxWidth": "370px",
+                        "scrollImg": true,
+                        "desc": "Figure 7: Cup 1 on a weighing scale showing a reading of 10.54 grams",
+                        "altText": "Figure 7: Cup 1 on a weighing scale showing a reading of 10.54 grams"
+                      }
+                    ],
+                    "desc": [
+                      "Figure 6: Cup 1 on a weighing scale showing a reading of 10.54 grams",
+                      "Figure 7: Cup 1 on a weighing scale showing a reading of 10.54 grams"
+                    ],
+                    "altText": [
+                      "Figure 6: Cup 1 on a weighing scale showing a reading of 10.54 grams",
+                      "Figure 7: Cup 1 on a weighing scale showing a reading of 10.54 grams"
+                    ],
+                    "imgDivWidth": "296px"
+                  },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": [
+                      {
+                        "src": "courses/580353/580353_fig_008.svg",
+                        "maxWidth": "370px",
+                        "scrollImg": true,
+                        "desc": "Figure 8: Cup 1 on a weighing scale showing a reading of 10.53 grams",
+                        "altText": "Figure 8: Cup 1 on a weighing scale showing a reading of 10.53 grams"
+                      },
+                      {
+                        "src": "courses/580353/580353_fig_009.svg",
+                        "maxWidth": "370px",
+                        "scrollImg": true,
+                        "desc": "Figure 9: Cup 1 on a weighing scale showing a reading of 10.54 grams",
+                        "altText": "Figure 9: Cup 1 on a weighing scale showing a reading of 10.54 grams"
+                      }
+                    ],
+                    "desc": [
+                      "Figure 8: Cup 1 on a weighing scale showing a reading of 10.53 grams",
+                      "Figure 9: Cup 1 on a weighing scale showing a reading of 10.54 grams"
+                    ],
+                    "altText": [
+                      "Figure 8: Cup 1 on a weighing scale showing a reading of 10.53 grams",
+                      "Figure 9: Cup 1 on a weighing scale showing a reading of 10.54 grams"
+                    ],
+                    "imgDivWidth": "296px"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Assume Cup #1 has been removed, the balance as been restabilized at 0.00, and Cup #2 is on the balance. The mass is shown in <span style='whiteSpace: nowrap'>Figure 10.</span> Record this in <span class='bodyFontBold'>Data <span style='whiteSpace: nowrap'>Table 1</span></span> below “Mass of Cup #2” as <span style='whiteSpace: nowrap'>Trial 1.</span>"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses/580353/580353_fig_010.svg",
+                    "imgDivWidth": "296px",
+                    "maxWidth": "370px",
+                    "scrollImg": true,
+                    "altText": "Figure 10: Cup 2 on a weighing scale showing a reading of 10.45 grams",
+                    "desc": "Figure 10: Cup 2 on a weighing scale showing a reading of 10.45 grams"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Assume Cup #2 is removed from the balance, and the balance is restabilized at 0.00."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat Steps 6 and 7 for four additional trials, recording the readings shown in Figures 11–14 in <span class='bodyFontBold'>Data Table 1</span> as <span style='whiteSpace: nowrap'>Trials 2–5.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Determine the average mass of each cup, and record the value in <span class='bodyFontBold'>Data <span style='whiteSpace: nowrap'>Table 1</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "For each trial, perform the following calculation:"
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "deviation from average = |average mass of cup - mass of cup in trial|"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Determine the average “deviation from average” for each cup. This is the <button class='glossary-text'>uncertainty</button> of your measurement with the balance."
+                  },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": [
+                      {
+                        "src": "courses/580353/580353_fig_011.svg",
+                        "maxWidth": "370px",
+                        "scrollImg": true,
+                        "desc": "Figure 11: Cup 2 on a weighing scale showing a reading of 10.41 grams",
+                        "altText": "Figure 11: Cup 2 on a weighing scale showing a reading of 10.41 grams"
+                      },
+                      {
+                        "src": "courses/580353/580353_fig_012.svg",
+                        "maxWidth": "370px",
+                        "scrollImg": true,
+                        "desc": "Figure 12: Cup 2 on a weighing scale showing a reading of 10.42 grams",
+                        "altText": "Figure 12: Cup 2 on a weighing scale showing a reading of 10.42 grams"
+                      }
+                    ],
+                    "desc": [
+                      "Figure 11: Cup 2 on a weighing scale showing a reading of 10.41 grams",
+                      "Figure 12: Cup 2 on a weighing scale showing a reading of 10.42 grams"
+                    ],
+                    "altText": [
+                      "Figure 11: Cup 2 on a weighing scale showing a reading of 10.41 grams",
+                      "Figure 12: Cup 2 on a weighing scale showing a reading of 10.42 grams"
+                    ],
+                    "imgDivWidth": "296px"
+                  },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": [
+                      {
+                        "src": "courses/580353/580353_fig_013.svg",
+                        "maxWidth": "370px",
+                        "scrollImg": true,
+                        "desc": "Figure 13: Cup 2 on a weighing scale showing a reading of 10.43 grams",
+                        "altText": "Figure 13: Cup 2 on a weighing scale showing a reading of 10.43 grams"
+                      },
+                      {
+                        "src": "courses/580353/580353_fig_014.svg",
+                        "maxWidth": "370px",
+                        "scrollImg": true,
+                        "desc": "Figure 14: Cup 2 on a weighing scale showing a reading of 10.41 grams",
+                        "altText": "Figure 14: Cup 2 on a weighing scale showing a reading of 10.41 grams"
+                      }
+                    ],
+                    "desc": [
+                      "Figure 13: Cup 2 on a weighing scale showing a reading of 10.43 grams",
+                      "Figure 14: Cup 2 on a weighing scale showing a reading of 10.41 grams"
+                    ],
+                    "altText": [
+                      "Figure 13: Cup 2 on a weighing scale showing a reading of 10.43 grams",
+                      "Figure 14: Cup 2 on a weighing scale showing a reading of 10.41 grams"
+                    ],
+                    "imgDivWidth": "296px"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Chemistry_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will determine the <button class='glossary-text'>uncertainty</button> of four different pieces of glassware by analyzing data after each piece is used to measure a target volume of water."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "<div class=order-list-text>B</div>&nbsp;Determination of Uncertainty in Common Glasswar (9 steps)",
+              "keyID": "activity2",
+              "pageTitle": "<div class=order-list-text>B</div>&nbsp;Determination of Uncertainty in Common Glassware (9 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Assume your balance is turned on, and the reading is stabilized at 0.00 <span style='whiteSpace: nowrap'>(see Figure 15).</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Assume the 10-mL graduated cylinder is placed on the balance. The mass is shown in Figure 16. Record this in <span class='bodyFontBold'>Data <span style='whiteSpace: nowrap'>Table 2</span>.</span>"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses/580353/580353_fig_015.svg",
+                    "altText": "Figure 15: Scale displaying a reading of 0.00 grams",
+                    "desc": "Figure 15: Scale displaying a reading of 0.00 grams",
+                    "maxWidth": "370px",
+                    "scrollImg": true,
+                    "imgDivWidth": "296px"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses/580353/580353_fig_016.svg",
+                    "altText": "Figure 16: A 10-milliliter graduated cylinder on a weighing scale showing a reading of 10.64 grams",
+                    "desc": "Figure 16: A 10-milliliter graduated cylinder on a weighing scale showing a reading of 10.64 grams",
+                    "maxWidth": "195px",
+                    "scrollImg": true,
+                    "imgDivWidth": "156px"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": " Assume the graduated cylinder has been removed from the balance and approximately <span style='whiteSpace: nowrap'>7 mL</span> of water has been added to it <span style='whiteSpace: nowrap'>(see <button class='resource-text'>Table 1</button>).</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the volume of water in <span class='bodyFontBold'>Data Table 2</span> based on the meniscus of the water as shown in <span style='whiteSpace: nowrap'>Figure 17.</span> Realize that, for some pieces of glassware, this may be an estimate."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses/580353/580353_fig_017.svg",
+                    "imgDivWidth": "296px",
+                    "maxWidth": "370px",
+                    "scrollImg": true,
+                    "altText": "Figure 17: A 10-milliliter graduated cylinder showing a blue water level of 7 milliliters",
+                    "desc": "Figure 17: A 10-milliliter graduated cylinder showing a blue water level of 7 milliliters"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the high and low volume intervals in <span class='bodyFontBold'>Data Table 2</span>. These should be volumes that you are certain the actual volume is between. Use the graduations (lines) on the glassware to help determine the high and low intervals."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the <button class='glossary-text'>uncertainty</button> of your measurement, and record it in <span class='bodyFontBold'>Data <span style='whiteSpace: nowrap'>Table 2</span>.</span>"
+                  },
+                  {
+                    "type": "Plain",
+                    "text": " Uncertainty = <span class=bodyFraction><span>(high volume interval  - low volume interval)</span><span class=symbol>/</span><span class=bottom>2</span></span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Assume the balance reading is zeroed. The mass of the 10-mL graduated cylinder with water is shown in <span style='whiteSpace: nowrap'>Figure 18.</span> Record the mass in <span class='bodyFontBold'>Data <span style='whiteSpace: nowrap'>Table 2</span>.</span>"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses/580353/580353_fig_018.svg",
+                    "imgDivWidth": "156px",
+                    "maxWidth": "195px",
+                    "scrollImg": true,
+                    "altText": "Figure 18: A 10-milliliter graduated cylinder with 7 milliliters of blue water on a weighing scale showing a reading of 17.40 grams",
+                    "desc": "Figure 18: A 10-milliliter graduated cylinder with 7 milliliters of blue water on a weighing scale showing a reading of 17.40 grams"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat Steps 1–7 with each remaining glassware shown in Figures 19–24. Replace the volumes in <span style='whiteSpace: nowrap'>Step 3</span> with the target volumes listed in <span style='whiteSpace: nowrap'>Table 1.</span> Be sure to record the data in <span class='bodyFontBold'>Data <span style='whiteSpace: nowrap'>Table 2</span>.</span>"
+                  },
+                  {
+                    "type": "DataTable",
+                    "title": "Table 1.",
+                    "id": "dataTable_1",
+                    "sr": 10,
+                    "allowClick": true,
+                    "tableHeight": "1.5",
+                    "tableWidth": "700px",
+                    "header": [
+                      {
+                        "text": "Glassware",
+                        "colspan": 4
+                      }
+                    ],
+                    "tableData": [
+                      [
+                        {
+                          "type": "Image",
+                          "src": "courses/580353/580353_tbl_001_1.svg",
+                          "width": "100px",
+                          "hoverText": "A 10-milliliter graduated cylinder showing a blue water level of 7 milliliters",
+                          "color": "rgb(230, 230, 230)"
+                        },
+                        {
+                          "type": "Image",
+                          "src": "courses/580353/580353_tbl_001_2.svg",
+                          "width": "100px",
+                          "hoverText": "A 50-milliliter graduated cylinder showing a blue water level of 24 milliliters",
+                          "color": "rgb(230, 230, 230)"
+                        },
+                        {
+                          "type": "Image",
+                          "src": "courses/580353/580353_tbl_001_3.svg",
+                          "width": "125px",
+                          "hoverText": "A 25-milliliter Erlenmeyer flask showing a blue water level of 17 milliliters",
+                          "color": "rgb(230, 230, 230)"
+                        },
+                        {
+                          "type": "Image",
+                          "src": "courses/580353/580353_tbl_001_4.svg",
+                          "width": "120px",
+                          "hoverText": "A plastic 250-milliliter beaker showing a blue water level of 35 milliliters",
+                          "color": "rgb(230, 230, 230)"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Graduated cylinder, 10 mL"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Graduated cylinder, 50 mL"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Erlenmeyer flask, 25 mL"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Beaker, 250 mL"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "<span class=bodyBoldSubText>Target Volume of Water (mL)</span>",
+                          "hoverText": "Target Volume of Water (mL)",
+                          "align": "center",
+                          "colspan": 4
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "7",
+                          "align": "left"
+                        },
+                        {
+                          "type": "text",
+                          "text": "24"
+                        },
+                        {
+                          "type": "text",
+                          "text": "17"
+                        },
+                        {
+                          "type": "text",
+                          "text": "35"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": [
+                      {
+                        "src": "courses/580353/580353_fig_019.svg",
+                        "maxWidth": "225px",
+                        "scrollImg": true,
+                        "desc": "Figure 19: An empty 50-milliliter graduated cylinder on a weighing balance showing a reading of 29.72 grams",
+                        "altText": "Figure 19: An empty 50-milliliter graduated cylinder on a weighing balance showing a reading of 29.72 grams"
+                      },
+                      {
+                        "src": "courses/580353/580353_fig_020.svg",
+                        "maxWidth": "225px",
+                        "scrollImg": true,
+                        "desc": "Figure 20: A 50-milliliter graduated cylinder with 24 milliliters of water on a weighing balance showing a reading of 53.23 grams",
+                        "altText": "Figure 20: A 50-milliliter graduated cylinder with 24 milliliters of water on a weighing balance showing a reading of 53.23 grams"
+                      }
+                    ],
+                    "desc": [
+                      "Figure 19: An empty 50-milliliter graduated cylinder on a weighing balance showing a reading of 29.72 grams",
+                      "Figure 20: A 50-milliliter graduated cylinder with 24 milliliters of water on a weighing balance showing a reading of 53.23 grams"
+                    ],
+                    "altText": [
+                      "Figure 19: An empty 50-milliliter graduated cylinder on a weighing balance showing a reading of 29.72 grams",
+                      "Figure 20: A 50-milliliter graduated cylinder with 24 milliliters of water on a weighing balance showing a reading of 53.23 grams"
+                    ],
+                    "imgDivWidth": "180px"
+                  },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": [
+                      {
+                        "src": "courses/580353/580353_fig_021.svg",
+                        "maxWidth": "195px",
+                        "scrollImg": true,
+                        "desc": "Figure 21: An empty Erlenmeyer flask on a weighing scale showing a reading of 23.60 grams",
+                        "altText": "Figure 21: An empty Erlenmeyer flask on a weighing scale showing a reading of 23.60 grams"
+                      },
+                      {
+                        "src": "courses/580353/580353_fig_022.svg",
+                        "maxWidth": "195px",
+                        "scrollImg": true,
+                        "desc": "Figure 22: An Erlenmeyer flask with 17 milliliters of water on a weighing scale showing a reading of 40.57 grams",
+                        "altText": "Figure 22: An Erlenmeyer flask with 17 milliliters of water on a weighing scale showing a reading of 40.57 grams"
+                      }
+                    ],
+                    "desc": [
+                      "Figure 21: An empty Erlenmeyer flask on a weighing scale showing a reading of 23.60 grams",
+                      "Figure 22: An Erlenmeyer flask with 17 milliliters of water on a weighing scale showing a reading of 40.57 grams"
+                    ],
+                    "altText": [
+                      "Figure 21: An empty Erlenmeyer flask on a weighing scale showing a reading of 23.60 grams",
+                      "Figure 22: An Erlenmeyer flask with 17 milliliters of water on a weighing scale showing a reading of 40.57 grams"
+                    ],
+                    "imgDivWidth": "156px"
+                  },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": [
+                      {
+                        "src": "courses/580353/580353_fig_023.svg",
+                        "maxWidth": "370px",
+                        "scrollImg": true,
+                        "desc": "Figure 23: An empty 250-milliliter plastic beaker on a weighing scale showing a reading of 44.57 grams",
+                        "altText": "Figure 23: An empty 250-milliliter plastic beaker on a weighing scale showing a reading of 44.57 grams"
+                      },
+                      {
+                        "src": "courses/580353/580353_fig_024.svg",
+                        "maxWidth": "370px",
+                        "scrollImg": true,
+                        "desc": "Figure 24: A 250-milliliter plastic beaker with 35 milliliters of water on a weighing scale showing a reading of 78.78 grams",
+                        "altText": "Figure 24: A 250-milliliter plastic beaker with 35 milliliters of water on a weighing scale showing a reading of 78.78 grams"
+                      }
+                    ],
+                    "desc": [
+                      "Figure 23: An empty 250-milliliter plastic beaker on a weighing scale showing a reading of 44.57 grams",
+                      "Figure 24: A 250-milliliter plastic beaker with 35 milliliters of water on a weighing scale showing a reading of 78.78 grams"
+                    ],
+                    "altText": [
+                      "Figure 23: An empty 250-milliliter plastic beaker on a weighing scale showing a reading of 44.57 grams",
+                      "Figure 24: A 250-milliliter plastic beaker with 35 milliliters of water on a weighing scale showing a reading of 78.78 grams"
+                    ],
+                    "imgDivWidth": "296px"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the mass of water in each piece of glassware, and record the mass in <span class='bodyFontBold'>Data Table 2</span> and <span class='bodyFontBold'>3</span>. "
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "Mass of water = Mass of glassware with water – Mass of empty glassware"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 3",
+      "menuIcon": "core/Chemistry_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 3, you will calculate the actual volumes of water from <span style='whiteSpace: nowrap'>Activity 2</span> and compare these values to the experimental values to determine the <button class='glossary-text'>accuracy</button> of each piece of glassware. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 3",
+          "pages": [
+            {
+              "title": "<div class=order-list-text>C</div>&nbsp;Determination of Accuracy in Common Glassware (3 steps)",
+              "keyID": "page19",
+              "pageTitle": "<div class=order-list-text>C</div>&nbsp;<span class=bodyBoldSubHeading>Determination of Accuracy in Common Glassware (3 steps)</span>",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the thermometer shown in <span style='whiteSpace: nowrap'>Figure 25,</span> record the room temperature in degrees centigrade in <span class='bodyFontBold'>Data Table 3</span> as the current water temperature. (For simplicity, assume that the water used in <span style='whiteSpace: nowrap'>Activity 2</span> was at this room temperature.)"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses/580353/580353_fig_025.svg",
+                    "imgDivWidth": "180px",
+                    "maxWidth": "225px",
+                    "scrollImg": true,
+                    "altText": "Figure 25: Glass thermometer showing a room temperature reading in degrees celsius",
+                    "desc": "Figure 25: Glass thermometer showing a room temperature reading in degrees celsius"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using Table 2, record the density of water at the current room temperature in <span class='bodyFontBold'>Data <span style='whiteSpace: nowrap'>Table 3</span>.</span>"
+                  },
+                  {
+                    "type": "DataTable",
+                    "title": "Table 2.",
+                    "id": "dataTable_2",
+                    "sr": 11,
+                    "allowClick": true,
+                    "tableHeight": "1.5",
+                    "tableMaxWidth": "99%",
+                    "header": [
+                      {
+                        "text": "Temperature °C",
+                        "colWidth": "10%"
+                      },
+                      {
+                        "text": "Density (g/mL)",
+                        "colWidth": "9%"
+                      },
+                      {
+                        "text": "g/mL + 0.1 °C",
+                        "colWidth": "9%"
+                      },
+                      {
+                        "text": "g/mL + 0.2 °C",
+                        "colWidth": "9%"
+                      },
+                      {
+                        "text": "g/mL + 0.3 °C",
+                        "colWidth": "9%"
+                      },
+                      {
+                        "text": "g/mL + 0.4 °C",
+                        "colWidth": "9%"
+                      },
+                      {
+                        "text": "g/mL + 0.5 °C",
+                        "colWidth": "9%"
+                      },
+                      {
+                        "text": "g/mL + 0.6 °C",
+                        "colWidth": "9%"
+                      },
+                      {
+                        "text": "g/mL + 0.7 °C",
+                        "colWidth": "9%"
+                      },
+                      {
+                        "text": "g/mL + 0.8 °C",
+                        "colWidth": "9%"
+                      },
+                      {
+                        "text": "g/mL + 0.9 °C",
+                        "colWidth": "9%"
+                      }
+                    ],
+                    "tableData": [
+                      [
+                        {
+                          "type": "text",
+                          "fontFamily": "HelveticaNeueLTStdMd65",
+                          "text": "18"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9986"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9986"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9986"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9985"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9985"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9985"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9985"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9985"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9984"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9984"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "fontFamily": "HelveticaNeueLTStdMd65",
+                          "text": "19"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9984"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9984"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9984"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9983"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9983"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9983"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9983"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9983"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9982"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9982"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "fontFamily": "HelveticaNeueLTStdMd65",
+                          "text": "20"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9982"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9982"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9982"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9981"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9981"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9981"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9981"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9981"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9980"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9980"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "fontFamily": "HelveticaNeueLTStdMd65",
+                          "text": "21"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9980"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9980"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9979"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9979"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9979"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9979"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9979"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9978"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9978"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9978"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "fontFamily": "HelveticaNeueLTStdMd65",
+                          "text": "22"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9978"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9977"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9977"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9977"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9977"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9977"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9976"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9976"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9976"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9976"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "fontFamily": "HelveticaNeueLTStdMd65",
+                          "text": "23"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9975"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9975"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9975"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9975"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9974"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9974"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9974"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9974"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9973"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9973"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "fontFamily": "HelveticaNeueLTStdMd65",
+                          "text": "24"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9973"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9973"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9972"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9972"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9972"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9972"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9971"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9971"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9971"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9971"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "fontFamily": "HelveticaNeueLTStdMd65",
+                          "text": "25"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9970"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9970"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9970"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9970"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9970"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9969"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9969"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9969"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9968"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9968"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "fontFamily": "HelveticaNeueLTStdMd65",
+                          "text": "26"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9968"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9968"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9967"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9967"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9967"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9966"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9966"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9966"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9966"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9965"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "fontFamily": "HelveticaNeueLTStdMd65",
+                          "text": "27"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9965"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9965"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9965"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9964"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9964"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9964"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9963"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9963"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9963"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0.9963"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "colspan": 11,
+                          "text": "<span class=bodyBoldSubText>How to use this table:</span> If the water temperature is 23.4 °C: Start at the 23 °C row and go over to the “g/mL + 0.4 °C” column. The density at 23.4 °C would be 0.9974 g/mL.",
+                          "hoverText": "How to use this table: If the water temperature is 23.4 °C: Start at the 23 °C row and go over to the “g/mL + 0.4 °C” column. The density at 23.4 °C would be 0.9974 g/mL."
+                        }
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the volume of water from Activity 2 for each piece of glassware, and record it in <span class='bodyFontBold'>Data <span style='whiteSpace: nowrap'>Table 3</span>.</span>"
+                  },
+                  {
+                    "type": "Box",
+                    "text": "<span class=bodyBoldSubText>Reminder</span>: volume = mass/density"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Chemistry_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2022 Carolina Biological Supply Company",
+      "pageSetting": "portrait"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable1",
+            "tag": "div",
+            "width": "80%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1: Determination of Uncertainty in Lab Balance"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 20,
+                "header": [
+                  {
+                    "text": "Trial",
+                    "colWidth": "8%"
+                  },
+                  {
+                    "text": "Cup #1 Mass (g)",
+                    "colWidth": "23%"
+                  },
+                  {
+                    "text": "Cup #1 Deviation from Average (g)",
+                    "colWidth": "23%"
+                  },
+                  {
+                    "text": "Cup #2 Mass (g)",
+                    "colWidth": "23%"
+                  },
+                  {
+                    "text": "Cup #2 Deviation from Average (g)",
+                    "colWidth": "23%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "1",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "2",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "3",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "4",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "5",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Average ",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "question_1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "Suppose you continued Activity 1 using a third plastic cup of the same type. Would you expect the average deviation from the average mass to be the same or different? Explain your answer. "
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "question_1",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable2",
+            "tag": "div",
+            "width": "80%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 2: Determination of Uncertainty in Common Glassware"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 20,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "24%"
+                  },
+                  {
+                    "text": "10-mL Graduated Cylinder",
+                    "colWidth": "19%"
+                  },
+                  {
+                    "text": "100-mL Graduated Cylinder",
+                    "colWidth": "19%"
+                  },
+                  {
+                    "text": "25-mL Erlenmeyer Flask",
+                    "colWidth": "19%"
+                  },
+                  {
+                    "text": "250-mL Beaker",
+                    "colWidth": "19%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Mass of empty glassware "
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Estimated volume of water "
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "High volume interval"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Low volume interval "
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Uncertainty"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Mass of glassware with water "
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Mass of water "
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "question_2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "2",
+                "listType": "ordered",
+                "text": [
+                  "Which piece of glassware has the highest degree of precision? Why?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "question_2",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable3",
+            "tag": "div",
+            "width": "80%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 3"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 3: Determination of Accuracy in Common Glassware"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 20,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "24%"
+                  },
+                  {
+                    "text": "10-mL Graduated Cylinder",
+                    "colWidth": "19%"
+                  },
+                  {
+                    "text": "50-mL Graduated Cylinder",
+                    "colWidth": "19%"
+                  },
+                  {
+                    "text": "25-mL Erlenmeyer Flask",
+                    "colWidth": "19%"
+                  },
+                  {
+                    "text": "250-mL Beaker",
+                    "colWidth": "19%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Mass of water in Activity 2"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Current water temperature  "
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "color": "rgb(230, 230, 230)",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "color": "rgb(230, 230, 230)",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "color": "rgb(230, 230, 230)",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Density of water at room temperature "
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "color": "rgb(230, 230, 230)",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "color": "rgb(230, 230, 230)",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "color": "rgb(230, 230, 230)",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Calculated volume of water"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "question_3",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "3",
+                "listType": "ordered",
+                "text": [
+                  "Accuracy is gauged by comparing the measured value of a known standard to its true value. Assuming the mass of the water represents a standard for the true volume of water, which piece of glassware has the highest degree of accuracy? Why? "
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "question_3",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "question_4",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "4",
+                "listType": "ordered",
+                "text": [
+                  "When measuring liquids, you should make a reading at the bottom of the meniscus. Why? "
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "question_4",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Images",
+        "src": "courses/580353/Periodic_Table.svg",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "maxWidth": "2200px",
+        "scrollImg": true,
+        "altText": "Periodic Table of the Elements",
+        "content": "Periodic Table of the Elements"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_001.svg",
+        "maxWidth": "400px",
+        "altText": "Figure 1: Scale displaying a reading of 0.00 grams and the lid showing the instructions",
+        "content": "Figure 1. An electronic balance"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_002.svg",
+        "maxWidth": "310px",
+        "scrollImg": true,
+        "altText": "Figure 2: diagram showing a close up of reading a meniscus",
+        "content": "Figure 2. Measuring from the meniscus of a liquid"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_ED.svg",
+        "content": "Experimental Design Diagram",
+        "altText": "This map describes the workflow for this investigation. In Activity 1, you will take the mass of two different plastic cups; you will take five readings per cup. Then, you will determine the average mass of each cup, the deviation from the average for each trial, and the deviation from the average for each cup. In Activity 2, you will take volume measurements using four different glassware items. For each item, you will measure its mass, add a target volume of water to the item, record the highest and lowest volume intervals, calculate uncertainty, and measure the mass of the item with its water. Once all the glassware items have been tested, you will calculate the mass of the water within each item. In Activity 3, you will use the current room temperature to calculate the volumes of water from Activity 2. Finally, you will compare the measured volumes against the calculated volumes. ",
+        "imgDivWidth": "85%",
+        "imgDivWidthForTablet": {
+          "P": "89%",
+          "L": "90%"
+        },
+        "imgDivWidthForMobile": {
+          "P": "100%",
+          "L": "100%"
+        },
+        "width": "100%",
+        "scrollImg": true,
+        "maxWidth": "1200px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_003.svg",
+        "maxWidth": "400px",
+        "altText": "Figure 3: Scale displaying a reading of 0.00 grams",
+        "content": " Figure 3. Activity 1 balance display at 0.00 g"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_004.svg",
+        "maxWidth": "400px",
+        "altText": "Figure 4: Two empty transparent plastic cups labeled '1' and '2' ",
+        "content": "Figure 4. Activity 1 cups "
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_005.svg",
+        "maxWidth": "370px",
+        "scrollImg": true,
+        "altText": "Figure 5: Cup 1 on a weighing scale showing a reading of 10.52 grams",
+        "content": "Figure 5. Mass of Cup #1 in Trial 1"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_006.svg",
+        "maxWidth": "370px",
+        "scrollImg": true,
+        "altText": "Figure 6: Cup 1 on a weighing scale showing a reading of 10.54 grams",
+        "content": "Figure 6. Mass of Cup #1 in Trial 2 "
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_007.svg",
+        "maxWidth": "370px",
+        "scrollImg": true,
+        "altText": "Figure 7: Cup 1 on a weighing scale showing a reading of 10.54 grams",
+        "content": "Figure 7. Mass of Cup #1 in Trial 3 "
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_008.svg",
+        "maxWidth": "370px",
+        "scrollImg": true,
+        "altText": "Figure 8: Cup 1 on a weighing scale showing a reading of 10.53 grams",
+        "content": "Figure 8. Mass of Cup #1 in Trial 4"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_009.svg",
+        "maxWidth": "370px",
+        "scrollImg": true,
+        "altText": "Figure 9: Cup 1 on a weighing scale showing a reading of 10.54 grams",
+        "content": "Figure 9. Mass of Cup #1 in Trial 5 "
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_010.svg",
+        "maxWidth": "370px",
+        "scrollImg": true,
+        "altText": "Figure 10: Cup 2 on a weighing scale showing a reading of 10.45 grams",
+        "content": " Figure 10. Mass of Cup #2 in Trial 1"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_011.svg",
+        "maxWidth": "370px",
+        "scrollImg": true,
+        "altText": "Figure 11: Cup 2 on a weighing scale showing a reading of 10.41 grams",
+        "content": "Figure 11. Mass of Cup #2 in Trial 2"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_012.svg",
+        "maxWidth": "370px",
+        "scrollImg": true,
+        "altText": "Figure 12: Cup 2 on a weighing scale showing a reading of 10.42 grams",
+        "content": "Figure 12. Mass of Cup #2 in Trial 3 "
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_013.svg",
+        "maxWidth": "370px",
+        "scrollImg": true,
+        "altText": "Figure 13: Cup 2 on a weighing scale showing a reading of 10.43 grams",
+        "content": " Figure 13. Mass of Cup #2 in Trial 4 "
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_014.svg",
+        "maxWidth": "370px",
+        "scrollImg": true,
+        "altText": "Figure 14: Cup 2 on a weighing scale showing a reading of 10.41 grams",
+        "content": "Figure 14. Mass of Cup #2 in Trial 5"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_015.svg",
+        "maxWidth": "370px",
+        "scrollImg": true,
+        "altText": "Figure 15: Scale displaying a reading of 0.00 grams",
+        "content": "Figure 15. Activity 2 balance display at 0.00 g"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_016.svg",
+        "maxWidth": "195px",
+        "scrollImg": true,
+        "altText": "Figure 16: A 10-milliliter graduated cylinder on a weighing scale showing a reading of 10.64 grams",
+        "content": "Figure 16. Mass of 10-mL graduated cylinder"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_017.svg",
+        "maxWidth": "370px",
+        "scrollImg": true,
+        "altText": "Figure 17: A 10-milliliter graduated cylinder showing a blue water level of 7 milliliters",
+        "content": "Figure 17. Meniscus of water in 10-mL graduated cylinder"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_018.svg",
+        "maxWidth": "195px",
+        "scrollImg": true,
+        "altText": "Figure 18: A 10-milliliter graduated cylinder with 7 milliliters of blue water on a weighing scale showing a reading of 17.40 grams",
+        "content": " Figure 18. Mass of 10-mL graduated cylinder with water "
+      },
+      {
+        "type": "DataTable",
+        "content": "Table 1. Meniscus of water in each glassware item and target water volumes for Activity 2 ",
+        "title": "Table 1.",
+        "id": "dataTable_1",
+        "sr": 10,
+        "thumbnailSrc": "core/Table_icon.svg",
+        "isResource": true,
+        "allowClick": true,
+        "tableHeight": "1.5",
+        "tableWidth": "700px",
+        "header": [
+          {
+            "text": "Glassware",
+            "colspan": 4
+          }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "Image",
+              "src": "courses/580353/580353_tbl_001_1.svg",
+              "width": "100px",
+              "hoverText": "A 10-milliliter graduated cylinder showing a blue water level of 7 milliliters",
+              "color": "rgb(230, 230, 230)"
+            },
+            {
+              "type": "Image",
+              "src": "courses/580353/580353_tbl_001_2.svg",
+              "width": "100px",
+              "hoverText": "A 50-milliliter graduated cylinder showing a blue water level of 24 milliliters",
+              "color": "rgb(230, 230, 230)"
+            },
+            {
+              "type": "Image",
+              "src": "courses/580353/580353_tbl_001_3.svg",
+              "width": "125px",
+              "hoverText": "A 25-milliliter Erlenmeyer flask showing a blue water level of 17 milliliters",
+              "color": "rgb(230, 230, 230)"
+            },
+            {
+              "type": "Image",
+              "src": "courses/580353/580353_tbl_001_4.svg",
+              "width": "120px",
+              "hoverText": "A plastic 250-milliliter beaker showing a blue water level of 35 milliliters",
+              "color": "rgb(230, 230, 230)"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Graduated cylinder, 10 mL"
+            },
+            {
+              "type": "text",
+              "text": "Graduated cylinder, 50 mL"
+            },
+            {
+              "type": "text",
+              "text": "Erlenmeyer flask, 25 mL"
+            },
+            {
+              "type": "text",
+              "text": "Beaker, 250 mL"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "<span class=bodyBoldSubText>Target Volume of Water (mL)</span>",
+              "hoverText": "Target Volume of Water (mL)",
+              "align": "center",
+              "colspan": 4
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "7",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "24"
+            },
+            {
+              "type": "text",
+              "text": "17"
+            },
+            {
+              "type": "text",
+              "text": "35"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_019.svg",
+        "maxWidth": "225px",
+        "scrollImg": true,
+        "altText": "Figure 19: An empty 50-milliliter graduated cylinder on a weighing balance showing a reading of 29.72 grams",
+        "content": "Figure 19. Mass of 50-mL graduated cylinder"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_020.svg",
+        "maxWidth": "225px",
+        "scrollImg": true,
+        "altText": "Figure 20: A 50-milliliter graduated cylinder with 24 milliliters of water on a weighing balance showing a reading of 53.23 grams",
+        "content": "Figure 20. Mass of 50-mL graduated cylinder with water "
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_021.svg",
+        "maxWidth": "195px",
+        "scrollImg": true,
+        "altText": "Figure 21: An empty Erlenmeyer flask on a weighing scale showing a reading of 23.60 grams",
+        "content": "Figure 21. Mass of Erlenmeyer flask"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_022.svg",
+        "maxWidth": "195px",
+        "scrollImg": true,
+        "altText": "Figure 22: An Erlenmeyer flask with 17 milliliters of water on a weighing scale showing a reading of 40.57 grams",
+        "content": " Figure 22. Mass of Erlenmeyer flask with water"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_023.svg",
+        "maxWidth": "370px",
+        "scrollImg": true,
+        "altText": "Figure 23: An empty 250-milliliter plastic beaker on a weighing scale showing a reading of 44.57 grams",
+        "content": " Figure 23. Mass of 250-mL beaker"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_024.svg",
+        "maxWidth": "370px",
+        "scrollImg": true,
+        "altText": "Figure 24: A 250-milliliter plastic beaker with 35 milliliters of water on a weighing scale showing a reading of 78.78 grams",
+        "content": "Figure 24. Mass of 250-mL beaker with water "
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580353/580353_fig_025.svg",
+        "maxWidth": "225px",
+        "scrollImg": true,
+        "altText": "Figure 25: Glass thermometer showing a room temperature reading in degrees celsius",
+        "content": "  Figure 25. Thermometer reading of room temperature"
+      },
+      {
+        "type": "DataTable",
+        "title": "Table 2.",
+        "id": "dataTable_2",
+        "thumbnailSrc": "core/Table_icon.svg",
+        "isResource": true,
+        "sr": 11,
+        "allowClick": true,
+        "tableHeight": "1.5",
+        "content": "  Table 2. Water density at different temperatures ",
+        "tableMaxWidth": "99%",
+        "header": [
+          {
+            "text": "Temperature °C",
+            "colWidth": "10%"
+          },
+          {
+            "text": "Density (g/mL)",
+            "colWidth": "9%"
+          },
+          {
+            "text": "g/mL + 0.1 °C",
+            "colWidth": "9%"
+          },
+          {
+            "text": "g/mL + 0.2 °C",
+            "colWidth": "9%"
+          },
+          {
+            "text": "g/mL + 0.3 °C",
+            "colWidth": "9%"
+          },
+          {
+            "text": "g/mL + 0.4 °C",
+            "colWidth": "9%"
+          },
+          {
+            "text": "g/mL + 0.5 °C",
+            "colWidth": "9%"
+          },
+          {
+            "text": "g/mL + 0.6 °C",
+            "colWidth": "9%"
+          },
+          {
+            "text": "g/mL + 0.7 °C",
+            "colWidth": "9%"
+          },
+          {
+            "text": "g/mL + 0.8 °C",
+            "colWidth": "9%"
+          },
+          {
+            "text": "g/mL + 0.9 °C",
+            "colWidth": "9%"
+          }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "18"
+            },
+            {
+              "type": "text",
+              "text": "0.9986"
+            },
+            {
+              "type": "text",
+              "text": "0.9986"
+            },
+            {
+              "type": "text",
+              "text": "0.9986"
+            },
+            {
+              "type": "text",
+              "text": "0.9985"
+            },
+            {
+              "type": "text",
+              "text": "0.9985"
+            },
+            {
+              "type": "text",
+              "text": "0.9985"
+            },
+            {
+              "type": "text",
+              "text": "0.9985"
+            },
+            {
+              "type": "text",
+              "text": "0.9985"
+            },
+            {
+              "type": "text",
+              "text": "0.9984"
+            },
+            {
+              "type": "text",
+              "text": "0.9984"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "19"
+            },
+            {
+              "type": "text",
+              "text": "0.9984"
+            },
+            {
+              "type": "text",
+              "text": "0.9984"
+            },
+            {
+              "type": "text",
+              "text": "0.9984"
+            },
+            {
+              "type": "text",
+              "text": "0.9983"
+            },
+            {
+              "type": "text",
+              "text": "0.9983"
+            },
+            {
+              "type": "text",
+              "text": "0.9983"
+            },
+            {
+              "type": "text",
+              "text": "0.9983"
+            },
+            {
+              "type": "text",
+              "text": "0.9983"
+            },
+            {
+              "type": "text",
+              "text": "0.9982"
+            },
+            {
+              "type": "text",
+              "text": "0.9982"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "20"
+            },
+            {
+              "type": "text",
+              "text": "0.9982"
+            },
+            {
+              "type": "text",
+              "text": "0.9982"
+            },
+            {
+              "type": "text",
+              "text": "0.9982"
+            },
+            {
+              "type": "text",
+              "text": "0.9981"
+            },
+            {
+              "type": "text",
+              "text": "0.9981"
+            },
+            {
+              "type": "text",
+              "text": "0.9981"
+            },
+            {
+              "type": "text",
+              "text": "0.9981"
+            },
+            {
+              "type": "text",
+              "text": "0.9981"
+            },
+            {
+              "type": "text",
+              "text": "0.9980"
+            },
+            {
+              "type": "text",
+              "text": "0.9980"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "21"
+            },
+            {
+              "type": "text",
+              "text": "0.9980"
+            },
+            {
+              "type": "text",
+              "text": "0.9980"
+            },
+            {
+              "type": "text",
+              "text": "0.9979"
+            },
+            {
+              "type": "text",
+              "text": "0.9979"
+            },
+            {
+              "type": "text",
+              "text": "0.9979"
+            },
+            {
+              "type": "text",
+              "text": "0.9979"
+            },
+            {
+              "type": "text",
+              "text": "0.9979"
+            },
+            {
+              "type": "text",
+              "text": "0.9978"
+            },
+            {
+              "type": "text",
+              "text": "0.9978"
+            },
+            {
+              "type": "text",
+              "text": "0.9978"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "22"
+            },
+            {
+              "type": "text",
+              "text": "0.9978"
+            },
+            {
+              "type": "text",
+              "text": "0.9977"
+            },
+            {
+              "type": "text",
+              "text": "0.9977"
+            },
+            {
+              "type": "text",
+              "text": "0.9977"
+            },
+            {
+              "type": "text",
+              "text": "0.9977"
+            },
+            {
+              "type": "text",
+              "text": "0.9977"
+            },
+            {
+              "type": "text",
+              "text": "0.9976"
+            },
+            {
+              "type": "text",
+              "text": "0.9976"
+            },
+            {
+              "type": "text",
+              "text": "0.9976"
+            },
+            {
+              "type": "text",
+              "text": "0.9976"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "23"
+            },
+            {
+              "type": "text",
+              "text": "0.9975"
+            },
+            {
+              "type": "text",
+              "text": "0.9975"
+            },
+            {
+              "type": "text",
+              "text": "0.9975"
+            },
+            {
+              "type": "text",
+              "text": "0.9975"
+            },
+            {
+              "type": "text",
+              "text": "0.9974"
+            },
+            {
+              "type": "text",
+              "text": "0.9974"
+            },
+            {
+              "type": "text",
+              "text": "0.9974"
+            },
+            {
+              "type": "text",
+              "text": "0.9974"
+            },
+            {
+              "type": "text",
+              "text": "0.9973"
+            },
+            {
+              "type": "text",
+              "text": "0.9973"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "24"
+            },
+            {
+              "type": "text",
+              "text": "0.9973"
+            },
+            {
+              "type": "text",
+              "text": "0.9973"
+            },
+            {
+              "type": "text",
+              "text": "0.9972"
+            },
+            {
+              "type": "text",
+              "text": "0.9972"
+            },
+            {
+              "type": "text",
+              "text": "0.9972"
+            },
+            {
+              "type": "text",
+              "text": "0.9972"
+            },
+            {
+              "type": "text",
+              "text": "0.9971"
+            },
+            {
+              "type": "text",
+              "text": "0.9971"
+            },
+            {
+              "type": "text",
+              "text": "0.9971"
+            },
+            {
+              "type": "text",
+              "text": "0.9971"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "25"
+            },
+            {
+              "type": "text",
+              "text": "0.9970"
+            },
+            {
+              "type": "text",
+              "text": "0.9970"
+            },
+            {
+              "type": "text",
+              "text": "0.9970"
+            },
+            {
+              "type": "text",
+              "text": "0.9970"
+            },
+            {
+              "type": "text",
+              "text": "0.9970"
+            },
+            {
+              "type": "text",
+              "text": "0.9969"
+            },
+            {
+              "type": "text",
+              "text": "0.9969"
+            },
+            {
+              "type": "text",
+              "text": "0.9969"
+            },
+            {
+              "type": "text",
+              "text": "0.9968"
+            },
+            {
+              "type": "text",
+              "text": "0.9968"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "26"
+            },
+            {
+              "type": "text",
+              "text": "0.9968"
+            },
+            {
+              "type": "text",
+              "text": "0.9968"
+            },
+            {
+              "type": "text",
+              "text": "0.9967"
+            },
+            {
+              "type": "text",
+              "text": "0.9967"
+            },
+            {
+              "type": "text",
+              "text": "0.9967"
+            },
+            {
+              "type": "text",
+              "text": "0.9966"
+            },
+            {
+              "type": "text",
+              "text": "0.9966"
+            },
+            {
+              "type": "text",
+              "text": "0.9966"
+            },
+            {
+              "type": "text",
+              "text": "0.9966"
+            },
+            {
+              "type": "text",
+              "text": "0.9965"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "27"
+            },
+            {
+              "type": "text",
+              "text": "0.9965"
+            },
+            {
+              "type": "text",
+              "text": "0.9965"
+            },
+            {
+              "type": "text",
+              "text": "0.9965"
+            },
+            {
+              "type": "text",
+              "text": "0.9964"
+            },
+            {
+              "type": "text",
+              "text": "0.9964"
+            },
+            {
+              "type": "text",
+              "text": "0.9964"
+            },
+            {
+              "type": "text",
+              "text": "0.9963"
+            },
+            {
+              "type": "text",
+              "text": "0.9963"
+            },
+            {
+              "type": "text",
+              "text": "0.9963"
+            },
+            {
+              "type": "text",
+              "text": "0.9963"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "colspan": 11,
+              "text": "<span class=bodyBoldSubText>How to use this table:</span> If the water temperature is 23.4 °C: Start at the 23 °C row and go over to the “g/mL + 0.4 °C” column. The density at 23.4 °C would be 0.9974 g/mL.",
+              "hoverText": "How to use this table: If the water temperature is 23.4 °C: Start at the 23 °C row and go over to the “g/mL + 0.4 °C” column. The density at 23.4 °C would be 0.9974 g/mL."
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Absolute error",
+        "content": "Has both magnitude and direction and is represented as a discrete value"
+      },
+      {
+        "title": "Accuracy",
+        "content": "Is gauged by comparing the measured value of a known standard to its true value"
+      },
+      {
+        "title": "Error",
+        "content": "The difference between the measured value and the actual value, where the actual value is a known value, sometimes referred to as a standard"
+      },
+      {
+        "title": "Percent error",
+        "content": "A type of systematic error calculated by comparing a measurement against an accepted value"
+      },
+      {
+        "title": "Precision",
+        "content": "Refers to how close a data point is to other measurements in a data set"
+      },
+      {
+        "title": "Random error",
+        "content": "Will be present in all measurements"
+      },
+      {
+        "title": "Relative error",
+        "content": "a type of systematic error usually expressed as a percentage"
+      },
+      {
+        "title": "Significant figures",
+        "content": "Digits relating to the precision of measurement"
+      },
+      {
+        "title": "Standard",
+        "content": "A chemical or piece of equipment associated with a known quantity, such as mass"
+      },
+      {
+        "title": "Systematic error",
+        "content": "A type of error that causes measurements to be inaccurate by a certain value in a particular direction"
+      },
+      {
+        "title": "Uncertainty",
+        "content": "The limit of quantifiable measurement with confidence using measuring equipment"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

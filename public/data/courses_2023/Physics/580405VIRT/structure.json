@@ -1,0 +1,1952 @@
+{
+  "locked": true,
+  "courseTitle": "Nuclear Decay Virtual Lab",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Physics_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/bodyBookmark.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/TakeSnapshot.svg",
+    "core/disposalAndCleanupIcon.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Physics_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Physics",
+                "titleName2": "Nuclear Decay Virtual Lab",
+                "images": {
+                  "logo": "core/Physics_Subject_Icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "waterMark": true,
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, you will investigate different nuclear decay mechanisms to learn how one element transmutes into another. You will then simulate nuclear decay, record and graph your data, and observe the nature of <button class='glossary-text'>exponential decay</button>."
+                },
+                {
+                  "type": "Plain",
+                  "title": "Needed but not supplied",
+                  "text": "There are no materials needed for this investigation."
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Physics/580405VIRT/580405VIRT_Physics_Time-Requirement.svg",
+                  "altText": "Activity 1: Nuclear Decay Simulation – 30 minutes",
+                  "containerType": "rightContainer",
+                  "scrollImg": true,
+                  "imgDivWidth": "96px",
+                  "maxWidth": "110px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Categorize the different types of nuclear decay.",
+                    "Demonstrate the concept of <button class='glossary-text'>half-life</button>.",
+                    "Describe how nuclear decay is used in <button class='glossary-text'>radioactive dating</button>."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "image": "core/Key_PPE.svg",
+                  "imgDivWidth": "430px",
+                  "maxWidth": "500px"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "desc": "video link symbol, camera symbol, stopwatch symbol",
+                  "image": "core/Key_protocol.svg",
+                  "imgDivWidth": "430px",
+                  "maxWidth": "500px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "desc": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "imgDivWidth": "430px",
+                  "maxWidth": "500px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Many smoke detectors use ionization chambers which rely on radiation to ionize the air in the chamber. A common source of radiation is americium-241 (Am-241). Am-241 primarily emits <button class='glossary-text'>alpha particles</button>, which typically only travel a few inches and can be stopped with relative ease. In a smoke detector, the Am-241 is found in between two layers of metal foil and then sealed in the ionization chamber. The only way the seal could be broken is through the deliberate use of force or in a fire. If a fire occurs, the Am-241 would release less than 0.1% of their <button class='glossary-text'>radioactivity</button>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "So why is radioactive material used? As it decays, particles and photons are shed, and these particles collide with neutral air molecules that flow through the ionization chamber. As the particles collide with air molecules, they remove electrons from the air molecules and thus create positive ions. The electrons attach to other neutral molecules and create negative ions. Within the chamber, there are two electrodes that attract ions according to their charge. This creates a current that the detector measures. If smoke enters the ionization chamber, this current is interrupted, and the alarm is triggered. "
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580405VIRT/580405VIRT_Physics_whyShouldICare.svg",
+                  "altText": "A home smoke detector mounted on a ceiling.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Radioactivity</button> has been applied in numerous fields for over 100 years. First discovered by the French scientist Henri Becquerel, radioactive sources are used in medicine, to sterilize food, and to generate power. Radioactive materials can also be used to calculate the dates of certain artifacts. The application of radioactive sources depends on a knowledge of how the radioactive decay process works."
+                },
+                {
+                  "type": "Plain",
+                  "text": "In 1896, Becquerel was experimenting with uranium samples by exposing them to sunlight before placing them on photographic plates. The uranium exposed the plate to create an image of the sample, which Becquerel believed was due to sunlight that had been absorbed by the uranium. However, an image of the sample was also produced when Becquerel left a piece of uranium in a closed drawer next to a photographic plate. Therefore, this experiment proved that there was an unseen source of radiation emanating from the uranium samples."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Other scientists who contributed to radioactivity studies include Marie Curie, Pierre Curie, and Ernest Rutherford. Early experiments placed radioactive sources in a magnetic field and demonstrated that the radiation from the uranium samples was not like the previously discovered X-rays, which were detected as a result of high-energy electron beams produced during experiments with discharge tubes. Instead, the radiation from sources like uranium was a result of the nuclear decay process."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The nucleus of an atom is composed of positively charged <button class='glossary-text'>protons</button> and neutral <button class='glossary-text'>neutrons</button>. The positive particles repel each other due to the electromagnetic force. Neutrons have no charge and are neither attracted to nor repelled by the electromagnetic force. The particles in a nucleus are held together by what is known as the <button class='glossary-text'>strong force</button>. As the name implies, this is a force much stronger than the electromagnetic force but is only effective at very short distances. When protons are very close together, the strong force holds them together to overcome the electromagnetic force that pushes them apart. Larger atoms have more protons and neutrons, and the protons are farther apart. Neutrons help stabilize the nucleus by contributing to the strong force without adding to the repulsive electromagnetic force."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The nuclei of some atoms are unstable. These nuclei spontaneously break down and emit radiation in the process. Radioactivity is the emission of charged particles as unstable atomic nuclei spontaneously decay. During the process of <button class='glossary-text'>transmutation</button>, radioactive <button class='glossary-text'>isotopes</button> containing unstable nuclei spontaneously change into other isotopes, meaning that the atoms of one element change into those of another element. This happens as charged particles are emitted from the atom as nuclear radiation. Early experiments in radioactivity determined that there are three types of radiation: <span style='whiteSpace: nowrap'><button class='glossary-text'>alpha</button>,</span> <span style='whiteSpace: nowrap'><button class='glossary-text'>beta</button>,</span> and <span style='whiteSpace: nowrap'><button class='glossary-text'>gamma</button>.</span>"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Alpha Decay",
+                  "text": "When a nucleus is so large that the electromagnetic repulsion between <button class='glossary-text'>protons</button> is significantly greater than the <button class='glossary-text'>strong force</button>, the nucleus is unstable and emits an <button class='glossary-text'>alpha particle</button>. An alpha particle consists of two protons and two <button class='glossary-text'>neutrons</button>, which is the same composition as a helium nucleus. The symbol for an alpha particle in standard nuclear notation is:</span> <span class='bodyParaLineBreak'> <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>4</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>2</span> </span></span>He </span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "The upper number (4) is the mass number representing the total number of protons and neutrons. The lower number (2) is the atomic number representing the total number of protons. The symbol He represents the element helium."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The following nuclear equation describes the nuclear decay of polonium-210: <span class='bodyParaLineBreak'> <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>210</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>84</span> </span></span>Po → <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>4</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>2</span> </span></span>He + <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>206</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>82</span> </span></span>Pb </span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "In this reaction, polonium-210 undergoes alpha decay, emitting an alpha particle and transmuting into lead-206, which has an atomic number 82 compared to 84 for polonium <span style='whiteSpace: nowrap'>(see Figure 1).</span> In a decay process, the original element is called the parent nucleus and the element present after the reaction is called the daughter nucleus. In the nuclear decay of <span style='whiteSpace: nowrap'>polonium-210,</span> polonium is the parent nucleus and lead is the daughter nucleus."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580405VIRT/580405VIRT_Physics_fig_001.svg",
+                  "desc": "Figure 1: Nuclear equation for the nuclear decay of polonium-210 ",
+                  "altText": "Figure 1: Nuclear equation for the nuclear decay of polonium-210 ",
+                  "imgDivWidth": "220px",
+                  "maxWidth": "300px",
+                  "scrollImg": true,
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<button class='glossary-text'>Alpha radiation</button> is the least penetrating type of nuclear radiation. A few centimeters of air, a sheet of paper, or clothing is enough to stop an alpha particle."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Beta Decay",
+                  "text": "Another process that may transform an unstable atom into a more stable one is beta decay. This form of decay may be beta positive (β<sup>+</sup>) or beta negative (β<sup>-</sup>). In both processes, the total number of nuclear particles remains constant; however, the atomic number will either increase or decrease. In <span style='whiteSpace: nowrap'>β<sup>-</sup> decay,</span> the number of <button class='glossary-text'>protons</button> in the nucleus increases by one as a <button class='glossary-text'>neutron</button> decays into a proton. During the decay process, a beta particle (an electron) is emitted from the nucleus. Because an electron has very little mass compared with a proton or neutron, it is assigned a mass number of 0. The symbol for a beta particle is:</span> <span class='bodyParaLineBreak'> <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>0</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>-1</span> </span></span>e </span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "The following equation shows the beta decay of iodine-131: <span class='bodyParaLineBreak'> <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>131</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>54</span> </span></span>l → <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>0</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>-1</span></span></span>e + <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>131</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>54</span> </span></span>Xe </span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580405VIRT/580405VIRT_Physics_fig_002.svg",
+                  "desc": "Figure 2: Atomic particles demonstrating the equation for beta decay of iodine-131",
+                  "altText": "Figure 2: Atomic particles demonstrating the equation for beta decay of iodine-131",
+                  "imgDivWidth": "220px",
+                  "maxWidth": "300px",
+                  "scrollImg": true,
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The daughter <button class='glossary-text'>isotope</button>, xenon-131, has one more proton than the parent isotope, iodine-131, but the mass number remains the same <span style='whiteSpace: nowrap'>(see Figure 2).</span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "During β<sup>+</sup> decay, the daughter products are a <button class='glossary-text'>positron</button> (a particle with the mass of an electron and a positive charge) and a daughter nucleus with an atomic number one fewer than the parent nucleus. Essentially, <span className=bodyFontItalic>a proton becomes a neutron.</span> <span class='bodyParaLineBreak'> <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>10</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>6</span> </span></span>C → <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>0</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>+1</span> </span></span>e + <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>10</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>5</span> </span></span>B </span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Elements that undergo beta decay have useful applications in the medical field. Radiotherapy is a type of cancer treatment that uses beta decay. Radioactive atoms, such as yttrium-90, are ingested and release the beta particles into the body, killing nearby cancer cells."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Gamma Decay",
+                  "text": "Unlike <button class='glossary-text'>alpha</button> and <button class='glossary-text'>beta</button> decay, <button class='glossary-text'>gamma</button> decay does not involve the emission of charged particles. A gamma ray, the most penetrating of the three types of nuclear radiation, has no mass or charge. A nucleus undergoing gamma decay emits gamma ray photons <span style='whiteSpace: nowrap'>(see Figure 3).</span> </span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580405VIRT/580405VIRT_Physics_fig_003.svg",
+                  "desc": "Figure 3: Slow neutron interaction with a nuclide",
+                  "altText": "Figure 3: Slow neutron interaction with a nuclide",
+                  "imgDivWidth": "380px",
+                  "maxWidth": "520px",
+                  "scrollImg": true,
+                  "width": "100%"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Radioactive decay of an unstable isotope into another isotope is considered which of the following?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "transmutation",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "electromagnetic radiation",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "spontaneity",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "alpha emission",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "nucleation",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "During the process of transmutation, atoms of one element change into those of another element as charged particles are emitted from the atom as nuclear radiation."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following statements about radioactive decay is true?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The atomic mass of an isotope does not change after beta decay.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Alpha radiation produces photons.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Alpha particles are most like electrons.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Gamma radiation is the last penetrating type of nuclear radiation.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "A father nucleus decays into a daughter nucleus during transmutation.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "During beta decay, the daughter products are a beta particle and a daughter nucleus with an atomic number one greater or fewer than the parent nucleus, but the mass number remains the same. A beta particle can be positive (positron) or negative (electron) but either way has very little mass compared with a proton or neutron; therefore, it is assigned a mass number of 0."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "During the process of transmutation, radioactive isotopes containing unstable nuclei spontaneously change into other isotopes, meaning that the atoms of one element change into those of another element. This happens as charged particles are emitted from the atom as nuclear radiation. Early experiments in radioactivity determined that there are three types of radiation: alpha, beta, and gamma. When polonium-210 undergoes alpha decay, it emits an alpha particle and transmutes into lead-206, which has an atomic number of 82 compared to 84 for polonium. In a decay process, the original element is called the parent nucleus, and the element present after the reaction is called the daughter nucleus. Alpha radiation is the least penetrating type of nuclear radiation. A few centimeters of air, a sheet of paper, or clothing is enough to stop an alpha particle. During beta decay, the daughter products are a beta particle and a daughter nucleus with an atomic number one greater or fewer than the parent nucleus. Radiotherapy is a type of cancer treatment that uses beta decay. Radioactive atoms, such as yttrium-90, are ingested and release the beta particles into the body, killing nearby cancer cells. A gamma ray, the most penetrating of the three types of nuclear radiation, has no mass or charge. A nucleus undergoing gamma decay emits gamma ray photons.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580405VIRT/580405VIRT_Physics_fig_001.svg",
+                      "alt": "Figure 1: Nuclear equation for the nuclear decay of polonium-210 ",
+                      "maxWidth": "250px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "During the process of transmutation, radioactive isotopes containing unstable nuclei spontaneously change into other isotopes, meaning that the atoms of one element change into those of another element. This happens as charged particles are emitted from the atom as nuclear radiation. Early experiments in radioactivity determined that there are three types of radiation: alpha, beta, and gamma. When polonium-210 undergoes alpha decay, it emits an alpha particle and transmutes into lead-206, which has an atomic number of 82 compared to 84 for polonium. In a decay process, the original element is called the parent nucleus, and the element present after the reaction is called the daughter nucleus. Alpha radiation is the least penetrating type of nuclear radiation. A few centimeters of air, a sheet of paper, or clothing is enough to stop an alpha particle. During beta decay, the daughter products are a beta particle and a daughter nucleus with an atomic number one greater or fewer than the parent nucleus. Radiotherapy is a type of cancer treatment that uses beta decay. Radioactive atoms, such as yttrium-90, are ingested and release the beta particles into the body, killing nearby cancer cells. A gamma ray, the most penetrating of the three types of nuclear radiation, has no mass or charge. A nucleus undergoing gamma decay emits gamma ray photons.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580405VIRT/580405VIRT_Physics_fig_001.svg",
+                      "alt": "Figure 1: Nuclear equation for the nuclear decay of polonium-210 ",
+                      "maxWidth": "250px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Half-Life",
+                  "text": "Although the process of nuclear decay is random for a given element, the overall rate of decay is constant. A radioactive element is often described in terms of its <button class='glossary-text'>half-life</button>, which is the time it takes for half of the atoms in the radioactive sample to undergo nuclear decay. The <button class='glossary-text'>isotope</button> <span style='whiteSpace: nowrap'>carbon-14</span> has a half-life of 5,730 years. If a carbon sample contained 100 grams of <span style='whiteSpace: nowrap'>carbon-14,</span> in 5,730 years there would be 50 grams of <span style='whiteSpace: nowrap'>carbon-14</span> remaining. In 11,460 years (twice the half-life), there would be only 25 grams. <span style='whiteSpace: nowrap'>Carbon-14</span> undergoes beta decay and transmutes into <span style='whiteSpace: nowrap'>nitrogen-14.</span> <span class='bodyParaLineBreak'> <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>14</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>6</span> </span></span>C → <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>0</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>-1</span> </span></span>e + <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>14</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>7</span> </span></span>N </span>"
+                },
+                {
+                  "type": "Plain",
+                  "subTitle": "Radioactive Dating",
+                  "text": "<button class='glossary-text'>Radioactivity</button> can be measured to determine the age of some objects; this is known as <button class='glossary-text'>radioactive dating</button>. In living matter, such as plants and animals, this can be accomplished by examining the ratio of carbon isotopes. (For example, scientists used carbon dating to determine that bristlecone pine trees in Nevada and California are approximately 10,000 years old.) The ratio of <span style='whiteSpace: nowrap'>carbon-12</span> to <span style='whiteSpace: nowrap'>carbon-14</span> isotopes in the environment is relatively constant. Plants and other organisms absorb or ingest carbon atoms from the environment, and these are incorporated into molecules during different biological processes. </span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span style='padding-bottom:5px;display:block;'>As long as the plant or animal is alive, the ratio of carbon isotopes in the organism is the same as it is in the environment. When an organism dies, it ceases to bring in carbon from the environment. Therefore, the carbon <span class='bodyFontBold'>isotope</span> ratio changes as <span style='whiteSpace: nowrap'>carbon-14</span> decays into <span style='whiteSpace: nowrap'>nitrogen-14,</span> while the stable <span style='whiteSpace: nowrap'>carbon-12</span> isotopes remain unchanged. Radioactive dating uses the <span style='whiteSpace: nowrap'>half-life</span> equation in Equation 1, where <span className=bodyFontItalic>m<sub>f</sub></span> is the final mass, <span className=bodyFontItalic>m<sub>0</sub></span> is the initial mass, <span className=bodyFontItalic>t</span> is the time elapsed, and <span className=bodyFontItalic>h</span> is the half-life.</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580405VIRT/580405VIRT_Equation_001.svg",
+                  "desc": "Equation 1: m sub f equals m sub o times 1/2 raised to t over h",
+                  "altText": "Equation 1: m sub f equals m sub o times 1/2 raised to t over h",
+                  "imgDivWidth": "140px",
+                  "maxWidth": "180px",
+                  "scrollImg": true,
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The ratio of carbon-14 to carbon-12 in the remains of a deceased organism can provide information about how much time has passed since the organism died. For inorganic materials like rocks, other isotopes can be used for radioactive dating."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "The ratio of carbon-14 to carbon-12 in the remains of a deceased organism can provide information about how much time has passed since the organism died. What does carbon-14 transmute into?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "nitrogen-14",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "nitrogen-24",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "carbon-12",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "nitrogen-17",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "carbon-6",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Carbon-14 undergoes beta decay and transmutes into nitrogen-14."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following is used in radioactive dating to determine the age of a sample?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "isotope ratios",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "gamma ray photons",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "positron concentration",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "time of death",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "inorganic material",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Radioactive dating is a method of dating geological or archeological specimens by determining the relative proportions of radioactive isotopes present in a sample."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Radioactivity can be measured to determine the age of some objects; this is known as radioactive dating. In living matter, such as plants and animals, this can be accomplished by examining the ratio of carbon isotopes. The ratio of carbon-12 to carbon-14 isotopes in the environment is relatively constant. Plants and other organisms absorb or ingest carbon atoms from the environment, and these are incorporated into molecules during different biological processes. As long as the plant or animal is alive, the ratio of carbon isotopes in the organism is the same as it is in the environment. When an organism dies, it ceases to bring in carbon from the environment. <span class='bodyParaLineBreak'> <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>14</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>6</span> </span></span>C → <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>0</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>-1</span> </span></span>e + <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>14</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>7</span> </span></span>N </span>"
+                },
+                {
+                  "title": "Hint",
+                  "body": "Radioactivity can be measured to determine the age of some objects; this is known as radioactive dating. In living matter, such as plants and animals, this can be accomplished by examining the ratio of carbon isotopes. The ratio of carbon-12 to carbon-14 isotopes in the environment is relatively constant. Plants and other organisms absorb or ingest carbon atoms from the environment, and these are incorporated into molecules during different biological processes. As long as the plant or animal is alive, the ratio of carbon isotopes in the organism is the same as it is in the environment. When an organism dies, it ceases to bring in carbon from the environment. <span class='bodyParaLineBreak'> <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>14</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>6</span> </span></span>C → <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>0</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>-1</span> </span></span>e + <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>14</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>7</span> </span></span>N </span>"
+                }
+              ]
+            }
+          ]
+        },
+
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are no materials required for this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "isCheckPoint": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are no safety concerns for this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.</span>",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "How do neutrons help to stabilize the nucleus?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "They add to the strong nuclear force without adding any repulsive electromagnetic force.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "They add to both the strong nuclear force and the repulsive electromagnetic force.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "They add to the repulsive electromagnetic force without adding any strong nuclear force.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "They reduce the strong nuclear force and add to the repulsive electromagnetic force.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "They reduce both the strong nuclear force and the repulsive electromagnetic force.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which type of decay is represented below?<span className=bodyParaLineBreak> <span class='bodyParaLineBreak'> <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>239</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>94</span> </span></span><span class='bodyFontItalic'>Pu</span> → <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>235</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>92</span> </span></span><span class='bodyFontItalic'>U</span> + <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>4</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>2</span> </span></span><span class='bodyFontItalic'>He</span> </span>",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "alpha decay ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "beta positive decay",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "gamma decay ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "beta negative decay ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "both beta and gamma decay ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "A scientist is observing radioactive decay and observes <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>23</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>12</span> </span></span></span><span class='bodyFontItalic'>Mg</span> decay into <span style='font-size: 0.73em; line-height: 0.8;' class=bodyFraction><span>23</span><span class=symbol></span><span class=bottom style='border-top: none;'><span>11</span> </span></span></span><span class='bodyFontItalic'>Na</span>. What type of decay does this represent? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "beta positive decay ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "alpha decay ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "gamma decay ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "beta negative decay",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "both beta and gamma decay",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "You observe an atom undergoing gamma decay. What particle would you expect to be emitted from the nucleus of the atom?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "a photon",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "an electron ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "a positron",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "a helium atom",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "a neutron",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is NOT true about radioactive dating using carbon isotopes? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Carbon-14 decay into nitrogen-14 is an example of alpha decay.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The ratio of carbon-12 to carbon-14 in the environment is relatively constant. ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The half-life of carbon-14 is 5,730 years. ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "When an organism dies, it ceases to take in new carbon from the environment. ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "When an organism dies, the carbon-14 begins to decay into nitrogen-14 while the amount of carbon-12 stays the same. ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is an application of radioactivity? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "cancer treatment ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "polarization of glass lenses ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "surface disinfectant",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "jet fuel production",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "neutralization of carbon emissions ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "You start with 100 g of a radioactive substance. After 20 minutes, there is only 12.5 g left. How many half-lives took place in 20 minutes? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "3",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "1",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "2",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "4",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "5",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will observe <button class='glossary-text'>exponential decay</button> of the fictional element carolinium. You will then graph the number of radioactive <button class='glossary-text'>isotopes</button> versus half-lives past."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Activity 1",
+              "template": "VirtualLab",
+              "activityPath": "activities/580405VIRT/activity1/story.html"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "altText": "completion",
+                  "desc": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Physics_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "landscape A4"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "70%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 5,
+                "sr": 0,
+                "header": [
+                  {
+                    "text": "Half-Life <span style='whiteSpace: nowrap'>(x-axis)</span>",
+                    "colWidth": "10%"
+                  },
+                  {
+                    "text": "Total Number of Isotopes",
+                    "colWidth": "10%"
+                  },
+                  {
+                    "text": "Number of Radioactive Isotopes ",
+                    "colWidth": "10%"
+                  },
+                  {
+                    "text": "Percent of Radioactive Isotopes <span style='whiteSpace: nowrap'>(y-axis)</span>",
+                    "colWidth": "10%"
+                  },
+                  {
+                    "text": "Number of Daughter Isotopes",
+                    "colWidth": "10%"
+                  },
+                  {
+                    "text": "Percent of Daughter Isotopes",
+                    "colWidth": "10%"
+                  },
+                  {
+                    "text": "Ratio of Radioactive to Daughter Isotopes",
+                    "colWidth": "10%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "rowHeight": "56px",
+                      "text": "0"
+                    },
+                    {
+                      "type": "text",
+                      "rowHeight": "56px",
+                      "text": "100"
+                    },
+                    {
+                      "type": "text",
+                      "rowHeight": "56px",
+                      "text": "100"
+                    },
+                    {
+                      "type": "text",
+                      "rowHeight": "56px",
+                      "text": "100%"
+                    },
+                    {
+                      "type": "text",
+                      "rowHeight": "56px",
+                      "text": "0"
+                    },
+                    {
+                      "type": "text",
+                      "rowHeight": "56px",
+                      "text": "0%"
+                    },
+                    {
+                      "type": "text",
+                      "rowHeight": "56px",
+                      "text": "N/A"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "1"
+                    },
+                    {
+                      "type": "text",
+                      "text": "100"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "2"
+                    },
+                    {
+                      "type": "text",
+                      "text": "100"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "3"
+                    },
+                    {
+                      "type": "text",
+                      "text": "100"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "4"
+                    },
+                    {
+                      "type": "text",
+                      "text": "100"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "5"
+                    },
+                    {
+                      "type": "text",
+                      "text": "100"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "6"
+                    },
+                    {
+                      "type": "text",
+                      "text": "100"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "7"
+                    },
+                    {
+                      "type": "text",
+                      "text": "100"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "8"
+                    },
+                    {
+                      "type": "text",
+                      "text": "100"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "9"
+                    },
+                    {
+                      "type": "text",
+                      "text": "100"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "10"
+                    },
+                    {
+                      "type": "text",
+                      "text": "100"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "11"
+                    },
+                    {
+                      "type": "text",
+                      "text": "100"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "12"
+                    },
+                    {
+                      "type": "text",
+                      "text": "100"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Activity1",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Graph"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert your graph of the number of half-lives (x-axis) vs the percent of radioactive isotopes (y-axis). If you used graphing software, upload an image of the graph rather than the spreadsheet file. "
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "Question1",
+          "Question2",
+          "Question3",
+          "Question4",
+          "Question5"
+        ],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "The three types of radiation were identified in part by their reactions to an electromagnetic field.  Based on the information in the background section, how could a magnetic field be used to separate alpha, beta, and gamma radiation?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "2",
+                "listType": "ordered",
+                "text": [
+                  "Radon is a naturally occurring, colorless, odorless, tasteless radioactive gas.  Radon can build up in closed spaces like mines or buildings, and both radon and its decay products can be serious health hazards to people living and working where it has accumulated.  Radon-224 undergoes alpha decay.  What daughter nucleus is produced?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 1,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question3",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "3",
+                "listType": "ordered",
+                "text": [
+                  "Uranium-238 undergoes alpha decay.  Into what element does Uranium-238 transmute?  What is the atomic number of the new element? "
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question3",
+                "sr": 2,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question4",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "4",
+                "listType": "ordered",
+                "text": [
+                  "Technetium-99m is a radioactive isotope with a half-life of 6 hours.  If a sample was 100 mg, how much would remain after 24 hours? "
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question4",
+                "sr": 3,
+                "maxLength": 100,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question5",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "5",
+                "listType": "ordered",
+                "text": [
+                  "How long would it take a 1-kg radioactive substance with a half-life of 100 years to decay into <span style='whiteSpace: nowrap'>125 g?</span>"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question5",
+                "sr": 4,
+                "maxLength": 100,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 3000,
+            "title": "Notes"
+          },
+          
+          {
+            "type": "Box",
+            "id": "Box_Note",
+            "align": "center",
+            "margin": "25px 0 0 0",
+            "text": "In order for your instructor to be able to open your video links, please select the \"Save as PDF\" option rather than \"Print to PDF\"."
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "PDF",
+        "thumbnailSrc": "core/PDF_icon.svg",
+        "content": "Printable Graph Paper",
+        "ref": "images/courses_2023/Physics/580405VIRT/580405VIRT_graph_paper.pdf",
+        "disableClick": true,
+        "scrollImg": true,
+        "isResource": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 1. The alpha decay of polonium-210 to lead-206",
+        "src": "courses_2023/Physics/580405VIRT/580405VIRT_Physics_fig_001.svg",
+        "maxWidth": "300px",
+        "scrollImg": true,
+        "altText": "A meteor shower made up of several streaks of light in a starry night sky."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 2. The beta decay of iodine-131 to xenon-131",
+        "src": "courses_2023/Physics/580405VIRT/580405VIRT_Physics_fig_002.svg",
+        "altText": "Figure 2: Atomic particles demonstrating the equation for beta decay of iodine-131 ",
+        "maxWidth": "300px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 3. A nucleus undergoing gamma decay",
+        "src": "courses_2023/Physics/580405VIRT/580405VIRT_Physics_fig_003.svg",
+        "altText": "Figure 3: Slow neutron interaction with a nuclide",
+        "maxWidth": "520px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 1. Half-life",
+        "src": "courses_2023/Physics/580405VIRT/580405VIRT_Equation_001.svg",
+        "altText": "Equation 1: m sub f equals m sub o times 1/2 raised to t over h",
+        "maxWidth": "180px",
+        "scrollImg": true
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Alpha particle",
+        "content": "A particle that consists of two protons and two neutrons, which is the same composition as a helium nucleus"
+      },
+      {
+        "title": "Alpha radiation",
+        "content": "A type of nuclear radiation in which an alpha particle is emitted"
+      },
+      {
+        "title": "Beta radiation",
+        "content": "A type of nuclear radiation in which a beta particle (either an electron or positron) is emitted"
+      },
+      {
+        "title": "Exponential decay",
+        "content": "The process of a quantity decreasing over time, with the rate of decrease becoming proportionally smaller as the quantity gets smaller"
+      },
+      {
+        "title": "Gamma radiation",
+        "content": "A type of nuclear radiation in which gamma ray photons are emitted"
+      },
+      {
+        "title": "Half-life",
+        "content": "The time it takes for half of the atoms in the radioactive sample to undergo nuclear decay"
+      },
+      {
+        "title": "Isotope",
+        "content": "One of two or more types of atoms that have the same atomic number and position in the periodic table, and that differ in nucleon numbers due to different numbers of neutrons in their nuclei"
+      },
+      {
+        "title": "Neutron",
+        "content": "A particle found in the nucleus of an atom that has no charge and is neither attracted to nor repelled by the electromagnetic force"
+      },
+      {
+        "title": "Positron",
+        "content": "A particle with the mass of an electron and a positive charge"
+      },
+      {
+        "title": "Proton",
+        "content": "A positive particle found in the nucleus of an atom"
+      },
+      {
+        "title": "Radioactive dating",
+        "content": "A method of dating geological or archeological specimens by determining the relative proportions of particular radioactive isotopes present in a sample"
+      },
+      {
+        "title": "Radioactivity",
+        "content": "The emission of ionizing radiation or particles caused by the spontaneous disintegration of atomic nuclei"
+      },
+      {
+        "title": "Strong force",
+        "content": "A force much stronger than the electromagnetic force but is only effective at very short distances; it holds particles in the nucleus together"
+      },
+      {
+        "title": "Transmutation",
+        "content": "When referring to nuclear transmutation, it is a process that involves a change in the nucleus of an atom"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

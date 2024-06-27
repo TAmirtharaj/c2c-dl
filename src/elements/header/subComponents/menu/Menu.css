@@ -1,0 +1,37 @@
+/** @format */
+
+.menu-button {
+  position: absolute;
+  left: 2%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 1;
+  text-align: justify;
+  height: calc(100% - 8px)
+}
+
+.menu-button img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.disable-lab{
+  opacity: 0.5;
+  pointer-events: none;
+}
+/* Tablet Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .menu-button {
+    left: 1%;
+  }
+}
+
+/* Landscape iPhone */
+@media only screen and (min-device-width: 300px) and (max-device-width: 765px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .menu-button {
+    left: 0px;
+  }
+}

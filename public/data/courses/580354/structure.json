@@ -1,0 +1,2960 @@
+ {
+  "locked": true,
+  "courseTitle": "Fermentation of Sugar",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/bodyBookmark.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Chemistry_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Chemistry",
+                "images": {
+                  "launchPage": "core/Chemistry_launchPageBg.svg",
+                  "logo": "core/Chemistry_subject_icon.svg"
+                },
+                "titleName2": "Fermentation of Sugar",
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "OverView",
+              "infoPopUp": "resource",
+              "pageData": [
+                {   
+                  "type": "Plain",
+                  "text": "Living organisms need energy to perform critical cellular processes. Their main energy source is adenosine triphosphate, or ATP. Non-photosynthetic organisms produce ATP by breaking down sugars, either with or without oxygen present. In yeast, sugar breakdown without oxygen produces carbon dioxide and alcohol. The amount of energy produced can be directly correlated with the carbon dioxide production. In this investigation you will study the effects of nutritional source on carbon dioxide production in yeast."
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses/580354/580354_TimeRequirement.svg",
+                  "width": "100%",
+                  "imgDivWidth": "375px",
+                  "maxWidth": "550px",
+                  "altText":"Preparation – 20 minutes \nActivity 1: Fermentation of Monosaccharides and Disaccharides – 2 hours \nActivity 2: Fermentation of Polysaccharides – 2 hours"
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "title": "Needed but not supplied:",
+                  "text": [" Tap water", " Camera or camera phone for photographs"]
+                },
+                {
+                  "type": "Video",
+                  "containerType": "rightContainer",
+                  "width": "100%",
+                  "imgDivWidth": "200px",
+                  "image": "courses/580354/580354_VideoIcone.svg",
+                  "desc": "Overview Video: Fermentation of Sugar",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6317078120112"
+                }  
+               
+              ]
+            }
+            ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": ["Explain the process of fermentation.", "Examine the effects of different sugars on fermentation.", "Calculate the amount of <button className='glossary-text'>ATP</button> produced during fermentation."]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "430px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Ketchup finds its roots in imperial China. The earliest form of ketchup was a tomato-less fermented paste made from fish entrails, meat byproducts, and soybeans, and was called ge-thcup, koe-cheup, or ke-tsiap. This mixture was easy to store due to its extended shelf-life. As Chinese ships conducted trade with other countries, more people were exposed to the fermented paste and new iterations of the original recipe were created, including some that used tomato as a major ingredient."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The tomato-based recipes were not immediately successful. At the time, tomatoes were a controversial ingredient since they had a reputation for being poisonous (which reputation was eventually repaired when the real cause of tomato-related illness was discovered to be lead poisoning). The use of tomatoes also greatly reduced the condiment’s shelf-life, one of the most useful characteristics of its Chinese progenitor. The company Heinz ultimately solved the longevity problem by using ripened tomatoes, which contain more of the natural preservative pectin, and vinegar, which provided increased shelf-life without the time-consuming process of fermentation."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580354/580354_whyShouldICare.svg",
+                  "desc": "A cube of aerogel on display.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "altText": "A plate with two sandwich halves and a small dish of ketchup."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Living organisms need energy to perform cellular processes and functions. Their main energy source is  <button className='glossary-text'>adenosine triphosphate</button>, or ATP."
+                },
+                {
+                  "type": "Plain",
+                  "text": "For all non-photosynthetic organisms, the first step in cellular respiration is <span style='whiteSpace: nowrap'><button className='glossary-text'>glycolysis</button>.</span> In this process, the glucose sugar is broken down into two pyruvate molecules without any oxygen needed. This will release enough energy to produce two ATP. The overall reaction is shown below."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Glucose → 2 pyruvate + 2 ATP"
+                },
+                {
+                  "type": "Plain",
+                  "text": "In the presence of oxygen, <button className='glossary-text'>aerobic cellular respiration</button> occurs. The sugar is broken down over several steps to produce carbon dioxide, water, and ATP. Glycolysis is coupled to two oxygen-dependent steps, the <button className='glossary-text'>Krebs cycle</button>, also known as the citric acid cycle, and the <button className='glossary-text'>electron transport chain</button>. Combined, these two reactions produce 32–34 additional ATP. The overall reaction is shown below."
+                },
+                {
+                  "type": "Plain",
+                  "text": "C<sub class='bodySubscript'>6</sub>H<sub class='bodySubscript'>12</sub>O<sub class='bodySubscript'>6</sub> + 6 O<sub class='bodySubscript'>2</sub> → 6 CO<sub class='bodySubscript'>2</sub> + 6 H<sub class='bodySubscript'>2</sub>O + ATP"
+                },
+               
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580354/580354_fig_001.svg",
+                  "desc": "Figure 1. The electron transport chain (ETC).",
+                  "altText": "Figure 1. The electron transport chain (ETC).",
+                  "scrollImg":true,
+                  "maxWidth":"600px",
+                  "imgDivWidth": "495px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span class='citation'>Figure is available under Creative Commons Attribution 3.0 Unreported License at <br> https://commons.wikimedia.org/wiki/File:2508_The_Electron_Transport_Chain.jpg </span"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In the absence of oxygen, <button className='glossary-text'>anaerobic conditions</button>, these last two steps cannot occur. In the <button className='glossary-text'>electron transport chain</button>, oxygen accepts electrons, which combine with hydrogen to form water. Under anaerobic conditions there is no oxygen to accept those electrons. To prevent an electron buildup, these steps do not take place, and the cells accumulate pyruvate. "
+                },
+                {
+
+                  "type": "Plain",
+                  "text": "Depending on the organism, there are different ways that excess pyruvate can be processed. In humans, among others, pyruvate is reduced to <button className='glossary-text'>lactic acid</button> that must be disposed of. This process is called <button className='glossary-text'>lactic acid fermentation</button>."
+
+                },
+                {
+
+                  "type": "Plain",
+                  "text": "Organisms such as yeast do not produce lactic acid. Here, pyruvate is broken down into carbon dioxide and ethanol. This process is called <button className='glossary-text'>alcoholic fermentation</button>."
+
+                },
+                {
+                  "type": "Plain",
+                  "text": "The final reaction formula for yeast fermentation is shown below."
+                },
+                {
+                  "type": "Plain",
+                  "text": "C<sub class='bodySubscript'>6</sub>H<sub class='bodySubscript'>12</sub>O<sub class='bodySubscript'>6</sub> → 2 C<sub class='bodySubscript'>2</sub>H<sub class='bodySubscript'>5</sub>OH + 2 CO<sub class='bodySubscript'>2</sub> + 2 <button className='glossary-text'>ATP</button>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Both anaerobic metabolism types produce reduced amounts of ATP compared with <button className='glossary-text'>aerobic cellular respiration</button>. Alcoholic fermentation only produces the two ATPs formed during the <button className='glossary-text'>glycolysis</button>, significantly less than the 36 ATP produced by cellular respiration. If organisms have a choice, they prefer aerobic cellular respiration to maximize ATP production."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Alcoholic fermentation products, carbon dioxide and alcohol, are actually waste products. Humans have learned to use these waste products to our advantage. The carbon dioxidegas is used to make bread dough rise, and the alcohol is used to produce beer, wine, and other alcoholic beverages."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 1",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following occurs in the electron transport chain?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "oxygen accepts electrons",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "lactic acid fermentation",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "alcoholic fermentation",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "sugar is broken down",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,  
+                      "text": "anaerobic cellular respiration",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "In the electron transport chain, oxygen accepts electrons, which combine with hydrogen to form water."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 1",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "In organisms such as yeast, the breakdown of pyruvate under anaerobic conditions produces what waste product(s)? ",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "carbon dioxide and ethanol",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "carbon dioxide only",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "methanol only",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "ATP only",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "ethanol and ATP",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Organisms such as yeast do not produce lactic acid. The break down pyruvate into carbon dioxide and ethanol in a process called alcoholic fermentation."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "In the presence of oxygen, aerobic cellular respiration occurs. The sugar is broken down over several steps to produce carbon dioxide, water, and ATP. Glycolysis is coupled to two oxygen-dependent steps, the Krebs cycle and the electron transport chain. Combined, these two reactions produce 32–34 additional ATP. In the absence of oxygen, anaerobic conditions, these last two steps cannot occur.  Under anaerobic conditions, there is no oxygen to accept those electrons. To prevent an electron buildup, these steps do not take place, and the cells accumulate pyruvate. Depending on the organism, there are different ways that excess pyruvate can be processed. In humans, among others, pyruvate is reduced to lactic acid that must be disposed of. This process is called lactic acid fermentation. Some organisms such as yeast do not produce lactic acid, instead pyruvate is broken down into carbon dioxide and ethanol.<span class='citation'><br/><br/>Figure is available under Creative Commons Attribution 3.0 Unreported License at <br> https://commons.wikimedia.org/wiki/File:2508_The_Electron_Transport_Chain.jpg </span>",
+                  "img": [
+                    {
+                      "src": "courses/580354/580354_fig_001.svg",
+                      "alt": "Figure 1. The electron transport chain (ETC).",
+                      "maxWidth": "85%"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "In the presence of oxygen, aerobic cellular respiration occurs. The sugar is broken down over several steps to produce carbon dioxide, water, and ATP. Glycolysis is coupled to two oxygen-dependent steps, the Krebs cycle and the electron transport chain. Combined, these two reactions produce 32–34 additional ATP. In the absence of oxygen, anaerobic conditions, these last two steps cannot occur.  Under anaerobic conditions, there is no oxygen to accept those electrons. To prevent an electron buildup, these steps do not take place, and the cells accumulate pyruvate. Depending on the organism, there are different ways that excess pyruvate can be processed. In humans, among others, pyruvate is reduced to lactic acid that must be disposed of. This process is called lactic acid fermentation. Some organisms such as yeast do not produce lactic acid, instead pyruvate is broken down into carbon dioxide and ethanol.<span class='citation'><br/><br/>Figure is available under Creative Commons Attribution 3.0 Unreported License at <br> https://commons.wikimedia.org/wiki/File:2508_The_Electron_Transport_Chain.jpg </span>",
+                  "img": [
+                    {
+                      "src": "courses/580354/580354_fig_001.svg",
+                      "alt": "Figure 1. The electron transport chain (ETC).",
+                      "maxWidth": "85%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "During the <button className='glossary-text'>ATP</button> production process, NAD<sup class='bodySuperscript'>+</sup> is regenerated as well. NAD<sup class='bodySuperscript'>+</sup> plays a major electron transport role in cells through oxidation-reduction reactions, or <button className='glossary-text'>redox reactions</button>. In a redox reaction, one reaction component functions as an electron donor and is oxidized, while another component acts as an electron receptor and is reduced. In biology it is critical to remove the extra electrons in tissue because excess electrons can cause tissue damage. In this reaction, NAD<sup class='bodySuperscript'>+</sup> accepts electrons from other molecules and is reduced to NADH in the process. NADH can then donate the electrons to other molecules when needed."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Besides the glucose shown in the formulas above, organisms can also use different sugars, such as fructose and sucrose. Sugar sweetness directly relates to the amount of energy and CO<sub class='bodySubscript'>2</sub> that can be produced. Sucrose is used as a standard in Table 1. Lactose only has 16% of the energy of sucrose, and glucose only has 74%. These differences result in increased or decreased ATP production, depending on the amount of energy stored in each sugar."
+                },
+                
+                {
+                  "type": "DataTable",
+                  "containerType": "rightContainer",
+                  "headerHidden": true,
+                  "title": "Table 1.",
+                  "id":"dataTable_1",
+                  "sr":10,
+                  "allowClick": true,
+                  "tableHeight": "1.5",
+                  "tableWidth": "400px",
+                  "header": [
+                    {
+                      "text": " ",
+                     "colWidth":"60%"
+                    },
+                    {
+                      "text": " ",
+                    "colWidth": "40%"
+                    }
+                  ],
+        
+                  "tableData": [
+                    [
+                      {
+                        
+                        "type": "text",
+                        "text": "<span className=bodyBoldSubText>Lactose</span>",
+                        "hoverText": "Lactose",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "16%"
+                      }
+              
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "<span className=bodyBoldSubText>Galactose</span>",
+                        "hoverText": "Galactose",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "32%"
+                      }
+                     
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "<span className=bodyBoldSubText>Maltose</span>",
+                        "hoverText": "Maltose",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "33%"
+                      }
+                    
+                    ],
+                  
+                    [
+                      {
+                        "type": "text",
+                       "text": "<span className=bodyBoldSubText>Invert Sugar</span>",
+                       "hoverText": "Invert Sugar",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "50%"
+                      }
+                   
+                    ],
+                    [
+                      {
+                        "type": "text",
+                       "text": "<span className=bodyBoldSubText>Glucose</span>",
+                       "hoverText": "Glucose",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "74%"
+                      }
+                   
+                    ],
+                    [
+                      {
+                        "type": "text",
+                       "text": "<span className=bodyBoldSubText>Honey</span>",
+                       "hoverText": "Honey",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "97%"
+                      }
+                   
+                    ],
+                    [
+                      {
+                        "type": "text",
+                       "text": "<span className=bodyBoldSubText>HFCS</span><br/>(high-fructose corn syrup)",
+                       "hoverText": "HFCS (high-fructose corn syrup)",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "100%"
+                      }
+                   
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "<span className=bodyBoldSubText>Sucrose</span>",
+                        "hoverText": "Sucrose",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "100%"
+                      }
+                   
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "<span className=bodyBoldSubText>Fructose</span>",
+                        "hoverText": "Fructose",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "173%"
+                      }
+                   
+                    ]
+                  
+                  ]
+                
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The amount of <button className='glossary-text'>ATP</button> produced via fermentation is directly related to the amount of CO<sub class='bodySubscript'>2</sub> produced. One glucose molecule produces two ethanol molecules, two carbon dioxide molecules, and two molecules of ATP. Therefore, the more CO<sub class='bodySubscript'>2</sub> produced, the more ATP generated. "
+                },
+               
+                {
+                  "type": "Plain",
+                  "text": "Different sugars contain different amounts of chemical energy and produce different amounts of carbon dioxide and ATP; however, the relationship between the ATP produced and the CO<sub class='bodySubscript'>2</sub> released stays the same. Therefore, the carbon dioxide gas volume produced in the fermentation reaction will give a good indication of the ethanol and ATP molecules produced."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The number of carbon dioxide particles is directly related to the gas volume. <button className='glossary-text'>Avogadro’s law</button> states that a set gas volume will always have the same number of particles no matter what gas is present. At room temperature (25 °C) and one <button className='glossary-text'>atmospheric pressure</button>, the pressure at sea level, one mole of gas has a volume of 24,000 cm<sup class='bodySuperscript'>3</sup>, which is equal to 24,000 mL. If we measure a 10 mL volume of gas produced, then 10 mL/(24,000 mL/mole) = 0.000417 moles of carbon dioxide. If we look at the equation for fermentation above, we will note that the amount of carbon dioxide produced is equal to the amount of ATP produced. If 0.000417 moles (10 mL) of carbon dioxide is produced, then 0.000417 moles of ATP is produced at the same time. Note that at room temperature and one atmospheric pressure a small amount of carbon dioxide will dissolve in water and cannot be measured as a gas. This error will be identical in all experiments as long as they are run at the same temperature and pressure. Therefore, we can make a quantitative comparison between the different sugars tested in this investigation."
+                }
+                
+                
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                 
+                {
+                  "type": "Plain",
+                  "text": "Sugars are relatively unstable. When added to water at room temperature, sugars can break down into smaller molecules. To prevent this from happening, living organisms have added side groups to a sugar molecule. These side groups in these <button className='glossary-text'>polysaccharides</button> will stabilize the molecule, thus allowing them to be used for more longterm storage. In order for the organism to use this sugar, specialized enzymes are needed to first remove the side group from these sugars, which can then be used."
+                },
+                {
+                  "type": "Plain",
+                  "text": "During this exercise, you will examine the amount of energy produced by different sugars in yeast. Since yeast prefers anaerobic cellular respiration, the yeast culture needs to be covered with a layer of oil to prevent oxygen from penetrating into the solution. To determine the best yeast energy source, you will determine the volume of carbon dioxide produced."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 2",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following best describes the purpose of this investigation?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "to determine the best energy source for yeast",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "to determine which type of sugar is sweetest",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "to determine the best energy source for <span class='bodyFontItalic'>E. coli</span>",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "to determine the moles of sugar required for ATP production in humans",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "to determine the molar mass of sucrose",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "In this investigation you will determine the best energy source for yeast."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 2",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "In this investigation, you will measure which of the following to determine the best energy source for yeast?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "the amount of carbon dioxide gas produced",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "the amount of oxygen gas produced",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "the amount of pyruvate produced",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "the amount of oxygen gas consumed",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "the amount of lactic acid produced",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "You will determine the volume of carbon dioxide produced for each energy source."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Different sugars contain different amounts of chemical energy and produce different amounts of carbon dioxide and ATP; however, the relationship between the ATP produced and the CO<sub class='bodySubscript'>2</sub> released stays the same. Therefore, the carbon dioxide gas volume produced in the fermentation reaction will give a good indication of the ethanol and ATP molecules produced. During this exercise, you will examine the amount of energy produced by different sugars in yeast. Since yeast prefers aerobic cellular respiration, the yeast culture needs to be covered with a layer of oil to prevent oxygen from penetrating into the solution."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Different sugars contain different amounts of chemical energy and produce different amounts of carbon dioxide and ATP; however, the relationship between the ATP produced and the CO<sub class='bodySubscript'>2</sub> released stays the same. Therefore, the carbon dioxide gas volume produced in the fermentation reaction will give a good indication of the ethanol and ATP molecules produced. During this exercise, you will examine the amount of energy produced by different sugars in yeast. Since yeast prefers aerobic cellular respiration, the yeast culture needs to be covered with a layer of oil to prevent oxygen from penetrating into the solution."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "desc": "This map outlines the workflow for this investigation. In Activity 1, you will measure out 3 different sugar samples. Then, you will activate dry yeast in warm water and add the yeast solution to the sugar samples. Next, layer oil on top of the yeast solutions. Assemble 3 gas collection apparatuses and attach the samples to the apparatuses. Then, record the total gas produced by each sample. Finally, calculate the volume of CO<sub class='bodySubscript'>2</sub> gas produced, the moles of CO<sub class='bodySubscript'>2</sub> gas, and ATP produced for each gram of each sample. In Activity 2, you will measure out 3 different polysaccharide samples. Then, you will activate dry yeast in warm water and add the yeast solution to the polysaccharide samples. Next, layer oil on top of the yeast solutions. Assemble 3 gas collection apparatuses and attach the samples to the apparatuses. Then, record the total gas produced by each sample. Finally, calculate the volume of CO<sub class='bodySubscript'>2</sub> gas produced, the moles of CO<sub class='bodySubscript'>2</sub> gas, and ATP produced for each gram of each sample.",
+                  "altText": "This map outlines the workflow for this investigation. In Activity 1, you will measure out 3 different sugar samples. Then, you will activate dry yeast in warm water and add the yeast solution to the sugar samples. Next, layer oil on top of the yeast solutions. Assemble 3 gas collection apparatuses and attach the samples to the apparatuses. Then, record the total gas produced by each sample. Finally, calculate the volume of CO2 gas produced, the moles of CO2 gas, and ATP produced for each gram of each sample. In Activity 2, you will measure out 3 different polysaccharide samples. Then, you will activate dry yeast in warm water and add the yeast solution to the polysaccharide samples. Next, layer oil on top of the yeast solutions. Assemble 3 gas collection apparatuses and attach the samples to the apparatuses. Then, record the total gas produced by each sample. Finally, calculate the volume of CO2 gas produced, the moles of CO2 gas, and ATP produced for each gram of each sample.",
+                  "containerType": "fullContainer",
+                  "image": "courses/580354/580354_ED.svg",
+                  "imgDivWidth": "80%",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "width": "100%",
+                  "scrollImg": true,
+                  "maxWidth": "1444px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "3 Rubber tubes",
+                          "image": "courses/580354/580354_material_001.svg",
+                          "url": "courses/580354/580354_material_001.svg",
+                          "altText": "Tube"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Dry yeast",
+                          "image": "courses/580354/580354_material_002.svg",
+                          "url": "courses/580354/580354_material_002.svg",
+                          "altText": "Dry yeast packet"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Sucrose",
+                          "image": "courses/580354/580354_material_003.svg",
+                          "url": "courses/580354/580354_material_003.svg",
+                          "altText": "Sucrose in brown package"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Spoon, 1G",
+                          "image": "courses/580354/580354_material_004.svg",
+                          "url": "courses/580354/580354_material_004.svg",
+                          "altText": "Small plastic scoop"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Dextrose (glucose)",
+                          "image": "courses/580354/580354_material_005.svg",
+                          "url": "courses/580354/580354_material_005.svg",
+                          "altText": "Dextrose (glucose) in brown paper package"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Starch",
+                          "image": "courses/580354/580354_material_006.svg",
+                          "url": "courses/580354/580354_material_006.svg",
+                          "altText": "Starch solution in plastic bottle"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Cellulose",
+                          "image": "courses/580354/580354_material_007.svg",
+                          "url": "courses/580354/580354_material_007.svg",
+                          "altText": "Cellulose in plastic bottle"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Lactose",
+                          "image": "courses/580354/580354_material_008.svg",
+                          "url": "courses/580354/580354_material_008.svg",
+                          "altText": "Lactose in brown package"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "6 Styrofoam cups",
+                          "image": "courses/580354/580354_material_009.svg",
+                          "url": "courses/580354/580354_material_009.svg",
+                          "altText": "White Styrofoam® cup"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Mineral oil ",
+                          "image": "courses/580354/580354_material_010.svg",
+                          "url": "courses/580354/580354_material_010.svg",
+                          "altText": "Mineral oil "
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "3 Centrifuge tubes",
+                          "image": "courses/580354/580354_material_011.svg",
+                          "url": "courses/580354/580354_material_011.svg",
+                          "altText": "15-mL clear plastic centrifuge tube with light blue cap"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "3 Small bottles",
+                          "image": "courses/580354/580354_material_012.svg",
+                          "url": "courses/580354/580354_material_012.svg",
+                          "altText": "Small plastic bottle"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "3 Bottle dropper tops",
+                          "image": "courses/580354/580354_material_013.svg",
+                          "url": "courses/580354/580354_material_013.svg",
+                          "altText": "Bottle dropper tops"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Included in the equipment kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Grease pencil ",
+                          "image": "courses/580354/580354_material_014.svg",
+                          "url": "courses/580354/580354_material_014.svg",
+                          "altText": "Black grease pencil"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Thermometer",
+                          "image": "courses/580354/580354_material_015.svg",
+                          "url": "courses/580354/580354_material_015.svg",
+                          "altText": "Glass thermometer with red bulb"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Dropper pipet",
+                          "image": "courses/580354/580354_material_016.svg",
+                          "url": "courses/580354/580354_material_016.svg",
+                          "altText": "Clear plastic dropping pipet"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Graduated cylinder, 10 mL",
+                          "image": "courses/580354/580354_material_017.svg",
+                          "url": "courses/580354/580354_material_017.svg",
+                          "altText": "Clear plastic graduated cylinder, 10 mL"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Beaker, 250 mL",
+                          "image": "courses/580354/580354_material_018.svg",
+                          "url": "courses/580354/580354_material_018.svg",
+                          "altText": "Clear plastic beaker, 250 mL"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Electronic balance",
+                          "image": "courses/580354/580354_material_019.svg",
+                          "url": "courses/580354/580354_material_019.svg",
+                          "altText": "Electronic balance"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Weigh boat",
+                          "image": "courses/580354/580354_material_020.svg",
+                          "url": "courses/580354/580354_material_020.svg",
+                          "altText": "White plastic weigh boat"
+                        }
+                        
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [" Tap water", "Camera or camera phone for photographs"]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span> <span className=bodyParaLineBreak></span> <span className=bodyParaLineBreak></span> A replacement kit for Fermentation of Sugar, item number 580354, can be ordered from Carolina Biological Supply Company. <span className=bodyParaLineBreak></span> <span className=bodyMediumSubHeading> Call:</span> 866-332-4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Safety goggles, a chemical apron, and gloves are required at all times while conducting this investigation."
+                },
+                {
+                  "type": "Image",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "altText": "goggles symbol, gloves symbol, apron symbol"
+                  
+                },
+                {
+                  "type": "Plain",
+                  "text": "Read all instructions for this laboratory activity before beginning. Follow the instructions closely and observe established laboratory safety practices including the use of appropriate personal protective equipment, described in the Safety and Procedure sections."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Do not eat, drink, or chew gum while performing this activity. Wash your hands with soap and water before and after performing the activity. Clean up the work area and glassware with soap and water after completing the investigation."
+                   }
+                ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the role of adenosine triphosphate in fermentation?"
+                      ,
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "It is the end product.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "It is a catalyst.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "It is a reactant.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "It is a waste product.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "It is not involved in fermentation.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is a major role of polysaccharides in the cell?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "long-term energy storage",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "information storage",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "quickly available energy source",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "catalyst for chemical reactions",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "major cell membrane component",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes why yeast cells perform fermentation?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Fermentation can produce energy from sugar in the absence of oxygen.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Fermentation can produce energy from sugar in the presence of oxygen.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Fermentation produces alcohol.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Fermentation produces carbon dioxide for other cellular processes.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Fermentation reduces glucose to pyruvate.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the output(s) of glycolysis?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "2 pyruvate and 2 ATP",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "glucose only",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "6 CO<sub class='bodySubscript'>2</sub>, 6 H<sub class='bodySubscript'>2</sub>O, and ATP",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "2 C<sub class='bodySubscript'>2</sub>H<sub class='bodySubscript'>5</sub>OH, 2 CO<sub class='bodySubscript'>2</sub>, and 2 ATP",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "C<sub class='bodySubscript'>6</sub>H<sub class='bodySubscript'>12</sub>O<sub class='bodySubscript'>6</sub> and 6 O<sub class='bodySubscript'>2</sub>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes what happens to pyruvate in yeast in the absence of oxygen?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "It is converted into ethanol and carbon dioxide.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "It is recycled into glucose.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "It is broken down into lactic acid.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "It is broken down into NAD<sup class='bodySuperscript'>+</sup>.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "It is completely reduced into ATP molecules.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the purpose of adding a layer of mineral oil layer on top of the yeast and sugar solutions in this investigation?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "to prevent exposing the solution to oxygen",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "to prevent the production of carbon dioxide gas",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "to catalyze the alcoholic fermentation reaction in yeast",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "to neutralize any ethanol produced by the yeast",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "to protect the solution from sunlight",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the ratio of carbon dioxide to ATP in alcoholic fermentation?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "1:1",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "2:1",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "1:2",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "3:5",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "1:3",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "When baking bread, it is common practice to let the bread rise until it doubles in volume. If you assume that all the increase in volume is due to carbon dioxide produced during fermentation, how many moles of ATP are produced when a 900-mL loaf doubles in volume? Assume a temperature of 25 degrees Celsius and pressure of one atmosphere.",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "0.0375 mol ATP",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "36 mol ATP",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "0.0277 mol ATP",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "1 mol ATP",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "0.09 mol ATP",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes a safety concern for the yeast in this investigation?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 8,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "There are no safety concerns for yeast.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Yeast is a corrosive chemical.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Yeast is highly flammable.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Yeast is very toxic to aquatic life.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Yeast is a tissue irritant.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is required for an organism to perform aerobic respiration?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 9,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "oxygen",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "carbon dioxide",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "ethanol",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "cellulose",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "ATP",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": 
+          [
+            {
+              "title": "Preparation",
+              "pageTitle": "Preparation (3 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure",
+              "keyID": "preparation",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Clean and sanitize the work area."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Read the instructions."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Obtain all the materials."
+                  }
+                ]
+                
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Chemistry_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+
+              "pageData": [
+               
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will ferment samples of monosaccharides and disaccharides using yeast, and collect the gas produced by each."
+                }
+              
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Fermentation of Monosaccharides and Disaccharides (20 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp; Fermentation of Monosaccharides and Disaccharides (20 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "activity1",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                  "type": "Plain",
+                  "text": "With the grease pencil, label each of the three small bottles: one with Glucose, one with Sucrose, and one with Lactose."
+                  }
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Weigh 1 gram of sucrose in a weigh boat on the balance."
+                  }
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Add the sugar to the appropriately labeled small bottle. Repeat weighing for each sugar."
+                  }
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Turn on a hot water tap and monitor the temperature with a thermometer until a <span style='whiteSpace: nowrap'>35 °C</span> is achieved. Collect approximately <span style='whiteSpace: nowrap'>125 mL</span> of <span style='whiteSpace: nowrap'>35 °C</span> water in the beaker."
+                  }
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Weigh 2 grams of yeast, and add it to the <span style='whiteSpace: nowrap'>35 °C</span> water in the beaker. Stir thoroughly with the spoon."
+                  }
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "With a 10-mL graduated cylinder, add 6 mL yeast solution to each small bottle."
+                  }
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Layer approximately ½ cm of mineral oil on top of the yeast solution in each bottle. Be careful not to mix the oil with the solution below."
+                  }
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": " Insert the bottle dropper tops on the bottles."
+                  }
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Turn on a hot water tap and monitor the temperature with a thermometer until a 35 °C is achieved. Fill three Styrofoam cups with <span style='whiteSpace: nowrap'>35 °C</span> water."
+                  }
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Fill three 15-mL centrifuge tubes with 35 °C water."
+                  }
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Insert a piece of tubing into each of the centrifuge tubes, bend the tubing, and place a finger on top of the centrifuge tube. Quickly invert the centrifuge tube and place it in the Styrofoam cup. Make sure as much water as possible stays in the centrifuge tube. The final result should resemble <span style='whiteSpace: nowrap'>Figure 2.</span> Make sure the end of the tubing is above the water level; if not, the water will empty out of the tube."
+                  },
+                  {
+                    "type": "Image",
+                    "desc": "",
+                    "image": "courses/580354/580354_fig_002.svg",
+                    "text-size":"42%",
+                    "imgDivWidth":"600px",
+                    "imgDivWidthForMobile": {
+                      "P": "100%",
+                      "L": "100%"
+                    },
+                    "maxWidth":"800px",
+                    "altText": "Figure 2. Diagram of setting up gas collection tube",
+                    "style": {
+                      "marginBottom": "15px"
+                     }
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "Click to view a video showing setting up a gas collection apparatus:"
+                  },
+                  {
+                    "type": "Video",
+                    "width": "80%",
+                    "desc": "Setting Up a Gas Collection Apparatus",
+                    "imgDivWidth": "200px",
+                    "image": "courses/580354/580354_ActivityVideoIcone_001.svg",
+                    "url": "http://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4573398321001"
+                  }
+                  
+                  
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Fill three more Styrofoam cups with 35 °C water."
+                  }
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Attach the tubes to the bottle dropper tops as shown in Figure 2. Insert the sugar and yeast-filled bottles into the Styrofoam cups with <span style='whiteSpace: nowrap'>35 °C</span> water."
+                  }
+                
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Record the initial gas volume in each centrifuge tube in <span class=bodyFontBold>Data Table 1</span>."
+                  }
+                 
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Monitor the centrifuge tube gas volume for 60 minutes. Record the gas volume in <span class=bodyFontBold>Data <span style='whiteSpace: nowrap'>Table 1</span></span> every 15 minutes. Make sure the water in the Styrofoam cups stays close to <span style='whiteSpace: nowrap'>35 °C.</span> Add more hot water to the cups if necessary."
+                  }
+                ],[
+                  {
+                  "type": "Plain",
+                  "text": "After 60 minutes, record the total amount of gas produced for each bottle in <span class=bodyFontBold>Data <span style='whiteSpace: nowrap'>Table 1</span>.</span> Should the tubes completely fill with gas before 60 minutes has elapsed, record the time it took for the tubes to fill and use this volume for the calculation."
+                  }
+                ],[
+                  {
+                  "type": "Plain",
+                  "text": " Calculate the volume of CO<sub class='bodySubscript'>2</sub> gas produced for each gram of sugar as follows:<br/> mL CO<sub class='bodySubscript'>2</sub> /gram =  <span className=bodyFraction><span>(Start volume water tube – end volume water tube) </span> <span className=symbol>/</span><span className=bottom>Grams of sugar </span></span>"
+                 }
+                 
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Divide the number obtained from step 17 by 60 minutes or the time required to completely fill the tube. Record these values in <span class=bodyFontBold>Data Table 2</span>. Note the differences between the different sugars used."
+                  }
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Using the data from step 18, calculate the amount of <button className='glossary-text'>ATP</button> produced. Divide the CO<sub class='bodySubscript'>2</sub> gas volume calculated in step 18 by 24,000 mL/mole to get the moles of CO<sub class='bodySubscript'>2</sub> produced. The moles of CO<sub class='bodySubscript'>2</sub> produced are the same as the moles of ATP produced. Insert these numbers in <span class=bodyFontBold>Data <span style='whiteSpace: nowrap'>Table 2</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Dismantle and clean the setup. The bottle contents can be disposed of in the sink with the faucet running. Rinse the tubes, bottles, and tubing."
+                  }
+                ]
+                ]
+            }
+          ]
+        }
+        
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Chemistry_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+
+              "pageData": [
+               
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will ferment samples of <button className='glossary-text'>polysaccharides</button> using yeast, and collect the gas produced by each."
+                }
+              
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "Fermentation of Polysaccharides (8 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp; Fermentation of Polysaccharides (8 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "activity2",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                  "type": "Plain",
+                  "text": "With a grease pencil, label one bottle with Sucrose, one with Starch, and one with Cellulose."
+                  }
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Add 1 gram of sucrose to the Sucrose bottle, 1 gram of starch to the Starch bottle, and 1 gram of cellulose to the Cellulose bottle. Prepare the bottles as described in <span style='whiteSpace: nowrap'>Activity 1,</span> steps 2–10."
+                  }
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Attach the tubing and complete the setup as described in Activity 1, steps 11–13, shown in <button className='resource-text'>Figure 2</button>. Make sure the water baths around the bottles are <span style='whiteSpace: nowrap'>35 °C.</span>"
+                  }
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Note the gas volumes in the centrifuge tubes and record them as the starting volumes in <span class=bodyFontBold>Data <span style='whiteSpace: nowrap'>Table 3</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Monitor the water levels in the centrifuge tubes for 60 minutes. Record the water levels every 15 minutes in <span class=bodyFontBold>Data <span style='whiteSpace: nowrap'>Table 3</span>.</span> Make sure the water in the Styrofoam cups stays close to <span style='whiteSpace: nowrap'>35 °C.</span> Add more hot water to the cups if necessary."
+                  }
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "After 60 minutes, calculate the total amount of gas produced for each bottle per gram of sugar as described in <span style='whiteSpace: nowrap'>Activity 1,</span> <span style='whiteSpace: nowrap'>step 17.</span>"
+                  }
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Use the formula from Activity 1, step 18, and calculate the moles of CO<sub class='bodySubscript'>2</sub> gas produced per minute for each tube. Record the values in <span class=bodyFontBold>Data <span style='whiteSpace: nowrap'>Table 4</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                  "type": "Plain",
+                  "text": "Using the data from step 7, calculate the amount of <button className='glossary-text'>ATP</button> produced. Divide the CO<sub class='bodySubscript'>2</sub> gas volume calculated in <span style='whiteSpace: nowrap'>step 18</span> by <span style='whiteSpace: nowrap'>24,000 mL/mole</span> to get the moles of CO<sub class='bodySubscript'>2</sub> produced. The moles of CO<sub class='bodySubscript'>2</sub> produced are the same as the moles of ATP produced. Insert these numbers in <span class=bodyFontBold>Data <span style='whiteSpace: nowrap'>Table 4</span>.</span>"
+                  }
+                ]
+                
+                
+            ]
+            }
+          ]
+        }
+        
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup ",
+              "pageTitle": "Disposal and Cleanup ",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "listType":"ordered",
+                  "orderedType":"1",
+                  "start":"1",
+                  "text": [
+                    "Dismantle and clean the setup. Dispose of the contents in the sink with the water running and rinse the tubes.",
+                    "Clean the workspace with soap and water."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Chemistry_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2022 Carolina Biological Supply Company",
+      "altText": "Carolina Distance Learning Logo",
+      "pageSetting": "portrait"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable1",
+            "tag": "div",
+            "width": "80%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1: Gas Volume Observed at 15-Minute Intervals"
+              },
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "sr":0,
+                "maxLength": 20,
+                "header": [
+                  {
+                    "text":"Sugar",
+                    "colWidth":"10%"
+                  },
+                  {
+                    "text":"Initial",
+                    "colWidth":"15%"
+                  },
+                  {
+                    "text":"15",
+                    "colWidth":"15%"
+                  },
+                  {
+                    "text":"30",
+                    "colWidth":"15%"
+                  },
+                  {
+                    "text":"45",
+                    "colWidth":"15%"
+                  },
+                  {
+                    "text":"60",
+                    "colWidth":"15%"
+                  },
+                  {
+                    "text":"Total",
+                    "colWidth":"15%"
+                  }
+                ],
+                "tableData": [
+              [
+                {
+                  "type": "text",
+                 "fontFamily":"HelveticaNeueLTStdMd65",
+                  "text": "Glucose",
+                  "align": "left"
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                 "fontFamily":"HelveticaNeueLTStdMd65",
+                  "text": "Sucrose",
+                  "align": "left"
+                },
+                {
+                  "type": "input",
+                  "text": ""
+                },
+                {
+                  "type": "input",
+                  "text": ""
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                 "fontFamily":"HelveticaNeueLTStdMd65",
+                  "text": "Lactose",
+                  "align": "left"
+                },
+                {
+                  "type": "input",
+                  "text": ""
+                },
+                {
+                  "type": "input",
+                  "text": ""
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                }
+              ]
+              
+              ]
+            },
+            {
+              "type": "Plain",
+              "title": "Data Table 2: Moles CO<sub class='bodySubscript'>2</sub>/(g × min) and Moles ATP/(g × min) for Each Sugar"
+            },
+            {
+              "type": "DataTable",
+              "tableHeight": "1.5",
+              "sr":1,
+              "maxLength": 20,
+              "header": [
+                {
+                  "text":"Sugar",
+                  "colWidth":"16%"
+                },
+                {
+                  "text":"mL CO<sub class='bodySubscript'>2</sub>/(g∙hr)",
+                  "colWidth":"28%"
+                },
+                {
+                  "text":"Moles CO<sub class='bodySubscript'>2</sub>/(g∙hr)",
+                  "colWidth":"28%"
+                },
+                {
+                  "text":"Moles ATP/(g∙hr)",
+                  "colWidth":"28%"
+                } 
+              ],
+              "tableData": [
+            [
+              {
+                "type": "text",
+               "fontFamily":"HelveticaNeueLTStdMd65",
+                "text": "Glucose",
+                "align": "left"
+              },
+              {
+                "type": "input",
+                "text": "" 
+              },
+              {
+                "type": "input",
+                "text": "" 
+              },
+              {
+                "type": "input",
+                "text": "" 
+              }
+              ],
+            [
+              {
+                "type": "text",
+               "fontFamily":"HelveticaNeueLTStdMd65",
+                "text": "Sucrose",
+                "align": "left"
+              },
+              {
+                "type": "input",
+                "text": ""
+              },
+              {
+                "type": "input",
+                "text": ""
+              },
+              {
+                "type": "input",
+                "text": "" 
+              }
+             
+            ],
+            [
+              {
+                "type": "text",
+               "fontFamily":"HelveticaNeueLTStdMd65",
+                "text": "Lactose",
+                "align": "left"
+              },
+              {
+                "type": "input",
+                "text": ""
+              },
+              {
+                "type": "input",
+                "text": ""
+              },
+              {
+                "type": "input",
+                "text": "" 
+              }
+             ]
+            
+            ]
+            }
+          ]
+          }
+         
+          
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+         {
+            "type": "Wrapper",
+            "id": "dataTable3",
+            "tag": "div",
+            "width": "80%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 3: Gas Volume Observed at 15-Minute Intervals"
+              },
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "maxLength": 20,
+                "sr":0,
+                "header": [
+                  {
+                    "text":"Sugar",
+                    "colWidth":"10%"
+                  },
+                  {
+                    "text":"Initial",
+                    "colWidth":"15%"
+                  },
+                  {
+                    "text":"15",
+                    "colWidth":"15%"
+                  },
+                  {
+                    "text":"30",
+                    "colWidth":"15%"
+                  },
+                  {
+                    "text":"45",
+                    "colWidth":"15%"
+                  },
+                  {
+                    "text":"60",
+                    "colWidth":"15%"
+                  },
+                  {
+                    "text":"Total",
+                    "colWidth":"15%"
+                  }
+                ],
+                "tableData": [
+              [
+                {
+                  "type": "text",
+                 "fontFamily":"HelveticaNeueLTStdMd65",
+                  "text": "Sucrose",
+                  "align": "left"
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                 "fontFamily":"HelveticaNeueLTStdMd65",
+                  "text": "Starch",
+                  "align": "left"
+                },
+                {
+                  "type": "input",
+                  "text": ""
+                },
+                {
+                  "type": "input",
+                  "text": ""
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                 "fontFamily":"HelveticaNeueLTStdMd65",
+                  "text": "Cellulose",
+                  "align": "left"
+                },
+                {
+                  "type": "input",
+                  "text": ""
+                },
+                {
+                  "type": "input",
+                  "text": ""
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                }
+              ]
+              
+              ]
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 4: Moles CO<sub class='bodySubscript'>2</sub>/(g × min) and Moles ATP/(g × min) for Each Sugar"
+              },   
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "maxLength": 20,
+                "sr":1,
+                "header": [
+                  {
+                    "text":"Sugar",
+                    "colWidth":"16%"
+                  },
+                  {
+                    "text":"mL CO<sub class='bodySubscript'>2</sub>/(g∙hr)",
+                    "colWidth":"28%"
+                  },
+                  {
+                    "text":"Moles CO<sub class='bodySubscript'>2</sub>/(g∙hr)",
+                    "colWidth":"28%"
+                  },
+                  {
+                    "text":"Moles ATP/(g∙hr)",
+                    "colWidth":"28%"
+                  } 
+                ],
+                "tableData": [
+              [
+                {
+                  "type": "text",
+                 "fontFamily":"HelveticaNeueLTStdMd65",
+                  "text": "Sucrose",
+                  "align": "left"
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                }
+                ],
+              [
+                {
+                  "type": "text",
+                 "fontFamily":"HelveticaNeueLTStdMd65",
+                  "text": "Starch",
+                  "align": "left"
+                },
+                {
+                  "type": "input",
+                  "text": ""
+                },
+                {
+                  "type": "input",
+                  "text": ""
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                }
+               
+              ],
+              [
+                {
+                  "type": "text",
+                 "fontFamily":"HelveticaNeueLTStdMd65",
+                  "text": "Cellulose",
+                  "align": "left"
+                },
+                {
+                  "type": "input",
+                  "text": ""
+                },
+                {
+                  "type": "input",
+                  "text": ""
+                },
+                {
+                  "type": "input",
+                  "text": "" 
+                }
+               ]
+              
+              ]
+              }
+            ]
+          }
+         
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Questions",
+        "textAreaId": ["Question1", "Question2", "Question3", "Question4", "Question5", "Question6"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "title": "Questions",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text":[ "Why are starch and cellulose used in this experiment?"]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr":0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+             
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "tag": "div",
+            "pageData": [
+             
+              {
+                "type": "List",
+                "orderedType": "2",
+                "listType": "ordered",
+                "start": "2",
+                "text": ["During this experiment, one sugar produced the most gas. Explain why."]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr":1,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question3",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "3",
+                "listType": "ordered",
+                "start": "3",
+                "text": ["During the experimental setup, mineral oil was layered on top of the yeast-sugar mixture. Explain why."]
+              },
+              {
+                "type": "Questions",
+                "id": "Question3",
+                "sr":2,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+           
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question4",
+            "tag": "div",
+            "pageData": [
+            
+              {
+                "type": "List",
+                "orderedType": "4",
+                "listType": "ordered",
+                "start": "4",
+                "text": ["Why is it important to keep the temperature at 35°C for this experiment?"]
+              },
+              {
+                "type": "Questions",
+                "id": "Question4",
+                "sr":3,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question5",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "5",
+                "listType": "ordered",
+                "start": "5",
+                "text": ["Why is the amount of gas you measured only an estimate of the ATP produced? Consider what you know about liquids and gases. How can you change the setup to make it more accurate?"]
+              },
+              {
+                "type": "Questions",
+                "id": "Question5",
+                "sr":4,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+             
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question6",
+            "tag": "div",
+            "pageData": [
+             
+              {
+                "type": "List",
+                "orderedType": "6",
+                "listType": "ordered",
+                "start": "6",
+                "text": ["What would happen if all gas was removed from the water before the experiment? Would the experiment be more, or less accurate?"]
+              },
+              {
+                "type": "Questions",
+                "id": "Question6",
+                "sr":5,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+         
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+
+    "pageData": [
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580354/Periodic_Table.svg",
+        "content": "Periodic Table of the Elements",
+        "maxWidth": "2200px",
+        "scrollImg": true,
+        "altText":"Periodic Table of the Elements"
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6317078120112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "Images",
+        "desc": "resources",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580354/580354_fig_001.svg",
+        "scrollImg":true,
+        "maxWidth":"600px",
+        "altText":"Figure 1. The electron transport chain (ETC).",
+        "content": "Figure 1. The electron transport chain"
+      },
+      {
+        "type": "DataTable",
+        "thumbnailSrc": "core/Table_icon.svg",
+        "isResource":true ,
+        "content": "Table 1. The percent energy produced by sugars compared to sucrose",
+        "title": "Table 1.",
+        "id":"dataTable_1",
+        "sr":10,
+        "allowClick": true,
+        "headerHidden": true,
+        "tableHeight": "1.5",
+        "tableWidth": "400px",
+        "header": [
+          {
+            "text": " ",
+           "colWidth":"60%"
+          },
+          {
+            "text": " ",
+          "colWidth": "40%"
+          }
+        ],
+
+        "tableData": [
+          [
+            {
+              
+              "type": "text",
+              "text": "<span className=bodyBoldSubText>Lactose</span>",
+              "hoverText": "Lactose",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "16%"
+            }
+    
+          ],
+          [
+            {
+              "type": "text",
+              "text": "<span className=bodyBoldSubText>Galactose</span>",
+              "hoverText": "Galactose",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "32%"
+            }
+           
+          ],
+          [
+            {
+              "type": "text",
+              "text": "<span className=bodyBoldSubText>Maltose</span>",
+              "hoverText": "Maltose",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "33%"
+            }
+          
+          ],
+        
+          [
+            {
+              "type": "text",
+             "text": "<span className=bodyBoldSubText>Invert Sugar</span>",
+             "hoverText": "Invert Sugar",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "50%"
+            }
+         
+          ],
+          [
+            {
+              "type": "text",
+             "text": "<span className=bodyBoldSubText>Glucose</span>",
+             "hoverText": "Glucose",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "74%"
+            }
+         
+          ],
+          [
+            {
+              "type": "text",
+             "text": "<span className=bodyBoldSubText>Honey</span>",
+             "hoverText": "Honey",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "97%"
+            }
+         
+          ],
+          [
+            {
+              "type": "text",
+             "text": "<span className=bodyBoldSubText>HFCS</span><br/>(high-fructose corn syrup)",
+             "hoverText": "HFCS (high-fructose corn syrup)",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "100%"
+            }
+         
+          ],
+          [
+            {
+              "type": "text",
+              "text": "<span className=bodyBoldSubText>Sucrose</span>",
+              "hoverText": "Sucrose",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "100%"
+            }
+         
+          ],
+          [
+            {
+              "type": "text",
+              "text": "<span className=bodyBoldSubText>Fructose</span>",
+              "hoverText": "Fructose",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "173%"
+            }
+         
+          ]
+        
+        ]
+      
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580354/580354_ED.svg",
+        "content": "Experimental Design Diagram",
+        "scrollImg":true,
+        "maxWidth":"1444px",
+        "altText": "This map outlines the workflow for this investigation. In Activity 1, you will measure out 3 different sugar samples. Then, you will activate dry yeast in warm water and add the yeast solution to the sugar samples. Next, layer oil on top of the yeast solutions. Assemble 3 gas collection apparatuses and attach the samples to the apparatuses. Then, record the total gas produced by each sample. Finally, calculate the volume of CO2 gas produced, the moles of CO2 gas, and ATP produced for each gram of each sample. In Activity 2, you will measure out 3 different polysaccharide samples. Then, you will activate dry yeast in warm water and add the yeast solution to the polysaccharide samples. Next, layer oil on top of the yeast solutions. Assemble 3 gas collection apparatuses and attach the samples to the apparatuses. Then, record the total gas produced by each sample. Finally, calculate the volume of CO2 gas produced, the moles of CO2 gas, and ATP produced for each gram of each sample."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580354/580354_fig_002.svg",
+        "altText":"Figure 2. Diagram of setting up gas collection tube",
+        "content": "Figure 2. Gas collection apparatus set up",
+        "scrollImg":true,
+        "maxWidth":"800px"
+       
+      },
+      {
+        "type": "Videos",
+        "desc": "resources",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src":"http://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4573398321001",
+        "content": "Setting Up a Gas Collection Apparatus"
+      }
+     
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Adenosine triphosphate (ATP)",
+        "content": "Is the main energy currency of the cell"
+      },
+      {
+        "title": "Aerobic cellular respiration",
+        "content": "In the presence of oxygen, sugar is broken down over several steps to produce carbon dioxide, water, and ATP"
+      },
+      {
+        "title": "Alcoholic fermentation",
+        "content": "Pyruvate is broken down into carbon dioxide and ethanol"
+      },
+      {
+        "title": "Anaerobic conditions",
+        "content": "Absence of oxygen"
+      },
+      {
+        "title": "Atmospheric pressure",
+        "content": "The a volume of 24,000 cm3, which is equal to pressure at sea level, one mole of gas has 24,000 mL"
+      },
+      {
+        "title": "Avogadro’s law",
+        "content": "States that a set gas volume will always have the same number of particles no matter what gas is present"
+      },
+      {
+        "title": "Electron transport chain (ETC)",
+        "content": "A series of proteins that transfer electrons from one to the other, oxygen accepts electrons, which combine with hydrogen to form water"
+      },
+      {
+        "title": "Glycolysis",
+        "content": "Glucose sugar is broken down into two pyruvate molecules without any oxygen needed, this will release enough energy to produce two ATP"
+      },
+      {
+        "title": "Krebs cycle (citric acid cycle)",
+        "content": "Sequence of reactions take place in the mitochondria, consuming oxygen, producing carbon dioxide and water as waste products, and converting ADP to ATP"
+      },
+      {
+        "title": "Lactic acid",
+        "content": "By-product of anaerobic glycolysis"
+      },
+      {
+        "title": "Lactic acid fermentation",
+        "content": "A metabolic process in which sugars are converted into cellular energy"
+      },
+      {
+        "title": "Polysaccharides",
+        "content": "The most complex carbohydrates, and they contain several mono-saccharides linked in various configurations"
+      },
+      {
+        "title": "Redox reaction",
+        "content": "Oxidation-reduction reaction, one reaction component functions as an electron donor and is oxidized, while another component acts as an electron receptor and is reduced"
+      }
+      
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

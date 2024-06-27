@@ -1,0 +1,30 @@
+/** @format */
+
+.lightbox-content-col {
+  position: absolute;
+  font-family: 'Montserrat-Regular';
+  margin: 0;
+  height: inherit;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+
+  top: 0;
+  bottom: 0;
+  right: 42px;
+  left: 30px;
+  margin: auto;
+
+  /* width: 60%; */
+  overflow: auto;
+  display: block;
+}
+
+.lightbox-watermark {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-height: 90%;
+  z-index: -1;
+  pointer-events: none;
+}

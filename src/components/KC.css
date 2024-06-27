@@ -1,0 +1,159 @@
+/** @format */
+
+.mcss-comp-wrapper-left {
+  width: 50%;
+  float: left;
+}
+
+.mcss-comp-wrapper-for-assestment {
+  width: 100%;
+  /* float: left; */
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  /* margin-bottom: 30px; */
+}
+
+.option-image {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.mcss-comp-wrapper-right {
+  width: 45%;
+  float: right;
+  /* margin: 5px; */
+}
+
+.mcss-comp-heading {
+  float: left;
+  margin: 5px;
+  width: 100%;
+  height: auto;
+  clear: both;
+  /* top: 10px; */
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.mcss-comp-para {
+  float: left;
+  margin: 5px;
+  width: 100%;
+  height: auto;
+  clear: both;
+  text-align: left;
+}
+
+.mcss-comp-feedback-box {
+  display: inline-block;
+  border: 0.5px solid rgba(112, 112, 112, 0.2);
+  padding: 10px;
+  border-radius: 8px;
+  width: 70%;
+  min-height: 12vh;
+  background-color: white;
+  margin-left: 80%;
+  margin-top: -270px;
+}
+
+.radio-btn-set-1 {
+  margin-left: 1em;
+}
+
+.radio-btn-set-2 {
+  margin-left: 0.15em;
+}
+
+.tryAgainButton {
+  width: 140px;
+}
+.challengeQuestion {
+  width: 20 0px;
+}
+
+.answer-label {
+  font-size: 0px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  /* margin: auto; */
+  min-height: 0%;
+  width: 0%;
+  z-index: -10;
+  opacity: 0;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 1000px) and (max-height: 330px) and (orientation: landscape) {
+  .mcss-comp-wrapper-left {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+  }
+  .mcss-comp-wrapper-right {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-top: 10px;
+  }
+}
+
+/* Landscape iPhone */
+@media only screen and (min-device-width: 300px) and (max-device-width: 765px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .mcss-comp-wrapper-left {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+  }
+  .mcss-comp-wrapper-right {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-top: 10px;
+  }
+}
+
+/* Portrait iPhone */
+@media only screen and (min-device-width: 275px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .mcss-comp-wrapper-left {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+  }
+  .mcss-comp-wrapper-right {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* Portrait iPad Normal*/
+@media only screen and (min-width: 768px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-max-device-pixel-ratio: 2) and (orientation: portrait) {
+  .mcss-comp-wrapper-left {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+  }
+  .mcss-comp-wrapper-right {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+}

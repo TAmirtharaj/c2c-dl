@@ -1,0 +1,2670 @@
+{
+  "locked": true,
+  "courseTitle": "Climate Change Virtual Lab",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/bodyBookmark.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Env_Sci_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Environmental Science",
+                "images": {
+                  "launchPage": "core/Env_Sci_launchPageBg.svg",
+                  "logo": "core/Env_Sci_Subject_Icon.svg"
+                },
+                "titleName2": "Climate Change Virtual Lab",
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, you will learn about the composition of the atmosphere, the <button class='glossary-text'>greenhouse effect</button> and <button class='glossary-text'>feedback loops</button>. You will then carry out several virtual activities aimed at demonstrating the consequences of <button class='glossary-text'>anthropogenic</button> carbon emissions, <button class='glossary-text'>climate</button> change, and <button class='glossary-text'>sea level rise</button>."
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Env_Sci/580865_VIRT/580865VIRT_Env_Sci_Time-Requirement.svg",
+                  "width": "100%",
+                  "imgDivWidth": "450px",
+                  "maxWidth": "470px",
+                  "altText": "Activity 1 – 20 minutes\nActivity 2 – 20 minutes\nActivity 3 – 20 minutes"
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Graphing paper and a digital camera/smartphone, or graphing software"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Explain the causes of increased carbon emissions and their likely effect on global <button class='glossary-text'>climate</button>.",
+                    "Define and distinguish between positive and negative climate feedback.",
+                    "Explain the differences between glacial ice melt and oceanic ice melt.",
+                    "Create hypotheses, collect and analyze data, and draw conclusions by conducting experiments in a simulation."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "maxWidth": "600px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "maxWidth": "600px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "maxWidth": "600px",
+                  "imgDivWidth": "430px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Coral reefs are incredibly important biodiversity hotspots in marine environments that rely on coral as both their primary producer and a structural matrix providing shelter and protection. Unfortunately, coral is also one of the organisms that is most susceptible to the negative consequences of increased <button class='glossary-text'>greenhouse gases</button>. As global CO<sub class='bodysubscript'>2</sub> levels rise, the oceans become not only more acidic, but also warmer. Increased acidity dissolves the calcium carbonate matrix that corals secrete, which makes up most of the structure of the reef, thus making it harder for the coral to lay down new skeletons as they grow.  Corals are animals that contain mutualistic, photosynthetic zooxanthellae within them, providing much of the energy to the coral and the rest of the ecosystem. However, these zooxanthellae are very sensitive to temperature changes. Even a small increase in ocean temperatures can cause them to die off, leaving the coral nutrient deficient. The coral subsequently dies. What remains is the white calcium carbonate skeleton, a phenomenon called coral reef bleaching."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Coral reefs also directly benefit humans. They help dissipate the energy of hurricanes and protect coastlines from potentially deadly storm surges. However, increased ocean temperatures have led to increased storm intensity and frequency, damaging coral reefs that cannot recover fast enough."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Env_Sci/580865_VIRT/580865VIRT_Env_Sci_whyShouldICare.svg",
+                  "desc": "Bleached coral in the background. Several small marine fish in the foreground.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "altText": "Bleached coral in the background. Several small marine fish in the foreground."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "For the last 30 years, controversy has surrounded the idea of <button class='glossary-text'>climate</button> change, also referred to as global warming. However, the scientific concepts behind the theory are not new. There were many early studies that impacted our current understanding of climate change."
+                },
+                {
+                  "type": "Plain",
+                  "text": "In the 1820s, Joseph Fourier was the first to recognize that, given the Earth’s size and distance from the sun, the planet’s surface temperature should be considerably cooler than it was. He proposed several mechanisms to explain why the earth was warmer than his calculations predicted, one of which was that the earth’s atmosphere might act as an insulator. Forty years later, John Tyndall demonstrated that different gases have different capacities to absorb infrared radiation, most notably methane (CH<sub class='bodysubscript'>4</sub>), carbon dioxide (CO<sub class='bodysubscript'>2</sub>), and water vapor (H<sub class='bodysubscript'>2</sub>O), all of which are present in the atmosphere. "
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "In 1896, Svante Arrhenius developed the first mathematical <button class='glossary-text'>model</button> of the effect of increased carbon dioxide levels on temperature. His model predicted that doubling the amount of carbon dioxide in the atmosphere would produce a five-to-six-degree Celsius increase in temperature globally. Based on the level of carbon dioxide production in the late 19th century, he predicted that this change would take place over thousands of years, if at all. Arrhenius used Arvid Högbom’s calculations of industrial carbon dioxide emissions in his equations. Högbom thought that the excess carbon dioxide would be absorbed by the ocean; others believed that the effect of carbon dioxide was insignificant next to the much larger effect of water vapor."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "It was not until the late 1950s, when the carbon dioxide absorption capacity of the ocean was better understood and significant increases in carbon dioxide levels (a 10% increase from the 1850s to the 1950s) were being observed by <span style='whiteSpace: nowrap'>G. S. Callendar,</span> that Arrhenius’ calculations received renewed attention."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Weather and Climate",
+                  "text": "<button class='glossary-text'>Weather</button> is the condition of the atmosphere in a given location at a specific time. <button class='glossary-text'>Climate</button> is the prevailing weather pattern over a longer period of time (decades or centuries). The atmosphere is a thin shell (~100 kilometers) of gases that envelops the earth. It is made up principally of nitrogen (78%), oxygen (21%), and argon (0.9%). Trace gases include methane (CH<sub class='bodysubscript'>4</sub>), ozone (O<sub class='bodysubscript'>3</sub>), carbon dioxide (CO<sub class='bodysubscript'>2</sub>), carbon monoxide (CO), and oxides of nitrogen (e.g., NO<sub class='bodysubscript'>2</sub>) and sulfur (e.g., SO<sub class='bodysubscript'>2</sub>)."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Water vapor is sometimes included in the composition of gases in the atmosphere, but often it is omitted because its amount varies widely, from 0%-4% depending on location. The concentration of gases in the atmosphere is not uniform either; the atmosphere consists of several concentric layers. Some gases are concentrated at certain altitudes. Water and carbon dioxide are concentrated near the earth’s surface, for instance, while ozone is concentrated 20-30 kilometers above the surface."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Env_Sci/580865_VIRT/580865VIRT_Env_Sci_fig_001.svg",
+                  "desc": "Figure 1. A pie chart describing the composition of Earth's atmosphere. 78% nitrogen; 21% oxygen; 1% carbon dioxide, argon, water vapor, and other gases.",
+                  "altText": "Figure 1: A pie chart describing the composition of Earth's atmosphere. 78% nitrogen; 21% oxygen; 1% carbon dioxide, argon, water vapor, and other gases.",
+                  "maxWidth": "325px",
+                  "scrollImg": true,
+                  "imgDivWidth": "300px",
+                  "width": "100%"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Energy transfer from the sun at and near the surface of the earth is responsible for <button class='glossary-text'>weather</button> and <button class='glossary-text'>climate</button>. Solar radiation heats land, the oceans, and atmospheric gases differently, resulting in the constant transfer of energy across the globe. This process of heating at different rates is called <button class='glossary-text'>differential heating</button>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Several factors interact to cause differential heating. The first is the angle at which the sun’s light hits the earth. When the sun is directly overhead, as it is at the equator, each square mile of incoming sunlight hits one square mile of the earth. At higher latitudes, the sun hits at an angle, spreading the one square mile of sunlight over more of the earth’s surface. Thus, the intensity of the light is reduced, and the surface does not warm as quickly. This causes the tropics, near the equator, to be warmer and the poles to be cooler."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Env_Sci/580865_VIRT/580865VIRT_Env_Sci_fig_002.svg",
+                  "desc": "Figure 2: An illustration of Earth as seen from outer space. A square of light is projected onto the equator, creating a square on Earth's surface. A second square of light equal in size to the first square is projected onto the northern latitudes, creating a rectangle on Earth's surface.",
+                  "altText": "Figure 2: An illustration of Earth as seen from outer space. A square of light is projected onto the equator, creating a square on Earth's surface. A second square of light equal in size to the first square is projected onto the northern latitudes, creating a rectangle on Earth's surface.",
+                  "maxWidth": "355px",
+                  "scrollImg": true,
+                  "imgDivWidth": "327px",
+                  "width": "100%"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Different materials heat and cool at different rates. Darker surfaces heat faster than lighter surfaces. Water has a high <button class='glossary-text'>heat capacity</button>, which is important on a planet whose surface is 72% water. Heat capacity is a measure of how much heat it takes to raise the temperature of a substance by one degree. The heat capacity of liquid water is roughly four times that of air. Water is slow to warm and slow to cool, relative to land. This also contributes to <button class='glossary-text'>differential heating</button> of the earth."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Differential heating causes circulation in the atmosphere and in the oceans. Warmer fluids are less dense and rise, leaving behind an area of low pressure. Air and water move laterally to distribute the change in pressure. This is critical in developing prevailing wind patterns and in cycling nutrients through the ocean. Play the video to watch the convection of warm water in action."
+                },
+                {
+                  "type": "Video",
+                  "containerType": "rightContainer",
+                  "width": "100%",
+                  "imgDivWidth": "38%",
+                  "imgDivWidthForTablet": {
+                    "P": "55%",
+                    "L": "35%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "80%",
+                    "L": "40%"
+                  },
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "image": "courses_2023/Env_Sci/580865_VIRT/580865VIRT_Env_Sci_VideoIcone_1.svg",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6322215397112"
+                },
+                {
+                  "type": "Plain",
+                  "text": "The oceans play an important role in regulating the atmosphere as well. The large volume of the oceans, combined with the high heat capacity of water, prevent dramatic temperature swings in the atmosphere. The relatively large surface area of the oceans, approximately 70% of the surface of the earth, means that the oceans can absorb large amounts of carbon dioxide."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "The majority of Earth’s atmosphere is made up of what gas?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "nitrogen gas",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "carbon dioxide",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "oxygen gas",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "ozone",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "water",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The Earth’s atmosphere is made up principally of nitrogen (78%). Trace gases include methane (CH<sub class='bodysubscript'>4</sub>), ozone (O<sub class='bodysubscript'>3</sub>), carbon dioxide (CO<sub class='bodysubscript'>2</sub>), carbon monoxide (CO), and oxides of nitrogen (e.g., NO<sub class='bodysubscript'>2</sub>) and sulfur (e.g., SO<sub class='bodysubscript'>2</sub>)."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 1",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "About how much oxygen is in the Earth’s atmosphere?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "21%",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "78%",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "0.2%",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "8.5%",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "50%",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The Earth’s atmosphere is made up principally of nitrogen (78%), oxygen (21%), and argon (0.9%)."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Water vapor is sometimes included in the composition of gases in the atmosphere, but often it is omitted because its amount varies widely, from 0%-4% depending on location. The concentration of gases in the atmosphere is not uniform either; the atmosphere consists of several concentric layers. Some gases are concentrated at certain altitudes. Water and carbon dioxide are concentrated near the earth’s surface, for instance, while ozone is concentrated 20-30 kilometers above the surface.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Env_Sci/580865_VIRT/580865VIRT_Env_Sci_fig_001.svg",
+                      "alt": "Figure 1: A pie chart describing the composition of Earth's atmosphere. 78% nitrogen; 21% oxygen; 1% carbon dioxide, argon, water vapor, and other gases.",
+                      "maxWidth": "330px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "Water vapor is sometimes included in the composition of gases in the atmosphere, but often it is omitted because its amount varies widely, from 0%-4% depending on location. The concentration of gases in the atmosphere is not uniform either; the atmosphere consists of several concentric layers. Some gases are concentrated at certain altitudes. Water and carbon dioxide are concentrated near the earth’s surface, for instance, while ozone is concentrated 20-30 kilometers above the surface.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Env_Sci/580865_VIRT/580865VIRT_Env_Sci_fig_001.svg",
+                      "alt": "Figure 1: A pie chart describing the composition of Earth's atmosphere. 78% nitrogen; 21% oxygen; 1% carbon dioxide, argon, water vapor, and other gases.",
+                      "maxWidth": "330px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Greenhouse Gases",
+                  "text": "The <button class='glossary-text'>greenhouse effect</button> is a natural process; without it, the earth would be significantly cooler. The sun emits energy in a broad range of wavelengths. Most radiation from the sun passes through the atmosphere. Much of the radiation is absorbed by the earth’s atmosphere and surface, which warms the planet. The absorbed energy is converted into infrared radiation, also called thermal energy, or heat. Water vapor, carbon dioxide, methane, and some trace gases absorb infrared radiation; these are <button class='glossary-text'>greenhouse gases</button>. After absorbing energy, the greenhouse gases radiate it in all directions, further increasing the temperature of Earth and its atmosphere. This warming phenomenon is called the greenhouse effect. "
+                },
+                {
+                  "type": "Plain",
+                  "text": "Of the sun’s radiation that does not pass through the atmosphere, some radiation is reflected by the earth’s atmosphere back into space, and some radiation is reflected by the earth’s surface back into space. Oxygen and nitrogen gas allow incoming sunlight and outgoing thermal energy, or infrared radiation, to pass through."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Env_Sci/580865_VIRT/580865VIRT_Env_Sci_fig_003.svg",
+                  "desc": "Figure 3: An illustration of the pathways of incoming solar radiation. Some of the incoming radiation is reflected by Earth's surface and the atmopshere back out to space, a process called reflection. Most radiation is absorbed by the Earth's surface and warms it, a process called absorption. Some heat passes out into space. Most heat is absorbd and re-emitted by greenhouse gas molecules, further warming Earth.",
+                  "altText": "Figure 3: An illustration of the pathways of incoming solar radiation. Some of the incoming radiation is reflected by Earth's surface and the atmopshere back out to space, a process called reflection. Most radiation is absorbed by the Earth's surface and warms it, a process called absorption. Some heat passes out into space. Most heat is absorbd and re-emitted by greenhouse gas molecules, further warming Earth.",
+                  "maxWidth": "480px",
+                  "scrollImg": true,
+                  "imgDivWidth": "442px",
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'>Solar radiation by Siyavula Education is available under CC BY 2.0 at <br><span target='blank' style=' word-break: break-all'>https://www.flickr.com/photos/121935927@N06/13580531193</span>.Spelling on original image has been corrected."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Greenhouse gases</button> that contribute to the insulation of our planet can be grouped into two categories.<span className=bodyParaLineBreak><ul style='margin-bottom:0px'><li><button class='glossary-text'>Condensable gases</button>: Of the primary greenhouse gases, water vapor is not only the most potent, but also the only condensable gas meaning its concentration in the atmosphere is dependent on temperature.</li><li><button class='glossary-text'>Persistent gases</button>: These gases exist in the atmosphere for much longer than condensable gases (a few to thousands of years), allowing for global dispersion. Examples include carbon dioxide, methane, nitrous oxide, and ozone.</li></ul></span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Water is the primary greenhouse gas in the atmosphere, but because it is condensable it is not considered a <button class='glossary-text'>forcing factor</button>. Forcing factors (forcings) are features of the earth’s <button class='glossary-text'>climate</button> change system that drive climate change; they may be internal or external to the planet and its atmosphere. Feedbacks are events that take place as a result of forcings."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Carbon dioxide, methane, and other gases identified by Tyndall as having high heat capacities make up a relatively minor fraction of the atmosphere, but they have a critical effect on the temperature of the earth. Without the naturally occurring <button class='glossary-text'>greenhouse effect</button>, it is estimated that the earth’s average temperature would be approximately –18 °C (0°F). The greenhouse effect also acts as a buffer, slowing both warming during the day and cooling at night. This is an important feature of the earth’s atmosphere."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "subTitle": "Feedback Loops ",
+                  "text": "The earth’s processes, including climate, are maintained by <button class='glossary-text'>feedback loops</button>. A <span class=bodyFontBold>feedback loop</span> is a mechanism that either enhances (positive feedback) or dampens (negative feedback) the effect that triggers it. Some examples of potential positive feedback loops due to climate change are:<span className=bodyParaLineBreak><ul style='margin-bottom:0px'><li>Higher temperatures allow the atmosphere to absorb more water. More water vapor in the atmosphere traps more heat, further increasing temperature.</li><li>The melting of sea ice and glaciers, which are relatively light in color to darker bodies of water, decreases the <button class='glossary-text'>albedo</button> (the amount of solar radiation reflected back into space) of the earth’s surface, increasing temperature.</li><li>Warmer temperatures melt more of the arctic <button class='glossary-text'>permafrost</button> (frozen ground), releasing methane into the atmosphere, further increasing temperature.</li></ul></span>"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Some examples of potential negative <button class='glossary-text'>feedback loops</button> due to <button class='glossary-text'>climate</button> change are:<span className=bodyParaLineBreak><ul style='margin-bottom:0px'><li>An increase in carbon dioxide levels in the atmosphere leads to an increase in carbon dioxide in the oceans, stabilizing carbon dioxide levels.</li><li>Increased atmospheric temperatures and carbon dioxide promote plant and algae growth, increasing absorption of carbon dioxide from the atmosphere, lowering carbon dioxide levels there and stabilizing temperature.</li><li>Warmer air, carrying more moisture, produces more snow at high latitudes. This increases the <button class='glossary-text'>albedo</button> of the earth’s surface, stabilizing temperature.</li></ul></span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Another example of feedback is the <button class='glossary-text'>carbon cycle</button>, the movement of carbon throughout the planet which relies on complicated interactions between multiple feedback loops (Figure 4). <span className=bodyParaLineBreak><ul style='margin-bottom:0px'><li>Old-growth forests sequester carbon dioxide from the atmosphere during photosynthesis. The carbon becomes sugar and carbohydrates that the plants use for their energy and structure. Clearing old-growth forests impacts the carbon cycle: removing long-lived trees and replacing them with short-lived crops reduces the time over which carbon is removed from the atmosphere.</li><li>Since the beginning of the Industrial Revolution, the concentration of carbon dioxide in the atmosphere has increased from ~280 ppm (parts per million) <span style='whiteSpace: nowrap'>to ~411 ppm</span> (see <a target='_blank' href='https://keelingcurve.ucsd.edu/'>the Keeling Curve</a>). This change is attributed to the burning of fossil fuels – such as coal, oil, and natural gas – and changes in land use, i.e., cutting down large tracts of old-growth forests.</li></ul></span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<ul style='margin-bottom:0px'><li>Fossil fuels, the byproduct of dead organic matter formed millions of years ago, contain large amounts of carbon. Burning these fuels releases that carbon into the atmosphere in the form of carbon dioxide. The formation of fossil fuels would sequester carbon out of the atmosphere, but it takes an extremely long time to and precise environmental conditions to produce these resources.</li></ul></span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Env_Sci/580865_VIRT/580865VIRT_Env_Sci_fig_004.svg",
+                  "desc": "Figure 4: An illustration of the biogeochemical cycling of carbon.",
+                  "altText": "Figure 4: An illustration of the biogeochemical cycling of carbon.",
+                  "maxWidth": "450px",
+                  "scrollImg": true,
+                  "imgDivWidth": "380px",
+                  "imgDivMargin": "0 0 0 38px",
+                  "width": "100%"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Determining the exact effect that the increase in carbon dioxide concentrations will have on atmospheric temperature is complicated by a variety of interactions and potential <button class='glossary-text'>feedback loops</button>. However, the overall impact is an ongoing temperature increase, known as <button class='glossary-text'>global climate change</button>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The relative impact of potential effects is a subject of debate and leads to the uncertainty in <button class='glossary-text'>models</button> used to predict future <button class='glossary-text'>climate</button> change resulting from an increase in <button class='glossary-text'>anthropogenic</button> <span style='whiteSpace: nowrap'>(human-caused)</span> <button class='glossary-text'>greenhouse gases</button>. However, the consensus among climate scientists is that the positive feedbacks will likely overwhelm the negative ones."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Global climate change is driven by how humans have impacted the earth’s carbon cycle. Which of the following changes would best reduce the levels of atmospheric carbon, namely carbon dioxide?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Humans could reduce meat consumption and allow farmland for growing livestock feed to return back to wild forests and grassland.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Humans could burn wood rather than natural gas to heat their homes, such as they did before the Industrial Revolution.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Humans could dam more rivers to create large reservoirs of water, which can dissolve atmospheric carbon dioxide.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Humans could cover the polar ice caps with pigment-producing microorganisms to decrease albedo.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Humans could create more fossil fuels by collecting and processing dead organisms and other organic waste.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Long-lived plant-dense ecosystems, like forests and prairies, can take in large amounts of carbon dioxide."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 2",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following best explains the overall impact of the greenhouse effect on our planet?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "This phenomenon prevents extreme differences in temperature between day and night as well as changing seasons.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "This phenomenon reduces our exposure to harmful wavelengths of light from solar radiation.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "This phenomenon increases the rate at which anthropogenic greenhouse gases escalate the issue of global climate change.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "This phenomenon allows water vapor to reach the atmosphere, which prevents the build-up of atmospheric carbon dioxide.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "This phenomenon decreases the amount of solar radiation that reflects off the earth’s surface and into outer space.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The greenhouse effect is a natural process that keeps us insulated from extreme changes in temperature."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "The greenhouse effect is a natural process; without it, the earth would be significantly cooler. The sun emits energy in a broad range of wavelengths. Most radiation from the sun passes through the atmosphere. Much of the radiation is absorbed by the earth’s atmosphere and surface, which warms the planet. The absorbed energy is converted into infrared radiation, also called thermal energy, or heat. Water vapor, carbon dioxide, methane, and some trace gases absorb infrared radiation; these are greenhouse gases. After absorbing energy, the greenhouse gases radiate it in all directions, further increasing the temperature of Earth and its atmosphere. This warming phenomenon is called the greenhouse effect.<span className=bodyParaLineBreak>The carbon dioxide in the atmosphere is part of the carbon cycle, the movement of carbon throughout the planet which relies on complicated interactions between multiple feedback loops. This cycle is impacted by anthropogenic factors, such as the clearing of old-growth forests that sequester carbon dioxide from the atmosphere during photosynthesis or burning fossil fuels for energy and transportation.</span>"
+                },
+                {
+                  "title": "Hint",
+                  "body": "The greenhouse effect is a natural process; without it, the earth would be significantly cooler. The sun emits energy in a broad range of wavelengths. Most radiation from the sun passes through the atmosphere. Much of the radiation is absorbed by the earth’s atmosphere and surface, which warms the planet. The absorbed energy is converted into infrared radiation, also called thermal energy, or heat. Water vapor, carbon dioxide, methane, and some trace gases absorb infrared radiation; these are greenhouse gases. After absorbing energy, the greenhouse gases radiate it in all directions, further increasing the temperature of Earth and its atmosphere. This warming phenomenon is called the greenhouse effect.<span className=bodyParaLineBreak>The carbon dioxide in the atmosphere is part of the carbon cycle, the movement of carbon throughout the planet which relies on complicated interactions between multiple feedback loops. This cycle is impacted by anthropogenic factors, such as the clearing of old-growth forests that sequester carbon dioxide from the atmosphere during photosynthesis or burning fossil fuels for energy and transportation.</span>"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Looking to the Future",
+                  "text": "Consequences of an increase in average temperature are difficult to predict on a regional scale; some, however, can be predicted with a relatively high degree of confidence. One of these is <button class='glossary-text'>sea level rise</button>. Sea level rise is the result of two processes. The first is the melting of glaciers and Antarctic continental ice. Although the melting of sea ice can have complex consequences due to the different densities of salt and fresh water, it will not cause sea level rise. The melting of glaciers and the deep ice over the Antarctic continent, however, can."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The second cause of sea level rise, related to warmer temperatures, is that water expands as it warms. As the oceans warm, the water rises farther up the shore. Countries and cities that have large portions of their land area at or just above sea level may be in jeopardy."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The loss of mountain glaciers is already causing changes in freshwater availability. As glaciers shrink, regions that depend on seasonal meltwater for hydroelectric power, irrigation and/or drinking water are increasingly affected. Although rainfall may increase in these regions (even as the amount of snow melt decreases), rainwater is considerably more difficult to control because it does not occur at as predictable a rate as meltwater. River systems may be overwhelmed by increased runoff rates, which can cause flooding."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "template": "VirtualLab",
+              "activityPath": "activities/580865_VIRT/activity4/story.html"
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Less predictable consequences are the shifting of global <button class='glossary-text'>weather</button> patterns and the subsequent changes in natural populations. Areas previously ideal for agriculture may become too arid for crop growth. Climes that are more northerly may experience an increase in productivity. These shifts will put stress on ecosystems as well. How resilient each community is to the changes will vary with location and other pressures."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The atmosphere and <button class='glossary-text'>climate</button> are highly complex systems that are challenging to understand and predict. To explore such complex systems, scientists frequently employ <button class='glossary-text'>models</button>. A model is a simplification of a complex process that isolates certain factors likely to be important. For example, Figure 5 is from a high-resolution weather model that shows the surface temperature of the earth."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Sometimes a model can be a physical representation of something too big or too small to see, such as a model of the solar system. However, scientists frequently use mathematical equations derived from observed data to predict future conditions."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "With computers, mathematical climate equations can be linked together in increasingly sophisticated ways to model multiple factors in three dimensions, producing global climate models. Because of computing limitations, some factors must be simplified; how they are represented in the model can lead to a degree of error in the outcomes predicted. Ultimately, the quality of all models is determined by their success in predicting events that have not yet taken place."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Env_Sci/580865_VIRT/580865VIRT_Env_Sci_fig_005.svg",
+                  "desc": "Figure 5: A weather model superimposed on a map of North America, centered on the United States. Different colors represent the varying surface temperatures of the land and oceans. The land shows a wider range of temperatures than the surrounding oceans.",
+                  "altText": "Figure 5: A weather model superimposed on a map of North America, centered on the United States. Different colors represent the varying surface temperatures of the land and oceans. The land shows a wider range of temperatures than the surrounding oceans.",
+                  "maxWidth": "350px",
+                  "scrollImg": true,
+                  "imgDivWidth": "320px",
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'>NOAA's Latest High Resolution Weather Model by NOAA Satellites is available under CC BY 2.0 at <br><span target='blank' style=' word-break: break-all'>https://www.flickr.com/photos/125201706@N06/15242010059</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Needed but not supplied"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<ul style='margin-bottom:0px'><li>Graphing paper and a digital camera/smartphone, or graphing software</li></ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "OverView",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are no safety concerns for this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Gases such as carbon dioxide and water vapor in the earth’s atmosphere insulate the planet because they absorb and re-emit what kind of radiation from the sun?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "infrared radiation",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "visible light",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "ultraviolet radiation",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "all radiation from the sun",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "blue light",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best explains why atmospheric water vapor levels are not a forcing factor in global climate change?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Water vapor is a condensable greenhouse gas.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Water vapor is a persistent greenhouse gas.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Water vapor has a low heat capacity compared to other greenhouse gases.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Water vapor levels are independent of atmospheric temperature changes.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Water vapor is only found in certain regions of the atmosphere.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Lottie lives in Iceland. Her friend Maricela, lives in Colombia. As they video chat, they discuss the weather: Lottie’s outdoor thermometer reads 20° C, while Maricela’s phone says her town is 31° C. Which of the following best accounts for this difference in temperature?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The equator receives direct sunlight while the poles receive more diffuse sunlight.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The equator is significantly closer to the sun than the poles.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The oceans at the equator are warmer than those at the poles.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Carbon dioxide in the atmosphere is concentrated at the equator.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Water vapor in the atmosphere is concentrated at the equator.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following can sequester large amounts of carbon dioxide from the atmosphere?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "the oceans",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "permafrost",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "sea ice",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "water vapor",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "soil",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following statements about differential heating is true?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Darker materials heat faster than lighter colored materials. ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Water has a low heat capacity relative to air.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Warmer fluids are denser than colder fluids.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Water cools faster than land.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Water vapor has a low heat capacity relative to other greenhouse gases.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Env_Sci_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You will make predictions about the effect of an atmosphere on the earth’s surface temperature. Then, you will collect and analyze data from a simulation of the phenomenon."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Activity 1",
+              "template": "VirtualLab",
+              "activityPath": "activities/580865_VIRT/activity1/story.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Env_Sci_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You will make predictions about the differences in <button class='glossary-text'>albedo</button> between Arctic sea ice and open ocean. Then, you will collect and analyze data from a simulation of the phenomenon."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "Activity 2",
+              "template": "VirtualLab",
+              "activityPath": "activities/580865_VIRT/activity2/story.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 3",
+      "menuIcon": "core/Env_Sci_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You will make predictions about the effects of sea ice melt and glacial melt on sea level. Then, you will collect and analyze data from a simulation of the phenomenon."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 3",
+          "pages": [
+            {
+              "title": "Activity 3",
+              "template": "VirtualLab",
+              "activityPath": "activities/580865_VIRT/activity3/story.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Env_Sci_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "courses/580865_VIRT/logo.png",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "altText": "Carolina Distance Learning Logo",
+      "pageSetting": "Portrait A4"
+    },
+    "pages": [
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question1_1",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Hypothesis"
+              },
+              {
+                "type": "Plain",
+                "text": "If one version of Earth has an atmosphere, and a second version of Earth does not, how do you predict the average surface temperature of the first Earth will compare to the second Earth over time? Explain your reasoning."
+              },
+              {
+                "type": "Questions",
+                "id": "Question1_1",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Data",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable",
+            "width": "75%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 1"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "headerHidden": true,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "12.5%"
+                  },
+
+                  {
+                    "text": "",
+                    "maxLength": 5,
+                    "colWidth": "12.5%"
+                  },
+                  {
+                    "text": "",
+                    "maxLength": 5,
+                    "colWidth": "12.5%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span style='color:white; font-weight: 500;'>Time (Years)",
+                      "hoverText": "Time (Years)",
+                      "rowspan": 2,
+                      "borderBottom": "medium",
+                      "color": "#6b6b6b",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "text",
+                      "text": "<span style='color:white; font-weight: 500;'>Average Surface Temperature of Earth (°C)",
+                      "hoverText": "Pollinator",
+                      "colspan": 2,
+                      "rowHeight": "40px",
+                      "color": "#6b6b6b",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "color": "#6b6b6b",
+                      "rowHeight": "40px",
+                      "text": "<span style='color:white; font-weight: 500;'>With Atmosphere",
+                      "hoverText": "With Atmosphere",
+                      "borderBottom": "medium",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "color": "#6b6b6b",
+                      "text": "<span style='color:white; font-weight: 500;'>No Atmosphere",
+                      "hoverText": "No Atmosphere",
+                      "borderBottom": "medium",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "0",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "10",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "20",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "30",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "40",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "50",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "60",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "70",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "80",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "90",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "100",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "110",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "120",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "130",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "140",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Photo 1",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Graph"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert a scatter plot graph of the data from Activity 1. The graph should include a title and labeled axes. If using graphing software, upload an image of your graph and not the spreadsheet file."
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": ["Question1", "Question2"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question1",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "Summarize the results of the Activity 1 simulation. Does the data support or refute your initial hypothesis? Why or why not?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "2",
+                "listType": "ordered",
+                "text": [
+                  "Use your knowledge of the greenhouse effect to explain the final temperature difference between the two Earths."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 1,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question1_2",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2"
+              },
+              {
+                "type": "Plain",
+                "title": "Hypothesis"
+              },
+              {
+                "type": "Plain",
+                "text": "If open ocean and Arctic sea ice are exposed to sunlight for the same amount of time, how do you predict the average temperature of the ocean will compare to that of the sea ice over time? Explain your reasoning."
+              },
+              {
+                "type": "Questions",
+                "id": "Question1_2",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Data",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable2",
+            "width": "75%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 2"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "headerHidden": true,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "12.5%"
+                  },
+
+                  {
+                    "text": "",
+                    "maxLength": 5,
+                    "colWidth": "12.5%"
+                  },
+                  {
+                    "text": "",
+                    "maxLength": 5,
+                    "colWidth": "12.5%"
+                  },
+                  {
+                    "text": "",
+                    "maxLength": 5,
+                    "colWidth": "12.5%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span style='color:white; font-weight: 500;'>Time (Years)",
+                      "hoverText": "Time (Years)",
+                      "rowspan": 2,
+                      "borderBottom": "medium",
+                      "color": "#6b6b6b",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "text",
+                      "text": "<span style='color:white; font-weight: 500;'>Average Temperature (°C)",
+                      "hoverText": "Average Temperature (°C)",
+                      "colspan": 3,
+                      "rowHeight": "40px",
+                      "color": "#6b6b6b",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "color": "#6b6b6b",
+                      "rowHeight": "40px",
+                      "text": "<span style='color:white; font-weight: 500;'>Ocean",
+                      "hoverText": "Ocean",
+                      "borderBottom": "medium",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "color": "#6b6b6b",
+                      "text": "<span style='color:white; font-weight: 500;'>Sea Ice",
+                      "hoverText": "Sea Ice",
+                      "borderBottom": "medium",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "color": "#6b6b6b",
+                      "text": "<span style='color:white; font-weight: 500;'>Temperature Difference<br>(Ocean – Ice)",
+                      "hoverText": "Temperature Difference(Ocean – Ice)",
+                      "borderBottom": "medium",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "0",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "1",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "2",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "3",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "4",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "5",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "6",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "7",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "8",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "9",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "10",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "11",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "12",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "13",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "14",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Photo 2",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2 Graph"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert a scatter plot graph of the data from Activity 2. The graph should include a title and labeled axes. If using graphing software, upload an image of your graph and not the spreadsheet file."
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": ["Question3", "Question4"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question3",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "3",
+                "listType": "ordered",
+                "text": [
+                  "Summarize the results of the Activity 2 simulation. Does the data support or refute your initial hypothesis? Why or why not?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question3",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question4",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "4",
+                "listType": "ordered",
+                "text": [
+                  "Use your knowledge of albedo to explain the trend in the temperature difference between the ocean and sea ice over time."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question4",
+                "sr": 1,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question1_3",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 3"
+              },
+              {
+                "type": "Plain",
+                "title": "Hypothesis"
+              },
+              {
+                "type": "Plain",
+                "text": "An island is experiencing global climate change. If one version of the island has melting glacial ice and a second version of the same island has melting sea ice, how do you predict the sea level will change in each island scenario? Explain your reasoning."
+              },
+              {
+                "type": "Questions",
+                "id": "Question1_3",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Data",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable3",
+            "width": "75%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 3"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "headerHidden": true,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "12.5%"
+                  },
+
+                  {
+                    "text": "",
+                    "maxLength": 5,
+                    "colWidth": "12.5%"
+                  },
+                  {
+                    "text": "",
+                    "maxLength": 5,
+                    "colWidth": "12.5%"
+                  },
+                  {
+                    "text": "",
+                    "maxLength": 5,
+                    "colWidth": "12.5%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span style='color:white; font-weight: 500;'>",
+                      "hoverText": "",
+                      "rowspan": 2,
+                      "borderBottom": "medium",
+                      "color": "#6b6b6b",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "text",
+                      "text": "<span style='color:white; font-weight: 500;'>Sea Level (km)",
+                      "hoverText": "Average Temperature (°C)",
+                      "colspan": 3,
+                      "rowHeight": "40px",
+                      "color": "#6b6b6b",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "color": "#6b6b6b",
+                      "rowHeight": "40px",
+                      "text": "<span style='color:white; font-weight: 500;'>Initial Elevation",
+                      "hoverText": "Initial Elevation",
+                      "borderBottom": "medium",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "color": "#6b6b6b",
+                      "text": "<span style='color:white; font-weight: 500;'>Final Elevation",
+                      "hoverText": "Final Elevation",
+                      "borderBottom": "medium",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "color": "#6b6b6b",
+                      "text": "<span style='color:white; font-weight: 500;'>Elevation Difference<br>(Final – Initial)",
+                      "hoverText": "Elevation Difference(Final – Initial)",
+                      "borderBottom": "medium",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Melting Glacial Ice",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Melting Sea Ice",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Photo 3",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 3 Graph"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert a bar graph of the data from Activity 3. The graph should include a title and labeled axes. If using graphing software, upload an image of your graph and not the spreadsheet file."
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": ["Question5", "Question6"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question5",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "5",
+                "listType": "ordered",
+                "text": [
+                  "Summarize the results of the Activity 3 simulation. Does the data support or refute your initial hypothesis? Why or why not?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question5",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question6",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "6",
+                "listType": "ordered",
+                "text": [
+                  "Explain the difference between the amount of sea level change caused by melting glacial ice versus the amount of sea level change caused by melting sea ice."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question6",
+                "sr": 1,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+
+    "pageData": [
+      {
+        "type": "Images",
+        "desc": "A pie chart describing the composition of Earth's atmosphere. 78% nitrogen; 21% oxygen; 1% carbon dioxide, argon, water vapor, and other gases.",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Env_Sci/580865_VIRT/580865VIRT_Env_Sci_fig_001.svg",
+        "scrollImg": true,
+        "maxWidth": "325px",
+        "content": "Figure 1. Composition of Earth’s atmosphere",
+        "altText": "Figure 1: A pie chart describing the composition of Earth's atmosphere. 78% nitrogen; 21% oxygen; 1% carbon dioxide, argon, water vapor, and other gases."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Env_Sci/580865_VIRT/580865VIRT_Env_Sci_fig_002.svg",
+        "content": "Figure 2. Sunlight hitting Earth at different latitudes",
+        "scrollImg": true,
+        "maxWidth": "355px",
+        "altText": "Figure 2: An illustration of Earth as seen from outer space. A square of light is projected onto the equator, creating a square on Earth's surface. A second square of light equal in size to the first square is projected onto the northern latitudes, creating a rectangle on Earth's surface."
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6322215397112",
+        "content": "Convection in Warm Water"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Env_Sci/580865_VIRT/580865VIRT_Env_Sci_fig_003.svg",
+        "content": "Figure 3. Solar radiation and Earth’s atmosphere",
+        "scrollImg": true,
+        "maxWidth": "480px",
+        "altText": "Figure 3: An illustration of the pathways of incoming solar radiation. Some of the incoming radiation is reflected by Earth's surface and the atmopshere back out to space, a process called reflection. Most radiation is absorbed by the Earth's surface and warms it, a process called absorption. Some heat passes out into space. Most heat is absorbd and re-emitted by greenhouse gas molecules, further warming Earth."
+      },
+      {
+        "type": "Pages",
+        "disableClick": true,
+        "hideFromList": true,
+        "thumbnailSrc": "core/Page_icon.svg",
+        "content": "The Keeling Curve",
+        "ref": "https://keelingcurve.ucsd.edu/"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Env_Sci/580865_VIRT/580865VIRT_Env_Sci_fig_004.svg",
+        "content": "Figure 4. The carbon cycle",
+        "scrollImg": true,
+        "maxWidth": "450px",
+        "altText": "Figure 4: An illustration of the biogeochemical cycling of carbon."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Env_Sci/580865_VIRT/580865VIRT_Env_Sci_fig_005.svg",
+        "content": "Figure 5. High-resolution weather model",
+        "scrollImg": true,
+        "maxWidth": "350px",
+        "altText": "Figure 5: A weather model superimposed on a map of North America, centered on the United States. Different colors represent the varying surface temperatures of the land and oceans. The land shows a wider range of temperatures than the surrounding oceans."
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Albedo",
+        "content": "The amount of solar radiation reflected off the earth's surface and into outer space"
+      },
+      {
+        "title": "Anthropogenic",
+        "content": "Caused by humans"
+      },
+      {
+        "title": "Carbon cycle",
+        "content": "The movement of carbon throughout the planet which relies on complicated interactions between multiple feedback loops"
+      },
+      {
+        "title": "Climate",
+        "content": "The prevailing weather pattern over a long period of time"
+      },
+      {
+        "title": "Condensable gas",
+        "content": "A type of greenhouse gas whose concentration in the atmosphere is dependent on temperature"
+      },
+      {
+        "title": "Differential heating",
+        "content": "The process by which different substances heat at different rates"
+      },
+      {
+        "title": "Feedback loop",
+        "content": "A mechanism that either enhances or dampens the effect that triggers it"
+      },
+      {
+        "title": "Forcing factor",
+        "content": "A feature of the earth's climate change system that drives climate change; may be internal or external to the planet; also called a forcing"
+      },
+      {
+        "title": "Global climate change",
+        "content": "The change in global temperatures over time"
+      },
+      {
+        "title": "Greenhouse effect",
+        "content": "The process of gases in the atmosphere trapping heat from solar radiation"
+      },
+      {
+        "title": "Greenhouse gas",
+        "content": "An atmospheric gas that absorbs infrared radiation"
+      },
+      {
+        "title": "Heat capacity",
+        "content": "A measure of how much heat it takes to raise the temperature of a substance by one degree"
+      },
+      {
+        "title": "Model",
+        "content": "A simplification of a complex process that isolates certain important factors"
+      },
+      {
+        "title": "Permafrost",
+        "content": "Ground that remains frozen for years at a time"
+      },
+      {
+        "title": "Persistent gas",
+        "content": "A type of greenhouse gas that exists in the atmosphere much longer than condensable gases"
+      },
+      {
+        "title": "Sea level rise",
+        "content": "The increase in sea level elevation due to global climate change"
+      },
+      {
+        "title": "Weather",
+        "content": "The condition of the atmosphere in a given location at a specific time"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

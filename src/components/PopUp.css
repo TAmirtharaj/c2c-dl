@@ -1,0 +1,48 @@
+.popUpWrapper{
+    position: absolute;
+    position: absolute;
+    bottom: 110%;
+    width: 290px;
+    right: 0%;
+    height: 100%;
+}
+
+.popUpContentBg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,98,184,1);
+    border-radius: 15px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+}
+
+.popUpContent{
+    width: 100%;
+    height: 18px;
+    background-color: rgba(0,98,184,1);
+    border-radius: 15px;
+    margin: auto;
+    position: absolute;
+    bottom: 14px;
+    right: 0;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: rgba(255,255,255,1);
+    font-family: Montserrat-SemiBold;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute;
+    bottom: -18px;
+    right: 8%;
+    border-top: 20px solid rgba(0,98,184,1);
+}

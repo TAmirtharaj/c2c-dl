@@ -1,0 +1,159 @@
+.title {
+  position: relative;
+  width: 98%;
+  height: 38px;
+  background-color: #c6e2ff;
+  border: none;
+  overflow: hidden;
+  padding: 0px;
+  cursor: pointer;
+}
+.title:hover:not(.disabledTile) {
+  background-color: #daecff;
+}
+.title.disabledTile {
+  opacity: 0.2;
+  cursor: default;
+}
+
+.title:focus {
+  z-index: 10;
+}
+
+.menuSubTitle {
+  position: relative;
+  width: 98%;
+  height: 38px;
+  background-color: #c6e2ff;
+  border: none;
+  overflow: hidden;
+  padding: 0px;
+  cursor: pointer;
+}
+.menuSubTitle:hover:not(.disabledTile) {
+  background-color: #daecff;
+}
+.menuSubTitle.disabledTile {
+  opacity: 0.2;
+  cursor: default;
+}
+.menuSubTitle:focus {
+  z-index: 10;
+}
+
+.menuSubSubTitle {
+  position: relative;
+  width: 98%;
+  height: 38px;
+  background-color: #c6e2ff;
+  border: none;
+  overflow: hidden;
+  padding: 0px;
+  cursor: pointer;
+  margin: 0 4px 4px 0;
+}
+.menuSubSubTitle:hover:not(.disabledTile) {
+  background-color: #daecff;
+}
+.menuSubSubTitle.disabledTile {
+  opacity: 0.2;
+  cursor: default;
+}
+
+.menuClicked {
+  background-color: #daecff;
+}
+
+.menuIcon {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  float: left;
+  left: 25px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.menuText {
+  position: relative;
+  top: 5px;
+  left: 40px;
+  bottom: 0;
+  font-size: 14px;
+  font-family: "HelveticaNeueLTStdMd65";
+  color: #0062b8;
+  text-align: left;
+  overflow: "hidden";
+  max-width: calc(100% - 50px);
+}
+
+.subMenuText {
+  position: relative;
+  top: 0px;
+  left: 25px;
+  bottom: 0;
+  font-size: 14px;
+  font-family: "HelveticaNeueLTStdMd65";
+  color: #0062b8;
+  text-align: left;
+  overflow: hidden;
+  max-width: calc(100% - 25px);
+}
+
+.subSubMenuText {
+  position: relative;
+  top: 0px;
+  left: 25px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-right: 20px;
+  bottom: 0;
+  font-size: 14px;
+  font-family: "HelveticaNeueLTStdMd65";
+  color: #0062b8;
+  text-align: left;
+  overflow: hidden;
+}
+
+.moreButton {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  bottom: 0;
+  margin: auto;
+  transform: rotate(90deg);
+}
+.dissableButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Mobile Potrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 765px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .title {
+    width: 100%;
+  }
+  .menuSubTitle {
+    width: 100%;
+  }
+  .menuSubSubTitle {
+    width: 100%;
+  }
+}
+/* Mobile Potrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 915px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .title {
+    width: 100%;
+  }
+  .menuSubTitle {
+    width: 100%;
+  }
+  .menuSubSubTitle {
+    width: 100%;
+  }
+}

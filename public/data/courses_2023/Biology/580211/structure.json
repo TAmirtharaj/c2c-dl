@@ -1,0 +1,3076 @@
+{
+  "locked": true,
+  "courseTitle": "Earthworm Dissection",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/bodyBookmark.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Biology_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Biology",
+                "images": {
+                  "launchPage": "core/Biology_launchPageBg.svg",
+                  "logo": "core/Biology_subject_icon.svg"
+                },
+                "titleName2": "Earthworm Dissection",
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "waterMark": true,
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "This lab examines the internal and external anatomy of the common earthworm. Students will identify adaptations of the worm that make it suited to its habitat and its role within that habitat."
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Biology/580211/580211_Bio_Time-Requirement.svg",
+                  "desc": "Preparation - 5 minutes\nActivity 1: Slide Images - 45 minutes\nActivity 2: Anatomy - 45 minutes",
+                  "altText": "Preparation - 5 minutes\nActivity 1: Slide Images - 45 minutes\nActivity 2: Anatomy - 45 minutes",
+                  "width": "100%",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "480px",
+                  "maxWidth": "560px",
+                  "scrollImg": true
+                },
+                {
+                  "type": "List",
+                   "containerType": "rightContainer",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Camera or cell phone capable of taking photographs",
+                    "70% isopropyl alcohol (rubbing alcohol) or other non-bleach disinfectant",
+                    "Paper towels"
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "title": "Overview video: Earthworm Dissection"
+                },
+                {
+                  "type": "Video",
+                  "containerType": "rightContainer",
+                  "width": "100%",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Biology/580211/580211_Bio_VideoIcone.svg",
+                  "desc": "OverView Video",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6328958736112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Identify internal and external features of the earthworm <span class='bodyFontItalic'>Lumbricus terrestris</span>.", 
+                    "Define the role of the earthworm in its environment.", 
+                    "Relate anatomical structures to their functions.", 
+                    "Discuss the advantages of segmentation."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Earthworms have long been used to help gardeners and farmers maintain healthy soil by aerating the soil and breaking down organic material, like food and yard clippings, to return nutrients to the environment. However, recent studies show that earthworms can also help remove heavy metals from contaminated soils<sup class='bodySupscript'>1</sup>. Heavy metals, like lead, mercury, and cadmium are toxic to humans and other animals, damaging the nervous system and other organs. Once these heavy metals enter the soil, often from mining or manufacturing sites, they are difficult to remove. They harm the organisms living in the soil as well as contaminate nearby drinking water."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Because of their unique digestion, earthworms do not absorb heavy metals from the soil, but instead bind them with proteins and excrete them out. These excreted products are then easier for specialized plants to absorb, thus removing the metals from the contaminated area and making the soil useable again. This keeps streams and ground water free of heavy metal contamination, protecting the health of everyone who relies on them."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'><sup class='bodySupscript'>1</sup>Sizmur, T. & Hodson, M. E. (2009). Do earthworms impact metal mobility and availability in soil? – A Review. Environmental Pollution, 157(7), 1981–1989. https://doi.org/10.1016/j.envpol.2009.02.029<span className=bodyParaLineBreak>Image 4369 by John Coppi is available under CC BY 3.0 at <span target='blank' style=' word-break: break-all'>https://www.scienceimage.csiro.au/image/4369</span>.</span></span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580211/580211_Bio_whyShouldICare.svg",
+                  "desc": "Soil pollution at the Brukunga Pyrites Mine in Australia.",
+                  "altText": "Soil pollution at the Brukunga Pyrites Mine in Australia.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Earthworms are a group of terrestrial worms in the phylum Annelida. Annelids are segmented worms, and are comprised of four major classes. The most common Annelids are the marine worms found in class Polychaeta <span style='whiteSpace: nowrap'>(Figure 1a),</span> and the primarily fresh water worms found in class Clitellata. Class Clitellata is a relatively new designation, which combines two previous classes of annelids, Hirudinea (leeches) <span style='whiteSpace: nowrap'>(Figure 1b)</span> and Oligochaeta <span style='whiteSpace: nowrap'>(earthworms)</span> <span style='whiteSpace: nowrap'>(Figure 1c),</span> into a single group based on both morphological and molecular characters. The former classes, Hirudinea and Oligochaeta, have been demoted to sub-classes and the term oligochaete is still used to refer to species of earthworms. Recent molecular research indicates that Clitellata are descended from sedentary polychaetes and there may be a revision of their taxonomic classification in the near future."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580211/580211_Bio_fig_001.svg",
+                  "imgDivWidth": "195px",
+                  "scrollImg": true,
+                  "maxWidth": "240px",
+                  "altText": "Figure 1: Images of three major classes of annelids. Marine polychaetes have fleshy appendages on each segment. The leech is bulbous and obviously segmented, resting on a leaf. The earthworms are coiled in mud and leaf litter."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are between 3,000–7,000 different species of earthworms. The specific features of each species differ, especially the <button class='glossary-text'>segment</button> on which key features are found. This activity focuses on <span class='bodyFontItalic'>Lumbricus terrestris</span>. This earthworm is <button class='glossary-text'>endemic</button> (native) to Europe, but can now be found throughout the world. It is familiar to gardeners as a common garden worm and is frequently used as bait for fishing. <span class='bodyFontItalic'>L. terrestris</span> is a <button class='glossary-text'>deep</button> burrowing worm, sometimes burrowing as deep as several meters below the surface. It pushes its way through the soil, ingesting small particles of soil as it goes. These worms owe their easy recognition to their habit of rising to the soil surface at night, and leaving their burrows entirely during rainstorms. The body of <span class='bodyFontItalic'>L. terrestris</span> is long and slender with a distinctive ring called a <button class='glossary-text'>clitellum</button>, set back from the head. The <button class='glossary-text'>anterior</button> end is tapered in a <button class='glossary-text'>prostomium</button>, which just precedes the mouth. The body is composed of repeating units called <span class=bodyFontBold>segments</span>. The prostomium is not considered a segment. Numbering of segments begins just anterior to the prostomium. Some segments are specialized, but there are many identical segments. The segments are separated by a double wall of tissue called a <button class='glossary-text'>transverse septum</button> (plural septa). Running the length of the body are four rows of paired setae, hair-like bristles used for feeling and motion. Two pairs run along the <button class='glossary-text'>ventral</button> surface and an additional pair runs down each side of the worm. The body tapers at the <button class='glossary-text'>posterior</button> end to the anus."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "A cross section of the earthworm reveals an outer cuticle layer, which secretes mucus to protect and lubricate the worm. Under the cuticle is the epidermal layer. The <button class='glossary-text'>circular muscle</button> lays just under the epidermis (Figure 2). The orientation of the muscle fibers is perpendicular to the length of the worm. The <button class='glossary-text'>longitudinal muscle</button>, which lays just interior to the circular muscle, has fibers that run the length of the worm. Annelids are <button class='glossary-text'>coelomates</button>, which means they possess a fluid-filled inner space that is completely lined by a muscle layer derived from the middle layer of embryonic cells. This contrasts with <button class='glossary-text'>pseudocoelomates</button>, like nematode worms, whose digestive tract is not lined with a muscle layer. The layer of cells lining the outer <button class='glossary-text'>coelom</button> is called the <button class='glossary-text'>parietal peritoneum</button>, whereas the layer lining the gut is called the <button class='glossary-text'>visceral peritoneum</button> (Figure 2). Between these two tissues and containing the internal organs is the body cavity known as the <span class=bodyFontBold>coelom</span>. Interior to the visceral peritoneum is the digestive tract."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580211/580211_Bio_fig_002.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "475px",
+                  "scrollImg": true,
+                  "maxWidth": "590px",
+                  "altText": "Figure 2: Labeled cross-section of an earthworm"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Video",
+                  "imgDivMargin": "5px 0 0 0",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Biology/580211/580211_Bio_VideoIcone1.svg",
+                  "url": "https://players.brightcove.net/17907428001/SynUkoIDe_default/index.html?videoId=1306624190001"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Earthworms are annelids. The phylum Annelida is different from other worm phyla because its members are considered which of the following?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "coelomates",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "terrestrial",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "pseudocoelomates",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "non-segmented",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "sedentary",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Annelids are coelomates. They possess a fluid-filled inner space (coelom) that is completely lined by a muscle layer derived from the middle layer of embryonic cells."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What two structures encapsulate the coelom?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "the parietal peritoneum and the visceral peritoneum",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "the digestive tract and the visceral peritoneum",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "the longitudinal muscle and the parietal peritoneum",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "the transverse septum and the digestive tract",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "the circular muscle and the longitudinal muscle",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Between the parietal peritoneum and the visceral peritoneum tissues is the body cavity known as the coelom."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Earthworms are a group of terrestrial worms in the phylum Annelida. Annelids are segmented worms. They are also coelomates, which means they possess a fluid-filled inner space that is completely lined by a muscle layer derived from the middle layer of embryonic cells. The layer of cells lining the outer coelom is called the parietal peritoneum, whereas the layer lining the gut is called the visceral peritoneum. Between these two tissues and containing the internal organs is the body cavity known as the coelom.<span className=bodyParaLineBreak>A cross section of the earthworm reveals an outer cuticle layer, which secretes mucus to protect and lubricate the worm. Under the cuticle is the epidermal layer. The circular muscle lays just under the epidermis. The orientation of the muscle fibers is perpendicular to the length of the worm. The longitudinal muscle, which lies just interior to the circular muscle, has fibers that run the length of the worm.</span>",
+                  "img": [
+                    {
+                      "src": "courses_2023/Biology/580211/580211_Bio_fig_002.svg",
+                      "alt": "Figure 2: Labeled cross-section of an earthworm",
+                      "maxWidth": "90%"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "Earthworms are a group of terrestrial worms in the phylum Annelida. Annelids are segmented worms. They are also coelomates, which means they possess a fluid-filled inner space that is completely lined by a muscle layer derived from the middle layer of embryonic cells. The layer of cells lining the outer coelom is called the parietal peritoneum, whereas the layer lining the gut is called the visceral peritoneum. Between these two tissues and containing the internal organs is the body cavity known as the coelom.<span className=bodyParaLineBreak>A cross section of the earthworm reveals an outer cuticle layer, which secretes mucus to protect and lubricate the worm. Under the cuticle is the epidermal layer. The circular muscle lays just under the epidermis. The orientation of the muscle fibers is perpendicular to the length of the worm. The longitudinal muscle, which lies just interior to the circular muscle, has fibers that run the length of the worm.</span>",
+                  "img": [
+                    {
+                      "src": "courses_2023/Biology/580211/580211_Bio_fig_002.svg",
+                      "alt": "Figure 2: Labeled cross-section of an earthworm",
+                      "maxWidth": "90%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Movement",
+                  "text": "To move, a portion of the <button class='glossary-text'>circular muscle</button> contracts inward to the body, exerting pressure on the <button class='glossary-text'>coelom</button> and forcing coelomatic fluid through tiny pores in the septa. This elongates the <button class='glossary-text'>segments</button> in this region. Simultaneously, the <button class='glossary-text'>longitudinal muscle</button> in adjacent areas contracts, shortening these segments. The contractions proceed as waves down the length of the body. This alternately lengthens and shortens the body of the worm allowing it to move along the ground or force its way through spaces in the sediment. The segmentation of the worm allows the <button class='glossary-text'>hydrostatic skeleton</button> to be more efficient and results in less distortion of the body of the worm. Setae extend during the longitudinal contraction, creating a greater hold on the sediment or ground around the worm, and are retracted during the circular contraction to allow the worm to move freely. This type of movement is called <button class='glossary-text'>peristalsis</button> and is similar to the contractions used by humans to swallow food and move it through the gastrointestinal tract."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Respiration and Circulation",
+                  "text": "Gas exchange occurs through diffusion in earthworms, as it does in most oligochaetes. Only a few species of aquatic oligochaetes possess gills. Oxygen and nutrients are circulated through the body in a closed circulatory system. There are two main vessels, the <button class='glossary-text'>median dorsal vessel</button> (<button class='resource-text'>Figures 2</button> and 3) and the <button class='glossary-text'>median ventral vessel</button> (Figures 2 and 3), which carry blood up and down the length of the worm, supplying blood to the <button class='glossary-text'>segmental vessels</button>. The segmental vessels supply the capillaries and the segmental organs. The <button class='glossary-text'>dorsal</button> vessel contracts to move blood through the body. In addition, regions of the <button class='glossary-text'>anterior</button> blood vessels contract strongly and these are commonly referred to as hearts. <span class='bodyFontItalic'>L. terrestris</span> possesses five such regions near the <button class='glossary-text'>esophagus</button>. The heart walls form folds that act as valves to prevent blood from flowing backward."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580211/580211_Bio_fig_003.svg",
+                  "imgDivWidth": "250px",
+                  "scrollImg": true,
+                  "maxWidth": "310px",
+                  "altText": "Figure 3: A worm is shown, cut open and pinned. Major features of the circulatory, digestive and nervous systems are labeled"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+               
+                {
+                  "type": "Plain",
+                  "subTitle": "Nutrition and Digestion",
+                  "text": "Earthworms are decomposers, feeding on dead organic matter, primarily plants. They also ingest soil particles while burrowing. Particles of food are brought through the mouth to a small <button class='glossary-text'>buccal cavity</button>. They then pass to the <button class='glossary-text'>pharynx</button> <span style='whiteSpace: nowrap'>(<button class='resource-text'>Figure 3</button>)</span> and the <button class='glossary-text'>esophagus</button>. The esophagus is lined with <button class='glossary-text'>calciferous glands</button>, which excrete calcium carbonate (CaCO<sub class='bodysubscript'>3</sub>) crystals into the esophagus."
+                },
+                {
+                  "type": "Plain",
+                  "text": "It is believed that this helps to maintain the pH of the worm and excrete excess calcium. Other hypotheses suggest that it aids in the excretion of carbon dioxide when carbon dioxide levels in the soil reduce the amount being removed by diffusion. The <button class='glossary-text'>crop</button> is an enlarged area where food is stored while waiting to move into the <button class='glossary-text'>gizzard</button>. Ingested soil serves two purposes: one as a source of organic material, and another as grit to grind food particles in the gizzard."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The <button class='glossary-text'>intestine</button> runs the remaining length of the worm. In the <button class='glossary-text'>anterior</button> portion of the intestine, digestive enzymes are secreted. In the <button class='glossary-text'>posterior</button> half of the intestine, nutrients are absorbed. To increase the surface area of the intestine, the wall of the intestine folds. This is called a <button class='glossary-text'>typhlosole</button> (<button class='resource-text'>Figure 2</button>). The tissue surrounding the intestine, the <button class='glossary-text'>visceral peritoneum</button>, serves a similar function as the liver in vertebrates. Toxins are stored and broken down here and glycogen, fat, and hemoglobin are synthesized."
+                },  
+                {
+                  "type": "Video",
+                  "containerType": "rightContainer",
+                  "imgDivMargin":"2px 0 0 0",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Biology/580211/580211_Bio_VideoIcone2.svg",
+                  "url": "https://players.brightcove.net/17907428001/SynUkoIDe_default/index.html?videoId=1306582755001"
+                }       
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Once usable nutrients have been absorbed, excess and inorganic materials are eliminated through the anus. The waste forms <button class='glossary-text'>vermicast</button>, which has a high concentration of water-soluble organic materials."
+                },
+                {
+                  "type": "Plain",
+                  "subTitle": "Waste Elimination",
+                  "text": "Each <button class='glossary-text'>segment</button> possesses one or more pairs of <button class='glossary-text'>nephridia</button> (singular nephridium) (<button class='resource-text'>Figure 2</button>). These organs extract wastes and balance salts in the blood and are very similar in design and function to the nephrons found in the kidneys of vertebrates. The nephridium begin in the coelomic cavity in a funnel-like structure called a <button class='glossary-text'>nephrostome</button>. Cillia on the nephrostome move fluid into the opening. Fluids pass from the nephrostome into a coiled tubule. Nitrogenous wastes, such as uric acid, urea, and ammonia, are absorbed from the bloodstream in the early parts of the tube. In later portions, proteins, salts, and water are reabsorbed before the urine passes into an enlarged portion of the tubule called the bladder. From the bladder, the waste is excreted through the nephridiopore (<button class='resource-text'>Figure 4</button>). Under normal conditions, in relatively moist soil, earthworms excrete highly hypoosmotic urine composed of urea and ammonia. Earthworms adapted to living in dry soils, such as those in the families Megascolecidae and Glossoscolecidae, have additional specialized nephridia. These specialized nephridia excrete the urine into the digestive tract where water can be further reabsorbed."
+                },
+                
+                {
+                  "type": "Video",
+                  "imgDivMargin":"2px 0 0 0",
+                  "containerType": "rightContainer",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Biology/580211/580211_Bio_VideoIcone3.svg",
+                  "url": "https://players.brightcove.net/17907428001/SynUkoIDe_default/index.html?videoId=1306582750001"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Senses and Nervous System",
+                  "text": "Although earthworms do not have eyes, they do have photoreceptors embedded in the epidermis, which allows them to sense light. These are concentrated on the <button class='glossary-text'>anterior</button> end of the worm. Clusters of sensory cells that may project from their bodies as <button class='glossary-text'>tubercles</button> contain chemoreceptors, allowing the earthworm to smell/taste their environment. In addition, many free nerve endings throughout the body respond to touch."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The brain consists of a pair of <button class='glossary-text'>cerebral ganglia</button> and lies in the third <button class='glossary-text'>segment</button>, just before the <button class='glossary-text'>pharynx</button>. From this, arise several nerves. The <button class='glossary-text'>prostomial nerve</button> runs to the anterior of the worm and is fired by stimulation in the head region. Two <button class='glossary-text'>subpharyngeal ganglia</button> run down along either side of the pharynx and connect to the central <button class='glossary-text'>ventral</button> ganglion that runs the length of the body. Each segment possesses <button class='glossary-text'>segmental ganglia</button> branching off from the ventral nerve cord. Peristaltic contractions arise from the ventral nerve cord, but reflexes are controlled in the subpharyngeal ganglia. The cerebral ganglia process external input and coordinate responses."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following best describes an earthworm’s diet?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "dead plant matter",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "blood from a host animal",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "fruits and vegetables",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "living plant roots",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "soil and sediment",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Earthworms are decomposers, feeding on dead organic matter, primarily plants."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following best describes the role of soil ingested by earthworms?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "It provides grit in the gizzard for grinding food particles.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "It is the primary component of an earthworm’s diet.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "It buffers the pH of the digestive tract.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "It provides digestive enzymes previously excreted by fungi in the soil.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "It absorbs waste from microbes in the digestive tract.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Earthworms ingest soil particles while burrowing, which soil serves as grit to grind food particles in the gizzard."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Earthworms are decomposers, feeding on dead organic matter, primarily plants. They also ingest soil particles while burrowing. Particles of food are brought through the mouth to a small buccal cavity. They then pass to the pharynx and the esophagus. The esophagus is lined with calciferous glands, which excrete calcium carbonate (CaCO3) crystals into the esophagus. It is believed that this helps to maintain the pH of the worm and excrete excess calcium. From the esophagus, food moves to the crop, an enlarged area where food is stored while waiting to move into the gizzard. Ingested soil serves two purposes: one as a source of organic material, and another as grit to grind food particles in the gizzard. The intestine runs the remaining length of the worm. In the anterior portion of the intestine, digestive enzymes are secreted. In the posterior half of the intestine, nutrients are absorbed. Once usable nutrients have been absorbed, excess and inorganic materials are eliminated through the anus. The waste forms vermicast, which has a high concentration of water-soluble organic materials."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Earthworms are decomposers, feeding on dead organic matter, primarily plants. They also ingest soil particles while burrowing. Particles of food are brought through the mouth to a small buccal cavity. They then pass to the pharynx and the esophagus. The esophagus is lined with calciferous glands, which excrete calcium carbonate (CaCO3) crystals into the esophagus. It is believed that this helps to maintain the pH of the worm and excrete excess calcium. From the esophagus, food moves to the crop, an enlarged area where food is stored while waiting to move into the gizzard. Ingested soil serves two purposes: one as a source of organic material, and another as grit to grind food particles in the gizzard. The intestine runs the remaining length of the worm. In the anterior portion of the intestine, digestive enzymes are secreted. In the posterior half of the intestine, nutrients are absorbed. Once usable nutrients have been absorbed, excess and inorganic materials are eliminated through the anus. The waste forms vermicast, which has a high concentration of water-soluble organic materials."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Reproduction and Development",
+                  "text": "Earthworms are hermaphrodites with distinct male and female gonads. Despite producing both eggs and sperm, earthworms cannot selffertilize, though they can reproduce asexually via fragmentation. Sexual reproduction is significantly different in oligochaetes compared to their aquatic kin. In the aquatic polychaetes, gametes are released into the water column where they may meet and fertilization can occur. Because most oligochaetes live in terrestrial environments, they require direct contact for fertilization to occur. During copulation, two worms align, facing in opposite directions with their <button class='glossary-text'>ventral</button> surfaces touching. Mucus secreted by the clitella of both worms envelops their <button class='glossary-text'>anterior</button> ends, helping to hold them in place. They also grasp one another with an enlarged setae called <button class='glossary-text'>genital setae</button> (Figure 4). Each worm releases sperm from their <button class='glossary-text'>seminal vesicles</button> (<button class='resource-text'>Figure 3</button>), through a pair of <button class='glossary-text'>sperm ducts</button> into its partner’s <button class='glossary-text'>seminal receptacle</button>. Here the sperm is stored until the eggs are ready for fertilization."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580211/580211_Bio_fig_004.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "475px",
+                  "scrollImg": true,
+                  "maxWidth": "590px",
+                  "altText": "Figure 4: Diagram of features of the anterior end of the earthworm. Prostomium and mouth on segment 1; Seminal receptacle openings between segments and 9 and 10 and between segments 10 and 11; Oviduct on segment 14; Sperm duct on segment 15; The genital groove running from segments 15 to the clitellum; Genital seta on segment 25; One pair of nephridiopores on each segment and 4 pairs of setae on each segment"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "A few days after copulation the <button class='glossary-text'>clitellum</button> begins to secrete a mucus tube in a ring around the <button class='glossary-text'>anterior</button> <button class='glossary-text'>segments</button>. A tough outer covering is then secreted and then filled with albumin to form a cocoon. Next, the worm begins to work its way back out of the cocoon. As it passes over the <button class='glossary-text'>oviduct</button>, eggs are released into the albumin and the sperm are released from the <button class='glossary-text'>seminal receptacle</button> when the cocoon passes over it. The worm goes on to slip the cocoon, completely off its head where the mucus dries, sealing the cocoon. Multiple cocoons may be produced from a single mating event."
+                },
+                {
+                  "type": "Plain",
+                  "text": "In the species <span class='bodyFontItalic'>Lubricus terrestris</span>, only one egg hatches from a cocoon after 12–13 weeks. Newly emerged worms will reach sexual maturity in 200 days, and can live up to six years under optimal conditions."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "subTitle": "Ecology",
+                  "text": "Earthworms are found in soils throughout the temperate and tropical zones of the world. Worms have a profound effect on the habitat they occupy. They both consume microbes and stimulate microbial activity. They mix and aerate the soil, increasing the porosity of the soil, allowing water to drain away from the surface faster, and minimizing soil drainage. They also improve the long-term water holding capacity of the soil, increasing the availability of water to plants. The looser soil also allows for <button class='glossary-text'>deep</button> penetration of roots into the soil. Different species of earthworms live in different strata of the soil, and can be divided into three groups based on where they live:"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<button class='glossary-text'>Epigeic</button> species live in the surface soil and among leaf litter. These species tend to be smaller and have to adapt to large changes in the amount of water available. These are typically the type of worms used in composting, or vermiculture."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<button class='glossary-text'>Endogeic</button> species move horizontally through the upper soil layers. These worms typically do not have permanent burrows as their tunnels fill with their casts as they pass."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<button class='glossary-text'>Anecic</button> species have deep, vertical burrows that are persistent. <span class='bodyFontItalic'>L. terrestris</span> is this type. These worms typically feed on surface litter and leaves that they pull into their burrows."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "title": "Table 1.",
+                  "containerType": "fullContainer",
+                  "allowClick": true,
+                  "type": "DataTable",
+                  "sr": "10",
+                  "tableHeight": "1.5",
+                  "tableWidth":"725px",
+                  "maxLength": 20,
+                  "header": [
+                    {"text":"Direction or Plane", "colWidth": "30%"},
+                    {"text":"Definition" , "colWidth": "70%"}
+                  ],
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily":"HelveticaNeueLTStdMd65",
+                        "text": "Superior"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Above, toward the head"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily":"HelveticaNeueLTStdMd65",
+                        "text": "Inferior"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Below, toward the feet"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily":"HelveticaNeueLTStdMd65",
+                        "text": "Anterior"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Front, synonymous with ventral in bipeds and cranial in quadrupeds"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily":"HelveticaNeueLTStdMd65",
+                        "text": "Posterior"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Back, synonymous with dorsal in bipeds and caudal in quadrupeds"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily":"HelveticaNeueLTStdMd65",
+                        "text": "Lateral"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward the right or left side"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily":"HelveticaNeueLTStdMd65",
+                        "text": "Medial"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward the midline"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily":"HelveticaNeueLTStdMd65",
+                        "text": "Proximal"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Near or toward the point of reference"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily":"HelveticaNeueLTStdMd65",
+                        "text": "Distal"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Away from the point of reference, which is usually the attachment point"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily":"HelveticaNeueLTStdMd65",
+                        "text": "Dorsal"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward the back"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily":"HelveticaNeueLTStdMd65",
+                        "text": "Ventral"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward the belly or abdomen"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily":"HelveticaNeueLTStdMd65",
+                        "text": "Cranial"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward the head"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily":"HelveticaNeueLTStdMd65",
+                        "text": "Caudal"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward the tail"
+                      }
+                    ],
+                    
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily":"HelveticaNeueLTStdMd65",
+                        "text": "Superficial"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward or along the surface"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily":"HelveticaNeueLTStdMd65",
+                        "text": "Deep"
+                      },
+                      {
+                        "type": "text",
+                        "text": "A significant distance below the surface"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily":"HelveticaNeueLTStdMd65",
+                        "text": "Rostral"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward the nose or mouth"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily":"HelveticaNeueLTStdMd65",
+                        "text": "Sagittal plane"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Divides the body into longitudinal left and right portions"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily":"HelveticaNeueLTStdMd65",
+                        "text": "Midsagittal plane"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Divides the body into equal left and right halves"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily":"HelveticaNeueLTStdMd65",
+                        "text": "Transverse plane"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Perpendicular to the long axis, produces cross-sections"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily":"HelveticaNeueLTStdMd65",
+                        "text": "Frontal plane"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Divides the body into dorsal and ventral portions"
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 3",
+              "pageTitle": "Knowledge Check Question 3",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 2,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Earthworms can reproduce by which of the following methods?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "sexually by copulation and asexually",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "sexually by self-fertilization only",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "asexually only",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "sexually by copulation and by self-fertilization",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "sexually by self-fertilization and asexually",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Despite producing both eggs and sperm for sexual reproduction, earthworms cannot self-fertilize. They can reproduce asexually via fragmentation or sexually during copulation."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following is true about earthworm reproduction?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Sperm is stored by each earthworm of a mating pair after copulation.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Copulation and fertilization take place simultaneously.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "A mating pair of earthworms create a cocoon within which to copulate.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Only one earthworm in a mating pair produces offspring.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Each earthworm transfers eggs to the other via the genital seta.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Each worm releases sperm from their seminal vesicles through a pair of sperm ducts into its partner’s seminal receptacle, where it is stored until the eggs are ready for fertilization."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Earthworms are hermaphrodites with distinct male and female gonads. Despite producing both eggs and sperm, earthworms cannot self-fertilize, though they can reproduce asexually via fragmentation. During copulation (an act of sexual reproduction), two worms align, facing in opposite directions with their ventral surfaces touching. Mucus secreted by the clitella of both worms envelops their anterior ends, helping to hold them in place. They also grasp one another with enlarged setae called genital seta. Each worm releases sperm from their seminal vesicles through a pair of sperm ducts into its partner’s seminal receptacle. Here the sperm is stored until the eggs are ready for fertilization. A few days after copulation, the clitellum creates a cocoon consisting of a tough outer covering filled with albumin. The cocoon passes over the body as the worm wiggles free, during which time the cocoon collects eggs from the oviduct and sperm from the seminal receptable. After the cocoon is shed, the mucus dries and seals the cocoon.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Biology/580211/580211_Bio_fig_004.svg",
+                      "alt": "Figure 4: Diagram of features of the anterior end of the earthworm. Prostomium and mouth on segment 1; Seminal receptacle openings between segments and 9 and 10 and between segments 10 and 11; Oviduct on segment 14; Sperm duct on segment 15; The genital groove running from segments 15 to the clitellum; Genital seta on segment 25; One pair of nephridiopores on each segment and 4 pairs of setae on each segment",
+                      "maxWidth": "89%"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "Earthworms are hermaphrodites with distinct male and female gonads. Despite producing both eggs and sperm, earthworms cannot self-fertilize, though they can reproduce asexually via fragmentation. During copulation (an act of sexual reproduction), two worms align, facing in opposite directions with their ventral surfaces touching. Mucus secreted by the clitella of both worms envelops their anterior ends, helping to hold them in place. They also grasp one another with enlarged setae called genital seta. Each worm releases sperm from their seminal vesicles through a pair of sperm ducts into its partner’s seminal receptacle. Here the sperm is stored until the eggs are ready for fertilization. A few days after copulation, the clitellum creates a cocoon consisting of a tough outer covering filled with albumin. The cocoon passes over the body as the worm wiggles free, during which time the cocoon collects eggs from the oviduct and sperm from the seminal receptable. After the cocoon is shed, the mucus dries and seals the cocoon.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Biology/580211/580211_Bio_fig_004.svg",
+                      "alt": "Figure 4: Diagram of features of the anterior end of the earthworm. Prostomium and mouth on segment 1; Seminal receptacle openings between segments and 9 and 10 and between segments 10 and 11; Oviduct on segment 14; Sperm duct on segment 15; The genital groove running from segments 15 to the clitellum; Genital seta on segment 25; One pair of nephridiopores on each segment and 4 pairs of setae on each segment",
+                      "maxWidth": "89%"
+                    }
+                  ]
+                  
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "desc": "A map describing the procedural workflow of this investigation. Before beginning the investigation, set up the dissection supplies and prepare the specimen for dissection. In activity 1, you will observe slide images and label the key structures on them. In activity 2, you will examine the external anatomy of the worm. Then, you will cut into the worm along the dorsal midline and examine the internal anatomy of the worm. Finally, you will cut across segments of the worm to make a cross-section and compare this to the slide images from activity 1.",
+                  "altText": "A map describing the procedural workflow of this investigation. Before beginning the investigation, set up the dissection supplies and prepare the specimen for dissection. In activity 1, you will observe slide images and label the key structures on them. In activity 2, you will examine the external anatomy of the worm. Then, you will cut into the worm along the dorsal midline and examine the internal anatomy of the worm. Finally, you will cut across segments of the worm to make a cross-section and compare this to the slide images from activity 1.",
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Biology/580211/580211_Bio__ED_001.svg",
+                  "imgDivWidth": "85%",
+                  "maxWidth":"1200px",
+                  "scrollImg":true,
+                  "imgDivWidthForTablet": {
+                    "P": "80%",
+                    "L": "80%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Carolina’s Perfect Solution<sup class='bodySupscript'>®</sup> earthworm",
+                          "image": "courses_2023/Biology/580211/580211_Bio_material_1.svg",
+                          "url": "courses_2023/Biology/580211/580211_Bio_material_1.svg",
+                          "desc": "Carolina’s Perfect Solution® earthworm in jar",
+                          "altText": "Carolina’s Perfect Solution® earthworm in jar"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Earthworm dissection mat",
+                          "image": "courses_2023/Biology/580211/580211_Bio_material_2.svg",
+                          "url": "courses_2023/Biology/580211/580211_Bio_material_2.svg",
+                          "desc": "Earthworm Dissection Mat (back)",
+                          "altText": "Earthworm Dissection Mat (back)"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Absorbent mat",
+                          "image": "courses_2023/Biology/580211/580211_Bio_material_6.svg",
+                          "url": "courses_2023/Biology/580211/580211_Bio_material_6.svg",
+                          "desc": "Blue absorbent pad",
+                          "altText": "Blue absorbent pad"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "6 T-pins",
+                          "image": "courses_2023/Biology/580211/580211_Bio_material_7.svg",
+                          "url": "courses_2023/Biology/580211/580211_Bio_material_7.svg",
+                          "desc": "6 T-pins in a plastic bag",
+                          "altText": "6 T-pins in a plastic bag"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Dissection tray",
+                          "image": "courses_2023/Biology/580211/580211_Bio_material_8.svg",
+                          "url": "courses_2023/Biology/580211/580211_Bio_material_8.svg",
+                          "desc": "Disposable red foam dissecting tray",
+                          "altText": "Disposable red foam dissecting tray"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Scissors",
+                          "image": "courses_2023/Biology/580211/580211_Bio_material_3.svg",
+                          "url": "courses_2023/Biology/580211/580211_Bio_material_3.svg",
+                          "desc": "Small 4 1/2-inch scissors made of stainless steel with one sharp and one blunt arm",
+                          "altText": "Small 4 1/2-inch scissors made of stainless steel with one sharp and one blunt arm"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Scalpel",
+                          "image": "courses_2023/Biology/580211/580211_Bio_material_4.svg",
+                          "url": "courses_2023/Biology/580211/580211_Bio_material_4.svg",
+                          "desc": "Scalpel with white plastic handle",
+                          "altText": "Scalpel with white plastic handle"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [
+                            "Camera or cell phone capable of taking photographs",
+                            "70% isopropyl alcohol (rubbing alcohol) or other non-bleach disinfectant",
+                            "Paper towels",
+                            "Hand lens (optional)"
+                            ]
+                        },
+                        {
+                              "type": "Box",                             
+                              "text": "<span class='bodyFontBold'>Note:</span> You can use your camera to help you see small structures. After you take a picture you can zoom in on the structures that you are interested in. This is also helpful when you are labeling the structures for your lab submission. "
+                            }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span><span className=bodyParaLineBreak></span>Replacement supplies for the Earthworm Dissection investigation can be ordered from Carolina Biological Supply Company, item 580211.<span className=bodyParaLineBreak></span><span className=bodyMediumSubHeading>Call:</span> 866-332-4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "This investigation requires safety goggles, disposable gloves, and a laboratory apron."
+                },
+                {
+                  "type": "Image",
+                  "image": "core/Key_PPE.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "altText": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Follow the instructions for this activity closely and observe established laboratory safety practices, including appropriate personal protective equipment (PPE); safety goggles, gloves, and lab aprons must be worn when dissecting. Do not eat, drink, or chew gum while performing the dissection. Use proper hygiene practices before, during, and after the lab, including washing your hands before and after performing the dissection. Review pertinent portions of any Safety Data Sheets (SDS) before beginning the activity. Keep pets and children away from lab materials and equipment."
+                },
+                {
+                  "type": "PlainImage",
+                  "text": "Isopropyl alcohol (rubbing alcohol) is flammable. Keep away from open flame if using alcohol as disinfectant.",
+                  "image": "core/Flammable.svg",
+                  "imgWidth": "12%",
+                  "desc": "flammable symbol",
+                  "altText": "flammable symbol"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Dissections require special attention to safety. Please follow these additional precautions:<ul><li>Clean the counter or workspace thoroughly before and after the dissection, using isopropyl alcohol (or other non-bleach disinfectant).</li><li>Wash your hands thoroughly with soap and water before and after the dissection.</li><li>Only perform the dissection on the dissecting tray. This will contain both the specimen and any excess fluids.</li><li>Spread the absorbent pad blue side down underneath the tray to capture any spilled fluid.</li><li>In general, scissors are used more frequently than a scalpel, especially when care must be taken not to cut too deeply into the specimen.</li><li>Never cut toward your holding hand and fingers.</li><li>Cut in a downward motion applying steady, even pressure.</li><li>Always use a sharp blade.</li><li>Do not use a scalpel that is nicked, bent, or damaged.</li><li>Do not use a scalpel to cut through bone or heavy cartilage.</li><li>Never use a scalpel for anything other than dissection.</li></ul>"
+                }
+              ]
+            },
+            {
+              "title": "Safety (cont... )",
+              "pageTitle": "Safety (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "isCheckPoint": true,
+              "template": "OverView",
+              "pageData": [             
+                {
+                  "type": "Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Biology/580211/580211_Bio_VideoIcone4.svg",
+                  "url": "http://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4573445864001"
+                },
+                {
+                  "type": "Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Biology/580211/580211_Bio_VideoIcone5.svg",
+                  "url": "http://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=5170128655001"
+                },
+                {
+                  "type": "Plain",
+                  "subTitle":"Carolina’s Perfect Solution<sup class='bodySupscript'>®</sup>",
+                  "text": "Independent, certified laboratory analyses of specimens fixed in Carolina’s Perfect Solution<sup class='bodySupscript'>®</sup> have found that it is nontoxic and does not give off dangerous fumes. This means that, for safety purposes, the use of Carolina’s Perfect Solution<sup class='bodySupscript'>®</sup> specimens does not require specialized ventilation. However, Carolina does recommend performing the dissection in a <span style='whiteSpace: nowrap'>well-ventilated</span> room with some active ventilation when working with any preserved specimens. For a home setting, this may include opening windows and turning on a ceiling fan. The safe nature of Carolina’s Perfect Solution<sup class='bodySupscript'>®</sup> also means that in most localities there are no mandated disposal requirements."
+                },
+                {
+                  "type": "PlainImage",
+                  "containerType": "rightContainer",
+                  "text": "Carolina’s Perfect Solution<sup class='bodySupscript'>®</sup> causes mild skin irritation if suitable PPE is not worn. Avoid contact with skin and eyes. Do not ingest specimen, especially if you are or are likely to become pregnant.",
+                  "image": "core/Warning.svg",
+                  "imgWidth": "12%",
+                  "desc": "warning symbol",
+                  "altText": "warning symbol"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "subTitle":"Storage of Specimens",
+                  "text": "If it is necessary to store the specimen between work periods, you may choose to place it in the plastic storage bag with as much of the original solution as possible. Establishing an airtight seal is the best way to retain specimen integrity and prevent drying out of the specimen. First, squeeze as much air out of the specimen bag as possible before securing the opening with a rubber band, tape, or a binder clip. After closing the bag, the specimen can be stored in a larger, airtight box or bag at room temperature."
+                }
+                
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following safety hazards is associated with isopropyl alcohol (rubbing alcohol), which will be used during this investigation?",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "It is flammable.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "It is a corrosive material.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "It will stain skin or clothing.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "It is a choking hazard.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "It is extremely harmful to aquatic life.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following describes INAPPROPRIATE use of a scalpel?",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Cut toward your holding hand and fingers.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Cut in a downward motion using a steady, even pressure.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Use a scalpel that does not have any nicks or is free from damage.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Always use a sharp blade.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Only use the scalpel dissection purposes.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the function of nephridia in the earthworm?",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "They extract waste and balance salts in the blood.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "They give rise to nerves.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "They excrete calcium carbonate crystals into the esophagus.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "They are used to help the earthworm move and sense its surroundings.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "They allow the earthworm to grasp its mate during copulation.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which species of earthworm inhabits leaf litter and the uppermost layer of the soil?",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "epigeic species",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "endogeic species",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "anecic species",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "benthic species",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "parasitic species",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What part of the earthworm serves a similar function to that of the human liver?",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "visceral peritoneum",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "nephridium",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "clitellum",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "typhlosole",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "setae",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "The clitellum is part of which earthworm organ system?",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "reproductive system",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "digestive system",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "circulatory system",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "nervous system",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "excretory system",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which term is used to describe the method of earthworm movement through the soil?",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "peristalsis",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "vermicast",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "septation",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "hydrostasis",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "retraction",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following structures temporarily stores food before it is digested?",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "crop",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "typhlosole",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "gizzard",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "seminal receptacle",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "coelom",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following parts of an earthworm is the most anterior?",
+                      "shuffle": false,
+                      "assessmentRef": 8,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "prostomium",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "clitellum",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "coelom",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "septum",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "nephrostome",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "To which class do earthworms belong?",
+                      "shuffle": false,
+                      "assessmentRef": 9,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Clitellata",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Segmentata",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Prostomia",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Polychaeta",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Hirudinea",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation",
+              "pageTitle": "Preparation (8 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure",
+              "keyID": "preparation",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Review the dissection instructions (while referring to the dissection mat)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Print out the dissection procedure to avoid getting fluid from the specimen on your computer or mobile device."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Clean the work area."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Put on your PPE: safety goggles, gloves, and lab apron, and keep them on during dissection and cleanup."
+                  }
+                ],               
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Lay the pad on the work area with the blue, absorbent side facing down."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Lay out all dissecting instruments on the pad."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the dissecting tray in the middle of the pad to absorb any fluid that might spill onto the work area."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Position the dissection mat so it is easy to read. In the activity, structures that are shown on the dissection mat are indicated by numbers in parentheses."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Biology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will observe and label photographs of cross sections of earthworms and identify key structures. You will compare these images to the dissected worm in Activity 2."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Enzyme Concentration",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Slide Images (2 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity1",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use to <button class='resource-text'>Figure 2</button> to practice identifying the following structures on Figure 5.<ol type=a style='margin-bottom:0px'><li>Dorsal blood vessel</li><li><button class='glossary-text'>Typhlosole</button></li><li>Intestinal lining</li><li>Lumen</li><li>Ventral blood vessel</li><li>Ventral nerve cord</li></ol>"
+                  },
+                  {
+                    "type": "Image",
+                    "desc": "Microscope image of a worm cross section",
+                    "image": "courses_2023/Biology/580211/580211_Bio_fig_005.svg",
+                    "width": "100%",
+                    "imgDivWidth": "340px",
+                    "scrollImg": true,
+                    "maxWidth": "420px",
+                    "altText": "Figure 5: Microscope image of a worm cross section"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use to Figure 2 to practice identifying the following structures on Figure 6.<ol type=a style='margin-bottom:0px'><li>Nephridiopore</li><li>Epidermis</li><li><button class='glossary-text'>Circular muscle</button></li><li><button class='glossary-text'>Longitudinal muscle</button></li><li>Dorsal blood vessel</li></ol>"
+                  },
+                  {
+                    "type": "Image",
+                    "desc": "Close-up of the dorsal section of a worm cross section",
+                    "image": "courses_2023/Biology/580211/580211_Bio_fig_006.svg",
+                    "width": "100%",
+                    "imgDivWidth": "340px",
+                    "scrollImg": true,
+                    "maxWidth": "420px",
+                    "altText": "Figure 6: Close-up of the dorsal section of a worm cross section"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Biology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will observe the external anatomy of the worm and identify key structures. You will then cut the worm along the midline and observe the internal structures of the worm. You will then cut through two <button class='glossary-text'>segments</button> of the worm to create a cross section and compare this to the photos from <span style='whiteSpace: nowrap'>Activity 1.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "External Anatomy",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;External Anatomy (12 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity2",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",                  
+                    "text": "Lay the earthworm on the dissection tray."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Identify the <button class='glossary-text'>dorsal</button> and <button class='glossary-text'>ventral</button> surfaces. The dorsal surface is darker than the ventral, and the ventral surface is somewhat flattened."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Turn the worm so the dorsal surface is up. Take a photo of the dorsal side of your worm. You may need to pin the worm to the tray in order to keep it from rolling. Estimate the number of <button class='glossary-text'>segments</button>.",
+                    "image": "core/Camera-icon.svg",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Locate the <button class='glossary-text'>prostomium</button>, a small lobe attached to the first segment at the extreme <button class='glossary-text'>anterior</button> end. Note that the prostomium is not a separate segment; it is part of segment one."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Turn the earthworm ventral surface up and use the hand lens to locate the mouth on the underside of the first segment. Take a picture of the ventral side of your worm. Magnification can also be achieved by enlarging the photograph on your phone or camera.",
+                    "image": "core/Camera-icon.svg",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Locate the <button class='glossary-text'>clitellum</button>, a band that covers several segments. The clitellum is located closer to the anterior end."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Feel the ventral surface of the earthworm to locate the bristle-like setae. Observe the worms through the hand lens."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Locate the genital grooves. These run from the clitellum toward the anterior, ending around segment 15. The <button class='glossary-text'>sperm ducts</button> can be located here; anterior to these are the <button class='glossary-text'>oviducts</button>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The <button class='glossary-text'>genital setae</button> are enlarged compared to the other setae and are located midway along the genital groove."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The <button class='glossary-text'>seminal receptacle</button> openings are several segments anterior to the oviducts. The receptacles are between segments 9 and 10 and between 10 and 11. They are small and might be difficult to see."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "On the <button class='glossary-text'>posterior</button> end of the worm try to locate the nephridiopore. These are also very small and may be difficult to find."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Locate the anus on the terminal segment."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "startNewNumber": true,
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<span className=bodyParaLineBreak style='line-height:0.9em'> </span><div className=order-list-text>B</div>&nbsp;Internal Anatomy (7 steps)"
+                      }
+                    ],
+                    "text": "Place the earthworm in the dissecting tray dorsal surface up and fully extended. Use forceps to lift the body wall about 3 to 5 cm posterior to the clitellum."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Cut through the body wall with sharp, pointed scissors. Insert the pointed side of the scissors into the cut. Extend the cut along the dorsal midline to the prostomium as indicated by the dotted line in Figure 7."
+                  },
+                  {
+                    "type": "Image",
+                    "desc": "Diagram showing how to cut the worm specimen",
+                    "image": "courses_2023/Biology/580211/580211_Bio_fig_007.svg",
+                    "width": "100%",
+                    "imgDivWidthForMobile": {
+                      "P": "100%",
+                      "L": "100%"
+                    },
+                    "imgDivWidth": "475px",
+                    "scrollImg": true,
+                    "maxWidth": "590px",
+                    "altText": "Figure 7: Diagram showing how to cut the worm specimen"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Gently open the body wall and notice the many cross walls or septa. Begin cutting through the septa on each side with the tip of a scalpel. As you cut through the septa, pin the body wall to the tray as shown in <button class='resource-text'>Figure 3</button>. Insert the pins at an angle as shown so they will not be in the way of your observations."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Cut through the <button class='glossary-text'>intestine</button> just posterior to the clitellum and lift up on the cut end. Use a scalpel to detach 1 to 2 cm of the intestine from the ventral body wall. Cut off this section of intestine and discard it."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Take a picture of the internal anatomy of the worm. Some of the structures you will be asked to identify will be too small to label in the photograph. Your instructor will let you know which structures to label. Identify the parts shown in Figure 3. Use a hand lens if necessary. Magnification can also be achieved by enlarging the photograph on your phone or camera.",
+                    "image": "core/Camera-icon.svg",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use a scalpel to cut through two adjoining segments from the posterior of the earthworm. This will produce a cross section that can be examined with the hand lens."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Compare the cross section to <button class='resource-text'>Figure 2</button> and to the images in Activity 1. Identify the structures large enough to view with the hand lens."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "orderedType": "1",
+                  "listType": "ordered",
+                  "text": [
+                    "Dispose of any excess fluids down the drain with the water running. Allow the faucet to run for about 30 seconds to dilute the fluids.", 
+                    "Place the specimen in its storage bag and seal tightly. If you are finished working with your specimen, put the bag into an opaque trash bag for disposal in the garbage receptacle.",
+                    "Rinse and carefully air dry the dissection tools, and return the materials to your equipment kit.",
+                    "Sanitize the workspace with isopropyl alcohol (or other non-bleach disinfectant) and paper towels. If this is insufficient for removing grease during cleanup, use soap and water, followed by more alcohol/disinfectant."
+                ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Biology_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "courses_2023/Biology/580102/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "portrait"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Photo 1",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Photo1",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2A Step 3 Photo"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert the photo of the dorsal surface of the earthworm. The following should be indicated:<ul><li>Clitellum</li><li>Anus</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": "Question1",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question1",
+            "width":"65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "How many segments did you estimate for your earthworm?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "inputHeight": "200px",
+                "sr": 0,
+                "maxLength": 100,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Photo 2",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Photo2",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2A Step 5 Photo"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert the photo of the ventral surface of the earthworm. The following should be indicated:<ul><li>Prostomium</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Photo 3",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Photo3",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2B Step 5 Photos"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert the photo(s) of the internal anatomy of the earthworm. The following should be indicated:<ul style='column-count:2'><li>Cerebral ganglion</li><li>Pharynx</li><li>Esophagus</li><li>Seminal receptacle</li><li>Seminal vesicle</li><li>Heart (at least 1 of the 5)</li><li>Crop</li><li>Gizzard</li><li>Intestine</li><li>Septum</li><li>Ventral nerve cord</li><li>Median dorsal vessel</li><li>Median ventral vessel</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Photo4",
+            "width":"55%",
+            "pageData": [
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6328958736112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580211/580211_Bio_fig_001.svg",
+        "content": "Figure 1. Common annelids",
+        "scrollImg": true,
+        "altText": "Figure 1: Images of three major classes of annelids. Marine polychaetes have fleshy appendages on each segment. The leech is bulbous and obviously segmented, resting on a leaf. The earthworms are coiled in mud and leaf litter.",
+        "maxWidth": "240px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580211/580211_Bio_fig_002.svg",
+        "content": "Figure 2.  Cross-section of an earthworm",
+        "scrollImg": true,
+        "altText": "Figure 2: Labeled cross-section of an earthworm",
+        "maxWidth": "590px"
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/SynUkoIDe_default/index.html?videoId=1306624190001",
+        "content": "Earthworm Anatomy: External and Internal Anatomy"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580211/580211_Bio_fig_003.svg",
+        "content": "Figure 3. Internal earthworm anatomy",
+        "scrollImg": true,
+        "altText": "Figure 3: A worm is shown, cut open and pinned. Major features of the circulatory, digestive and nervous systems are labeled",
+        "maxWidth": "308px"
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/SynUkoIDe_default/index.html?videoId=1306582755001",
+        "content": "Earthworm Anatomy: Digestive, Circulatory and Excretory Systems"
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/SynUkoIDe_default/index.html?videoId=1306582750001",
+        "content": "Earthworm Anatomy: Reproductive and Nervous Systems"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580211/580211_Bio_fig_004.svg",
+        "content": "Figure 4. External and reproductive structures",
+        "scrollImg": true,
+        "altText": "Figure 4: Diagram of features of the anterior end of the earthworm. Prostomium and mouth on segment 1; Seminal receptacle openings between segments and 9 and 10 and between segments 10 and 11; Oviduct on segment 14; Sperm duct on segment 15; The genital groove running from segments 15 to the clitellum; Genital seta on segment 25; One pair of nephridiopores on each segment and 4 pairs of setae on each segment ",
+        "maxWidth": "588px"
+      },
+      {
+        "type": "DataTable",
+        "thumbnailSrc": "core/Table_icon.svg",
+        "isResource": true,
+        "title": "Table 1.",
+        "content": "Table 1. Common anatomical terms",
+        "sr": 11,
+        "allowClick": true,
+        "tableWidth": "725px",
+        "header": [
+          {"text":"Direction or Plane", "colWidth": "30%"},
+          {"text":"Definition" , "colWidth": "70%"}
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "fontFamily":"HelveticaNeueLTStdMd65",
+              "text": "Superior"
+            },
+            {
+              "type": "text",
+              "text": "Above, toward the head"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily":"HelveticaNeueLTStdMd65",
+              "text": "Inferior"
+            },
+            {
+              "type": "text",
+              "text": "Below, toward the feet"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily":"HelveticaNeueLTStdMd65",
+              "text": "Anterior"
+            },
+            {
+              "type": "text",
+              "text": "Front, synonymous with ventral in bipeds and cranial in quadrupeds"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily":"HelveticaNeueLTStdMd65",
+              "text": "Posterior"
+            },
+            {
+              "type": "text",
+              "text": "Back, synonymous with dorsal in bipeds and caudal in quadrupeds"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily":"HelveticaNeueLTStdMd65",
+              "text": "Lateral"
+            },
+            {
+              "type": "text",
+              "text": "Toward the right or left side"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily":"HelveticaNeueLTStdMd65",
+              "text": "Medial"
+            },
+            {
+              "type": "text",
+              "text": "Toward the midline"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily":"HelveticaNeueLTStdMd65",
+              "text": "Proximal"
+            },
+            {
+              "type": "text",
+              "text": "Near or toward the point of reference"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily":"HelveticaNeueLTStdMd65",
+              "text": "Distal"
+            },
+            {
+              "type": "text",
+              "text": "Away from the point of reference, which is usually the attachment point"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily":"HelveticaNeueLTStdMd65",
+              "text": "Dorsal"
+            },
+            {
+              "type": "text",
+              "text": "Toward the back"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily":"HelveticaNeueLTStdMd65",
+              "text": "Ventral"
+            },
+            {
+              "type": "text",
+              "text": "Toward the belly or abdomen"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily":"HelveticaNeueLTStdMd65",
+              "text": "Cranial"
+            },
+            {
+              "type": "text",
+              "text": "Toward the head"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily":"HelveticaNeueLTStdMd65",
+              "text": "Caudal"
+            },
+            {
+              "type": "text",
+              "text": "Toward the tail"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily":"HelveticaNeueLTStdMd65",
+              "text": "Superficial"
+            },
+            {
+              "type": "text",
+              "text": "Toward or along the surface"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily":"HelveticaNeueLTStdMd65",
+              "text": "Deep"
+            },
+            {
+              "type": "text",
+              "text": "A significant distance below the surface"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily":"HelveticaNeueLTStdMd65",
+              "text": "Rostral"
+            },
+            {
+              "type": "text",
+              "text": "Toward the nose or mouth"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily":"HelveticaNeueLTStdMd65",
+              "text": "Sagittal plane"
+            },
+            {
+              "type": "text",
+              "text": "Divides the body into longitudinal left and right portions"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily":"HelveticaNeueLTStdMd65",
+              "text": "Midsagittal plane"
+            },
+            {
+              "type": "text",
+              "text": "Divides the body into equal left and right halves"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily":"HelveticaNeueLTStdMd65",
+              "text": "Transverse plane"
+            },
+            {
+              "type": "text",
+              "text": "Perpendicular to the long axis, produces cross-sections"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily":"HelveticaNeueLTStdMd65",
+              "text": "Frontal plane"
+            },
+            {
+              "type": "text",
+              "text": "Divides the body into dorsal and ventral portions"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580211/580211_Bio__ED_001.svg",
+        "maxWidth":"1200px",
+        "scrollImg":true,
+        "content": "Experimental Design Diagram",
+        "altText": "A map describing the procedural workflow of this investigation. Before beginning the investigation, set up the dissection supplies and prepare the specimen for dissection. In activity 1, you will observe slide images and label the key structures on them. In activity 2, you will examine the external anatomy of the worm. Then, you will cut into the worm along the dorsal midline and examine the internal anatomy of the worm. Finally, you will cut across segments of the worm to make a cross-section and compare this to the slide images from activity 1."
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "http://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4573445864001",
+        "content": "Cutting a Specimen"
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "http://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=5170128655001",
+        "content": "Using a Scalpel"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580211/580211_Bio_fig_005.svg",
+        "content": "Figure 5. Activity 1 cross-section 1",
+        "scrollImg": true,
+        "altText": "Figure 5: Microscope image of a worm cross section",
+        "maxWidth": "418px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580211/580211_Bio_fig_006.svg",
+        "content": "Figure 6. Activity 1 cross-section 2",
+        "scrollImg": true,
+        "altText": "Figure 6: Close-up of the dorsal section of a worm cross section",
+        "maxWidth": "418px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580211/580211_Bio_fig_007.svg",
+        "content": "Figure 7. Dorsal midline incision",
+        "scrollImg": true,
+        "altText": "Figure 7: Diagram showing how to cut the worm specimen",
+        "maxWidth": "588px"
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Anecic",
+        "content": "Describes a species the creates deep, persistent, vertical burrows"
+      },
+      {
+        "title": "Anterior",
+        "content": "Front, synonymous with ventral in bipeds and cranial in quadrupeds"
+      },
+      {
+        "title": "Buccal cavity",
+        "content": "Oral cavity"
+      },
+      {
+        "title": "Calciferous gland",
+        "content": "A gland that excretes calcium carbonate crystals into the esophagus"
+      },
+      {
+        "title": "Caudal",
+        "content": "Toward the tail"
+      },
+      {
+        "title": "Cerebral ganglia",
+        "content": "The pair of nervous system structures situated in the anterior part of the body; they process external input and coordinate responses; singular, cerebral ganglion"
+      },
+      {
+        "title": "Circular muscle",
+        "content": "The muscle tissue primarily responsible for earthworm movement"
+      },
+      {
+        "title": "Clitellum",
+        "content": "Distinctive black ring set back from the head that secretes a viscous sac in which eggs are stored"
+      },
+      {
+        "title": "Coelom",
+        "content": "A fluid-filled inner cavity that is completely lined by a muscle layer derived from the middle layer of embryonic cells"
+      },
+      {
+        "title": "Coelomate",
+        "content": "An organism that possesses a coelom"
+      },
+      {
+        "title": "Cranial",
+        "content": "Toward the head"
+      },
+      {
+        "title": "Crop",
+        "content": "An enlarged area of the digestive tract where food is stored while waiting to move into the gizzard"
+      },
+      {
+        "title": "Deep",
+        "content": "A significant distance below the surface"
+      },
+      {
+        "title": "Distal",
+        "content": "Away from the point of reference, which is usually the attachment point"
+      },
+      {
+        "title": "Dorsal",
+        "content": "Toward the back"
+      },
+      {
+        "title": "Endemic",
+        "content": "Native to a region"
+      },
+      {
+        "title": "Endogeic",
+        "content": "Describes a species that moves horizontally through the upper soil layers"
+      },
+      {
+        "title": "Epigeic",
+        "content": "Describes a species that lives in the surface soil and among leaf litter"
+      },
+      {
+        "title": "Esophagus",
+        "content": "A muscular tube that connects the pharynx to the stomach"
+      },
+      {
+        "title": "Frontal plane",
+        "content": "The plane that divides the body into dorsal and ventral portions"
+      },
+      {
+        "title": "Genital setae",
+        "content": "The stiff structures resembling hair or bristles used to grasp during copulation; singular, genital seta"
+      },
+      {
+        "title": "Gizzard",
+        "content": "A muscular stomach that physically breaks down food with the help of grit ingested from the environment"
+      },
+      {
+        "title": "Hydrostatic skeleton",
+        "content": "The invertebrate skeleton formed by hydrostatic pressure within the coelom"
+      },
+      {
+        "title": "Inferior",
+        "content": "Below, toward the feet"
+      },
+      {
+        "title": "Intestine",
+        "content": "The organ where digestive enzymes are excreted and nutrients are absorbed"
+      },
+      {
+        "title": "Lateral",
+        "content": "Toward the right or left side"
+      },
+      {
+        "title": "Longitudinal muscle",
+        "content": "The muscle with fibers that run the length of the worm"
+      },
+      {
+        "title": "Medial",
+        "content": "Toward the midline"
+      },
+      {
+        "title": "Median dorsal vessel",
+        "content": "The vessel that carries blood from the posterior end to the anterior end of the worm"
+      },
+      {
+        "title": "Median ventral vessel",
+        "content": "The vessel that carries blood from the anterior end to the posterior end of the worm"
+      },
+      {
+        "title": "Midsagittal plane",
+        "content": "The plane that divides the body into equal left and right halves"
+      },
+      {
+        "title": "Nephridia",
+        "content": "The organs that extract wastes and balance salts in the blood; singular, nephridium"
+      },
+      {
+        "title": "Nephrostome",
+        "content": "The funnel-shaped opening in the coelomic cavity"
+      },
+      {
+        "title": "Oviduct",
+        "content": "The tube that releases eggs for fertilization"
+      },
+      {
+        "title": "Parietal peritoneum",
+        "content": "The lining of the outer coelom"
+      },
+      {
+        "title": "Peristalsis",
+        "content": "The involuntary constriction and relaxation of muscles that creates wave-like movement "
+      },
+      {
+        "title": "Pharynx",
+        "content": "A muscular passageway of the digestive and respiratory systems"
+      },
+      {
+        "title": "Posterior",
+        "content": "Back, synonymous with dorsal in bipeds and caudal in quadrupeds"
+      },
+      {
+        "title": "Prostomial nerve",
+        "content": "The nerve that runs the anterior of the worm and is fired by stimulation in the anterior region"
+      },
+      {
+        "title": "Prostomium",
+        "content": "The portion of the head that is situated in front of the mouth"
+      },
+      {
+        "title": "Proximal ",
+        "content": "Near or toward the point of reference"
+      },
+      {
+        "title": "Pseudocoelomate",
+        "content": "An organism whose digestive tracts are not lined with a muscle layer"
+      },
+      {
+        "title": "Rostral",
+        "content": "Toward the nose or mouth"
+      },
+      {
+        "title": "Sagittal plane",
+        "content": "The plane that divides the body into longitudinal left and right portions"
+      },
+      {
+        "title": "Segmental ganglia",
+        "content": "The nerves found in the segments that branch from the ventral nerve cord; singular, segmental ganglion"
+      },
+      {
+        "title": "Segmental vessel",
+        "content": "A vessel that supplies blood to the capillaries and the segmental organs"
+      },
+      {
+        "title": "Segment",
+        "content": "A repeated unit on the body of a worm"
+      },
+      {
+        "title": "Seminal receptacle",
+        "content": "The reproductive structure that stores sperm until the eggs are ready for fertilization"
+      },
+      {
+        "title": "Seminal vesicle",
+        "content": "A gland that produces sperm"
+      },
+      {
+        "title": "Sperm duct",
+        "content": "A tube that transports sperm to a mating partner's seminal receptacle"
+      },
+      {
+        "title": "Subpharyngeal ganglia",
+        "content": "The pair of nervous system structures that run along either side of the pharynx and connect to the central ventral ganglion; they control reflexes; singular, subpharyngeal ganglion"
+      },
+      {
+        "title": "Superficial",
+        "content": "Toward or along the surface"
+      },
+      {
+        "title": "Superior",
+        "content": "Above, toward the head"
+      },
+      {
+        "title": "Transverse plane",
+        "content": "The plane that is perpendicular to the long axis; it produces cross-sections"
+      },
+      {
+        "title": "Transverse septum",
+        "content": "The double wall of tissue that separates segments"
+      },
+      {
+        "title": "Tubercle",
+        "content": "A cluster of sensory cells containing chemoreceptors that projects from the worm body"
+      },
+      {
+        "title": "Typhlosole",
+        "content": "A longitudinal fold of the wall projecting into the cavity of the intestine"
+      },
+      {
+        "title": "Ventral",
+        "content": "Toward the belly or abdomen"
+      },
+      {
+        "title": "Vermicast",
+        "content": "The waste material from worms that has a high concentration of water-soluble organic materials"
+      },
+      {
+        "title": "Visceral peritoneum",
+        "content": "The layer lining the inner coelom (gut)"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

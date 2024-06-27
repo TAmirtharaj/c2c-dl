@@ -1,0 +1,2253 @@
+{
+  "locked": true,
+  "courseTitle": "Electron Configuration Virtual Lab",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Chemistry_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/bodyBookmark.svg",
+    "courses/580396_VIRT/Periodic_Table.svg",
+    "courses/580396_VIRT/580396_VIRT_whyShouldICare.svg",
+    "courses/580396_VIRT/580396_VIRT_TimeRequirement.svg",
+    "courses/580396_VIRT/580396_VIRT_fig_001.svg",
+    "courses/580396_VIRT/580396_VIRT_fig_002.svg",
+    "courses/580396_VIRT/580396_VIRT_fig_003.svg",
+    "courses/580396_VIRT/580396_VIRT_fig_004.svg",
+    "courses/580396_VIRT/580396_VIRT_fig_005.svg",
+    "courses/580396_VIRT/580396_VIRT_fig_006.svg",
+    "courses/580396_VIRT/580396_VIRT_fig_007.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Chemistry_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Chemistry",
+                "images": {
+                  "logo": "core/Chemistry_subject_icon.svg"
+                },
+                "titleName2": "Electron Configuration Virtual Lab",
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "waterMark": true,
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, you will learn about the energy levels, <button class='glossary-text'>sublevels</button> and <button class='glossary-text'>orbitals</button> of atoms. After learning about how <button class='glossary-text'>Hund’s Rule</button>, Pauli’s Exclusion Principle and the <button class='glossary-text'>Aufbau Principle</button> describe the organization of electrons, you will construct orbital diagrams and <button class='glossary-text'>electron configurations</button> of elements from the periodic table."
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses/580396_VIRT/580396_VIRT_TimeRequirement.svg",
+                  "imgDivWidth": "98px",
+                  "desc": "Activity 1 – 60 mins",
+                  "altText": "Activity 1 – 60 mins",
+                  "maxWidth": "130px"
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "title": "Needed but not supplied:",
+                  "text": ["No additional materials needed"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Describe the energy levels, <button class='glossary-text'>sublevels</button> and <button class='glossary-text'>orbitals</button> of atoms.",
+                    "Apply <button class='glossary-text'>Hund’s Rule</button>, Pauli’s Exclusion Principle and the <button class='glossary-text'>Aufbau Principle</button> to construct orbital diagrams.",
+                    "Construct <button class='glossary-text'>electron configurations</button> and orbital diagrams for atoms using the periodic table."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Many holidays are celebrated with fireworks that illuminate the sky with a variety of colored lights. The metal ions in fireworks are chosen specifically to create the assortment of observed colors. This colored light is produced by excitation and subsequent relaxation of the electrons in the metals."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Light emission by atoms is a foundational principle of quantum chemistry. Atoms contain electrons that occupy discrete energy levels. The actual energy of each state (level) depends upon several factors: the nuclear charge, the distance of the electron from the nucleus, and the number of other electrons between the nucleus and the electron of interest."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580396_VIRT/580396_VIRT_whyShouldICare.svg",
+                  "desc": "A well-tray containing various metal salts, each ignited and producing a different colored flame.",
+                  "altText": "A well-tray containing various metal salts, each ignited and producing a different colored flame.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "80%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Electron Energy Levels",
+                  "text": "When sunlight passes through a prism or crystal, the light separates into a continuous spectrum. This phenomenon occurs naturally when sunlight passes through raindrops to create rainbows. These colors make up the only part of the electromagnetic spectrum we can see naturally. When an element is heated and its light emission passed through a prism, the spectrum produced is not continuous. Rather this <button class='glossary-text'>atomic spectrum</button> consists of lines of different colors, or wavelengths of light, that are unique to each element."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses/580396_VIRT/580396_VIRT_fig_001.svg",
+                  "containerType": "rightContainer",
+                  "imgDivWidth": "562px",
+                  "maxWidth": "650px ",
+                  "desc": "Figure 1: A diagram showing how when an element is heated it produces light which, when passed through a prism, splits into distinct wavelengths of light known also known as its atomic spectrum.",
+                  "altText": "Figure 1: A diagram showing how when an element is heated it produces light which, when passed through a prism, splits into distinct wavelengths of light known also known as its atomic spectrum.",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "scrollImg": true
+                }
+              ]
+            },
+            {
+              "title": "Background (cont...)",
+              "pageTitle": "Background (cont...)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In an atom, each electron has a specific energy called its energy level. Electrons in the lowest energy level are generally closest to the nucleus, and this level is assigned a <button class='glossary-text'>principal quantum number (n)</button> of 1. As electrons increase in energy, they are found at higher energy levels (ex: n = 2, n = 3) further from the nucleus. Electron energy levels are much like steps on a staircase. Each step represents a specific energy value. Electrons can exist at each energy level, but not at a level in between."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The lowest energy level is the first step, the next highest energy level is the second step, and so on. The analogy continues when we observe that it takes less energy to reach the first step than the other higher steps. But try as you might, you cannot stand in the space between steps. This separation of electron energy levels into discrete values means electron energy is quantized. Note that unlike an actual staircase, the differences between energy levels are inconsistent."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses/580396_VIRT/580396_VIRT_fig_002.svg",
+                  "containerType": "rightContainer",
+                  "imgDivWidth": "349px",
+                  "maxWidth": "370px ",
+                  "scrollImg": true,
+                  "desc": "Figure 2: A diagram of a staircase with the first step labeled n equals one, the second step labeled n equals two, the third step labeled n equals three and the fourth step labeled n equals four. An arrow pointing up along the stair is labeled increasing energy.",
+                  "altText": "Figure 2: A diagram of a staircase with the first step labeled n equals one, the second step labeled n equals two, the third step labeled n equals three and the fourth step labeled n equals four. An arrow pointing up along the stair is labeled increasing energy."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont...)",
+              "pageTitle": "Background (cont...)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Electrons have different states depending on the energy levels they occupy. Electrons in the lowest energy level are in their <button class='glossary-text'>ground state</button>. Electrons falling to the ground state from a higher level lose energy by emitting electromagnetic radiation (energy) equal to the difference between the energy levels. Electrons can absorb energy to reach an <button class='glossary-text'>excited state</button> at higher energy levels. The energy absorption must equal the difference between the current energy level and the next energy level."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses/580396_VIRT/580396_VIRT_fig_003.svg",
+                  "imgDivWidth": "468px",
+                  "containerType": "rightContainer",
+                  "desc": "Figure 3: Two illustrations of atoms with one electron. The first atom has an electron in an excited state emitting energy to fall to a ground state. The second atom has an electron in a ground state absorbing energy to reach an excited state.",
+                  "altText": "Figure 3: Two illustrations of atoms with one electron. The first atom has an electron in an excited state emitting energy to fall to a ground state. The second atom has an electron in a ground state absorbing energy to reach an excited state.",
+                  "maxWidth": "500px",
+                  "scrollImg": true,
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Under which of the following conditions would an electron in an excited state transition into a ground state?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The electron emits energy.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The electron absorbs energy.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "The electron transfers energy to another electron.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The electron divides into an atomic spectrum.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "The electron becomes positively charged.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "When an electron emits energy, it falls from an excited state to a ground state."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "An electron in a ground state would be found at which of the following atomic energy levels?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "n = 1",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "n = 2",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "n = 3",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "n = 4",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "n = 0",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Electrons at the lowest energy level, n = 1, are in a ground state."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "In an atom, each electron has a specific energy called its energy level. Electrons in the lowest energy level are generally closest to the nucleus, and this level is assigned a principal quantum number (n) of 1. As electrons increase in energy, they are found at higher energy levels (ex: n = 2, n = 3) further from the nucleus. Electron energy levels are much like steps on a staircase. Each step represents a specific energy value. Electrons can exist at each energy level, but not at a level in between. <span class='bodyParaLineBreak'>Electrons have different states depending on the energy levels they occupy. Electrons in the lowest energy level are in their ground state. Electrons falling to the ground state from a higher level lose energy by emitting electromagnetic radiation (energy) equal to the difference between the energy levels. Electrons can absorb energy to reach an excited state at higher energy levels. The energy absorption must equal the difference between the current energy level and the next energy level.</span>",
+                  "img": [
+                    {
+                      "src": "courses/580396_VIRT/580396_VIRT_fig_003.svg",
+                      "alt": "Figure 3: Two illustrations of atoms with one electron. The first atom has an electron in an excited state emitting energy to fall to a ground state. The second atom has an electron in a ground state absorbing energy to reach an excited state.",
+                      "maxWidth": "474px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "In an atom, each electron has a specific energy called its energy level. Electrons in the lowest energy level are generally closest to the nucleus, and this level is assigned a principal quantum number (n) of 1. As electrons increase in energy, they are found at higher energy levels (ex: n = 2, n = 3) further from the nucleus. Electron energy levels are much like steps on a staircase. Each step represents a specific energy value. Electrons can exist at each energy level, but not at a level in between. <span class='bodyParaLineBreak'>Electrons have different states depending on the energy levels they occupy. Electrons in the lowest energy level are in their ground state. Electrons falling to the ground state from a higher level lose energy by emitting electromagnetic radiation (energy) equal to the difference between the energy levels. Electrons can absorb energy to reach an excited state at higher energy levels. The energy absorption must equal the difference between the current energy level and the next energy level.</span>",
+                  "img": [
+                    {
+                      "src": "courses/580396_VIRT/580396_VIRT_fig_003.svg",
+                      "alt": "Figure 3: Two illustrations of atoms with one electron. The first atom has an electron in an excited state emitting energy to fall to a ground state. The second atom has an electron in a ground state absorbing energy to reach an excited state.",
+                      "maxWidth": "474px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont...)",
+              "pageTitle": "Background (cont...)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "When electrons occupy an energy level they do so in only certain amounts. The lower energy levels can only support a couple electrons, while higher energy levels can hold more. You can calculate the maximum number of electrons that can exist in an energy level by taking two times the square of the <button class='glossary-text'>principal quantum number</button>. <span class='bodyParaLineBreak'>2n<sup class='bodySupscript'>2</sup></span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Each energy level contains <button class='glossary-text'>sublevels</button> of electrons with the same energy. The sublevels are assigned the letters <span class='bodyFontItalic'>s</span>, <span class='bodyFontItalic'>p</span>, <span class='bodyFontItalic'>d</span>, and <span class='bodyFontItalic'>f</span>. The number of sublevels within an energy level is equal to the principal quantum number: the first energy level (n = 1) has only one sublevel (1<span class='bodyFontItalic'>s</span>), the second energy level (n = 2) has two sublevels (2<span class='bodyFontItalic'>s</span> and 2<span class='bodyFontItalic'>p</span>), and so on as shown in Figure 4."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Within each energy level, the sublevels are arranged according to energy level, with the <span class='bodyFontItalic'>s</span> sublevel having the lowest energy. If there is more than one sublevel, the sublevels are arranged as follows from lowest to highest energy:"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyFontItalic'>s</span> < <span class='bodyFontItalic'>p</span> < <span class='bodyFontItalic'>d</span> < <span class='bodyFontItalic'>f</span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Just as there is a maximum number of electrons that can occupy each energy level, there is a maximum number of electrons that can occupy each sublevel. An <span class='bodyFontItalic'>s</span> sublevel holds one or two electrons; the <span class='bodyFontItalic'>p</span> sublevel holds up to six; the <span class='bodyFontItalic'>d</span> sublevel holds up to 10; and the <span class='bodyFontItalic'>f</span> sublevel holds up to 14 electrons."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses/580396_VIRT/580396_VIRT_fig_004.svg",
+                  "containerType": "rightContainer",
+                  "scrollImg": true,
+                  "imgDivWidth": "468px",
+                  "desc": "A diagram with the y axis labeled increasing energy and four rows labeled from bottom to top shell one, shell two, shell three and shell four. On the row shell one a box to the far left is labeled one s. On the row shell two a box in the far left is labeled two s and a group a three boxes to the right of the first box is labeled two p. On the row shell three a box to the far left is labeled three s, a group of boxes to the right are labeled three p, and a group of five boxes to the right of the group of three are labeled three d. On the row shell four a box to the far left is labeled four s, a group of three boxes to the right is labeled four p, a group of five boxes more to the right is labeled four d and a group of seven boxes to the right of the group of five is labeled four f.",
+                  "altText": "A diagram with the y axis labeled increasing energy and four rows labeled from bottom to top shell one, shell two, shell three and shell four. On the row shell one a box to the far left is labeled one s. On the row shell two a box in the far left is labeled two s and a group a three boxes to the right of the first box is labeled two p. On the row shell three a box to the far left is labeled three s, a group of boxes to the right are labeled three p, and a group of five boxes to the right of the group of three are labeled three d. On the row shell four a box to the far left is labeled four s, a group of three boxes to the right is labeled four p, a group of five boxes more to the right is labeled four d and a group of seven boxes to the right of the group of five is labeled four f.",
+                  "maxWidth": "500px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Background (cont...)",
+              "pageTitle": "Background (cont...)",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Orbitals",
+                  "text": "The location of electrons around a nucleus is described in terms of probability, since there is no way for scientists to know their exact location in an atom. A region in an atom where there is the highest probability of finding an electron is called an <button class='glossary-text'>orbital</button>. This is similar to how there is a high probability of finding you at home, but occasionally you may be found outside the home to see a friend or go to work."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Any orbital can have a maximum of two electrons. <button class='glossary-text'>Hund’s rule</button> states that an orbital must be singly occupied before it can be doubly occupied. When an orbital does contain two electrons, the electrons must have opposite spins. This is known as the <button class='glossary-text'>Pauli exclusion principle</button>. As electrons fill multiple orbitals, the <button class='glossary-text'>Aufbau principle</button> states that electrons must occupy the lowest available energy levels before occupying higher ones."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "subTitle": "Orbital Principles"
+                },
+                {
+                  "type": "Video",
+                  "containerType": "rightContainer",
+                  "imgDivWidth": "200px",
+                  "desc": "Orbital Principles",
+                  "image": "courses/580396_VIRT/580396_VIRT_VideoIcone.svg",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6321492137112"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "An atom has an orbital containing two electrons, each with the same spin. This atom violates which of the following principles?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "the Pauli exclusion principle",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Hund’s Rule",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "the Aufbau principle",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The atom does not violate any principles.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Hess’ law",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The atom violates the Pauli exclusion principle, which describes how two electrons occupying the same orbital will spin in opposite directions of one another."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following describes how an electron will not occupy the third energy level until the sublevels of the two lower energy levels are filled?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "the Aufbau principle",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Hund’s rule",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "the Pauli exclusion principle",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "the Law of Conservation of Mass",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "relativity theory",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The Aufbau principle describes how an electron will fill the lowest energy sublevels before filling any higher energy sublevels."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Any orbital can have a maximum of two electrons. <span class='bodyFontBold'>Hund’s Rule</span> states that an orbital must be singly occupied before it can be doubly occupied. When an orbital does contain two electrons, the electrons must have opposite spins. This is known as the <span class='bodyFontBold'>Pauli exclusion principle</span>. As electrons fill multiple orbitals, the <span class='bodyFontBold'>Aufbau principle</span> states that electrons must occupy the lowest available energy levels before occupying higher ones."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Any orbital can have a maximum of two electrons. <span class='bodyFontBold'>Hund’s Rule</span> states that an orbital must be singly occupied before it can be doubly occupied. When an orbital does contain two electrons, the electrons must have opposite spins. This is known as the <span class='bodyFontBold'>Pauli exclusion principle</span>. As electrons fill multiple orbitals, the <span class='bodyFontBold'>Aufbau principle</span> states that electrons must occupy the lowest available energy levels before occupying higher ones."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont...)",
+              "pageTitle": "Background (cont...)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Within an energy level, a <button class='glossary-text'>sublevel</button> is comprised of <button class='glossary-text'>orbitals</button> of the same type. For example, there is an <span class='bodyFontItalic'>s</span> orbital in an <span class='bodyFontItalic'>s</span> sublevel, there are <span class='bodyFontItalic'>p</span> orbitals in a <span class='bodyFontItalic'>p</span> sublevel, and so on. Each orbital can hold one or two electrons, but a sublevel may contain more than one orbital."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The different types of orbitals each have a unique shape. An <span class='bodyFontItalic'>s</span> orbital has a spherical shape. Each <span class='bodyFontItalic'>s</span> sublevel has only one <span class='bodyFontItalic'>s</span> orbital. The size of the spherical <span class='bodyFontItalic'>s</span> orbital increases for <span class='bodyFontItalic'>s</span> sublevels at higher energies. A <span class='bodyFontItalic'>p</span> orbital has a lobe shape. Each <span class='bodyFontItalic'>p</span> sublevel has three <span class='bodyFontItalic'>p</span> orbitals allowing the sublevel to hold a maximum of six electrons. These orbitals are arranged in three different axes around the nucleus. Just as with <span class='bodyFontItalic'>s</span> orbitals, <span class='bodyFontItalic'>p</span> orbitals for <span class='bodyFontItalic'>p</span> sublevels at higher energies have the same shape but a larger volume as the energy level increases. The <span class='bodyFontItalic'>d</span> and <span class='bodyFontItalic'>f</span> orbitals have complex lobe and disc shapes. Each <span class='bodyFontItalic'>d</span> sublevel has five <span class='bodyFontItalic'>d</span> orbitals allowing the sublevel to hold a maximum of ten electrons; each <span class='bodyFontItalic'>f</span> sublevel has seven <span class='bodyFontItalic'>f</span> orbitals for a maximum occupancy of fourteen electrons."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont...)",
+              "pageTitle": "Background (cont...)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Electron Configuration",
+                  "text": "The periodic table arranges atomic numbers in order of increasing <button class='glossary-text'>sublevel</button> energy. In Figure 5, you can see that different blocks of the table correspond to different sublevels. The sublevel block in which an element is found represents the highest energy sublevel occupied by the electrons of the element."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Except for the <span class='bodyFontItalic'>d</span> and <span class='bodyFontItalic'>f</span> sublevel blocks, the period (row) number of the periodic table corresponds to the highest energy level occupied by an element’s electrons. For example, oxygen is found in the <span class='bodyFontItalic'>p</span> block in Period 2 and therefore oxygen’s highest-energy electrons are found in the 2<span class='bodyFontItalic'>p</span> sublevel."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580396_VIRT/580396_VIRT_fig_005.svg",
+                  "imgDivWidth": "624px",
+                  "desc": "Figure 5: The periodic table of the elements separated into s, p, d and f sublevel blocks. The s block is made up of hydrogen and helium and the first two elements in periods two through seven. The d block is made up of the third through twelfth elements in periods four through seven. The p block is made up of the last six elements in periods two through seven. The f block is made up of the lanthanides and actinides.",
+                  "altText": "Figure 5: The periodic table of the elements separated into s, p, d and f sublevel blocks. The s block is made up of hydrogen and helium and the first two elements in periods two through seven. The d block is made up of the third through twelfth elements in periods four through seven. The p block is made up of the last six elements in periods two through seven. The f block is made up of the lanthanides and actinides.",
+                  "maxWidth": "660px",
+                  "scrollImg": true,
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Plain",
+                  "text": "The number of elements within a row of a sublevel block also reveals a pattern in the arrangement of electrons. Notice that the number of elements in a given period of the <span class='bodyFontItalic'>s</span> sublevel block is two – the same number as the maximum number of electrons that can occupy an <span class='bodyFontItalic'>s</span> sublevel. The number of elements in a given period of the <span class='bodyFontItalic'>p</span> sublevel block is six; the <span class='bodyFontItalic'>d</span> sublevel block has ten elements per period; the <span class='bodyFontItalic'>f</span> sublevel block has fourteen elements."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont...)",
+              "pageTitle": "Background (cont...)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The <span class='bodyFontItalic'>d</span> and <span class='bodyFontItalic'>f</span> <button class='glossary-text'>sublevel</button> blocks are organized slightly differently than the lower energy <span class='bodyFontItalic'>s</span> and <span class='bodyFontItalic'>p</span> sublevel blocks. A particular <span class='bodyFontItalic'>d</span> sublevel is one less (n - 1) than the period number. A particular <span class='bodyFontItalic'>f</span> sublevel is two less (n - 2) than the period number. For example, in Period 4, the first <span class='bodyFontItalic'>d</span> block is the 3<span class='bodyFontItalic'>d</span> sublevel. In Period 6, the second <span class='bodyFontItalic'>d</span> block is the 5<span class='bodyFontItalic'>d</span> sublevel and the first <span class='bodyFontItalic'>f</span> block is the 4<span class='bodyFontItalic'>f</span> sublevel (see <button class='resource-text'>Figure 5</button>)."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Period 1 consists of the elements hydrogen (H) and helium (He). These elements have only one sublevel (<span class='bodyFontItalic'>s</span>) and therefore only one <button class='glossary-text'>orbital</button> (1<span class='bodyFontItalic'>s</span>) which is at the lowest energy level. Hydrogen has only one electron while helium has two electrons. The <button class='glossary-text'>electron configuration</button> of an atom lists the electrons in order of increasing energy. For helium, the electron configuration is written as: 1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>. You would read this notation as “one <span class='bodyFontItalic'>s</span> two”. The number of the energy level is written first (1), followed by the sublevel (<span class='bodyFontItalic'>s</span>), and the number of electrons within the sublevel (2). Table 1 shows the electron configurations for hydrogen and helium."
+                },
+                {
+                  "type": "DataTable",
+                  "containerType": "rightContainer",
+                  "title": "Table 1.",
+                  "sr": 10,
+                  "allowClick": true,
+                  "tableWidth": "315px",
+                  "header": [
+                    {
+                      "text": "Atomic Number"
+                    },
+                    {
+                      "text": "Element"
+                    },
+                    {
+                      "text": "Electron Configuration"
+                    }
+                  ],
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "text": "1"
+                      },
+                      {
+                        "type": "text",
+                        "text": "H"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>1</sup>",
+                        "hoverText": "1s1"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "2"
+                      },
+                      {
+                        "type": "text",
+                        "text": "He"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>",
+                        "hoverText": "1s2"
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont...)",
+              "pageTitle": "Background (cont...)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Electron configurations</button> can also be written using the <button class='glossary-text'>sublevel</button> blocks shown on the periodic table (see <button class='resource-text'>Figure 6</button>). By counting across and down the periodic table until you reach the element for which you are writing an electron configuration, you can identify the correct number of electrons and their <button class='glossary-text'>orbitals</button>. For example, counting to helium on the periodic table takes you to the second element in Period 1 in the <span class='bodyFontItalic'>s</span> sublevel block. The electron configuration for helium again is 1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Period 2 starts with lithium (Li), which has three electrons. The first two electrons fill the 1<span class='bodyFontItalic'>s</span> sublevel, just like in helium, while the third electron goes to the 2<span class='bodyFontItalic'>s</span> sublevel, the next sublevel with the lowest energy.   The electron configuration for lithium is 1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>1</sup>. Note that when writing an electron configuration, all the occupied sublevels are listed starting with the lowest energy sublevels first. The element beryllium (Be) fills sublevels 1<span class='bodyFontItalic'>s</span> and 2<span class='bodyFontItalic'>s</span> with its four electrons. The remaining six elements in Period 2 are found in the <span class='bodyFontItalic'>p</span> sublevel block of the periodic table and begin to fill <span class='bodyFontItalic'>p</span> orbitals in the second energy level with their additional electrons. Neon (Ne) has all its sublevels (1<span class='bodyFontItalic'>s</span>, 2<span class='bodyFontItalic'>s</span>, 2<span class='bodyFontItalic'>p</span>) filled."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Electron configurations can be abbreviated. Elements further down the periodic table have many electrons and writing the full notation can be time consuming. Since noble gases, such as helium, have all their sublevels filled they can be used to represent some of the sublevels for an element in the next period."
+                },
+                {
+                  "type": "DataTable",
+                  "containerType": "rightContainer",
+                  "title": "Table 2.",
+                  "sr": 11,
+                  "allowClick": true,
+                  "tableWidth": "450px",
+                  "header": [
+                    {
+                      "text": "Atomic Number"
+                    },
+                    {
+                      "text": "Element"
+                    },
+                    {
+                      "text": "Electron Configuration"
+                    },
+                    {
+                      "text": "Abbreviated Configuration"
+                    }
+                  ],
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "text": "5"
+                      },
+                      {
+                        "type": "text",
+                        "text": "B"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>1</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>1</sup>",
+                        "hoverText": "1s2 2s1 2p1"
+                      },
+                      {
+                        "type": "text",
+                        "text": "[He] 2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>1</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>1</sup>",
+                        "hoverText": "[He] 2s1 2p1"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "8"
+                      },
+                      {
+                        "type": "text",
+                        "text": "O"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>4</sup>",
+                        "hoverText": "1s2 2s2 2p4"
+                      },
+                      {
+                        "type": "text",
+                        "text": "[He] 2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>4</sup>",
+                        "hoverText": "[He] 2s2 2p4"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "10"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Ne"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>",
+                        "hoverText": "1s2 2s2 2p6"
+                      },
+                      {
+                        "type": "text",
+                        "text": "[He] 2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>",
+                        "hoverText": "[He] 2s2 2p6"
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont...)",
+              "pageTitle": "Background (cont...)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The elements in Period 3, sodium through argon, have similar <button class='glossary-text'>electron configurations</button> to those of the elements in Period 2. The 3<span class='bodyFontItalic'>s</span> and 3<span class='bodyFontItalic'>p</span> <button class='glossary-text'>sublevels</button> begin to fill but not the 3<span class='bodyFontItalic'>d</span> sublevel, which requires electrons to have a much higher energy level and is thus only filled by elements from Period 4 on. Skipping the 3<span class='bodyFontItalic'>d</span> sublevel is easy to remember if you use the strategy of counting across the periodic table to write your electron configurations."
+                },
+                {
+                  "type": "DataTable",
+                  "containerType": "rightContainer",
+                  "title": "Table 3.",
+                  "sr": 12,
+                  "allowClick": true,
+                  "tableWidth": "470px",
+                  "header": [
+                    {
+                      "text": "Atomic Number"
+                    },
+                    {
+                      "text": "Element"
+                    },
+                    {
+                      "text": "Electron Configuration"
+                    },
+                    {
+                      "text": "Abbreviated Configuration"
+                    }
+                  ],
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "text": "11"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Na"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>1</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>1</sup>",
+                        "hoverText": "1s2 2s1 2p6 3s1"
+                      },
+                      {
+                        "type": "text",
+                        "text": "[Ne] 3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>1</sup>",
+                        "hoverText": "[Ne] 3s1"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "14"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Si"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>2</sup>",
+                        "hoverText": "1s2 2s2 2p6 3s2 3p2"
+                      },
+                      {
+                        "type": "text",
+                        "text": "[Ne] 3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>2</sup>",
+                        "hoverText": "[Ne] 3s2 3p2"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "18"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Ar"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>",
+                        "hoverText": "1s2 2s2 2p6 3s2 3p6"
+                      },
+                      {
+                        "type": "text",
+                        "text": "[Ne] 3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>",
+                        "hoverText": "[Ne] 3s2 3p6"
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "text": "Potassium (K) and calcium (Ca) in Period 4 have their valence electrons in the 4<span class='bodyFontItalic'>s</span> sublevels, but as we move across the period to elements such as manganese (Mn) and zinc (Zn), the 3<span class='bodyFontItalic'>d</span> sublevel is filled after the 4<span class='bodyFontItalic'>s</span> sublevel. Although found at a higher energy level, the 4<span class='bodyFontItalic'>s</span> sublevel has a slightly lower energy than the 3<span class='bodyFontItalic'>d</span> sublevel and is thus filled first after the filling of the 3<span class='bodyFontItalic'>p</span> sublevel at the end of Period 3. The progression through the sublevels resumes as normal with the filling of the 4<span class='bodyFontItalic'>p</span> sublevel starting with gallium (Ga). This pattern also takes place in Period 5 with the 4<span class='bodyFontItalic'>d</span> sublevel filled after the 5<span class='bodyFontItalic'>s</span> sublevel but before the 5<span class='bodyFontItalic'>p</span> sublevel."
+                },
+                {
+                  "type": "DataTable",
+                  "containerType": "rightContainer",
+                  "title": "Table 4.",
+                  "sr": 13,
+                  "allowClick": true,
+                  "tableWidth": "420px",
+                  "header": [
+                    {
+                      "text": "Atomic Number"
+                    },
+                    {
+                      "text": "Element"
+                    },
+                    {
+                      "text": "Electron Configuration"
+                    }
+                  ],
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "text": "20"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Ca"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>4<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>",
+                        "hoverText": "1s2 2s2 2p6 3s2 3p6 4s2"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "25"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Mn"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>4<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>d</span><sup class='bodySupscript'>5</sup>",
+                        "hoverText": "1s2 2s2 2p6 3s2 3p6 4s2 3d5"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "30"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Zn"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>4<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>d</span><sup class='bodySupscript'>10</sup>",
+                        "hoverText": "1s2 2s2 2p6 3s2 3p6 4s2 3d10"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "35"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Br"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>4<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>d</span><sup class='bodySupscript'>10</sup>4<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>5</sup>",
+                        "hoverText": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p5"
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont...)",
+              "pageTitle": "Background (cont...)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Periods 6 and 7 contain some elements with electrons in the 4<span class='bodyFontItalic'>f</span> and 5<span class='bodyFontItalic'>f</span> <button class='glossary-text'>sublevels</button>, respectively. Let's determine the <button class='glossary-text'>electron configuration</button> for the element cerium (Ce) in Period 6 as an example. Cerium has 58 electrons, 54 of which fill all the sublevels through 4<span class='bodyFontItalic'>d</span> and 5<span class='bodyFontItalic'>p</span> in the manner described previously. The next two electrons fill the 6<span class='bodyFontItalic'>s</span> sublevel as expected. As for the last two electrons, the 4<span class='bodyFontItalic'>f</span> sublevel has the next lowest energy and so cerium should have its electrons there; however, the 5<span class='bodyFontItalic'>d</span> and 4<span class='bodyFontItalic'>f</span> sublevels are so close in energy that one electron occupies a 4<span class='bodyFontItalic'>f</span> <button class='glossary-text'>orbital</button> while the other occupies a 5<span class='bodyFontItalic'>d</span> orbital. Looking at the periodic table for this pattern, we see that in Period 6 there is one element in the 5<span class='bodyFontItalic'>d</span> block before we reach cerium in the first position of the 4<span class='bodyFontItalic'>f</span> block."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580396_VIRT/580396_VIRT_fig_006.svg",
+                  "imgDivWidth": "306px",
+                  "scrollImg": true,
+                  "desc": "Figure 6: A portion of the periodic table from periods six to seven and groups one a to four b with elements fifty-five and fifty-six highlighted in one color and element fifty-eight highlighted in another color. The first two groups are labeled s block, the last three groups are labeled d block, and the two groups shown in the lanthanides and actinides are labeled f block.",
+                  "altText": "Figure 6: A portion of the periodic table from periods six to seven and groups one a to four b with elements fifty-five and fifty-six highlighted in one color and element fifty-eight highlighted in another color. The first two groups are labeled s block, the last three groups are labeled d block, and the two groups shown in the lanthanides and actinides are labeled f block.",
+                  "maxWidth": "320px"
+                  
+                },
+                {
+                  "type": "Plain",
+                  "text": "There are some exceptions to the patterns in electron configuration. When a particular <span class='bodyFontItalic'>d</span> sublevel is either completely filled or half-filled it is very stable, and an element with a certain number of electrons will prefer to keep a <span class='bodyFontItalic'>d</span> sublevel half-filled even if it means a lower energy sublevel will only be partially filled. Chromium is an example of a stable half-filled <span class='bodyFontItalic'>d</span> sublevel. Copper is an example of a stable filled <span class='bodyFontItalic'>d</span> sublevel. Note that in both configurations the 4<span class='bodyFontItalic'>s</span> sublevel is only half filled in order to achieve <span class='bodyFontItalic'>d</span> sublevel stability."
+                },
+                {
+                  "type": "DataTable",
+                  "containerType": "rightContainer",
+                  "title": "<span title='A table with three rows and three columns. The first row has the column labels atomic number, element and electron configuration. The second row reads atomic number twenty-four, element chromium, electron configuration one s two, two s two, two p six, three s two, three p six, four s one, three d five. The third row reads atomic number twenty-nine, element copper, electron configuration one s two, two s two, two p six, three s two, three p six, four s one, three d ten.'>Table 5.</span>",
+                  "sr": 14,
+                  "allowClick": true,
+                  "tableWidth": "391px",
+                  "header": [
+                    {
+                      "text": "Atomic Number"
+                    },
+                    {
+                      "text": "Element"
+                    },
+                    {
+                      "text": "Electron Configuration"
+                    }
+                  ],
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "text": "24"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Cr"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>4<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>1</sup>3<span class='bodyFontItalic'>d</span><sup class='bodySupscript'>5</sup>",
+                        "hoverText": "1s2 2s2 2p6 3s2 3p6 4s1 3d5"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "29"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Cu"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>4<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>1</sup>3<span class='bodyFontItalic'>d</span><sup class='bodySupscript'>10</sup>",
+                        "hoverText": "1s2 2s2 2p6 3s2 3p6 4s1 3d10"
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont...)",
+              "pageTitle": "Background (cont...)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "To practice determining <button class='glossary-text'>electron configurations</button>, you can use a graphic such Figure 7 to trace the increasing energy <button class='glossary-text'>sublevels</button> from the lowest to highest energy levels."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580396_VIRT/580396_VIRT_fig_007.svg",
+                  "imgDivWidth": "405px",
+                  "scrollImg": true,
+                  "desc": "Figure 7: 7 rows representing electron energy levels. The first row is n = 1 and has the sublevel 1s. The second row is n = 2 and has the sublevels 2s and 2p. The third row is n = 3 and has the sublevels 3s, 3p and 3d. The fourth row is n = 4 and has the sublevels 4s, 4p, 4d and 4f. The fifth row is n = 5 and has the sublevels 5s, 5p, 5d and 5f. The sixth row is n = 6 and has the sublevels 6s, 6p and 6d. The seventh row is n = 7 and has the sublevels 7s and 7p. 8 arrows are drawn diagonally from top right to bottom left through the sublevels. The first arrow runs through sublevel 1s. The second row runs through sublevel 2s. The third arrow runs through sublevels 2p and 3s. The fourth arrow runs through the sublevels 3p and 4s. The fifth arrow runs through sublevels 3d, 4p and 5s. The sixth arrow runs through the sublevels 4d, 5p and 6s. The seventh arrow runs through the levels 4f, 5d, 6p and 7s. The eighth arrow runs through the sublevels 5f, 6d, and 7p.",
+                  "altText": "Figure 7: 7 rows representing electron energy levels. The first row is n = 1 and has the sublevel 1s. The second row is n = 2 and has the sublevels 2s and 2p. The third row is n = 3 and has the sublevels 3s, 3p and 3d. The fourth row is n = 4 and has the sublevels 4s, 4p, 4d and 4f. The fifth row is n = 5 and has the sublevels 5s, 5p, 5d and 5f. The sixth row is n = 6 and has the sublevels 6s, 6p and 6d. The seventh row is n = 7 and has the sublevels 7s and 7p. 8 arrows are drawn diagonally from top right to bottom left through the sublevels. The first arrow runs through sublevel 1s. The second row runs through sublevel 2s. The third arrow runs through sublevels 2p and 3s. The fourth arrow runs through the sublevels 3p and 4s. The fifth arrow runs through sublevels 3d, 4p and 5s. The sixth arrow runs through the sublevels 4d, 5p and 6s. The seventh arrow runs through the levels 4f, 5d, 6p and 7s. The eighth arrow runs through the sublevels 5f, 6d, and 7p.",
+                  "maxWidth": "425px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 3",
+              "pageTitle": "Knowledge Check Question 3",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 2,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following best describes the error in this electron configuration for the element carbon (C)?<span class='bodyParaLineBreak'>1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>1</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>3</sup></span>",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Not all the sublevels are filled before a higher energy sublevel is occupied.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Some of the sublevels for this element are missing.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "This configuration does not list the preceding noble gas.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The number of electrons is incorrect.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "This electron configuration is correct.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The electron configuration given does not have a full 2<span class='bodyFontItalic'>s</span> orbital and yet there are electrons in the higher energy 2<span class='bodyFontItalic'>p</span> orbital. This violates the Aufbau principle."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "The following electron configuration describes which of the following chemical elements? The Resources icon features a Periodic Table of the Elements.<span class='bodyParaLineBreak'>[Ne]3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup></span>",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "argon (Ar)",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "neon (Ne)",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "potassium (K)",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "iron (Fe)",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "xenon (Xe)",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "This electron configuration describes an element with three full electron energy levels, which is the noble gas argon (Ar)."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Carbon has six total electrons. Two electrons will fill the 1<span class='bodyFontItalic'>s</span> orbital, then two electrons will fill the next highest orbital after that, 2<span class='bodyFontItalic'>s</span>. This leaves two final electrons to occupy part of the next highest orbital, 2<span class='bodyFontItalic'>p</span>. Note that when writing an electron configuration, all the occupied sublevels are listed starting with the lowest energy sublevels first. The electron configuration for carbon is 1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>2</sup>. <span class='bodyParaLineBreak'>Electron configurations can be abbreviated. Elements further down the periodic table have many electrons and writing the full notation can be time consuming. Since noble gases, such as helium, have all their sublevels filled they can be used to represent some of the sublevels for an element in the next period.</span>"
+                },
+                {
+                  "title": "Hint",
+                  "body": "Carbon has six total electrons. Two electrons will fill the 1<span class='bodyFontItalic'>s</span> orbital, then two electrons will fill the next highest orbital after that, 2<span class='bodyFontItalic'>s</span>. This leaves two final electrons to occupy part of the next highest orbital, 2<span class='bodyFontItalic'>p</span>. Note that when writing an electron configuration, all the occupied sublevels are listed starting with the lowest energy sublevels first. The electron configuration for carbon is 1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>2</sup>. <span class='bodyParaLineBreak'>Electron configurations can be abbreviated. Elements further down the periodic table have many electrons and writing the full notation can be time consuming. Since noble gases, such as helium, have all their sublevels filled they can be used to represent some of the sublevels for an element in the next period.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are no materials needed for this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are no safety concerns for this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "An electron in which sublevel would have a higher energy than an electron in the 4<span class='bodyFontItalic'>s</span> sublevel?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "3<span class='bodyFontItalic'>d</span>",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "3<span class='bodyFontItalic'>p</span>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "2<span class='bodyFontItalic'>f</span>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "1<span class='bodyFontItalic'>s</span>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "2<span class='bodyFontItalic'>p</span>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following sublevels can hold a maximum of ten electrons?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "<span class='bodyFontItalic'>d</span>",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "<span class='bodyFontItalic'>s</span>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "<span class='bodyFontItalic'>p</span>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "<span class='bodyFontItalic'>f</span>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "<span class='bodyFontItalic'>x</span>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "How many orbitals are found in any <span class='bodyFontItalic'>p</span> sublevel?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "3",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "5",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "1",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "7",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "8",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "An electron energy level with the principal quantum number (n) of 3 can hold how many electrons and has how many sublevels?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "18 electrons; 3 sublevels",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "9 electrons; 2 sublevels",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "6 electrons; 3 sublevels",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "10 electrons; 4 sublevels",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "12 electrons; 6 sublevels",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which sublevel has the highest energy?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "<span class='bodyFontItalic'>f</span>",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "<span class='bodyFontItalic'>d</span>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "<span class='bodyFontItalic'>s</span>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "<span class='bodyFontItalic'>p</span>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "<span class='bodyFontItalic'>x</span>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity",
+      "menuIcon": "core/Chemistry_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this activity, you will select elements from the periodic table for which to construct <button class='glossary-text'>electron configurations</button>. Each element is worth a different point value: to finish the activity, complete enough elements to reach 30 points. The simulation can be found after the protocol for the activity."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity",
+          "pages": [
+            {
+              "title": "Activity",
+              "pageTitle": "Activity (3 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity1",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "From the periodic table in the simulation, select an element for which you would like to write an <button class='glossary-text'>electron configuration</button>. The point values of each element are color coded in a key in the bottom left corner."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Earn points for your chosen element by answering the associated question. These questions will either be multiple-choice or sequencing. When determining electron configurations for elements in Periods 6 and higher, you must provide idealized configurations rather than observed ones."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "When you have earned 30 points, you will gain access to your results. From here, you can see which questions you answered correctly before saving your results to submit to your instructor."
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Activity 1",
+              "template": "VirtualLab",
+              "activityPath": "activities/580396_VIRT/activity1/story.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "waterMark": true,
+              "pageTitle":"Thank you",
+              "showPageTitle":true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Chemistry_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2022 Carolina Biological Supply Company",
+      "pageSetting": "a4"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "photo1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Photo",
+                "text": "Insert the screenshot of your Activity Results page. The screenshot must show:<ul class='list-comp-unorder-list' style='margin-left: -5px; margin-top: 5px; margin-bottom: 0rem;'><li class='list-comp-list-item bodyPara' style='font-size:1em;'>Your name</li><li class='list-comp-list-item bodyPara' style='font-size:1em;'>The date</li><li class='list-comp-list-item bodyPara' style='font-size:1em;'>Your score</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "pageData": [
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580396_VIRT/Periodic_Table.svg",
+        "content": "Periodic Table of the Elements",
+        "altText": "Periodic Table of the Elements",
+        "maxWidth": "2200px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580396_VIRT/580396_VIRT_fig_001.svg",
+        "maxWidth": "650px ",
+        "scrollImg": true,
+        "altText": "Figure 1: A diagram showing how when an element is heated it produces light which, when passed through a prism, splits into distinct wavelengths of light known also known as its atomic spectrum.",
+        "content": "Figure 1. The process of creating an atomic spectrum"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580396_VIRT/580396_VIRT_fig_002.svg",
+        "maxWidth": "370px ",
+        "scrollImg": true,
+        "altText": "Figure 2: A diagram of a staircase with the first step labeled n equals one, the second step labeled n equals two, the third step labeled n equals three and the fourth step labeled n equals four. An arrow pointing up along the stair is labeled increasing energy.",
+        "content": "Figure 2. A staircase analogy for electron energy levels"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580396_VIRT/580396_VIRT_fig_003.svg",
+        "maxWidth": "500px",
+        "scrollImg": true,
+        "altText": "Figure 3: Two illustrations of atoms with one electron. The first atom has an electron in an excited state emitting energy to fall to a ground state. The second atom has an electron in a ground state absorbing energy to reach an excited state.",
+        "content": "Figure 3. Ground state and excited state electrons"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580396_VIRT/580396_VIRT_fig_004.svg",
+        "maxWidth": "500px",
+        "scrollImg": true,
+        "altText": "Figure 4: A diagram with the y axis labeled increasing energy and four rows labeled from bottom to top shell one, shell two, shell three and shell four. On the row shell one a box to the far left is labeled one s. On the row shell two a box in the far left is labeled two s and a group a three boxes to the right of the first box is labeled two p. On the row shell three a box to the far left is labeled three s, a group of boxes to the right are labeled three p, and a group of five boxes to the right of the group of three are labeled three d. On the row shell four a box to the far left is labeled four s, a group of three boxes to the right is labeled four p, a group of five boxes more to the right is labeled four d and a group of seven boxes to the right of the group of five is labeled four f.",
+        "content": "Figure 4. Electron energy sublevels"
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6321492137112",
+        "content": "Orbital Principles"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580396_VIRT/580396_VIRT_fig_005.svg",
+        "maxWidth": "660px",
+        "scrollImg": true,
+        "altText": "Figure 5: The periodic table of the elements separated into s, p, d and f sublevel blocks. The s block is made up of hydrogen and helium and the first two elements in periods two through seven. The d block is made up of the third through twelfth elements in periods four through seven. The p block is made up of the last six elements in periods two through seven. The f block is made up of the lanthanides and actinides.",
+        "content": "Figure 5. Periodic table with electron energy sublevels"
+      },
+      {
+        "type": "DataTable",
+        "thumbnailSrc": "core/Table_icon.svg",
+        "content": "Table 1. Period 1 electron configuration examples",
+        "isResource": true,
+        "containerType": "rightContainer",
+        "title": "Table 1.",
+        "sr": 10,
+        "allowClick": true,
+        "tableWidth": "315px",
+        "header": [
+          {
+            "text": "Atomic Number"
+          },
+          {
+            "text": "Element"
+          },
+          {
+            "text": "Electron Configuration"
+          }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "text": "1"
+            },
+            {
+              "type": "text",
+              "text": "H"
+            },
+            {
+              "type": "text",
+              "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>1</sup>",
+              "hoverText": "1s1"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "2"
+            },
+            {
+              "type": "text",
+              "text": "He"
+            },
+            {
+              "type": "text",
+              "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>",
+              "hoverText": "1s2"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "DataTable",
+        "thumbnailSrc": "core/Table_icon.svg",
+        "content": "Table 2. Period 2 electron configuration examples",
+        "isResource": true,
+        "containerType": "rightContainer",
+        "title": "Table 2.",
+        "sr": 11,
+        "allowClick": true,
+        "tableWidth": "450px",
+        "header": [
+          {
+            "text": "Atomic Number"
+          },
+          {
+            "text": "Element"
+          },
+          {
+            "text": "Electron Configuration"
+          },
+          {
+            "text": "Abbreviated Configuration"
+          }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "text": "5"
+            },
+            {
+              "type": "text",
+              "text": "B"
+            },
+            {
+              "type": "text",
+              "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>1</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>1</sup>",
+              "hoverText": "1s2 2s1 2p1"
+            },
+            {
+              "type": "text",
+              "text": "[He] 2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>1</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>1</sup>",
+              "hoverText": "[He] 2s1 2p1"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "8"
+            },
+            {
+              "type": "text",
+              "text": "O"
+            },
+            {
+              "type": "text",
+              "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>4</sup>",
+              "hoverText": "1s2 2s2 2p4"
+            },
+            {
+              "type": "text",
+              "text": "[He] 2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>4</sup>",
+              "hoverText": "[He] 2s2 2p4"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "10"
+            },
+            {
+              "type": "text",
+              "text": "Ne"
+            },
+            {
+              "type": "text",
+              "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>",
+              "hoverText": "1s2 2s2 2p6"
+            },
+            {
+              "type": "text",
+              "text": "[He] 2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>",
+              "hoverText": "[He] 2s2 2p6"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "DataTable",
+        "thumbnailSrc": "core/Table_icon.svg",
+        "content": "Table 3. Period 3 electron configuration examples",
+        "isResource": true,
+        "containerType": "rightContainer",
+        "title": "Table 3.",
+        "sr": 12,
+        "allowClick": true,
+        "tableWidth": "470px",
+        "header": [
+          {
+            "text": "Atomic Number"
+          },
+          {
+            "text": "Element"
+          },
+          {
+            "text": "Electron Configuration"
+          },
+          {
+            "text": "Abbreviated Configuration"
+          }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "text": "11"
+            },
+            {
+              "type": "text",
+              "text": "Na"
+            },
+            {
+              "type": "text",
+              "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>1</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>1</sup>",
+              "hoverText": "1s2 2s1 2p6 3s1"
+            },
+            {
+              "type": "text",
+              "text": "[Ne] 3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>1</sup>",
+              "hoverText": "[Ne] 3s1"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "14"
+            },
+            {
+              "type": "text",
+              "text": "Si"
+            },
+            {
+              "type": "text",
+              "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>2</sup>",
+              "hoverText": "1s2 2s2 2p6 3s2 3p2"
+            },
+            {
+              "type": "text",
+              "text": "[Ne] 3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>2</sup>",
+              "hoverText": "[Ne] 3s2 3p2"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "18"
+            },
+            {
+              "type": "text",
+              "text": "Ar"
+            },
+            {
+              "type": "text",
+              "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>",
+              "hoverText": "1s2 2s2 2p6 3s2 3p6"
+            },
+            {
+              "type": "text",
+              "text": "[Ne] 3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>",
+              "hoverText": "[Ne] 3s2 3p6"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "DataTable",
+        "thumbnailSrc": "core/Table_icon.svg",
+        "content": "Table 4. Period 4 electron configuration examples",
+        "isResource": true,
+        "containerType": "rightContainer",
+        "title": "Table 4.",
+        "sr": 13,
+        "allowClick": true,
+        "tableWidth": "420px",
+        "header": [
+          {
+            "text": "Atomic Number"
+          },
+          {
+            "text": "Element"
+          },
+          {
+            "text": "Electron Configuration"
+          }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "text": "20"
+            },
+            {
+              "type": "text",
+              "text": "Ca"
+            },
+            {
+              "type": "text",
+              "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>4<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>",
+              "hoverText": "1s2 2s2 2p6 3s2 3p6 4s2"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "25"
+            },
+            {
+              "type": "text",
+              "text": "Mn"
+            },
+            {
+              "type": "text",
+              "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>4<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>d</span><sup class='bodySupscript'>5</sup>",
+              "hoverText": "1s2 2s2 2p6 3s2 3p6 4s2 3d5"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "30"
+            },
+            {
+              "type": "text",
+              "text": "Zn"
+            },
+            {
+              "type": "text",
+              "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>4<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>d</span><sup class='bodySupscript'>10</sup>",
+              "hoverText": "1s2 2s2 2p6 3s2 3p6 4s2 3d10"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "35"
+            },
+            {
+              "type": "text",
+              "text": "Br"
+            },
+            {
+              "type": "text",
+              "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>4<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>d</span><sup class='bodySupscript'>10</sup>4<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>5</sup>",
+              "hoverText": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p5"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580396_VIRT/580396_VIRT_fig_006.svg",
+        "maxWidth": "320px",
+        "scrollImg": true,
+        "altText": "Figure 6: A portion of the periodic table from periods six to seven and groups one a to four b with elements fifty-five and fifty-six highlighted in one color and element fifty-eight highlighted in another color. The first two groups are labeled s block, the last three groups are labeled d block, and the two groups shown in the lanthanides and actinides are labeled f block.",
+        "content": "Figure 6. Periods 6-7 with electron energy sublevels"
+      },
+      {
+        "type": "DataTable",
+        "thumbnailSrc": "core/Table_icon.svg",
+        "content": "Table 5. Examples of stable d-orbital configurations",
+        "isResource": true,
+        "containerType": "rightContainer",
+        "title": "<span title='A table with three rows and three columns. The first row has the column labels atomic number, element and electron configuration. The second row reads atomic number twenty-four, element chromium, electron configuration one s two, two s two, two p six, three s two, three p six, four s one, three d five. The third row reads atomic number twenty-nine, element copper, electron configuration one s two, two s two, two p six, three s two, three p six, four s one, three d ten.'>Table 5.</span>",
+        "sr": 14,
+        "allowClick": true,
+        "tableWidth": "391px",
+        "header": [
+          {
+            "text": "Atomic Number"
+          },
+          {
+            "text": "Element"
+          },
+          {
+            "text": "Electron Configuration"
+          }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "text": "24"
+            },
+            {
+              "type": "text",
+              "text": "Cr"
+            },
+            {
+              "type": "text",
+              "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>4<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>1</sup>3<span class='bodyFontItalic'>d</span><sup class='bodySupscript'>5</sup>",
+              "hoverText": "1s2 2s2 2p6 3s2 3p6 4s1 3d5"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "29"
+            },
+            {
+              "type": "text",
+              "text": "Cu"
+            },
+            {
+              "type": "text",
+              "text": "1<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>2<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>3<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>2</sup>3<span class='bodyFontItalic'>p</span><sup class='bodySupscript'>6</sup>4<span class='bodyFontItalic'>s</span><sup class='bodySupscript'>1</sup>3<span class='bodyFontItalic'>d</span><sup class='bodySupscript'>10</sup>",
+              "hoverText": "1s2 2s2 2p6 3s2 3p6 4s1 3d10"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580396_VIRT/580396_VIRT_fig_007.svg",
+        "maxWidth": "425px",
+        "scrollImg": true,
+        "altText": "Figure 7: 7 rows representing electron energy levels. The first row is n = 1 and has the sublevel 1s. The second row is n = 2 and has the sublevels 2s and 2p. The third row is n = 3 and has the sublevels 3s, 3p and 3d. The fourth row is n = 4 and has the sublevels 4s, 4p, 4d and 4f. The fifth row is n = 5 and has the sublevels 5s, 5p, 5d and 5f. The sixth row is n = 6 and has the sublevels 6s, 6p and 6d. The seventh row is n = 7 and has the sublevels 7s and 7p. 8 arrows are drawn diagonally from top right to bottom left through the sublevels. The first arrow runs through sublevel 1s. The second row runs through sublevel 2s. The third arrow runs through sublevels 2p and 3s. The fourth arrow runs through the sublevels 3p and 4s. The fifth arrow runs through sublevels 3d, 4p and 5s. The sixth arrow runs through the sublevels 4d, 5p and 6s. The seventh arrow runs through the levels 4f, 5d, 6p and 7s. The eighth arrow runs through the sublevels 5f, 6d, and 7p.",
+        "content": "Figure 7. Pattern for organizing electron energy sublevels"
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Atomic spectrum",
+        "content": "The spectrum of frequencies of electromagnetic radiation emitted due to an electron making a transition from a high energy state to a lower energy state."
+      },
+      {
+        "title": "Aufbau principle",
+        "content": "States that electrons must occupy the lowest available energy levels before occupying higher ones. "
+      },
+      {
+        "title": "Electron configuration",
+        "content": "A description of the electrons of an atom in order of increasing energy."
+      },
+      {
+        "title": "Excited state",
+        "content": "An energy state of an atom or other particle, such as an electron, that is higher than its ground state."
+      },
+      {
+        "title": "Ground state",
+        "content": "The lowest energy state of an atom or other particle, such as an electron."
+      },
+      {
+        "title": "Hund's rule",
+        "content": "States that an orbital must be singly occupied before it can be doubly occupied."
+      },
+      {
+        "title": "Orbital",
+        "content": "The regions within an energy sublevel that an electron is most likely to occupy."
+      },
+      {
+        "title": "Pauli exclusion principle",
+        "content": "States that when an orbital does contain two electrons, the electrons must have opposite spins."
+      },
+      {
+        "title": "Principal quantum number (n)",
+        "content": "Describes the main energy level occupied by an electron."
+      },
+      {
+        "title": "Sublevel",
+        "content": "An energy level within a main energy level occupied by an electron and which contains orbitals."
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

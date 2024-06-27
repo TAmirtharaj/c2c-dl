@@ -1,0 +1,92 @@
+/** @format */
+
+.menuHolder {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  top: 100%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  border-radius: 0px 0px 15px 15px;
+  z-index: 15;
+}
+
+.mainTitleHolder {
+  position: absolute;
+  width: 21%;
+  height: auto;
+  left: 2px;
+  top: 2px;
+  background-color: #c6e2ff;
+  border-bottom-left-radius: 15px;
+  min-width: 360px;
+  overflow: auto;
+  padding: 2px 0 8px 0
+}
+
+.subMenuHolder {
+  position: relative;
+  width: calc(100% - 25px);
+  height: auto;
+  float: left;
+  left: 25px;
+}
+.sectionSceneWrapper{
+  padding: 2px 0 2px 0;
+}
+.subSubMenuHolder {
+  position: relative;
+  width: calc(100% - 25px);
+  height: auto;
+  float: left;
+  left: 25px;
+}
+/* Mobile Potrait */
+@media only screen and (min-device-width: 275px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .mainTitleHolder {
+    width: 100%;
+    overflow: scroll;
+  }
+  .subMenuHolder {
+    position: relative;
+    width: 90%;
+    height: auto;
+    left: 10%;
+  }
+  .subSubMenuHolder {
+    position: relative;
+    width: 90%;
+    height: auto;
+    left: 10%;
+  }
+}
+
+/* Mobile Landscape */
+@media only screen and (min-device-width: 300px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .mainTitleHolder {
+    width: 100%;
+    overflow: scroll;
+  }
+  .subMenuHolder {
+    position: relative;
+    width: 90%;
+    height: auto;
+    left: 10%;
+  }
+  .subSubMenuHolder {
+    position: relative;
+    width: 90%;
+    height: auto;
+    left: 10%;
+  }
+}
+
+/* Landscape iPad Normal*/
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-max-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* Portrait iPad Normal*/
+@media only screen and (min-width: 768px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-max-device-pixel-ratio: 2) and (orientation: portrait) {
+}

@@ -1,0 +1,2668 @@
+{
+  "locked": true,
+  "courseTitle": "Developing an Activity Series",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Chemistry_subject_icon.svg",
+    "core/Chemistry_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/bodyBookmark.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/TakeSnapshot.svg",
+    "core/disposalAndCleanupIcon.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Chemistry_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Chemistry",
+                "titleName2": "Developing an Activity Series",
+                "images": {
+                  "launchPage": "core/Chemistry_launchPageBg.svg",
+                  "logo": "core/Chemistry_subject_icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "waterMark": true,
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, students will experimentally rank the chemical activities of copper, iron, and magnesium. Students will determine if a reaction will reduce a <button class='glossary-text'>metal</button> ion to a pure metal based on reactions between metals and salt solutions."
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses/580316/580316_TimeRequirement.svg",
+                  "imgDivWidth": "461px",
+                  "scrollImg": true,
+                  "maxWidth": "500px",
+                  "desc": "Preparation: 10 minutes, Activity 1: Creating a Metal Activity Series: 15 minutes, Cleanup: 5 minutes",
+                  "altText": "Preparation: 10 minutes, Activity 1: Creating a Metal Activity Series: 15 minutes, Cleanup: 5 minutes",
+                  "width": "50%",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Sandpaper or emery board",
+                    "Permanent marker",
+                    "Scissors"
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "title": "Overview Video: Developing an Activity Series"
+                },
+                {
+                  "type": "Video",
+                  "containerType": "rightContainer",
+                  "imgDivWidth": "200px",
+                  "image": "courses/580316/580316_VideoIcone_01.svg",
+                  "desc": "OverView Video",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6298836371001"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "title": "Outcomes",
+                  "type": "List",
+                  "text": [
+                    "Determine whether salt solutions will reduce <button class='glossary-text'>metal</button> ions to pure metal.",
+                    "Rank metals from most reactive to least reactive.",
+                    "Write half-reactions and net ionic equations for each reaction.",
+                    "Identify the oxidizing and reducing agents and which substances are oxidized and reduced."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Batteries can manipulate the use of chemical energy’s ability to store electrical energy. They do this by taking advantage of the reactivities of <button class='glossary-text'>metals</button> like zinc, manganese, lithium, and lead. Such reactivity can power a device via the movement of electrons; they occur until the anode is out of electrons, generally after the battery component called the electrolyte has been exhausted. These redox reactions cause the pressure within the battery to increase as hydrogen gas is produced as a byproduct of the breakdown water from the electrolyte. Usually, the seals at the top and bottom of the battery are secure enough to contain these pressures. However, for reasons such as age or improper use, these seals can break and the battery leaks the excess hydrogen gas, forcing out the liquid electrolyte (i.e., potassium hydroxide or KOH). The KOH reacts with carbon dioxide (CO<sub className=bodySubscript>2</sub>) in the air and creates the salt potassium carbonate (K<sub className=bodySubscript>2</sub>CO<sub className=bodySubscript>3</sub>), which appears as a white crystalline residue."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580316/580316_whyShouldICare.svg",
+                  "desc": "A small cylindrical battery covered in a crystalline residue.",
+                  "altText": "A small cylindrical battery covered in a crystalline residue.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "infoPopUp": "resource",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "A <button class='glossary-text'>metal</button> is characterized by the ability to lose outer-level electrons, which results in the formation of a <button class='glossary-text'>cation</button>. This process is called <button class='glossary-text'>oxidation</button>. The reactivity of a metal is based on the ability to become oxidized. Metals that have a greater tendency to lose electrons and become oxidized are more reactive. Metals are ranked from most reactive to least reactive in a table called the <button class='glossary-text'>Metal Activity Series</button> (Figure 1).<span className=bodyParaLineBreak>Notice that gold and silver are near the bottom of the activity series, indicating that these metals are less reactive due to a stronger attraction for the outer electrons. This is why these metals are sometimes found in nature as pure metals. Ancient civilizations used copper, silver, and gold coins as currencies, because these metals do not oxidize or lose their luster as easily as that of other metals. Oxidation is common. Iron and steel structures lose electrons and corrode. This results in the formation of Fe<sup className=bodySupscript>3+</sup> ions, which react with oxygen to produce iron (III) oxide (Fe<sub className=bodySubscript>2</sub>O<sub className=bodySubscript>3</sub>), or rust.</span>"
+                },
+                {
+                  "title": "Figure 1.",
+                  "containerType": "rightContainer",
+                  "allowClick": true,
+                  "type": "DataTable",
+                  "tableWidth": "95%",
+                  "sr": 10,
+                  "tableHeight": "1.5",
+                  "maxLength": 20,
+                  "header": [
+                    {
+                      "type": "text",
+                      "colWidth": "15%",
+                      "text": "Metal",
+                      "hoverText": "Metal"
+                    },
+                    {
+                      "type": "text",
+                      "colWidth": "35%",
+                      "text": "Metal Ion from Oxidation",
+                      "hoverText": "Metal Ion from Oxidation"
+                    },
+                    {
+                      "type": "text",
+                      "colWidth": "50%",
+                      "text": "Reactivity",
+                      "hoverText": "Reactivity"
+                    }
+                  ],
+
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "text": "Li",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Li → Li<sup class='bodysuperscript'>+</sup> + e<sup class='bodysuperscript'>–</sup>",
+                        "hoverText": "Li → Li+ + e–"
+                      },
+                      {
+                        "type": "text",
+                        "borderBottom": "medium",
+                        "rowspan": 8,
+                        "text": "<span className= bodyBoldSubText>A metal that is listed high on the activity series table will:</span> <br/>•   be more reactive. <br/>•   be more easily oxidized <br/>(i.e., more easily lose its electrons). <br/>•   more vigorously react with chemicals. <br/>•   more easily corrode.",
+                        "hoverText": "A metal that is listed high on the activity series table will: •   be more reactive. •   be more easily oxidized (i.e., more easily lose its electrons). •   more vigorously react with chemicals. •   more easily corrode."
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "K",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "K → K<sup class='bodysuperscript'>+</sup> + e<sup class='bodysuperscript'>–</sup>",
+                        "hoverText": "K → K+ + e–"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Ca",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Ca → Ca<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                        "hoverText": "Ca → Ca2+ + 2 e–"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Na",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Na → Na<sup class='bodysupscript'>+</sup> + e<sup class='bodysupscript'>–</sup>",
+                        "hoverText": "Na → Na+ + e–"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Mg",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Mg → Mg<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                        "hoverText": "Mg → Mg2+ + 2 e–"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Al",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Al → Al<sup class='bodysupscript'>3+</sup> + 3 e<sup class='bodysupscript'>–</sup>",
+                        "hoverText": "Al → Al3+ + 3 e–"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Zn",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Zn → Zn<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                        "hoverText": "Zn → Zn2+ + 2 e–"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Fe",
+                        "borderBottom": "medium",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "borderBottom": "medium",
+                        "text": "Fe → Fe<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                        "hoverText": "Fe → Fe2+ + 2 e–"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Sn",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Sn → Sn<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                        "hoverText": "Sn → Sn2+ + 2 e–"
+                      },
+                      {
+                        "type": "text",
+                        "rowspan": 8,
+                        "text": "<span className= bodyBoldSubText>A metal that is listed low on the activity series table will:</span>  <br/>•   react less vigorously and less quickly with chemicals. <br/>•   corrode less easily",
+                        "hoverText": "A metal that is listed low on the activity series table will:  •   react less vigorously and less quickly with chemicals. •   corrode less easily"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Pb",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Pb → Pb<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                        "hoverText": "Pb → Pb2+ + 2 e–"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "H<sub class='bodysubscript'>2</sub>",
+                        "hoverText": "H2",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "H<sup class='bodysupscript'>2</sup> → 2 H<sup class='bodysupscript'>+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                        "hoverText": "H2 → 2 H+ + 2 e–"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Cu",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Cu → Cu<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                        "hoverText": "Cu → Cu2+ + 2 e–"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Ag",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Ag → Ag<sup class='bodysupscript'>+</sup> + e<sup class='bodysupscript'>–</sup>",
+                        "hoverText": "Ag → Ag+ + e–"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Pt",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Pt → Pt<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                        "hoverText": "Pt → Pt2+ + 2 e–"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Au",
+                        "align": "left"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Au → Au<sup class='bodysupscript'>3+</sup> + 3 e<sup class='bodysupscript'>–</sup>",
+                        "hoverText": "Au → Au3+ + 3 e–"
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont...)",
+              "pageTitle": "Background (cont...)",
+              "infoPopUp": "resource",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "An <button class='glossary-text'>oxidation</button> reaction, which is a loss of electrons with an increase in charge, requires an accompanying reduction reaction, or a gain of electrons with a reduction in charge. The <button class='glossary-text'>Metal Activity Series</button> table (<button class='resource-text'>Figure 1</button>) ranks elements according to chemical activity. This table can be used to predict whether a <button class='glossary-text'>metal</button> will spontaneously react with the ions of another metal. For example, this table can be used to predict if a strip of copper metal will react with an aqueous solution of silver nitrate (AgNO<sub className=bodySubscript>3</sub>) (Figure 2)."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580316/580316_fig_002.svg",
+                  "scrollImg": true,
+                  "desc": "Figure 2: Image showing copper strip reacting with a silver nitrate solution. Copper ionizes and silver deposits as a solid on the copper.",
+                  "altText": "Figure 2: Image showing copper strip reacting with a silver nitrate solution. Copper ionizes and silver deposits as a solid on the copper.",
+                  "imgDivWidth": "374px",
+                  "imgDivMargin": "auto",
+                  "maxWidth": "400px"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 1",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "A metal that is listed high on the activity series table will:",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "more easily lose its electrons",
+                      "correct": true,
+                      "img": "courses/580316/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "corrode less easily",
+                      "correct": false,
+                      "img": "courses/580316/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "be copper, silver, and gold",
+                      "correct": false,
+                      "img": "courses/580316/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "not oxidize or lose their luster",
+                      "correct": false,
+                      "img": "courses/580316/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "have a stronger attraction to other metals",
+                      "correct": false,
+                      "img": "courses/580316/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "A metal that is listed high on the activity series table will be more reactive, be more easily oxidized (i.e., more easily lose its electrons), more vigorously react with chemicals, and more easily corrode."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 1",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Ancient civilizations used ______ coins as currency because these metals do not oxidize or lose their luster as easily as other metals.",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "copper, silver, and gold",
+                      "correct": true,
+                      "img": "courses/580316/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "gold, silver, and aluminum",
+                      "correct": false,
+                      "img": "courses/580316/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "copper, zinc, and gold",
+                      "correct": false,
+                      "img": "courses/580316/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "tin, zinc, and iron",
+                      "correct": false,
+                      "img": "courses/580316/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Copper, silver, and gold do not oxidize or lose their luster as easily as that of other metals."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "A metal that is listed low on the activity series table will react less vigorously and less quickly with chemicals and corrode less easily. Ancient civilizations used different metal coins as currencies, because these metals do not oxidize or lose their luster as easily as that of other metals. Oxidation is common. For example, iron and steel structures lose electrons and corrode. This results in the formation of Fe<sup>3+</sup> ions, which react with oxygen to produce iron (III) oxide (Fe<sub>2</sub>O<sub>3</sub>), or rust.",
+                  "maxWidth": "120px",
+                  "alt": "A metal that is listed low on the activity series table will react less vigorously and less quickly with chemicals and corrode less easily. Ancient civilizations used different metal coins as currencies, because these metals do not oxidize or lose their luster as easily as that of other metals. Oxidation is common. For example, iron and steel structures lose electrons and corrode. This results in the formation of Fe<sup>3+</sup> ions, which react with oxygen to produce iron (III) oxide (Fe<sub>2</sub>O<sub>3</sub>), or rust.",
+                  "dataTable": [
+                    {
+                      "title": "Figure 1.",
+                      "allowClick": true,
+                      "type": "DataTable",
+                      "tableWidth": "70%",
+                      "tableHeight": "1.5",
+                      "sr": 10,
+                      "maxLength": 20,
+                      "header": [
+                        {
+                          "type": "text",
+                          "colWidth": "15%",
+                          "text": "Metal",
+                          "hoverText": "Metal"
+                        },
+                        {
+                          "type": "text",
+                          "colWidth": "35%",
+                          "text": "Metal Ion from Oxidation",
+                          "hoverText": "Metal Ion from Oxidation"
+                        },
+                        {
+                          "type": "text",
+                          "colWidth": "50%",
+                          "text": "Reactivity",
+                          "hoverText": "Reactivity"
+                        }
+                      ],
+
+                      "tableData": [
+                        [
+                          {
+                            "type": "text",
+                            "text": "Li",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Li → Li<sup class='bodysuperscript'>+</sup> + e<sup class='bodysuperscript'>–</sup>",
+                            "hoverText": "Li → Li+ + e–"
+                          },
+                          {
+                            "type": "text",
+                            "borderBottom": "medium",
+                            "rowspan": 8,
+                            "text": "<span className= bodyBoldSubText>A metal that is listed high on the activity series table will:</span> <br/>•   be more reactive. <br/>•   be more easily oxidized <br/>(i.e., more easily lose its electrons). <br/>•   more vigorously react with chemicals. <br/>•   more easily corrode.",
+                            "hoverText": "A metal that is listed high on the activity series table will: •   be more reactive. •   be more easily oxidized (i.e., more easily lose its electrons). •   more vigorously react with chemicals. •   more easily corrode."
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "K",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "K → K<sup class='bodysuperscript'>+</sup> + e<sup class='bodysuperscript'>–</sup>",
+                            "hoverText": "K → K+ + e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Ca",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Ca → Ca<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Ca → Ca2+ + 2 e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Na",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Na → Na<sup class='bodysupscript'>+</sup> + e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Na → Na+ + e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Mg",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Mg → Mg<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Mg → Mg2+ + 2 e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Al",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Al → Al<sup class='bodysupscript'>3+</sup> + 3 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Al → Al3+ + 3 e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Zn",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Zn → Zn<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Zn → Zn2+ + 2 e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Fe",
+                            "borderBottom": "medium",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "borderBottom": "medium",
+                            "text": "Fe → Fe<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Fe → Fe2+ + 2 e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Sn",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Sn → Sn<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Sn → Sn2+ + 2 e–"
+                          },
+                          {
+                            "type": "text",
+                            "rowspan": 8,
+                            "text": "<span className= bodyBoldSubText>A metal that is listed low on the activity series table will:</span>  <br/>•   react less vigorously and less quickly with chemicals. <br/>•   corrode less easily",
+                            "hoverText": "A metal that is listed low on the activity series table will:  •   react less vigorously and less quickly with chemicals. •   corrode less easily"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Pb",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Pb → Pb<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Pb → Pb2+ + 2 e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "H<sub class='bodysubscript'>2</sub>",
+                            "hoverText": "H2",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "H<sup class='bodysupscript'>2</sup> → 2 H<sup class='bodysupscript'>+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "H2 → 2 H+ + 2 e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Cu",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Cu → Cu<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Cu → Cu2+ + 2 e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Ag",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Ag → Ag<sup class='bodysupscript'>+</sup> + e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Ag → Ag+ + e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Pt",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Pt → Pt<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Pt → Pt2+ + 2 e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Au",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Au → Au<sup class='bodysupscript'>3+</sup> + 3 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Au → Au3+ + 3 e–"
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "A metal that is listed low on the activity series table will react less vigorously and less quickly with chemicals and corrode less easily. Ancient civilizations used different metal coins as currencies, because these metals do not oxidize or lose their luster as easily as that of other metals. Oxidation is common. For example, iron and steel structures lose electrons and corrode. This results in the formation of Fe<sup>3+</sup> ions, which react with oxygen to produce iron (III) oxide (Fe<sub>2</sub>O<sub>3</sub>), or rust.",
+                  "maxWidth": "120px",
+                  "alt": "A metal that is listed low on the activity series table will react less vigorously and less quickly with chemicals and corrode less easily. Ancient civilizations used different metal coins as currencies, because these metals do not oxidize or lose their luster as easily as that of other metals. Oxidation is common. For example, iron and steel structures lose electrons and corrode. This results in the formation of Fe<sup>3+</sup> ions, which react with oxygen to produce iron (III) oxide (Fe<sub>2</sub>O<sub>3</sub>), or rust.",
+                  "dataTable": [
+                    {
+                      "title": "Figure 1.",
+                      "allowClick": true,
+                      "type": "DataTable",
+                      "tableWidth": "70%",
+                      "tableHeight": "1.5",
+                      "sr": 10,
+                      "maxLength": 20,
+                      "header": [
+                        {
+                          "type": "text",
+                          "colWidth": "15%",
+                          "text": "Metal",
+                          "hoverText": "Metal"
+                        },
+                        {
+                          "type": "text",
+                          "colWidth": "35%",
+                          "text": "Metal Ion from Oxidation",
+                          "hoverText": "Metal Ion from Oxidation"
+                        },
+                        {
+                          "type": "text",
+                          "colWidth": "50%",
+                          "text": "Reactivity",
+                          "hoverText": "Reactivity"
+                        }
+                      ],
+
+                      "tableData": [
+                        [
+                          {
+                            "type": "text",
+                            "text": "Li",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Li → Li<sup class='bodysuperscript'>+</sup> + e<sup class='bodysuperscript'>–</sup>",
+                            "hoverText": "Li → Li+ + e–"
+                          },
+                          {
+                            "type": "text",
+                            "borderBottom": "medium",
+                            "rowspan": 8,
+                            "text": "<span className= bodyBoldSubText>A metal that is listed high on the activity series table will:</span> <br/>•   be more reactive. <br/>•   be more easily oxidized <br/>(i.e., more easily lose its electrons). <br/>•   more vigorously react with chemicals. <br/>•   more easily corrode.",
+                            "hoverText": "A metal that is listed high on the activity series table will: •   be more reactive. •   be more easily oxidized (i.e., more easily lose its electrons). •   more vigorously react with chemicals. •   more easily corrode."
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "K",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "K → K<sup class='bodysuperscript'>+</sup> + e<sup class='bodysuperscript'>–</sup>",
+                            "hoverText": "K → K+ + e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Ca",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Ca → Ca<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Ca → Ca2+ + 2 e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Na",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Na → Na<sup class='bodysupscript'>+</sup> + e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Na → Na+ + e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Mg",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Mg → Mg<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Mg → Mg2+ + 2 e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Al",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Al → Al<sup class='bodysupscript'>3+</sup> + 3 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Al → Al3+ + 3 e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Zn",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Zn → Zn<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Zn → Zn2+ + 2 e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Fe",
+                            "borderBottom": "medium",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "borderBottom": "medium",
+                            "text": "Fe → Fe<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Fe → Fe2+ + 2 e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Sn",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Sn → Sn<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Sn → Sn2+ + 2 e–"
+                          },
+                          {
+                            "type": "text",
+                            "rowspan": 8,
+                            "text": "<span className= bodyBoldSubText>A metal that is listed low on the activity series table will:</span>  <br/>•   react less vigorously and less quickly with chemicals. <br/>•   corrode less easily",
+                            "hoverText": "A metal that is listed low on the activity series table will:  •   react less vigorously and less quickly with chemicals. •   corrode less easily"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Pb",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Pb → Pb<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Pb → Pb2+ + 2 e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "H<sub class='bodysubscript'>2</sub>",
+                            "hoverText": "H2",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "H<sup class='bodysupscript'>2</sup> → 2 H<sup class='bodysupscript'>+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "H2 → 2 H+ + 2 e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Cu",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Cu → Cu<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Cu → Cu2+ + 2 e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Ag",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Ag → Ag<sup class='bodysupscript'>+</sup> + e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Ag → Ag+ + e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Pt",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Pt → Pt<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Pt → Pt2+ + 2 e–"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Au",
+                            "align": "left"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Au → Au<sup class='bodysupscript'>3+</sup> + 3 e<sup class='bodysupscript'>–</sup>",
+                            "hoverText": "Au → Au3+ + 3 e–"
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont...)",
+              "pageTitle": "Background (cont...)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The net ionic equation below shows the reaction. This is classified as a single-displacement reaction, because copper displaces the silver ion from the aqueous silver-nitrate solution. <span className=bodyParaLineBreak>Cu(s) + 2 Ag<sup className=bodySupscript>+</sup>(aq) → Cu<sup className=bodySupscript>+2</sup>(aq) + 2 Ag(s)</span><span className=bodyParaLineBreak>Copper is listed higher than silver in the <button class='glossary-text'>Metal Activity Series</button> (<button class='resource-text'>Figure 1</button>). Thus, copper should oxidize in the silver-nitrate solution to form Cu<sup className=bodySupscript>2+</sup> ions. The copper strip will dissolve, causing the solution to become blue due to the presence of Cu<sup className=bodySupscript>2+</sup> ions. <button class='glossary-text'>Oxidation</button> of copper releases two electrons as shown in the following equation; thus, copper is the reducing agent for the Ag<sup className=bodySupscript>+</sup> ions.</span><span className=bodyParaLineBreak>Cu(s) → Cu<sup className=bodySupscript>2+</sup>(aq) + 2 e<sup className=bodySupscript>-</sup></span><span className=bodyParaLineBreak>Two silver ions will be reduced to two silver atoms by gaining the two electrons lost by each copper atom. Solid silver crystals will form on the surface of the copper strip as they are removed from the aqueous silver-nitrate solution. The Ag<sup className=bodySupscript>+</sup> ions act as oxidizing agents for the copper atoms.</span><span className=bodyParaLineBreak>2 Ag<sup className=bodySupscript>+</sup>(aq) + 2 e<sup className=bodySupscript>-</sup> → 2 Ag(s)</span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The reduction and oxidation reactions are each referred to as a half reaction, because each represents half of the entire reaction. The overall net ionic reaction can be written as follows: <span className=bodyParaLineBreak>Cu(s) → Cu<sup className=bodySupscript>2+</sup>(aq) + 2 e<sup className=bodySupscript>-</sup> </span><span className=bodyParaLineBreak>oxidation (half reaction) </span><span className=bodyParaLineBreak>2 Ag<sup className=bodySupscript>+</sup>(aq) + 2 e<sup className=bodySupscript>-</sup> → 2 Ag(s) </span><span className=bodyParaLineBreak>reduction (half reaction) </span><span className=bodyParaLineBreak>Cu(s) + 2 Ag<sup className=bodySupscript>+</sup>(aq) → Cu<sup className=bodySupscript>2+</sup>(aq) + 2 Ag(s) </span><span className=bodyParaLineBreak>net ionic equation (redox reaction) </span><span className=bodyParaLineBreak>This reaction is often called a redox reaction (<span className=bodyFontItalic>red</span> from “reduction” and <span className=bodyFontItalic>ox</span> from “oxidation”). Notice that the loss and gain of electrons are equal, and that the mass and charge are the same on both sides of the net equation. To summarize, if <button class='glossary-text'>Metal</button> A is higher than Metal B in the activity series, then a spontaneous chemical reaction will occur if Metal A is placed in a solution of Metal B ions. Metal A is oxidized, and Metal B is reduced. Metal A is the reducing agent, and Metal B is the oxidizing agent.</span>"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 2",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "The reactions you will be performing in this investigation are often referred to as _______.",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "redox reactions",
+                      "correct": true,
+                      "img": "courses/580316/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "half reactions",
+                      "correct": false,
+                      "img": "courses/580316/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "activity series",
+                      "correct": false,
+                      "img": "courses/580316/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "metal reactions",
+                      "correct": false,
+                      "img": "courses/580316/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "double-displacement reactions",
+                      "correct": false,
+                      "img": "courses/580316/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The reactions you will be performing in this investigation are often referred to as redox reactions (red from “reduction” and ox from “oxidation”)."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 2",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "If Metal A is put into an aqueous solution of Metal B, and reacts according to the chemical equation shown, which of the following is the reducing agent?<span className=bodyParaLineBreak>A(s) + 2 B<sup className=bodySupscript>+</sup>(aq) --> A<sup className=bodySupscript>2+</sup> + 2 B(s)</span>",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Metal A",
+                      "correct": true,
+                      "img": "courses/580316/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Metal B",
+                      "correct": false,
+                      "img": "courses/580316/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Metal A ion",
+                      "correct": false,
+                      "img": "courses/580316/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Metal B ion",
+                      "correct": false,
+                      "img": "courses/580316/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "The water in the solution.",
+                      "correct": false,
+                      "img": "courses/580316/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Metal A is oxidized, and Metal B is reduced. Metal A is the reducing agent, and Metal B is the oxidizing agent."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "The Metal Activity Series table ranks elements according to chemical activity. This table can be used to predict whether a metal will spontaneously react with the ions of another metal. For example, this table can be used to predict if a strip of copper metal will react with an aqueous solution of silver nitrate (AgNO<sub className=bodySubscript>3</sub>). Copper is listed higher than silver in the Metal Activity Series. Thus, copper should oxidize in the silver-nitrate solution to form Cu<sup className=bodySupscript>2+</sup> ions. The copper strip will dissolve, causing the solution to become blue due to the presence of Cu<sup className=bodySupscript>2+</sup> ions. Oxidation of copper releases two electrons, thus, copper is the reducing agent for the Ag<sup className=bodySupscript>+</sup> ions. The reduction and oxidation reactions are each referred to as a half reaction, because each represents half of the entire reaction. ",
+                  "img": [
+                    {
+                      "src": "courses/580316/580316_fig_002.svg",
+                      "maxWidth": "379px",
+                      "desc": "Figure 2: Image showing copper strip reacting with a silver nitrate solution. Copper ionizes and silver deposits as a solid on the copper.",
+                      "alt": "Figure 2: Image showing copper strip reacting with a silver nitrate solution. Copper ionizes and silver deposits as a solid on the copper."
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "The Metal Activity Series table ranks elements according to chemical activity. This table can be used to predict whether a metal will spontaneously react with the ions of another metal. For example, this table can be used to predict if a strip of copper metal will react with an aqueous solution of silver nitrate (AgNO<sub className=bodySubscript>3</sub>). Copper is listed higher than silver in the Metal Activity Series. Thus, copper should oxidize in the silver-nitrate solution to form Cu<sup className=bodySupscript>2+</sup> ions. The copper strip will dissolve, causing the solution to become blue due to the presence of Cu<sup className=bodySupscript>2+</sup> ions. Oxidation of copper releases two electrons, thus, copper is the reducing agent for the Ag<sup className=bodySupscript>+</sup> ions. The reduction and oxidation reactions are each referred to as a half reaction, because each represents half of the entire reaction. ",
+                  "img": [
+                    {
+                      "src": "courses/580316/580316_fig_002.svg",
+                      "maxWidth": "379px",
+                      "desc": "Figure 2: Image showing copper strip reacting with a silver nitrate solution. Copper ionizes and silver deposits as a solid on the copper.",
+                      "alt": "Figure 2: Image showing copper strip reacting with a silver nitrate solution. Copper ionizes and silver deposits as a solid on the copper."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "waterMark": true,
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "desc": "This map describes the procedural workflow for this investigation. \nYou will need to polish metal samples. Then prepare reaction tray. \nIn Activity 1, you will need to add metal-sulfate solutions to the reaction tray. Next add metal samples to the reaction tray. Then determine the number of chemical reactions for each metal.",
+                  "altText": "This map describes the procedural workflow for this investigation. \nYou will need to polish metal samples. Then prepare reaction tray. \nIn Activity 1, you will need to add metal-sulfate solutions to the reaction tray. Next add metal samples to the reaction tray. Then determine the number of chemical reactions for each metal.",
+                  "containerType": "fullContainer",
+                  "image": "courses/580316/580316_ED.svg",
+                  "imgDivWidth": "56%",
+                  "maxWidth": "769px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "100%",
+                    "L": "70%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "60%"
+                  },
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Magnesium sulfate solution, MgSO<sub className=bodySubscript>4</sub>, 0.1 M",
+                          "image": "courses/580316/580316_material_001.svg",
+                          "url": "courses/580316/580316_material_001.svg",
+                          "altText": "Magnesium sulfate solution in clear plastic bottle"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "3 Copper wires, Cu",
+                          "image": "courses/580316/580316_material_002.svg",
+                          "url": "courses/580316/580316_material_002.svg",
+                          "altText": "3 Copper wires, Cu"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Iron (II) sulfate solution, FeSO<sub className=bodySubscript>4</sub>, 0.1 M",
+                          "image": "courses/580316/580316_material_003.svg",
+                          "url": "courses/580316/580316_material_003.svg",
+                          "altText": "Iron sulfate solution in clear plastic bottle"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "20-Compartment tray",
+                          "image": "courses/580316/580316_material_004.svg",
+                          "url": "courses/580316/580316_material_004.svg",
+                          "altText": "Jelly tray with four rows of five wells each"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from chemical set 1",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Straight pins, Fe",
+                          "image": "courses/580316/580316_material_005.svg",
+                          "url": "courses/580316/580316_material_005.svg",
+                          "altText": "Straight pin"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from chemical set 2",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Copper (II) sulfate solution, CuSO<sub className=bodySubscript>4</sub>, 0.5 M",
+                          "image": "courses/580316/580316_material_006.svg",
+                          "url": "courses/580316/580316_material_006.svg",
+                          "altText": "Copper sulfate solution in clear plastic bottle"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Magnesium metal ribbon, Mg",
+                          "image": "courses/580316/580316_material_007.svg",
+                          "url": "courses/580316/580316_material_007.svg",
+                          "altText": "Magnesium ribbon in clear plastic bag"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from the equipment kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Plastic forceps",
+                          "image": "courses/580316/580316_material_008.svg",
+                          "url": "courses/580316/580316_material_008.svg",
+                          "altText": "Plastic forceps, blue"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [
+                            "Sandpaper or emery board",
+                            "Permanent marker",
+                            "Scissors"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span> <span className=bodyParaLineBreak><span className=bodyParaLineBreak>A replacement kit for Developing an Activity Series (item number 580316) can be ordered from Carolina Biological Supply Company.<span className=bodyParaLineBreak><span className=bodyMediumSubHeading >Call:</span> 866-332-4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Wear your safety goggles, chemical apron, and gloves at all times while conducting this investigation."
+                },
+                {
+                  "type": "Image",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyParaLineBreak>Read all the instructions for this laboratory activity before beginning. Follow the instructions closely and observe established laboratory safety practices, including the use of appropriate personal protective equipment (PPE).</span>"
+                },
+                {
+                  "type": "PlainImage",
+                  "image": "courses/580316/580316_Flammable.svg",
+                  "altText": "flammable symbol",
+                  "imgWidth": "12%",
+                  "url": "courses/580316/580316_Flammable.svg",
+                  "text": "<span className=bodyBoldSubText>Magnesium</span> <button class='glossary-text'>metal</button> ribbon is a combustible metal. Keep chemical away from any heat or flame sources."
+                },
+                {
+                  "type": "PlainImage",
+                  "image": "courses/580316/580316_Warning.svg",
+                  "altText": "warning symbol",
+                  "imgWidth": "12%",
+                  "url": "courses/580316/580316_Warning.svg",
+                  "text": "<span className=bodyBoldSubText>Iron (II) sulfate and copper (II) sulfate</span> are skin/eye irritants and ingestion hazards. Keep chemicals away from food storage locations to avoid accidental ingestion. In the event of contact with skin or eyes, the affected area should be immediately rinsed with water for 15 minutes."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Do not eat, drink, or chew gum during this laboratory activity. Wash your hands with soap and water before and after this activity. Clean up the lab area with soap and water after completing this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Metals that are listed high on the Metal Activity Series are more reactive, meaning they are more likely to do which of the following?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "lose electrons and become oxidized",
+                          "correct": true,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "gain electrons and become reduced",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "react slowly with other chemicals",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "give off nuclear radiation",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "absorb electromagnetic radiation",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "In the chemical equation below, which component is the reducing agent?<span className=bodyParaLineBreak>Fe (s) + CuSO<sub className=bodySubscript>4</sub> (aq) → FeSO<sub className=bodySubscript>4</sub> (aq) + Cu (s)</span>",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Fe",
+                          "correct": true,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Cu<sup className=bodySupscript>2+</sup>",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Fe<sup className=bodySupscript>2+</sup>",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Cu",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "SO<sub className=bodySubscript>4</sub><sup className=bodySupscript>2-</sup>",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the net ionic equation that can be written from the two half reactions below?<span className=bodyParaLineBreak>3 Pt --> 3 Pt<sup className=bodySupscript>2+</sup> + 6 e<sup className=bodySupscript>-</sup></span><span className=bodyParaLineBreak>2 Au<sup className=bodySupscript>3+</sup> + 6 e<sup className=bodySupscript>-</sup> --> 2 Au</span>",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "3 Pt + 2 Au<sup className=bodySupscript>3+</sup>--> 3 Pt<sup className=bodySupscript>2+</sup>+ 2 Au",
+                          "correct": true,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "3 Pt<sup className=bodySupscript>2+</sup>+ 2 Au<sup className=bodySupscript>3+</sup>--> 3 Pt + 2 Au",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "3 Pt + 2 Au<sup className=bodySupscript>3+</sup>+ 6 e<sup className=bodySupscript>-</sup> --> 3 Pt<sup className=bodySupscript>2+</sup>+ 2 Au",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "3 Pt + 2 Au --> 3 Pt<sup className=bodySupscript>2+</sup>+ 2 Au<sup className=bodySupscript>3+</sup>",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "3 Pt<sup className=bodySupscript>2+</sup>+ 6 e<sup className=bodySupscript>-</sup> --> 2 Au + 6 e<sup className=bodySupscript>-</sup>",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the relationship between two metals that will result in a spontaneous chemical reaction?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Metal A is higher than Metal B on the activity series.",
+                          "correct": true,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Metal B is higher than Metal A on the activity series.",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Metal A gains more electrons than Metal B.",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Metal B gains more electrons than Metal A.",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Metal A and Metal B are ranked equally on the activity series.",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following items will you need to prepare the solid metal samples in this investigation, but which is not provided in your lab kit?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "sandpaper",
+                          "correct": true,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "distilled water",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "plastic forceps",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "clay",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "AA batteries",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following items provided in your lab kit for this investigation is a flammable hazard?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "magnesium ribbon",
+                          "correct": true,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "iron (II) sulfate solution",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "iron straight pins",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "magnesium sulfate solution",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "copper wire",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "After completing this investigation, which of the following considerations must be taken before discarding any materials?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Has the Electrochemistry investigation been assigned and completed?",
+                          "correct": true,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Have all the investigations in the course been completed?",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Do I know where to dispose of hazardous chemicals on campus?",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Has my skin come in contact with any of the lab chemicals?",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Have I rinsed and dried the used plasticware from the equipment set?",
+                          "correct": false,
+                          "img": "courses/580316/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (8 steps)",
+              "pageTitle": "Preparation (8 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "keyID": "page16",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Read the activity."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Obtain all of the materials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Clean and sanitize the work space."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Obtain a piece of sandpaper or an emery board. Cut it into three equal pieces."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use a pair of scissors to cut a 6-cm piece of magnesium ribbon (provided in the chemical kit)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use sandpaper to polish three pieces of copper wire, three iron straight pins, and the strip of magnesium. Polish away the top layer of tarnish (or coating) on each side of each piece of <button class='glossary-text'>metal</button> until there is a clear, shiny surface. To polish wire or a straight pin, hold the wire or pin, and move the bottom half back and forth across the sandpaper. Cut the polished magnesium ribbon into three equal pieces of approximately 2 cm in length."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "Be very careful during this step. Hold the pin firmly and do not touch the sharp point of the pin when you are polishing."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Orient the reaction tray to have four rows of five wells (compartments). This will be the testing matrix for the three metals. One row of wells will be used for each metal (magnesium, iron, and copper, respectively)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Refer to the reaction tray image (Figure 3). Use a permanent marker to write the names of the ions Mg<sup className=bodySupscript>2+</sup>, Fe<sup className=bodySupscript>2+</sup>, Cu<sup className=bodySupscript>2+</sup> and the metals Mg, Fe, and Cu as shown in Figure 3."
+                  },
+                  {
+                    "type": "Image",
+                    "desc": "Preparation Table",
+                    "altText": "Figure 3: Reaction tray with labels. Magnesium, iron, and copper ions are labeled in the second, third, and fourth wells of row one, respectively. Magnesium, iron, and copper metal are labeled in the second, third, and fourth wells of column one, respectively.",
+                    "image": "courses/580316/580316_fig_003.svg",
+                    "scrollImg": true,
+                    "imgDivWidth": "340px",
+                    "maxWidth": "350px"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Chemistry_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this activity, you will create a <button class='glossary-text'>metal activity series</button> by reacting samples of magnesium, iron and copper <button class='glossary-text'>metal</button> with aqueous solutions of magnesium, iron, and copper ions. You will observe each metal-solution combination for evidence of chemical activity and rank the metals by the number of chemical reactions they generated."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Creating a Metal Activity Series (10 steps)",
+              "title": "Creating a Metal Activity Series (10 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "page18",
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place 10 drops of MgSO<sub className=bodySubscript>4</sub> in each of the three wells below the label “Mg<sup className=bodySupscript>2+</sup>.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place 10 drops of FeSO<sub className=bodySubscript>4</sub> in each of the three wells below the label “Fe<sup className=bodySupscript>2+</sup>.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place 10 drops of CuSO<sub className=bodySubscript>4</sub> in each of the three wells below the label “Cu<sup className=bodySupscript>2+</sup>.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place one piece of magnesium ribbon in each of the three wells to the right of the label “Mg” that contains an ionic solution."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place one piece of iron (a steel straight pin) in each of the three wells to the right of the label “Fe” that contains an ionic solution."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place one piece of copper wire in each of the three wells to the right of the label “Cu” that contains an ionic solution."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "containerType": "rightContainer",
+                    "image": "courses/580316/Clock.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "stopwatch symbol",
+                    "url": "courses/580316/Clock.svg",
+                    "text": "Allow each <button class='glossary-text'>metal</button> to remain in the ionic solutions for five minutes."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Observe the wells closely during this time. You may need to use the forceps to pick up the metal pieces to examine them more closely."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "containerType": "rightContainer",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol",
+                    "image": "core/TakeSnapshot.svg",
+                    "url": "core/TakeSnapshot.svg",
+                    "text": "Photograph the reaction tray showing all wells, and record all evidence of chemical activity, such as color changes or the production of gas bubbles or heat, in <span className=bodyFontBold>Data Table 1.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "containerType": "rightContainer",
+                    "image": "courses/580316/Clock.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "stopwatch symbol",
+                    "url": "courses/580316/Clock.svg",
+                    "text": "After five minutes, determine how many chemical reactions occurred for each metal. Record the number of reactions in <span className=bodyFontBold>Data Table 1.</span>"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                  "orderedType": "1",
+                  "start": "1",
+                  "text": [
+                    "Rinse the tray and solid metals. The ionic solutions can be disposed of by rinsing them down the drain.",
+                    "Discard the used <button class='glossary-text'>metal</button> pieces in the trash. If your kit includes the Electrochemistry investigation, keep all materials and chemicals from this investigation for future use in the Electrochemistry investigation. When your course is complete, the tray and metals can be thrown in the trash.",
+                    "Clean and sanitize the work space."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Chemistry_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2022 Carolina Biological Supply Company",
+      "pageSetting": "portrait"
+    },
+    "pages": [
+      {
+        "waterMark": false,
+        "textAreaId": ["Question1a", "Question1b"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "id": "Question1aDataTable",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "maxLength": 50,
+                "header": [
+                  {
+                    "text": "Metal Tested",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Mg<sup className=bodySupscript>2+</sup> (MgSO<sub className=bodySubscript>4</sub>)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Fe<sup className=bodySupscript>2+</sup> (FeSO<sub className=bodySubscript>4</sub>)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Cu<sup className=bodySupscript>2+</sup> (CuSO<sub className=bodySubscript>4</sub>)",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "No. of Reactions",
+                    "colWidth": "20%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "Montserrat-Bold",
+                      "text": "Mg(s)"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "Montserrat-Bold",
+                      "text": "Fe(s)"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "Montserrat-Bold",
+                      "text": "Cu(s)"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question1a",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "Use the number of reactions in Data Table 1 to list the metals copper, iron, and magnesium in order from most reactive to least reactive."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1a",
+                "maxLength": 1000,
+                "sr": 0,
+
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question1b",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "start": "2",
+                "text": [
+                  "Summarize the redox reactions that you observed in this investigation. List the reactions in descending order of activity, referring to Data Table 1.<span className=bodyParaLineBreak>For each reaction in the data table, perform the following steps:</span><ul><li>Write the overall single-displacement reaction.</li><li>Write the half-cell reaction for oxidation.</li><li>Write the half-cell reaction for reduction.</li><li>Add the two half-cell reactions, and write the net ionic equation.</li><li>Identify the reducing agent.</li><li>Identify the oxidizing agent.</li></ul><span className=bodyParaLineBreak>Copy and paste the following format to report your answers for each reaction in the space below.</span><ul><li>Overall reaction</li><li>Oxidation</li><li>Reduction</li><li>Net ionic reaction</li><li>Reducing agent</li><li>Oxidizing agent</li></ul>"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1b",
+                "sr": 1,
+                "maxLength": 1000,
+
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Photo1",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Step 9 Photo",
+                "text": "Take a close-up image of your reaction tray.<span className=bodyParaLineBreak>The following should be visible in this photo:</span><ul><li>All labels should be clearly visible.</li><li>Place each metal strip/wire piece in the center of its cell so that it is clearly visible.</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+
+    "pageData": [
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580316/Periodic_Table.svg",
+        "maxWidth": "2200px",
+        "scrollImg": true,
+        "content": "Periodic Table of the Elements",
+        "altText": "Periodic Table of the Elements"
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6298836371001",
+        "content": "Investigation overview"
+      },
+      {
+        "title": "Figure 1.",
+        "content": "Figure 1. Metal Activity Series table",
+        "thumbnailSrc": "core/Table_icon.svg",
+        "allowClick": true,
+        "type": "DataTable",
+        "tableWidth": "70%",
+        "tableHeight": "1.5",
+        "sr": 10,
+        "isResource": true,
+        "maxLength": 20,
+        "header": [
+          {
+            "type": "text",
+            "colWidth": "15%",
+            "text": "Metal",
+            "hoverText": "Metal"
+          },
+          {
+            "type": "text",
+            "colWidth": "35%",
+            "text": "Metal Ion from Oxidation",
+            "hoverText": "Metal Ion from Oxidation"
+          },
+          {
+            "type": "text",
+            "colWidth": "50%",
+            "text": "Reactivity",
+            "hoverText": "Reactivity"
+          }
+        ],
+
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "text": "Li",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Li → Li<sup class='bodysuperscript'>+</sup> + e<sup class='bodysuperscript'>–</sup>",
+              "hoverText": "Li → Li+ + e–"
+            },
+            {
+              "type": "text",
+              "borderBottom": "medium",
+              "rowspan": 8,
+              "text": "<span className= bodyBoldSubText>A metal that is listed high on the activity series table will:</span> <br/>•   be more reactive. <br/>•   be more easily oxidized <br/>(i.e., more easily lose its electrons). <br/>•   more vigorously react with chemicals. <br/>•   more easily corrode.",
+              "hoverText": "A metal that is listed high on the activity series table will: •   be more reactive. •   be more easily oxidized (i.e., more easily lose its electrons). •   more vigorously react with chemicals. •   more easily corrode."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "K",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "K → K<sup class='bodysuperscript'>+</sup> + e<sup class='bodysuperscript'>–</sup>",
+              "hoverText": "K → K+ + e–"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ca",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Ca → Ca<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+              "hoverText": "Ca → Ca2+ + 2 e–"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Na",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Na → Na<sup class='bodysupscript'>+</sup> + e<sup class='bodysupscript'>–</sup>",
+              "hoverText": "Na → Na+ + e–"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Mg",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Mg → Mg<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+              "hoverText": "Mg → Mg2+ + 2 e–"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Al",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Al → Al<sup class='bodysupscript'>3+</sup> + 3 e<sup class='bodysupscript'>–</sup>",
+              "hoverText": "Al → Al3+ + 3 e–"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Zn",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Zn → Zn<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+              "hoverText": "Zn → Zn2+ + 2 e–"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Fe",
+              "borderBottom": "medium",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "borderBottom": "medium",
+              "text": "Fe → Fe<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+              "hoverText": "Fe → Fe2+ + 2 e–"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Sn",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Sn → Sn<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+              "hoverText": "Sn → Sn2+ + 2 e–"
+            },
+            {
+              "type": "text",
+              "rowspan": 8,
+              "text": "<span className= bodyBoldSubText>A metal that is listed low on the activity series table will:</span>  <br/>•   react less vigorously and less quickly with chemicals. <br/>•   corrode less easily",
+              "hoverText": "A metal that is listed low on the activity series table will:  •   react less vigorously and less quickly with chemicals. •   corrode less easily"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Pb",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Pb → Pb<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+              "hoverText": "Pb → Pb2+ + 2 e–"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "H<sub class='bodysubscript'>2</sub>",
+              "hoverText": "H2",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "H<sup class='bodysupscript'>2</sup> → 2 H<sup class='bodysupscript'>+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+              "hoverText": "H2 → 2 H+ + 2 e–"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Cu",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Cu → Cu<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+              "hoverText": "Cu → Cu2+ + 2 e–"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ag",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Ag → Ag<sup class='bodysupscript'>+</sup> + e<sup class='bodysupscript'>–</sup>",
+              "hoverText": "Ag → Ag+ + e–"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Pt",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Pt → Pt<sup class='bodysupscript'>2+</sup> + 2 e<sup class='bodysupscript'>–</sup>",
+              "hoverText": "Pt → Pt2+ + 2 e–"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Au",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "text": "Au → Au<sup class='bodysupscript'>3+</sup> + 3 e<sup class='bodysupscript'>–</sup>",
+              "hoverText": "Au → Au3+ + 3 e–"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "maxWidth": "400px",
+        "src": "courses/580316/580316_fig_002.svg",
+        "content": "Figure 2. Copper metal in silver nitrate solution",
+        "altText": "Figure 2: Image showing copper strip reacting with a silver nitrate solution. Copper ionizes and silver deposits as a solid on the copper."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580316/580316_ED.svg",
+        "maxWidth": "769px",
+        "scrollImg": true,
+        "content": "Experimental Design Diagram",
+        "altText": "This map describes the procedural workflow for this investigation. \nYou will need to polish metal samples. Then prepare reaction tray. \nIn Activity 1, you will need to add metal-sulfate solutions to the reaction tray. Next add metal samples to the reaction tray. Then determine the number of chemical reactions for each metal."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "maxWidth": "350px",
+        "scrollImg": true,
+        "src": "courses/580316/580316_fig_003.svg",
+        "content": "Figure 3. Labeled reaction tray",
+        "altText": "Figure 3: Reaction tray with labels. Magnesium, iron, and copper ions are labeled in the second, third, and fourth wells of row one, respectively. Magnesium, iron, and copper metal are labeled in the second, third, and fourth wells of column one, respectively."
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Cation",
+        "content": " An ion with net positive charge"
+      },
+      {
+        "title": "Metal",
+        "content": " An element that is characterized by the ability to lose outer-level electrons, generally is shiny, malleable, and a good conductor of heat and electricity"
+      },
+
+      {
+        "title": "Metal activity series",
+        "content": " Metals are ranked from most reactive to least reactive"
+      },
+      {
+        "title": "Oxidation",
+        "content": " The loss of one or more electrons during a reaction by a molecule, atom or ion"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

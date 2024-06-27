@@ -1,0 +1,37 @@
+/** @format */
+
+.info-button {
+  position: absolute;
+  width: 50px;
+  bottom: 10px;
+  right: 20px;
+  padding: 0;
+}
+
+.info-button img {
+  width: inherit;
+}
+
+.highlightWrapper {
+  background-color: #5aa0d6;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 50%;
+}
+
+@keyframes flash {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  animation: flash 2s linear infinite;
+}

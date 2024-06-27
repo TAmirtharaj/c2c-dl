@@ -1,0 +1,48 @@
+.user-information-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.user-name-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.username-label {
+  font-family: "Montserrat-Bold";
+  width: 100%;
+}
+
+.user-input {
+  font-family: "Montserrat-Regular";
+  border-color: #000 !important;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.username-label,
+.user-input {
+  padding: 5px;
+}
+
+.info-go-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  font-family: Montserrat-Bold;
+    font-size: 1em;
+}
+
+.user-information-container .disabled {
+  /* background: #5aa0d6;
+   */
+   background: rgb(90 160 214 / 50%);
+  /* opacity: 0.5; */
+  cursor: default;
+  pointer-events: none;
+}

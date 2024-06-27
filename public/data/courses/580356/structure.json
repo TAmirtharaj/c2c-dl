@@ -1,0 +1,4521 @@
+{
+  "locked": true,
+  "courseTitle": "Enzyme Catalysis: Effects of Concentration, Temperature, and pH",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/bodyBookmark.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Chemistry_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleSeq": [0, 2, 1, 3],
+                "titleName0": "Chemistry",
+                "images": {
+                  "logo": "core/Chemistry_subject_icon.svg"
+                },
+                "titleName1": "Effects of Concentration, Temperature, and pH",
+                "titleName2": "Enzyme Catalysis:",
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "This lab activity investigates the <button class='glossary-text'>enzyme</button> <button class='glossary-text'>catalase</button>, which enhances the decomposition of a toxic by-product of cellular metabolism, hydrogen peroxide (H<sub class='bodySubscript'>2</sub>O<sub class='bodySubscript'>2</sub>). The effects of concentration, temperature, and pH on the enzyme’s reaction rate will be measured."
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses/580356/580356_TimeRequirement.svg",
+                  "imgDivWidth": "553px",
+                  "altText": "Preparation – 15 minutes \nActivity 1: Enzyme Concentration – 25 minutes \nActivity 2: Effect of Temperature – 35 minutes \nActivity 3: Effect of pH – 50 minutes",
+                  "maxWidth": "600px",
+                  "scrollImg": true
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Single-hole punch (optional)",
+                    "Timer (stopwatch, cell phone, or online timer), accurate to 0.1 seconds",
+                    "Crushed ice or small ice cubes",
+                    "Plastic trash bag or old towel",
+                    "Graphing software",
+                    "Labeling tape"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Overview (cont... )",
+              "pageTitle": "Overview (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Overview Video: Enzyme Catalysis: Effects of Concentration, Temperature, and pH"
+                },
+                {
+                  "type": "Video",
+                  "imgDivWidth": "200px",
+                  "desc": "OverView Video",
+                  "image": "courses/580356/580356_VideoIcone.svg",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6317170317112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Observe the decomposition of hydrogen peroxide as a result of the enzymatic activity of <button class='glossary-text'>catalase</button>.",
+                    "Measure the effect of concentration on catalase activity.",
+                    "Determine the effects of temperature on catalase activity.",
+                    "Determine the effects of pH on catalase activity."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "desc": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "desc":"video link symbol, camera symbol, stopwatch symbol"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "desc":"warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "While the concept of an electric airplane is nothing new, bringing it to fruition has proved challenging as scientists initially could not design an electric battery light enough for a plane to travel typical distances. For example, diesel-powered planes with the same weight of kerosene as an electric battery could travel around 1,500 miles, while their electric counterparts only traveled about 100 miles. However, the invention of lithium-air batteries is changing all that.<span class='bodyParaLineBreak'></span>Lithium-air batteries use oxygen to oxidize a lithium-metal anode. Theoretically, a lithium-air battery can outperform a lithium-ion battery by almost ten-fold. One huge step toward unlocking this potential is to use <button class='glossary-text'>enzymes</button> to catalyze the chemical reactions within the lithium-air battery. For example, one project explored the use of the enzyme laccase from <span class='bodyFontItalic'>Trametes versicolor</span>, a species of fungi. Scientists continue to develop lithium-air technology and have now produced a lithium-air battery that outperforms its lithium-ion counterpart by over 15 times. This greater battery efficiency allows for great strides in the development of electric aircraft."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580356/580356_whyShouldICare.svg",
+                  "desc": "Trametes versicolor, or turkey tail fungus, growing on a tree.",
+                  "altText": "Trametes versicolor, or turkey tail fungus, growing on a tree.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "80%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "For a chemical reaction to occur, reactants must collide with sufficient energy in the correct orientation to break their current chemical bonds, thereby allowing new bonds to form, creating the products. This required energy is termed <button class='glossary-text'>activation energy</button>. Activation energy is the minimum amount of energy required to initiate a chemical reaction. There are several chemical and physical methods for pushing a reaction over the activation energy barrier toward completion. For example, the energy of the system can be increased by raising the temperature of the reactants, also known as <button class='glossary-text'>substrates</button>. This increased temperature allows more of the reactants to exceed the activation energy and produce products. Another method, and the one used in this investigation, is the use of a <button class='glossary-text'>catalyst</button>. A catalyst lowers the activation energy of the reaction, allowing the reaction to move toward the products more easily (Figure 1). Most chemical reactions in living organisms would be too slow to sustain life without specialized substances called <button class='glossary-text'>enzymes</button>. Enzymes act as catalysts to increase reaction rates of chemical reactions in biological processes.<span class='bodyParaLineBreak'></span>Enzymes work by stabilizing the transition state of the substrate, allowing it to move more easily to the product state. The enzyme creates an environment that lowers the activation energy and allows the reaction to proceed. Enzymes and their reactants fit a “lock-and-key” model (Figure 2). On every enzyme, there is a binding site, known as the <button class='glossary-text'>active site</button>, shaped to fit a specific substrate. This allows enzymes to work with high efficiency and specificity. Like all catalysts, the enzyme is not consumed in the reaction and can be used repeatedly."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580356/580356_fig_001.svg",
+                  "imgDivWidth": "466px",
+                  "desc": "Figure 1: Enzymes decrease the activation energy required for a given chemical reaction to occur. (a) Without an enzyme, the energy input needed for a reaction to begin is high. (b) With the help of an enzyme, less energy is needed for a reaction to begin.",
+                  "altText": "Figure 1: Enzymes decrease the activation energy required for a given chemical reaction to occur. (a) Without an enzyme, the energy input needed for a reaction to begin is high. (b) With the help of an enzyme, less energy is needed for a reaction to begin.",
+                  "maxWidth": "560px",
+                  "scrollImg": true
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span class='citation'>212 Enzymes-01.jpg By OpenStax College is available under Creative Commons Attribution 3.0 Generic License at <br> https://commons.wikimedia.org/wiki/File:212_Enzymes-01.jpg</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580356/580356_fig_002.svg",
+                  "imgDivWidth": "342px",
+                  "desc": "Figure 2: Diagram of lock-and-key enzyme-substrate complex",
+                  "altText": "Figure 2: Diagram of lock-and-key enzyme-substrate complex",
+                  "maxWidth": "410px",
+                  "scrollImg": true
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Enzyme Animation Video: Models of Enzyme Action"
+                },
+                {
+                  "type": "Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses/580356/580356_VideoIcone_01.svg",
+                  "desc": "Models of Enzyme Action",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6315168339112"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which statement best describes the activation energy of a reaction?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The minimum energy required to initiate the reaction.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The energy sufficient to correctly orient the reactants.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "The energy outputs the reaction.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The total energy stored in the chemical bonds of the products.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "The total energy stored in the chemical bonds of the reactants.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Activation energy is the minimum amount of energy required to initiate a chemical reaction."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following best describes the effect of an enzyme on the activation energy of a reaction in a living organism?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "It decreases the activation energy.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "It increases the activation energy.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "It maintains the activation energy.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "It lowers the activation energy to zero.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "It sequesters the activation energy in chemical bonds.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Enzymes act as catalysts and therefore lower the activation energy of reactions in biological processes."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "For a chemical reaction to occur, reactants must collide with sufficient energy in the correct orientation to break their current chemical bonds, thereby allowing new bonds to form, creating the products. This required energy is termed activation energy. Activation energy is the minimum amount of energy required to initiate a chemical reaction. There are several chemical and physical methods for pushing a reaction over the activation energy barrier toward completion. The method you will explore in this investigation is the use of a catalyst. A catalyst lowers the activation energy of the reaction, allowing the reaction to move toward the products more easily (Figure 1). Most chemical reactions in living organisms would be too slow to sustain life without specialized substances called enzymes. Enzymes act as catalysts to increase reaction rates of chemical reactions in biological processes.<br><br><span class='citation'>212 Enzymes-01.jpg By OpenStax College is available under Creative Commons Attribution 3.0 Generic License at <br> https://commons.wikimedia.org/wiki/File:212_Enzymes-01.jpg</span>",
+                  "img": [
+                    {
+                      "src": "courses/580356/580356_fig_001.svg",
+                      "alt": "Figure 1: Enzymes decrease the activation energy required for a given chemical reaction to occur. (a) Without an enzyme, the energy input needed for a reaction to begin is high. (b) With the help of an enzyme, less energy is needed for a reaction to begin.",
+                      "scrollImg": true,
+                      "maxWidth": "568px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "For a chemical reaction to occur, reactants must collide with sufficient energy in the correct orientation to break their current chemical bonds, thereby allowing new bonds to form, creating the products. This required energy is termed activation energy. Activation energy is the minimum amount of energy required to initiate a chemical reaction. There are several chemical and physical methods for pushing a reaction over the activation energy barrier toward completion. The method you will explore in this investigation is the use of a catalyst. A catalyst lowers the activation energy of the reaction, allowing the reaction to move toward the products more easily (Figure 1). Most chemical reactions in living organisms would be too slow to sustain life without specialized substances called enzymes. Enzymes act as catalysts to increase reaction rates of chemical reactions in biological processes.<br><br><span class='citation'>212 Enzymes-01.jpg By OpenStax College is available under Creative Commons Attribution 3.0 Generic License at <br> https://commons.wikimedia.org/wiki/File:212_Enzymes-01.jpg</span>",
+                  "img": [
+                    {
+                      "src": "courses/580356/580356_fig_001.svg",
+                      "alt": "Figure 1: Enzymes decrease the activation energy required for a given chemical reaction to occur. (a) Without an enzyme, the energy input needed for a reaction to begin is high. (b) With the help of an enzyme, less energy is needed for a reaction to begin.",
+                      "scrollImg": true,
+                      "maxWidth": "568px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Enzymes</button> in living organisms operate best within a narrow range of environmental conditions (e.g., temperature, concentration, pH, etc.). For example, the human digestive system utilizes several enzymes to break down food. Different enzymes operate in different parts of the digestive tract. Some parts of the digestive tract are acidic (pH less than 7). The stomach contains acidic gastric juices that aid digestion. Enzymes active in the stomach function best in that acidic environment. Other areas of the digestive tract are alkaline or basic (pH greater than 7). When food exits the stomach, it enters the small intestine where the gall bladder releases bile. This provides a more alkaline environment to neutralize the acidic food coming from the stomach. Enzymes active in the small intestine function best in a weakly alkaline environment. When pH values are outside the optimum range for digestive enzymes, denaturing (alteration of the <button class='glossary-text'>active site</button> shape) of the molecule can occur so that the enzyme cannot accept the <button class='glossary-text'>substrate</button>. Enzymes active in the stomach are inactive in the small intestine and vice versa."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The protein <button class='glossary-text'>catalase</button> is a common enzyme found in animals and many plants and microorganisms, including the bread yeast used in this investigation. Catalase decomposes hydrogen peroxide, a toxic by-product of cellular metabolism, before it is able to damage the cell. The reaction produces water and oxygen gas (O<sub class='bodySubscript'>2</sub>), both of which are nontoxic."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580356/580356_Eq_001.svg",
+                  "imgDivWidth": "249px",
+                  "desc": "The balanced chemical equation facilitated by catalase in which 2 hydrogen peroxide molecules break down into 2 water molecules and an oxygen gas molecule.",
+                  "altText": "The balanced chemical equation facilitated by catalase in which 2 hydrogen peroxide molecules break down into 2 water molecules and an oxygen gas molecule.",
+                  "maxWidth": "255px",
+                  "scrollImg": true,
+                  "disableClick": false
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The gas in the bubbles of the white foam produced is oxygen gas generated from the decomposition of hydrogen peroxide in the presence of catalase in human tissues."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Phillip is studying an enzyme normally found in the human mouth. He observes that the reaction catalyzed by the enzyme does not proceed as quickly when the reaction is at room temperature. Which of the following best explains this phenomenon?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "A room-temperature environment is not optimal for this enzyme.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Enzymes always function best below 25 degrees Celsius.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Enzymes degrade at room temperature.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Reactions at room temperature are more acidic than at higher temperatures.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "The optimal environment for this enzyme is acidic.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Enzymes in living organisms operate best within a narrow range of environmental conditions. Room temperature is too cold for an enzyme normally found inside the human body."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Enzymes in the human stomach aid in the digestion of food. Which statement about such enzymes is true?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Stomach enzymes function best in an acidic environment.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Stomach enzymes function best at low temperatures.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Stomach enzymes will be used in this laboratory investigation.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Stomach enzymes are consumed during chemical reactions.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Stomach enzymes produce alkaline waste products.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The stomach contains acidic gastric juices that aid digestion, therefore, enzymes active in the stomach function best in that acidic environment."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Enzymes in living organisms operate best within a narrow range of environmental conditions (e.g., temperature, concentration, pH, etc.). For example, enzymes active in the small intestine function best in a weakly alkaline environment. When pH values are outside the optimum range for digestive enzymes, denaturing (alteration of the active site shape) of the molecule can occur so that the enzyme cannot accept the substrate. Enzymes active in the stomach are inactive in the small intestine and vice versa."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Enzymes in living organisms operate best within a narrow range of environmental conditions (e.g., temperature, concentration, pH, etc.). For example, enzymes active in the small intestine function best in a weakly alkaline environment. When pH values are outside the optimum range for digestive enzymes, denaturing (alteration of the active site shape) of the molecule can occur so that the enzyme cannot accept the substrate. Enzymes active in the stomach are inactive in the small intestine and vice versa."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, the concentration of the <button class='glossary-text'>catalase</button> <button class='glossary-text'>enzyme</button> will be varied to determine the impact concentration of the enzyme has on the rate of reaction. The rate of reaction will be determined using pieces of filter paper. The filter paper will be soaked in the catalase solutions and then placed at the bottom of a cup containing hydrogen peroxide. As the catalase catalyzes the hydrogen peroxide, oxygen bubbles will form on the surface of the filter paper causing the filter paper to rise to the surface of the liquid. The measured depth of the liquid in centimeters can be divided by the time elapsed for the paper to reach the surface of the liquid to give an analogue to the rate of reaction in centimeters per second. In Activity 2, the temperature of the system will be varied, and in Activity 3, the pH of the system will be varied to measure the impact of changing the variables of temperature and pH on the activity of the catalase enzyme."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 3",
+              "pageTitle": "Knowledge Check Question 3",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 2,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "In this investigation, you will observe the impact of what factors on catalase activity?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "enzyme concentration, pH, temperature",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "pH, temperature",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "reactant concentration, temperature",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "concentration, radioactivity, temperature",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "heat, pH",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "You will observe the effect of enzyme concentration, reaction pH and reaction temperature on the rate of the reaction catalyzed by catalase."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following will be used as evidence of catalase activity in this investigation?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "A filter paper disk rises to the surface of a hydrogen peroxide solution due to the formation of oxygen bubbles.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The number of oxygen bubbles produced by a filter paper disk submerged in a hydrogen peroxide solution.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "The volume of hydrogen peroxide produced by a filter paper disk submerged in a yeast solution.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The change in pH of the reaction as a yeast solution is mixed with hydrogen peroxide.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "A filter paper disk sinks to the bottom of a hydrogen peroxide solution due to the formation of water molecules.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "As the catalase in the filter paper disk catalyzes the hydrogen peroxide, oxygen bubbles will form on the surface of the disk causing it to rise to the surface of the hydrogen peroxide liquid."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "In this investigation you will study the enzyme catalase. Catalase decomposes hydrogen peroxide, a toxic by-product of cellular metabolism, before it can damage the cell. The reaction produces water and oxygen gas (O<sub class='bodySubscript'>2</sub>), both of which are nontoxic. The rate of reaction will be determined using pieces of filter paper. The filter paper will be soaked in the catalase solutions and then placed at the bottom of a cup containing hydrogen peroxide. As the catalase catalyzes the hydrogen peroxide, oxygen bubbles will form on the surface of the filter paper causing the filter paper to rise to the surface of the liquid. The measured depth of the liquid in centimeters can be divided by the time elapsed for the paper to reach the surface of the liquid to give an analogue to the rate of reaction in centimeters per second. In Activity 1 the concentration of the catalase enzyme will be varied, in Activity 2 the temperature of the system will be varied, and in Activity 3 the pH of the system will be varied to measure the impact of changing the variables of enzyme concentration, temperature and pH on the activity of the catalase enzyme."
+                },
+                {
+                  "title": "Hint",
+                  "body": "In this investigation you will study the enzyme catalase. Catalase decomposes hydrogen peroxide, a toxic by-product of cellular metabolism, before it can damage the cell. The reaction produces water and oxygen gas (O<sub class='bodySubscript'>2</sub>), both of which are nontoxic. The rate of reaction will be determined using pieces of filter paper. The filter paper will be soaked in the catalase solutions and then placed at the bottom of a cup containing hydrogen peroxide. As the catalase catalyzes the hydrogen peroxide, oxygen bubbles will form on the surface of the filter paper causing the filter paper to rise to the surface of the liquid. The measured depth of the liquid in centimeters can be divided by the time elapsed for the paper to reach the surface of the liquid to give an analogue to the rate of reaction in centimeters per second. In Activity 1 the concentration of the catalase enzyme will be varied, in Activity 2 the temperature of the system will be varied, and in Activity 3 the pH of the system will be varied to measure the impact of changing the variables of enzyme concentration, temperature and pH on the activity of the catalase enzyme."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "containerType": "fullContainer",
+                  "image": "courses/580356/580356_ED_01.svg",
+                  "imgDivWidth": "84%",
+                  "imgDivWidthForTablet": {
+                    "P": "90%",
+                    "L": "90%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "scrollImg": true,
+                  "maxWidth": "1250px",
+                  "desc": "This map describes the workflow for Activity 1 for this investigation. Before starting any activities, prepare the filter paper disks, cover your work surface, create a 100% catalase solution, and label your pipets. In Activity 1, you will create a 1.5% hydrogen peroxide solution. Then, label the well plate with catalase concentrations. Next, create catalase dilutions in the wells. Then, soak a disk in a catalase well and add the disk to the hydrogen peroxide solution. Record the time for the disk to float. You will repeat the disk-floating process for a total of three trials for each catalase concentration. Then, calculate the average float time for each reaction, determine the distance traveled by floating disks, calculate the rate of each reaction, and graph rate versus percent concentration of enzyme.",
+                  "altText": "This map describes the workflow for Activity 1 for this investigation. Before starting any activities, prepare the filter paper disks, cover your work surface, create a 100% catalase solution, and label your pipets. In Activity 1, you will create a 1.5% hydrogen peroxide solution. Then, label the well plate with catalase concentrations. Next, create catalase dilutions in the wells. Then, soak a disk in a catalase well and add the disk to the hydrogen peroxide solution. Record the time for the disk to float. You will repeat the disk-floating process for a total of three trials for each catalase concentration. Then, calculate the average float time for each reaction, determine the distance traveled by floating disks, calculate the rate of each reaction, and graph rate versus percent concentration of enzyme."
+                }
+              ]
+            },
+            {
+              "title": "Experimental Design (cont... )",
+              "pageTitle": "Experimental Design (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "containerType": "fullContainer",
+                  "image": "courses/580356/580356_ED_02.svg",
+                  "imgDivWidth": "74%",
+                  "imgDivWidthForTablet": {
+                    "P": "90%",
+                    "L": "90%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "scrollImg": true,
+                  "maxWidth": "1100px",
+
+                  "desc": "This map describes the workflow for the first half of Activity 2 for this investigation. To start Activity 2, create a new 100% catalase solution and a new 1.5% hydrogen peroxide solution. Then, add room temperature catalase to a well and soak a disk in the well. Next, add the disk to the hydrogen peroxide solution and record the time for the disk to float. You will repeat this disk-floating process for a total of three trials. Then, label your well plate with a series of temperatures. Next, chill the hydrogen peroxide and catalase solutions. Add cooled catalase to a well and soak a disk in the well. Next, add the disk to the hydrogen peroxide solution and record the time for the disk to float. You will repeat this diskfloating process for a total of three trials.",
+
+                  "altText": "This map describes the workflow for the first half of Activity 2 for this investigation. To start Activity 2, create a new 100% catalase solution and a new 1.5% hydrogen peroxide solution. Then, add room temperature catalase to a well and soak a disk in the well. Next, add the disk to the hydrogen peroxide solution and record the time for the disk to float. You will repeat this disk-floating process for a total of three trials. Then, label your well plate with a series of temperatures. Next, chill the hydrogen peroxide and catalase solutions. Add cooled catalase to a well and soak a disk in the well. Next, add the disk to the hydrogen peroxide solution and record the time for the disk to float. You will repeat this diskfloating process for a total of three trials."
+                }
+              ]
+            },
+            {
+              "title": "Experimental Design (cont... )",
+              "pageTitle": "Experimental Design (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "containerType": "fullContainer",
+                  "image": "courses/580356/580356_ED_03.svg",
+                  "imgDivWidth": "97%",
+                  "imgDivWidthForTablet": {
+                    "P": "90%",
+                    "L": "90%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "width": "100%",
+                  "scrollImg": true,
+                  "maxWidth": "1500px",
+
+                  "desc": "This map describes the workflow for the second half of Activity 2 and for Activity 3. Continue Activity 2 by warming the hydrogen peroxide and catalase solutions. Add warmed catalase to a well and soak a disk in the well, add the disk to the hydrogen peroxide solution, and record the time for the disk to float. Repeat this disk-floating process for a total of three trials. In Activity 3, you will create new 100% catalase and 1.5% hydrogen peroxide solutions. Then, create hydrochloric acid and sodium hydroxide dilutions in the wells, add catalase to the well solutions, and soak a disk in the well. Next, add the disk to the hydrogen peroxide solution and record the time for the disk to float. Repeat this disk-floating process for a total of three trials for each acid and base dilution. Finally, calculate the average float time for each reaction, determine the distance traveled by floating disks, calculate the rate of each reaction, and graph rate versus pH.",
+
+                  "altText": "This map describes the workflow for the second half of Activity 2 and for Activity 3. Continue Activity 2 by warming the hydrogen peroxide and catalase solutions. Add warmed catalase to a well and soak a disk in the well, add the disk to the hydrogen peroxide solution, and record the time for the disk to float. Repeat this disk-floating process for a total of three trials. In Activity 3, you will create new 100% catalase and 1.5% hydrogen peroxide solutions. Then, create hydrochloric acid and sodium hydroxide dilutions in the wells, add catalase to the well solutions, and soak a disk in the well. Next, add the disk to the hydrogen peroxide solution and record the time for the disk to float. Repeat this disk-floating process for a total of three trials for each acid and base dilution. Finally, calculate the average float time for each reaction, determine the distance traveled by floating disks, calculate the rate of each reaction, and graph rate versus pH."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Yeast (source of catalase)",
+                          "image": "courses/580356/580356_material_001.svg",
+                          "url": "courses/580356/580356_material_001.svg",
+                          "desc": "Dry yeast packet",
+                          "altText": "Dry yeast packet"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Filter paper",
+                          "image": "courses/580356/580356_material_002.svg",
+                          "url": "courses/580356/580356_material_002.svg",
+                          "desc": "White circular filter paper",
+                          "altText": "White circular filter paper"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "2 Medicine cups, 1 oz",
+                          "image": "courses/580356/580356_material_003.svg",
+                          "url": "courses/580356/580356_material_003.svg",
+                          "desc": "Clear plastic medicine cup",
+                          "altText": "Clear plastic medicine cup"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Well plate, 24 wells",
+                          "image": "courses/580356/580356_material_004.svg",
+                          "url": "courses/580356/580356_material_004.svg",
+                          "desc": "24-well plate in clear plastic bag",
+                          "altText": "24-well plate in clear plastic bag"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "4 Plastic dropping pipets",
+                          "image": "courses/580356/580356_material_005.svg",
+                          "url": "courses/580356/580356_material_005.svg",
+                          "desc": "Clear plastic dropping pipet",
+                          "altText": "Clear plastic dropping pipet"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "image": "courses/580356/580356_material_006.svg",
+                          "url": "courses/580356/580356_material_006.svg",
+                          "label": "Hydrochloric acid, 0.1 M, 15 mL",
+
+                          "desc": "Hydrochloric acid solution in clear plastic bottle",
+                          "altText": "Hydrochloric acid solution in clear plastic bottle"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Sodium hydroxide, 0.1 M, 15 mL",
+                          "image": "courses/580356/580356_material_007.svg",
+                          "url": "courses/580356/580356_material_007.svg",
+                          "desc": "Sodium hydroxide solution in clear plastic bottle",
+                          "altText": "Sodium hydroxide solution in clear plastic bottle"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from the equipment kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Beaker, 250 mL",
+                          "image": "courses/580356/580356_material_008.svg",
+                          "url": "courses/580356/580356_material_008.svg",
+                          "desc": "Clear plastic 250-mL beaker",
+                          "altText": "Clear plastic 250-mL beaker"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Test tube, 13 x 100 mm",
+                          "image": "courses/580356/580356_material_009.svg",
+                          "url": "courses/580356/580356_material_009.svg",
+
+                          "desc": "Small glass test tube, 13 x 100 mm",
+                          "altText": "Small glass test tube, 13 x 100 mm"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Ruler",
+                          "image": "courses/580356/580356_material_010.svg",
+                          "url": "courses/580356/580356_material_010.svg",
+
+                          "desc": "Clear plastic ruler",
+                          "altText": "Clear plastic ruler"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Forceps",
+                          "image": "courses/580356/580356_material_011.svg",
+                          "url": "courses/580356/580356_material_011.svg",
+
+                          "desc": "Blue plastic forceps",
+                          "altText": "Blue plastic forceps"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Graduated cylinder, 10 mL",
+                          "image": "courses/580356/580356_material_012.svg",
+                          "url": "courses/580356/580356_material_012.svg",
+
+                          "desc": "10-mL clear plastic graduated cylinder",
+                          "altText": "10-mL clear plastic graduated cylinder"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Graduated cylinder, 50 mL",
+                          "image": "courses/580356/580356_material_013.svg",
+                          "url": "courses/580356/580356_material_013.svg",
+
+                          "desc": "50-mL clear plastic graduated cylinder",
+                          "altText": "50-mL clear plastic graduated cylinder"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Plastic spoon",
+                          "image": "courses/580356/580356_material_014.svg",
+                          "url": "courses/580356/580356_material_014.svg",
+
+                          "desc": "White plastic spoon",
+                          "altText": "White plastic spoon"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Wax pencil",
+                          "image": "courses/580356/580356_material_015.svg",
+                          "url": "courses/580356/580356_material_015.svg",
+
+                          "desc": "Wax pencil",
+                          "altText": "Wax pencil"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Weigh Boat",
+                          "image": "courses/580356/580356_material_016.svg",
+                          "url": "courses/580356/580356_material_016.svg",
+
+                          "desc": "White plastic weigh boat",
+                          "altText": "White plastic weigh boat"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Balance",
+                          "image": "courses/580356/580356_material_017.svg",
+                          "url": "courses/580356/580356_material_017.svg",
+
+                          "desc": "Electronic balance",
+                          "altText": "Electronic balance"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Thermometer",
+                          "image": "courses/580356/580356_material_018.svg",
+                          "url": "courses/580356/580356_material_018.svg",
+
+                          "desc": "Glass alcohol thermometer with red bulb",
+                          "altText": "Glass alcohol thermometer with red bulb"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from the chemical kit #1",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "3% Hydrogen peroxide",
+                          "image": "courses/580356/580356_material_019.svg",
+                          "url": "courses/580356/580356_material_019.svg",
+
+                          "desc": "Hydrogen peroxide in brown plastic bottle",
+                          "altText": "Hydrogen peroxide in brown plastic bottle"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [
+                            "Single-hole punch (optional)",
+                            "Timer (stopwatch, cell phone, or online timer), accurate to 0.1 seconds",
+                            "Crushed ice or small ice cubes",
+                            "Plastic trash bag or old towel",
+                            "Graphing software",
+                            "Labeling tape"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span><span className=bodyParaLineBreak></span><span className=bodyParaLineBreak></span>A replacement kit for Enzyme Catalysis, item number 580356, can be ordered from Carolina Biological Supply Company.<span className=bodyParaLineBreak></span><span className=bodyMediumSubHeading >Call:</span> 866-332-4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Wear your safety goggles, chemical apron, and gloves at all times while conducting this investigation."
+                },
+                {
+                  "type": "Image",
+                  "image": "core/Key_PPE.svg",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Read all the instructions for this laboratory activity before beginning. Follow the instructions closely and observe established laboratory safety practices, including the use of appropriate personal protective equipment (PPE) described in the Safety and Procedure section."
+                },
+                {
+                  "type": "PlainImage",
+                  "text": "Hydrogen peroxide is an eye and skin irritant. In the event of contact with skin or eyes, the affected area should be immediately rinsed with water for 15 minutes.",
+                  "image": "core/Warning.svg",
+                  "desc": "warning symbol",
+                  "altText": "warning symbol",
+                  "imgWidth": "12%"
+                },
+                {
+                  "type": "PlainImage",
+                  "text": "Hydrochloric acid and sodium hydroxide are corrosive. In the event of contact with skin or eyes, the affected area should be immediately rinsed with water for 15 minutes.",
+                  "image": "core/Corrosion.svg",
+                  "desc": "corrosion symbol",
+                  "altText": "corrosion symbol",
+                  "imgWidth": "12%"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Do not eat, drink, or chew gum while performing this investigation. Wash your hands with soap and water before and after performing the investigation. Clean up the work area with soap and water after completing the investigation. Keep pets and children away from lab materials and equipment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the function of a catalyst?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "to lower the activation energy of a chemical reaction",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "to shift a chemical reaction to the reactant side",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "to inhibit a chemical reaction from taking place",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "to increase the speed of a chemical reaction",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "to reduce the number of reactants in a chemical reaction",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the active sites of enzymes?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Each enzyme has an active site shaped to fit specific substrate(s).",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Each enzyme has a standard active site shaped to fit any substrate.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Each enzyme has an active site that changes shape to fit the substrate(s) present.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Each enzyme is left with an active site after a substrate is converted into products.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Each enzyme has multiple active sites, each shaped to fit a different substrate.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Catalase catalyzes which of the following reactions?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The breakdown of hydrogen peroxide into water and oxygen.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The synthesis of water from hydrogen gas and oxygen.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The breakdown of yeast cells into its component parts.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The activation of yeast cells using hydrogen peroxide and sugar.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The production of hydrogen ions by hydrogen peroxide.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "An enzyme normally found in the digestive tract of humans is exposed to near-boiling temperatures, causing it to denature. Which of the following is the result of this denaturation?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The active site changes shape.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The enzyme’s activity increases.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The active site binds to substrates more efficiently.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The enzyme’s optimal temperature increases.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The enzyme binds to other enzymes.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Some bacteria can live in extreme environments, such as boiling hot springs. Which of the following best describes the enzymes in these bacteria compared to the enzymes found in humans?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The enzymes function better at high temperatures.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The enzymes are denatured.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The enzymes function better at high pH.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The enzymes function better overall.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The enzymes have larger active sites.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Elizabeth is conducting this enzyme investigation in her dorm room. She soaks one filter paper disk in 50% catalase solution and another in 100% catalase solution. Each disk is then submerged in a small volume of hydrogen peroxide solution. Which of the following results is Elizabeth most likely to observe?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The 100% catalase disk floated faster than the 50% catalase disk.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The 50% catalase disk floated faster than the 100% catalase disk.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Both disks remained submerged in the solution.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The 50% catalase disk dissolved faster than the 100% catalase disk.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The 100% catalase disk dissolved faster than the 50% catalase disk.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following materials in this investigation is/are corrosive?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "hydrochloric acid and sodium hydroxide",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "hydrochloric acid only",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "hydrogen peroxide only",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "catalase and sodium hydroxide",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "catalase and hydrogen peroxide",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "In the event hydrogen peroxide comes in contact with skin, which of the following steps should you immediately take?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Rinse the affected area with water for 15 minutes.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Apply baking soda to the affected area.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Cover the affected area with a bandage.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Apply an ice pack to the affected area for at least 15 minutes.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Call a poison control center.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation",
+              "pageTitle": "Preparation (12 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure",
+              "keyID": "preparation",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Read through the entire laboratory."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the single-hole punch, punch out 30 disks from a piece of filter paper. If you do not have a hole punch, cut the filter paper into small squares (6–7 mm). Care should be taken to cut squares to the same size."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Select a clean work area."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Gather materials and place them on a counter covered by a plastic trash bag or an old towel to prevent the hydrogen peroxide from discoloring the counter surface."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Turn on a hot water tap and monitor the temperature with the thermometer until a temperature of <span style='whiteSpace: nowrap'>35 °C is reached.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Collect approximately 250 mL of the 35 °C water in the beaker."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place a weigh boat on the balance and tare the balance."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Weigh 2 grams of yeast into the weigh boat."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Add the measured yeast to the 35 °C water and stir thoroughly with the spoon. Consider this the 100% <button class='glossary-text'>catalase</button> solution to be used for the remainder of the lab."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Attach labeling tape to one of the medicine cups and write 100% catalase."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Pour the yeast suspension into the medicine cup up to the <span style='whiteSpace: nowrap'>20.0-mL</span> mark."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Label the bulb of one pipet “water,” the second with “catalase,” a third with “acid,” and the fourth with “base” with the wax pencil."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Chemistry_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will vary the concentration of the <button class='glossary-text'>catalase</button> <button class='glossary-text'>enzyme</button> to determine the impact concentration of the enzyme has on the rate of reaction."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Activity 1",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Enzyme Concentration (23 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity1",
+              "pageData": [
+                [
+                  {
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "text": "This activity investigates the following question: How does the concentration of the <button class='glossary-text'>enzyme</button> <button class='glossary-text'>catalase</button> affect the decomposition rate of the <button class='glossary-text'>substrate</button> hydrogen peroxide?"
+                      }
+                    ],
+
+                    "type": "Plain",
+                    "text": "Label the empty medicine cup “1.5% H<sub class='bodySubscript'>2</sub>O<sub class='bodySubscript'>2</sub>” using the labeling tape and a wax pencil."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Measure 10 mL 3% hydrogen peroxide using the 50-mL graduated cylinder and add it to the “1.5% H<sub class='bodySubscript'>2</sub>O<sub class='bodySubscript'>2</sub>” medicine cup."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Measure 10 mL of room-temperature water using the 50-mL graduated cylinder and add it to the medicine cup to yield <span style='whiteSpace: nowrap'>20 mL</span> 1.5% hydrogen peroxide."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Orient the 24-well plate so that there are 6 wells across and 4 wells down."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using labeling tape and a wax pencil, label five wells in the first row across with <span class='bodyFontItalic'>0%</span>, <span class='bodyFontItalic'>25%</span>, <span class='bodyFontItalic'>50%</span>, <span class='bodyFontItalic'>75%</span>, and <span class='bodyFontItalic'>100%</span>. These labels represent the concentrations of catalase that will be used in each well."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses/580356/580356_fig_003.svg",
+                    "imgDivWidth": "343px",
+                    "desc": "Figure 3: Photograph of what the labeled well plate looks like",
+                    "altText": "Figure 3: Photograph of what the labeled well plate looks like",
+                    "maxWidth": "400px",
+                    "scrollImg": true
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Take the pipet labeled “catalase” and add the following drops of catalase to each well (except for the control) as shown below in the table."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Take the pipet labeled “water” and add enough drops to obtain a final volume of 20 drops per well as shown below in the table."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Gently swirl the well plate to mix the contents."
+                  },
+                  {
+                    "type": "DataTable",
+                    "sr": 1,
+                    "title": "Table 1.",
+                    "allowClick": true,
+                    "tableWidth": "500px",                   
+                    "header": [
+                      {
+                        "text": "0% (control)",
+                        "colWidth":"20%"
+                      },
+                      {
+                        "text": "25%",
+                        "colWidth":"20%"
+                      },
+                      {
+                        "text": "50%",
+                        "colWidth":"20%"
+                      },
+                      {
+                        "text": "75%",
+                        "colWidth":"20%"
+                      },
+                      {
+                        "text": "100%",
+                        "colWidth":"20%"
+                      }
+                    ],
+                    "tableData": [
+                      [
+                        {
+                          "type": "text",
+                          "text": "0 drops catalase"
+                        },
+                        {
+                          "type": "text",
+                          "text": "5 drops catalase"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops catalase"
+                        },
+                        {
+                          "type": "text",
+                          "text": "15 drops catalase"
+                        },
+                        {
+                          "type": "text",
+                          "text": "20 drops catalase"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "20 drops water"
+                        },
+                        {
+                          "type": "text",
+                          "text": "15 drops water"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops water"
+                        },
+                        {
+                          "type": "text",
+                          "text": "5 drops water"
+                        },
+                        {
+                          "type": "text",
+                          "text": "0 drops water"
+                        }
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "With a pair of forceps, take a dry filter disk and dip it into the 0% well solution."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Remove the disk and blot by dragging it across the top of the well on both sides."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Start the timer as soon as the disk is placed with forceps on the bottom of the medicine cup containing 20 mL 1.5% hydrogen peroxide.",
+                    "image": "core/Clock.svg",
+                    "desc": "stopwatch symbol",
+                    "altText": "stopwatch symbol",
+                    "imgWidth": "4.5%"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Time (in seconds) how long it takes the disk to rise to the surface of the peroxide."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "Stop timing after 3 minutes if there is no activity. The rate for such a run would be 0 cm/s."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the time (in seconds) in <span class=bodyFontBold>Data Table 1</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Remove the used disk with the forceps; perform two additional trials with a new soaked disk from the control, 0% catalase. Swirl the well plate again prior to dipping each filter paper disk."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Conduct three trials for each of the remaining catalase solutions (25%, 50%, 75%, and 100%). Swirl the well plate to mix the solution before wetting the disk. Start with the lowest percent concentration of catalase (25%) and move to each higher concentration. Always remove the previous floating disk with forceps before starting the next trial.",
+                    "image": "core/Clock.svg",
+                    "desc": "stopwatch symbol",
+                    "altText": "stopwatch symbol",
+                    "imgWidth": "4.5%"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the time in seconds in <span class=bodyFontBold>Data Table 1</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "For each concentration, calculate the average time required for the disks to float to the surface of the medicine cup."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Measure the height of the 1.5% hydrogen peroxide solution to the nearest 0.1 cm and record in <span class=bodyFontBold>Data Table 1</span>.<ul style='margin-bottom: 0'><li>This is the distance traveled by the disk from the bottom to the surface of the peroxide, and it will be the same for all trials where the disk floated.</li></ul>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the rate of each reaction using the equation <span class='bodyFontItalic'>R</span> = <span class='bodyFontItalic'>d/t</span>, where <span class='bodyFontItalic'>d</span> = the distance in cm that the disk travels from the bottom of the hydrogen peroxide container to the surface and <span class='bodyFontItalic'>t</span> = average time in seconds."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Plot a graph for each data point with rate on the y-axis and percent concentration of enzyme on the x-axis.<ul style='margin-bottom: 0'> <li>If the points are linear, draw a “best-fit” straight line through or near all of the data points. Alternatively, use a computerized spreadsheet with graphing and select “best fit” line.</li> </ul>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Empty the 1.5% hydrogen peroxide medicine cup into the sink and rinse with water."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "If Activity 2 will be performed immediately, keep the 100% catalase solution and ignore preparation steps 1–2 in <span style='whiteSpace: nowrap'>Activity 2.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "If Activity 2 will be performed at a later time, empty both medicine cups in a sink and rinse with water. The 24-well plate should be thoroughly washed and dried. It is safe to empty and rinse the well plate down the sink drain."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Chemistry_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will vary the temperature of the system to determine the impact temperature has on the rate of reaction."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "Activity 2",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Effect of Temperature (39 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity2",
+              "pageData": [
+                [
+                  {
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "text": "This activity investigates the following question: How does temperature impact the decomposition rate of the <button class='glossary-text'>substrate</button> hydrogen peroxide by the <button class='glossary-text'>enzyme</button> <button class='glossary-text'>catalase</button>?"
+                      },
+                      {
+                        "type": "Box",
+                        "text": "Perform steps 1 and 2 only if more than an hour has passed since completing <span style='whiteSpace: nowrap'>Activity 1.</span> If not, begin at <span style='whiteSpace: nowrap'>step 3.</span>"
+                      }
+                    ],
+
+                    "type": "Plain",
+                    "text": "Prepare another batch of 100% yeast solution (2 grams of yeast per cup of warm, 35 °C water, mixed thoroughly)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Pour the yeast mixture into the medicine cup labeled “100% catalase” up to the <span style='whiteSpace: nowrap'>20.0-mL</span> mark."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Prepare a fresh solution of 1.5% hydrogen peroxide by adding 10 mL water to 10 mL 3% hydrogen peroxide in the medicine cup previously labeled “1.5% H<sub class='bodySubscript'>2</sub>O<sub class='bodySubscript'>2</sub>.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Add labeling tape to five wells in the second row of the well plate."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Fill the 13 x 100-mm test tube about halfway with the 100% catalase solution."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Measure the room temperature in °C and record the value in the heading of <span class=bodyFontBold>Data Table 2</span> and on one of the 5 wells."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the appropriate pipet, add 20 drops of room temperature catalase to the correctly labeled well."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Soak a filter disk in room temperature catalase, blot, and place it using the forceps at the bottom of the 1.5% H<sub class='bodySubscript'>2</sub>O<sub class='bodySubscript'>2</sub> cup."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Time how long it takes for the disk to rise to the surface, and record the value in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 2</span>.</span>",
+                    "image": "core/Clock.svg",
+                    "desc": "stopwatch symbol",
+                    "altText": "stopwatch symbol",
+                    "className": "float-top",
+                    "imgWidth": "4.5%"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat steps 8 and 9 for two additional trials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate and record the temperature that is 10 °C below room temperature on the second well. On the third, record <span style='whiteSpace: nowrap'>10 °C</span> above room temperature, and on the others <span style='whiteSpace: nowrap'>20 °C</span> and <span style='whiteSpace: nowrap'>30 °C</span> above room temperature."
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "<ul style='margin-bottom: 0'> <li>For example, if room temperature is 25 °C, then the wells would be labeled <span style='whiteSpace: nowrap'>15 °C,</span> <span style='whiteSpace: nowrap'>25 °C,</span> <span style='whiteSpace: nowrap'>35 °C,</span> <span style='whiteSpace: nowrap'>45 °C,</span> and <span style='whiteSpace: nowrap'>55 °C.</span></li> </ul>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "For the below-room-temperature trial, set up an ice bath by adding an inch of crushed ice and water to the beaker."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the medicine cup containing 1.5% hydrogen peroxide in the center of the ice and insert the catalase test tube in the ice beside the cup."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Monitor the temperature of the medicine cup by placing the thermometer in the peroxide solution. Remove the cup when the temperature decreases to 10 °C below room temperature."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the actual temperature in the heading column of <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 2</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the appropriate pipet, add 20 drops of cooled catalase to the correctly labeled well."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Soak a filter disk in the cooled catalase, blot it on the well mouth, and place it on the bottom of the medicine cup."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Record how long it takes the disk to rise to the surface. Remove the used disk.",
+                    "image": "core/Clock.svg",
+                    "desc": "stopwatch symbol",
+                    "altText": "stopwatch symbol",
+                    "className": "float-top",
+                    "imgWidth": "4.5%"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat steps 17 and 18 for two additional trials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Discard the ice."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "For temperatures above room temperature, set up a water bath by adding hot tap water to the beaker."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Insert a thermometer into the water bath to track the temperature."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Adjust the temperature by replacing some of the hot water with cooler water until the desired temperature is achieved.<ul style='margin-bottom: 0'> <li>The total volume of water in the beaker should be approximately <span style='whiteSpace: nowrap'>50 mL.</span></li> </ul>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the actual temperature in the heading column of <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 2</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the medicine cup of hydrogen peroxide in the center of the beaker."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the catalase tube in the beaker beside the medicine cup."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Wait 2 minutes to allow the temperature in the medicine cup to equilibrate with the water bath."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the appropriate pipet, add 20 drops of warmed catalase to the correctly labeled well."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Soak a filter disk in the warm catalase, blot it, and place it on the bottom of the medicine cup."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Record how long it takes the disk to rise to the surface. Remove the used disk.",
+                    "image": "core/Clock.svg",
+                    "desc": "stopwatch symbol",
+                    "altText": "stopwatch symbol",
+                    "className": "float-top",
+                    "imgWidth": "4.5%"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat steps 29 and 30 for two additional trials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat steps 22–31 for 20 and 30 °C above room temperature and record the times and temperatures in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 2</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the average time required for the disk to reach the surface of the medicine cup for each temperature tested."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the rate (d/t) for each temperature using the average time calculated in the previous step for “t” and record the values in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 2</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Plot a graph for each data point with rate on the y-axis and temperature on the x-axis."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The 24-well plate should be thoroughly washed and dried. It is safe to empty and rinse the well plate down the sink drain."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Empty the 1.5% hydrogen peroxide medicine cup into the sink and rinse with water."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "If Activity 3 will be performed immediately, keep 100% catalase solution and ignore preparation steps 1–2 in <span style='whiteSpace: nowrap'>Activity 3.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "If Activity 3 will be performed at a later time, empty both medicine cups in a sink and rinse with water."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 3",
+      "menuIcon": "core/Chemistry_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 3, you will vary the pH of the system to determine the impact pH has on the rate of reaction."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 3",
+          "pages": [
+            {
+              "title": "Activity 3",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Effect of pH (49 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity3",
+              "pageData": [
+                [
+                  {
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "text": "This activity investigates the following question: How does pH impact the decomposition rate of the <button class='glossary-text'>substrate</button> hydrogen peroxide by the <button class='glossary-text'>enzyme</button> <button class='glossary-text'>catalase</button>?"
+                      },
+                      {
+                        "type": "Box",
+                        "text": "Perform steps 1–2 only if more than an hour has passed since completing <span style='whiteSpace: nowrap'>Activity 2.</span> If not, begin at <span style='whiteSpace: nowrap'>step 3.</span>"
+                      }
+                    ],
+
+                    "type": "Plain",
+                    "text": "Prepare another batch of 100% yeast solution (2 grams per cup of <span style='whiteSpace: nowrap'>35 °C</span> water mixed thoroughly)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Pour the yeast solution into the medicine cup labeled “100% catalase” up to the <span style='whiteSpace: nowrap'>20.0-mL</span> mark."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Prepare a fresh solution of 1.5% hydrogen peroxide by adding 10 mL water to 10 mL 3% hydrogen peroxide in the medicine cup labeled “1.5% H<sub class='bodySubscript'>2</sub>O<sub class='bodySubscript'>2</sub>.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Each well comes labeled from the factory with a letter and number to the upper left of the well. Orient the well plate so well A1 is in the upper left corner."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The wells will be referred to by column and row number, i.e., the third well in the second row will be called B3."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Take the bottle labeled “0.1M HCl” and add 20 drops to well A1."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the pipet labeled “acid,” dispense 2 drops of the solution from well A1 into well A2 and 10 drops into well B1."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the “water” pipet dispense 18 drops of water in well A2."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Rinse each pipet by drawing water into the pipet and expelling it into the sink."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the pipet labeled “acid,” dispense 2 drops of the solution from well A2 into well A3 and 10 drops into well B2."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the “water” pipet, dispense 18 drops of water in well A3."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Rinse each pipet by drawing water into the pipet and expelling it into the sink."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the pipet labeled “acid,” dispense 2 drops of the solution from well A3 into well A4 and 10 drops into well B3."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the “water” pipet, dispense 18 drops of water in well A4."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Rinse each pipet by drawing water into the pipet and expelling it into the sink."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the pipet labeled “acid,” dispense 2 drops of the solution from well A4 into well A5 and 10 drops into well B4."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the “water” pipet, dispense 18 drops of water in well A5."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Rinse each pipet by drawing water into the pipet and expelling it into the sink."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the pipet labeled “acid,” dispense 10 drops of the solution from well A5 into well B5."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Rinse each pipet by drawing water into the pipet and expelling it into the sink."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Take the bottle labeled “0.1M NaOH” and add 20 drops to well C1."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the pipet labeled “base,” dispense 2 drops of the solution from well C1 into well C2 and 10 drops into well D1."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the “water” pipet, dispense 18 drops of water in well C2."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Rinse each pipet by drawing water into the pipet and expelling it into the sink."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the pipet labeled “base,” dispense 2 drops of the solution from well C2 into well C3 and 10 drops into well D2."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the “water” pipet, dispense 18 drops of water in well C3."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Rinse each pipet by drawing water into the pipet and expelling it into the sink."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the pipet labeled “base,” dispense 2 drops of the solution from well C3 into well C4 and 10 drops into well D3."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the “water” pipet, dispense 18 drops of water in well C4."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Rinse each pipet by drawing water into the pipet and expelling it into the sink."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the pipet labeled “base,” dispense 2 drops of the solution from well C4 into well C5 and 10 drops into well D4."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the “water” pipet, dispense 18 drops of water in well C5."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Rinse each pipet by drawing water into the pipet and expelling it into the sink."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the pipet labeled “base,” dispense 10 drops of the solution from well C5 into well D5."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Rinse each pipet by drawing water into the pipet and expelling it into the sink."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Take the pipet labeled “catalase” and add 10 drops to each well in rows B and D."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Swirl the well plate to mix the contents."
+                  },
+                  {
+                    "type": "DataTable",
+                    "sr": 2,
+                    "title": "Table 2.",
+                    "tableWidth": "700px",
+                    "allowClick": true,
+                    "header": [
+                      {
+                        "text": "pH",
+                        "colWidth":"23%"
+                      },
+                      {
+                        "text": "1.3",
+                        "colWidth":"15%"
+                      },
+                      {
+                        "text": "2.3",
+                        "colWidth":"15%"
+                      },
+                      {
+                        "text": "3.3",
+                        "colWidth":"15%"
+                      },
+                      {
+                        "text": "4.3",
+                        "colWidth":"15%"
+                      },
+                      {
+                        "text": "5.3",
+                        "colWidth":"16%"
+                      }
+                    ],
+                    "tableData": [
+                      [
+                        {
+                          "type": "text",
+                          "text": "Well location",
+                          "fontFamily": "Montserrat-Bold"
+                        },
+                        {
+                          "type": "text",
+                          "text": "B1"
+                        },
+                        {
+                          "type": "text",
+                          "text": "B2"
+                        },
+                        {
+                          "type": "text",
+                          "text": "B3"
+                        },
+                        {
+                          "type": "text",
+                          "text": "B4"
+                        },
+                        {
+                          "type": "text",
+                          "text": "B5"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Catalase",
+                          "fontFamily": "Montserrat-Bold"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "HCl solutions",
+                          "fontFamily": "Montserrat-Bold"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "pH",
+                          "fontFamily": "Montserrat-Bold"
+                        },
+                        {
+                          "type": "text",
+                          "text": "12.7",
+                          "fontFamily": "Montserrat-Bold"
+                        },
+                        {
+                          "type": "text",
+                          "text": "11.7",
+                          "fontFamily": "Montserrat-Bold"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10.7",
+                          "fontFamily": "Montserrat-Bold"
+                        },
+                        {
+                          "type": "text",
+                          "text": "9.7",
+                          "fontFamily": "Montserrat-Bold"
+                        },
+                        {
+                          "type": "text",
+                          "text": "8.7",
+                          "fontFamily": "Montserrat-Bold"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Well location",
+                          "fontFamily": "Montserrat-Bold"
+                        },
+                        {
+                          "type": "text",
+                          "text": "D1"
+                        },
+                        {
+                          "type": "text",
+                          "text": "D2"
+                        },
+                        {
+                          "type": "text",
+                          "text": "D3"
+                        },
+                        {
+                          "type": "text",
+                          "text": "D4"
+                        },
+                        {
+                          "type": "text",
+                          "text": "D5"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Catalase",
+                          "fontFamily": "Montserrat-Bold"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "NaOH solutions",
+                          "fontFamily": "Montserrat-Bold"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops"
+                        },
+                        {
+                          "type": "text",
+                          "text": "10 drops"
+                        }
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "With a pair of forceps, take a dry filter disk and dip it into well B1."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Remove the disk and blot by dragging it across the top of the well on both sides."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Start the timer as soon as the disk is placed with forceps on the bottom of the medicine cup containing 20 mL 1.5% hydrogen peroxide.",
+                    "image": "core/Clock.svg",
+                    "desc": "stopwatch symbol",
+                    "altText": "stopwatch symbol",
+                    "imgWidth": "4.5%"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Time in seconds how long it takes the disk to rise to the surface of the peroxide. This is the control data point."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the time (in seconds) in <span class=bodyFontBold>Data Table 3A</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Remove the used disk; perform two additional trials with a new soaked disk well B1."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Conduct three trials for each of the remaining solutions (<span class='bodyFontItalic'>B2–B5 and D1–D5</span>).",
+                    "image": "core/Clock.svg",
+                    "desc": "stopwatch symbol",
+                    "altText": "stopwatch symbol",
+                    "className": "float-top",
+                    "imgWidth": "4.5%"
+                  },
+                  {
+                    "type": "List",
+                    "text": [
+                      "Swirl the well plate to mix the solution before wetting the disk.",
+                      "Start with the lowest pH and move to each higher pH.",
+                      "Always remove the floating disk with forceps before starting the next trial.",
+                      "Rinse the forceps with water and dry with a paper towel before moving to a new well."
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the time in seconds in <span class=bodyFontBold>Data Tables 3A</span> and <span class=bodyFontBold>3B</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "For each concentration of acid or base, calculate the average time for the disks to rise to the surface of the peroxide and record the values in <span class=bodyFontBold>Data Tables 3A</span> and <span class=bodyFontBold>3B</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Measure the height of the 1.5% hydrogen peroxide solution to the nearest 0.1 cm and record in <span class=bodyFontBold>Data Tables 3A</span> and <span class=bodyFontBold>3B</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the rate (d/t) for each concentration and record the values in <span class=bodyFontBold>Data Tables 3A</span> and <span class=bodyFontBold>3B</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Plot a graph for each data point with rate on the y-axis and pH on the x-axis. If the points are linear, draw a “best-fit” straight line through or near all of the data points."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                  "text": [
+                    "There are no toxic materials produced during this activity. All solutions can be rinsed in the sink.",
+                    "Wipe up any hydrogen peroxide spills, as they could bleach colored fabrics, counter tops, and clothing.",
+                    "Excess hydrochloric acid, hydrogen peroxide, and sodium hydroxide can be rinsed down the sink.",
+                    "Empty hydrochloric acid, hydrogen peroxide, and sodium hydroxide bottles can be disposed of in the trash.",
+                    "Hand wash equipment and rinse thoroughly (at least 3 rinses).",
+                    "Dry equipment and return to equipment kit."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Chemistry_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2022 Carolina Biological Supply Company",
+      "pageSetting": "portrait"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": "Question1",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable1",
+            "tag": "div",
+            "width": "80%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1<span class='bodyParaLineBreak'></span>Data Table 1"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "maxLength": 10,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "0%",
+                    "colWidth": "16%"
+                  },
+                  {
+                    "text": "25%",
+                    "colWidth": "16%"
+                  },
+                  {
+                    "text": "50%",
+                    "colWidth": "16%"
+                  },
+                  {
+                    "text": "75%",
+                    "colWidth": "16%"
+                  },
+                  {
+                    "text": "100%",
+                    "colWidth": "16%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Depth of H<sub class='bodySubscript'>2</sub>O<sub class='bodySubscript'>2</sub> Solution",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Trial 1 Time",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Trial 2 Time",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Trial 3 Time",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Avg. Time",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Rate (<span class='bodyFontItalic'>d/t</span>)",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question1",
+            "tag": "div",
+
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "Based on the information in Data Table 1, explain the relationship between percent concentration of catalase and reaction rate."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "maxLength": 500,
+                "placeholder": "Write your Answer here...",
+                "sr": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable2",
+            "tag": "div",
+            "width": "80%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2<span class='bodyParaLineBreak'></span>Data Table 2"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "maxLength": 10,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "10 deg. below",
+                    "colWidth": "16%"
+                  },
+                  {
+                    "text": "Room temp.",
+                    "colWidth": "16%"
+                  },
+                  {
+                    "text": "10 deg. above",
+                    "colWidth": "16%"
+                  },
+                  {
+                    "text": "20 deg. above",
+                    "colWidth": "16%"
+                  },
+                  {
+                    "text": "30 deg. above",
+                    "colWidth": "16%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Temperature °C",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Depth of H<sub class='bodySubscript'>2</sub>O<sub class='bodySubscript'>2</sub> Solution",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Trial 1 Time",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Trial 2 Time",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Trial 3 Time",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Avg. Time",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Rate (<span class='bodyFontItalic'>d/t</span>)",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable3a",
+            "tag": "div",
+            "width": "80%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 3<span class='bodyParaLineBreak'></span>Data Table 3A"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "maxLength": 10,
+                "header": [
+                  {
+                    "text": "pH",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "1.3",
+                    "colWidth": "16%"
+                  },
+                  {
+                    "text": "2.3",
+                    "colWidth": "16%"
+                  },
+                  {
+                    "text": "3.3",
+                    "colWidth": "16%"
+                  },
+                  {
+                    "text": "4.3",
+                    "colWidth": "16%"
+                  },
+                  {
+                    "text": "5.3",
+                    "colWidth": "16%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Well Location",
+                      "rowHeight":"59px",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "text": "B1",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "text": "B2",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "text": "B3",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "text": "B4",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "text": "B5",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Depth of H<sub class='bodySubscript'>2</sub>O<sub class='bodySubscript'>2</sub> Solution",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Trial 1",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Trial 2",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Trial 3",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Avg. Time",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Rate (<span class='bodyFontItalic'>d/t</span>)",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable3b",
+            "tag": "div",
+            "width": "80%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 3<span class='bodyParaLineBreak'></span>Data Table 3B"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "maxLength": 10,
+                "header": [
+                  {
+                    "text": "pH",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "12.7",
+                    "colWidth": "16%"
+                  },
+                  {
+                    "text": "11.7",
+                    "colWidth": "16%"
+                  },
+                  {
+                    "text": "10.7",
+                    "colWidth": "16%"
+                  },
+                  {
+                    "text": "9.7",
+                    "colWidth": "16%"
+                  },
+                  {
+                    "text": "8.7",
+                    "colWidth": "16%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Well Location",
+                      "rowHeight":"59px",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "text": "D1",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "text": "D2",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "text": "D3",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "text": "D4",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "text": "D5",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Depth of H<sub class='bodySubscript'>2</sub>O<sub class='bodySubscript'>2</sub> Solution",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Trial 1",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Trial 2",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Trial 3",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Avg. Time",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Rate (<span class='bodyFontItalic'>d/t</span>)",
+                      "align": "left",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": "Question2",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "photo1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Graph",
+                "text": "Create a graph of the Activity 1 data using graphing software. Insert an image of the graph here, not the spreadsheet file."
+              },
+              {
+                "type": "UploadFiles",
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "photo1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": 2,
+                "listType": "ordered",
+                "text": [
+                  "Using the graph, predict the reaction rate if catalase concentrations are 10%, 60% and 85%."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "maxLength": 500,
+                "placeholder": "Write your Answer here...",
+                "sr": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": "Question3",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "photo2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2 Graph",
+                "text": "Create a graph of the Activity 2 data using graphing software. Insert an image of the graph here, not the spreadsheet file."
+              },
+              {
+                "type": "UploadFiles",
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "photo2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": 3,
+                "listType": "ordered",
+                "text": [
+                  "Interpret the graph for Activity 2. Is there an optimum temperature for catalase that makes it the most productive in terms of reaction rate? At what temperature does the rate decrease? Explain why."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question3",
+                "maxLength": 500,
+                "placeholder": "Write your Answer here...",
+                "sr": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": "Question4",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "photo3",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 3 Graph",
+                "text": "Create a graph of the Activity 3 data using graphing software. Insert an image of the graph here, not the spreadsheet file."
+              },
+              {
+                "type": "UploadFiles",
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "photo3",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": 4,
+                "listType": "ordered",
+                "text": [
+                  "Interpret the graph for Activity 3. Is there an optimum pH for catalase that makes it the most productive in terms of reaction rate? At what pH’s does the rate decrease? Explain why."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question4",
+                "maxLength": 500,
+                "placeholder": "Write your Answer here...",
+                "sr": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "pageData": [
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580356/Periodic_Table.svg",
+        "content": "Periodic Table of the Elements",
+        "altText": "Periodic Table of the Elements",
+        "maxWidth": "2200px",
+        "scrollImg": true
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6317170317112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580356/580356_fig_001.svg",
+        "content": "Figure 1. Activation energy graph",
+        "altText": "Figure 1: Enzymes decrease the activation energy required for a given chemical reaction to occur. (a) Without an enzyme, the energy input needed for a reaction to begin is high. (b) With the help of an enzyme, less energy is needed for a reaction to begin.",
+        "maxWidth": "560px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580356/580356_fig_002.svg",
+        "content": "Figure 2. Lock-and-key model",
+        "altText": "Figure 2: Diagram of lock-and-key enzyme-substrate complex",
+        "maxWidth": "410px",
+        "scrollImg": true
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6315168339112",
+        "content": "Models of Enzyme Action"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580356/580356_ED_01.svg",
+        "content": "Experimental Design Diagram",
+        "altText": "This map describes the workflow for Activity 1 for this investigation. Before starting any activities, prepare the filter paper disks, cover your work surface, create a 100% catalase solution, and label your pipets. In Activity 1, you will create a 1.5% hydrogen peroxide solution. Then, label the well plate with catalase concentrations. Next, create catalase dilutions in the wells. Then, soak a disk in a catalase well and add the disk to the hydrogen peroxide solution. Record the time for the disk to float. You will repeat the disk-floating process for a total of three trials for each catalase concentration. Then, calculate the average float time for each reaction, determine the distance traveled by floating disks, calculate the rate of each reaction, and graph rate versus percent concentration of enzyme.",
+        "maxWidth": "1250px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580356/580356_ED_02.svg",
+        "content": "Experimental Design Diagram (cont... )",
+        "altText": "This map describes the workflow for the first half of Activity 2 for this investigation. To start Activity 2, create a new 100% catalase solution and a new 1.5% hydrogen peroxide solution. Then, add room temperature catalase to a well and soak a disk in the well. Next, add the disk to the hydrogen peroxide solution and record the time for the disk to float. You will repeat this disk-floating process for a total of three trials. Then, label your well plate with a series of temperatures. Next, chill the hydrogen peroxide and catalase solutions. Add cooled catalase to a well and soak a disk in the well. Next, add the disk to the hydrogen peroxide solution and record the time for the disk to float. You will repeat this diskfloating process for a total of three trials.",
+        "maxWidth": "1100px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580356/580356_ED_03.svg",
+        "content": "Experimental Design Diagram (cont... )",
+        "altText": "This map describes the workflow for the second half of Activity 2 and for Activity 3. Continue Activity 2 by warming the hydrogen peroxide and catalase solutions. Add warmed catalase to a well and soak a disk in the well, add the disk to the hydrogen peroxide solution, and record the time for the disk to float. Repeat this disk-floating process for a total of three trials. In Activity 3, you will create new 100% catalase and 1.5% hydrogen peroxide solutions. Then, create hydrochloric acid and sodium hydroxide dilutions in the wells, add catalase to the well solutions, and soak a disk in the well. Next, add the disk to the hydrogen peroxide solution and record the time for the disk to float. Repeat this disk-floating process for a total of three trials for each acid and base dilution. Finally, calculate the average float time for each reaction, determine the distance traveled by floating disks, calculate the rate of each reaction, and graph rate versus pH.",
+        "maxWidth": "1500px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580356/580356_fig_003.svg",
+        "content": "Figure 3. Labeled well plate for Activity 1",
+        "altText": "Figure 3: Photograph of what the labeled well plate looks like",
+        "maxWidth": "400px",
+        "scrollImg": true
+      },
+      {
+        "thumbnailSrc": "core/Table_icon.svg",
+        "content": "Table 1. Activity 1 catalase solutions",
+        "isResource": true,
+        "type": "DataTable",
+        "title": "Table 1.",
+        "allowClick": true,
+        "tableWidth": "500px",
+        "header": [
+          {
+            "text": "0% (control)",
+            "colWidth":"20%"
+          },
+          {
+            "text": "25%",
+            "colWidth":"20%"
+          },
+          {
+            "text": "50%",
+            "colWidth":"20%"
+          },
+          {
+            "text": "75%",
+            "colWidth":"20%"
+          },
+          {
+            "text": "100%",
+            "colWidth":"20%"
+          }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "text": "0 drops catalase"
+            },
+            {
+              "type": "text",
+              "text": "5 drops catalase"
+            },
+            {
+              "type": "text",
+              "text": "10 drops catalase"
+            },
+            {
+              "type": "text",
+              "text": "15 drops catalase"
+            },
+            {
+              "type": "text",
+              "text": "20 drops catalase"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "20 drops water"
+            },
+            {
+              "type": "text",
+              "text": "15 drops water"
+            },
+            {
+              "type": "text",
+              "text": "10 drops water"
+            },
+            {
+              "type": "text",
+              "text": "5 drops water"
+            },
+            {
+              "type": "text",
+              "text": "0 drops water"
+            }
+          ]
+        ]
+      },
+      {
+        "thumbnailSrc": "core/Table_icon.svg",
+        "content": "Table 2. Activity 3 catalase solutions and pHs",
+        "isResource": true,
+        "type": "DataTable",
+        "title": "Table 2.",
+        "tableWidth": "700px",
+        "allowClick": true,
+        "header": [
+          {
+            "text": "pH",
+            "colWidth":"23%"
+          },
+          {
+            "text": "1.3",
+            "colWidth":"15%"
+          },
+          {
+            "text": "2.3",
+            "colWidth":"15%"
+          },
+          {
+            "text": "3.3",
+            "colWidth":"15%"
+          },
+          {
+            "text": "4.3",
+            "colWidth":"15%"
+          },
+          {
+            "text": "5.3",
+            "colWidth":"16%"
+          }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "text": "Well location",
+              "fontFamily": "Montserrat-Bold"
+            },
+            {
+              "type": "text",
+              "text": "B1"
+            },
+            {
+              "type": "text",
+              "text": "B2"
+            },
+            {
+              "type": "text",
+              "text": "B3"
+            },
+            {
+              "type": "text",
+              "text": "B4"
+            },
+            {
+              "type": "text",
+              "text": "B5"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Catalase",
+              "fontFamily": "Montserrat-Bold"
+            },
+            {
+              "type": "text",
+              "text": "10 drops"
+            },
+            {
+              "type": "text",
+              "text": "10 drops"
+            },
+            {
+              "type": "text",
+              "text": "10 drops"
+            },
+            {
+              "type": "text",
+              "text": "10 drops"
+            },
+            {
+              "type": "text",
+              "text": "10 drops"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "HCl solutions",
+              "fontFamily": "Montserrat-Bold"
+            },
+            {
+              "type": "text",
+              "text": "10 drops"
+            },
+            {
+              "type": "text",
+              "text": "10 drops"
+            },
+            {
+              "type": "text",
+              "text": "10 drops"
+            },
+            {
+              "type": "text",
+              "text": "10 drops"
+            },
+            {
+              "type": "text",
+              "text": "10 drops"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "pH",
+              "fontFamily": "Montserrat-Bold"
+            },
+            {
+              "type": "text",
+              "text": "12.7",
+              "fontFamily": "Montserrat-Bold"
+            },
+            {
+              "type": "text",
+              "text": "11.7",
+              "fontFamily": "Montserrat-Bold"
+            },
+            {
+              "type": "text",
+              "text": "10.7",
+              "fontFamily": "Montserrat-Bold"
+            },
+            {
+              "type": "text",
+              "text": "9.7",
+              "fontFamily": "Montserrat-Bold"
+            },
+            {
+              "type": "text",
+              "text": "8.7",
+              "fontFamily": "Montserrat-Bold"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Well location",
+              "fontFamily": "Montserrat-Bold"
+            },
+            {
+              "type": "text",
+              "text": "D1"
+            },
+            {
+              "type": "text",
+              "text": "D2"
+            },
+            {
+              "type": "text",
+              "text": "D3"
+            },
+            {
+              "type": "text",
+              "text": "D4"
+            },
+            {
+              "type": "text",
+              "text": "D5"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Catalase",
+              "fontFamily": "Montserrat-Bold"
+            },
+            {
+              "type": "text",
+              "text": "10 drops"
+            },
+            {
+              "type": "text",
+              "text": "10 drops"
+            },
+            {
+              "type": "text",
+              "text": "10 drops"
+            },
+            {
+              "type": "text",
+              "text": "10 drops"
+            },
+            {
+              "type": "text",
+              "text": "10 drops"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "NaOH solutions",
+              "fontFamily": "Montserrat-Bold"
+            },
+            {
+              "type": "text",
+              "text": "10 drops"
+            },
+            {
+              "type": "text",
+              "text": "10 drops"
+            },
+            {
+              "type": "text",
+              "text": "10 drops"
+            },
+            {
+              "type": "text",
+              "text": "10 drops"
+            },
+            {
+              "type": "text",
+              "text": "10 drops"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Active site",
+        "content": "A binding site found on each enzyme and shaped to fit a specific substrate"
+      },
+      {
+        "title": "Activation energy",
+        "content": "The minimum amount of energy required to initiate a chemical reaction"
+      },
+      {
+        "title": "Catalase",
+        "content": "An enzyme commonly found in animals, plants, and microorganisms"
+      },
+      {
+        "title": "Catalyst",
+        "content": "A molecule that lowers the activation energy of the reaction"
+      },
+      {
+        "title": "Enzymes",
+        "content": "Proteins that act as catalysts to increase reaction rates of chemical reactions in biological processes"
+      },
+      {
+        "title": "Substrate",
+        "content": "A reactant in an enzyme-mediated reaction; or the substance with which an enzyme reacts"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

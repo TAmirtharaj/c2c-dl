@@ -1,0 +1,78 @@
+/** @format */
+
+.infoPopUpWrapper {
+  position: absolute;
+
+  bottom: 69px;
+  right: 20px;
+  max-height: 70%;
+  background-color: #0062b8;
+  border-radius: 7px;
+}
+
+.popUpWrapperArrow {
+  position: absolute;
+  bottom: 59px;
+  right: 38px;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 12px solid #0062b8;
+}
+
+.infoPopUpBackground {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+
+.backgroundArrow {
+  position: absolute;
+  bottom: -7px;
+  right: 20px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 9px solid #ffffff;
+}
+
+.resource-popUp {
+  width: 288px;
+  height: 134px;
+}
+.kc-popUp {
+  width: 400px;
+  height: 178px;
+}
+.procedure-popUp {
+  width: 288px;
+  height: 108px;
+}
+
+.procedure-resource-popUp {
+  width: 288px;
+  height: 230px;
+}
+.kc-resource-popUp {
+  width: 500px;
+  height: 230px;
+}
+
+.kc-resource-image-popUp {
+  width: 500px;
+  height: 230px;
+}
+
+.infoPopUpContent {
+  text-align: left;
+  font-family: HelveticaNeueLTStdMd45;
+  color: #0062b8;
+  margin: 15px;
+}

@@ -1,0 +1,22 @@
+.main-container {
+  position: absolute;
+  text-align: center;
+  background: transparent linear-gradient(90deg, #0e3455 0%, #5aa0d6 100%) 0% 0%
+    no-repeat padding-box;
+  /* width: 1280px;
+  height: 610px; */
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .bodyParaLineBreak ul {
+    column-count: 1 !important;
+  }
+}

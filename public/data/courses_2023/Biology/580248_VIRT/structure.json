@@ -1,0 +1,2796 @@
+{
+  "locked": true,
+  "courseTitle": "Anatomy of Flowering Plants Virtual Lab",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Biology_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/bodyBookmark.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/TakeSnapshot.svg",
+    "core/disposalAndCleanupIcon.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Biology_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Biology",
+                "titleName2": "Anatomy of Flowering Plants Virtual Lab",
+                "images": {
+                  "logo": "core/Biology_subject_icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, you will examine the anatomy of several different <button class='glossary-text'>flowers</button>. Flowers house the reproductive structures, like pollen, of certain plants. <button class='glossary-text'>Pollination</button> mechanisms are important in plant propagation, adaptation and evolution."
+                },
+                {
+                  "type": "List",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "There are no materials needed for this investigation."
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Biology/580248_VIRT/580248VIRT_Bio_Time-Requirement.svg",
+                  "altText": "Activity 1 - 20 minutes",
+                  "containerType": "rightContainer",
+                  "imgDivWidth": "110px",
+                  "maxWidth": "150px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Distinguish between <button class='glossary-text'>asexual</button> and <button class='glossary-text'>sexual</button> methods of <button class='glossary-text'>reproduction</button>.",
+                    "Recognize the reproductive structures of a flowering plant.",
+                    "Understand the anatomy of a <button class='glossary-text'>flower</button> and the function of the flower parts.",
+                    "Match flower types with <button class='glossary-text'>pollination</button> methods."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Most of the food crops that we grow are dependent on pollinators to reproduce, particularly bees. Since most plants have evolved to be pollinated by a single type of organism, this leaves our food supply particularly vulnerable to anything that affects these pollinators. Unfortunately, many factors are currently threatening our bee populations which, if not dealt with, could affect our ability to produce enough food. One threat to bee health is a lack of biodiversity in plant species, particularly in agricultural areas. This is because most food is grown on industrial farms that grow one crop at a time, a technique called monoculture. These farms may also use insecticides that inadvertently harm helpful bees. Other threats to bees include invasive species like wasps, parasites, and other pathogens, as well as rising temperatures and increasingly extreme weather caused by climate change. "
+                },
+                {
+                  "type": "Plain",
+                  "text": "Areas of industrial agriculture can be made more habitable for bees by adding buffer zones of pollinator-friendly plants around and between sections of crop land, and limiting or eliminating the use of pesticides harmful to bees. Individuals can do their part by planting in their gardens <button class='glossary-text'>flowers</button> that provide food sources for bees and stopovers for migrating pollinators like butterflies."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "/courses_2023/Biology/580248_VIRT/580248VIRT_Bio_whyShouldICare.svg",
+                  "desc": "Bees pollinating lavender plants.",
+                  "altText": "Bees pollinating lavender plants.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Plants can reproduce by two general means. <button class='glossary-text'>Asexual reproduction</button> occurs without recombination of genetic material. The most familiar type of asexual reproduction in plants is <button class='glossary-text'>vegetative reproduction</button>. Certain parts of the plant retain the ability to produce unspecialized tissue capable of regenerating all the tissues necessary to form a new, intact, and complete plant. In this regard, plants differ from most animals. An example of vegetative reproduction is the plant Kalanchoe beharensis. Leaves of this plant can produce numerous small, root-like structures called rootlets. When the leaf is shed from the “mother” plant, the rootlets will grow into the soil and develop into a new “daughter” plant. Another example is the production of buds in unusual places, sometimes in response to a wound. These are called adventitious buds. In some plants, they develop on roots and mature into <button class='glossary-text'>rhizomes</button>. Since the rhizome is a stem, it has nodes from which roots and shoots can grow and develop into a new plant some distance from the original. Once the new plant is established and capable of photosynthesizing, it is independent, and the rhizome can be severed. Vegetative reproduction enhances the continued success of a species in an environment from one year to the next. Vegetative reproduction is used to propagate a particular plant line that has desirable characteristics."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The second method of plant reproduction is <button class='glossary-text'>sexual reproduction</button>. Plant cells contain two full sets of DNA, or genetic material. Sexual reproduction requires a special kind of cell division called <button class='glossary-text'>meiosis</button> that produces cells with just one (complete) set of genes–<button class='glossary-text'>haploid</button> cells, called <button class='glossary-text'>gametes</button>. As part of sexual reproduction, male and female gametes, sperm and eggs, respectively, will change to produce a <button class='glossary-text'>zygote</button>, which will develop into an <button class='glossary-text'>embryo</button>. The embryo has a normal, double set of DNA (diploid). The embryo of most plants is contained within a <button class='glossary-text'>seed</button>, which protects, and in some cases nourishes, the embryo."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In plants, the sexual life cycle is more complicated than that of animals (Figure 1). Most plants have a dominant <span class='bodyFontBold'>sporophyte</span> generation, which is the main plant structure we see when we look at a tree or flowering plant. The sporophyte generation is diploid and produces <button class='glossary-text'>haploid</button> spores by <button class='glossary-text'>meiosis</button>. The spores give rise to either male or female <span class='bodyFontBold'>gametophyte</span> generations, which are often housed within structures of the larger sporophyte generation. These gametophytes are haploid and produce haploid male or female <button class='glossary-text'>gametes</button>. When these gametes combine in fertilization the resulting offspring develops into the next sporophyte generation."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580248_VIRT/580248VIRT_Bio_fig_001.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "435px",
+                  "maxWidth": "540px",
+                  "scrollImg": true,
+                  "altText": "Figure 1: Plant life cycle. Alternation of generations between a diploid sporophyte and a haploid gametophyte.",
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Many of the larger plants in our world are either gymnosperms or angiosperms. These are the only two plant groups that produce <button class='glossary-text'>seeds</button>. The gametes of angiosperms develop in the gametophytes housed in the <button class='glossary-text'>flower</button>, a specialized structure for <button class='glossary-text'>sexual reproduction</button>. A diagram of a typical flower can be seen in <button class='resource-text'>Figure 2</button>. In many plants, one plant can give rise to both male and female gametophytes to produce egg and sperm. In some cases, this results in <button class='glossary-text'>self-fertilization</button>, which means that two gametes from one plant can fuse. In most plants, however, two gametes from different plants combine, and the new individual is genetically distinct from either parent. The flower shown below is an example of a “perfect” flower; that is, it can produce both male and female gametes. This is not true for all flowers but is common. Perfect flowers have the potential for self-fertilization."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In the center of the <button class='glossary-text'>flower</button> is the <button class='glossary-text'>pistil</button>, the part of the flower that produces eggs and protects the developing <button class='glossary-text'>seed</button>. While this part of the flower is often called “female,” the term is not strictly accurate. The <button class='glossary-text'>ovary</button> is the enlarged, lower part of the pistil, visible in Figure 2, and it contains the <button class='glossary-text'>ovules</button>. <button class='glossary-text'>Meiosis</button> and egg production occur within the small ovules. The entire ovule will develop into a seed, and the fertilized egg will develop into an <button class='glossary-text'>embryo</button>. At the same time, while the seeds are maturing, the ovary matures into a <button class='glossary-text'>fruit</button>. Botanically speaking, many structures commonly called vegetables, such as tomatoes, beans, and cucumbers, are actually fruits."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580248_VIRT/580248VIRT_Bio_fig_002.svg",
+                  "imgDivWidth": "385px",
+                  "maxWidth": "480px",
+                  "scrollImg": true,
+                  "altText": "Figure 2: Labeled diagram of the parts of a flower.",
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "text": "The <button class='glossary-text'>stamens</button> are arranged around the pistil. Most <button class='glossary-text'>flowers</button> have one pistil and numerous stamens. Stamens have a long <button class='glossary-text'>filament</button> that supports the <button class='glossary-text'>anthers</button>. The anthers are composed of chambers where meiosis occurs. This is where the <button class='glossary-text'>pollen grain</button> (male gametophyte) develops, which produces the male <button class='glossary-text'>gametes</button> or sperm."
+                },
+                {
+                  "type": "Plain",
+                  "text": "You can see in Figure 2 that the pistil contains a tube-like structure, the <button class='glossary-text'>style</button>, with a flat, broad structure on its upper surface called the <button class='glossary-text'>stigma</button>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The <button class='glossary-text'>stigma</button> will receive the <button class='glossary-text'>pollen grains</button>, which produce a <button class='glossary-text'>pollen tube</button> that grows down the <button class='glossary-text'>style</button> into the <button class='glossary-text'>ovary</button>. Then, in a process known as <button class='glossary-text'>double fertilization</button>, two sperm are released from the pollen grain into the pollen tube: the first sperm fuses with the egg in the <button class='glossary-text'>ovule</button> to create the <button class='glossary-text'>zygote</button>, and the second sperm fuses with the polar nuclei of the ovule. The polar nuclei are the leftover genetic material from <button class='glossary-text'>meiosis</button>, but when fused with the sperm they develop into the <button class='glossary-text'>endosperm</button>, the energy source for the seed when it is ready to sprout."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What part of the flower will develop into a seed after fertilization?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "ovule",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "pistil",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "style",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "ovary",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Anther",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The entire ovule will develop into a seed, and the fertilized egg will develop into an embryo."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What plant groups produce seeds?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "gymnosperms and angiosperms",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "sporophytes and gametophytes",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "filaments and anthers",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "lichens and ferns",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "bryophytes and ferns",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Gymnosperms and angiosperms are the only two plant groups that produce seeds."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "The gametes of angiosperms develop in the flower, a specialized structure for sexual reproduction. In the center of the flower is the pistil, the part of the flower that produces eggs and protects the developing seed. While this part of the flower is often called “female,” the term is not strictly accurate. The ovary is the enlarged, lower part pistil, and it contains the ovule. Meiosis and egg production occur within the small ovules. The entire ovule will develop into a seed, and the fertilized egg will develop into an embryo.<span class='bodyParaLineBreak'>The stamens are arranged around the pistil. Most flowers have one pistil and numerous stamens. Stamens have a long filament that supports the anthers. The anthers are composed of chambers where meiosis occurs. The pistil contains a tube-like structure, the style, with a flat, broad structure on its upper surface called the stigma. The stigma will receive the pollen grains, which produce a pollen tube that grows down the style into the ovary. The sperm travels through this tube into the ovules where they fuse with the eggs.</span>",
+                  "img": [
+                    {
+                      "src": "courses_2023/Biology/580248_VIRT/580248VIRT_Bio_fig_002.svg",
+                      "alt": "Figure 2: Labeled diagram of the parts of a flower.",
+                      "maxWidth": "400px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "The gametes of angiosperms develop in the flower, a specialized structure for sexual reproduction. In the center of the flower is the pistil, the part of the flower that produces eggs and protects the developing seed. While this part of the flower is often called “female,” the term is not strictly accurate. The ovary is the enlarged, lower part pistil, and it contains the ovule. Meiosis and egg production occur within the small ovules. The entire ovule will develop into a seed, and the fertilized egg will develop into an embryo.<span class='bodyParaLineBreak'>The stamens are arranged around the pistil. Most flowers have one pistil and numerous stamens. Stamens have a long filament that supports the anthers. The anthers are composed of chambers where meiosis occurs. The pistil contains a tube-like structure, the style, with a flat, broad structure on its upper surface called the stigma. The stigma will receive the pollen grains, which produce a pollen tube that grows down the style into the ovary. The sperm travels through this tube into the ovules where they fuse with the eggs.</span>",
+                  "img": [
+                    {
+                      "src": "courses_2023/Biology/580248_VIRT/580248VIRT_Bio_fig_002.svg",
+                      "alt": "Figure 2: Labeled diagram of the parts of a flower.",
+                      "maxWidth": "400px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Double fertilization interactive",
+              "template": "VirtualLab",
+              "activityPath": "activities/580248_VIRT/doubleFertilization/story.html"
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The <button class='glossary-text'>stamen</button> and <button class='glossary-text'>pistil</button> are surrounded by <button class='glossary-text'>petals</button>, collectively called the corolla, usually arranged in a whorl. Beneath the petals, also usually arranged in a whorl, are small, usually green, leaflike structures called the <button class='glossary-text'>sepals</button>. Collectively, the sepals are called the <button class='glossary-text'>calyx</button>, which is Latin for “cup,” because it resembles a cup holding the <button class='glossary-text'>flower</button>. The entire flower structure is located on a specialized branch called the <button class='glossary-text'>peduncle</button>, and the flower sits on the <button class='glossary-text'>receptacle</button> of the peduncle (<button class='resource-text'>Figure 2</button>)."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Some flowers may be associated with leaflike bracts. These are not actually part of the flower. In some cases, such as the common flower Dogwood (Figure 3), the bracts can be large and bright white while the petals are small and inconspicuous."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Some plants produce large flower heads that are made up of tiny florets. Sunflowers and other members of the aster family are examples of this kind of <button class='glossary-text'>composite flower</button>. They have an outer ring of ray florets that produce the outer ring of petal-like structures. The center of the flower contains many disc florets. So a sunflower is not a single flower but a flower head containing many tiny flowers."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Delivery of the <button class='glossary-text'>pollen grain</button> to the <button class='glossary-text'>stigma</button> is called <button class='glossary-text'>pollination</button>. Pollination can occur by many different mechanisms, and the structure of the stamens and pistils may be modified in ways that accommodate their method of pollination."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580248_VIRT/580248VIRT_Bio_fig_003.svg",
+                  "imgDivWidth": "365px",
+                  "maxWidth": "460px",
+                  "scrollImg": true,
+                  "altText": "Figure 3: Dogwood flowers illustrating bracts, which superficially resemble flower petals.",
+                  "width": "100%"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='resource-text'>Table 1</button> shows some <button class='glossary-text'>flower</button> characteristics and how they are related to pollinators. There are a wide variety of colors, odors, shapes, and nectars in flowers to attract the “correct” pollinator."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The flower and its type of <button class='glossary-text'>pollination</button> are finely tuned and specific. A plant’s flowering may be timed to coincide with the availability of its insect or bird pollinator. Other plants modify the flower structure to accommodate the pollinator. For example, some flowers have long, narrow <button class='glossary-text'>petals</button> that are a good fit for the elongated beak of a hummingbird. These specific pollination mechanisms confer certain advantages. They increase the probability that the pollen will be delivered to the correct flower, and the plant may not need to produce as much pollen as a species without these specific mechanisms. Wind-pollinated plants, for example, produce a large amount of pollen, and much of it is delivered to the unintended plant, if it is delivered to a plant at all. Nonspecific delivery of pollen, though wasteful, is not in itself a problem. Different species of plants are not genetically compatible. This incompatibility normally prevents pollination and fertilization."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Insect and bird pollinators can be attracted to the flowers by odor, color, or both. A pollinator that is attracted by nectar will enter the flower to get to the nectar and carry some of the pollen away when it exits. When the pollinator visits another flower, it will pick up new pollen and leave some of the old pollen on the newly visited flower. If genetically compatible, pollination and fertilization may result. As discussed earlier, many flowers produce both male and female <button class='glossary-text'>gametes</button>. These plants would be capable of self-pollination, depositing the pollen from the flower on the <button class='glossary-text'>stigma</button> of the same flower, which could then result in <button class='glossary-text'>self-fertilization</button>. Although this does occur, self-fertilization is believed to circumvent one of the major functions of <button class='glossary-text'>sexual reproduction</button>: to enhance genetic recombination and permit adaptation and evolution. Plants have developed a variety of different mechanisms to limit self-pollination. One mechanism is to make the stigma receptive to pollen at a different time from when the pollen is shed. Other plants have developed self-incompatibility mechanisms, in which a pollen protein is recognized as “self,” and pollination is prevented."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "DataTable",
+                  "title": "Table 1. Flower characteristics and the type of pollinator that will be attracted.",
+                  "containerType": "fullContainer",
+                  "allowClick": true,
+                  "tableWidth": "99%",
+                  "tableHeight": "1.5",
+                  "sr": 10,
+                  "headerHidden": true,
+                  "header": [
+                    {
+                      "text": "",
+                      "colWidth": "12.5%"
+                    },
+                    {
+                      "text": "",
+                      "colWidth": "12.5%"
+                    },
+                    {
+                      "text": "",
+                      "colWidth": "12.5%"
+                    },
+                    {
+                      "text": "",
+                      "colWidth": "12.5%"
+                    },
+                    {
+                      "text": "",
+                      "colWidth": "12.5%"
+                    },
+                    {
+                      "text": "",
+                      "colWidth": "12.5%"
+                    },
+                    {
+                      "text": "",
+                      "colWidth": "12.5%"
+                    },
+                    {
+                      "text": "",
+                      "colWidth": "12.5%"
+                    }
+                  ],
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "text": "<span style='color:white; font-weight: 550;'>Flower Characteristics",
+                        "hoverText": "Flower Characteristics",
+                        "rowspan": 2,
+                        "borderBottom": "medium",
+                        "color": "#6b6b6b",
+                        "align": "center",
+                        "fontFamily": "HelveticaNeueLTStdMd65"
+                      },
+                      {
+                        "type": "text",
+                        "text": "<span style='color:white; font-weight: 550;'>Pollinator",
+                        "hoverText": "Pollinator",
+                        "colspan": 7,
+                        "rowHeight": "40px",
+                        "color": "#6b6b6b",
+                        "align": "center",
+                        "fontFamily": "HelveticaNeueLTStdMd65"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "color": "#6b6b6b",
+                        "rowHeight": "40px",
+                        "text": "<span style='color:white; font-weight: 550;'>Wind",
+                        "hoverText": "Wind",
+                        "borderBottom": "medium",
+                        "align": "center",
+                        "fontFamily": "HelveticaNeueLTStdMd65"
+                      },
+                      {
+                        "type": "text",
+                        "color": "#6b6b6b",
+                        "text": "<span style='color:white; font-weight: 550;'>Birds",
+                        "hoverText": "Birds",
+                        "borderBottom": "medium",
+                        "align": "center",
+                        "fontFamily": "HelveticaNeueLTStdMd65"
+                      },
+                      {
+                        "type": "text",
+                        "color": "#6b6b6b",
+                        "text": "<span style='color:white; font-weight: 550;'>Butterflies",
+                        "hoverText": "Butterflies",
+                        "borderBottom": "medium",
+                        "align": "center",
+                        "fontFamily": "HelveticaNeueLTStdMd65"
+                      },
+                      {
+                        "type": "text",
+                        "color": "#6b6b6b",
+                        "text": "<span style='color:white; font-weight: 550;'>Bees",
+                        "hoverText": "Bees",
+                        "borderBottom": "medium",
+                        "align": "center",
+                        "fontFamily": "HelveticaNeueLTStdMd65"
+                      },
+                      {
+                        "type": "text",
+                        "color": "#6b6b6b",
+                        "text": "<span style='color:white; font-weight: 550;'>Flies",
+                        "hoverText": "Flies",
+                        "borderBottom": "medium",
+                        "align": "center",
+                        "fontFamily": "HelveticaNeueLTStdMd65"
+                      },
+                      {
+                        "type": "text",
+                        "color": "#6b6b6b",
+                        "text": "<span style='color:white; font-weight: 550;'>Beetles",
+                        "hoverText": "Beetles",
+                        "borderBottom": "medium",
+                        "align": "center",
+                        "fontFamily": "HelveticaNeueLTStdMd65"
+                      },
+                      {
+                        "type": "text",
+                        "color": "#6b6b6b",
+                        "text": "<span style='color:white; font-weight: 550;'>Bats",
+                        "hoverText": "Bats",
+                        "borderBottom": "medium",
+                        "align": "center",
+                        "fontFamily": "HelveticaNeueLTStdMd65"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Time when blooming",
+                        "fontFamily": "HelveticaNeueLTStdMd65"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Day & night"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Day"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Day"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Day"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Day & night"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Day"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Night"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Shape of flower",
+                        "fontFamily": "HelveticaNeueLTStdMd65"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Small with no or small petals"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Large funnel shaped with strong foundation"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Narrow, large petal for landing"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Shallow, large petals for landing"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Shallow with funnel"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Large, bowl-shaped"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Bowl-shaped"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Color",
+                        "fontFamily": "HelveticaNeueLTStdMd65"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Green or brown"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Orange, red, or white"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Orange, red, or purple"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Yellow, blue, or white"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Dark brown or purple"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Green or white"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Green, white, or purple"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Odor",
+                        "fontFamily": "HelveticaNeueLTStdMd65"
+                      },
+                      {
+                        "type": "text",
+                        "text": "None"
+                      },
+                      {
+                        "type": "text",
+                        "text": "None"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Spicy or none"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Mild and fresh"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Putrid"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Fruity or spicy"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Strong fruity"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Nectar",
+                        "fontFamily": "HelveticaNeueLTStdMd65"
+                      },
+                      {
+                        "type": "text",
+                        "text": "None"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Deep inside flower, abundant"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Deep inside flower, abundant"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Commonly present"
+                      },
+                      {
+                        "type": "text",
+                        "text": "None"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Sometimes"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Commonly present"
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Elongated, funnel-shaped flowers are most likely adapted to attract which of the following pollinators?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "birds",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "flies",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "wind",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "bees",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "bats",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Flowers that are shaped like a large funnel are adapted for pollination by birds."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "A flower that blooms only at night is most likely adapted to attract which of the following pollinators?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "bats",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "birds",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "butterflies",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "wind",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "bees",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Flowers that only bloom at night are adapted for pollination by bats."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "imgContainer": "leftContainer",
+                  "body": "There are a wide variety of colors, odors, shapes, and nectars in flowers to attract the “correct” pollinator. The flower and its type of pollination are finely tuned and specific. A plant’s flowering may be timed to coincide with the availability of its insect or bird pollinator. Other plants modify the flower structure to accommodate the pollinator. For example, some flowers have long, narrow petals that are a good fit for the elongated beak of a hummingbird.",
+                  "dataTable": [
+                    {
+                      "type": "DataTable",
+                      "title": "Table 1. Flower characteristics and the type of pollinator that will be attracted.",
+                      "containerType": "fullContainer",
+                      "allowClick": true,
+                      "tableWidth": "99%",
+                      "tableHeight": "1.5",
+                      "sr": 10,
+                      "headerHidden": true,
+                      "header": [
+                        {
+                          "text": "",
+                          "colWidth": "12.5%"
+                        },
+                        {
+                          "text": "",
+                          "colWidth": "12.5%"
+                        },
+                        {
+                          "text": "",
+                          "colWidth": "12.5%"
+                        },
+                        {
+                          "text": "",
+                          "colWidth": "12.5%"
+                        },
+                        {
+                          "text": "",
+                          "colWidth": "12.5%"
+                        },
+                        {
+                          "text": "",
+                          "colWidth": "12.5%"
+                        },
+                        {
+                          "text": "",
+                          "colWidth": "12.5%"
+                        },
+                        {
+                          "text": "",
+                          "colWidth": "12.5%"
+                        }
+                      ],
+                      "tableData": [
+                        [
+                          {
+                            "type": "text",
+                            "text": "<span style='color:white; font-weight: 550;'>Flower Characteristics",
+                            "hoverText": "Flower Characteristics",
+                            "rowspan": 2,
+                            "borderBottom": "medium",
+                            "color": "#6b6b6b",
+                            "align": "center",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "text": "<span style='color:white; font-weight: 550;'>Pollinator",
+                            "hoverText": "Pollinator",
+                            "colspan": 7,
+                            "rowHeight": "40px",
+                            "color": "#6b6b6b",
+                            "align": "center",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "color": "#6b6b6b",
+                            "rowHeight": "40px",
+                            "text": "<span style='color:white; font-weight: 550;'>Wind",
+                            "hoverText": "Wind",
+                            "borderBottom": "medium",
+                            "align": "center",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "color": "#6b6b6b",
+                            "text": "<span style='color:white; font-weight: 550;'>Birds",
+                            "hoverText": "Birds",
+                            "borderBottom": "medium",
+                            "align": "center",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "color": "#6b6b6b",
+                            "text": "<span style='color:white; font-weight: 550;'>Butterflies",
+                            "hoverText": "Butterflies",
+                            "borderBottom": "medium",
+                            "align": "center",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "color": "#6b6b6b",
+                            "text": "<span style='color:white; font-weight: 550;'>Bees",
+                            "hoverText": "Bees",
+                            "borderBottom": "medium",
+                            "align": "center",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "color": "#6b6b6b",
+                            "text": "<span style='color:white; font-weight: 550;'>Flies",
+                            "hoverText": "Flies",
+                            "borderBottom": "medium",
+                            "align": "center",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "color": "#6b6b6b",
+                            "text": "<span style='color:white; font-weight: 550;'>Beetles",
+                            "hoverText": "Beetles",
+                            "borderBottom": "medium",
+                            "align": "center",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "color": "#6b6b6b",
+                            "text": "<span style='color:white; font-weight: 550;'>Bats",
+                            "hoverText": "Bats",
+                            "borderBottom": "medium",
+                            "align": "center",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Time when blooming",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Day & night"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Day"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Day"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Day"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Day & night"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Day"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Night"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Shape of flower",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Small with no or small petals"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Large funnel shaped with strong foundation"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Narrow, large petal for landing"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Shallow, large petals for landing"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Shallow with funnel"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Large, bowl-shaped"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Bowl-shaped"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Color",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Green or brown"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Orange, red, or white"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Orange, red, or purple"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Yellow, blue, or white"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Dark brown or purple"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Green or white"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Green, white, or purple"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Odor",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "text": "None"
+                          },
+                          {
+                            "type": "text",
+                            "text": "None"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Spicy or none"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Mild and fresh"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Putrid"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Fruity or spicy"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Strong fruity"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Nectar",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "text": "None"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Deep inside flower, abundant"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Deep inside flower, abundant"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Commonly present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "None"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Sometimes"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Commonly present"
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "imgContainer": "leftContainer",
+                  "body": "There are a wide variety of colors, odors, shapes, and nectars in flowers to attract the “correct” pollinator. The flower and its type of pollination are finely tuned and specific. A plant’s flowering may be timed to coincide with the availability of its insect or bird pollinator. Other plants modify the flower structure to accommodate the pollinator. For example, some flowers have long, narrow petals that are a good fit for the elongated beak of a hummingbird.",
+                  "dataTable": [
+                    {
+                      "type": "DataTable",
+                      "title": "Table 1. Flower characteristics and the type of pollinator that will be attracted.",
+                      "containerType": "fullContainer",
+                      "allowClick": true,
+                      "tableWidth": "99%",
+                      "tableHeight": "1.5",
+                      "sr": 10,
+                      "headerHidden": true,
+                      "header": [
+                        {
+                          "text": "",
+                          "colWidth": "12.5%"
+                        },
+                        {
+                          "text": "",
+                          "colWidth": "12.5%"
+                        },
+                        {
+                          "text": "",
+                          "colWidth": "12.5%"
+                        },
+                        {
+                          "text": "",
+                          "colWidth": "12.5%"
+                        },
+                        {
+                          "text": "",
+                          "colWidth": "12.5%"
+                        },
+                        {
+                          "text": "",
+                          "colWidth": "12.5%"
+                        },
+                        {
+                          "text": "",
+                          "colWidth": "12.5%"
+                        },
+                        {
+                          "text": "",
+                          "colWidth": "12.5%"
+                        }
+                      ],
+                      "tableData": [
+                        [
+                          {
+                            "type": "text",
+                            "text": "<span style='color:white; font-weight: 550;'>Flower Characteristics",
+                            "hoverText": "Flower Characteristics",
+                            "rowspan": 2,
+                            "borderBottom": "medium",
+                            "color": "#6b6b6b",
+                            "align": "center",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "text": "<span style='color:white; font-weight: 550;'>Pollinator",
+                            "hoverText": "Pollinator",
+                            "colspan": 7,
+                            "rowHeight": "40px",
+                            "color": "#6b6b6b",
+                            "align": "center",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "color": "#6b6b6b",
+                            "rowHeight": "40px",
+                            "text": "<span style='color:white; font-weight: 550;'>Wind",
+                            "hoverText": "Wind",
+                            "borderBottom": "medium",
+                            "align": "center",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "color": "#6b6b6b",
+                            "text": "<span style='color:white; font-weight: 550;'>Birds",
+                            "hoverText": "Birds",
+                            "borderBottom": "medium",
+                            "align": "center",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "color": "#6b6b6b",
+                            "text": "<span style='color:white; font-weight: 550;'>Butterflies",
+                            "hoverText": "Butterflies",
+                            "borderBottom": "medium",
+                            "align": "center",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "color": "#6b6b6b",
+                            "text": "<span style='color:white; font-weight: 550;'>Bees",
+                            "hoverText": "Bees",
+                            "borderBottom": "medium",
+                            "align": "center",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "color": "#6b6b6b",
+                            "text": "<span style='color:white; font-weight: 550;'>Flies",
+                            "hoverText": "Flies",
+                            "borderBottom": "medium",
+                            "align": "center",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "color": "#6b6b6b",
+                            "text": "<span style='color:white; font-weight: 550;'>Beetles",
+                            "hoverText": "Beetles",
+                            "borderBottom": "medium",
+                            "align": "center",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "color": "#6b6b6b",
+                            "text": "<span style='color:white; font-weight: 550;'>Bats",
+                            "hoverText": "Bats",
+                            "borderBottom": "medium",
+                            "align": "center",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Time when blooming",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Day & night"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Day"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Day"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Day"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Day & night"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Day"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Night"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Shape of flower",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Small with no or small petals"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Large funnel shaped with strong foundation"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Narrow, large petal for landing"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Shallow, large petals for landing"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Shallow with funnel"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Large, bowl-shaped"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Bowl-shaped"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Color",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Green or brown"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Orange, red, or white"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Orange, red, or purple"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Yellow, blue, or white"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Dark brown or purple"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Green or white"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Green, white, or purple"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Odor",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "text": "None"
+                          },
+                          {
+                            "type": "text",
+                            "text": "None"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Spicy or none"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Mild and fresh"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Putrid"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Fruity or spicy"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Strong fruity"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "text": "Nectar",
+                            "fontFamily": "HelveticaNeueLTStdMd65"
+                          },
+                          {
+                            "type": "text",
+                            "text": "None"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Deep inside flower, abundant"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Deep inside flower, abundant"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Commonly present"
+                          },
+                          {
+                            "type": "text",
+                            "text": "None"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Sometimes"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Commonly present"
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "pageData": [
+                {
+                  "type": "List",
+                  "subTitle": "Needed but not supplied:",
+                  "text": [
+                    "There are no materials needed for this investigation."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are no safety concerns for this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.</span>",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of these methods of plant propagation will most likely result in genetically diverse offspring?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "planting the seeds from a plant after pollination",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "planting leaves featuring many small rootlets",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "grafting a branch from one tree to another",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "allowing a plant to develop rhizomes",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "allowing a plant to develop adventitious buds",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "In the sexual life cycle of angiosperms, which of the following structures produces the egg or sperm?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "gametophyte",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "zygote",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "sporophyte",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "flower",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "gametes",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following describes two gametes from one plant fusing together?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "self-fertilization",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "vegetative reproduction",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "pollination",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "asexual reproduction",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "flowering",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What part of the flower produces the eggs and protects the developing seed, located at the center of the flower?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "pistil",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "stamen",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "peduncle",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "corolla",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "sepal",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following allows the sperm to travel from the stigma, through the style, and to the ovule for egg fertilization?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "pollen tube",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "filament",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "pistil",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "peduncle",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "anther",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "The stamen and pistil are surrounded by which of the following, collectively called a corolla?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "petals",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "sepals",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "receptacles",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "peduncles",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "bracts",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "A flower that is small and lacks petals is most likely pollinated by which of the following?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "wind",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "birds",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "bees",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "flies",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "bats",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "A botanical fruit, such as a tomato, is which of the following structures of an angiosperm?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "mature ovary",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "extra ovule",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "unfertilized egg",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "triploid pistil",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "enlarged peduncle",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Biology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will determine which pollinators are most likely to visit certain <button class='glossary-text'>flowers</button> based on their characteristics."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Activity 1",
+              "template": "VirtualLab",
+              "activityPath": "activities/580248_VIRT/activity1/story.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "altText": "completion",
+                  "desc": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Biology_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "70%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1. Pollinator Identification"
+              },
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "header": [
+                  {
+                    "text": "Flower Number",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Pollinator",
+                    "colWidth": "15%",
+                    "maxLength": 15
+                  },
+                  {
+                    "text": "Justification",
+                    "colWidth": "70%",
+                    "maxLength": 200
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "rowHeight": "50px",
+                      "text": "1"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "rowHeight": "50px",
+                      "text": "2"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "rowHeight": "50px",
+                      "text": "3"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "rowHeight": "50px",
+                      "text": "4"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "rowHeight": "50px",
+                      "text": "5"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "rowHeight": "50px",
+                      "text": "6"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 1. Sexual life cycle of flowering plants",
+        "src": "courses_2023/Biology/580248_VIRT/580248VIRT_Bio_fig_001.svg",
+        "altText": "Figure 1: Plant life cycle. Alternation of generations between a diploid sporophyte and a haploid gametophyte.",
+        "maxWidth": "540px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 2.  Parts of a flower",
+        "src": "courses_2023/Biology/580248_VIRT/580248VIRT_Bio_fig_002.svg",
+        "altText": "Figure 2: Labeled diagram of the parts of a flower.",
+        "maxWidth": "480px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 3.  Bracts on a Dogwood",
+        "src": "courses_2023/Biology/580248_VIRT/580248VIRT_Bio_fig_003.svg",
+        "altText": "Figure 3: Dogwood flowers illustrating bracts, which superficially resemble flower petals.",
+        "scrollImg": true,
+        "maxWidth": "460px"
+      },
+      {
+        "thumbnailSrc": "core/Table_icon.svg",
+        "content": "Table 1. Flower characteristics vs. pollinators",
+        "isResource": true,
+        "type": "DataTable",
+        "tableWidth": "99%",
+        "maxLength": 20,
+        "title": "Table 1. Flower characteristics and the type of pollinator that will be attracted.",
+        "containerType": "fullContainer",
+        "allowClick": true,
+        "tableHeight": "1.5",
+        "sr": 10,
+        "headerHidden": true,
+        "header": [
+          {
+            "text": "",
+            "colWidth": "12.5%"
+          },
+          {
+            "text": "",
+            "colWidth": "12.5%"
+          },
+          {
+            "text": "",
+            "colWidth": "12.5%"
+          },
+          {
+            "text": "",
+            "colWidth": "12.5%"
+          },
+          {
+            "text": "",
+            "colWidth": "12.5%"
+          },
+          {
+            "text": "",
+            "colWidth": "12.5%"
+          },
+          {
+            "text": "",
+            "colWidth": "12.5%"
+          },
+          {
+            "text": "",
+            "colWidth": "12.5%"
+          }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "text": "<span style='color:white; font-weight: 550;'>Flower Characteristics",
+              "hoverText": "Flower Characteristics",
+              "rowspan": 2,
+              "borderBottom": "medium",
+              "color": "#6b6b6b",
+              "align": "center",
+              "fontFamily": "HelveticaNeueLTStdMd65"
+            },
+            {
+              "type": "text",
+              "text": "<span style='color:white; font-weight: 550;'>Pollinator",
+              "hoverText": "Pollinator",
+              "colspan": 7,
+              "rowHeight": "40px",
+              "color": "#6b6b6b",
+              "align": "center",
+              "fontFamily": "HelveticaNeueLTStdMd65"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "color": "#6b6b6b",
+              "rowHeight": "40px",
+              "text": "<span style='color:white; font-weight: 550;'>Wind",
+              "hoverText": "Wind",
+              "borderBottom": "medium",
+              "align": "center",
+              "fontFamily": "HelveticaNeueLTStdMd65"
+            },
+            {
+              "type": "text",
+              "color": "#6b6b6b",
+              "text": "<span style='color:white; font-weight: 550;'>Birds",
+              "hoverText": "Birds",
+              "borderBottom": "medium",
+              "align": "center",
+              "fontFamily": "HelveticaNeueLTStdMd65"
+            },
+            {
+              "type": "text",
+              "color": "#6b6b6b",
+              "text": "<span style='color:white; font-weight: 550;'>Butterflies",
+              "hoverText": "Butterflies",
+              "borderBottom": "medium",
+              "align": "center",
+              "fontFamily": "HelveticaNeueLTStdMd65"
+            },
+            {
+              "type": "text",
+              "color": "#6b6b6b",
+              "text": "<span style='color:white; font-weight: 550;'>Bees",
+              "hoverText": "Bees",
+              "borderBottom": "medium",
+              "align": "center",
+              "fontFamily": "HelveticaNeueLTStdMd65"
+            },
+            {
+              "type": "text",
+              "color": "#6b6b6b",
+              "text": "<span style='color:white; font-weight: 550;'>Flies",
+              "hoverText": "Flies",
+              "borderBottom": "medium",
+              "align": "center",
+              "fontFamily": "HelveticaNeueLTStdMd65"
+            },
+            {
+              "type": "text",
+              "color": "#6b6b6b",
+              "text": "<span style='color:white; font-weight: 550;'>Beetles",
+              "hoverText": "Beetles",
+              "borderBottom": "medium",
+              "align": "center",
+              "fontFamily": "HelveticaNeueLTStdMd65"
+            },
+            {
+              "type": "text",
+              "color": "#6b6b6b",
+              "text": "<span style='color:white; font-weight: 550;'>Bats",
+              "hoverText": "Bats",
+              "borderBottom": "medium",
+              "align": "center",
+              "fontFamily": "HelveticaNeueLTStdMd65"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Time when blooming",
+              "fontFamily": "HelveticaNeueLTStdMd65"
+            },
+            {
+              "type": "text",
+              "text": "Day & night"
+            },
+            {
+              "type": "text",
+              "text": "Day"
+            },
+            {
+              "type": "text",
+              "text": "Day"
+            },
+            {
+              "type": "text",
+              "text": "Day"
+            },
+            {
+              "type": "text",
+              "text": "Day & night"
+            },
+            {
+              "type": "text",
+              "text": "Day"
+            },
+            {
+              "type": "text",
+              "text": "Night"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Shape of flower",
+              "fontFamily": "HelveticaNeueLTStdMd65"
+            },
+            {
+              "type": "text",
+              "text": "Small with no or small petals"
+            },
+            {
+              "type": "text",
+              "text": "Large funnel shaped with strong foundation"
+            },
+            {
+              "type": "text",
+              "text": "Narrow, large petal for landing"
+            },
+            {
+              "type": "text",
+              "text": "Shallow, large petals for landing"
+            },
+            {
+              "type": "text",
+              "text": "Shallow with funnel"
+            },
+            {
+              "type": "text",
+              "text": "Large, bowl-shaped"
+            },
+            {
+              "type": "text",
+              "text": "Bowl-shaped"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Color",
+              "fontFamily": "HelveticaNeueLTStdMd65"
+            },
+            {
+              "type": "text",
+              "text": "Green or brown"
+            },
+            {
+              "type": "text",
+              "text": "Orange, red, or white"
+            },
+            {
+              "type": "text",
+              "text": "Orange, red, or purple"
+            },
+            {
+              "type": "text",
+              "text": "Yellow, blue, or white"
+            },
+            {
+              "type": "text",
+              "text": "Dark brown or purple"
+            },
+            {
+              "type": "text",
+              "text": "Green or white"
+            },
+            {
+              "type": "text",
+              "text": "Green, white, or purple"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Odor",
+              "fontFamily": "HelveticaNeueLTStdMd65"
+            },
+            {
+              "type": "text",
+              "text": "None"
+            },
+            {
+              "type": "text",
+              "text": "None"
+            },
+            {
+              "type": "text",
+              "text": "Spicy or none"
+            },
+            {
+              "type": "text",
+              "text": "Mild and fresh"
+            },
+            {
+              "type": "text",
+              "text": "Putrid"
+            },
+            {
+              "type": "text",
+              "text": "Fruity or spicy"
+            },
+            {
+              "type": "text",
+              "text": "Strong fruity"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Nectar",
+              "fontFamily": "HelveticaNeueLTStdMd65"
+            },
+            {
+              "type": "text",
+              "text": "None"
+            },
+            {
+              "type": "text",
+              "text": "Deep inside flower, abundant"
+            },
+            {
+              "type": "text",
+              "text": "Deep inside flower, abundant"
+            },
+            {
+              "type": "text",
+              "text": "Commonly present"
+            },
+            {
+              "type": "text",
+              "text": "None"
+            },
+            {
+              "type": "text",
+              "text": "Sometimes"
+            },
+            {
+              "type": "text",
+              "text": "Commonly present"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Anther",
+        "content": "The part of the stamen that contains the pollen"
+      },
+      {
+        "title": "Asexual reproduction",
+        "content": "The method of reproduction that occurs without recombination of genetic material"
+      },
+      {
+        "title": "Calyx",
+        "content": "The outer whorl of a flower consisting of multiple sepals"
+      },
+      {
+        "title": "Composite flower",
+        "content": "A plant that produces a flower head composed of many tiny flowers (florets)"
+      },
+      {
+        "title": "Double fertilization",
+        "content": "The fertilizaton process in flowering plants where two sperm are released from a pollen grain - one sperm fuses with the egg to form a zygote and the second sperm fuses with the polar nuclei in the ovule to form the endosperm"
+      },
+      {
+        "title": "Embryo",
+        "content": "The part of the seed or bud that contains the earliest stages of growth"
+      },
+      {
+        "title": "Endosperm",
+        "content": "The tissue formed in double fertilization that nourishes the embryo within the seed"
+      },
+      {
+        "title": "Filament",
+        "content": "The thread-like stalk that supports the anther of a flower"
+      },
+      {
+        "title": "Flower",
+        "content": "A specialized  structure for sexual reproduction"
+      },
+      {
+        "title": "Fruit",
+        "content": "The matured ovary of a flowering plant"
+      },
+      {
+        "title": "Gamete",
+        "content": "A reproductive cell containing only half the genetic material necessary to form a complete organism"
+      },
+      {
+        "title": "Haploid",
+        "content": "Having a single set of unpaired chromosomes"
+      },
+      {
+        "title": "Meiosis",
+        "content": "A type of cell division in sexually reproducing organisms that reduces the number of chromosomes in gametes"
+      },
+      {
+        "title": "Ovary",
+        "content": "The enlarged lower part of the pistil that contains the ovules"
+      },
+      {
+        "title": "Ovule",
+        "content": "The part of the ovary that will develop into a seed when the egg within is fertilized; contains the female gametophyte of the plant"
+      },
+      {
+        "title": "Peduncle",
+        "content": "The stalk that bears a flower on a flowering plant"
+      },
+      {
+        "title": "Petal",
+        "content": "A leaf-like structure, multiples of which are arranged in a circle around the top of the stem within the sepals"
+      },
+      {
+        "title": "Pistil",
+        "content": "The part of the flower that produces eggs and protects the developing seed"
+      },
+      {
+        "title": "Pollen grain",
+        "content": "The structure produced in the anther of a flower and which contains the male gametophyte of the plant"
+      },
+      {
+        "title": "Pollen tube",
+        "content": "The hollow tube that develops from a pollen grain when it is deposited on the stigma of a flower; it penetrates the style and conveys the male gametes to the ovule"
+      },
+      {
+        "title": "Pollination",
+        "content": "The process of delivering pollen to the stigma"
+      },
+      {
+        "title": "Receptacle",
+        "content": "The part of the flower stalk to which the floral parts are attached"
+      },
+      {
+        "title": "Rhizome",
+        "content": "A horizontal underground plant stem capable of asexually producing the shoot and root sytem of a new plant"
+      },
+      {
+        "title": "Seed",
+        "content": "The structure which, in most plants, protects the embryo; in some plants it also nourishes the embryo"
+      },
+      {
+        "title": "Self-fertilization",
+        "content": "The process of sexual reproduction in which two gametes from one plant fuse together to form a zygote"
+      },
+      {
+        "title": "Sepal",
+        "content": "A leaf-like structure, multiples of which encircle the flower stem and enclose the bud"
+      },
+      {
+        "title": "Sexual reproduction",
+        "content": "A method of reproduction that utilizes recombines two different sets of DNA to produce offspring with genetic makeups different from those of either of the two parents"
+      },
+      {
+        "title": "Stamen",
+        "content": "The male reproductive part of the flower made up of the filament and anther"
+      },
+      {
+        "title": "Stigma",
+        "content": "The sticky pad that receives pollen grains at the top of the style of a flower"
+      },
+      {
+        "title": "Style",
+        "content": "The tube-like structure that connects the stigma and ovary of a flower"
+      },
+      {
+        "title": "Vegetative reproduction",
+        "content": "A form of asexual reproduction where a plant produces tissue capable of regenerating  all the tissues necessary to form a new plant"
+      },
+      {
+        "title": "Zygote",
+        "content": "A cell formed by the union of two gametes"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

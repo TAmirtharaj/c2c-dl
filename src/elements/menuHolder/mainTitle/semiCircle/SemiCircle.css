@@ -1,0 +1,56 @@
+.outerCircle{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 15px;
+    height: 15px;
+    left: -7px;
+    background-color: white;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.outerCircleWrapper{
+    position: absolute;
+    width: 9px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    left: 2px;
+}
+
+.zoom-button{
+    height: calc(100% - 8px);
+}
+
+.zoom-button :focus{
+    z-index: 100;
+}
+.innerFillCircle {
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #006607;
+}
+
+.halfFill {
+    height: 100%;
+    top: 50%;
+    position: absolute;
+}
+
+.fullFill {
+    height: 100%
+}
+
+.failFill {
+    background-color: #ff0000;
+    left: 10%;
+    top: 10%;
+    width: 79%;
+    height: 79%;
+    border-radius: 100%;
+    position: absolute;
+}

@@ -1,0 +1,78 @@
+/** @format */
+
+.Plain {
+  width: 50%;
+}
+
+.plain-text-comp-wrapper-left {
+  /* width: 50%; */
+  width: 100%;
+  /* float: left; */
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.plain-text-ordered-list{
+  margin-bottom: 0rem
+}
+.plain-text-comp-wrapper-right {
+  width: 100%;
+  /* float: right; */
+  display: inline-block;
+
+  /* top: -65px;
+  position: relative; */
+  /* top: 30px;
+  position: relative;
+  margin-left: 50em; */
+}
+
+.plain-text-comp-wrapper {
+  width: 100%;
+  /* display: inline-block; */
+  display: flex;
+  flex-direction: column;
+}
+
+.plain-text-comp-used-as-child {
+  margin-left: 1em;
+}
+
+.plain-text-comp-heading {
+  float: left;
+  margin: 5px;
+  /* margin-bottom: 0px; */
+  /* margin-top: 0px; */
+  width: 100%;
+  height: auto;
+  clear: both;
+  top: 10px;
+
+  text-align: left;
+
+  /* display: flex; */
+  vertical-align: middle;
+  /* text-align: center;
+  justify-content: center; */
+}
+
+.plain-text-comp-para {
+  float: left;
+  margin: 5px;
+  /* width: 90%; */
+  height: auto;
+  clear: both;
+  text-align: left;
+}
+
+.plain-text-comp-para pre {
+  margin-bottom: 0px;
+  font-family: HelveticaNeueLTStd55Roman;
+  font-size: 1em;
+}
+
+.plain-img-comp-img {
+  width: 35px;
+  cursor: auto;
+  margin-right: 5px;
+}

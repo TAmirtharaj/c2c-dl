@@ -1,0 +1,3580 @@
+{
+  "locked": true,
+  "courseTitle": "Frog Dissection",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Biology_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/bodyBookmark.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/TakeSnapshot.svg",
+    "core/disposalAndCleanupIcon.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Biology_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Biology",
+                "titleName2": "Frog Dissection",
+                "images": {
+                  "logo": "core/Biology_subject_icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Dissecting a frog allows students to become familiar with the basic structures common to vertebrates while learning about specific adaptations that allow frogs to live in semi-aquatic environments. The development of specific systems can be examined by comparing the frog to other organisms such as fish, reptiles, and mammals."
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "title": "Needed but not supplied:",
+                  "text": ["70% isopropyl alcohol", "paper towels"]
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Biology/580201/580201_Bio_Time-Requirement.svg",
+                  "altText": "Preparation - 5 minutes\nDissection - 90 minutes",
+                  "desc": "Preparation - 5 minutes\nDissection - 90 minutes",
+                  "imgDivWidth": "280px",
+                  "maxWidth": "350px"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "title": "Overview Video: Frog Dissection"
+                },
+                {
+                  "type": "Video",
+                  "containerType": "rightContainer",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Biology/580201/580201_Bio_VideoIcone.svg",
+                  "desc": "OverView Video",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6328561672112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Become familiar with dissection tools and terminology.",
+                    "Recognize the internal and external anatomies of a frog.",
+                    "Understand how form affects function."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "image": "core/Key_PPE.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "<br>Protocol symbols",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "desc": "video link symbol, camera symbol, stopwatch symbol",
+                  "image": "core/Key_protocol.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "desc": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Frogs have long been used in scientific study, helping to develop our modern understanding of both electricity and neurobiology.  They have also helped shape science fiction. In the late 1700s, Luigi Galvani was hoping to better understand the anatomy of frogs when he accidentally formed a circuit with one of his frog leg specimens, causing the leg to twitch.  Galvani concluded that there must be some “animal electricity” running through formerly living things. His contemporary, Alessandro Volta, repeated the experiments and believed that it was not the frog leg that was responsible for the electricity, but the arrangement of the metals. Galvani’s work laid the groundwork for our understanding of nerves and communication via electrical impulses. Volta’s work, on the other hand, led to the development of batteries and a better understanding of electricity.  At the same time, the public was fascinated by the notion of a dead animal being reanimated by electricity and many demonstrations were performed for the public using frog legs and other organisms. These demonstrations are thought to have, in part, inspired Mary Shelley’s novel Frankenstein, where the monster is brought back to life with an electric current<sup>1</sup>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='citation'><sup class='bodysubscript'>1</sup>Smithsonian Institute. (2015, July 1). <span class='bodyFontItalic'>The Body Electric.</span> Smithsonian Libraries.<br/><span style='word-break: break-all;'>https://library.si.edu/exhibition/fantastic-worlds/body-electric</span></span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580201/580201_Bio_whyShouldICare.svg",
+                  "desc": "Frankenstein's monster strapped to a large table next to a man in a white lab coat.",
+                  "altText": "Frankenstein's monster strapped to a large table next to a man in a white lab coat.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span style='paddingLeft: 20%;paddingRight: 20%;display: table-cell;lineHeight:1.2;' class='citation'>Frankenstein (4888039856).jpg by Diego Torres Silvestre is available under CC BY 2.0 at <span style='word-break: break-all;'>https://commons.wikimedia.org/wiki/File:Frankenstein_(4888039856).jpg</span></span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Frogs are members of the class <button class='glossary-text'>Amphibia</button>. Amphibians first emerged from the water onto land around 400 million years ago. They are derived from a group known as “lobe-fin” fish. The bony nature of these fishes’ pectoral fins allowed the development of weight-supporting <button class='glossary-text'>forelimbs</button>. The development of <button class='glossary-text'>lungs</button> from the fishes’ swim <button class='glossary-text'>bladders</button> allowed for full transition to terrestrial life. These organs are used for density regulation to aid swimming by aquatic organisms, but as the ancestors of amphibians became more terrestrial, these organs took on the role of gas exchange that was previously handled by the gills. While frogs may spend large amounts of time on land, they require moist environments to maintain hydration. Water is also necessary for reproduction, as frogs lay and fertilize their eggs in water."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Frogs do not have direct development like mammals, reptiles, and birds. Instead, frogs hatch into tadpoles, which are considered a larval form. Tadpoles bear very little resemblance to adult frogs (Figure 1). Their metamorphosis into the adult form is triggered by hormonal changes produced by the <button class='glossary-text'>thyroid gland</button>. The timing of metamorphosis is critical in temperate regions because adult frogs can survive winter buried in mud, but tadpoles cannot. Almost every organ undergoes change during metamorphosis. As the tail recedes, the <button class='glossary-text'>hindlimbs</button> and <span class='bodyFontBold'>forelimbs</span> begin to develop. Cartilage is replaced by bone. Tadpoles are largely herbivorous, and as they develop into frogs, their teeth used for tearing plants disappear, and the <button class='glossary-text'>large intestine</button> shortens as the need to digest fibrous plant materials decreases. Adult frogs, which are primarily carnivorous, no longer need these structures. Instead, the <button class='glossary-text'>tongue</button> muscle develops to enable insect catching."
+                },
+                {
+                  "type": "Image",
+                  "altText": "Figure 1: The life stages of a frog. An egg hatches into a tadpole with a long tail and no limbs. The tadpole increases in size. The tadpole matures by developing hindlimbs, then forelimbs, and the tail diminishes. The final stage is an adult frog with no tail and fully developed limbs.",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580201/580201_Bio_fig_001.svg",
+                  "imgDivWidth": "360px",
+                  "scrollImg": true,
+                  "maxWidth": "450px",
+                  "width": "100%"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Sensory Organs",
+                  "text": "The <button class='glossary-text'>eyes</button> of the frog sit high on top of its head, providing excellent vision with a wide angle of view. This eye placement allows frogs to lie submerged in the water, hiding from both predators and prey, and still watch their surroundings with only their eyes and <button class='glossary-text'>nares</button> (nostrils) exposed. Because the two primary eyelids are not very mobile, frogs rarely close their eyes. A transparent third lid, called a <button class='glossary-text'>nictitating membrane</button>, protects the eyes from dehydrating."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Frogs have an external eardrum called a <button class='glossary-text'>tympanum</button>. The inner ear is protected from the frogs’ own calls by a muscular membrane. Frogs are capable of making noises so loud that they can be heard over a mile away."
+                },
+                {
+                  "type": "Plain",
+                  "subTitle": "Respiration",
+                  "text": "Frogs have two respiration pathways. The first is through the <button class='glossary-text'>skin</button>; when completely submerged in water, gases can be exchanged through the thin, membranous tissue. On land, mucus is secreted by glands in the lower layer of the skin (<button class='glossary-text'>dermis</button>)."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Frogs do not possess a diaphragm as mammals do. In order to breathe on land, a frog must bring air into its <button class='glossary-text'>lungs</button> by lowering the floor of its mouth, which causes the throat to expand. This creates negative pressure, pulling air in through the nares, which have an external opening and an internal opening inside the mouth. The frog then closes the nares so that air is forced into the lungs when the throat contracts. The throat then expands again, drawing carbon dioxide (CO<sub className=bodySubscript>2</sub>)-rich air out of the lungs. Then the nares are reopened, and the air is forced out by another contraction of the throat. This “two-stroke” process is called <button class='glossary-text'>buccal pumping</button>."
+                },
+                {
+                  "type": "Plain",
+                  "subTitle": "Feeding and Digestion",
+                  "containerType": "rightContainer",
+                  "text": "Frogs are ambush predators. They remain very still until prey such as insects, spiders, worms, or small fish approach. Then the mouth opens, and the <button class='glossary-text'>tongue</button> flicks out, grabbing the prey with the tip, which is coated with a sticky mucus. Very short teeth are located on the upper jaw. The <button class='glossary-text'>vomerine teeth</button> are in the middle of the roof of the mouth, and the <button class='glossary-text'>maxillary teeth</button> are at the sides; some species use these for grinding their food."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "From the mouth, food passes into the <button class='glossary-text'>esophagus</button> before it enters the <button class='glossary-text'>stomach</button>, where it is broken down chemically and physically. Moving out of the stomach, food travels into the <button class='glossary-text'>small intestine</button>, where chemical and enzymatic digestion continues. The <button class='glossary-text'>liver</button> produces <button class='glossary-text'>bile</button>, a dark green or yellowish collection of digestive chemicals and enzymes that helps digest lipids. Bile is stored in the <button class='glossary-text'>gallbladder</button>. The <button class='glossary-text'>pancreas</button> produces another collection of enzymes and chemicals that digest proteins, fats, and vitamins. The high concentration of bicarbonate ions also helps to neutralize the acidic gastric juice from the stomach. Bile and pancreatic juice flow into the common bile duct, then into the small intestine, where nutrients are absorbed. Material that is not absorbed in the small intestine travels to the <span style='display:inline-block'><button class='glossary-text'>large intestine</button>,</span> where water is absorbed, and then out through the <button class='glossary-text'>cloaca</button>, the common excretory opening for the urinary, digestive, and reproductive systems."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "In frogs, which teeth are in the middle of the roof of the mouth?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "vomerine",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "maxillary",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "molar",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "canine",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Incisor",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The vomerine teeth are in the middle of the roof of the mouth."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "In frogs, which teeth are located at the sides of the mouth?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "maxillary",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "vomerine",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "molar",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "canine",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "incisor",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The maxillary teeth are at the sides of the mouth."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Frogs are ambush predators. They remain very still until prey such as insects, spiders, worms, or small fish approach. Then the mouth opens, and the tongue flicks out, grabbing the prey with the tip, which is coated with a sticky mucus. Very short teeth are located on the upper jaw. The vomerine teeth are in the middle of the roof of the mouth, and the maxillary teeth are at the sides; some species use these for grinding their food. From the mouth, food passes into the esophagus before it enters the stomach, where it is broken down chemically and physically.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Biology/580201/580201_Bio_fig_003.svg",
+                      "alt": "Figure 3: A labeled diagram of the interior structures of the mouth",
+                      "maxWidth": "350px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "Frogs are ambush predators. They remain very still until prey such as insects, spiders, worms, or small fish approach. Then the mouth opens, and the tongue flicks out, grabbing the prey with the tip, which is coated with a sticky mucus. Very short teeth are located on the upper jaw. The vomerine teeth are in the middle of the roof of the mouth, and the maxillary teeth are at the sides; some species use these for grinding their food. From the mouth, food passes into the esophagus before it enters the stomach, where it is broken down chemically and physically.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Biology/580201/580201_Bio_fig_003.svg",
+                      "alt": "Figure 3: A labeled diagram of the interior structures of the mouth",
+                      "maxWidth": "350px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Urinary System",
+                  "text": "The function of the urinary system is to clean waste products out of the blood. It consists of three major organs: the two <button class='glossary-text'>kidneys</button> and the <button class='glossary-text'>bladder</button>. The kidneys filter the frog’s blood, removing wastes, salts, and water. The frog’s urinary system must be more flexible than that of a mammal to accommodate the different amounts of water coming into the body when the frog is submerged versus when it is on land. When a frog is submerged, it absorbs water through its <button class='glossary-text'>skin</button>. By adjusting the rate of filtration at the kidney, amphibians can control their rate of water loss. Frog kidneys pass water to the bladder when the frog is taking in excess water. When the frog is on land, much of the waste usually dissolved in urine is carried away by the <button class='glossary-text'>renal portal system</button>. Water is also reabsorbed from the bladder."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "subTitle": "Reproduction",
+                  "text": "As soon as metamorphosis is complete, the first sperm cells begin to develop. Males will be ready to reproduce in around 1 year. Females generally take longer, between 2 and 3 years. Mating is accomplished by <button class='glossary-text'>amplexus</button>, where the male grasps the female around the belly and deposits his sperm in the mass of eggs as she lays them. The level of parental care varies among species. Some species of frogs leave their eggs as soon as they are laid in the water. In other species, one of the parents, frequently the male, may watch over eggs until they hatch."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "showPageTitle": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Dissection Terminology",
+                  "text": "Anatomists and health care providers use very specific terminology that enables them to precisely communicate their work. Directional anatomical terms are used to describe the relative positions of different body structures or to provide instructions for incision placement. Directional terms are used in this and most other dissection guides. Therefore, learning these terms is essential for understanding and studying anatomy."
+                },
+                {
+                  "type": "Image",
+                  "altText": "Figure 2: Diagram describing the location of the Transverse, Midsagittal, and Frontal planes in quadrupeds and bipeds",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580201/580201_Bio_fig_002.svg",
+                  "imgDivWidth": "400px",
+                  "scrollImg": true,
+                  "maxWidth": "500px",
+                  "width": "100%"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "showPageTitle": true,
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "DataTable",
+                  "title": "Table 1.",
+                  "containerType": "fullContainer",
+                  "allowClick": true,
+                  "sr": "10",
+                  "tableHeight": "1.5",
+                  "tableWidth": "700px",
+                  "header": [
+                    { "text": "Direction or Plane", "colWidth": "25%" },
+                    { "text": "Definition", "colWidth": "75%" }
+                  ],
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Superior",
+                        "hoverText": "Superior"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Above, toward the head"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Inferior"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Below, toward the feet"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Anterior"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Front, synonymous with ventral in bipeds and cranial in quadrupeds"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Posterior"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Back, synonymous with dorsal in bipeds and caudal in quadrupeds"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Lateral"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward the right or left side"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Medial"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward the midline"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Proximal"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Near or toward the point of reference"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Distal"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Away from the point of reference, which is usually the attachment point"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Dorsal"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward the back"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Ventral"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward the belly or abdomen"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Cranial"
+                      },
+                      {
+                        "type": "text",
+                        "text": "“Toward the head”"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Caudal"
+                      },
+                      {
+                        "type": "text",
+                        "text": "“Toward the tail”"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Superficial"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward or along the surface"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Deep"
+                      },
+                      {
+                        "type": "text",
+                        "text": "A significant distance below the surface"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Rostral"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Toward the nose or mouth"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Sagittal plane"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Divides the body into longitudinal left and right portions"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Midsagittal plane"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Divides the body into equal left and right halves"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Transverse plane"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Perpendicular to the long axis, produces cross-sections"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "fontFamily": "HelveticaNeueLTStdMd65",
+                        "text": "Frontal plane"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Divides the body into dorsal and ventral portions"
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the frogs in this diagram are in a ventral position?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "c",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "b",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "a",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "d",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "e",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The frogs in the diagram are in the following positions: a. dorsolateral view facing right; b. dorsal view; c. ventral view; d. posterior view; e. dorsolateral view facing left."
+                  },
+                  "imageData": {
+                    "textAfter": "<span class='citation'>Rhombophryne ellae (10.3897-zse.96.51372) Figure 2 by Scherz MD is available under Creative Commons Attribution 4.0 International License at <br/><span style='word-break: break-all;'>https://commons.wikimedia.org/wiki/File:Rhombophryne_ellae_(10.3897-zse.96.51372)_Figure_2.jpg</span></span>",
+                    "image": "courses_2023/Biology/580201/580201_Bio_img_002.svg",
+                    "desc": "Five photographs of the frog Rhombophryne ellae labeled A through E. Figure A is of a sitting frog facing to the right. Figure B is of a frog lying on its stomach. Figure C is of a frog lying on its back. Figure D is of a frog from behind. Figure E is of a sitting frog facing to the left.",
+                    "altText": "Five photographs of the frog Rhombophryne ellae labeled A through E. Figure A is of a sitting frog facing to the right. Figure B is of a frog lying on its stomach. Figure C is of a frog lying on its back. Figure D is of a frog from behind. Figure E is of a sitting frog facing to the left.",
+                    "imgDivWidth": "65%",
+                    "scrollImg": true,
+                    "maxWidth": "430px"
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following terms are synonymous with “anterior”?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "cranial and rostral",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "distal and proximal",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "ventral and dorsal",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "cranial and lateral",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "lateral and proximal",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Anterior means toward the front of the body and is synonymous with cranial (toward the head) and rostral (toward the nose or mouth)."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "dataTable": [
+                    {
+                      "type": "DataTable",
+                      "title": "Table 1.",
+                      "sr": "10",
+                      "allowClick": true,
+                      "tableHeight": "1.5",
+                      "tableWidth": "700px",
+                      "maxLength": 20,
+                      "header": [
+                        { "text": "Direction or Plane", "colWidth": "25%" },
+                        { "text": "Definition", "colWidth": "75%" }
+                      ],
+                      "tableData": [
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Superior"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Above, toward the head"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Inferior"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Below, toward the feet"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Anterior"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Front, synonymous with ventral in bipeds and cranial in quadrupeds"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Posterior"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Back, synonymous with dorsal in bipeds and caudal in quadrupeds"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Lateral"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the right or left side"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Medial"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the midline"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Proximal"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Near or toward the point of reference"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Distal"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Away from the point of reference, which is usually the attachment point"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Dorsal"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the back"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Ventral"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the belly or abdomen"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Cranial"
+                          },
+                          {
+                            "type": "text",
+                            "text": "“Toward the head”"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Caudal"
+                          },
+                          {
+                            "type": "text",
+                            "text": "“Toward the tail”"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Superficial"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward or along the surface"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Deep"
+                          },
+                          {
+                            "type": "text",
+                            "text": "A significant distance below the surface"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Rostral"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the nose or mouth"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Sagittal plane"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Divides the body into longitudinal left and right portions"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Midsagittal plane"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Divides the body into equal left and right halves"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Transverse plane"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Perpendicular to the long axis, produces cross-sections"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Frontal plane"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Divides the body into dorsal and ventral portions"
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "dataTable": [
+                    {
+                      "type": "DataTable",
+                      "title": "Table 1.",
+                      "sr": "10",
+                      "allowClick": true,
+                      "tableHeight": "1.5",
+                      "tableWidth": "700px",
+                      "maxLength": 20,
+                      "header": [
+                        { "text": "Direction or Plane", "colWidth": "25%" },
+                        { "text": "Definition", "colWidth": "75%" }
+                      ],
+                      "tableData": [
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Superior"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Above, toward the head"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Inferior"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Below, toward the feet"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Anterior"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Front, synonymous with ventral in bipeds and cranial in quadrupeds"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Posterior"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Back, synonymous with dorsal in bipeds and caudal in quadrupeds"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Lateral"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the right or left side"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Medial"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the midline"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Proximal"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Near or toward the point of reference"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Distal"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Away from the point of reference, which is usually the attachment point"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Dorsal"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the back"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Ventral"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the belly or abdomen"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Cranial"
+                          },
+                          {
+                            "type": "text",
+                            "text": "“Toward the head”"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Caudal"
+                          },
+                          {
+                            "type": "text",
+                            "text": "“Toward the tail”"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Superficial"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward or along the surface"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Deep"
+                          },
+                          {
+                            "type": "text",
+                            "text": "A significant distance below the surface"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Rostral"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Toward the nose or mouth"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Sagittal plane"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Divides the body into longitudinal left and right portions"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Midsagittal plane"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Divides the body into equal left and right halves"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Transverse plane"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Perpendicular to the long axis, produces cross-sections"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "text",
+                            "fontFamily": "HelveticaNeueLTStdMd65",
+                            "text": "Frontal plane"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Divides the body into dorsal and ventral portions"
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "altText": "A map describing the procedural workflow for this investigation. To prepare, set up the work area and dissection tools. In Activity 1, examine the external dorsal surface and the inside of mouth of the specimen. In Activity 2, remove the skin from the abdomen and throat of the specimen, cut through the body wall and expose the internal organs. In Activity 3, examine the digestive organs of the specimen. In Activity 4, examine the heart of the specimen. In Activity 5, remove the digestive tract of the specimen. Then, examine urinary system organs and reproductive organs of the specimen. In Activity 6, remove the skin and muscle from the dorsal head of the specimen. Then, remove the cranium and examine the nervous system organs of the specimen.",
+                  "desc": "A map describing the procedural workflow for this investigation. To prepare, set up the work area and dissection tools. In Activity 1, examine the external dorsal surface and the inside of mouth of the specimen. In Activity 2, remove the skin from the abdomen and throat of the specimen, cut through the body wall and expose the internal organs. In Activity 3, examine the digestive organs of the specimen. In Activity 4, examine the heart of the specimen. In Activity 5, remove the digestive tract of the specimen. Then, examine urinary system organs and reproductive organs of the specimen. In Activity 6, remove the skin and muscle from the dorsal head of the specimen. Then, remove the cranium and examine the nervous system organs of the specimen.",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Biology/580201/580201_Bio_ED_001.svg",
+                  "imgDivWidth": "100%",
+                  "maxWidth": "1719px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "sr": 1,
+                  "tabs": [
+                    {
+                      "title": "Included in the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "altText": "Preserved frog packed in plastic",
+                          "label": "Frog",
+                          "image": "courses_2023/Biology/580201/580201_Bio_material_1.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "altText": "Disposable red foam dissecting tray",
+                          "label": "Dissecting tray",
+                          "image": "courses_2023/Biology/580201/580201_Bio_material_2.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "altText": "Blue absorbent pad",
+                          "label": "Absorbent pad",
+                          "image": "courses_2023/Biology/580201/580201_Bio_material_3.svg"
+                        },
+                     
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Frog dissection mat",
+                          "altText": "Illustrated frog dissection mat",
+                          "image": "courses_2023/Biology/580201/580201_Bio_material_4.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Resealable bag",
+                          "altText": "Clear plastic self-locking storage bag",
+                          "image": "courses_2023/Biology/580201/580201_Bio_material_5.svg"
+                        }
+                      
+                      ]
+                    },
+                    {
+                      "title": "Included in the dissection set",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Wooden probe",
+                          "altText": "Slender dissection probe made of wood",
+                          "image": "courses_2023/Biology/580201/580201_Bio_material_8.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Scalpel",
+                          "altText": "Scalpel with white plastic handle",
+                          "image": "courses_2023/Biology/580201/580201_Bio_material_10.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Scissors",
+                          "altText": "Small 4 1/2-inch scissors made of stainless steel with one sharp and one blunt arm",
+                          "image": "courses_2023/Biology/580201/580201_Bio_material_6.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Forceps",
+                          "altText": "Steel forceps",
+                          "image": "courses_2023/Biology/580201/580201_Bio_material_7.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": ["70% isopropyl alcohol", "paper towels","Ruler","Hand lens (optional)","Camera or cell phone capable of taking photographs"]
+                        },
+                        {
+                            "type": "Box",                             
+                            "text": "<span class='bodyFontBold'>Note:</span> You can use your camera to help you see small structures. After you take a picture you can zoom in on the structures that you are interested in. This is also helpful when you are labeling the structures for your lab submission."
+                         }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span class=bodyBoldSubHeading>Reorder Information:</span><span class=bodyParaLineBreak></span>Replacement supplies for Frog Dissection, can be ordered from Carolina Biological Supply Company.<ul style='list-style-type:disc;margin-bottom: 0px;'><li> Frog Dissection (item 580201)</li><li>Dissection set (item 580021)</li></ul><span class=bodyMediumSubHeading>Call:</span> 866-332-4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "This investigation requires safety goggles, disposable gloves, and a lab apron."
+                },
+                {
+                  "type": "Image",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "image": "core/Key_PPE.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Follow the instructions for this activity closely and observe established laboratory safety practices, including appropriate personal protective equipment (PPE); safety goggles, gloves, and lab aprons must be worn when dissecting. Do not eat, drink, or chew gum while performing the dissection. Use proper hygiene practices before, during, and after the lab, including washing your hands before and after performing the dissection. Review pertinent portions of any Safety Data Sheets (SDS) before beginning the activity. Keep pets and children away from lab materials and equipment."
+                },
+                {
+                  "type": "PlainImage",
+                  "image": "core/Flammable.svg",
+                  "imgWidth": "12%",
+                  "text": "Isopropyl alcohol (rubbing alcohol) is flammable. Keep away from open flame if using alcohol as disinfectant.",
+                  "desc": "flammable symbol",
+                  "altText": "flammable symbol"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Dissections require special attention to safety. Please follow these additional precautions:"
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "text": [
+                    "Clean the counter or workspace thoroughly before and after the dissection, using isopropyl alcohol (or other non-bleach disinfectant).",
+                    "Wash your hands thoroughly with soap and water before and after the dissection.",
+                    "Only perform the dissection on the dissecting tray. This will contain both the specimen and any excess fluids.",
+                    "Spread the absorbent pad blue-side down underneath the tray to capture any spilled fluid.",
+                    "In general, scissors are used more frequently than the scalpel, especially when care must be taken not to cut too deeply into the specimen."
+                  ]
+                },
+                {
+                  "type": "Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Biology/580201/580201_Bio_VideoIcone_1.svg",
+                  "url": "http://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4573445864001"
+                }
+              ]
+            },
+            {
+              "title": "Safety (cont... )",
+              "pageTitle": "Safety (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "isCheckPoint": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<ul style='margin-bottom: 0;'><li>Scalpels are used infrequently in most dissection labs and require special handling and disposal:<ul><li>Never cut toward your holding hand and fingers.</li><li>Cut in a downward motion using a steady, even pressure.</li><li>Always use a sharp blade.</li><li>Do not use a scalpel that is nicked, bent, or damaged.</li><li>Do not use a scalpel to cut through bone or heavy cartilage.</li><li>Never use a scalpel for anything other than dissection.</li></ul></li></ul>"
+                },
+                {
+                  "type": "Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Biology/580201/580201_Bio_VideoIcone_2.svg",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4573439212001"
+                },
+                {
+                  "type": "Plain",
+                  "subTitle": "Carolina’s Perfect Solution<sup className=bodySupscript>®</sup>",
+                  "containerType": "rightContainer",
+                  "text": "Independent, certified laboratory analyses of specimens fixed in Carolina’s Perfect Solution<sup className=bodySupscript>®</sup> have found that it is nontoxic and does not give off dangerous fumes. This means that, for safety purposes, use of Carolina’s Perfect Solution<sup className=bodySupscript>®</sup> specimens does not require specialized ventilation. Carolina does recommend performing the dissection in a well-ventilated room with some active ventilation when working with any preserved specimens. For a home setting, this may include opening windows and turning on a ceiling fan. The safe nature of Carolina’s Perfect Solution<sup className=bodySupscript>®</sup> also means that in most localities there are no mandated disposal requirements."
+                },
+                {
+                  "type": "PlainImage",
+                  "image": "core/Warning.svg",
+                  "containerType": "rightContainer",
+                  "imgWidth": "12%",
+                  "text": "Carolina’s Perfect Solution<sup className=bodySupscript>®</sup> causes mild <button class='glossary-text'>skin</button> irritation if suitable PPE is not worn. Avoid contact with skin and <button class='glossary-text'>eyes</button>. Do not ingest specimen, especially if you are or may become pregnant.",
+                  "style": {
+                    "marginBottom": "0.5em"
+                  },
+                  "desc": "warning symbol",
+                  "altText": "warning symbol"
+                },
+                {
+                  "type": "Plain",
+                  "subTitle": "Storage of Specimens",
+                  "containerType": "rightContainer",
+                  "text": "If it is necessary to store the specimen between work periods, you may choose to place it in the plastic storage bag with as much of the original solution as possible. Establishing an airtight seal is the best way to retain specimen integrity and prevent drying out of the specimen. First, squeeze as much air out of the specimen bag as possible before securing the opening with a rubber band, tape, or a binder clip. After closing the bag, the specimen can be stored in a larger, airtight box or bag at room temperature."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.</span>",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following materials will you need to supply yourself to complete this investigation?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "70% isopropyl alcohol",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "scissors",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "cotton balls",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "matches or lighter",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "graph paper",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following statements about scalpel use is INCORRECT?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "It is appropriate to use a scalpel that is nicked or bent.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Always cut away from your holding hand and fingers.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Cut in a downward motion using a steady, even pressure.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Always use a sharp blade.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Do not use a scalpel to cut through bone or heavy cartilage.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes how to dispose of your frog specimen, which has been preserved in Carolina’s Perfect Solution<sup className=bodySupscript>®</sup>?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "It can be placed with household trash.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "It must be picked up by a biohazard team.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "It can be recycled in the science building at your institution.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "It must be incinerated, and the ashes placed with household trash.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "It can be buried or placed in a compost pile.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which organ system serves primarily to clean waste products from the blood?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "urinary",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "respiratory",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "digestive",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "reproductive",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "nervous",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the term for how mating is accomplished in frogs?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "amplexus",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "cloaca",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "buccal pumping",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "nictitating",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "tympanum",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "How many eyelids does a frog have?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "three",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "one",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "two",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "four",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "five",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What are the external eardrums of the frog?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "tympanic membranes",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "nictitating membranes",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "dermis and epidermis",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "cloacae",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "mesenteries",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes a frog cut along its sagittal plane?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The body is divided into longitudinal left and right portions.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The body is divided into equal left and right halves.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The body is divided into dorsal and ventral portions.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The body is divided into several cross-sections.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The body is divided into a torso and appendages.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Placing your frog specimen on its back will result in which of the following surfaces facing up?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 8,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "ventral",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "cranial",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "caudal",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "dorsal",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "rostral",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Biology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will examine and identify the external structures of the frog."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "External Anatomy",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;External Anatomy (15 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity1",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Lay the frog <button class='glossary-text'>dorsal</button> surface up in the dissection tray."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "imgWidth": "5%",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol",
+                    "image": "core/Camera-icon.svg",
+                    "text": "Take a photo of the dorsal side of the frog. Notice the thinness of the frog’s <button class='glossary-text'>skin</button> (5) and the absence of scales, hair, or any other protective covering."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "Numbers in parentheses ( ) refer to your included dissection mat."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "imgWidth": "5%",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol",
+                    "image": "core/Camera-icon.svg",
+                    "text": "Take a photo of the head. Locate the <button class='glossary-text'>external nares</button> (1), or nostrils."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The <button class='glossary-text'>eyes</button> (2) are easy to find. Closely examine each eye and locate the <button class='glossary-text'>nictitating membrane</button>, a third eyelid. In living frogs, the nictitating membranes are transparent and cover the eyes when the animal is underwater."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Just <button class='glossary-text'>posterior</button> to the eyes are large, circular areas known as the <button class='glossary-text'>tympanic membranes</button> (7), or eardrums. Near the center of each tympanic membrane is a raised area that marks the attachment of a small bone, the columella, to the membrane. This bone transmits vibrations to the auditory nerve."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Locate the shoulder, elbow, and wrist joints of the <button class='glossary-text'>forelimbs</button>. Count the digits on each forelimb. The innermost digit of male frogs has a swollen pad during the breeding season."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Near the end of the body on the <button class='glossary-text'>ventral</button> side of the frog, is the opening of the <button class='glossary-text'>cloaca</button>. Feces, urine, and reproductive cells are expelled through the cloaca."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Examine the muscular hind limbs. Locate the hip, knee, and ankle joints. Examine the webs of each foot. Count the digits on each hind limb."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Gently pry the mouth open and use scissors to cut the jaws at the joints. Examine the inside of the mouth. Refer to Figure 3."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Biology/580201/580201_Bio_fig_003.svg",
+                    "imgDivWidth": "310px",
+                    "scrollImg": true,
+                    "altText": "Figure 3: A labeled diagram of the interior structures of the mouth",
+                    "maxWidth": "410px"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "imgWidth": "5%",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol",
+                    "image": "core/Camera-icon.svg",
+                    "text": "Take a photo of the inside of the mouth. Find the <button class='glossary-text'>tongue</button> (6) and note any unusual characteristics you observe."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Directly behind the tongue, locate a raised structure with a slit in it. This is the glottis, the opening of the air passageway that leads from the mouth to the <button class='glossary-text'>lungs</button> (15), which will be visible when viewing the circulatory system. Behind the glottis is the opening of the <button class='glossary-text'>esophagus</button>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Find two bony knobs projecting from the upper surface of the mouth. These are the <button class='glossary-text'>vomerine teeth</button> (8). If you rub your finger along the inside of the jaw, you will feel the <button class='glossary-text'>maxillary teeth</button> (4)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Near the vomerine teeth are the <button class='glossary-text'>internal nares</button> (3), the internal openings of the nostrils. Muscles attached to small bones can open and close the <button class='glossary-text'>nares</button>’ passageways."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The openings of the <button class='glossary-text'>Eustachian tubes</button> are located near the corners of the mouth. Insert a dissecting probe into one opening, push carefully, and observe where the needle comes out."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Two large, muscular pads are found in the roof of the mouth. The frog retracts its eyes into these pads when it blinks."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Biology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will cut through the <button class='glossary-text'>ventral</button> body wall of the frog to expose its internal structures."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "Internal Anatomy",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Internal Anatomy (4 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity2",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Lay the frog <button class='glossary-text'>ventral</button> surface up on the dissection tray. Using the forceps, lift the <button class='glossary-text'>skin</button> over the frog’s abdomen, insert the point of a pair of scissors, and make the cuts shown in Figure 4. When the cuts are made, lift one corner of the skin with the forceps and use the scalpel and scissors to separate the skin from the underlying muscles. Completely cut away the skin from the abdomen and throat."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Biology/580201/580201_Bio_fig_004.svg",
+                    "imgDivWidth": "310px",
+                    "scrollImg": true,
+                    "altText": "Figure 4: Diagram of locations to cut the skin",
+                    "maxWidth": "380px"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "With the forceps, lift and make an incision through the abdomen muscles. Use the point of a pair of scissors to make the cuts shown in Figure 5. It will be necessary to cut the bones of the pectoral girdle with scissors. Make the cuts carefully to avoid damaging the internal organs."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Biology/580201/580201_Bio_fig_005.svg",
+                    "imgDivWidth": "315px",
+                    "scrollImg": true,
+                    "altText": "Figure 5: Diagram of muscle cutting lines and locations to cut the bones of the pectoral girdle",
+                    "maxWidth": "390px"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Fold back the body wall and cut it off to expose the internal organs."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "If your frog is a female, the <button class='glossary-text'>oviduct</button> may be enlarged with eggs and may partially cover the digestive organs. If this is the case, carefully cut away the oviduct and remove enough of the eggs to clearly see the internal organs."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 3",
+      "menuIcon": "core/Biology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 3, you will examine and identify the structures of the frog digestive tract."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 3",
+          "pages": [
+            {
+              "title": "Digestive System",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Digestive System (4 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity3",
+              "pageData": [
+                [
+                  {
+                    "type": "PlainImage",
+                    "imgWidth": "5%",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol",
+                    "image": "core/Camera-icon.svg",
+                    "text": "Take a photo. You may need to take additional photos in order to show all of the organs in this section. At the <button class='glossary-text'>anterior</button> of the abdominal cavity is the <button class='glossary-text'>liver</button> (14), a large, brown gland with three lobes. Lift the lobes of the liver and search for a dark, greenish sac. This sac is the <button class='glossary-text'>gallbladder</button> (10). The green color is due to a pigment in the <button class='glossary-text'>bile</button>, which is a liver secretion that is stored in the gallbladder."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The J-shaped, muscular sac partially beneath the liver on the left side of the frog’s body is the <button class='glossary-text'>stomach</button> (22) (left and right refer to the frog’s left and right). The lower end of the stomach attaches to the <button class='glossary-text'>small intestine</button> (20). Two divisions make up the small intestine; the duodenum is the less folded portion that attaches to the lower end of the stomach, and the ileum is the highly folded portion. The small intestine and the other internal organs are held in place by membranes called the <button class='glossary-text'>mesenteries</button> (16). Notice that the digestive organs are attached to numerous blood vessels."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Look between the stomach and duodenum to find the <button class='glossary-text'>pancreas</button>, a long, thin mass of tissue in the mesentery between the two organs."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Lift the ileum and find the <button class='glossary-text'>spleen</button> (21), a somewhat round organ that is brown in color. The spleen is actually part of the circulatory system. Follow the ileum until it runs into a much wider part of the digestive tract, the <button class='glossary-text'>large intestine</button> (13)."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 4",
+      "menuIcon": "core/Biology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 4, you will examine and identify the structures of the frog <button class='glossary-text'>heart</button> and circulatory system."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 4",
+          "pages": [
+            {
+              "title": "Circulatory System",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Circulatory System (5 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity4",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Just <button class='glossary-text'>anterior</button> to the <button class='glossary-text'>liver</button> is the <button class='glossary-text'>heart</button> (11). It is covered by a tough membrane called the pericardium."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Lift the pericardium with the forceps and begin cutting it away."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The large, lower chamber of the heart is the ventricle. As you work forward to uncover the top of the heart, you will find two other chambers, the left and right atria."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "A large artery, the bulbus arteriosus, emerges from the top right side of the ventricle and runs across the atria where it becomes the truncus arteriosus."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "imgWidth": "5%",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol",
+                    "image": "core/Camera-icon.svg",
+                    "text": "Take a photo of the heart."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 5",
+      "menuIcon": "core/Biology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 5, you will examine and identify the structures of the frog urogenital system."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 5",
+          "pages": [
+            {
+              "title": "Urogenital System",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Urogenital System (9 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity5",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Cut through the <button class='glossary-text'>stomach</button> under the left lung. Lift the stomach and cut away the attached membranes and blood vessels. Do the same for the small and <button class='glossary-text'>large intestine</button>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Lay the digestive organs to one side."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "imgWidth": "5%",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol",
+                    "image": "core/Camera-icon.svg",
+                    "text": "Against the back wall are the two flattened, oblong <button class='glossary-text'>kidneys</button> (12). If your frog is female, the <button class='glossary-text'>ovaries</button> (17) might be filled with eggs. If so, take a photo of the ovaries before removing the enlarged ovary from one side so the kidney can be observed and photographed."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Attached just <button class='glossary-text'>anterior</button> to each kidney is a structure with long, finger-like projections. These are the <button class='glossary-text'>fat bodies</button> (9). If they are large enough to block your view, cut away the fat body on the same side that you removed the ovary."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "If your frog is male, an oval <button class='glossary-text'>testis</button> (23) is attached ventrally to each kidney by a membrane. It may be possible to see small tubes, the vasa efferentia, in the membrane. These are sperm ducts from the testis to the <button class='glossary-text'>seminal vesicle</button> (19), an enlarged section of urinary duct that holds semen prior to breeding."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The ridge along the <button class='glossary-text'>ventral</button> surface of the kidney is the adrenal gland."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Beside the kidney is a long, coiled tube, the <button class='glossary-text'>oviduct</button> (18). The oviduct is vestigial (an unused and underdeveloped remnant of a structure) in the male. The lower end of the oviduct is expanded and is called an ovisac. The ovisac attaches to the urinary <button class='glossary-text'>bladder</button>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Lift the urinary bladder and gently pull away the membrane between it and the kidney. You may be able to find the ureter, a colorless tube that drains urine from the kidney to the urinary bladder."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "imgWidth": "5%",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol",
+                    "image": "core/Camera-icon.svg",
+                    "text": "Take a photograph of the exposed urinary system."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 6",
+      "menuIcon": "core/Biology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 6, you will remove the <button class='glossary-text'>skin</button> and muscle from the head and cut into the <button class='glossary-text'>cranial</button> bone of the skull. You will then examine and identify the structures of the frog nervous system."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 6",
+          "pages": [
+            {
+              "title": "Nervous System",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Nervous System (8 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity6",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the frog <button class='glossary-text'>dorsal</button> surface up in the dissecting pan."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Remove the <button class='glossary-text'>skin</button> from the top of the head and neck. Begin at the shoulders and continue forward to the <button class='glossary-text'>external nares</button>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "With the skin removed, locate the junction of the flat <button class='glossary-text'>cranial</button> bones and the heavy neck muscles at the <button class='glossary-text'>posterior</button> side of the head."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Cut into and remove these muscles down to the spine."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use a sharp scalpel to make a cut along each side of the cranium, beginning at the external <button class='glossary-text'>nares</button> as shown in Figure 6."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Biology/580201/580201_Bio_fig_006.svg",
+                    "imgDivWidth": "290px",
+                    "scrollImg": true,
+                    "altText": "Figure 6: Locations to cut to expose the brain",
+                    "maxWidth": "360px"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Lift the posterior edge of the cranium with the forceps and use the tip of the scalpel to cut through the ligaments joining the cranium to the backbone as indicated in Figure 6."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Beginning at this cut, use the tip of your forceps to gently break away the cranial bones piece by piece. Work forward to the external nares, remembering that the soft brain tissue is just beneath the bone."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "imgWidth": "5%",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol",
+                    "image": "core/Camera-icon.svg",
+                    "text": "After you have exposed the dorsal surface of the brain, use Figure 7 to identify its parts. It will be necessary to work to the posterior of the brain to expose the cranial end of the spinal cord. Take a photo."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Biology/580201/580201_Bio_fig_007.svg",
+                    "imgDivWidth": "480px",
+                    "scrollImg": true,
+                    "altText": "Figure 7: Labeled diagram of the parts of the frog’s brain",
+                    "maxWidth": "600px"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                  "orderedType": "1",
+                  "text": [
+                    "Dispose of any excess fluids down the drain with the water running. Allow the faucet to run for about 30 seconds to dilute the fluids.",
+                    "Place the specimen in its storage bag and seal tightly. If you are finished working with your specimen, put the bag into an opaque trash bag for disposal in the household garbage.",
+                    "Rinse and carefully air dry the dissection tools, and return the materials to your equipment kit.",
+                    "Sanitize the workspace with isopropyl alcohol (or other non-bleach disinfectant) and paper towels. If this is insufficient for removing grease during cleanup, use soap and water, followed by more alcohol/disinfectant."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "altText": "completion",
+                  "desc": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Biology_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "courses/580500/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Activity1",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Step 2 Photo"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert the photo of the dorsal side of the frog. The following should be indicated:<span className=bodyParaLineBreak><ul style='column-count: 2'><li>External nares</li><li>Eye</li><li>Nictitating membrane</li><li>Tympanic membrane</li><li>Cloaca </li><li>Forelimb</li><li>Hindlimb</li></ul></span>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Activity2",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Step 10 Photo"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert the photo of the inside of the frog’s mouth. The following should be indicated:<span className=bodyParaLineBreak><ul style='column-count: 2'><li>Internal nares</li><li>Maxillary teeth</li><li>Vomerine teeth</li><li>Esophageal opening</li><li>Eustachian tube opening</li><li>Glottis</li><li>Opening to vocal sac (if present)</li><li>Tongue</li></ul></span>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 3 Step 1 Photos"
+              },
+
+              {
+                "type": "Plain",
+                "text": "Insert the photo(s) of the frog’s digestive system. You may upload a maximum of 3 photos for this step. The following should be indicated:<span className=bodyParaLineBreak><ul style='column-count: 2'><li>Liver</li><li>Gallbladder</li><li>Stomach</li><li>Small intestine</li><li>Mesentery</li><li>Pancreas</li><li>Spleen</li><li>Large intestine</li></ul></span>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "UploadFiles",
+                "sr": 2,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 4 Step 5 Photo"
+              },
+
+              {
+                "type": "Plain",
+                "text": "Insert the photo of the frog’s heart. The following should be indicated:<span className=bodyParaLineBreak><ul><li>Ventricle</li><li>Left atrium</li><li>Right atrium</li></ul></span>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 5 Step 9 Photos"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert the photo(s) of the frog’s urinary system. The following structures should be indicated.<span className=bodyParaLineBreak>For a frog of either sex:</span><span className=bodyParaLineBreak><ul><li>Kidney</li><li>Fat body</li><li>Ureter (if visible)</li><li>Urinary bladder</li></ul></span><span className=bodyParaLineBreak>For a female frog (include the photo of the egg-filled ovary from Activity 5 Step 3, if applicable):</span><span className=bodyParaLineBreak><ul><li>Ovary</li><li>Oviduct</li></ul></span><span className=bodyParaLineBreak>For a male frog:</span><span className=bodyParaLineBreak><ul><li>Testis</li><li>Seminal vesicle (if visible)</li><li>Oviduct  (if visible)</li></ul></span>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question1Upload",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "id": "Activity2",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 6 Step 8 Photo"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert the photo of the frog’s nervous system. The following should be indicated:<span className=bodyParaLineBreak><ul style='column-count: 2'><li>Olfactory nerve (location)</li><li>Olfactory lobe</li><li>Cerebrum</li><li>Optic lobe</li><li>Cerebellum</li><li>Medulla</li><li>Spinal cord</li></ul></span>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": "Question1",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "Now that you have dissected and observed the frog thoroughly, list and describe at least three anatomical adaptations related to the frog’s lifestyle as an ambush predator."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6328561672112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580201/580201_Bio_fig_001.svg",
+        "altText": "Figure 1: The life stages of a frog. An egg hatches into a tadpole with a long tail and no limbs. The tadpole increases in size. The tadpole matures by developing hindlimbs, then forelimbs, and the tail diminishes. The final stage is an adult frog with no tail and fully developed limbs.",
+        "maxWidth": "450px",
+        "scrollImg": true,
+        "content": "Figure 1. Frog life stages"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580201/580201_Bio_fig_002.svg",
+        "altText": "Figure 2: Diagram describing the location of the Transverse, Midsagittal, and Frontal planes in quadrupeds and bipeds",
+        "maxWidth": "500px",
+        "scrollImg": true,
+        "content": "Figure 2. Anatomical planes of quadrupeds and bipeds"
+      },
+      {
+        "thumbnailSrc": "core/Table_icon.svg",
+        "content": "Table 1. Common anatomical terms",
+        "isResource": true,
+        "type": "DataTable",
+        "allowClick": true,
+        "title": "Table 1.",
+        "sr": "10",
+        "tableHeight": "1.5",
+        "tableWidth": "700px",
+        "maxLength": 20,
+        "header": [
+          { "text": "Direction or Plane", "colWidth": "25%" },
+          { "text": "Definition", "colWidth": "75%" }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Superior"
+            },
+            {
+              "type": "text",
+              "text": "Above, toward the head"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Inferior"
+            },
+            {
+              "type": "text",
+              "text": "Below, toward the feet"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Anterior"
+            },
+            {
+              "type": "text",
+              "text": "Front, synonymous with ventral in bipeds and cranial in quadrupeds"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Posterior"
+            },
+            {
+              "type": "text",
+              "text": "Back, synonymous with dorsal in bipeds and caudal in quadrupeds"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Lateral"
+            },
+            {
+              "type": "text",
+              "text": "Toward the right or left side"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Medial"
+            },
+            {
+              "type": "text",
+              "text": "Toward the midline"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Proximal"
+            },
+            {
+              "type": "text",
+              "text": "Near or toward the point of reference"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Distal"
+            },
+            {
+              "type": "text",
+              "text": "Away from the point of reference, which is usually the attachment point"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Dorsal"
+            },
+            {
+              "type": "text",
+              "text": "Toward the back"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Ventral"
+            },
+            {
+              "type": "text",
+              "text": "Toward the belly or abdomen"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Cranial"
+            },
+            {
+              "type": "text",
+              "text": "“Toward the head”"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Caudal"
+            },
+            {
+              "type": "text",
+              "text": "“Toward the tail”"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Superficial"
+            },
+            {
+              "type": "text",
+              "text": "Toward or along the surface"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Deep"
+            },
+            {
+              "type": "text",
+              "text": "A significant distance below the surface"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Rostral"
+            },
+            {
+              "type": "text",
+              "text": "Toward the nose or mouth"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Sagittal plane"
+            },
+            {
+              "type": "text",
+              "text": "Divides the body into longitudinal left and right portions"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Midsagittal plane"
+            },
+            {
+              "type": "text",
+              "text": "Divides the body into equal left and right halves"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Transverse plane"
+            },
+            {
+              "type": "text",
+              "text": "Perpendicular to the long axis, produces cross-sections"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "fontFamily": "HelveticaNeueLTStdMd65",
+              "text": "Frontal plane"
+            },
+            {
+              "type": "text",
+              "text": "Divides the body into dorsal and ventral portions"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580201/580201_Bio_ED_001.svg",
+        "scrollImg": true,
+        "altText": "A map describing the procedural workflow for this investigation. To prepare, set up the work area and dissection tools. In Activity 1, examine the external dorsal surface and the inside of mouth of the specimen. In Activity 2, remove the skin from the abdomen and throat of the specimen, cut through the body wall and expose the internal organs. In Activity 3, examine the digestive organs of the specimen. In Activity 4, examine the heart of the specimen. In Activity 5, remove the digestive tract of the specimen. Then, examine urinary system organs and reproductive organs of the specimen. In Activity 6, remove the skin and muscle from the dorsal head of the specimen. Then, remove the cranium and examine the nervous system organs of the specimen.",
+        "maxWidth": "1719px",
+        "content": "Experimental Design Diagram"
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "http://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4573445864001",
+        "content": "Cutting a Specimen"
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4573439212001",
+        "content": "Using a Scalpel"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580201/580201_Bio_fig_003.svg",
+        "altText": "Figure 3: A labeled diagram of the interior structures of the mouth",
+        "maxWidth": "410px",
+        "scrollImg": true,
+        "content": "Figure 3. Frog oral cavity"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "scrollImg": true,
+        "src": "courses_2023/Biology/580201/580201_Bio_fig_004.svg",
+        "altText": "Figure 4: Diagram of locations to cut the skin",
+        "content": "Figure 4. Skin incision points",
+        "maxWidth": "378px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580201/580201_Bio_fig_005.svg",
+        "scrollImg": true,
+        "altText": "Figure 5: Diagram of muscle cutting lines and locations to cut the bones of the pectoral girdle",
+        "content": "Figure 5. Muscle incision points",
+        "maxWidth": "388px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580201/580201_Bio_fig_006.svg",
+        "scrollImg": true,
+        "altText": "Figure 6: Locations to cut to expose the brain",
+        "content": "Figure 6. Cranium incision points",
+        "maxWidth": "360px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Biology/580201/580201_Bio_fig_007.svg",
+        "scrollImg": true,
+        "altText": "Figure 7: Labeled diagram of the parts of the frog’s brain",
+        "content": "Figure 7. Dorsal surface of the frog brain",
+        "maxWidth": "600px"
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Amphibia",
+        "content": "The taxonomic class of cold-blooded vertebrates such as frogs, toads, and salamanders"
+      },
+      {
+        "title": "Amplexus",
+        "content": "The mating embrace where the male grasps female around her belly and deposits sperm as she lays the eggs"
+      },
+      {
+        "title": "Anterior",
+        "content": "Front; synonymous with ventral in bipeds and cranial in quadrapeds"
+      },
+      {
+        "title": "Bile",
+        "content": "Yellow or greenish fluid secreted by the liver"
+      },
+      {
+        "title": "Bladder",
+        "content": "The organ that temporarily stores urine"
+      },
+      {
+        "title": "Buccal pumping",
+        "content": "The two-stroke process of respiration in frogs"
+      },
+      {
+        "title": "Caudal",
+        "content": "Twoard the tail"
+      },
+      {
+        "title": "Cloaca",
+        "content": "The common excretory opening for the urinary, digestive, and reproductive systems"
+      },
+      {
+        "title": "Cranial",
+        "content": "Twoard the head"
+      },
+      {
+        "title": "Deep",
+        "content": "A significant distance below the surface"
+      },
+      {
+        "title": "Dermis",
+        "content": "The layer of living tissue below the epidermis"
+      },
+      {
+        "title": "Distal",
+        "content": "Away from the point of reference, which is usually the attachment point"
+      },
+      {
+        "title": "Dorsal",
+        "content": "Toward the back"
+      },
+      {
+        "title": "Esophagus",
+        "content": "The muscular tube that connects the throat to the stomach"
+      },
+      {
+        "title": "Eustachian tubes",
+        "content": "Tubes connecting the middle ear with the nasopharynx"
+      },
+      {
+        "title": "External nares",
+        "content": "Nostrils"
+      },
+      {
+        "title": "Eyes",
+        "content": "A pair of sensory structure capable of receiving images"
+      },
+      {
+        "title": "Fat bodies",
+        "content": "Fat-filled structures with finger-like projections that store energy for frogs"
+      },
+      {
+        "title": "Forelimbs",
+        "content": "The anterior limbs of a quadruped"
+      },
+      {
+        "title": "Frontal plane",
+        "content": "The anatomical plane that divides the body into dorsal and ventral portions"
+      },
+      {
+        "title": "Gallbladder",
+        "content": "The sac that stores bile produced by the liver"
+      },
+      {
+        "title": "Heart",
+        "content": "A hollow muscular organ that pumps blood throughout the body"
+      },
+      {
+        "title": "Hindlimbs",
+        "content": "The posterior limbs of a quadruped"
+      },
+      {
+        "title": "Inferior",
+        "content": "Below, toward the feet"
+      },
+      {
+        "title": "Internal nares",
+        "content": "Internal openings of the nostrils"
+      },
+      {
+        "title": "Kidneys",
+        "content": "The two bean-shaped organs are responsible for the three processes involved in urine production"
+      },
+      {
+        "title": "Large intestine",
+        "content": "The tube that carries waste from the small intestine to the anus"
+      },
+      {
+        "title": "Lateral",
+        "content": "Toward the right or left side"
+      },
+      {
+        "title": "Liver",
+        "content": "The organ that removes toxins, maintains blood sugar levels, and regulates blood clotting"
+      },
+      {
+        "title": "Lungs",
+        "content": "The pair of organs located in the chest cavity responsible for adding oxygen to blood"
+      },
+      {
+        "title": "Maxillary teeth",
+        "content": "Teeth found at the sides of the mouth"
+      },
+      {
+        "title": "Medial",
+        "content": "Toward the midline"
+      },
+      {
+        "title": "Mesenteries",
+        "content": "The thin films that hold internal organs in place"
+      },
+      {
+        "title": "Midsagittal plane",
+        "content": "The anatomical plane that divides the body into equal left and right halves"
+      },
+      {
+        "title": "Nares",
+        "content": "Openings to the respiratory system; see external nares and internal nares"
+      },
+      {
+        "title": "Nictitating membrane",
+        "content": "A transparent third lid over the eye that protects it from dehydrating"
+      },
+      {
+        "title": "Ovaries",
+        "content": "The female gonads that produce eggs (ova)"
+      },
+      {
+        "title": "Oviduct",
+        "content": "The tube that transport eggs from the ovaries to the uterus"
+      },
+      {
+        "title": "Pancreas",
+        "content": "The digestive organ that produces enzymes and chemicals for digestion"
+      },
+      {
+        "title": "Posterior",
+        "content": "Back; synonymous with dorsal in bipeds and caudal in quadrapeds"
+      },
+      {
+        "title": "Proximal",
+        "content": "Near or toward the point of reference"
+      },
+      {
+        "title": "Renal portal system",
+        "content": "The system that carries away waste by dissovling it in urine"
+      },
+      {
+        "title": "Rostral",
+        "content": "Toward the nose or mouth"
+      },
+      {
+        "title": "Sagittal plane",
+        "content": "The anatomical plane that divides the body into longitudinal left and right portions"
+      },
+      {
+        "title": "Seminal vesicle",
+        "content": "The enlarged section of the urinary duct that holds sperm prior to breeding"
+      },
+      {
+        "title": "Skin",
+        "content": "Outer covering of the body"
+      },
+      {
+        "title": "Small intestine",
+        "content": "The digestive organ where food is further digested and nutrients are absorbed"
+      },
+      {
+        "title": "Spleen",
+        "content": "The vascular organ that filters blood, produces white blood cells, and functions in immunity"
+      },
+      {
+        "title": "Stomach",
+        "content": "The muscular organ in the digestive system between the esophagus and small intestine"
+      },
+      {
+        "title": "Superficial",
+        "content": "Toward or along the surface"
+      },
+      {
+        "title": "Superior",
+        "content": "Above, toward the head"
+      },
+      {
+        "title": "Testis",
+        "content": "The male gonad that produces the hormone testosterone and the sperm"
+      },
+      {
+        "title": "Thyroid gland",
+        "content": "The butterfly-shaped endocrine gland located in the anterior neck"
+      },
+      {
+        "title": "Tongue",
+        "content": "The muscle composed of skeletal muscle tissue covered with epithelium; it is attached to the floor of the oral cavity"
+      },
+      {
+        "title": "Transverse plane",
+        "content": "The anatomical plane perpendicular to the long axis, produces cross-sections"
+      },
+      {
+        "title": "Tympanic membranes",
+        "content": "The structures that separate the outer ear from the middle ear; they vibrate at the same frequency as the sound waves that contact it"
+      },
+      {
+        "title": "Tympanum",
+        "content": "External eardrum"
+      },
+      {
+        "title": "Ventral",
+        "content": "Toward the belly or abdomen"
+      },
+      {
+        "title": "Vomerine teeth",
+        "content": "Teeth found in the middle part of the roof of the mouth"
+      }
+    ]
+  },
+  "info": {
+
+    "src": "core/Information-Initial.svg",
+
+    "hoverSrc": "core/Information-Hower.svg",
+
+    "resource": {
+
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+
+      "src": "core/resourceImage.svg"
+
+    },
+
+    "kc": {
+
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+
+    },
+
+    "kc-resource": {
+
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+
+      "src": "core/resourceImage.svg"
+
+    },
+
+    "procedure": {
+
+      "text": "You can track completion of each step by clicking on the step number."
+
+    },
+
+    "procedure-resource": {
+
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+
+      "src": "core/resourceImage.svg"
+
+    }
+
+  }
+}

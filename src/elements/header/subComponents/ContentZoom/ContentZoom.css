@@ -1,0 +1,356 @@
+.ContentZoomHolder {
+  position: relative;
+  right: 0;
+  width: auto;
+  background-color: transparent;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  height:100%
+}
+
+.zoom-button {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  margin: 0 15px;
+}
+
+.ContentZoomHolder .line {
+  display: flex;
+  width: 100%;
+  border-top: 2px solid black;
+  height: 2px;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.ContentZoomHolder .circle {
+  display: contents;
+  background-color: #0062b8;
+  color: #c6e2ff;
+  line-height: 19px;
+  border-radius: 15px;
+  min-width: 30px;
+  height: 30px;
+  left: -5%;
+  position: absolute;
+  transform: scale(0.75);
+  border: solid 0px #ffffff;
+}
+
+.zoomPopUpHolder {
+  position: "absolute";
+  z-index: "111";
+  top: "25px";
+  width: "100px";
+  height: "auto";
+  left: "0px";
+  text-align: "center";
+  right: "0px";
+  margin: "auto";
+  transform: "translate(-16%, 15px)";
+  border: "solid 2px #0062b8";
+  border-radius: "7px";
+  background-color: "white";
+  padding: "5px 10px";
+}
+
+.zoomTitle1 {
+  font-size: calc(100% + 0.1em) !important;
+  line-height: calc(100% + 0.1em) !important;
+}
+
+.zoomTitle2 {
+  font-size: calc(100% + 0.2em) !important;
+  line-height: calc(100% + 0.2em) !important;
+}
+.zoomTitle3 {
+  font-size: calc(100% + 0.3em) !important;
+  line-height: calc(100% + 0.3em) !important;
+}
+
+
+.zoomLevelLeft1 {
+  font-size: calc(100% ) !important;
+  /* line-height: calc(100% ) !important; */
+  /* transform: scale(1) !important;
+  transform-origin: left top !important; */
+}
+.zoomLevelLeft2 {
+  font-size: calc(100% + 0.1em)  !important;
+  /* line-height: calc(100% + 0.1em)  !important; */
+  /* transform: scale(1.25) !important;
+  transform-origin: left top !important; */
+}
+.zoomLevelLeft3 {
+  font-size: calc(100% + 0.2em)  !important;
+  /* line-height: calc(100% + 0.2em)  !important; */
+}
+
+.zoomLevelLeft2 .data-table-container {
+  font-size: initial !important;
+  /* line-height: initial !important; */
+}
+.zoomLevelLeft3 .data-table-container {
+  font-size: initial !important;
+  /* line-height: initial !important; */
+}
+.zoomLevelLeft2 .drag-area-holder{
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelLeft3 .drag-area-holder {
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelLeft2 .drop-box-item-holder{
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelLeft3 .drop-box-item-holder {
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelLeft2 .drop-box-questions{
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelLeft3 .drop-box-questions {
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelLeft1 .kc-drag-and-drop .mcss-comp-heading{
+  font-size: 0.95em;
+  line-height: 1.5em;
+}
+.zoomLevelLeft2 .kc-drag-and-drop .mcss-comp-heading{
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelLeft3 .kc-drag-and-drop .mcss-comp-heading {
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelLeft1 .kc-drag-and-drop .drop-box-holder{
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelLeft2 .kc-drag-and-drop .drop-box-holder{
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelLeft3 .kc-drag-and-drop .drop-box-holder{
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelLeft2 .kc-drag-and-drop .custom-button{
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelLeft3 .kc-drag-and-drop .custom-button {
+  font-size: initial !important;
+  line-height: initial !important;
+}
+
+
+
+.zoomLevelRight1 {
+  font-size: calc(100% ) ;
+  line-height: calc(100% );
+}
+.zoomLevelRight2 {
+  font-size: calc(100% + 0.1em)  !important;
+  line-height: calc(100% + 0.1em);
+}
+.zoomLevelRight3 {
+  font-size: calc(100% + 0.2em);
+  line-height: calc(100% + 0.2em);
+}
+.zoomLevelRight1 .data-table-container {
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelRight2 .data-table-container {
+  font-size: initial !important; 
+  line-height: initial !important;
+}
+.zoomLevelRight3 .data-table-container {
+  font-size: initial;
+  line-height: initial !important;
+}
+.zoomLevelRight2 .draggable-item{
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelRight3 .draggable-item {
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelRight2 .drop-box-item-holder {
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelRight3 .drop-box-item-holder {
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelRight2 .drop-box-questions{
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelRight3 .drop-box-questions {
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelRight2 .kc-drag-and-drop .mcss-comp-heading{
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelRight3 .kc-drag-and-drop .mcss-comp-heading{
+  font-size: initial !important;
+  line-height: initial !important;
+}
+
+
+
+.zoomLevelCenter1 {
+  font-size: calc(100% ) !important;
+  /* line-height: calc(100% ) !important; */
+}
+.zoomLevelCenter2 {
+  font-size: calc(100% + 0.1em) !important ;
+  /* line-height: calc(100% + 0.1em); */
+}
+.zoomLevelCenter3 {
+  font-size: calc(100% + 0.2em) !important;
+  /* line-height: calc(100% + 0.2em); */
+}
+
+.zoomLevelCenter2 .data-table-container{
+  font-size: initial !important;
+  /* line-height: initial !important; */
+}
+.zoomLevelCenter3 .data-table-container{
+  font-size: initial !important;
+  /* line-height: initial !important; */
+}
+.zoomLevelCenter2 .draggable-item{
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelCenter3 .draggable-item {
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelCenter2 .drop-box-item-holder{
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelCenter3 .drop-box-item-holder {
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelCenter2 .drop-box-questions{
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelCenter3 .drop-box-questions {
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelCenter2 .kc-drag-and-drop .mcss-comp-heading{
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelCenter3 .kc-drag-and-drop .mcss-comp-heading {
+  font-size: initial !important;
+  line-height: initial !important;
+}
+.zoomLevelCenter2 .kc-drag-and-drop .custom-button{
+  font-size: 1em !important;
+  line-height: initial !important;
+}
+.zoomLevelCenter3 .kc-drag-and-drop .custom-button {
+  font-size: initial !important;
+  line-height: initial !important;
+}
+/*Container is 25%*/
+/* .zoomWidth25Level1 {
+  width: calc(30% - 25px) !important;
+}
+.zoomWidth25Level2 {
+  width: calc(20% - 25px) !important;
+}
+.zoomWidth25Level3 {
+  width: calc(17% - 25px) !important;
+} */
+
+/*Container is 75%*/
+/* .zoomWidth75Level1 {
+  width: calc(69% - 25px) !important;
+}
+.zoomWidth75Level2 {
+  width: calc(60% - 25px) !important;
+}
+.zoomWidth75Level3 {
+  width: calc(50% - 25px) !important;
+} */
+
+/*Container is 50%*/
+/* .zoomWidth50Level1 {
+  width: calc(50% - 25px) !important;
+}
+.zoomWidth50Level2 {
+  width: calc(40% - 25px) !important;
+}
+.zoomWidth50Level3 {
+  width: calc(34% - 25px) !important;
+} */
+
+/* ================================================================================================================ */
+/* 
+   Width is commented because it is a full container, 
+   if we set the width then the image will not zoom according to the zoom functionality
+   if we keep the width 100% and there is a paragraph instead of the image in the full container 
+   then the paragraph will go out of the screen
+   for now as discussed with rupesh, we do not have any thext that comes in full container so commenting the width. 
+*/
+/*Container is 100%*/
+/* .zoomWidth100Level1 {
+  width: 100% !important;
+}
+.zoomWidth100Level2 {
+  width: 85% !important;
+}
+.zoomWidth100Level3 {
+  width: 75% !important;
+} */
+/* ================================================================================================================ */
+
+.zoomHighlight {
+  border: solid 1px #ffffff;
+}
+
+/* Portrait iPad Normal*/
+@media only screen and (min-width: 768px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .zoom-button {
+    min-width: 57px;
+  }
+}
+
+/* landscape iPad Normal*/
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .zoom-button {
+    min-width: 57px;
+  }
+}
+
+/* Landscape phone */
+@media only screen and (min-device-width: 300px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* Portrait phone */
+@media only screen and (min-device-width: 275px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}

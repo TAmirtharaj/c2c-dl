@@ -1,0 +1,4045 @@
+{
+  "locked": true,
+  "courseTitle": "Series and Parallel Circuits",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Physics_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/bodyBookmark.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/TakeSnapshot.svg",
+    "core/disposalAndCleanupIcon.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Physics_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Physics",
+                "titleName2": "Series and Parallel Circuits",
+                "images": {
+                  "logo": "core/Physics_Subject_Icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "waterMark": false,
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, students will build and analyze simple <button class='glossary-text'>circuits</button> using miniature lamps as resistors. <button class='glossary-text'>Current</button> flows through a closed circuit. The brightness of the lamps acts as an indicator of the relative current through each loop of the circuit, thus enabling students to understand how <button class='glossary-text'>voltage</button> and current are used in series and parallel circuits."
+                },
+                {
+                  "type": "List",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Scissors",
+                    "Ruler",
+                    "Tape (recommended but not required)"
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Physics/580410/580410_Physics_Time-Requirement.svg",
+                  "altText": "Preparation – 10 minutes \nActivity 1: Resistors in Series – 15 minutes\nActivity 2: Resistors in Parallel – 15 minutes \nActivity 3: Circuits with Resistors in Series and Parallel #1 – 15 minutes \nActivity 4: Circuits with Resistors in Series and Parallel #2 – 15 minutes\nActivity 5: Circuits with Resistors in Series and Parallel #3 – 15 minutes ",
+                  "containerType": "rightContainer",
+                  "scrollImg": true,
+                  "imgDivWidth": "500px",
+                  "maxWidth": "550px"
+                }
+              ]
+            },
+            {
+              "waterMark": true,
+              "template": "OverView",
+              "title": "Overview (cont...)",
+              "pageTitle": "Overview (cont...)",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Overview Video: Series and Parallel Circuits"
+                },
+                {
+                  "type": "Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Physics/580410/580410_Physics_VideoIcone.svg",
+                  "desc": "OverView Video",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6338395479112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Investigate series and parallel <button class='glossary-text'>circuits</button>",
+                    "Apply the concepts of <button class='glossary-text'>Ohm’s law</button> and Kirchhoff’s rules",
+                    "Develop an understanding of <button class='glossary-text'>voltage</button>, <button class='glossary-text'>current</button>, and <button class='glossary-text'>resistance</button>"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "desc": " video link symbol, camera symbol, stopwatch symbol",
+                  "altText": " video link symbol, camera symbol, stopwatch symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "scrollImg": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "One of the easiest ways to reduce your home energy consumption is to switch from traditional incandescent lightbulbs to LED lightbulbs. Some states and countries have even banned incandescent lightbulbs as a way to reduce their carbon footprints. LEDs are much more efficient and last up to 30 times longer than incandescent bulbs, and they are safer and easier to dispose of than Compact Fluorescent Lights (CFLs), which contain mercury.  LEDs can produce the same amount of light while using about 75% less energy. Some of this is due to the <button class='glossary-text'>resistance</button> that each of the types of bulbs provides to the electricity flowing through it. Bulbs have to provide some amount of resistance in order to slow down the electrons to allow them to do work and produce light (either through incandescence or electroluminescence for LEDs). The tungsten filament of an incandescent bulb has a high resistance, which is necessary to heat up the filament and make it glow. But as a result, up to 90% of energy input is converted to heat and is unusable to produce light. In an LED, almost none of the energy is converted to heat. Instead, almost all energy is used to produce light meaning that there is less energy input needed to produce the same brightness<sup class='bodySupscript'>1</sup>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'><sup class='bodySupscript'>1</sup>Harris, W., & Freudenrich, C. (2023, March 8). How light works. <span class='bodyFontItalic'>HowStuffWorks Science</span>. Retrieved from <br><span target='blank' style=' word-break: break-all'>https://science.howstuffworks.com/light9.htm</span></span>"
+                },
+           
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580410/580410_Physics_whyShouldICare.svg",
+                  "altText": "A strip of small LED lights",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Circuits</button> are an integral part of modern life. Built into the infrastructure of modern towns, circuits carry <button class='glossary-text'>power</button> to homes and businesses, control the flow of traffic, and extend the number of workable hours by providing light at night. More complicated electrical circuits, such as those found in radios and computers, have intricate circuits that allow them to perform complicated functions, process and transfer complex information, and generally make life more convenient. However, regardless of their complexity, all circuits work according to the same basic principles (Figure 1)."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580410/580410_Physics_fig_001.svg",
+                  "imgDivWidth": "313px",
+                  "maxWidth": "363px",
+                  "scrollImg": true,
+                  "altText": "Figure 1: A multimeter device attached to two probes by wires is resting on a complex circuit board"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "A <span class=bodyFontBold>circuit</span> is a complete path or loop that allows for the transfer of <button class='glossary-text'>charge</button>. For a charge to flow, the circuit must be complete."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "A simple circuit requires three elements:<ol style='margin-bottom:0px'><li>A <button class='glossary-text'>voltage</button> source which provides the force to move charge through the circuit</li><li>A conductive path which connects the elements or components in a circuit</li><li>A load or <button class='glossary-text'>resistance</button> which uses electricity to do work</li></ol>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The most basic function of a circuit is to transfer charge, which is a physical quantity like mass, time, or distance. There are two types of charge—positive and negative. Objects with like charge repel each other, while objects with dissimilar charge are attracted to each other."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Electrical circuits allow charge to flow through various components connected by wires. This charge is carried by electrons in the metal atoms that compose the wires. The electrons are in constant random motion until an <button class='glossary-text'>electric field</button> is established, at which point the electrons follow the <span class=bodyFontBold>electric field</span>. As they move through the circuit, the electrons transfer charge."
+                }
+              
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>The force that drives the charged electrons through a <button class='glossary-text'>circuit</button> is called an <button class='glossary-text'>electrical potential</button> or <button class='glossary-text'>voltage</button>. A <button class='glossary-text'>battery</button> is a source of electrical potential. When a lamp is connected to a battery, the difference in electrical potential between the positive and negative side of the battery draws the negatively charged electrons through the circuit, providing energy to light the lamp. When a circuit is complete, the electrical potential or voltage causes <button class='glossary-text'>charge</button> to move through the circuit. This movement of charge is called a <button class='glossary-text'>current</button>. Electrical current is simply an expression of the number of electrons passing a certain point in the circuit in a certain amount of time. The amount of current is measured in Amperes, which is abbreviated as amp (A). An amp is equal to the number of coulombs (a unit of charge) per second.</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580410/580410_Physics_Equation_001.svg",
+                  "imgDivWidth": "103px",
+                  "maxWidth": "135px",
+                  "scrollImg": true,
+                  "altText": "Equation 1: [A] equal C divided by s"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "One <button class='glossary-text'>coulomb (C)</button> is a very large amount of charge. For example, an average lightning bolt may transfer approximately 15 coulombs of charge. The <button class='glossary-text'>elementary charge</button> is the charge of one electron (e), which is equal to 1.602 × 10<sup class='bodySupscript'>−19</sup> C. The current moving through a circuit is often measured in milliamps (1 mA = 1 A × 10<sup class='bodySupscript'>−3</sup>) or microamps (1 μA = 1 A × 10<sup class='bodySupscript'>−6</sup>). These relatively small units demonstrate that miniscule amounts of charge flow through circuits at any time. However, some circuits, such as those carried by <button class='glossary-text'>power</button> lines, conduct large currents and can be dangerous."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span style='padding-bottom:5px;display:block;'>Voltage and <button class='glossary-text'>current</button> are related to each other through another quantity called <button class='glossary-text'>resistance</button>, which is a measure of how much an object opposes the flow of current. This relationship is described by <button class='glossary-text'>Ohm’s law</button>, which states.</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580410/580410_Physics_Equation_002.svg",
+                  "imgDivWidth": "101px",
+                  "maxWidth": "140px",
+                  "scrollImg": true,
+                  "altText": "Equation 2: V equal I times R"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "V = voltage (<button class='glossary-text'>electrical potential</button>, measured in Volts [V])<br>I = current (measured in Amperes or amps [A])<br>R = resistance (measured in Ohms [Ω])"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580410/580410_Physics_fig_002.svg",
+                  "imgDivWidth": "233px",
+                  "maxWidth": "274px",
+                  "scrollImg": true,
+                  "altText": "Figure 2: A diagram of a circuit with one resistor"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Figure 2 shows the simplest <button class='glossary-text'>circuit</button>. The lines in the diagram represent wires, while the arrow indicates the flow of <button class='glossary-text'>current</button>. The symbol in Figure 3 represents a resistor, and the symbol in Figure 4 represents a <button class='glossary-text'>voltage</button> source."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580410/580410_Physics_fig_003.svg",
+                  "imgDivWidth": "262px",
+                  "maxWidth": "298px",
+                  "scrollImg": true,
+                  "altText": "Figure 3: The symbol for a resistor",
+                  "desc": "Figure 3: The symbol for a resistor"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580410/580410_Physics_fig_004.svg",
+                  "imgDivWidth": "262px",
+                  "maxWidth": "292px",
+                  "scrollImg": true,
+                  "altText": "Figure 4: The symbol for a voltage source",
+                  "desc": "Figure 4: The symbol for a voltage source"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "In Figure 4, the longer line represents the positive terminal and the shorter line represents the negative terminal."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "A circuit is a complete path or loop that allows for the transfer of charge. For a charge to flow, the circuit must be complete. Which of the following is NOT required to complete a simple circuit?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "a current",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "a voltage source which provides the force to move charge through the circuit",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "a conductive path which connects the elements or components in a circuit",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "a load or resistance which uses electricity to do work",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "All of these are required to complete a circuit.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "When a circuit is complete, the electrical potential or voltage causes charge to move through the circuit, which movement is called a current."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What do the lines in this diagram represent?",
+                  "imageData": {
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_002.svg",
+                    "desc": "Figure 2: A diagram of a circuit with one resistor",
+                    "altText": "Figure 2: A diagram of a circuit with one resistor",
+                    "imgDivWidth": "224px",
+                    "maxWidth": "274px",
+                    "scrollImg": true
+                  },
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "wires",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "flow of current",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "a resistor",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "voltage source",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "current type",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The lines in the diagram represent wires, while the arrow indicates the flow of current. The symbol labeled R<sub class='bodysubscript'>1</sub> represents a resistor and the symbol labeled V represents a voltage source."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "The essential elements of a basic electrical circuit consist of a source, load, and ground. Electrical circuits allow charge to flow through various components connected by wires. This charge is carried by electrons in the metal atoms that compose the wires.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580410/580410_Physics_fig_002.svg",
+                      "alt": "Figure 2: A diagram of a circuit with one resistor",
+                      "maxWidth": "240px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "The essential elements of a basic electrical circuit consist of a source, load, and ground. Electrical circuits allow charge to flow through various components connected by wires. This charge is carried by electrons in the metal atoms that compose the wires.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580410/580410_Physics_fig_002.svg",
+                      "alt": "Figure 2: A diagram of a circuit with one resistor",
+                      "maxWidth": "240px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The <button class='glossary-text'>circuits</button> shown throughout this lab are <button class='glossary-text'>Direct Current (DC)</button> circuits, which entail any given loop of the circuit having the <button class='glossary-text'>current</button> flowing in one direction. Batteries provide a source of a direct current. The current delivered from <button class='glossary-text'>power</button> stations is an <button class='glossary-text'>Alternating Current (AC)</button> which is a current that oscillates back and forth between a positive and negative <button class='glossary-text'>voltage</button>, changing directions very quickly. The advantage to having an alternating current is that it can be transmitted over greater distances without losing much energy. Electrical devices that require a direct current have power supplies that transform the AC output from wall outlets to a lower voltage, as well as convert the current to DC."
+                },
+                {
+                  "type": "Box",
+                  "text": "<span class=bodyFontBold>Note:</span> When analyzing and drawing circuits, the direction of current follows the flow of positive <button class='glossary-text'>charges</button>. This is known as “<button class='glossary-text'>conventional current</button>.” In reality, the positive charges in atoms are due to the protons in the nucleus, which do not move when a circuit is connected. When a circuit is connected, it is the electrons in the outer energy levels of atoms that move. The electrons carry a negative charge, so electric current is a flow of negative charge. When this happens, it has the net effect of a positive charge flowing in the opposite direction. Electrical power systems and appliances were already in wide use before this discovery was made, and it had been assumed that current was due to a flow of positive charge; so by convention, people agreed to keep using positive current. The arrows indicating the flow of current on diagrams in this document are all indicating the flow of positive,“conventional” current."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span style='padding-bottom:5px;display:block;'>When different components or devices are connected in a circuit, they draw energy. This energy can be used to run a motor or power a computer, but in all cases, some of this energy is converted to heat. A light lamp converts electrical energy to heat and light. The intensity of a light lamp, which is indicated through its brightness, depends on the power dissipated throughout the lamp. The <span class=bodyFontBold>power</span> dissipated through the lamp, or any resistor, depends on the voltage across this resistor and the current through the resistor.</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580410/580410_Physics_Equation_003.svg",
+                  "imgDivWidth": "105px",
+                  "maxWidth": "135px",
+                  "scrollImg": true,
+                  "altText": "Equation 3: P equal V times I"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "P = power (measured in Watts [W])<br>V = voltage (<button class='glossary-text'>electrical potential</button>, measured in Volts [V])<br>I = current (measured in Amperes or amps [A])"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Just like mechanical energy, power translates into Joules per second, demonstrating that it is a measure of energy per unit time."
+                }      
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580410/580410_Physics_Equation_004.svg",
+                  "imgDivWidth": "235px",
+                  "maxWidth": "330px",
+                  "scrollImg": true,
+                  "altText": "Equation 4: [P] equal [V] times [S] equal J divided by  C times C divided by s equal J divided by s equal W"
+                },
+                {
+                  "type": "Plain",
+                  "text": "In addition to <button class='glossary-text'>Ohm’s law</button>, Kirchhoff’s rules can be used for analyzing <button class='glossary-text'>voltage</button> and <button class='glossary-text'>current</button> in a <button class='glossary-text'>circuit</button>:<ol style='margin-bottom:0px'><li><button class='glossary-text'>Kirchhoff’s voltage rule</button>:<br> The sum of the <button class='glossary-text'>electrical potential</button> differences around any closed loop in a circuit is zero.</li><li><button class='glossary-text'>Kirchhoff’s current rule</button>:<br> The current flowing into a junction must equal the current flowing out of a junction.</li></ol>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "The following labs in this manual include a series of increasingly complex circuits that will illustrate the relationship and differences between voltage and current by applying the principles of Ohm’s law and Kirchhoff’s rules."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What does Kirchhoff’s voltage rule state?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The sum of the electrical potential differences around any closed loop in a circuit is zero.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The current flowing into a junction must equal the current flowing out of a junction.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "V=IR",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Power (P) is measured in Watts [W].",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Power (P) translates into Joules per second (J/s).",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Kirchhoff’s voltage rule states that the sum of the electrical potential differences around any closed loop in a circuit is zero."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following principles will you apply in this investigation?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Ohm’s law and Kirchhoff’s rules",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Kirchhoff’s voltage rule only",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Kirchhoff’s current rule only",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Kirchhoff’s rules only",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Ohm’s law only",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The labs in this manual include a series of increasingly complex circuits that will illustrate the relationship and differences between voltage and current by applying the principles of Ohm’s law and Kirchhoff’s rules."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Voltage and current are related to each other through another quantity called resistance, which is a measure of how much an object opposes the flow of current. This relationship is described by Ohm’s law, which states V=IR. Kirchhoff’s voltage rule states the sum of the electrical potential differences around any closed loop in a circuit is zero. Kirchhoff’s current rule states that the current flowing into a junction must equal the current flowing out of a junction. The following labs in this manual include a series of increasingly complex circuits that will illustrate the relationship and differences between voltage and current."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Voltage and current are related to each other through another quantity called resistance, which is a measure of how much an object opposes the flow of current. This relationship is described by Ohm’s law, which states V=IR. Kirchhoff’s voltage rule states the sum of the electrical potential differences around any closed loop in a circuit is zero. Kirchhoff’s current rule states that the current flowing into a junction must equal the current flowing out of a junction. The following labs in this manual include a series of increasingly complex circuits that will illustrate the relationship and differences between voltage and current."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "altText": "A map of the procedural workflow for activities 1-2 of this investigation. To prepare, cut and strip the wires. Then, test the batteries, lamps and clips in the circuit. In activity 1, assemble a series circuit with lamp, batteries, wires and clips. Then, observe the brightness of the lamp and record your observations. Next, photograph and disconnect the circuit. Then, add an additional lamp and repeat the process. Once you have observed circuits with R1, R2 and R3 lamps, disconnect the circuit. In activity 2, assemble a parallel circuit with lamps, batteries, wires and clips. Then, observe the brightness of the lamps and record your observations. Next, photograph the circuit. Then, unscrew one lamp, observe the brightness of the other lamp and record your observations. Next, disconnect the circuit. Then, add an additional lamp in parallel and repeat the process. Once you have observed circuits with R1, R2 and R3 lamps, you will disconnect the circuit. Proceed to activity 3.",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Physics/580410/580410_Physics_ED_001.svg",
+                  "imgDivWidth": "100%",
+                  "maxWidth": "1741px",
+                  "scrollImg": true
+                }
+              ]
+            },
+            {
+              "title": "Experimental Design (cont... )",
+              "pageTitle": "Experimental Design (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "altText": "A map of the procedural workflow for activities 3-4 of this investigation. After completing activity 2, in activity 3, assemble a series and parallel combination circuit. Then, observe the brightness of the lamps and record your observations. Next, photograph the circuit. Then, unscrew the specified lamp, observe the brightness of the other lamps and record your observations. Repeat the process to test both the R1 and R2 lamps. In Activity 4, assemble a series and parallel combination circuit. Then, observe the brightness of the lamps and record your observations. Next, photograph the circuit. Then, unscrew the specified lamp, observe the brightness of the other lamps and record your observations. Repeat the process to test the R1, R2 and R4 lamps. Record the resistors from brightest to dimmest, then disconnect the circuit. Proceed to Activity 5.",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Physics/580410/580410_Physics_ED_002.svg",
+                  "imgDivWidth": "100%",
+                  "maxWidth": "1679px",
+                  "scrollImg": true
+                }
+              ]
+            },
+            {
+              "title": "Experimental Design (cont... )",
+              "pageTitle": "Experimental Design (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "altText": "A map of the procedural workflow for activity 5. After completing activity 4, in activity 5, assemble a series and parallel combination circuit. Then, observe the brightness of the lamps and record your observations. Next, photograph the circuit. Then, unscrew the specified lamp, observe the brightness of the other lamps and record your observations. Repeat the process to test both the R1 and R3 lamps. Record the resistors from brightest to dimmest, then disconnect the circuit.",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Physics/580410/580410_Physics_ED_003.svg",
+                  "imgDivWidth": "58%",
+                  "maxWidth": "991px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "58%",
+                    "L": "58%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "85%",
+                    "L": "85%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "5 Battery holders",
+                          "image": "courses_2023/Physics/580410/580410_Physics_material_1.svg",
+                          "altText": "Single battery holder"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "D cell batteries",
+                          "image": "courses_2023/Physics/580410/580410_Physics_material_2.svg",
+                          "altText": "D cell battery"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Magnetic wire,#28",
+                          "image": "courses_2023/Physics/580410/580410_Physics_material_3.svg",
+                          "altText": "Magnetic wire"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Sandpaper",
+                          "image": "courses_2023/Physics/580410/580410_Physics_material_4.svg",
+                          "altText": "Sandpaper"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "10 Miniature lamps",
+                          "image": "courses_2023/Physics/580410/580410_Physics_material_5.svg",
+                          "altText": "Miniature lamps"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "5 Lamp sockets",
+                          "image": "courses_2023/Physics/580410/580410_Physics_material_6.svg",
+                          "altText": "Bulb holder"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "2 Alligator clips/black electrodes",
+                          "image": "courses_2023/Physics/580410/580410_Physics_material_7.svg",
+                          "altText": "Black electrode"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [
+                            "Scissors",
+                            "Ruler",
+                            "Tape (recommended but not required)"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span> <span className=bodyParaLineBreak></span> <span className=bodyParaLineBreak></span> Replacement supplies for the Series and Parallel Circuits investigation (item number 580410) can be ordered from Carolina Biological Supply Company.<span className=bodyParaLineBreak></span> <span className=bodyMediumSubHeading>Call:</span> 866.332.4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "isCheckPoint": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Safety goggles should be worn during this investigation. There are no additional safety concerns."
+                },
+                {
+                  "type": "Image",
+                  "desc": "goggles symbol",
+                  "altText": "goggles symbol",
+                  "image": "core/Key_Goggle.svg",
+                  "imgDivWidth": "78px",
+                  "maxWidth": "120px"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Read all of the instructions for this laboratory activity before starting the activity. Follow the instructions closely and observe established laboratory safety practices, including the use of appropriate personal protective equipment (PPE) described in the Safety and Procedure section."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The components included in this kit use low <button class='glossary-text'>voltage</button> and <button class='glossary-text'>current</button> and are safe to handle. Do not substitute other components with this kit."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Connecting <button class='glossary-text'>circuits</button> for extended periods of time can cause wires or components to overheat or batteries to leak. Keep the circuits connected only as long as is needed to complete the analysis, and then disconnect the alligator clip from the batteries."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Do not eat, drink, or chew gum while performing this activity. Wash your hands with soap and water before and after performing the activity. Clean up the work area with soap and water after completing the investigation. Keep pets and children away from lab materials and equipment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.</span>",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What will happen to the voltage when the current stays the same and the resistance is increased?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The voltage will increase.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The voltage will decrease.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "There will be no change.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The voltage will cause a reversal in current.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "More information is needed to answer.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the difference between AC and DC?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "In AC the current oscillates between negative and positive charge, while in DC it stays the same.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "In AC the resistance is close to zero, while in DC the resistance is much greater.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "In DC the voltage is always higher than the amperage, in AC they are the same.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "In DC the current goes clockwise, while in AC the current goes counterclockwise.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "In DC the current oscillates between positive and negative, while in AC it stays the same.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is a safety warning associated with this investigation?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Do not substitute other components with this kit.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Keep the circuits stored in the refrigerator when not in use.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The batteries included in this investigation are highly flammable.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Conduct this investigation in a well-ventilated area.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The components included in this kit use high voltage and current.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is a parallel circuit?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "A circuit where the current can take several paths.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "A circuit where everything is in one line.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "An open circuit that is not connected to the power source.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "A circuit where the same current goes through every resistor.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "A circuit where there are no resistors.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is moving in a current?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "electrons",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "resistance",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "protons",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "watts",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "voltage",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is an elementary charge?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "the charge of one electron",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "the charge in one volt",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "the charge of a circuit",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "the charge of one resistor",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "the charge in one watt",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "In a circuit which is in series, how does the current go through three different lamps?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The current passes from one lamp to the next.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The current will alternate between one lamp and the next.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The current will increase from one lamp to the next.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The current will not go through the lamps.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The current will be used up as it moves through the lamps.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What does Kirchhoff’s second rule say about current?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The current flowing into the junction must equal the current flowing out of a junction.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The current flowing into a junction is greater than the current flowing out of the junction.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The current flowing into the junction is smaller than the current flowing out of the junction.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The current flowing through a junction flows faster going out.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The current flowing through a junction will dissipate when flowing out of a junction.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (8 steps)",
+              "pageTitle": "Preparation (8 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "keyID": "prep",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "text": "The circuits in these activities use lamps as resistors. All of the lamps and sockets are identical so that each lamp can be considered to have a <button class='glossary-text'>resistance</button> of “R” Ohms."
+                      },
+                      {
+                        "type": "Plain",
+                        "text": "Diagrams are included to show the circuits representing the lamps with the resistor symbol and the <button class='glossary-text'>battery</button> with the <button class='glossary-text'>voltage</button> symbol. Photographs are also included of the assembled circuits showing exactly how the lamp sockets are connected."
+                      },
+                      {
+                        "type": "Plain",
+                        "text": "There is one voltage source in each <button class='glossary-text'>circuit</button>, which can be considered as having volts (V)."
+                      },
+                      {
+                        "type": "Plain",
+                        "text": "By adding resistors and loops to the circuit, the <button class='glossary-text'>current</button> through the lamps and voltage across the lamps will change."
+                      },
+                      {
+                        "type": "Plain",
+                        "text": "Since the brightness of the lamp depends on <button class='glossary-text'>power</button>, and power depends on current and voltage, changing the current and voltage in different parts of the circuit will change the relative brightness of the lamps."
+                      },
+                      {
+                        "type": "Box",
+                        "text": "<span class=bodyFontBold>Note:</span> The brightness of the lamps depends on power, which depends on both current and voltage. Power through a resistor is represented as:<span className=bodyParaLineBreak>P = VI = <span className=bodyFraction><span>V<sup class='bodySupscript'>2</sup></span> <span className=symbol>/</span><span className=bottom>R</span></span> = I<sup class='bodySupscript'>2</sup>R"
+                      }
+                    ],
+                    "text": "Use scissors to cut the copper wire into 10 strips that are each 10 cm long."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the sandpaper to remove the enamel from the last 3 cm of each end of each piece of wire. <span class=bodyFontBold>Make sure the enamel is cleared from all sides of the wire</span>. Watch the following video on how to strip magnet wire."
+                  },
+                  {
+                    "type": "Video",
+                    "imgDivWidth": "200px",
+                    "image": "courses_2023/Physics/580410/580410_Physics_VideoIcone_1.svg",
+                    "desc": "Stripping a Magnet Wire",
+                    "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4573412165001"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Insert a battery into a battery holder."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Screw a miniature lamp into each one of the miniature sockets as shown in Figures 5 and 6. The metal tip at the base of the bulb should contact the metal plate on the lamp socket."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_005.svg",
+                    "imgDivWidth": "318px",
+                    "maxWidth": "363px",
+                    "scrollImg": true,
+                    "altText": "Figure 5: A lamp holder and socket with a copper wire looped through and tied around the metal clip of the socket"
+                  },
+                  {
+                    "type":"Box",
+                    "text": "<span class=bodyFontBold>Tip:</span> Make sure the terminals on the lamp holders are not touching, and screw in the light bulb until the base of the bulb touches the contact on the lamp holder."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_006.svg",
+                    "imgDivWidth": "318px",
+                    "maxWidth": "361px",
+                    "scrollImg": true,
+                    "altText": "Figure 6: A lamp holder and socket with a copper wire looped through and twisted around the socket's metal clip, like a twist tie"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Connect one of the wires to each terminal of the lamp sockets by pressing down on the metal clip and sliding the magnetic wire through it (see Figure 5). The connection needs to be secure, so you may need to fold or twist the end of the copper wire so that it is a little thicker. Alternatively, tie the wire around the socket’s wire clip as shown in Figure 6."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Connect one end of the alligator clip/black electrode to the end of one piece of attached magnet wire. Attach the other end to one of the metal “ears” at the end of the battery holder."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Connect the other alligator clip/black electrode wire to the open magnetic wire and the open “ear” on the battery holder. The light bulb should illuminate. For further troubleshooting see “Troubleshooting Tips” at the end of this Preparation section."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Once you have a good connection, remove the end of one alligator clip/black electrode from the battery holder and unscrew the bulb from the holder. Check each of your remaining bulbs to ensure they illuminate. If one or two do not, don’t worry—your set includes extra bulbs."
+                  },
+                  {
+                    "type":"Box",
+                    "text": "<span class=bodyFontBold>Note:</span> Only leave circuits connected long enough to observe the brightness of each light. Using too high a voltage or leaving the circuit connected too long may burn out the lamps."
+                  },
+                  {
+                    "type":"Box",
+                    "text": "<span class=bodyFontBold>Troubleshooting Tips:</span> If at any time you feel the bulb is too dim to see, troubleshoot using the following steps:<ol style='margin-bottom:0px'><li>Make sure the bulb is neither loose nor off-center. If you suspect a bulb is defective or may have burned out, use the circuit shown in Figures 8 and 9 to test the bulb. If the bulb does not work, replace it.</li><li>Ensure that the wires and other circuit components all have stable connections. You may need to pull gently on the wires to tighten the connections. Once the connection is stable, you may wish to tape the lamp sockets to the work surface to help hold the circuit together.</li><li>If Steps a and b do not work, then add one additional battery and battery holder to the system. The battery holders snap together. The alligator clips should attach to the outermost “ears” on the holder, as shown in Figure 7. Add just one battery and holder at a time until the bulb brightens. Connecting an excessive number of batteries without testing may blow out the bulb.</li></ol>"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_007.svg",
+                    "imgDivWidth": "343px",
+                    "maxWidth": "382px",
+                    "scrollImg": true,
+                    "altText": "Figure 7: A circuit with two resistors; battery holders are also shown, with alligator clips connected to the battery holders"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_008.svg",
+                    "imgDivWidth": "343px",
+                    "maxWidth": "385px",
+                    "scrollImg": true,
+                    "altText": "Figure 8: A diagram of a circuit with one resistor"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_009.svg",
+                    "imgDivWidth": "262px",
+                    "maxWidth": "298px",
+                    "scrollImg": true,
+                    "altText": "Figure 9: A photo of a circuit with one resistor, which is represented by a lamp; alligator clips are connected to the circuit"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will assemble a series <button class='glossary-text'>circuit</button> and observe the brightness of the lightbulb. You will then add additional lightbulbs in series and observe the brightness of the lightbulbs for each new circuit."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Resistors in Series",
+              "pageTitle": "Resistors in Series",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "activity1",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>A</div>&nbsp;One Resistor in Series (4 steps)"
+                      }
+                    ],
+                    "text": "Construct the <button class='glossary-text'>circuit</button> as shown in Figures 8 and 9 using one lamp, one lamp receptacle, and one <button class='glossary-text'>battery</button> in a battery holder. Connect the alligator clips/black electrodes as shown in Figure 9."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_008.svg",
+                    "imgDivWidth": "343px",
+                    "maxWidth": "385px",
+                    "scrollImg": true,
+                    "altText": "Figure 8: A diagram of a circuit with one resistor"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_009.svg",
+                    "imgDivWidth": "262px",
+                    "maxWidth": "298px",
+                    "scrollImg": true,
+                    "altText": "Figure 9: A photo of a circuit with one resistor, which is represented by a lamp; alligator clips are connected to the circuit"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Screw in the lamp, then connect the remaining ends of the alligator clips/black electrodes to the battery holder."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Observe the brightness of the lamp; then, record your observations in the Lab Notebook. Take a photograph of the circuit while it is connected.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],   
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Disconnect the circuit by unhooking one of the alligator clips from the battery."
+                  },
+                  {
+                    "type":"Box",
+                    "text": "<span class=bodyFontBold>Note:</span> The circuit constructed for Activity 1A may be set aside. It may be necessary to use this circuit in other investigations to check a bulb to see if it is burned out or is still functional."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "startNewNumber": true,
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>B</div>&nbsp;Two Resistors in Series (4 steps)"
+                      }
+                    ],
+                    "text": "Assemble a circuit with two lamps in series as shown in Figures 10 and 11. Connect the wires by twisting them together as shown in Figure 11."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_010.svg",
+                    "imgDivWidth": "348px",
+                    "maxWidth": "385px",
+                    "scrollImg": true,
+                    "altText": "Figure 10: A circuit with two resistors, which are represented by two identical lamps"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_011.svg",
+                    "imgDivWidth": "361px",
+                    "maxWidth": "404px",
+                    "scrollImg": true,
+                    "altText": "Figure 11: A circuit with two resistors, which are represented by two identical lamps"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Photograph the circuit while all the lamps are connected.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Unscrew the lamp in the position of R<sub class='bodysubscript'>1</sub>. Photograph the circuit and record your observations in the Lab Notebook",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Disconnect the circuit by unhooking one of the alligator clips from the battery pack."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "startNewNumber": true,
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>C</div>&nbsp;Three Resistors in Series (5 steps)"
+                      }
+                    ],
+                    "text": "Connect three lamps in series as shown in Figures 12 and 13."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_012.svg",
+                    "imgDivWidth": "352px",
+                    "maxWidth": "402px",
+                    "scrollImg": true,
+                    "altText": "Figure 12: A diagram of a circuit with three resistors in a series"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_013.svg",
+                    "imgDivWidth": "386px",
+                    "maxWidth": "425px",
+                    "scrollImg": true,
+                    "altText": "Figure 13: A circuit with three resistors in a series; alligator clips are connected to the ends"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Observe the brightness of the lamps; then, record your observations in the Lab Notebook"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Photograph the circuit while all of the lamps are connected.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Unscrew the lamp at position of R<sub class='bodysubscript'>1</sub>, and observe what happens to the remaining lamps. Photograph the circuit and record your observations in the Lab Notebook.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Disconnect the circuit by removing one of the alligator clips from the batteries."
+                  }
+                ]
+              
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will assemble a parallel <button class='glossary-text'>circuit</button> and observe the brightness of the lightbulbs. You will then add an additional lightbulb in parallel and observe the brightness of the lightbulbs for each new circuit. You will also disconnect one of the lightbulbs in the parallel circuits and observe how the brightness of the remaining bulbs changes."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "Resistors in Parallel",
+              "pageTitle": "Resistors in Parallel",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "activity2",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "PlainImage",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>A</div>&nbsp;Two Resistors in Parallel (6 steps)"
+                      }
+                    ],
+                    "text": "Connect two lamps in parallel as shown in Figures 14 and 15."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_014.svg",
+                    "imgDivWidth": "369px",
+                    "maxWidth": "412px",
+                    "scrollImg": true,
+                    "altText": "Figure 14: A diagram of a circuit with two resistors in parallel"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_015.svg",
+                    "imgDivWidth": "365px",
+                    "maxWidth": "409px",
+                    "scrollImg": true,
+                    "altText": "Figure 15: A circuit with two resistors in parallel, with alligator clips connected to the ends"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Connect the two lamps to the <button class='glossary-text'>battery</button> pack."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Observe the brightness of the lamps; then, record your observations in the Lab Notebook"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Photograph the <button class='glossary-text'>circuit</button> with all of the lamps connected.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Unscrew the lamp in the position of R<sub class='bodysubscript'>1</sub>. Photograph the circuit and record your observations in the Lab Notebook.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Disconnect the circuit by removing one of the alligator clips from the batteries."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "startNewNumber":true,
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>B</div>&nbsp;Three Resistors in Parallel (4 steps)"
+                      }
+                    ],
+                    "text": "Connect three lamps in parallel as shown in Figures 16 and 17."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_016.svg",
+                    "imgDivWidth": "309px",
+                    "maxWidth": "342px",
+                    "scrollImg": true,
+                    "altText": "Figure 16: A diagram of three resistors in parallel"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_017.svg",
+                    "imgDivWidth": "292px",
+                    "maxWidth": "317px",
+                    "scrollImg": true,
+                    "altText": "Figure 17: A circuit with three resistors in parallel; alligator clips are connected to the ends"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Observe the brightness of the lamps. Photograph the circuit and record your observations in the Lab Notebook.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Disconnect the lamp in the position of R<sub class='bodysubscript'>1</sub>. Photograph the circuit and record your observations in the Lab Notebook.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Disconnect the circuit by removing one of the alligator clips from the batteries."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 3",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 3, you will assemble a <button class='glossary-text'>circuit</button> with a combination of parallel and series lightbulbs and observe the brightness of the lightbulbs. You will then disconnect designated light bulbs and observe how the brightness of the remaining bulbs changes."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 3",
+          "pages": [
+            {
+              "title": "Circuits with Resistors in Series and Parallel #1",
+              "pageTitle": "Circuits with Resistors in Series and Parallel #1 (7 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "activity3",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Construct the <button class='glossary-text'>circuit</button> as shown in Figures 18 and 19."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_018.svg",
+                    "imgDivWidth": "309px",
+                    "maxWidth": "342px",
+                    "scrollImg": true,
+                    "altText": "Figure 18: A diagram of a circuit with resistors in series and parallel"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_019.svg",
+                    "imgDivWidth": "326px",
+                    "maxWidth": "362px",
+                    "scrollImg": true,
+                    "altText": "Figure 19: A circuit with three resistors; one is in a series and two are in parallel with each other"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Observe the brightness of the lamps. Photograph the circuit while all of the lamps are connected and record your observations in the Lab Notebook.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Disconnect the lamp in the position of R<sub class='bodysubscript'>1</sub>."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Disconnect the lamp in the position of R1. Photograph the circuit and record your observations in the Lab Notebook.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Reconnect the lamp in position R<sub class='bodysubscript'>1</sub>."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Disconnect the lamp in position R<sub class='bodysubscript'>2</sub>. Photograph the circuit and record your observations in the Lab Notebook.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Disconnect the circuit by removing one of the alligator clips from the batteries."
+                  }
+                ]
+                
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 4",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 4, you will repeat steps similar to Activity 3 for a different combination <button class='glossary-text'>circuit</button>."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 4",
+          "pages": [
+            {
+              "title": "Circuits with Resistors in Series and Parallel #2",
+              "pageTitle": "Circuits with Resistors in Series and Parallel #2 (13 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "activity4",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Construct the <button class='glossary-text'>circuit</button> as shown in Figures 20 and 21."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_020.svg",
+                    "imgDivWidth": "309px",
+                    "maxWidth": "337px",
+                    "scrollImg": true,
+                    "altText": "Figure 20: A diagram of a circuit with four resistors; one is in a series and three are in parallel with each other"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_021.svg",
+                    "imgDivWidth": "361px",
+                    "maxWidth": "400px",
+                    "scrollImg": true,
+                    "altText": "Figure 21: A circuit with four resistors; one is in a series and three are in parallel with each other"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Photograph the circuit while all of the lamps are connected.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "In <span class=bodyFontBold>Data Table 1</span>, write the name of the remaining resistors in order from brightest to dimmest."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Disconnect the lamp in position R<sub class='bodysubscript'>1</sub>. Observe the brightness of the lamps and photograph the circuit.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "In <span class=bodyFontBold>Data Table 2</span>, write the name of the remaining resistors in order from brightest to dimmest."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Reconnect resistor R<sub class='bodysubscript'>1</sub>."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Disconnect resistor R<sub class='bodysubscript'>2</sub> and take a photograph of the circuit.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "In <span class=bodyFontBold>Data Table 3</span>, write the name of each resistor in order from brightest to dimmest."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Reconnect resistor R<sub class='bodysubscript'>2</sub>."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Disconnect resistor R<sub class='bodysubscript'>4</sub> and photograph the circuit.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "In <span class=bodyFontBold>Data Table 4</span>, write the name of each resistor in order from brightest to dimmest."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Disconnect the circuit by unhooking one of the alligator clips from the <button class='glossary-text'>battery</button> pack."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record your observations in the Lab Notebook."
+                  }
+                ]
+                
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 5",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 5, you will repeat steps similar to Activities 3 and 4 for a different combination <button class='glossary-text'>circuit</button>."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 5",
+          "pages": [
+            {
+              "title": "Circuits with Resistors in Series and Parallel #3",
+              "pageTitle": "Circuits with Resistors in Series and Parallel #3 (8 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "activity5",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Construct the <button class='glossary-text'>circuit</button> as shown in Figures 22 and 23."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_022.svg",
+                    "imgDivWidth": "305px",
+                    "maxWidth": "335px",
+                    "scrollImg": true,
+                    "altText": "Figure 22: A diagram of a circuit with four resistors; one is in a series and three are in parallel with each other"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580410/580410_Physics_fig_023.svg",
+                    "imgDivWidth": "361px",
+                    "maxWidth": "400px",
+                    "scrollImg": true,
+                    "altText": "Figure 23: A circuit with four resistors; one is in a series and three are in parallel with each other"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Observe the brightness of each lamp. Record your observations in the Lab Notebook. Photograph the circuit with all the lamps connected. In <span class=bodyFontBold>Data Table 5</span>, write the name of each resistor in order from brightest to dimmest.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Disconnect resistor R<sub class='bodysubscript'>1</sub>. Observe the brightness of the lamps.Photograph the circuit and record your observations in the Lab Notebook.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "In <span class=bodyFontBold>Data Table 6</span>, write the name ofthe remaining resistors in order from brightest to dimmest."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Reconnect resistor R<sub class='bodysubscript'>1</sub>."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Disconnect resistor R<sub class='bodysubscript'>3</sub>. Observe the brightness of the lamps. Photograph the circuit and record your observations in the Lab Notebook.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "In <span class=bodyFontBold>Data Table 7</span>, write the name of each resistor in order from brightest to dimmest."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Disconnect the circuit by unhooking one of the alligator clips from the <button class='glossary-text'>battery</button> pack."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                  "text": [
+                    "Make sure the alligator clips are detached from the terminal.",
+                    "Carefully unscrew the lamps from the socket. Put them back in the lamp container.",
+                    "Dispose of any burned out lamps in the trash receptacle.",
+                    "Take the batteries out of the <button class='glossary-text'>battery</button> holder.",
+                    "Put everything back into the materials kit. Clean up the work area."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "altText": "completion",
+                  "desc": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Physics_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "landscape A4"
+    },
+    "pages": [
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "Question1",
+          "Question2",
+          "Question3"
+        ],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Observations"
+              },
+              {
+                "type": "Plain",
+                "text": "Activity 1A – One Resistor in Series"
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 300,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "width": "65%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Activity 1B – Two Resistors in Series"
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 1,
+                "maxLength": 300,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question3",
+            "width": "65%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Activity 1C – Three Resistors in Series"
+              },
+              {
+                "type": "Questions",
+                "id": "Question3",
+                "sr": 2,
+                "maxLength": 300,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Activity1Upload1",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Photos"
+              },
+              {
+                "type": "Plain",
+                "text": "Upload your photos from each of the Activity 1 steps below."
+              },
+              {
+                "type": "Plain",
+                "text": "Activity 1A Step 3"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Activity1Upload2",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Activity 1B Step 2"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Activity1Upload3",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Activity 1B Step 3"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 2,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Activity1Upload4",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Activity 1C Step 3"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 3,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Activity1Upload5",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Activity 1C Step 4"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 4,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "Question01",
+          "Question02",
+          "Question03"
+        ],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question01",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2"
+              },
+              {
+                "type": "Plain",
+                "title": "Observations"
+              },
+              {
+                "type": "Plain",
+                "text": "Activity 2A – Two Resistors in Parallel"
+              },
+              {
+                "type": "Questions",
+                "id": "Question01",
+                "sr": 0,
+                "maxLength": 300,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question02",
+            "width": "65%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Activity 2B – Three Resistors in Parallel"
+              },
+              {
+                "type": "Questions",
+                "id": "Question02",
+                "sr": 1,
+                "maxLength": 300,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Activity1Upload21",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2 Photos"
+              },
+              {
+                "type": "Plain",
+                "text": "Upload your photos from each of the Activity 2 steps below."
+              },
+              {
+                "type": "Plain",
+                "text": "Activity 2A Step 4"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Activity1Upload22",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Activity 2A Step 5"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Activity1Upload23",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Activity 2B Step 2"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 2,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Activity1Upload24",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Activity 2B Step 3"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 3,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "Question001"
+        ],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question001",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 3"
+              },
+              {
+                "type": "Plain",
+                "title": "Observations"
+              },
+              {
+                "type": "Plain",
+                "text": "Circuits with Resistors in Series and Parallel #1"
+              },
+              {
+                "type": "Questions",
+                "id": "Question001",
+                "sr": 0,
+                "maxLength": 300,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Activity1Upload31",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 3 Photos"
+              },
+              {
+                "type": "Plain",
+                "text": "Upload your photos from each of the Activity 3 steps below."
+              },
+              {
+                "type": "Plain",
+                "text": "Activity 3 Step 2"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Activity1Upload32",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Activity 3 Step 4"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Activity1Upload33",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Activity 3 Step 6"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 2,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 4"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1. All Lamps are Connected"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 10,
+                "sr": 0,
+                "headerHidden": true,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "50%"
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "50%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Brightest Lamp(s)"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Next Brightest"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Next Brightest"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Least Bright"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 2. Effect of Disconnecting Resistor R<sub class='bodysubscript'>1</sub>"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 10,
+                "sr": 1,
+                "headerHidden": true,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "50%"
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "50%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Brightest Lamp(s)"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Next Brightest"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Next Brightest"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Least Bright"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 3. Effect of Disconnecting Resistor R<sub class='bodysubscript'>2</sub>"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 10,
+                "sr": 2,
+                "headerHidden": true,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "50%"
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "50%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Brightest Lamp(s)"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Next Brightest"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Next Brightest"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Least Bright"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 4. Effect of Disconnecting Resistor R<sub class='bodysubscript'>4</sub>"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 10,
+                "sr": 3,
+                "headerHidden": true,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "50%"
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "50%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Brightest Lamp(s)"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Next Brightest"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Next Brightest"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Least Bright"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "Question41"
+        ],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question41",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Observations"
+              },
+              {
+                "type": "Plain",
+                "text": "Circuits with Resistors in Series and Parallel #2"
+              },
+              {
+                "type": "Questions",
+                "id": "Question41",
+                "sr": 0,
+                "maxLength": 300,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Activity1Upload41",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 4 Photos"
+              },
+              {
+                "type": "Plain",
+                "text": "Upload your photos from each of the Activity 4 steps below."
+              },
+              {
+                "type": "Plain",
+                "text": "Activity 4 Step 2"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Activity1Upload42",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Activity 4 Step 4"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Activity1Upload43",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Activity 4 Step 7"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 2,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Activity1Upload44",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Activity 4 Step 10"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 3,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 5"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 5. All Lamps are Connected"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 10,
+                "sr": 0,
+                "headerHidden": true,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "50%"
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "50%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Brightest Lamp(s)"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Next Brightest"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Next Brightest"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Least Bright"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 6. Effect of Disconnecting Resistor R<sub class='bodysubscript'>1</sub>"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 10,
+                "sr": 1,
+                "headerHidden": true,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "50%"
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "50%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Brightest Lamp(s)"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Next Brightest"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Next Brightest"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Least Bright"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 7. Effect of Disconnecting Resistor R<sub class='bodysubscript'>3</sub>"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 10,
+                "sr": 2,
+                "headerHidden": true,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "50%"
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "50%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Brightest Lamp(s)"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Next Brightest"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Next Brightest"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Least Bright"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "Question41"
+        ],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question51",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Observations"
+              },
+              {
+                "type": "Plain",
+                "text": "Circuits with Resistors in Series and Parallel #3"
+              },
+              {
+                "type": "Questions",
+                "id": "Question51",
+                "sr": 0,
+                "maxLength": 300,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Activity1Upload51",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 5 Photos"
+              },
+              {
+                "type": "Plain",
+                "text": "Upload your photos from each of the Activity 5 steps below."
+              },
+              {
+                "type": "Plain",
+                "text": "Activity 5 Step 2"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Activity1Upload52",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Activity 5 Step 3"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Activity1Upload53",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Activity 5 Step 6"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 2,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "Question61",
+          "Question62",
+          "Question63",
+          "Question64",
+          "Question65"
+        ],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question61",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "Consider the circuit from Activities 4 and 5. Based on the brightness of the lamps when they are all connected, which current is the greatest?  Which current is the smallest?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question61",
+                "sr": 0,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question62",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "2",
+                "listType": "ordered",
+                "text": [
+                  "What happens to the lamps when resistor R<sub class='bodysubscript'>1</sub> is disconnected?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question62",
+                "sr": 1,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question63",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "3",
+                "listType": "ordered",
+                "text": [
+                  "What happens to the lamps when resistor R<sub class='bodysubscript'>2</sub> or R<sub class='bodysubscript'>3</sub> is disconnected?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question63",
+                "sr": 2,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question64",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "4",
+                "listType": "ordered",
+                "text": [
+                  "What happens to the lamps when resistor R<sub class='bodysubscript'>4</sub> is disconnected?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question64",
+                "sr": 3,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question65",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "5",
+                "listType": "ordered",
+                "text": [
+                  "Which exhibits the larger voltage drop, R<sub class='bodysubscript'>1</sub> or R<sub class='bodysubscript'>4</sub>?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question65",
+                "sr": 4,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question66",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "6",
+                "listType": "ordered",
+                "text": [
+                  "Why is the voltage drop across resistor R<sub class='bodysubscript'>4</sub> greater than the voltage drop across resistor R<sub class='bodysubscript'>3</sub>?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question66",
+                "sr": 5,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question67",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "7",
+                "listType": "ordered",
+                "text": [
+                  "If all the lamps have equal resistance, what is the total resistance in the circuit?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question67",
+                "sr": 6,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question68",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "8",
+                "listType": "ordered",
+                "text": [
+                  "What would happen to the brightness of the lamps if another resistor were added in series with R<sub class='bodysubscript'>1</sub> (e.g. between points B and C).  Why?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question68",
+                "sr": 7,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 3000,
+            "title": "Notes"
+          },
+          
+          {
+            "type": "Box",
+            "id": "Box_Note",
+            "align": "center",
+            "margin": "25px 0 0 0",
+            "text": "In order for your instructor to be able to open your video links, please select the \"Save as PDF\" option rather than \"Print to PDF\"."
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6338395479112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 1. Electric circuit with multimeter",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_001.svg",
+        "altText": "Figure 1: A multimeter device attached to two probes by wires is resting on a complex circuit board",
+        "maxWidth": "363px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 1. Calculating amps",
+        "src": "courses_2023/Physics/580410/580410_Physics_Equation_001.svg",
+        "altText": "Equation 1: [A] equal C divided by s",
+        "maxWidth": "135px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 2. Ohm’s law",
+        "src": "courses_2023/Physics/580410/580410_Physics_Equation_002.svg",
+        "altText": "Equation 2: V equal I times R",
+        "maxWidth": "140px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 2. Simple circuit",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_002.svg",
+        "altText": "Figure 2: A diagram of a circuit with one resistor",
+        "maxWidth": "274px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 3. Symbol for resistance",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_003.svg",
+        "altText": "Figure 3: The symbol for a resistor",
+        "maxWidth": "298px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 4. Symbol for voltage",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_004.svg",
+        "altText": "Figure 4: The symbol for a voltage source",
+        "maxWidth": "292px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 3. Calculating power",
+        "src": "courses_2023/Physics/580410/580410_Physics_Equation_003.svg",
+        "altText": "Equation 3: P equal V times I",
+        "maxWidth": "135px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 4. Units of power",
+        "src": "courses_2023/Physics/580410/580410_Physics_Equation_004.svg",
+        "altText": "Equation 4: [P] equal [V] times [S] equal J divided by  C times C divided by s equal J divided by s equal W",
+        "maxWidth": "330px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Experimental Design Diagram",
+        "src": "courses_2023/Physics/580410/580410_Physics_ED_001.svg",
+        "altText": "A map of the procedural workflow for activities 1-2 of this investigation. To prepare, cut and strip the wires. Then, test the batteries, lamps and clips in the circuit. In activity 1, assemble a series circuit with lamp, batteries, wires and clips. Then, observe the brightness of the lamp and record your observations. Next, photograph and disconnect the circuit. Then, add an additional lamp and repeat the process. Once you have observed circuits with R1, R2 and R3 lamps, disconnect the circuit. In activity 2, assemble a parallel circuit with lamps, batteries, wires and clips. Then, observe the brightness of the lamps and record your observations. Next, photograph the circuit. Then, unscrew one lamp, observe the brightness of the other lamp and record your observations. Next, disconnect the circuit. Then, add an additional lamp in parallel and repeat the process. Once you have observed circuits with R1, R2 and R3 lamps, you will disconnect the circuit. Proceed to activity 3.",
+        "maxWidth": "1741px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Experimental Design Diagram (cont... )",
+        "src": "courses_2023/Physics/580410/580410_Physics_ED_002.svg",
+        "altText": "A map of the procedural workflow for activities 3-4 of this investigation. After completing activity 2, in activity 3, assemble a series and parallel combination circuit. Then, observe the brightness of the lamps and record your observations. Next, photograph the circuit. Then, unscrew the specified lamp, observe the brightness of the other lamps and record your observations. Repeat the process to test both the R1 and R2 lamps. In Activity 4, assemble a series and parallel combination circuit. Then, observe the brightness of the lamps and record your observations. Next, photograph the circuit. Then, unscrew the specified lamp, observe the brightness of the other lamps and record your observations. Repeat the process to test the R1, R2 and R4 lamps. Record the resistors from brightest to dimmest, then disconnect the circuit. Proceed to Activity 5.",
+        "maxWidth": "1679px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Experimental Design Diagram (cont... )",
+        "src": "courses_2023/Physics/580410/580410_Physics_ED_003.svg",
+        "altText": "A map of the procedural workflow for activity 5. After completing activity 4, in activity 5, assemble a series and parallel combination circuit. Then, observe the brightness of the lamps and record your observations. Next, photograph the circuit. Then, unscrew the specified lamp, observe the brightness of the other lamps and record your observations. Repeat the process to test both the R1 and R3 lamps. Record the resistors from brightest to dimmest, then disconnect the circuit.",
+        "maxWidth": "991px",
+        "scrollImg": true
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4573412165001",
+        "content": "Stripping a Magnet Wire"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 5. Miniature lamp in socket",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_005.svg",
+        "altText": "Figure 5: A lamp holder and socket with a copper wire looped through and tied around the metal clip of the socket",
+        "maxWidth": "363px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 6. Alternative placement of wire in wire clip",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_006.svg",
+        "altText": "Figure 6: A lamp holder and socket with a copper wire looped through and twisted around the socket's metal clip, like a twist tie",
+        "maxWidth": "361px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 7. Placement of alligator clips",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_007.svg",
+        "altText": "Figure 7: A circuit with two resistors; battery holders are also shown, with alligator clips connected to the battery holders",
+        "maxWidth": "382px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 8. Simple circuit",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_008.svg",
+        "altText": "Figure 8: A diagram of a circuit with one resistor",
+        "maxWidth": "385px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 9. Alligator clips connected to electrodes",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_009.svg",
+        "altText": "Figure 9: A photo of a circuit with one resistor, which is represented by a lamp; alligator clips are connected to the circuit",
+        "maxWidth": "298px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 10. Simple circuit with two resistors in series",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_010.svg",
+        "altText": "Figure 10: A circuit with two resistors, which are represented by two identical lamps",
+        "maxWidth": "385px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 11. Two lights in series",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_011.svg",
+        "altText": "Figure 11: A circuit with two resistors, which are represented by two identical lamps",
+        "maxWidth": "404px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 12. Simple circuit with three resistors in series",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_012.svg",
+        "altText": "Figure 12: A diagram of a circuit with three resistors in a series",
+        "maxWidth": "402px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 13. Three lights in series",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_013.svg",
+        "altText": "Figure 13: A circuit with three resistors in a series; alligator clips are connected to the ends",
+        "maxWidth": "425px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 14. Circuit with two resistors in parallel",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_014.svg",
+        "altText": "Figure 14: A diagram of a circuit with two resistors in parallel",
+        "maxWidth": "412px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 15. Two lights in parallel",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_015.svg",
+        "altText": "Figure 15: A circuit with two resistors in parallel, with alligator clips connected to the ends",
+        "maxWidth": "409px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 16. Circuit with three resistors in parallel",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_016.svg",
+        "altText": "Figure 16: A diagram of three resistors in parallel",
+        "maxWidth": "342px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 17. Three lights in parallel",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_017.svg",
+        "altText": "Figure 17: A circuit with three resistors in parallel; alligator clips are connected to the ends",
+        "maxWidth": "317px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 18. Combination circuit with resistors in series and parallel",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_018.svg",
+        "altText": "Figure 18: A diagram of a circuit with resistors in series and parallel",
+        "maxWidth": "342px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 19. Three lights in series and parallel",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_019.svg",
+        "altText": "Figure 19: A circuit with three resistors; one is in a series and two are in parallel with each other",
+        "maxWidth": "362px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 20. Combination circuit with resistors in series and parallel",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_020.svg",
+        "altText": "Figure 20: A diagram of a circuit with four resistors; one is in a series and three are in parallel with each other",
+        "maxWidth": "337px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 21. Four lights in series and parallel",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_021.svg",
+        "altText": "Figure 21: A circuit with four resistors; one is in a series and three are in parallel with each other",
+        "maxWidth": "400px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 22. Combination circuit with 2 resistors in series and 2 resistors in parallel",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_022.svg",
+        "altText": "Figure 22: A diagram of a circuit with four resistors; one is in a series and three are in parallel with each other",
+        "maxWidth": "335px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 23. Four lights in series and parallel",
+        "src": "courses_2023/Physics/580410/580410_Physics_fig_023.svg",
+        "altText": "Figure 23: A circuit with four resistors; one is in a series and three are in parallel with each other",
+        "maxWidth": "400px",
+        "scrollImg": true
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Alternating current (AC)",
+        "content": "A current that oscillates back and forth between positive and negative voltage in a circuit"
+      },
+      {
+        "title": "Battery",
+        "content": "A container consisting of one or more cells, in which chemical energy is converted into electricity and used as a source of power"
+      },
+      {
+        "title": "Charge",
+        "content": "A basic property of matter carried by some elementary particles that governs how the particles are affected by an electric or magnetic field"
+      },
+      {
+        "title": "Circuit",
+        "content": "A complete path or loop that allows for the transfer of charge"
+      },
+      {
+        "title": "Conventional current",
+        "content": "The direction of current following the flow of positive charges when analyzing and drawing circuits"
+      },
+      {
+        "title": "Coulomb (C)",
+        "content": "A unit of electric charge; the quantity of electricity transported in one second by a current of 1 amp (A)"
+      },
+      {
+        "title": "Current",
+        "content": "The movement of charge"
+      },
+      {
+        "title": "Direct current (DC)",
+        "content": "A current that flows in only one direction around a circuit"
+      },
+      {
+        "title": "Electric field",
+        "content": "A region around a charged particle or object within which a force would be exerted on other charged particles or objects"
+      },
+      {
+        "title": "Electrical potential",
+        "content": "The force that drives electrons through a circuit; also known as voltage"
+      },
+      {
+        "title": "Elementary charge",
+        "content": "The charge of one electron which is equal to 1.602 x 10<sup class='bodySupscript'>-19</sup> C"
+      },
+      {
+        "title": "Kirchhoff's current rule",
+        "content": "States that the current flowing into a junction must equal the current flowing out of a junction"
+      },
+      {
+        "title": "Kirchhoff's voltage rule",
+        "content": "States that the sum of the electrical potential differences around any closed loop in a circuit is zero"
+      },
+      {
+        "title": "Ohm's law",
+        "content": "States that the voltage of a circuit is directly proportional to the product of the current and resitance of a circuit"
+      },
+      {
+        "title": "Power",
+        "content": "The amount of energy transferred or converted per unit time"
+      },
+      {
+        "title": "Resistance",
+        "content": "The measure of how much an object opposes the flow of current"
+      },
+      {
+        "title": "Voltage",
+        "content": "An electromotive force or potential difference expressed in volts; also known as electrical potential"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

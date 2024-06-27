@@ -1,0 +1,3472 @@
+{
+  "locked": true,
+  "courseTitle": "Discharge of a Capacitor",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Physics_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/bodyBookmark.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/TakeSnapshot.svg",
+    "core/disposalAndCleanupIcon.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Physics_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Physics",
+                "titleName2": "Discharge of a Capacitor",
+                "images": {
+                  "logo": "core/Physics_Subject_Icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "waterMark": false,
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this experiment, students will learn about <button class='glossary-text'>capacitors</button> and <button class='glossary-text'>capacitance</button>, build an <span style='whiteSpace: nowrap'> <button class='glossary-text'>RC circuit</button>, </span> and collect voltage data over a period of time during the capacitor’s discharge."
+                },
+                {
+                  "type": "List",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Stopwatch or timer",
+                    "Access to an Excel spreadsheet"
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Physics/580267/580267_Physics_Time-Requirement.svg",
+                  "altText": "Activity 1: Exploring Discharge of a Capacitor - 40 minutes",
+                  "containerType": "rightContainer",
+                  "scrollImg": true,
+                  "imgDivWidth": "95px",
+                  "maxWidth": "110px"
+                }
+              ]
+            },
+            {
+              "waterMark": true,
+              "template": "OverView",
+              "title": "Overview (cont... )",
+              "pageTitle": "Overview (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Overview Video: Discharge of a Capacitor"
+                },
+                {
+                  "type": "Video",
+                  "desc": "Overview Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Physics/580267/580267_Physics_VideoIcone.svg",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6339729272112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Build an <button class='glossary-text'>RC circuit</button> on a breadboard.",
+                    "Describe the principles behind the operation of <button class='glossary-text'>capacitors</button>.",
+                    "Calculate the time constant of an RC circuit.",
+                    "Plot voltage vs. time data for a discharging capacitor.",
+                    "Plot <i>ln</i> <i>V</i> vs. time to determine RC."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "desc": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "desc":"video link symbol, camera symbol, stopwatch symbol"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "desc":"warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "NASA's Marshall Space Flight Center has developed a high-performance <button class='glossary-text'>dielectric</button> material for use with ultracapacitors. The new dielectric material is like ink or paste and is formulated with “novel high-permittivity dielectric powders.”<sup class='bodySupscript'>1</sup> The material is capable of rapid charging, low leakage, high dielectric constant, and can offer a battery-like discharge behavior. In addition, the dielectric material is also formulated with a ceramic perovskite nanopowder, which can be adjusted based on specific needs. "
+                },
+                {
+                  "type": "Plain",
+                  "text": "NASA reported that the new dielectric material is safe, eliminates the need for liquid or gel electrolytes, is highly resistant to mechanical shock and vibration, and is explosion-resistant, even in extreme thermal environments. The nonpolar design and ability to tailor the thickness of the material allow for easy implementation. NASA is currently testing the material for use in satellite propulsion systems, however, there are many additional industrial applications that may benefit from the use of the novel material. Some of these applications include braking systems for motor vehicles, fuel for cell-powered vehicles, renewable energy, laser weapons, and medical devices. "
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'><sup class='bodySupscript'>1</sup>NASA. (2023). New Dielectric Material for High-Performance, Solid-State  Ultracapacitors (MFS-TOPS-77). <span class = 'bodyFontItalic'>NASA.</span><br><span target='blank' style=' word-break: break-all'>https://technology.nasa.gov/patent/MFS-TOPS-77</span>"
+                },
+           
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580267/580267_Physics_whyShouldICare.svg",
+                  "altText": "A realistic artist rendering of a satellite in outer space in near-Earth orbit.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Capacitors</button> are electrical devices that store charge. Essentially, they are made of two parallel metal plates separated by a small distance."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580267/580267_Physics_fig_001.svg",
+                  "imgDivWidth": "361px",
+                  "maxWidth": "470px",
+                  "scrollImg": true,
+                  "altText": "Figure 1: simple parallel plate capacitor showing the conductive plates, plate area, dielectric, and plate separation"
+                },
+                {
+                  "type": "Plain",
+                  "text": "The amount of <button class='glossary-text'>capacitance</button>, <i>C</i>, depends on the area of the plates, <i>A</i>, the distance between the plates, <i>d</i>, and the material that separates those two plates. This material is known as a <button class='glossary-text'>dielectric</button>, and its ability to increase capacitance is given as <span style='font-family:cursive'><i>κ</i></span>, the ratio of the capacitance with dielectric material to that without. To put it in perspective, a vacuum between the plates has a <span style='whiteSpace: nowrap'><span style='font-family:cursive'><i>κ</i></span> = 1.</span> Considering the <button class='glossary-text'>electric field</button> in this dielectric space, the <button class='glossary-text'>permittivity of free space constant, ε<sub>0</sub></button>, which equals 8.988 × 10<sup>–12</sup> C<sup>2</sup>/(N · m<sup>2</sup>), rounds out the calculation:"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580267/580267_Equation_001.svg",
+                  "imgDivWidth": "103px",
+                  "maxWidth": "135px",
+                  "scrollImg": true,
+                  "altText": "Equation 1: C equals kappa begin fraction epsilon sub 0 A over d end fraction"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span style='padding-bottom:5px;display:block;'>When a capacitor attached to a battery charge is stored on the plates and the amount stored is proportional to the voltage difference, <i>V</i>, between the plates, the charge stored on one plate is:</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580267/580267_Equation_002.svg",
+                  "imgDivWidth": "103px",
+                  "maxWidth": "135px",
+                  "scrollImg": true,
+                  "altText": "Equation 2: Q=CV"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "where <i>Q</i> is the charge stored, <i>C</i> is the capacitance, and <i>V</i> is the source voltage. The charge on each plate is equal in magnitude but opposite in charge (see Figure 2)."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580267/580267_Physics_fig_002.svg",
+                  "imgDivWidth": "159px",
+                  "maxWidth": "210px",
+                  "scrollImg": true,
+                  "altText": "Figure 2: diagram of a plate with +q and –q"
+                }
+              
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, you will build an <button class='glossary-text'>RC circuit</button> (resistor and <button class='glossary-text'>capacitor</button> in series) to study the discharge behavior of a capacitor. Consider the circuit in Figure 3."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580267/580267_Physics_fig_003.svg",
+                  "imgDivWidth": "156px",
+                  "maxWidth": "210px",
+                  "scrollImg": true,
+                  "altText": "Figure 3: diagram of a resistor and capacitor in series"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>When the switch is closed, the capacitor is allowed to charge. We can analyze this process on a quantitative basis using Kirchhoff’s voltage rule. This gives:</span>"
+                },
+                {
+                  "type": "Image",
+                 "image": "courses_2023/Physics/580267/580267_Equation_003.svg",
+                  "imgDivWidth": "140px",
+                  "maxWidth": "190px",
+                  "scrollImg": true,
+                  "altText": "Equation 3: V minus I R minus begin fraction q over C end fraction equals 0"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span style='padding-bottom:5px;display:block;'>where <i>IR</i> represents the voltage drop across the resistor and <i>q/C</i> is the potential drop across the capacitor. At <i>t<sub>0</sub></i>, the current is at a maximum and equals:</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580267/580267_Equation_004.svg",
+                  "imgDivWidth": "102px",
+                  "maxWidth": "135px",
+                  "scrollImg": true,
+                  "altText": "Equation 4: I sub 0 equals begin fraction V over R end fraction"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span style='padding-bottom:5px;display:block;'>At first the voltage drop is entirely at the resistor, but when the capacitor is fully charged, the current is zero and the entire voltage drop is at the capacitor. At that point of zero current, the charge on the capacitor is:<span className='bodyParaLineBreak'></span> </span><span title='Q = CV'><i>Q = CV</i></span> <span className='bodyParaLineBreak'></span>We can develop time-dependent expressions for charge and current, keeping in mind that the source voltage is constant.</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580267/580267_Equation_002b.svg",
+                  "imgDivWidth": "280px",
+                  "maxWidth": "360px",
+                  "scrollImg": true,
+                  "disableClick": false,
+                  "altText": "begin fraction d over d t end fraction begin paren V minus begin fraction 1 over C end fraction minus I R end paren equals zero minus begin fraction 1 d q over C d t end fraction minus R begin fraction d I over d t end fraction equals zero"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Since <i>I = dq/dt</i>, this can be expressed as:"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580267/580267_Equation_002c.svg",
+                  "imgDivWidth": "93px",
+                  "maxWidth": "360px",
+                  "scrollImg": true,
+                  "disableClick": false,
+                  "altText": "R begin fraction d I over d t end fraction plus begin fraction I over C end fraction equals 0"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580267/580267_Equation_002d.svg",
+                  "imgDivWidth": "87px",
+                  "maxWidth": "360px",
+                  "scrollImg": true,
+                  "disableClick": false,
+                  "altText": "begin fraction d I over I equals negative begin fraction 1 over R C end fraction d t"
+                }
+              
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>Since <i>R</i> and <i>C</i> are constants, we can integrate using <i>I = I<sub>0</sub></i> at <i>t = 0,</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580267/580267_Equation_002e.svg",
+                  "imgDivWidth": "124px",
+                  "maxWidth": "360px",
+                  "scrollImg": true,
+                  "disableClick": false,
+                  "altText": "integral sup I sub I sub 0 begin fraction d I over I end fraction equals negative begin fraction 1 over R C end fraction integral sup t sub 0 d t"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580267/580267_Equation_002f.svg",
+                  "imgDivWidth": "97px",
+                  "maxWidth": "360px",
+                  "scrollImg": true,
+                  "disableClick": false,
+                  "altText": "In begin paren begin fraction I over I sub 0 end fraction end paren equals negative begin fraction t over R C end fraction"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580267/580267_Equation_002g.svg",
+                  "imgDivWidth": "146px",
+                  "maxWidth": "360px",
+                  "scrollImg": true,
+                  "disableClick": false,
+                  "altText": "I begin paren t end paren equals I sub 0 e begin sup begin fraction negative t over R C end fraction end sup equals begin fraction V over R end fraction e begin sup begin fraction negative t over R C end fraction end sup"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>which is the relationship between current and time. We can substitute <i>I = dq/dt</i> into this equation to determine the <button class='glossary-text'>capacitor’s</button> charge over time.</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580267/580267_Equation_002h.svg",
+                  "imgDivWidth": "92px",
+                  "maxWidth": "360px",
+                  "scrollImg": true,
+                  "disableClick": false,
+                  "altText": "begin fraction d q over d t end fraction equals begin fraction V over R end fraction e begin sup begin fraction negative t over R C end fraction end sup"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580267/580267_Equation_002i.svg",
+                  "imgDivWidth": "113px",
+                  "maxWidth": "360px",
+                  "scrollImg": true,
+                  "disableClick": false,
+                  "altText": "d q equals begin fraction V over R end fraction e begin sup begin fraction negative t over R C end fraction end sup"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>Integrating that expression at <i>t<sub>0</sub></i> (<i>q</i> will be 0) gives:</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580267/580267_Equation_002j.svg",
+                  "imgDivWidth": "130px",
+                  "maxWidth": "360px",
+                  "scrollImg": true,
+                  "disableClick": false,
+                  "altText": "integral sup q sub 0 d q equals begin fraction V over R end fraction integral sup t sub 0 e begin sup begin fraction negative t over R C end fraction end sup d t"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580267/580267_Equation_005.svg",
+                  "imgDivWidth": "266px",
+                  "maxWidth": "360px",
+                  "scrollImg": true,
+                  "altText": "Equation 5: q begin paren t end paren equals C V begin bracket 1 minus e begin sup begin fraction negative t over R C end fraction end sup end bracket equals Q begin bracket 1 minus e begin sup begin fraction negative t over R C end fraction end sup end bracket"
+                } ,
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "where <i>Q = CV</i> is the maximum charge on the capacitor. If we plot this expression of charge on the capacitor over time and also the relationship between current and time, we see the following trends."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580267/580267_Physics_fig_004.svg",
+                  "imgDivWidth": "314px",
+                  "maxWidth": "390px",
+                  "scrollImg": true,
+                  "altText": "Figure 4: graph of charge q beginning at 0 time and sloping in an arc up to 100 time, and current I beginning at 100 time and sloping in an arc down to zero time"
+                }
+             
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What is the material that separates the two parallel plates in a capacitor?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "a dielectric",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "a circuit",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "an RC circuit",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "a battery",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "an electrode",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The material that separates two parallel two plates in a capacitor is known as a dielectric."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What will you build in this investigation?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "resistor and capacitor in series",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "an AC circuit",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "an DC circuit",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "a dielectric",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "capacitance",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "In this investigation, you will build an RC circuit (resistor and capacitor in series) to study the discharge behavior of a capacitor."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Capacitors are electrical devices that store charge. Essentially, they are made of two parallel metal plates separated by a small distance. The amount of capacitance, Ϲ, depends on the area of the plates, A, the distance between the plates, d, and the material that separates those two plates. This materials ability to increase capacitance is given as <i>κ</i>, the ratio of the capacitance with dielectric material to that without. When a capacitor attached to a battery charge is stored on the plates and the amount stored is proportional to the voltage difference, <i>V</i>, between the plates. ",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580267/580267_Physics_fig_001.svg",
+                      "alt": "Figure 1: simple parallel plate capacitor showing the conductive plates, plate area, dielectric, and plate separation",
+                      "maxWidth": "435px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "Capacitors are electrical devices that store charge. Essentially, they are made of two parallel metal plates separated by a small distance. The amount of capacitance, Ϲ, depends on the area of the plates, A, the distance between the plates, d, and the material that separates those two plates. This materials ability to increase capacitance is given as <i>κ</i>, the ratio of the capacitance with dielectric material to that without. When a capacitor attached to a battery charge is stored on the plates and the amount stored is proportional to the voltage difference, <i>V</i>, between the plates. ",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580267/580267_Physics_fig_001.svg",
+                      "alt": "Figure 1: simple parallel plate capacitor showing the conductive plates, plate area, dielectric, and plate separation",
+                      "maxWidth": "435px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "As you can see in the plot of charge, it is zero at <i>t<sub>0</sub></i> and approaches <i>Q</i> as <i>t → ∞</i>. In the plot of current, it begins at its maximum value, <i>I</i><sub>0</sub>, and decays exponentially to zero as <i>t → ∞</i>. The product, <i>RC</i>, in the exponential of both functions, is known as the time constant, τ, of the circuit. It is the time required for the current to decrease to 1/<i>e</i> of its initial value. The same data graphed in terms of time constants gives Figure 5."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580267/580267_Physics_fig_005.svg",
+                  "imgDivWidth": "312px",
+                  "maxWidth": "375px",
+                  "scrollImg": true,
+                  "altText": "Figure 5: graph of current I beginning at time constant 0 at 99.3 percent and sloping down in an arc to time constant 5 at 0.7 percent and charge q starting at time constant 0 at 0.7 percent and sloping up in an arc to time constant 5 at 99.3 percent"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span style='padding-bottom:5px;display:block;'>When the <button class='glossary-text'>capacitor</button> is allowed to discharge, we can again use Kirchhoff’s voltage rule. Since the voltage drop across the resistor must equal the voltage drop across the capacitor, we get:</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580267/580267_Equation_006.svg",
+                  "imgDivWidth": "100px",
+                  "maxWidth": "134px",
+                  "scrollImg": true,
+                  "altText": "Equation 6: I R equals begin fraction q over C end fraction"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span style='padding-bottom:5px;display:block;'>The current equals the rate of the capacitor’s charge decrease, so using <i>I = −dq/dt.</i></span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580267/580267_Equation_006a.svg",
+                  "imgDivWidth": "76px",
+                  "maxWidth": "100px",
+                  "disableClick":false,
+                  "scrollImg": true,
+                  "altText": "negative R begin fraction d q over d t end fraction equals begin fraction q over C end fraction"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580267/580267_Equation_006b.svg",
+                  "imgDivWidth": "93px",
+                  "maxWidth": "100px",
+                  "disableClick":false,
+                  "scrollImg": true,
+                  "altText": "begin fraction d q over q end fraction equals negative begin fraction 1 over R C end fraction d t"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span style='padding-bottom:5px;display:block;'>Integrating this expression at <i>t<sub>0</sub></i>, where <i>q</i> is the maximum charge on the capacitor, <i>Q</i>, is:</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580267/580267_Equation_002k.svg",
+                  "imgDivWidth": "126px",
+                  "maxWidth": "100px",
+                  "disableClick":false,
+                  "scrollImg": true,
+                  "altText": "integral sup q sub Q begin fraction d q over q end fraction equals negative begin fraction 1 over R C end fraction integral sup t sub 0 d t"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580267/580267_Equation_006d.svg",
+                  "imgDivWidth": "93px",
+                  "maxWidth": "100px",
+                  "disableClick":false,
+                  "scrollImg": true,
+                  "altText": "1 n begin paren begin fraction q over Q end fraction end paren equals negative begin fraction t over R C end fraction"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580267/580267_Equation_002m.svg",
+                  "imgDivWidth": "87px",
+                  "maxWidth": "100px",
+                  "disableClick":false,
+                  "scrollImg": true,
+                  "altText": "q begin paren t end paren equals Q e begin sup begin fraction negative t over R C end fraction end sup"
+                }
+             
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp":"resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>If we differentiate this equation with respect to time, it gives the <span style='whiteSpace: nowrap'>time-dependent</span> current relationship.</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580267/580267_Equation_007.svg",
+                  "imgDivWidth": "277px",
+                  "maxWidth": "370px",
+                  "scrollImg": true,
+                  "altText": "Equation 7: I begin paren t end paren equals begin fraction negative d q over d t end fraction equals begin fraction Q over R C end fraction e begin sup begin fraction negative t over R C end fraction end sup equals I sub 0 e begin sup begin fraction negative t over R C end fraction end sup"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>In this experiment, you will monitor voltage across the <button class='glossary-text'>capacitor</button> through approximately 3 τ. Since <i>V = q/C</i> at the capacitor, we get:</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580267/580267_Equation_008.svg",
+                  "imgDivWidth": "114px",
+                  "maxWidth": "158px",
+                  "scrollImg": true,
+                  "altText": "Equation 8: V begin paren t end paren equals V sub 0 e begin sup begin fraction negative t over R C end fraction end sup"
+                },
+                {
+                  "type": "Plain",
+                  "text": "When 1 τ has elapsed, the voltage drop is:"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580267/580267_Equation_002n.svg",
+                  "imgDivWidth": "92px",
+                  "maxWidth": "188px",
+                  "scrollImg": true,
+                  "altText": "V sub 0 e sup negative 1  approximately equal to 0.37V sub 0"
+                },
+                {
+                  "type": "Plain",
+                  "text": "2 τ gives a voltage drop of:"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580267/580267_Equation_002o.svg",
+                  "imgDivWidth": "92px",
+                  "maxWidth": "188px",
+                  "disableClick":false,
+                  "scrollImg": true,
+                  "altText": "V sub 0 e sup negative 2 approximately equal to 0.14V sub 0"
+                },
+                {
+                  "type": "Plain",
+                  "text": "It is visually more useful to examine the plot of the natural log of the voltage equation, <span style='whiteSpace: nowrap'><i>V = V</i><sub>0</sub><i>e<sup>-t/RC<sup></i>,</span> which gives:"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580267/580267_Equation_009.svg",
+                  "imgDivWidth": "166px",
+                  "maxWidth": "225px",
+                  "scrollImg": true,
+                  "altText": "Equation 9: 1 n V equals begin fraction negative 1 over R C end fraction t plus 1 n V sub 0"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Plotting ln⁡ <i>V</i> vs. <i>t</i> gives a line with a slope of –1/<i>RC</i> and <i>y</i>-intercept of ln⁡ <i>V<sub>0</sub></i> .<span className='bodyParaLineBreak'></span>Even though capacitors are rated with a certain <button class='glossary-text'>capacitance</button>, the actual value can deviate up to 20 percent. You can use the slope of the line and the resistor’s measured value to calculate the actual capacitance of the capacitor."
+                }
+            
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Even though capacitors are rated with a certain capacitance, how much can the actual value deviate up to?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "20 percent",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "10 percent",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "50 percent",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "5 percent",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "80 percent",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Even though capacitors are rated with a certain capacitance, the actual value can deviate up to 20 percent."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What can you use to calculate the actual capacitance of the capacitor?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "the slope of the line",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "a DMM ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "a constant",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": " time",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "voltage",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "You can use the slope of the line and the resistor’s measured value to calculate the actual capacitance of the capacitor."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "As you can see in the plot of charge (Figure 4), it is zero at t=0 and approaches Q as t → ∞. In the plot of current, it begins at its maximum value, 100, and decays exponentially to zero as <span style='whiteSpace: nowrap'>t → ∞.</span> The product, RC, in the exponential of both functions, is known as the time constant, τ, of the circuit. It is the time required for the current to decrease to 1/e of its initial value. The same data graphed in terms of time constants gives Figure 5.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580267/580267_Physics_fig_004.svg",
+                      "alt":"Figure 4: graph of charge q beginning at 0 time and sloping in an arc up to 100 time, and current I beginning at 100 time and sloping in an arc down to zero time",
+                      "maxWidth": "346px"
+                    },
+                    {
+                      "src": "courses_2023/Physics/580267/580267_Physics_fig_005.svg",
+                      "alt": "Figure 5: graph of current I beginning at time constant 0 at 99.3 percent and sloping down in an arc to time constant 5 at 0.7 percent and charge q starting at time constant 0 at 0.7 percent and sloping up in an arc to time constant 5 at 99.3 percent",
+                      "maxWidth": "346px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "As you can see in the plot of charge (Figure 4), it is zero at t=0 and approaches Q as t → ∞. In the plot of current, it begins at its maximum value, 100, and decays exponentially to zero as <span style='whiteSpace: nowrap'>t → ∞.</span> The product, RC, in the exponential of both functions, is known as the time constant, τ, of the circuit. It is the time required for the current to decrease to 1/e of its initial value. The same data graphed in terms of time constants gives Figure 5.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580267/580267_Physics_fig_004.svg",
+                      "alt":"Figure 4: graph of charge q beginning at 0 time and sloping in an arc up to 100 time, and current I beginning at 100 time and sloping in an arc down to zero time",
+                      "maxWidth": "365px"
+                    },
+                    {
+                      "src": "courses_2023/Physics/580267/580267_Physics_fig_005.svg",
+                      "alt": "Figure 5: graph of current I beginning at time constant 0 at 99.3 percent and sloping down in an arc to time constant 5 at 0.7 percent and charge q starting at time constant 0 at 0.7 percent and sloping up in an arc to time constant 5 at 99.3 percent",
+                      "maxWidth": "365px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                
+                {
+                  "type": "Plain",
+                  "subTitle":"Digital Multimeter Input Resistance",
+                  "text": "One important note to consider, the <button class='glossary-text'>digital multimeter (DMM)</button> can alter the circuit to which it is connected. DMMs have their own internal input resistance, which can influence the accuracy of results. This internal input resistance is important to define so one can understand how it affects displayed readings. This is measured via the following equation:<span className='bodyParaLineBreak'></span> DMM internal resistance in megaohms = (DMM voltage measured • value of resistance used in megaohms) / (input voltage – DMM voltage measured).<span className='bodyParaLineBreak'></span>When the DMM is set on a voltage scale, it acts like a very large resistor. When the DMM is used to measure a voltage drop across a resistor, it is connected in parallel to the resistor as indicated in Figure 6."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580267/580267_Physics_fig_006.svg",
+                  "imgDivWidth": "199px",
+                  "maxWidth": "265px",
+                  "scrollImg": true,
+                  "altText": "Figure 6: Diagram of measuring voltage"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "If the meter’s internal resistance is much greater than the circuit resistance, when connected, the current diverted through the meter is small enough that the current flow through the resistor is minimally decreased. In this case, the meter reading indicates the voltage drop in the resistor when the meter is not connected. (It measures the resistance of the resistor only.) This is generally the condition when a DMM is used to test voltages in a circuit. As a general rule, the bigger the meter resistance, the better. <span className='bodyParaLineBreak'></span>When the DMM is set on an amperage scale, it acts like a very small resistor. When the DMM is used to measure a current flow through a resistor, it is connected in series with the resistor as indicated in Figure 7."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580267/580267_Physics_fig_007.svg",
+                  "imgDivWidth": "98px",
+                  "maxWidth": "130px",
+                  "scrollImg": true,
+                  "altText": "Figure 7: Diagram of measuring current"
+                }
+           
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "When the meter’s internal resistance is much less than the circuit resistance, the voltage drop across the meter, when connected, is small enough that the current flow through the resistor is minimally decreased. Again, the meter reading will indicate the current through the resistor when the meter is not connected. This is usually the condition when a DMM is used to test currents in a circuit. Again, as a general rule, the smaller the meter resistance the better."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 3",
+              "pageTitle": "Knowledge Check Question 3",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 2,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "When the DMM is set on an amperage scale, what does it act like? ",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "a very small resistor",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "a battery",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "a capacitor",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": " a constant",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "a dielectric",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "When the DMM is set on an amperage scale, it acts like a very small resistor."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "As a general rule, when DMM is measuring voltage, which of the following is true?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The bigger the meter resistance, the better.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The smaller the meter resistance, the better.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "The readings cannot be trusted.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Voltage cannot be calculated.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "The circuit does not need to be closed.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "When a DMM is used to test voltages in a circuit, as a general rule, the bigger the meter resistance, the better. "
+                  }
+                }
+              
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "One important note to consider, the digital multimeter (DMM) can alter the circuit to which it is connected. DMMs have their own internal input resistance, which can influence the accuracy of results. This internal input resistance is important to define so one can understand how it affects displayed readings. This is measured via the following equation:<span className='bodyParaLineBreak'></span>DMM internal resistance in megaohms = (DMM voltage measured • value of resistance used in megaohms) / (input voltage – DMM voltage measured)",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580267/580267_Physics_fig_007.svg",
+                      "alt": "Figure 7: Diagram of measuring current",
+                      "maxWidth": "108px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "One important note to consider, the digital multimeter (DMM) can alter the circuit to which it is connected. DMMs have their own internal input resistance, which can influence the accuracy of results. This internal input resistance is important to define so one can understand how it affects displayed readings. This is measured via the following equation:<span className='bodyParaLineBreak'></span>DMM internal resistance in megaohms = (DMM voltage measured • value of resistance used in megaohms) / (input voltage – DMM voltage measured) ",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580267/580267_Physics_fig_007.svg",
+                      "alt": "Figure 7: Diagram of measuring current",
+                      "maxWidth": "108px"
+                    }
+                  ]
+                }
+              ]
+            }
+          
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "altText": "A map of the procedural workflow of this investigation. Before beginning, you will measure the internal resistance of the digital multimeter. In activity 1, you will measure the resistance of the resistor. Then, you will assemble the circuit using a breadboard and connect the digital multimeter on either side of the capacitor. Next, you will charge the capacitor. Then, you will flip the switch to discharge the capacitor and begin timing. Next, you will record the voltage every 10 seconds for 5 minutes. Then, you will graph ln(V) versus time. Next, you will calculate the capacitance of the capacitor and the percent error of the capacitance. Then, you will change the resistor, calculate the new time interval, and repeat the experiment. Finally, you will make sure that both resistors have been tested.",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Physics/580267/580267_Physics_ED_001.svg",
+                  "imgDivWidth": "100%",
+                  "maxWidth": "1624px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "100%",
+                    "L": "95%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "90%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Slide switch",
+                          "image": "courses_2023/Physics/580267/580267_Physics_material_1.svg",
+                          "altText": "Slide switch"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Capacitor",
+                          "image": "courses_2023/Physics/580267/580267_Physics_material_2.svg",
+                          "altText": "Capacitor"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from the equipment kit",
+                      "content": [
+                       
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Battery, 9V",
+                          "image": "courses_2023/Physics/580267/580267_Physics_material_3.svg",
+                          "altText": "Energizer alkaline battery, 9 volt"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Battery snap",
+                          "image": "courses_2023/Physics/580267/580267_Physics_material_4.svg",
+                          "altText": "Battery snap"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Breadboard",
+                          "image": "courses_2023/Physics/580267/580267_Physics_material_5.svg",
+                          "altText": "Mini breadboard"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Alligator clip leads, black and red",
+                          "image": "courses_2023/Physics/580267/580267_Physics_material_6.svg",
+                          "altText": "Connector Cords (24 inch) "
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Resistors, 1 MΩ , 470 kΩ",
+                          "image": "courses_2023/Physics/580267/580267_Physics_material_7.svg",
+                          "altText": "Resistor assortment bundle in clear plastic bag"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Digital multimeter",
+                          "image": "courses_2023/Physics/580267/580267_Physics_material_8.svg",
+                          "altText": "Digital multimeter "
+                        }
+                      ]
+                    },
+                  
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [
+                            "Stopwatch or timer",
+                            "Access to an Excel spreadsheet"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span> <span className=bodyParaLineBreak></span> <span className=bodyParaLineBreak></span> Replacement supplies for the Discharge of a Capacitor investigation (item number 580267) can be ordered from Carolina Biological Supply Company.<span className=bodyParaLineBreak></span> <span className=bodyMediumSubHeading>Call:</span> 866.332.4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "isCheckPoint": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Wear your safety goggles at all times while conducting this investigation. Read all the instructions for the activities before beginning. Follow the instructions closely, and observe established laboratory safety practices, including the use of appropriate personal protective equipment."
+                },
+                {
+                  "type": "Image",
+                  "desc": "goggles symbol",
+                  "altText": "goggles symbol",
+                  "image": "core/Key_Goggle.svg",
+                  "imgDivWidth": "78px",
+                  "maxWidth": "120px"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Do not eat, drink, or chew gum while performing this investigation. Wash your hands with soap and water before and after the investigation and clean the work area with soap and water after finishing. Keep pets and children away from lab materials and equipment."
+                }
+            
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.</span>",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What happens when you increase the distance between the plates of a capacitor?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "capacitance increases",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "capacitance decreases",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "conductivity increases",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "both capacitance and conductivity increase",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "both capacitance and conductivity decrease",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What does the time constant, τ  , of the circuit represent?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The time required for the current to decrease to 1/e of its initial value.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The time required to attain a 50 % reduction in the capacitor’s voltage.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The time required to discharge a capacitor completely.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The time required to fully charge a capacitor.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The time required to reduce the current to 50% its original value.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Even though capacitors are rated with a certain capacitance, the actual value can deviate up to ________.",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "20%",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "10%",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "5%",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "2%",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "1%",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "How is the time constant of an RC circuit calculated?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "R*C, where R is in ohms and C is in Farads",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "R*C, where R is in ohms and C is in microFarads",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "R/C, where R is in ohms and C is in Farads",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "R/C, where R is in ohms and C is in microFarads",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "R<sup>2</sup> /C, where R is in ohms and C is in Farads",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "How are resistors and capacitors connected in an RC circuit?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "series",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "parallel",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "combination",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "It does not matter how they are connected",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "All resistors must be in series, which are then in parallel to the capacitor",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the time constant of an RC circuit with the following components: <br/>R = 10,000 Ω, C = 5 <i>μ</i> F",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "50 ms",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "5",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "500 ms",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "0.5 s",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "0.5 ms",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "How do you connect a digital multimeter when measuring a voltage drop across a resistor?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "parallel to the resistor",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "in series, before the resistor",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "in series, after the resistor",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "parallel to the voltage source",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "in series with the voltage source",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "How do you connect a digital multimeter when measuring the current through a resistor?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "in series with the resistor",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "parallel to the resistor",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "parallel with the voltage source",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "in series, before the voltage source",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "in series, after the voltage source",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (8 steps)",
+              "pageTitle": "Preparation (8 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure",
+              "keyID": "page14",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Read the entire procedure before getting started."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Clear a work area for all lab materials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Gather all needed materials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "In order to report accurate resistance during this lab, it is necessary to first measure the internal resistance of the <button class='glossary-text'>capacitor</button>. To do this, take a 9-volt battery and turn on the <button class='glossary-text'>digital multimeter (DMM)</button> to 20 DCV. Place the red probe of the DMM on the positive terminal of the battery and the black probe on the negative terminal of the battery. Record the reading displayed on the DMM in the Lab Notebook; it should be around 9 volts."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "When we add a resistor in series, we would expect the voltage reading to drop. How low it goes depends on the internal resistance of the DMM. If it is a high internal resistance, the voltage rating will barely drop. If the DMM has a low internal resistance, the voltage will likely change more."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Now take the 1 MΩ resistor and add it in series. To do this, leave the DMM’s black probe on the negative terminal of the battery. Then place one prong of the 1 MΩ resistor on the positive terminal of the battery and place the DMM’s red probe on the other prong of the 1 MΩ resistor. Record the reading displayed in the Lab Notebook."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the following example (Part A and Part B), calculate the internal resistance of the DMM. Use the equation: <br/>DMM internal resistance in megaohms = (DMM voltage measured • value of resistance used in megaohms) / (input voltage – DMM voltage measured)"
+                  },
+                  {
+                    "type": "Plain",
+                    "subTitle":"Part A",
+                    "text": "8.55 volts: this was the measured voltage of the 9-volt battery with no resistors present.<br/> Using a 4.7 MΩ included in series, the measured voltage was 6.88 volts. The difference between these two measurements is 8.55 volts – 6.88 volts = 1.67 volts.<br/> Form a ratio between the two readings, 6.88 volts / 1.67 volts, and then multiply that ratio by the value of the resistor, or 4.7 MΩ for this example. <br/>(6.88 volts / 1.67 volts) • 4.7 MΩ = 19.3 MΩ"
+                  },
+                  
+                  {
+                    "type": "Plain",
+                    "subTitle":"Part B",
+                    "text": "When using a 2.7 MΩ resistor, we acquired the following readings:<br/> Voltage reading of battery—7.51 volts <br/>Voltage reading of battery connected in series with a 2.7 MΩ resistor—1.04 volts (7.51 volts / 1.04 volts) • 2.7 MΩ = 19.5 MΩ"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Compare the results: Part A, 4.7 MΩ resistor = 19.3 MΩ; Part B, 2.7 MΩ resistor = 19.5 MΩ. If these results are similar, we can confidently move forward with the knowledge that the DMM has a resistance of around 19.45 MΩ (taking the average of the two results, 19.3 + 19.5 / 2 = 19.45).<br/>Record your calculation of the internal resistance of the DMM in the Lab Notebook."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will assemble a circuit with a <button class='glossary-text'>capacitor</button>, charge it and then measure the voltage as the capacitor discharges.  Then, you will calculate the <button class='glossary-text'>capacitance</button> of the capacitor. You will then change the resistance of the resistor and repeat the trial. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Exploring Discharge of a Capacitor (12 steps)",
+              "pageTitle": "Exploring Discharge of a Capacitor (12 steps) ",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "page17",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "With the DMM set to 2000k range in the Ω settings, measure the exact resistance of the 470K ohm resistor. Record this measurement in <b>Data Table 2.</b>"
+                  }
+                ],
+
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using your breadboard, build the following circuit:"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580267/580267_Physics_fig_008.svg",
+                    "imgDivWidth": "308px",
+                    "maxWidth": "430px",
+                    "scrollImg": true,
+                    "altText": "Figure 8: diagram of circuit, labeling the charging circuit and volt in, constant voltage, discharge circuit, and resistance"
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "<b>Using a breadboard:</b> The breadboard provided will permit you to “build” your circuit without having to permanently attach the components through soldering."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580267/580267_Physics_fig_009.svg",
+                    "imgDivWidth": "496px",
+                    "maxWidth": "630px",
+                    "scrollImg": true,
+                    "altText": "Figure 9: solderless breadboard"
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "The breadboard has many strips of metal (copper usually), which run underneath the board. The metal strips (yellow lines) are laid out as shown in Figure 10."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580267/580267_Physics_fig_010.svg",
+                    "imgDivWidth": "489px",
+                    "maxWidth": "630px",
+                    "scrollImg": true,
+                    "altText": "Figure 10: a breadboard with the metal strips in yellow"
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "These strips connect the holes on the top of the board. This makes it easy to connect components together to build circuits. To use the breadboard, the wires of components are placed in the holes (the sockets). The holes are made so that they will hold the component in place. Each hole is connected to one of the metal strips running underneath the board. Basically, the yellow lines show how the holes are connected to one another. Typically, the long top and bottom rows of holes are used for power supply connections. A circuit is built by placing components and connecting them together with wires (your circuit must be a complete loop, with all “lines” connected).<span className='bodyParaLineBreak'></span> Note that the <button class='glossary-text'>capacitor</button> has one long leg and one short leg. The longer leg is the positive side (should be connected to the red wire side from the battery), and the shorter is the negative (connected to the black side of the battery). The outer wrap on the capacitor also is labeled with a dash on the negative pole of the device. You can damage the capacitor if it is connected incorrectly. <span className='bodyParaLineBreak'></span> The black negative battery wire, negative pole of the capacitor, and one end of the resistor should all be inserted into holes in the same rail on the side of the breadboard. The red positive battery wire should be in a hole in the same row as the red wire of the switch. The white wire of the switch should be in a common row with the positive pole of the capacitor. Finally, the black wire from the switch should be in a common row with the other end of the resistor, which should look like Figures 11 and 12."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580267/580267_Physics_fig_011.svg",
+                    "imgDivWidth": "375px",
+                    "maxWidth": "530px",
+                    "scrollImg": true,
+                    "altText": "Figure 11: breadboard diagram showing wire placement as described"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580267/580267_Physics_fig_012.svg",
+                    "imgDivWidth": "361px",
+                    "maxWidth": "460px",
+                    "scrollImg": true,
+                    "altText": "Figure 12: breadboard showing wire placement as described"
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "When the slide switch is completing the left half of the circuit, the capacitor is immediately charged by the battery since there is no resistor affecting the rate of charging. When the switch is flipped to complete the rightmost circuit, the capacitor begins to discharge through the resistor.<span className='bodyParaLineBreak'></span> If you connect the DMM to read voltage on either side of the capacitor, you can monitor voltage over the course of the experiment. Use the alligator leads to connect the DMM probes to either side of the capacitor (black on negative side and red on the positive) as in Figure 13."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580267/580267_Physics_fig_013.svg",
+                    "imgDivWidth": "361px",
+                    "maxWidth": "460px",
+                    "scrollImg": true,
+                    "altText": "Figure 13: black and red alligator leads connecting the DMM probes to either side of the capacitor"
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "The overall investigation setup should look like Figure 14."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580267/580267_Physics_fig_014.svg",
+                    "imgDivWidth": "368px",
+                    "maxWidth": "460px",
+                    "scrollImg": true,
+                    "altText": "Figure 14: investigation set up with the leads running from the digital multimeter to the breadboard and battery as described in the text"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Turn the DMM on to the 20 VDC setting, and zero out your stopwatch.",
+                    "image": "core/Clock.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "stopwatch symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Flip the switch to the left to complete the charging circuit. Wait about 10 seconds for full voltage to be achieved. (It should be around 9 V). Record the exact voltage as time 0 in <b>Data Table 1.</b>"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Flip the switch to the right to begin discharge while simultaneously starting the stopwatch.",
+                    "image": "core/Clock.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "stopwatch symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the voltage at 10 second intervals for 5 minutes in <b>Data Table 1.</b>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Enter the data into Excel, and create an <i>XY</i> plot of <i>V</i> vs. <i>t</i>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Create a column in the spreadsheet calculating <i>ln(V)</i> and create an <i>XY</i> plot of <i>ln(V)</i> vs. <i>t</i>. Generate a linear trend line through this data, and record the slope of that regression in <b>Data Table 2.</b>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the slope from your linear regression and your measured resistance, calculate the actual <button class='glossary-text'>capacitance</button> of the capacitor. Determine the percent error from the stated capacitance of 220 μF using the following formula:"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580267/580267_Equation_002p.svg",
+                    "imgDivWidth": "188px",
+                    "maxWidth": "188px",
+                    "disableClick":false,
+                    "scrollImg": true,
+                    "altText": "begin slash begin fraction C minus 0.00022 F over 0.00022 F end slash times 100 percent"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Measure the resistance of the 1 MΩ resistor with the DMM (use the 2000 kΩ scale). Record it in <b>Data Table 4.</b>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Replace the 470 kΩ resistor with the 1 MΩ resistor in the <button class='glossary-text'>RC circuit</button>."
+                  }
+                ]
+                ,
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Make a rough calculation of the time constant of this new circuit. Based upon your estimate, determine adequate time intervals for each voltage reading over the course of 3 time constants. Repeat Steps 3 through 9 with that new circuit, recording your data in <b>Data Tables 3 and 4.</b>"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Return the materials to the kit, and clean the area."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "altText": "completion",
+                  "desc": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Physics_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+   "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "landscape A4"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Preparation"
+              },
+              {
+                "type": "FillInBlank",
+                "id": 1,
+                "sr": 0,
+                "text": "Voltage Reading of Battery",
+                "maxLength": 50,
+                "inputHeight": "3vh",
+                "flag": "labnotebook"
+              },
+              {
+                "type": "FillInBlank",
+                "id": 2,
+                "sr": 1,
+                "text": "Voltage reading of battery connected in series with a resistor ",
+                "maxLength": 50,
+                "inputHeight": "3vh",
+                "flag": "labnotebook"
+              },
+              {
+                "type": "FillInBlank",
+                "id": 3,
+                "sr": 2,
+                "text": "Internal Resistance of the Digital Multimeter (DMM)",
+                "maxLength": 50,
+                "inputHeight": "3vh",
+                "flag": "labnotebook"
+              }
+             
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1. Voltage Data at 10 Second Intervals"
+              },
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "maxLength": 10,
+                "header": [
+                  {
+                    "text": "Time (s)",
+                    "colWidth": "25%"
+                  },
+                  {
+                    "text": "Voltage",
+                    "colWidth": "25"
+                  },
+                  {
+                    "text": "Time (s)",
+                    "colWidth": "25%"
+                  },
+                  {
+                    "text": "Voltage",
+                    "colWidth": "25%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "0"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "",
+                      "color":"grey"
+                    },
+                    {
+                      "type": "text",
+                      "text": "",
+                      "color":"grey"
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "text",
+                      "text": "10"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "160"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "text",
+                      "text": "20"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "170"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "text",
+                      "text": "30"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "180"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "text",
+                      "text": "40"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "190"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "text",
+                      "text": "50"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "200"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "text",
+                      "text": "60"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "210"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "text",
+                      "text": "70"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "220"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "text",
+                      "text": "80"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "230"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "text",
+                      "text": "90"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "240"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "text",
+                      "text": "100"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "250"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "text",
+                      "text": "110"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "260"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "text",
+                      "text": "120"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "270"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "text",
+                      "text": "130"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "280"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "text",
+                      "text": "140"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "290"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "text",
+                      "text": "150"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "300"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 2 "
+              },
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "maxLength": 10,
+                "headerHidden": true,
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Resistor’s <i>R</i> (Ω)"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                    
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text":"-1 /RC (Ω<sup>-1</sup>F<sup>-1</sup>)"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Capacitor’s <i>C</i> (F) "
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "rowHeight":"59px",
+                      "text": "Stated <i>C</i> "
+                    },
+                    {
+                      "type": "text",
+                      "text": "0.000220 F"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "% Error"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 3. Voltage Data for Adequate Time Intervals"
+              },
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "maxLength": 10,
+                "header": [
+                  {
+                    "text": "Time (s)",
+                    "colWidth": "25%"
+                  },
+                  {
+                    "text": "Voltage",
+                    "colWidth": "25"
+                  },
+                  {
+                    "text": "Time (s)",
+                    "colWidth": "25%"
+                  },
+                  {
+                    "text": "Voltage",
+                    "colWidth": "25%"
+                  }
+                ],
+                "tableData": [
+                  [
+                   
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                   
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 4"
+              },
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "maxLength": 10,
+                "headerHidden": true,
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Resistor’s <i>R</i> (Ω)"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                    
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text":"-1 /RC (Ω<sup>-1</sup>F<sup>-1</sup>)"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Capacitor’s <i>C</i> (F) "
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Stated <i>C</i> ",
+                      "rowHeight":"59px",
+                      "tableHeight":"1.5"
+                    },
+                    {
+                      "type": "text",
+                      "text": "0.000220 F"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "% Error"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "Question1"
+        ],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "Considering the power loss of a resistor is RI<sup>2</sup> and the information in the Background section, derive an expression for the energy lost due to heating in a resistor when a capacitor completely discharges. Show your work on a separate sheet of paper and upload a photo of answer and calculations."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "Question2"
+        ],
+        "pageData": [
+          
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": 2,
+                "listType": "ordered",
+                "text": [
+                  "How many time constants does it take for a capacitor with capacitance, <i>C</i>, to discharge through a resistor with resistance, <i>R</i>, to 1/5 of its total charge?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 0,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question3",
+            "tag": "div",
+            "pageData": [
+              
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "start": 3,
+                "text": [
+                  "If a 10-V battery, 8-microFarad capacitor, and 500,000-ohm resistor are connected in series, calculate the following:<ol style='list-style-type:lower-alpha' start=1><li>The time constant of the circuit</li></ol>"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question3",
+                "sr": 0,
+                "maxLength": 200,
+                "placeholder": "Write your Answer here..."
+              },
+              {
+                "type": "Plain",
+                "text": 
+                  "<ol style='list-style-type:lower-alpha' start=2><li>Maximum current in the circuit</li></ol>  "
+                
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 1,
+                "maxLength": 200,
+                "placeholder": "Write your Answer here..."
+              },
+              {
+                "type": "Plain",
+                "text": 
+                  "<ol style='list-style-type:lower-alpha' start=3><li>Maximum charge on the capacitor</li></ol>  "
+                
+              },
+              {
+                "type": "Questions",
+                "id": "Question002",
+                "sr": 2,
+                "maxLength": 200,
+                "placeholder": "Write your Answer here..."
+              },
+              {
+                "type": "Plain",
+                "text": 
+                  "<ol style='list-style-type:lower-alpha' start=4><li>Expressions for the charge and current as a function of time</li></ol>  "
+                
+              },
+              {
+                "type": "Questions",
+                "id": "Question4",
+                "sr": 3,
+                "maxLength": 200,
+                "placeholder": "Write your Answer here..."
+              } 
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 3000,
+            "title": "Notes"
+          },
+          
+          {
+            "type": "Box",
+            "id": "Box_Note",
+            "align": "center",
+            "margin": "25px 0 0 0",
+            "text": "In order for your instructor to be able to open your video links, please select the \"Save as PDF\" option rather than \"Print to PDF\"."
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6339729272112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 1. Capacitor",
+        "src": "courses_2023/Physics/580267/580267_Physics_fig_001.svg",
+        "altText": "Figure 1: simple parallel plate capacitor showing the conductive plates, plate area, dielectric, and plate separation",
+        "maxWidth": "470px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 1. Capacitance",
+        "src": "courses_2023/Physics/580267/580267_Equation_001.svg",
+        "altText": "Equation 1: C equals kappa begin fraction epsilon sub 0 A over d end fraction",
+        "maxWidth": "135px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 2. Charge stored on a plate",
+        "src": "courses_2023/Physics/580267/580267_Equation_002.svg",
+        "altText": "Equation 2: Q=CV",
+        "maxWidth": "135px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 2.  Circuit with a capacitor",
+        "src": "courses_2023/Physics/580267/580267_Physics_fig_002.svg",
+        "altText": "Figure 2: diagram of a plate with +q and –q",
+        "maxWidth": "210px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 3. RC circuit with a switch",
+        "src": "courses_2023/Physics/580267/580267_Physics_fig_003.svg",
+        "altText": "Figure 3: diagram of a resistor and capacitor in series",
+        "maxWidth": "210px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 3. Kirchhoff’s voltage rule",
+        "src": "courses_2023/Physics/580267/580267_Equation_003.svg",
+        "altText": "Equation 3: V minus I R minus begin fraction q over C end fraction equals 0",
+        "maxWidth": "190px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 4. Ohm’s law",
+        "src": "courses_2023/Physics/580267/580267_Equation_004.svg",
+        "altText": "Equation 4: I sub 0 equals begin fraction V over R end fraction",
+        "maxWidth": "135px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 5. Charge of a capacitor with respect to time",
+        "src": "courses_2023/Physics/580267/580267_Equation_005.svg",
+        "altText": "Equation 5: q begin paren t end paren equals C V begin bracket 1 minus e begin sup begin fraction negative t over R C end fraction end sup end bracket equals Q begin bracket 1 minus e begin sup begin fraction negative t over R C end fraction end sup end bracket",
+        "maxWidth": "360px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 4. Percentage of charge and current with respect to time",
+        "src": "courses_2023/Physics/580267/580267_Physics_fig_004.svg",
+        "altText": "Figure 4: graph of charge q beginning at 0 time and sloping in an arc up to 100 time, and current I beginning at 100 time and sloping in an arc down to zero time",
+        "maxWidth": "390px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 5. Percentage of charge and current with respect to time constants",
+        "src": "courses_2023/Physics/580267/580267_Physics_fig_005.svg",
+        "altText": "Figure 5: graph of current I beginning at time constant 0 at 99.3 percent and sloping down in an arc to time constant 5 at 0.7 percent and charge q starting at time constant 0 at 0.7 percent and sloping up in an arc to time constant 5 at 99.3 percent",
+        "maxWidth": "375px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 6. Kirchhoff’s voltage rule rewritten",
+        "src": "courses_2023/Physics/580267/580267_Equation_006.svg",
+        "altText": "Equation 6: I R equals begin fraction q over C end fraction",
+        "maxWidth": "134px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 7. Current with respect to time",
+        "src": "courses_2023/Physics/580267/580267_Equation_007.svg",
+        "altText": "Equation 7: I begin paren t end paren equals begin fraction negative d q over d t end fraction equals begin fraction Q over R C end fraction e begin sup begin fraction negative t over R C end fraction end sup equals I sub 0 e begin sup begin fraction negative t over R C end fraction end sup",
+        "maxWidth": "370px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 8. Voltage in an RC circuit with respect to time",
+        "src": "courses_2023/Physics/580267/580267_Equation_008.svg",
+        "altText": "Equation 8: V begin paren t end paren equals V sub 0 e begin sup begin fraction negative t over R C end fraction end sup",
+        "maxWidth": "158px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 9. Natural log of the voltage equation",
+        "src": "courses_2023/Physics/580267/580267_Equation_009.svg",
+        "altText": "Equation 9: 1 n V equals begin fraction negative 1 over R C end fraction t plus 1 n V sub 0",
+        "maxWidth": "225px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 6. Digital multimeter in parallel to measure voltage drop",
+        "src": "courses_2023/Physics/580267/580267_Physics_fig_006.svg",
+        "altText": "Figure 6: Diagram of measuring voltage",
+        "maxWidth": "265px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 7. Digital multimeter in series to measure current",
+        "src": "courses_2023/Physics/580267/580267_Physics_fig_007.svg",
+        "altText": "Figure 7: Diagram of measuring current",
+        "maxWidth": "130px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Experimental Design Diagram",
+        "src": "courses_2023/Physics/580267/580267_Physics_ED_001.svg",
+        "altText": "A map of the procedural workflow for the investigation. To prepare, attach a metric measuring tape to the wall and measure the masses of the balls. In activity 1, drop the ball from a height along the measuring tape. Then, record the ball drop and determine the rebound height of the ball. Next, select a different height. Repeat the trial for three different heights. Then, repeat the whole process with the other ball.   In activity 2, drop the stacked balls from a height along the measuring tape. Then, record the ball drop and determine the rebound heights of the balls. Next, select a different height and repeat the process for three different heights.  In activity 3, calculate the impact and rebound velocities of the individual heights. Then, calculate the average heights and velocities of the individual balls. Next, repeat these calculations for the stacked balls. In the extension activity, calculate the coefficient of restitution for the Tennis ball and the Ping-Pong ball. ",
+        "maxWidth": "1624px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 8. Schematic circuit diagram for Activity 1",
+        "src": "courses_2023/Physics/580267/580267_Physics_fig_008.svg",
+        "altText": "Figure 8: diagram of circuit, labeling the charging circuit and volt in, constant voltage, discharge circuit, and resistance",
+        "maxWidth": "430px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 9. Breadboard",
+        "src": "courses_2023/Physics/580267/580267_Physics_fig_009.svg",
+        "altText": "Figure 9: solderless breadboard",
+        "maxWidth": "630px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 10. Breadboard denoting where metal strips are located",
+        "src": "courses_2023/Physics/580267/580267_Physics_fig_010.svg",
+        "altText": "Figure 10: a breadboard with the metal strips in yellow",
+        "maxWidth": "630px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 11. Connecting components to breadboard",
+        "src": "courses_2023/Physics/580267/580267_Physics_fig_011.svg",
+        "altText": "Figure 11: breadboard diagram showing wire placement as described",
+        "maxWidth": "530px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 12. Real view of connected breadboard",
+        "src": "courses_2023/Physics/580267/580267_Physics_fig_012.svg",
+        "altText": "Figure 12: breadboard showing wire placement as described",
+        "maxWidth": "460px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 13. Attaching alligator clips to capacitor",
+        "src": "courses_2023/Physics/580267/580267_Physics_fig_013.svg",
+        "altText": "Figure 13: black and red alligator leads connecting the DMM probes to either side of the capacitor",
+        "maxWidth": "460px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 14. Overall investigation setup for Activity 1",
+        "src": "courses_2023/Physics/580267/580267_Physics_fig_014.svg",
+        "altText": "Figure 14: investigation set up with the leads running from the digital multimeter to the breadboard and battery as described in the text",
+        "maxWidth": "460px",
+        "scrollImg": true
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Capacitance (C)",
+        "content": "The ability of a system to store an electric charge"
+      },
+      {
+        "title": "Capacitor",
+        "content": "An electrical device that stores charge"
+      },
+      {
+        "title": "Dielectric",
+        "content": "An insulating material which is a poor conductor of electric current that is placed between two conductive plates"
+      },
+      {
+        "title": "Digital multimeter (DMM)",
+        "content": "A device used to measure two or more electrical values - principally voltage, current, and resistance"
+      },
+      {
+        "title": "Electric field",
+        "content": "A region around a charged particle or object within which a force would be exerted on other charged particles or objects"
+      },
+      {
+        "title": "Permittivity of free space constant (ε<sub>0</sub>)",
+        "content": "It represents the capability of a vacuum to permit electric fields"
+      },
+      {
+        "title": "RC circuit",
+        "content": "A circuit with a resistor and capacitor in series"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

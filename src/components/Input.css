@@ -1,0 +1,54 @@
+/** @format */
+
+.input-component {
+  font-family: "Montserrat-Regular";
+  width: 100%;
+}
+
+.textarea-component {
+  font-family: "Montserrat-Regular";
+  /* font-size: 0.9em; */
+  width: 99%;
+  height: 99%;
+  resize: none;
+  /* overflow: hidden; */
+  overflow: auto;
+}
+
+.rdw-emoji-modal{
+  font-family: 'Montserrat-regular';
+}
+.toolbar-class{
+visibility: hidden;
+}
+/* ::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 98, 184, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 98, 184);
+  border-radius: 10px;
+} */
+
+.input-component {
+  text-align: center;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.text-area-with-character-count {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.character-count {
+  font-family: "Montserrat-Regular";
+  position: absolute;
+  bottom: -25px;
+  right: 8px;
+}

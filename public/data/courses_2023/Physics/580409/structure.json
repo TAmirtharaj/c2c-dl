@@ -1,0 +1,2340 @@
+{
+  "locked": true,
+  "courseTitle": "Projectile Motion",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Physics_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/bodyBookmark.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/TakeSnapshot.svg",
+    "core/disposalAndCleanupIcon.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Physics_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Physics",
+                "titleName2": "Projectile Motion",
+                "images": {
+                  "logo": "core/Physics_Subject_Icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "waterMark": true,
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, students study <button class='glossary-text'>projectile</button> motion by exploring <span style='whiteSpace: nowrap'>two-dimensional</span> motion and how <button class='glossary-text'>vectors</button> are used to describe the <button class='glossary-text'>trajectory</button> of an object. They will observe the motion of an object launched horizontally at various speeds and will learn how to predict the motion of the launched object by combining their prior knowledge of kinematics with new knowledge of vectors and the trajectory of projectiles."
+                },
+                {
+                  "type": "List",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Book",
+                    "Masking tape",
+                    "Calculator",
+                    "Table (or other level surface)",
+                    "Digital device capable of recording videos (optional)"
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Physics/580409/580409_Physics_Time-Requirement.svg",
+                  "altText": "Preparation - 15 minutes \nActivity 1: Launching a Projectile in a Horizontal Direction - 30 minutes",
+                  "desc": "Preparation - 15 minutes \nActivity 1: Launching a Projectile in a Horizontal Direction - 30 minutes",
+                  "containerType": "rightContainer",
+                  "imgDivWidth": "287px",
+                  "maxWidth": "320px",
+                  "scrollImg": true
+                }
+              ]
+            },
+            {
+              "waterMark": true,
+              "template": "OverView",
+              "title": "Overview (cont...)",
+              "pageTitle": "Overview (cont...)",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Overview Video: Projectile Motion"
+                },
+                {
+                  "type": "Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Physics/580409/580409_Physics_VideoIcone.svg",
+                  "desc": "OverView Video",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6338397224112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Describe what factors affect the <button class='glossary-text'>trajectory</button> of a <button class='glossary-text'>projectile</button>.",
+                    "Explain how <button class='glossary-text'>vectors</button> are used to describe two-dimensional and projectile motion.",
+                    "Predict the trajectory of a horizontally launched projectile using vectors and kinematic equations."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "desc": " video link symbol, camera symbol, stopwatch symbol",
+                  "altText": " video link symbol, camera symbol, stopwatch symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "scrollImg": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Ballistics is the study of <button class='glossary-text'>projectile</button> motion. Forensic ballistics applies this study to how projectiles are used in crimes and is an important tool for those trying to solve crimes involving guns and other projectile weapons. Forensic ballistics specialists may be called to a crime scene to examine bullet holes or even examine wounds on victims.  Understanding the principles of projectile motion can help these investigators essentially recreate what occurred at a crime scene. Because bullets are deflected by gravity like other projectiles, the angle at which a bullet entered a wall can be used to determine from what height the bullet was fired, how far it travelled, and how fast it was going. How the projectile moved through the air can also help determine what type of bullet or firearm was used, even if the bullet itself cannot be recovered from the scene.  These specialists also spend time in laboratories testing various types of projectiles in different conditions to collect data. They may analyze the different ways bullets are deflected by air versus water and add this data to large databases to help future investigators."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580409/580409_Physics_whyShouldICare.svg",
+                  "desc": "Crime scene tape at a simulated crime scene.",
+                  "altText": "Crime scene tape at a simulated crime scene.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Projectiles</button> are objects that are given an initial velocity and subsequently travel along their <button class='glossary-text'>trajectory</button> (flight path) due to their own inertia. In sports, a projectile is a basketball that has been thrown through a hoop, a pitched baseball, or a golf ball that has been hit by a golf club. At a circus, a clown launched from a cannon or a trapeze artist soaring through the air are examples of projectile motion."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Vectors</button> describe the velocity, acceleration, and forces that act upon a projectile in terms of direction and magnitude. The principles of vector addition are used to understand and predict the trajectory of projectiles as well as other applications of two-dimensional motion, such as circular motion or the elliptical orbits of planets and comets. Therefore, vector addition is an important subject in the field of mechanics—a branch of physics that studies how physical bodies behave when subjected to forces or displacements."
+                },
+                {
+                  "type": "Plain",
+                  "text": "To understand the motion of a projectile, you need to know the initial parameters. You can perform many calculations on a projectile’s trajectory to find things such as maximum height, the time of flight, and the range (horizontal distance) the object will travel. For example, a ball thrown with less force has a lower speed and hits the ground sooner and nearer than the same ball thrown with greater force. However, the angle at which the ball is thrown also affects the trajectory of the ball. Which matters more: the initial speed or the release angle? What happens when a ball is thrown at a high speed but at a shallow angle? Will it travel farther than a ball traveling at a low speed at a greater angle? The answers to these questions can all be calculated by applying kinematic equations and some knowledge about vectors."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Projectiles tend to follow a <button class='glossary-text'>parabolic trajectory</button>. If you draw a line that follows the movement of a ball after you throw it, you would see the shape of a parabola. The shape of the parabola depends on the initial speed and the release angle, but all projectiles launched at an angle follow this parabolic curve (see Figure 1)."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580409/580409_Physics_fig_001.svg",
+                  "desc": "Figure 1: Diagram of horizontal and vertical velocities along the trajectory of a projectile",
+                  "altText": "Figure 1: Diagram of horizontal and vertical velocities along the trajectory of a projectile",
+                  "imgDivWidth": "306px",
+                  "maxWidth": "351px",
+                  "scrollImg": true,
+                  "width": "100%"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "To understand the motion of a <button class='glossary-text'>projectile</button>, it helps to consider the object as moving in <span style='whiteSpace: nowrap'>two dimensions:</span> the vertical (<span className=bodyFontItalic>y </span>) direction and the horizontal (<span className=bodyFontItalic>x </span>) direction. The velocity of the projectile at any given time can be broken down or resolved into a <button class='glossary-text'>vector</button> in the <span className=bodyFontItalic>x</span> direction and a vector in the <span className=bodyFontItalic>y</span> direction. The magnitudes of these vectors are independent of one another. Gravity only affects the vertical component of the velocity, not the horizontal component."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Consider <button class='resource-text'>Figure 1</button>. When the projectile is launched, the velocity, <span className=bodyFontItalic><span class='bodyFontBold'>v</span></span>, consists of two independent, perpendicular components: <span className=bodyFontItalic><span class='bodyFontBold'>v<sub>x</sub></span></span> and  <span className=bodyFontItalic><span class='bodyFontBold'>v<sub>y </sub></span></span>. If air resistance is negligible, the horizontal component of the velocity <span style='whiteSpace: nowrap'>(<span className=bodyFontItalic><span class='bodyFontBold'>v<sub>x </sub></span></span>)</span> remains constant, whereas the vertical component of the velocity <span style='whiteSpace: nowrap'>(<span className=bodyFontItalic><span class='bodyFontBold'>v<sub>y </sub></span></span>)</span> changes due to gravitational acceleration. The initial value for <span style='whiteSpace: nowrap'><span className=bodyFontItalic><span class='bodyFontBold'>v<sub>y</sub></span></span> decreases</span> as the projectile travels to the highest point in the parabolic arc and then increases in the opposite direction as the projectile descends. If air resistance is negligible, the vertical velocity of the projectile when it returns to the elevation from which it was launched will have the same magnitude as when the projectile was launched, but the direction will have turned 180°."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Consider two projectiles launched horizontally at exactly the same time and from the same height, but one projectile has an initial velocity that is twice the other projectile. If the ground beneath the projectiles is level and air resistance is ignored, both projectiles will land on the ground at the same time. This may seem counterintuitive, because the projectile with the greater speed is traveling farther. But experimentation proves that the time of flight of both projectiles will be the same and that both projectiles will land at the same time. The projectile with the greater velocity will land farther and its <button class='glossary-text'>parabolic trajectory</button> will be different, but the time for the two projectiles to reach the ground will be the same."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span style='padding-bottom:5px;display:block;'>When air resistance is taken into account, the mathematics describing the motion of projectiles can be challenging, but in many cases the air resistance is negligible and can be ignored. If air resistance is ignored, the motion of a projectile can be described by kinematic equations. The motion in the horizontal direction is constant and can be described with this simple equation:</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580409/580409_Physics_Equation_001.svg",
+                  "desc": "Equation 1: v sub x equals begin fraction x over t end fraction",
+                  "altText": "Equation 1: v sub x equals begin fraction x over t end fraction",
+                  "imgDivWidth": "100px",
+                  "maxWidth": "138px",
+                  "scrollImg": true,
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "where <span class='bodyParaLineBreak'> <ul> <li><span className=bodyFontItalic><span class='bodyFontBold'>v<sub>x</sub></span></span> is the magnitude of the horizontal component of the projectile’s velocity</li> <li><span className=bodyFontItalic>x</span> is the horizontal displacement that the object travels</li> <li><span className=bodyFontItalic>t</span> is the time</li> </ul> </span>"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Consider two projectiles launched horizontally at exactly the same time and from the same height, but one projectile has an initial velocity that is twice the other projectile. What has experimentation proven about these two objects?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The time for the two projectiles to reach the ground will be the same.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The projectile with the greater velocity will land farther and the time it takes to reach the ground will be longer.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "The projectile with the slower initial velocity will reach the ground first.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The projectile with the faster initial velocity will reach the ground first.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "The projectile with the lower velocity will land farther away.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Experimentation proves that the time of flight of both projectiles will be the same and that both projectiles will land at the same time. The projectile with the greater velocity will land farther and its parabolic trajectory will be different, but the time for the two projectiles to reach the ground will be the same."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What change is due to gravitational acceleration?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "vertical velocity",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "horizontal velocity",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "net velocity",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "two-dimensional motion",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "vector addition",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The vertical component of the velocity (<span class='bodyFontBold'><span className=bodyFontItalic>v<sub>y </sub></span></span>) changes due to gravitational acceleration."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "To understand the motion of a projectile, you need to know the initial parameters. You can perform many calculations on a projectile’s trajectory to find things such as maximum height, the time of flight, and the range (horizontal distance) the object will travel. When the projectile is launched, the velocity, v, consists of two independent, perpendicular components: <span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><sub><span className=bodyFontItalic>x</span></sub> and <span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><sub><span className=bodyFontItalic>y</span> </sub>. If air resistance is negligible, the horizontal component of the velocity (<span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><sub><span className=bodyFontItalic>x</span> </sub>) remains constant, whereas the vertical component of the velocity (<span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><sub><span className=bodyFontItalic>y</span> </sub>) changes due to gravitational acceleration. The initial value for <span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><sub><span className=bodyFontItalic>y</span></sub> decreases as the projectile travels to the highest point in the parabolic arc and then increases in the opposite direction as the projectile descends. If air resistance is negligible, the vertical velocity of the projectile when it returns to the elevation from which it was launched will have the same magnitude as when the projectile was launched, but the direction will have <span style='whiteSpace: nowrap'>turned 180°.</span>",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580409/580409_Physics_fig_001.svg",
+                      "alt": "Figure 1: Diagram of horizontal and vertical velocities along the trajectory of a projectile",
+                      "maxWidth": "309px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "To understand the motion of a projectile, you need to know the initial parameters. You can perform many calculations on a projectile’s trajectory to find things such as maximum height, the time of flight, and the range (horizontal distance) the object will travel. When the projectile is launched, the velocity, v, consists of two independent, perpendicular components: <span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><sub><span className=bodyFontItalic>x</span></sub> and <span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><sub><span className=bodyFontItalic>y</span> </sub>. If air resistance is negligible, the horizontal component of the velocity (<span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><sub><span className=bodyFontItalic>x</span> </sub>) remains constant, whereas the vertical component of the velocity (<span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><sub><span className=bodyFontItalic>y</span> </sub>) changes due to gravitational acceleration. The initial value for <span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><sub><span className=bodyFontItalic>y</span></sub> decreases as the projectile travels to the highest point in the parabolic arc and then increases in the opposite direction as the projectile descends. If air resistance is negligible, the vertical velocity of the projectile when it returns to the elevation from which it was launched will have the same magnitude as when the projectile was launched, but the direction will have <span style='whiteSpace: nowrap'>turned 180°.</span>",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580409/580409_Physics_fig_001.svg",
+                      "alt": "Figure 1: Diagram of horizontal and vertical velocities along the trajectory of a projectile",
+                      "maxWidth": "309px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Although the <button class='glossary-text'>projectile’s</button> velocity in the horizontal direction is constant, its velocity in the <span style='whiteSpace: nowrap'><span className=bodyFontItalic>y</span> direction</span> is constantly being accelerated by gravity at a rate of <span style='whiteSpace: nowrap'><span className=bodyFontItalic><span class='bodyFontBold'>g</span></span> = 9.8 <span className=bodyFontItalic>m/s</span><sup> 2</sup>.</span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "If a projectile is fired at an angle of 0° from the horizontal (i.e., in the <span className=bodyFontItalic>x</span> direction), the time for the projectile to fall to the ground depends only on the initial height and the acceleration due to gravity. The time is independent of the horizontal velocity."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The motion of the projectile in the <span className=bodyFontItalic>y</span> direction, which is affected due to the acceleration of gravity, can be described by these kinematic equations:  <span class='bodyParaLineBreak' title='y equals begin fraction one over two end fraction a t sup 2 plus v sub y sub 1 delta t'><span className=bodyFontItalic>y</span> = <span class=bodyFraction>1<span class=symbol>/</span><span class=bottom>2</span></span> <span className=bodyFontItalic><span class='bodyFontBold'>a</span></span><span className=bodyFontItalic>t</span><sup> 2</sup> + <span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><sub><span className=bodyFontItalic>y</span>1</sub> Δ<span className=bodyFontItalic>t</span> </span> <span class='bodyParaLineBreak' style='padding-bottom:3.5px;display:block;' title='v sub y sub 2 sup 2 equals v sub y sub 1 sup 2 plus 2 a y'> <span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><span class='bodyFraction small'><span>2</span><span class=symbol></span><span><span className=bodyFontItalic>y</span>2</span></span> = <span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><span class='bodyFraction small'><span>2</span><span class=symbol></span><span><span className=bodyFontItalic>y</span>1</span></span> + 2<span className=bodyFontItalic><span class='bodyFontBold'>a</span></span><span className=bodyFontItalic>y</span> </span> <span class='bodyParaLineBreak' style='padding-bottom:3.5px;display:block;' title='v sub y sub 2 equals v sub y sub 1 plus a delta t'> <span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><sub><span className=bodyFontItalic>y</span> 2</sub> = <span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><sub><span className=bodyFontItalic>y</span>1</sub> + <span className=bodyFontItalic><span class='bodyFontBold'>a</span></span>Δ<span className=bodyFontItalic>t</span> </span> <span class='bodyParaLineBreak' title='y equals begin fraction 1 over 2 end fraction open paren v sub y sub 1 plus v sub y sub 2 close paren delta t'> <span className=bodyFontItalic>y</span> = <span class=bodyFraction>1<span class=symbol>/</span><span class=bottom>2</span> </span> (<span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><span class='bodyFontBold'><sub><span className=bodyFontItalic>y</span>1</sub></span> + <span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><span class='bodyFontBold'><sub><span className=bodyFontItalic>y</span> 2</sub></span>)Δ<span className=bodyFontItalic>t</span></span> </span><span class='bodyParaLineBreak'>where</span>  <span class='bodyParaLineBreak'> <ul> <li><span className=bodyFontItalic>y</span> is the displacement of the projectile in the <span className=bodyFontItalic>y</span> direction </li> <li> <span className=bodyFontItalic><span class='bodyFontBold'>a</span></span> is the acceleration in the <span className=bodyFontItalic>y</span> direction, which in this context is equal to the acceleration due to gravity,  <span className=bodyFontItalic><span class='bodyFontBold'>g</span></span> = 9.8 <span className=bodyFontItalic>m/s</span><sup> 2</sup> </li> <li><span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><span class='bodyFontBold'><sub><span className=bodyFontItalic>y</span> 2</sub></span> is the velocity of the object in the <span className=bodyFontItalic>y</span> direction at time <span className=bodyFontItalic>t</span><sub> 2</sub> </li> <li><span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><span class='bodyFontBold'><sub><span className=bodyFontItalic>y</span>1</sub></span> is the velocity in the <span className=bodyFontItalic>y</span> direction at time <span className=bodyFontItalic>t</span><sub>1</sub></li> <li>Δ<span className=bodyFontItalic>t</span> is the time of flight between <span className=bodyFontItalic>t</span><sub>1</sub> and <span className=bodyFontItalic>t</span><sub> 2</sub> </li> </ul> </span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Because the magnitudes of perpendicular <button class='glossary-text'>vectors</button> are independent of each other, you can calculate the time that a projectile travels by considering only the vertical component of the velocity. Once you know the time of flight for the projectile, calculate the horizontal distance that the object travels by multiplying this time by the horizontal speed of the projectile."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "In Activity 1, you will predict and then measure the horizontal distance of a projectile launched from an elevated position with an initial velocity that has only a horizontal component. To measure the horizontal distance that the projectile travels, you will need to know the horizontal speed of the projectile and the time that the projectile is in the air."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The projectile in this activity is the metal sphere from the conceptual physics mechanics module kit. The sphere will roll down an incline using the angle bar as a track, then transition to a grooved ruler so that it travels horizontally when it leaves the table. You will apply your knowledge of kinematics to determine the velocity of the sphere as it leaves the table."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Since the sphere has no vertical velocity as it leaves the table, you will determine the time for the sphere to reach the ground by the height of the table and the acceleration due to gravity <span style='whiteSpace: nowrap'>(<span className=bodyFontItalic><span class='bodyFontBold'>g</span></span> = 9.8 <span className=bodyFontItalic>m/s</span><sup> 2</sup>).</span>"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "In Activity 1, you will predict and then measure the horizontal distance of a projectile launched from an elevated position with an initial velocity that has only a horizontal component. What do you need to know to measure the horizontal distance that the projectile travels?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "speed and time",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "how long the ruler is",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "the mass of the sphere",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "how wide the groove is",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "the temperature",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "To measure the horizontal distance that the projectile travels, you will need to know the horizontal speed of the projectile and the time that the projectile is in the air."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What is the projectile in this activity? ",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "a sphere",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "a yellow grooved ruler",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "clay",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "a penny",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "a rock",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The projectile in this activity is a sphere provided in your lab kit for this investigation."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Because the magnitudes of perpendicular vectors are independent of each other, you can calculate the time that a projectile travels by considering only the vertical component of the velocity. Once you know the time of flight for the projectile, calculate the horizontal distance that the object travels by multiplying this time by the horizontal speed of the projectile. In Activity 1, you will predict and then measure the horizontal distance of a metal sphere launched from an elevated position with an initial velocity that has only a horizontal component. The sphere will roll down an incline using the angle bar as a track, then transition to a grooved ruler so that it travels horizontally when it leaves the table. You will apply your knowledge of kinematics to determine the velocity of the sphere as it leaves the table."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Because the magnitudes of perpendicular vectors are independent of each other, you can calculate the time that a projectile travels by considering only the vertical component of the velocity. Once you know the time of flight for the projectile, calculate the horizontal distance that the object travels by multiplying this time by the horizontal speed of the projectile. In Activity 1, you will predict and then measure the horizontal distance of a metal sphere launched from an elevated position with an initial velocity that has only a horizontal component. The sphere will roll down an incline using the angle bar as a track, then transition to a grooved ruler so that it travels horizontally when it leaves the table. You will apply your knowledge of kinematics to determine the velocity of the sphere as it leaves the table."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "altText": "A map of the procedural workflow for this investigation. Before beginning activity 1, you will set up the angle bar ramp and the plumb line. Then, you will measure the angle of the ramp. In activity 1, you will measure the height of the table. Next, you will calculate the predicted time of flight of the sphere. Then, you will calculate the initial velocity of the sphere. Next, you will calculate and measure the predicted horizontal displacement. Then, you will roll the sphere down the angle bar ramp. Next, you will measure the actual horizontal displacement and calculate the percent error. You will repeat this process of rolling the sphere, measuring the actual horizontal displacement and calculating percent error until both the metal and acrylic spheres are tested. Finally, repeat the experiment with the ramp angle increased by 5 degrees then 10 degrees for each of the metal and acrylic spheres.",
+                  "desc": "A map of the procedural workflow for this investigation. Before beginning activity 1, you will set up the angle bar ramp and the plumb line. Then, you will measure the angle of the ramp. In activity 1, you will measure the height of the table. Next, you will calculate the predicted time of flight of the sphere. Then, you will calculate the initial velocity of the sphere. Next, you will calculate and measure the predicted horizontal displacement. Then, you will roll the sphere down the angle bar ramp. Next, you will measure the actual horizontal displacement and calculate the percent error. You will repeat this process of rolling the sphere, measuring the actual horizontal displacement and calculating percent error until both the metal and acrylic spheres are tested. Finally, repeat the experiment with the ramp angle increased by 5 degrees then 10 degrees for each of the metal and acrylic spheres.",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Physics/580409/580409_Physics_ED_001.svg",
+                  "imgDivWidth": "96%",
+                  "maxWidth": "1400px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "100%",
+                    "L": "80%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "80%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the conceptual physics mechanics module kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Metal sphere",
+                          "image": "courses_2023/Physics/580409/580409_Physics_material_1.svg",
+                          "altText": "Stainless steel ball"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Acrylic sphere",
+                          "image": "courses_2023/Physics/580409/580409_Physics_material_2.svg",
+                          "altText": "Acrylic sphere"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Angle bar",
+                          "image": "courses_2023/Physics/580409/580409_Physics_material_3.svg",
+                          "altText": "Angle bar"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Clay",
+                          "image": "courses_2023/Physics/580409/580409_Physics_material_7.svg",
+                          "altText": "Modeling clay"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from the central materials set",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Yellow grooved ruler",
+                          "image": "courses_2023/Physics/580409/580409_Physics_material_4.svg",
+                          "altText": "Plastic yellow ruler, 12 inch"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "String",
+                          "image": "courses_2023/Physics/580409/580409_Physics_material_5.svg",
+                          "altText": "White string on black spool"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Washer",
+                          "image": "courses_2023/Physics/580409/580409_Physics_material_6.svg",
+                          "altText": "7/8 inch flat large washer"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Tape measure",
+                          "image": "courses_2023/Physics/580409/580409_Physics_material_8.svg",
+                          "altText": "White measuring tape, 150 centimeters (60 inches)"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Protractor",
+                          "image": "courses_2023/Physics/580409/580409_Physics_material_9.svg",
+                          "altText": "Clear plastic protractor"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [
+                            "Book",
+                            "Masking tape",
+                            "Calculator",
+                            "Table (or other level surface)",
+                            "Digital device capable of recording videos (optional)"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span> <span className=bodyParaLineBreak></span> <span className=bodyParaLineBreak></span>Replacement supplies for the Projectile Motion investigation (Conceptual Physics Mechanics Module kit, item number 580404) can be ordered from Carolina Biological Supply Company.<span className=bodyParaLineBreak></span> <span className=bodyMediumSubHeading>Call:</span> 866.332.4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Safety goggles should be worn at all times during this activity, which involves the movement and acceleration of objects. Take care during the execution of this activity to avoid injury."
+                },
+                {
+                  "type": "Image",
+                  "desc": "goggles symbol",
+                  "altText": "goggles symbol",
+                  "image": "core/Key_Goggle.svg",
+                  "imgDivWidth": "78px",
+                  "maxWidth": "120px"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Read all the instructions for this investigation before beginning. Follow the instructions closely, and observe established safety practices, including the use of appropriate personal protective equipment."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Do not eat, drink, or chew gum while performing this activity. Wash your hands with soap and water before and after performing the activity. Clean the work area with soap and water after completing the investigation. Keep pets and children away from lab materials and equipment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Technology",
+          "pages": [
+            {
+              "title": "Technology",
+              "pageTitle": "Technology",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "isCheckPoint": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle":"Alternate Methods for Collecting Data Using Digital Devices",
+                  "text": "Much of the uncertainty in physics experiments arises from human reaction time error in measuring the times of events. Some of the time intervals are very short, which increases the effect of human error due to reaction time.</span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Observing the experiment from a good vantage point that removes parallax errors and recording measurements for multiple trials helps to minimize error; using a digital device as an alternate method of data collection may further minimize error. Many digital devices, such as smartphones and tablets, have cameras and software that allow the user to pause or slow down the video. If you film the activity against a scale such as a tape measure, you can use your video playback program to record position and time data. This can provide more accurate data and may eliminate the need for multiple trials."
+                },
+                {
+                  "type": "Plain",
+                  "text": "If the time on your device’s playback program is not sufficiently accurate, you may download an app such as the following free apps: <ul style='margin-bottom: 0;'><li><span class=bodyFontBold>OnForm</span><br><a target='_blank' href='https://www.hudl.com/products/technique'>iOS and Android</a></li></ul> <span class='bodyParaLineBreak'><ul style='margin-bottom: 0;'><li><span class=bodyFontBold>SloPro</span><br> <a target='_blank' href='https://apps.apple.com/us/app/slopro-1000fps-slow-motion/id507232505'>iOS</a> <br> <a target='_blank' href='https://slopro.en.uptodown.com/android'>Android</a></li></ul>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Or you may upload the video to your computer. Your operating system or software suite may include video playback programs, or these programs may be available for download."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.</span>",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Projectiles are objects given an initial velocity that travel along their trajectory due to which of the following?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "their own inertia",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "the time of flight",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "the shape of their flight path",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "the angle of launch",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "a constant horizontal force",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is NOT a vector?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "mass",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "velocity",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "force",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "acceleration",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "displacement",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is NOT true about the path of a projectile on Earth?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Gravity affects its motion in both the vertical and horizontal directions.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The path will always follow a parabolic curve.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The shape of the trajectory depends on the initial speed and release angle.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The vertical velocity changes due to gravitational acceleration.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The horizontal velocity will remain constant if there is no air resistance.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "A projectile has a horizontal displacement of 5.4 m and is in the air for 2.7 seconds. What is the horizontal velocity of the projectile?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "2.0 m/s",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "0.50 m/s",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "14.6 m/s",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "35.7 m/s",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "9.8 m/s",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "At the highest point of the parabolic trajectory of a projectile, what is the vertical velocity?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "0 m/s",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "9.8 m/s",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "19.6 m/s",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "-9.8 m/s",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "More information is needed.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "A ball is rolled off a 0.71 m-high table at a horizontal velocity of 2.9 m/s. How long will it take the ball to hit the ground?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "0.38 seconds",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "0.27 seconds",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "0.70 seconds",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "4.1 seconds",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "2.1 seconds",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "A ball starts at rest and then rolls down a 0.50 m ramp at a 45-degree angle.  What is the acceleration of the ball down the ramp?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "4.9 m/s<sup>2</sup>",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "9.8 m/s<sup>2</sup>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "2.5 m/s<sup>2</sup>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "1.1 m/s<sup>2</sup>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "22 m/s<sup>2</sup>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "A ball starts at rest and then rolls 0.50 m down a ramp that is 45 degrees. What is the horizontal velocity (<span className=bodyFontItalic>v<sub>x</sub></span>) at the end of the ramp?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "2.63 m/s",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "9.8 m/s",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "3.1 m/s",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "1.5 m/s",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "0.50 m/s",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following will you need to supply yourself in order to complete this investigation?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 8,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "a book",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "a thermometer",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "a dart",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "a ball",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "paper towels",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (10 steps)",
+              "pageTitle": "Preparation (10 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "keyID": "page14",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Locate a smooth table at least 70 centimeters above the floor."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Clear the table and the floor in front of it."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Position the book on the table so when one end of the angle bar rests on the book the other end stops about 5 centimeters from the table’s edge (see Figure 2)."
+                  },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": "courses_2023/Physics/580409/580409_Physics_fig_002.svg",
+                    "desc": "Figure 2: Demonstration of preparation steps, labeling the book, incline, ruler, and plumb line",
+                    "altText": "Figure 2: Demonstration of preparation steps, labeling the book, incline, ruler, and plumb line",
+                    "imgDivWidth": "51%",
+                    "maxWidth": "500px",
+                    "scrollImg": true,
+                    "width": "100%"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place some clay on the book to create a seat for the angle bar."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the yellow grooved ruler at the end of the angle bar so that the angle bar rests in the groove and the end of the ruler aligns with the table’s edge."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "<span class='bodyFontBold'>Note:</span> For this activity, the sphere must roll down the angle bar and leave the table with a horizontal velocity. The groove in the ruler allows the sphere to transition from the incline to a horizontal direction."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Tape the ruler to the table to secure it, placing the tape behind the point where the angle bar rests on the ruler so that the tape does not interfere with the sphere as it rolls."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "On the edge of the table just below the end of the ruler, tape a piece of string so the string hangs vertically from the table. The string should stop about 3 centimeters from the floor."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Tie the washer to the bottom end of the string. This is a plumb line and will allow you to find the point on the floor directly below the point where the sphere will leave the table."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Measure the angle of the angle bar vs. the table with the protractor (see Figure 2). Record the value in <span class='bodyFontBold'>Data Table 1</span> in column θ for trial 1."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Mark a point about 3 centimeters from the higher end of the angle bar. This will be the start point. Measure the length of the angle bar from the start point to the end of the slope."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will predict and then measure the horizontal distance of a <button class='glossary-text'>projectile</button> launched from an elevated position with an initial velocity that has only a horizontal component. You will compare the theoretical predicted values to the actual values at varying horizontal velocities by changing the angle at which the ball rolls down the ramp."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "<div className=order-list-text>A</div>&nbsp;Launching a Projectile in a Horizontal Direction (12 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Launching a Projectile in a Horizontal Direction (12 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "page18",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the tape measure, measure straight down from the top of the table to the floor. Follow the plumb line to make sure the tape measure is straight."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The background reading provided a few equations you can use for the motion of the <button class='glossary-text'>projectile</button> in the <span style='whiteSpace: nowrap'><span className=bodyFontItalic>y</span>-direction.</span> Use the kinematic equation written especially for the vertical displacement (Δ<span className=bodyFontItalic>y </span>), and rearrange to solve for time. Example:  <span class='bodyParaLineBreak' title='delta y equals begin fraction 1 over 2 end fraction a t sup 2 plus v sub y sub 1 delta t'>Δ<span className=bodyFontItalic>y</span> = <span class=bodyFraction>1<span class=symbol>/</span><span class=bottom>2</span></span> <span className=bodyFontBoldItalic>a</span><span className=bodyFontItalic>t</span><sup> 2</sup> + <span className=bodyFontBoldItalic>v</span><sub><span className=bodyFontItalic>y</span>1</sub> Δ<span className=bodyFontItalic>t</span> </span> <span class='bodyParaLineBreak'> <span title='v sub y sub 1 equals zero [so] v sub y sub 1 delta t'><span className=bodyFontBoldItalic>V</span><sub><span className=bodyFontItalic>y</span>1</sub> = 0, so (<span className=bodyFontBoldItalic>V</span><sub><span className=bodyFontItalic>y</span>1</sub> Δ<span className=bodyFontItalic>t </span>) </span> drops out of the equation leaving: </span> <span class='bodyParaLineBreak' title='delta y equals begin fraction 1 over 2 end fraction a t sup 2'>Δ<span className=bodyFontItalic>y</span> = <span class=bodyFraction>1<span class=symbol>/</span><span class=bottom>2</span></span> <span className=bodyFontBoldItalic>a</span><span className=bodyFontItalic>t</span><sup> 2</sup> </span>"
+                  },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": "courses_2023/Physics/580409/580409_Physics_img_001.svg",
+                    "disableClick": false,
+                    "desc": "t equals begin square root begin fraction 2 delta y over a end fraction end square root",
+                    "altText": "t equals begin square root begin fraction 2 delta y over a end fraction end square root",
+                    "imgDivWidth": "80px",
+                    "maxWidth": "101px",
+                    "scrollImg": true,
+                    "width": "100%"
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "<span class='bodyParaLineBreak'>Because the sphere is in free fall after it leaves the table, the acceleration will be equal to gravitational acceleration:<span class='bodyParaLineBreak' title='a equals g equals 9.8 begin fraction m over s sup 2 end fraction'> <span className=bodyFontItalic><span class='bodyFontBold'>a</span></span> = <span className=bodyFontItalic><span class='bodyFontBold'>g</span></span> = 9.8 <span class=bodyFraction><span className=bodyFontItalic>m</span><span class=symbol>/</span><span class=bottom><span className=bodyFontItalic>s</span><sup> 2</sup></span></span> </span> </span> <span class='bodyParaLineBreak' style='padding-bottom:5px;display:block;'>Therefore, the equation for the time of flight, <span className=bodyFontItalic>t</span>, can be rewritten: </span>"
+                  },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": "courses_2023/Physics/580409/580409_Physics_Equation_002.svg",
+                    "desc": "Equation 2: t equals begin square root begin fraction 2 delta y over g end fraction end square root",
+                    "altText": "Equation 2: t equals begin square root begin fraction 2 delta y over g end fraction end square root",
+                    "imgDivWidth": "102px",
+                    "maxWidth": "135px",
+                    "scrollImg": true,
+                    "width": "100%"
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the value for time using this equation, and write the value in <span class='bodyFontBold'>Data Table 1</span>. This time should be the same for each trial."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "<span style='padding-bottom:5px;display:block;'>Calculate the horizontal velocity the sphere will have as it leaves the table by calculating the velocity of the sphere at the bottom of the incline. First, determine the acceleration of the sphere as it rolls down the incline. The acceleration of the sphere as it rolls is given by:</span>"
+                  },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": "courses_2023/Physics/580409/580409_Physics_Equation_003.svg",
+                    "desc": "Equation 3: a equals 0.71 g sine theta",
+                    "altText": "Equation 3: a equals 0.71 g sine theta",
+                    "imgDivWidth": "105px",
+                    "maxWidth": "140px",
+                    "scrollImg": true,
+                    "width": "100%"
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "Substitute the angle of the incline for θ, and record the value for acceleration in <span class='bodyFontBold'>Data Table 1</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the value for acceleration to find the horizontal speed of the sphere as it leaves the table by applying the following kinematic equation: <span class='bodyParaLineBreak' title='v sub x sup 2 equals v sub 1 sup 2 plus 2 a delta x'> <span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><span class='bodyFraction small'><span>2</span><span class=symbol></span><span>x</span></span> = <span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><span class='bodyFraction small'><span>2</span><span class=symbol></span><span>1</span></span> + 2<span className=bodyFontItalic><span class='bodyFontBold'>a</span></span>Δ<span className=bodyFontItalic><span class='bodyFontBold'>x</span></span></span> <span class='bodyParaLineBreak'> <ul> <li><span className=bodyFontItalic><span class='bodyFontBold'>v<sub>x</sub></span></span> is the translational velocity of the sphere as it reaches the bottom of the angle bar.</li> <li><span className=bodyFontItalic><span class='bodyFontBold'>v<sub>1</sub></span></span> is the initial velocity of the sphere.</li> <li><span className=bodyFontItalic><span class='bodyFontBold'>a</span></span> is the acceleration of the sphere.</li> <li>Δ<span className=bodyFontItalic><span class='bodyFontBold'>x</span></span> is the length of the angle bar from the start point to the end of the slope.</li> </ul><span> <span class='bodyParaLineBreak' style='padding-bottom:5px;display:block;'>Assume the sphere travels at this speed along the length of the horizontal ruler. Rearrange the equation, and substitute the value for <span className=bodyFontItalic><span class='bodyFontBold'>a</span></span> (acceleration) from Step 3 and the length of the angle bar from the start point to the end of the ramp. </span>"
+                  },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": "courses_2023/Physics/580409/580409_Physics_Equation_004.svg",
+                    "desc": "Equation 4: v sub x equals begin square root 2 a delta x end square root",
+                    "altText": "Equation 4: v sub x equals begin square root 2 a delta x end square root",
+                    "imgDivWidth": "105px",
+                    "maxWidth": "135px",
+                    "scrollImg": true,
+                    "width": "100%"
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "Record the value for <span className=bodyFontItalic><span class='bodyFontBold'>v<sub>x</sub></span></span> in <span class='bodyFontBold'>Data Table 1</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Multiply the value for the horizontal velocity (<span className=bodyFontItalic><span class='bodyFontBold'>v<sub>x </sub></span></span>) by the time (found in Step 2). Record the value (in meters) in <span class='bodyFontBold'>Data Table 1</span>. This is the distance that the sphere will travel before it strikes the floor."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the tape measure, find the point on the floor that is at the same distance from the table as the value calculated in Step 5. Measure from directly beneath the plumb line and in the same direction that the angle bar is pointing."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the sphere at the start point on the high end of the angle bar."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Release the metal sphere, and allow it to roll down the angle bar, across the grooved ruler, and off the table. The sphere should land on or close to the point you marked on the floor."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Measure the distance to the point where the sphere struck the floor. Record the actual distance in meters in <span class='bodyFontBold'>Data Table 1</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "<span style='padding-bottom:5px;display:block;'>Find the percent error between the distance you calculated and the distance actually traveled by the sphere.</span>"
+                  },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": "courses_2023/Physics/580409/580409_Physics_Equation_005.svg",
+                    "desc": "Equation 5: percent error equals begin absolute value begin fraction calculated minus experimental end absolute value over calculated end fraction times 100 percent",
+                    "altText": "Equation 5: percent error equals begin absolute value begin fraction calculated minus experimental end absolute value over calculated end fraction times 100 percent",
+                    "imgDivWidth": "452px",
+                    "maxWidth": "570px",
+                    "scrollImg": true,
+                    "width": "100%"
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "Record your results in <span class='bodyFontBold'>Data Table 1</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat the experiment with the acrylic sphere."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat the experiment using both the metal and acrylic spheres, increasing the angle by 5° and then by 10°."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                  "text": [
+                    "Return the equipment to the module kit and materials set, and clean the work area."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "altText": "completion",
+                  "desc": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Physics_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "landscape A4"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "90%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1"
+              },
+              {
+                "type": "Box",
+                "text": "<ul style='margin-bottom: 0;'><li>Add +5° to your angle (𝜃) for Trials 3 and 4</li> <li>Add +10° to your angle (𝜃) for Trials 5 and 6</li></ul>"
+              },
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "header": [
+                  {
+                    "text": "Trial",
+                    "colWidth": "5%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Sphere",
+                    "colWidth": "10%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Angle of ramp, <span className=bodyFontItalic>θ</span>",
+                    "colWidth": "10%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Acceleration, <span className=bodyFontItalic>a</span> (m/s<sup>2</sup>)",
+                    "colWidth": "5%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Horizontal Velocity, <span className=bodyFontItalic><span class='bodyFontBold'>v</span></span><sub>x</sub> (m/s)",
+                    "colWidth": "10%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Time, <span className=bodyFontItalic>t</span> (s)",
+                    "colWidth": "10%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Calculated Distance (m)",
+                    "colWidth": "10%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Actual Distance (m)",
+                    "colWidth": "10%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Percent Error",
+                    "colWidth": "10%",
+                    "maxLength": 10
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "1"
+                    },
+                    {
+                      "type": "text",
+                      "text": "metal"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "2"
+                    },
+                    {
+                      "type": "text",
+                      "text": "acrylic"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "3"
+                    },
+                    {
+                      "type": "text",
+                      "text": "metal"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "4"
+                    },
+                    {
+                      "type": "text",
+                      "text": "acrylic"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "5"
+                    },
+                    {
+                      "type": "text",
+                      "text": "metal"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "6"
+                    },
+                    {
+                      "type": "text",
+                      "text": "acrylic"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Graph",
+                "text": "Insert a photo of your calculations for Data Table 1 if instructed to do so by your instructor."
+              },
+              {
+                "type": "Plain",
+                "text": ""
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": ""
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "Question1",
+          "Question2",
+          "Question3",
+          "Question4",
+          "Question5"
+        ],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "start": "1",
+                "listType": "ordered",
+                "text": [
+                  "Did the sphere in the experiment always land exactly where predicted? If not, why was there a difference between the distance calculated and the distance measured?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "start": "2",
+                "listType": "ordered",
+                "text": [
+                  "Why is it important to use the grooved ruler to ensure that the sphere leaves the table in a horizontal direction?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 1,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question3",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "start": "3",
+                "listType": "ordered",
+                "text": [
+                  "If the same experiment were performed on the moon, what would be different?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question3",
+                "sr": 2,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question4",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "start": "4",
+                "listType": "ordered",
+                "text": [
+                  "What is different about the vertical component of the sphere’s velocity and the horizontal component of the sphere’s velocity once the sphere leaves the table?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question4",
+                "sr": 3,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question5",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "start": "5",
+                "listType": "ordered",
+                "text": [
+                  "If the same experiment were repeated with the same angles but from a taller table, how would the results change?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question5",
+                "sr": 4,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 3000,
+            "title": "Notes"
+          },
+          
+          {
+            "type": "Box",
+            "id": "Box_Note",
+            "align": "center",
+            "margin": "25px 0 0 0",
+            "text": "In order for your instructor to be able to open your video links, please select the \"Save as PDF\" option rather than \"Print to PDF\"."
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6338397224112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 1. Velocity vectors of a projectile along a parabolic trajectory",
+        "src": "courses_2023/Physics/580409/580409_Physics_fig_001.svg",
+        "altText": "Figure 1: Diagram of horizontal and vertical velocities along the trajectory of a projectile",
+        "maxWidth": "351px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 1. Horizontal velocity for a given displacement and time",
+        "src": "courses_2023/Physics/580409/580409_Physics_Equation_001.svg",
+        "altText": "Equation 1: v sub x equals begin fraction x over t end fraction",
+        "maxWidth": "138px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Experimental Design Diagram",
+        "src": "courses_2023/Physics/580409/580409_Physics_ED_001.svg",
+        "altText": "A map of the procedural workflow for this investigation. Before beginning activity 1, you will set up the angle bar ramp and the plumb line. Then, you will measure the angle of the ramp. In activity 1, you will measure the height of the table. Next, you will calculate the predicted time of flight of the sphere. Then, you will calculate the initial velocity of the sphere. Next, you will calculate and measure the predicted horizontal displacement. Then, you will roll the sphere down the angle bar ramp. Next, you will measure the actual horizontal displacement and calculate the percent error. You will repeat this process of rolling the sphere, measuring the actual horizontal displacement and calculating percent error until both the metal and acrylic spheres are tested. Finally, repeat the experiment with the ramp angle increased by 5 degrees then 10 degrees for each of the metal and acrylic spheres.",
+        "maxWidth": "1455px",
+        "scrollImg": true
+      },
+      {
+        "type": "Pages",
+        "disableClick": true,
+        "hideFromList": true,
+        "thumbnailSrc": "core/Page_icon.svg",
+        "content": "OnForm iOS and Android apps",
+        "ref": "https://www.hudl.com/products/technique"
+      },
+      {
+        "type": "Pages",
+        "disableClick": true,
+        "hideFromList": true,
+        "thumbnailSrc": "core/Page_icon.svg",
+        "content": "SloPro iOS app",
+        "ref": "https://apps.apple.com/us/app/slopro-1000fps-slow-motion/id507232505"
+      },
+      {
+        "type": "Pages",
+        "disableClick": true,
+        "hideFromList": true,
+        "thumbnailSrc": "core/Page_icon.svg",
+        "content": "SloPro Android app",
+        "ref": "https://slopro.en.uptodown.com/android"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 2. Experimental set up and velocity vectors of the metal sphere",
+        "src": "courses_2023/Physics/580409/580409_Physics_fig_002.svg",
+        "altText": "Figure 2: Demonstration of preparation steps, labeling the book, incline, ruler, and plumb line",
+        "maxWidth": "500px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 2. Time of flight of a projectile",
+        "src": "courses_2023/Physics/580409/580409_Physics_Equation_002.svg",
+        "altText": "Equation 2: t equals begin square root begin fraction 2 delta y over g end fraction end square root",
+        "maxWidth": "135px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 3. Acceleration down a ramp at angle <span className=bodyFontItalic><span class='bodyFontBold'>θ</span></span> ",
+        "src": "courses_2023/Physics/580409/580409_Physics_Equation_003.svg",
+        "altText": "Equation 3: a equals 0.71 g sine theta",
+        "maxWidth": "140px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 4: Horizontal velocity for a given horizontal displacement and acceleration",
+        "src": "courses_2023/Physics/580409/580409_Physics_Equation_004.svg",
+        "altText": "Equation 4: v sub x equals begin square root 2 a delta x end square root",
+        "maxWidth": "135px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 5. Percent error",
+        "src": "courses_2023/Physics/580409/580409_Physics_Equation_005.svg",
+        "altText": "Equation 5: percent error equals begin absolute value begin fraction calculated minus experimental end absolute value over calculated end fraction times 100 percent",
+        "maxWidth": "570px",
+        "scrollImg": true
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Parabolic trajectory",
+        "content": "A parabola-shaped trajectory followed by all projectiles that are launched at an angle"
+      },
+      {
+        "title": "Projectile",
+        "content": "An object that is given an initial velocity and subsequently travels along its trajectory (flight path) due to its own inertia"
+      },
+      {
+        "title": "Trajectory",
+        "content": "The flight path of a projectile"
+      },
+      {
+        "title": "Vector",
+        "content": "A quantity with a direction and magnitude (or size)"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

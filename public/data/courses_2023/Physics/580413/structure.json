@@ -1,0 +1,3134 @@
+{
+  "locked": true,
+  "courseTitle": "Magnetism",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Physics_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/bodyBookmark.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/TakeSnapshot.svg",
+    "core/disposalAndCleanupIcon.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Physics_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Physics",
+                "titleName2": "Magnetism",
+                "images": {
+                  "logo": "core/Physics_Subject_Icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "waterMark": false,
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Students will investigate the relationship between electricity and magnetism by building several electromagnetic devices. Students will construct an <button class='glossary-text'>electromagnet</button>, electric motor, and electric speaker to understand the basic principles of <button class='glossary-text'>magnetic fields</button> and magnetic <button class='glossary-text'>induction</button>."
+                },
+                {
+                  "type": "List",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Masking tape",
+                    "Salt",
+                    "Permanent marker",
+                    "Music device with an audio jack connection port, such as a smartphone or computer"
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Physics/580413/580413_Physics_Time-Requirement.svg",
+                  "altText": "Preparation - 5 minutes \nActivity 1: Properties of Electric Currents - 20 minutes \nActivity 2: Solenoid - 20 minutes \nActivity 3: Coiled Wire Electromagnet - 20 minutes \nActivity 4: DC Electric Motor - 20 minutes \nActivity 5: Electric Speaker - 20 minutes",
+                  "desc": "Preparation - 5 minutes \nActivity 1: Properties of Electric Currents - 20 minutes \nActivity 2: Solenoid - 20 minutes \nActivity 3: Coiled Wire Electromagnet - 20 minutes \nActivity 4: DC Electric Motor - 20 minutes \nActivity 5: Electric Speaker - 20 minutes",
+                  "containerType": "rightContainer",
+                  "imgDivWidth": "440px",
+                  "scrollImg": true,
+                  "maxWidth": "550px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Investigate the properties of magnets.",
+                    "Analyze the relationship between electricity and magnetism.",
+                    "Apply the principle of <button class='glossary-text'>induction</button> to simple electromagnetic devices <span style='whiteSpace: nowrap'>(<button class='glossary-text'>solenoid</button>, motor, and speaker).</span>"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "desc": " video link symbol, camera symbol, stopwatch symbol",
+                  "altText": " video link symbol, camera symbol, stopwatch symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "scrollImg": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Because of its spinning iron core, Earth acts as a giant magnet. Earth’s <button class='glossary-text'>magnetic field</button> can sometimes be seen as the aurora in the polar night skies and all compasses point toward the North Pole.  Periodically, throughout Earth’s history, this magnetic field has reversed itself. During these pole reversals, compasses would have pointed toward the South Pole, which would have become the new North Pole of Earth’s magnets. Scientists are still trying to determine why this occurs and whether it can be predicted. However, these reversals have provided scientists with some of the most important evidence for understanding plate tectonics and how the continents have moved over time. As new rock is formed, any magnetic minerals are oriented toward the magnetic North Pole. When they cool, they are stuck in this position. During periods of pole reversal, these iron-containing rocks will be oriented in the opposite direction, which leads to a pattern of lines of alternating polarity. Crucially, these stripes occur in the same pattern on either side of mid-ocean ridges, which helped scientists prove that these were places where new crust was emerging, growing the sea floor and pushing the continents apart. These stripes continue to help scientists study the age and formation of the sea floor."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580413/580413_Physics_whyShouldICare.svg",
+                  "desc": "An illustration of molten rock beneath the ocean floor pushing to the surface at a mid-ocean ridge.",
+                  "altText": "An illustration of molten rock beneath the ocean floor pushing to the surface at a mid-ocean ridge.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The discovery of magnetism dates back to circa 589 BCE, when Thales of Miletus found that certain stones were able to attract pieces of iron. These stones, sometimes called lodestones, became known as magnetite, possibly named for the Greece region Magnesia (Figure 1). It was discovered that all magnets exerted a force on objects containing iron and that all magnets had two poles, where like poles repelled each other and unlike poles attracted each other."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580413/580413_Physics_fig_001.svg",
+                  "desc": "Figure 1: A hand holding an irregularly shaped rock to which is attracted three metal paperclips.",
+                  "altText": "Figure 1: A hand holding an irregularly shaped rock to which is attracted three metal paperclips.",
+                  "imgDivWidth": "290px",
+                  "maxWidth": "360px",
+                  "scrollImg": true,
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "A <button class='glossary-text'>magnetic field</button> is a region of space around a magnet where magnetism is exerted. In permanent magnets, a magnetic field is produced with the alignment of atoms. All magnets have a north and south pole. The magnetic field can be detected and measured by the presence of lines of force that extend from the north pole of the magnet to its south pole, as shown in Figure 2."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580413/580413_Physics_fig_002.svg",
+                  "desc": "Figure 2: Illustration of the lines of force extending from the north pole and looping around to the south pole",
+                  "altText": "Figure 2: Illustration of the lines of force extending from the north pole and looping around to the south pole",
+                  "imgDivWidth": "410px",
+                  "maxWidth": "510px",
+                  "scrollImg": true,
+                  "width": "100%"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The properties of a magnet are attributed to the orientation of its <button class='glossary-text'>magnetic domains</button>, which are groups of atoms with a tiny <button class='glossary-text'>magnetic field</button>. In a nonmagnetic piece of metal, the domains are organized randomly, as shown in Figure 3. the magnetic fields of the different domains cancel each other out. In a magnet or a piece of metal that has been temporarily magnetized, the domains are aligned as in Figure 4. The effects of the magnetic fields of the individual domains add up, increasing the strength of the overall magnetic field. Iron that is not magnetized can be made into a temporary magnet by repeatedly rubbing it against a permanent magnet. Doing so aligns its magnetic domains, and the iron will subsequently acquire the properties of a magnet. However, the strength of the magnet is often weak, and the effect is temporary."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580413/580413_Physics_fig_003.svg",
+                  "desc": "Figure 3: Magnetic domains scattered haphazardly",
+                  "altText": "Figure 3: Magnetic domains scattered haphazardly",
+                  "imgDivWidth": "290px",
+                  "maxWidth": "360px",
+                  "scrollImg": true,
+                  "width": "100%"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580413/580413_Physics_fig_004.svg",
+                  "desc": "Figure 4: Magnetic domains in orderly rows and columns",
+                  "altText": "Figure 4: Magnetic domains in orderly rows and columns",
+                  "imgDivWidth": "290px",
+                  "maxWidth": "360px",
+                  "scrollImg": true,
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Magnetic lines of force are concentrated at the poles. If two like poles (north/north or south/south) of two magnets are in close proximity to each other, the magnetic force of the magnets causes them to repel each other. If two opposite poles (north/south) are in close proximity to each other, the magnetic force of the magnets creates an attractive force between the two poles."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Earth itself is a magnet. The rotation of the molten iron outer core causes charged ions to move, generating the magnetic field surrounding Earth. This magnetic field protects Earth’s surface from deadly solar radiation. Magnetic compass needles align with this field, allowing for navigation (Figure 5)."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580413/580413_Physics_fig_005.svg",
+                  "desc": "Figure 5: An illustration of Earth as seen from outer space and its magnetic field. The magnetic field is represented by several concentric circles that flank Earth on its left and right sides. The field lines start at the north magnetic pole on one end and end at the south magnetic pole at the other end. A line runs the length of Earth's diameter 11.5 degrees off from the magnetic poles.",
+                  "altText": "Figure 5: An illustration of Earth as seen from outer space and its magnetic field. The magnetic field is represented by several concentric circles that flank Earth on its left and right sides. The field lines start at the north magnetic pole on one end and end at the south magnetic pole at the other end. A line runs the length of Earth's diameter 11.5 degrees off from the magnetic poles.",
+                  "imgDivWidth": "410px",
+                  "maxWidth": "510px",
+                  "scrollImg": true,
+                  "width": "100%"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Around the 6th century BCE, the ancient Greeks discovered the effects of static electricity when they rubbed pieces of amber with wool, which were subsequently able to pick up pieces of straw. In the 18th century, scientists such as Benjamin Franklin continued to study electricity. However, it remained a novelty with little practical purpose until the early 19th century. At that time, Hans Christian Ørsted, a Danish physicist, noted that when a current passed through a wire near a magnetic compass, it deflected the compass needle. This observation was the first demonstration of the relationship between electricity and magnetism."
+                },
+                {
+                  "type": "Plain",
+                  "text": "In 1821, Michael Faraday, an English scientist, studied Ørsted’s experiment. He found that when a magnet moves near a coil of wire, a current is generated in the wire—a phenomenon called <button class='glossary-text'>induction</button>. This phenomenon also works in reverse: when a current passes through a wire, a <button class='glossary-text'>magnetic field</button> is induced in the wire that can interact with the magnetic field of a permanent magnet or <button class='glossary-text'>electromagnet</button>. Induction is the working principle behind electric motors and generators. Based on his findings, Faraday developed the concept of a basic working motor. More practical working motors were later developed, and when power distribution systems became available later in the 19th century, electric motors found commercial success in many applications."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "subTitle": "Electromagnets",
+                  "text": "As described by Ørsted, if a magnetic compass is brought close to a <span style='whiteSpace: nowrap'>current-carrying</span> wire, the needle is deflected by the magnetic field of the wire. If the wire is wound in a coil, the magnetic field of each loop reinforces that of the other loops, creating a stronger magnet. A <button class='glossary-text'>solenoid</button>, a cylindrical coil of wire, takes advantage of this principle. Placing an iron core in the solenoid increases the strength of the magnetic field. This concept is the basic principle of an <span class='bodyFontBold'>electromagnet</span>.</span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Electromagnets made of coils of wire carrying currents are used in many modern devices. For example, a solenoid in a car engine is used to start the vehicle. As current flows through the coils of the solenoid, the magnetic field that is generated moves a plunger inside the coils, allowing it to make contact with the starter electrical terminals. An electric motor converts electrical energy to mechanical energy by allowing a coil of wire to turn rapidly when current is passed through it. The magnetic field generated in the coil interacts with that of a permanent magnet or another stationary coil near the spinning coil to produce linear or rotary force. An electric generator functions according to the same principles in the opposite manner; in this application, a mechanical force such as a hand crank or an internal combustion engine turns the spinning coil, inducing an electrical current in the coil. Finally, in a speaker connected to a device, such as a radio, the current in the coil varies according to the signal from the radio. As the coil’s magnetic field fluctuates, the permanent magnet in the speaker pushes and pulls on a coil attached to a diaphragm, a material with a large surface area. The diaphragm vibrates with the movement of the coil, transferring energy to molecules in the air to create sound waves."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "In permanent magnets, a magnetic field is produced by which of the following?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "the alignment of atoms",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "domains organized randomly",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "a force that extends from the south pole to north pole",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "different domains cancelling each other out",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "a solenoid",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "In permanent magnets, a magnetic field is produced with the alignment of atoms."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following can be detected and measured by the presence of lines of force that extend from a magnet?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "the magnetic field",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "the magnet’s mass",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "the number of solenoids",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "the number of domains",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "the alignment of atoms",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The magnetic field can be detected and measured by the presence of lines of force that extend from the north pole of the magnet to its south pole."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "A magnetic field is a region of space around a magnet where magnetism is exerted. All magnets have a north and south pole. The properties of a magnet are attributed to the orientation of its magnetic domains, which are groups of atoms with a tiny magnetic field. In a nonmagnetic piece of metal, the domains are organized randomly the magnetic fields of the different domains cancel each other out. In a magnet or a piece of metal that has been temporarily magnetized, the domains are aligned. The effects of the magnetic fields of the individual domains add up, increasing the strength of the overall magnetic field. Iron that is not magnetized can be made into a temporary magnet by repeatedly rubbing it against a permanent magnet. Doing so aligns its magnetic domains, and the iron will subsequently acquire the properties of a magnet. However, the strength of the magnet is often weak, and the effect is temporary.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580413/580413_Physics_fig_002.svg",
+                      "alt": "Figure 2: Illustration of the lines of force extending from the north pole and looping around to the south pole",
+                      "maxWidth": "72%"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "A magnetic field is a region of space around a magnet where magnetism is exerted. All magnets have a north and south pole. The properties of a magnet are attributed to the orientation of its magnetic domains, which are groups of atoms with a tiny magnetic field. In a nonmagnetic piece of metal, the domains are organized randomly the magnetic fields of the different domains cancel each other out. In a magnet or a piece of metal that has been temporarily magnetized, the domains are aligned. The effects of the magnetic fields of the individual domains add up, increasing the strength of the overall magnetic field. Iron that is not magnetized can be made into a temporary magnet by repeatedly rubbing it against a permanent magnet. Doing so aligns its magnetic domains, and the iron will subsequently acquire the properties of a magnet. However, the strength of the magnet is often weak, and the effect is temporary.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580413/580413_Physics_fig_002.svg",
+                      "alt": "Figure 2: Illustration of the lines of force extending from the north pole and looping around to the south pole",
+                      "maxWidth": "72%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Magnetic Fields",
+                  "text": "The effects of magnetism and electric charge are often explained by the previously discussed concept of fields. Fields provide a basis for understanding how electric charges and magnets can apply a force at a distance. An electric or a <button class='glossary-text'>magnetic field</button> is the space where the effect of a charge or magnet is exerted upon a charged or magnetic object. It can be defined mathematically or measured experimentally.</span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "The properties of a magnetic field are:"
+                },
+                {
+                  "type": "List",
+                  "text": [
+                    "The magnetic force exerted upon a charged particle in a magnetic field depends on the amount of charge in the particle.",
+                    "The magnetic force exerted upon a charged particle in a magnetic field depends on the speed and direction of the charged particle.",
+                    "If a charged particle moves along a trajectory that is parallel to the magnetic field, the magnetic force exerted upon the particle is zero.",
+                    "The magnetic force exerted upon a positively charged particle is opposite in direction from the magnetic force exerted upon a negatively charged particle.",
+                    "If a charged particle moves at angle theta (θ) relative to the direction of the magnetic field, the magnetic force exerted on the charged particle is proportional to sin θ."
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "subTitle": "Electric Field vs. Magnetic Field",
+                  "text": "There are some important differences between an electric field and a magnetic field:</span>"
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "text": [
+                    "An electric field exerts a force on a charged particle if the particle is located in the field, but a magnetic field only exerts a force on a charged particle that is moving.",
+                    "The force exerted by an electric field on a charged particle is in the direction of the field, but the force exerted by a magnetic field on a charged particle moving through the field is perpendicular to the direction of the field."
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Consider Figure 6. If a wire is placed in a <button class='glossary-text'>magnetic field</button> and a current is flowing through the wire, there is a force on the wire that causes it to move. This observation is a demonstration of the principle underlying telegraphs, electric motors, and electric generators. The direction in which the wire moves depends on the direction of the current relative to the direction of the magnetic field. In Figure 6, the wire runs between the north and south poles of a horseshoe magnet. The direction of the current is perpendicular to the direction of the magnetic field."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580413/580413_Physics_fig_006.svg",
+                  "desc": "Figure 6: Alligator clip leads connected to a six volt battery, a wire between two poles of a horseshoe magnet, and a knife switch",
+                  "altText": "Figure 6: Alligator clip leads connected to a six volt battery, a wire between two poles of a horseshoe magnet, and a knife switch",
+                  "imgDivWidth": "410px",
+                  "maxWidth": "510px",
+                  "scrollImg": true,
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Until the circuit is closed, the magnet has no effect on the wire. Although the wire has millions of charged particles, the motion of the charged particles is random and in all directions. When the circuit is closed, an electric field is established in the wire, causing the electrons in the wire to move in one direction. If the direction of that movement is at an angle relative to the direction of the magnetic field, the wire will move as a result of the magnetic force. If the direction of the current is perpendicular to that of the magnetic field, the force exerted upon the wire will be maximized."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "To determine the direction in which the wire will move, you can apply the <button class='glossary-text'>right-hand rule</button>. Hold your hand flat with your palm extended as shown in Figure 7. Find the location where the wire passes through the magnetic field, and point your fingers in the direction of the positive current (from the positive terminal to the negative terminal). Point the palm of your hand in the direction of the magnetic field (from the positive pole to the negative pole). In this position, your thumb is pointing toward the direction of the force on the wire."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580413/580413_Physics_fig_007.svg",
+                  "desc": "Figure 7: Right hand palm up, the F arrow pointing along the extended thumb, I arrow along the pointer finger, and B arrow across the palm",
+                  "altText": "Figure 7: Right hand palm up, the F arrow pointing along the extended thumb, I arrow along the pointer finger, and B arrow across the palm",
+                  "imgDivWidth": "290px",
+                  "maxWidth": "360px",
+                  "scrollImg": true,
+                  "width": "100%"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Figure 8, the direction of the <button class='glossary-text'>magnetic field</button> (indicated by the letter <span class='bodyFontBold'>B</span>) is down. The direction of the current (<span class='bodyFontBold'>I</span>) is from the wire shown on the right to the wire on the left, and the direction of the force (<span class='bodyFontBold'>F</span>) on the wire is away from the horseshoe magnet."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580413/580413_Physics_fig_008.svg",
+                  "desc": "Figure 8: Figure 4 labeled with the I, B, and F arrow as described in the text",
+                  "altText": "Figure 8: Figure 4 labeled with the I, B, and F arrow as described in the text",
+                  "imgDivWidth": "410px",
+                  "maxWidth": "510px",
+                  "scrollImg": true,
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Another <button class='glossary-text'>right-hand rule</button> indicates the direction of the magnetic field of a <span style='whiteSpace: nowrap'>current-carrying</span> wire. Point your thumb in the direction of positive current and curl your fingers around the wire (see Figure 9). Your fingers now point in the direction of the magnetic field, meaning that the magnetic field around a wire is pointed in a circle around the wire. At any point on that circle, the magnetic field is in a different direction. When a wire is wound in a coil, each loop in the coil reinforces the strength of the magnetic field. The coil acts as a short bar magnet with a north and south pole. In an electric motor, the poles of the coil are attracted or repelled by the magnetic field of the permanent magnet in the motor, depending on its orientation."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580413/580413_Physics_fig_009.svg",
+                  "desc": "Figure 9: Illustration of the fingers of a right hand curled around a tube in a circuit with the thumb pointing up",
+                  "altText": "Figure 9: Illustration of the fingers of a right hand curled around a tube in a circuit with the thumb pointing up",
+                  "imgDivWidth": "360px",
+                  "maxWidth": "450px",
+                  "scrollImg": true,
+                  "width": "100%"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Magnetism Every Day",
+                  "text": "Magnetism and <button class='glossary-text'>induction</button> play vital roles in everyday lives: magnetic door openers, sensors on traffic signals, <button class='glossary-text'>electromagnet</button> speakers, motors, transformers, generators, and cell phone chargers are just a few examples. Two common applications are as traffic light sensors and cell phone chargers.</span>"
+                },
+                {
+                  "type": "List",
+                  "text": [
+                    "Traffic lights operate either on timers or on sensors. In urban areas, there often is enough traffic flow for traffic signal lights to rely on timers. However, in more rural or suburban areas, traffic signals use sensors. These sensors employ technology to determine when vehicles are at an intersection. An inductive loop is embedded under the ground. Inductive loops are coils of wire that detect changes in the <button class='glossary-text'>magnetic field</button> around them. When the coils are placed below the concrete, they produce a specific, measurable inductance. When a vehicle, made primarily of metal, passes over the loop, it acts as a metal core for the loop and changes the current in the coil below the ground. This then sends a signal to the traffic light to cause it to change.",
+                    "If you use a wireless charger to charge your cell phone, you are using the inductive power of magnetism. In fact, this wireless transfer technology is called Inductive Power Transfer (IPT). To put it simply, the wireless charger contains coils of wire. When you place a cell phone on top of the charger, electrical current flows between the two electronic devices due to the presence of an electromagnetic field."
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "The right-hand rule can be used to determine the direction in which a wire will move when it is placed in a magnetic field and currently flows through the wire. When using this rule, your thumb points in the direction of which of the following?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "the force on the wire",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "the magnetic field",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "magnetic north",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "magnetic south",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "the positive current",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "In this position, your thumb is pointing toward the direction of the force on the wire."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "The right-hand rule can also be used to determine the direction of the magnetic field of a current-carrying wire. When using this rule, your thumb points in the direction of which of the following?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "the positive current",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "the magnetic field",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "the force on the wire",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "magnetic north",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "magnetic south",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "When using the right-hand rule in this way, point your thumb in the direction of positive current and curl your fingers around the wire. Your fingers now point in the direction of the magnetic field, meaning that the magnetic field around a wire is pointed in a circle around the wire."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "To use the right-hand rule, hold your right hand flat with your palm extended. Find the location where the wire passes through the magnetic field and point your fingers in the direction of the positive current (from the positive terminal to the negative terminal). Point the palm of your hand in the direction of the magnetic field (from the positive pole to the negative pole). In this position, your thumb is pointing toward the direction of the force on the wire. <br><br>This rule can also be used to determine the direction of the magnetic field of a current-carrying wire. Point your thumb in the direction of positive current and curl your fingers around the wire. Your fingers now point in the direction of the magnetic field, meaning that the magnetic field around a wire is pointed in a circle around the wire. At any point on that circle, the magnetic field is in a different direction.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580413/580413_Physics_fig_007.svg",
+                      "alt": "Figure 7: Right hand palm up, the F arrow pointing along the extended thumb, I arrow along the pointer finger, and B arrow across the palm",
+                      "maxWidth": "51%"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "To use the right-hand rule, hold your right hand flat with your palm extended. Find the location where the wire passes through the magnetic field and point your fingers in the direction of the positive current (from the positive terminal to the negative terminal). Point the palm of your hand in the direction of the magnetic field (from the positive pole to the negative pole). In this position, your thumb is pointing toward the direction of the force on the wire. <br><br>This rule can also be used to determine the direction of the magnetic field of a current-carrying wire. Point your thumb in the direction of positive current and curl your fingers around the wire. Your fingers now point in the direction of the magnetic field, meaning that the magnetic field around a wire is pointed in a circle around the wire. At any point on that circle, the magnetic field is in a different direction.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580413/580413_Physics_fig_007.svg",
+                      "alt": "Figure 7: Right hand palm up, the F arrow pointing along the extended thumb, I arrow along the pointer finger, and B arrow across the palm",
+                      "maxWidth": "51%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "altText": "A workflow map of activities 1-3 of this investigation.  To prepare, create a wire coil and bent paper clips for activity 4, and create a wire coil for activity 5. In activity 1, move the compass and observe the needle. Then, orient the compass north, add a battery to the holder, connect the clips, and observe the compass needle. In activity 2, wrap magnet wire around a straw and strip the ends. Then, add a battery to the holder and connect a wire to one end. Next, put a paper clip in the straw, connect the other wire to the battery holder, and observe the paper clip. In activity 3, place a nail in the straw, connect the ends of the wire together with a clip, and observe the compass needle. Then, determine the north pole. Next, use the magnet to pick up paper clips. Then, perform the following and try to pick up paper clips in each case: disconnect the clip, connect the electromagnet to batteries in series, remove the nail, and remove coils from the straw. Proceed to activity 4.",
+                  "desc": "A workflow map of activities 1-3 of this investigation.  To prepare, create a wire coil and bent paper clips for activity 4, and create a wire coil for activity 5. In activity 1, move the compass and observe the needle. Then, orient the compass north, add a battery to the holder, connect the clips, and observe the compass needle. In activity 2, wrap magnet wire around a straw and strip the ends. Then, add a battery to the holder and connect a wire to one end. Next, put a paper clip in the straw, connect the other wire to the battery holder, and observe the paper clip. In activity 3, place a nail in the straw, connect the ends of the wire together with a clip, and observe the compass needle. Then, determine the north pole. Next, use the magnet to pick up paper clips. Then, perform the following and try to pick up paper clips in each case: disconnect the clip, connect the electromagnet to batteries in series, remove the nail, and remove coils from the straw. Proceed to activity 4.",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Physics/580413/580413_Physics_ED_001.svg",
+                  "imgDivWidth": "98%",
+                  "maxWidth": "1530px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "98%",
+                    "L": "98%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "80%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Experimental Design (cont... )",
+              "pageTitle": "Experimental Design (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "altText": "A map of the procedural workflow of activities 4-5 of this investigation. After completing activity 3, in activity 4, set up a DC motor using the prepared coil. Then, connect the motor to the battery and observe the movement of the coil. Next, reverse the clips and observe the movement of the coil. Then, flip over the magnets and observe the movement of the coil. In activity 5, place the prepared wire coil on top of the ring magnets. Then, attach wires to the audio jack. Next, connect the audio jack to the electronic device and connect the coil to the audio jack wires. Then, place a pie plate over the coil and magnets and play audio from the device. Next, listen for sound in the pie plate. Finally, add salt to the pie plate and observe its motion while the audio plays.",
+                  "desc": "A map of the procedural workflow of activities 4-5 of this investigation. After completing activity 3, in activity 4, set up a DC motor using the prepared coil. Then, connect the motor to the battery and observe the movement of the coil. Next, reverse the clips and observe the movement of the coil. Then, flip over the magnets and observe the movement of the coil. In activity 5, place the prepared wire coil on top of the ring magnets. Then, attach wires to the audio jack. Next, connect the audio jack to the electronic device and connect the coil to the audio jack wires. Then, place a pie plate over the coil and magnets and play audio from the device. Next, listen for sound in the pie plate. Finally, add salt to the pie plate and observe its motion while the audio plays.",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Physics/580413/580413_Physics_ED_002.svg",
+                  "imgDivWidth": "91%",
+                  "maxWidth": "1281px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "100%",
+                    "L": "80%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "80%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the conceptual physics electricity module kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Magnet wire",
+                          "image": "courses_2023/Physics/580413/580413_Physics_material_1.svg",
+                          "altText": "Magnetic wire"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Magnetic compass",
+                          "image": "courses_2023/Physics/580413/580413_Physics_material_2.svg",
+                          "altText": "Magnetic compass"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Set of ring magnets",
+                          "image": "courses_2023/Physics/580413/580413_Physics_material_3.svg",
+                          "altText": "Magnet, Ring, Assorsted, Pack of 6"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Audio jack",
+                          "image": "courses_2023/Physics/580413/580413_Physics_material_4.svg",
+                          "altText": "Phone plug"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Pie plate",
+                          "image": "courses_2023/Physics/580413/580413_Physics_material_5.svg",
+                          "altText": "Pie Tin"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "2 Alligator clip leads",
+                          "image": "courses_2023/Physics/580413/580413_Physics_material_6.svg",
+                          "altText": "Black electrode"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "4 D-cell battery holders",
+                          "image": "courses_2023/Physics/580413/580413_Physics_material_7.svg",
+                          "altText": "Single battery holder"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Box of paper clips",
+                          "image": "courses_2023/Physics/580413/580413_Physics_material_8.svg",
+                          "altText": "Box of paper clips"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Foam cup",
+                          "image": "courses_2023/Physics/580413/580413_Physics_material_9.svg",
+                          "altText": "White foam cup"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Sandpaper",
+                          "image": "courses_2023/Physics/580413/580413_Physics_material_10.svg",
+                          "altText": "Package of 60 grit sandpaper, 4 count"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Straw",
+                          "image": "courses_2023/Physics/580413/580413_Physics_material_11.svg",
+                          "altText": "Plastic straw"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Nail",
+                          "image": "courses_2023/Physics/580413/580413_Physics_material_12.svg",
+                          "altText": "Nail"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "4 D-cell batteries",
+                          "image": "courses_2023/Physics/580413/580413_Physics_material_13.svg",
+                          "altText": "D cell battery"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [
+                            "Masking tape",
+                            "Salt",
+                            "Permanent marker",
+                            "Music device with an audio jack connection port, such as a smartphone or computer"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span> <span className=bodyParaLineBreak></span> <span className=bodyParaLineBreak></span> Replacement supplies for the Magnetism investigation (Conceptual Physics Electricity Module kit, item number 580410) can be ordered from Carolina Biological Supply Company. <span className=bodyParaLineBreak></span> <span className=bodyMediumSubHeading>Call:</span> 866.332.4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "isCheckPoint": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Safety goggles should be worn during this investigation. There are no additional safety concerns."
+                },
+                {
+                  "type": "Image",
+                  "desc": "goggles symbol",
+                  "altText": "goggles symbol",
+                  "image": "core/Key_Goggle.svg",
+                  "imgDivWidth": "78px",
+                  "maxWidth": "120px"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Read all instructions for these activities before beginning. Follow the instructions closely, and observe established laboratory safety practices."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The components included in this kit use low voltages and low currents and are safe to handle. Do not use other components as substitutes for those included in this kit."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Keeping circuits connected for extended periods of time can cause wires or components to overheat or batteries to leak. Keep circuits connected for only as long as required to complete analysis; afterward, disconnect the alligator clips from the batteries."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Do not eat, drink, or chew gum while performing this activity. Wash your hands with soap and water before and after performing the activity."
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span class='bodyFontBold'>Note:</span> For more information on electricity and magnetism, see the following links: <span class='bodyParaLineBreak'><a target='_blank' href='https://www.carolina.com/teacher-resources/Interactive/electricity-and-magnetism/tr30175.tr?question=electricity%20and%20magnetism'>Electricity and Magnetism </a></span> <span class='bodyParaLineBreak'><a target='_blank' href='https://www.carolina.com/teacher-resources/Interactive/energy-is-energy/tr32420.tr?ques-tion=energy%20is%20energy'>Energy Is Energy</a> </span> <span class='bodyParaLineBreak'><a target='_blank' href='https://www.carolina.com/teacher-resources/Interactive/electrify-your-classroom-with-a-dis-cussion-on-the-war-of-the-currents/tr25105.tr?question=war%20of%20current'>Electrify Your Classroom with a Discussion on the War of the Currents, Past and Present </a> </span> "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.</span>",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "In rural or suburban areas, traffic signals often use sensors. These sensors employ which technology to determine when vehicles are at an intersection?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "inductive loops",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "deductive loops",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "pressure and temperature",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "timers",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "the left-hand rule",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "In an electric motor, the ____________ of the coil is/are attracted or repelled by the magnetic field of the permanent magnet in the motor, depending on its orientation.",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "poles",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "temperature",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "magnetic torque",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "currents",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "non-metals",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is a property of a magnetic field?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "If a charged particle moves along a trajectory that is parallel to the magnetic field, the magnetic force exerted upon the particle is zero.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The sum of the electrical potential differences around any closed loop in a circuit is zero.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The current flowing into a junction must equal the current flowing out of a junction.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The intensity of a light lamp, which is indicated through its brightness, depends on the power dissipated throughout the lamp.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "V = IR",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "The _________ exerted by an electric field on a charged particle is in the direction of the field, but the _________ exerted by a magnetic field on a charged particle moving through the field is perpendicular to the direction of the field.",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "force, force",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "force, energy",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "ion, atom",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "charged particle, force",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "energy, force",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "If a charged particle moves at angle θ relative to the direction of the magnetic field, the magnetic force exerted on the charged particle is proportional to which of the following?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "sin θ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "tan θ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "cos θ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "sec θ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "cot θ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is expected to happen if two opposite poles (north/south) are in close proximity to each other?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The magnetic force of the magnets creates an attractive force between the two poles.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The magnetic force of the magnets causes them to repel each other.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The magnetic force of the needle is deflected by the magnetic field of the wire.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "It depends on the orientation of the magnet. ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Two opposite poles are never near each other.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is a solenoid?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "a cylindrical coil of wire",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "an iron core",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "a magnet",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "an energy source",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "alternating currents",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "For safety, which of the following items of personal protective equipment is required to be worn during this investigation?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "safety goggles",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "lab coat",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "rubber gloves",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "rubber boots",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "nitrile gloves",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Keeping circuits connected for extended periods of time can cause which of the following to happen?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 8,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Wires or components could overheat.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Connected batteries will recharge.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The power supply will be abruptly interrupted.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The solenoid will turn faster.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The poles will repel each other.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "In this image, what is the direction of the magnetic field?",
+                      "screenRatio": [50, 50],
+                      "imageData": {
+                        "image": "courses_2023/Physics/580413/580413_Physics_fig_008.svg",
+                        "desc": "Figure 8: Figure 4 labeled with the I, B, and F arrow as described in the text",
+                        "altText": "Figure 8: Figure 4 labeled with the I, B, and F arrow as described in the text",
+                        "imgDivWidth": "72%",
+                        "maxWidth": "510px"
+                      },
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 9,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "down",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "up",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "left",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "right",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "circular",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (4 steps)",
+              "pageTitle": "Preparation (4 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure-resource",
+              "keyID": "page11",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Read through the activities."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Obtain all materials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Clean the work area."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "View the following video:"
+                  },
+                  {
+                    "type": "Video",
+                    "width": "100%",
+                    "imgDivWidth": "200px",
+                    "image": "courses_2023/Physics/580413/580413_Physics_VideoIcone_1.svg",
+                    "desc": "Stripping a Magnet Wire",
+                    "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4573412165001"
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "<span class='bodyFontBold'>For Activity 4 only:</span> <ol style='margin-bottom: 0;'> <li>Using the magnet wire, create a coil with at least 30 turns with a diameter of approximately 2 cm (about the diameter of a <span style='whiteSpace: nowrap'>C-cell</span> battery). Leave about 8 cm of wire on each end of the coil. This coil will be used in the motor in Activity 4.</li> <li>Unwind 2 paper clips to make brushes for the motor to be used in Activity 4. Form the clips to provide a place for the straight ends of a wire coil to rest (see Figure 10).</li> </ol>"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580413/580413_Physics_fig_010.svg",
+                    "desc": "Figure 10: An unwound paper clip",
+                    "altText": "Figure 10: An unwound paper clip",
+                    "imgDivWidth": "310px",
+                    "maxWidth": "380px",
+                    "scrollImg": true,
+                    "imgDivMargin": "0 0 0 36px",
+                    "width": "100%"
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "<span class='bodyFontBold'>For Activity 5 only:</span> <ol> <li>Create a coil using the magnet wire. Wrap the wire around the <span style='whiteSpace: nowrap'>D-cell</span> battery at least 30 times, leaving approximately 4 cm of wire at the end of the coil. This coil will be used in the speaker in Activity 5.</li> <li>Secure the loose ends by wrapping a few turns around the coil at opposite ends. Use the sandpaper to strip the ends of the wire, removing the enamel on all sides.</li> </ol>"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will observe the impact of a wire connected to a battery on the behavior of a compass needle."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "<div className=order-list-text>A</div>&nbsp;Properties of Electric Currents (11 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Properties of Electric Currents (11 steps)",
+              "showPageTitle": true,
+              "infoPopUp": "procedure-resource",
+              "waterMark": true,
+              "keyID": "page12",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Collect a D-cell battery, a D-cell battery holder, an alligator clip lead, and the magnetic compass."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the compass on a level surface away from metallic objects."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Move the compass across the level surface while constantly turning it. Observe the behavior of the compass needle."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Turn the compass until the letter N is aligned with the red end of the compass needle. This orientation represents a compass heading of “true” north. Tape the compass to the level surface to secure it in this position."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Insert one D-cell battery into the battery holder."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Connect one end of the alligator clip lead to one of the terminals of the battery holder. Place the wire over the magnetic compass as shown in Figure 11."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580413/580413_Physics_fig_011.svg",
+                    "desc": "Figure 11: Wire placed over the compass with the alligator clips attached to the battery holder",
+                    "altText": "Figure 11: Wire placed over the compass with the alligator clips attached to the battery holder",
+                    "imgDivWidth": "308px",
+                    "maxWidth": "410px",
+                    "scrollImg": true
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Attach the other end of the alligator clip lead to the remaining battery holder terminal."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Observe what happens to the compass needle."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Remove the alligator clip from the battery holder."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Observe what happens to the compass needle."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record your observations in the Lab Notebook."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will create a <button class='glossary-text'>solenoid</button> by wrapping a wire around a straw and connecting it to a battery. You will then add a paper clip inside of the straw and observe its behavior when the solenoid is connected. You will use the solenoid in Activity 3."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "<div className=order-list-text>A</div>&nbsp;Solenoid (13 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Solenoid (13 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "page13",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "text": ""
+                      },
+                      {
+                        "type": "Box",
+                        "text": "This apparatus is a specialized <button class='glossary-text'>electromagnet</button> known as a <button class='glossary-text'>solenoid</button>. These devices are used to activate switches, relays, valves, and power door locks."
+                      }
+                    ],
+                    "text": "Collect the straw, the magnet wire, a D-cell battery, a battery holder, an alligator clip lead, and a paper clip."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Wind the magnet wire around the straw 100 times, leaving 8 cm on each end of the coil (see Figure 12)."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580413/580413_Physics_fig_012.svg",
+                    "desc": "Figure 12: Magnet wire wound around a straw as directed in Step 2",
+                    "altText": "Figure 12: Magnet wire wound around a straw as directed in Step 2",
+                    "imgDivWidth": "308px",
+                    "maxWidth": "410px",
+                    "scrollImg": true,
+                    "width": "100%"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the sandpaper to remove the enamel from the ends of the magnet wire. Ensure that the enamel is removed on all sides."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Unfold and straighten the paper clip so it fits inside the straw."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Insert the D-cell battery into the battery holder."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Connect the alligator clips to the bare ends of the magnet wire coil."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Connect 1 alligator clip (along with the magnet wire) to the terminal of the battery holder."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the straightened paper clip inside the straw."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the straw with the straightened paper clip on a level surface. Ensure that neither opening of the straw is pointed at yourself or anyone else."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Connect the remaining alligator clip (along with the magnetic wire) to the other battery terminal."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Observe the motion of the paper clip."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat the procedure several times, and observe what happens to the paper clip. Try it with more and less of the paper clip inside the straw."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record your observations in the Lab Notebook."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 3",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 3, you will create an <button class='glossary-text'>electromagnet</button> by placing a nail in the <button class='glossary-text'>solenoid</button> from Activity 2 and observe its effect on a magnetic compass.  You will then observe and compare the electromagnet’s ability to pick up paper clips under various conditions such as when connected to a battery, when the nail is removed and when coils are removed from the solenoid. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 3",
+          "pages": [
+            {
+              "title": "<div className=order-list-text>A</div>&nbsp;Coiled Wire Electromagnet (30 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Coiled Wire Electromagnet (30 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "page14",
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Obtain the nail from the kit."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the same magnet wire-wrapped straw from Activity 2."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Ensure that the enamel is removed from the ends of the magnet wire."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the nail inside the straw that has the magnet wire wrapped around it."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Connect a clip from each of 2 alligator clip leads to the terminals of the battery holder."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Connect the open ends of the 2 alligator clip leads to the stripped ends of the magnet wire. It may be necessary to fold the ends over or wrap the ends of the wire around the alligator clips to ensure a good connection. The coil and the nail are now an <button class='glossary-text'>electromagnet</button>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the magnetic compass on a level surface, and turn the compass so that the red end of the needle aligns with the letter <span className=bodyFontItalic>N</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the electromagnet near the magnetic compass."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Observe what happens to the compass needle."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the end of the nail next to the magnetic compass to determine which end of the electromagnet is north and which end is south. The north end of the compass will be attracted to the south pole of the electromagnet."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use a permanent marker to mark the north pole of the nail."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place several paper clips on a level surface."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the electromagnet to pick up as many paper clips as possible. Count the number of paper clips the magnet is able to lift."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "While holding the paper clips with the electromagnet, disconnect one of the alligator clips from the battery holder."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Observe what happens to the paper clips."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the second D-cell battery in the second battery holder."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Connect the batteries in series by connecting the snap-connectors at the ends of the battery holders; connect the batteries to the electromagnet."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the electromagnet to pick up as many paper clips as possible."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Count the number of paper clips picked up by the electromagnet."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Disconnect the electromagnet, and remove one of the batteries."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Remove the nail from the magnet wire coil."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Reattach the alligator clip lead to the battery holder, reconnecting the electromagnet."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using only the coil of wire, pick up as many paper clips as possible. Count the number of paper clips the electromagnet is able to pick up."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Detach the alligator clip lead from the battery holder as well as from one end of the magnet wire coil."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Reinsert the nail into the coil of wire."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Unwind the coil of wire to remove 50 coils from around the nail."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Reattach the alligator clip lead to the electromagnet and the battery terminal."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the electromagnet with 50 turns of wire to pick up as many paper clips as possible."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Count the number of paper clips the electromagnet is able to pick up."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record your observations in the Lab Notebook."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 4",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 4, you will set up a DC motor using coiled wire and magnets. You will then observe and compare the direction of the coil movement when connected to a battery, when the connectors are reversed, and when the magnets are reversed."
+                },
+                {
+                  "type": "Box",
+                  "text": "Before starting this activity, be sure to prepare a coil and 2 paper clips using the steps in the Preparation section."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 4",
+          "pages": [
+            {
+              "title": "<div className=order-list-text>A</div>&nbsp;DC Electric Motor (18 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;DC Electric Motor (18 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "page15",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Obtain the coil created in the “Preparation” section."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Wrap the ends of the wire through and around the coil on opposite sides in opposite directions. When suspended by the straight ends of the wire, the coil should rest vertically (see Figure 13)."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580413/580413_Physics_fig_013.svg",
+                    "desc": "Figure 13: The activity setup as described in Steps 3 through 9",
+                    "altText": "Figure 13: The activity setup as described in Steps 3 through 9",
+                    "imgDivWidth": "308px",
+                    "maxWidth": "410px",
+                    "scrollImg": true,
+                    "width": "100%"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the sandpaper to remove the enamel from the ends of the wire. Ensure that the wire is clear of enamel on all sides."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Obtain the 2 unwound paper clips from the “Preparation” section. These paper clips will act as the brush for the wire."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the foam cup upside down on a level surface. Tape the 2 paper clips on opposite sides of the cup so the clips extend upward from the bottom side of the cup, providing a place for the wire coil to rest, supported by the straight ends of the wire (see Figure 13)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place 2 or 3 ring magnets at the bottom of the inverted foam cup."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the coil between the extended paper clips so it is supported by the straight ends of the wire. The wire coil should be suspended above the magnets, as close to the magnets as possible, with enough space between the magnets and the coil so that the coil can turn."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place a D-cell battery in a battery holder."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Connect the battery holder to the paper clips using the 2 alligator clip leads. The coil should begin to turn. It may require a small push to get it started."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "<span class='bodyFontBold'>Note:</span> For the motor to turn, the coil must be suspended above the magnets and perfectly balanced in a vertical orientation. Ensure that the coil is close to the magnets with enough room to turn and that the ends of the wire in contact with the paper clips are clear of enamel."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Observe the direction in which the coil turns."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Disconnect the alligator clip leads from the paper clips, and attach the leads to the opposite paper clips."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Observe the direction in which the coil turns."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Disconnect one of the alligator clip leads from the paper clips."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Turn the stack of ring magnets upside down."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Reattach the alligator clip lead to the paper clip."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Observe the direction in which the coil turns."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Disconnect the alligator clips from the paper clips."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record your observations in the Lab Notebook."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 5",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 5, you will build a speaker using a coil of wire, a stack of magnets, and a pie plate and connect it to an audio device via an audio jack. You will then observe whether you can hear sound from the pie plate and visualize the vibrations using salt when the device is playing audio."
+                },
+                {
+                  "type": "Box",
+                  "text": "Before starting this activity, be sure to prepare a coil using the steps in the Preparation section."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 5",
+          "pages": [
+            {
+              "title": "<div className=order-list-text>A</div>&nbsp;Electric Speaker (13 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Electric Speaker (13 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "page18",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Arrange all the ring magnets into a single stack."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the coil of magnet wire (created in the “Preparation” section) on top of the stack with the straight ends extending to either side."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Connect 1 alligator clip to each end of the bare wire. It may be necessary to fold the wire over or wrap the ends of the wire around the alligator clip for a good connection."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Remove the housing of the audio jack by turning it counterclockwise."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Insert one end of each of the hookup wires through the housing, and connect the 2 bare ends to the 2 metal posts inside the plug. Insert the wire through the hole and twist it as tightly as you can against its terminal for good contact between the wire and its terminal post (see Figure 14). To ensure that the bare wires do not touch each other, add a small piece of nonconductive material (a small piece of paper, tape, or rubber band) between the posts to keep the two posts and their bare wires separate."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580413/580413_Physics_fig_014.svg",
+                    "desc": "Figure 14: Placement of the wires in the audio jack housing as described in Step 5",
+                    "altText": "Figure 14: Placement of the wires in the audio jack housing as described in Step 5",
+                    "imgDivWidth": "308px",
+                    "maxWidth": "410px",
+                    "scrollImg": true,
+                    "width": "100%"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Slide the housing over both wires, and tighten it by turning it clockwise."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Connect the audio jack to a music device with an audio jack connection port."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the stack of magnets on a level surface. Place the coil on top of the magnets (see Figure 15)."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580413/580413_Physics_fig_015.svg",
+                    "desc": "Figure 15: The alligator clips attached to the magnet stack with the audio jack connected to a smartphone to play music",
+                    "altText": "Figure 15: The alligator clips attached to the magnet stack with the audio jack connected to a smartphone to play music",
+                    "imgDivWidth": "331px",
+                    "maxWidth": "420px",
+                    "scrollImg": true,
+                    "width": "100%"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the aluminum pie plate on top of the metal stack. To keep the plate in place, you may try placing one of the ring magnets on the opposite surface."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Turn on the music device."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Listen closely to the pie plate. You may need to put your ear close to the plate and keep background noise to a minimum."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Sprinkle a small amount of salt on the pie plate. Observe the motion of the grains as the speaker plays."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record your observations in the Lab Notebook."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                  "text": [
+                    "Carefully unhook all electronics from wires.",
+                    "Return all materials to the kit."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "altText": "completion",
+                  "desc": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Physics_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "landscape A4"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": ["Question1", "Question2"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "start": "1",
+                "listType": "ordered",
+                "text": [
+                  "What happens to the compass needle with the circuit is completed?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 300,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "start": "2",
+                "listType": "ordered",
+                "text": [
+                  "Describe the direction and movement of the compass needle when the circuit is completed."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 1,
+                "maxLength": 300,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": ["Question3", "Question4"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question3",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2"
+              },
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "start": "3",
+                "listType": "ordered",
+                "text": [
+                  "Explain how the solenoid could be modified to pull the iron core down the cylinder more quickly."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question3",
+                "sr": 0,
+                "maxLength": 300,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question4",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "start": "4",
+                "listType": "ordered",
+                "text": [
+                  "If the metal rod was replaced with a cylindrical permanent magnet, as in some power locks, how could you make the rod move in and then move out, to lock and unlock?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question4",
+                "sr": 1,
+                "maxLength": 300,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": ["Question5", "Question6", "Question7"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question5",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 3"
+              },
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "start": "5",
+                "listType": "ordered",
+                "text": [
+                  "Describe how to determine which end of the nail is north using the right-hand rule."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question5",
+                "sr": 0,
+                "maxLength": 300,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question6",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "start": "6",
+                "listType": "ordered",
+                "text": [
+                  "Describe how to determine which end of the nail is north by using the magnetic compass."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question6",
+                "sr": 1,
+                "maxLength": 300,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question7",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "start": "7",
+                "listType": "ordered",
+                "text": [
+                  "Describe how the electromagnet’s strength was affected by removing the iron core and by removing half of the coils."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question7",
+                "sr": 2,
+                "maxLength": 300,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": ["Question8", "Question9", "Question10", "Question11"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question8",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 4"
+              },
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "start": "8",
+                "listType": "ordered",
+                "text": [
+                  "Draw and upload a diagram of the electric motor.  Use the right-hand rule to determine the direction of the magnetic field through and around the coil."
+                ]
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question9",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "start": "9",
+                "listType": "ordered",
+                "text": [
+                  "Why did the coil reverse direction when the alligator clips were switched to opposite paper clips?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question9",
+                "sr": 1,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question10",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "start": "10",
+                "listType": "ordered",
+                "text": [
+                  "Why did the coil reverse direction when the stack of magnets was turned upside-down?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question10",
+                "sr": 2,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question11",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "start": "11",
+                "listType": "ordered",
+                "text": [
+                  "How could a generator be created using the same principles as this electric motor?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question11",
+                "sr": 3,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": ["Question12", "Question13", "Question14"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question12",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 5"
+              },
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "start": "12",
+                "listType": "ordered",
+                "text": [
+                  "What happens to the coil of wire when you turn on the radio and electric current flows through the wire?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question12",
+                "sr": 0,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question13",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "start": "13",
+                "listType": "ordered",
+                "text": [
+                  "Why is there no sound until the coil of wire is placed on the permanent magnets?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question13",
+                "sr": 1,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question14",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "start": "14",
+                "listType": "ordered",
+                "text": [
+                  "What function does the pie plate serve in the electric speaker configuration?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question14",
+                "sr": 2,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 3000,
+            "title": "Notes"
+          },
+          
+          {
+            "type": "Box",
+            "id": "Box_Note",
+            "align": "center",
+            "margin": "25px 0 0 0",
+            "text": "In order for your instructor to be able to open your video links, please select the \"Save as PDF\" option rather than \"Print to PDF\"."
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 1. Magnetite",
+        "src": "courses_2023/Physics/580413/580413_Physics_fig_001.svg",
+        "altText": "Figure 1: A hand holding an irregularly shaped rock to which is attracted three metal paperclips.",
+        "maxWidth": "360px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 2. Magnetic fields around a bar magnet",
+        "src": "courses_2023/Physics/580413/580413_Physics_fig_002.svg",
+        "altText": "Figure 2: Illustration of the lines of force extending from the north pole and looping around to the south pole",
+        "maxWidth": "510px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 3. Domain orientation of non-magnetic metal",
+        "src": "courses_2023/Physics/580413/580413_Physics_fig_003.svg",
+        "altText": "Figure 3: Magnetic domains scattered haphazardly",
+        "maxWidth": "360px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 4. Domain orientation of magnetic metal",
+        "src": "courses_2023/Physics/580413/580413_Physics_fig_004.svg",
+        "altText": "Figure 4: Magnetic domains in orderly rows and columns",
+        "maxWidth": "360px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 5. Earth’s magnetic field",
+        "src": "courses_2023/Physics/580413/580413_Physics_fig_005.svg",
+        "altText": "Figure 5: An illustration of Earth as seen from outer space and its magnetic field. The magnetic field is represented by several concentric circles that flank Earth on its left and right sides. The field lines start at the north magnetic pole on one end and end at the south magnetic pole at the other end. A line runs the length of Earth's diameter 11.5 degrees off from the magnetic poles.",
+        "maxWidth": "510px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 6. Electric wires between a horseshoe magnet",
+        "src": "courses_2023/Physics/580413/580413_Physics_fig_006.svg",
+        "altText": "Figure 6: Alligator clip leads connected to a six volt battery, a wire between two poles of a horseshoe magnet, and a knife switch",
+        "maxWidth": "510px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 7. Right-hand rule",
+        "src": "courses_2023/Physics/580413/580413_Physics_fig_007.svg",
+        "altText": "Figure 7: Right hand palm up, the F arrow pointing along the extended thumb, I arrow along the pointer finger, and B arrow across the palm",
+        "maxWidth": "360px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 8. Magnetic field, current, and force in an electric wire between a horseshoe magnet",
+        "src": "courses_2023/Physics/580413/580413_Physics_fig_008.svg",
+        "altText": "Figure 8: Figure 4 labeled with the I, B, and F arrow as described in the text",
+        "maxWidth": "510px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 9.  Right-hand rule for a current carrying wire",
+        "src": "courses_2023/Physics/580413/580413_Physics_fig_009.svg",
+        "altText": "Figure 9: Illustration of the fingers of a right hand curled around a tube in a circuit with the thumb pointing up",
+        "maxWidth": "450px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Experimental Design Diagram",
+        "src": "courses_2023/Physics/580413/580413_Physics_ED_001.svg",
+        "altText": "",
+        "maxWidth": "1806px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Experimental Design Diagram (cont... )",
+        "src": "courses_2023/Physics/580413/580413_Physics_ED_002.svg",
+        "altText": "A map of the procedural workflow of activities 4-5 of this investigation. After completing activity 3, in activity 4, set up a DC motor using the prepared coil. Then, connect the motor to the battery and observe the movement of the coil. Next, reverse the clips and observe the movement of the coil. Then, flip over the magnets and observe the movement of the coil. In activity 5, place the prepared wire coil on top of the ring magnets. Then, attach wires to the audio jack. Next, connect the audio jack to the electronic device and connect the coil to the audio jack wires. Then, place a pie plate over the coil and magnets and play audio from the device. Next, listen for sound in the pie plate. Finally, add salt to the pie plate and observe its motion while the audio plays.",
+        "maxWidth": "1321px",
+        "scrollImg": true
+      },
+      {
+        "type": "Pages",
+        "disableClick": true,
+        "hideFromList": true,
+        "thumbnailSrc": "core/Page_icon.svg",
+        "content": "Electricity and Magnetism",
+        "ref": "https://www.carolina.com/teacher-resources/Interactive/electricity-and-magnetism/tr30175.tr?question=electricity%20and%20magnetism"
+      },
+      {
+        "type": "Pages",
+        "disableClick": true,
+        "hideFromList": true,
+        "thumbnailSrc": "core/Page_icon.svg",
+        "content": "Energy is Energy",
+        "ref": "https://www.carolina.com/teacher-resources/Interactive/energy-is-energy/tr32420.tr?question=energy%20is%20energy"
+      },
+      {
+        "type": "Pages",
+        "disableClick": true,
+        "hideFromList": true,
+        "thumbnailSrc": "core/Page_icon.svg",
+        "content": "Electrify Your Classroom with a Discussion on the War of the Currents, Past and Present",
+        "ref": "https://www.carolina.com/teacher-resources/Interactive/electrify-your-classroom-with-a-discussion-on-the-war-of-the-currents/tr25105.tr?question=war%20of%20current"
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4573412165001",
+        "content": "Stripping a Magnet Wire"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 10. Activity 4 paper clip brush",
+        "src": "courses_2023/Physics/580413/580413_Physics_fig_010.svg",
+        "altText": "Figure 10: An unwound paper clip",
+        "maxWidth": "380px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 11. Battery and alligator clips circuit with magnetic compass",
+        "src": "courses_2023/Physics/580413/580413_Physics_fig_011.svg",
+        "altText": "Figure 11: Wire placed over the compass with the alligator clips attached to the battery holder",
+        "maxWidth": "410px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 12. Wire wrapped around a straw",
+        "src": "courses_2023/Physics/580413/580413_Physics_fig_012.svg",
+        "altText": "Figure 12: Magnet wire wound around a straw as directed in Step 2",
+        "maxWidth": "410px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 13. Apparatus setup for DC electric motor",
+        "src": "courses_2023/Physics/580413/580413_Physics_fig_013.svg",
+        "altText": "Figure 13: The activity setup as described in Steps 3 through 9",
+        "maxWidth": "410px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 14. Wires connected to audio jack",
+        "src": "courses_2023/Physics/580413/580413_Physics_fig_014.svg",
+        "altText": "Figure 14: Placement of the wires in the audio jack housing as described in Step 5",
+        "maxWidth": "410px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 15. Apparatus setup for electric speaker",
+        "src": "courses_2023/Physics/580413/580413_Physics_fig_015.svg",
+        "altText": "Figure 15: The alligator clips attached to the magnet stack with the audio jack connected to a smartphone to play music",
+        "maxWidth": "420px",
+        "scrollImg": true
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Electromagnet",
+        "content": "A device that uses electric current to make a magnetic field"
+      },
+      {
+        "title": "Induction",
+        "content": "The process of generating currents with magnetic fields"
+      },
+      {
+        "title": "Magnetic domain",
+        "content": "A group of atoms with a tiny magnetic field"
+      },
+      {
+        "title": "Magnetic field",
+        "content": "A region of space around a magnet where magnetism is exerted"
+      },
+      {
+        "title": "Right-hand rule",
+        "content": "A rule that uses the shape of the right hand to establish the standard orientation of vector quantities normal to a plane"
+      },
+      {
+        "title": "Solenoid",
+        "content": "A cylindrical coil of wire acting as a magnet when carrying an electric current"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

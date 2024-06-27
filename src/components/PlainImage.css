@@ -1,0 +1,63 @@
+/** @format */
+
+.plain-img-comp-wrapper {
+  display: inline-block;
+  /* padding: 0.5em;
+  padding-bottom: 0em; */
+  margin: 5px;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.plain-img-comp-wrapper-for-mobile {
+  display: inline-block;
+  /* padding: 0.5em;
+  padding-bottom: 0em; */
+  /* width: 40px; */
+  margin: 5px;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.plain-img-comp-img {
+  width: 35px;
+  /* margin-top: -10px;
+  margin-left: -2px;
+  margin-bottom: 0.1em; */
+  cursor: auto;
+  margin-right: 5px;
+  margin-bottom: auto;
+}
+
+.float-top {
+  margin-top: -1em;
+}
+
+.plain-img-text {
+  /* text-indent: 45px;
+  float: left;
+  margin-left: -4px;
+  margin-right: -2px;
+  margin-top: -25px;
+  margin-bottom: 10px; */
+  /* width: 90%; */
+  /* height: auto;
+  clear: both;
+  text-align: left; */
+  width: inherit;
+}
+
+/* Portrait iPad Normal*/
+@media only screen and (min-width: 768px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-max-device-pixel-ratio: 2) and (orientation: portrait) {
+  .plain-img-comp-wrapper {
+    /* display: inline-block; */
+    /* padding: 1em;
+    padding-bottom: 0em; */
+    /* width: 25%; */
+    margin: 5px;
+    width: 100%;
+    height: auto;
+  }
+}

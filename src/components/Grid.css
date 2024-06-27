@@ -1,0 +1,24 @@
+.grid-activity{
+  /* color: red; */
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../../public/images/core/Plus_Grid.svg);
+background-repeat: no-repeat;
+background-position: center;
+margin: 5px 0 5px 0;
+}
+
+.grid-row-holder{
+  /* margin: 14px; */
+  display: flex;
+  justify-content: center;
+}
+
+.grid-separator{
+
+  position: absolute;
+  z-index: -1;
+  width: 294px;
+  padding: 6px;
+}

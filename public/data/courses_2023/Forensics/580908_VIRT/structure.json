@@ -1,0 +1,1895 @@
+{
+  "locked": true,
+  "courseTitle": "Fingerprinting Virtual Lab",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Forensics_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/bodyBookmark.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/TakeSnapshot.svg",
+    "core/disposalAndCleanupIcon.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Forensics_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Forensics",
+                "titleName2": "Fingerprinting Virtual Lab",
+                "images": {
+                  "logo": "core/Forensics_Subject_Icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "waterMark": true,
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, you will be introduced to the process of classifying <button class='glossary-text'>fingerprint</button> patterns, the three types of fingerprints - <button class='glossary-text'>plastic</button>, <button class='glossary-text'>patent</button> and <span style='whiteSpace: nowrap'><button class='glossary-text'>latent</button> –</span> and you will learn how to properly dust for and lift latent fingerprints."
+                },
+                {
+                  "type": "Plain",
+                  "title": "Needed but not supplied:",
+                  "text": "There are no materials required for this investigation."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_Time-Requirement.svg",
+                  "altText": "Activity 1: Analyzing a Plastic Print – 15 minutes\nActivity 2: Analyzing Patent Prints – 30 minutes\nActivity 3: Developing a Latent Print – 15 minutes\nActivity 4: Analyzing Latent Prints – 30 minutes",
+                  "scrollImg": true,
+                  "imgDivWidth": "537px",
+                  "maxWidth": "610px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Describe the components of a <button class='glossary-text'>fingerprint</button>.",
+                    "Define and distinguish between <button class='glossary-text'>plastic</button>, <button class='glossary-text'>patent</button> and <button class='glossary-text'>latent fingerprints</button>.",
+                    "Locate, develop and preserve latent fingerprints."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "desc": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "desc":"video link symbol, camera symbol, stopwatch symbol"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "desc":"warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "It is well known that every individual has unique <button class='glossary-text'>fingerprints</button>, but how these prints form into these unique patterns has been harder to figure out. Since even identical twins do not have the same fingerprints, it couldn’t be a case of simple genetics. Scientists, using a combination of mouse experiments and computer modelling, have recently cracked code<sup class='bodySupscript'>1</sup>. Fingerprints develop in utero and start growing simultaneously in three directions - from the top, bottom and center. When these patterns meet, they push into each other, affecting the growth of the other sections. This creates the patterns that make up fingerprints. The scientists in this study determined that this formation is controlled by three genes which each control a different aspect of fingerprint development. They were able to manipulate the expression of these genes in mice and see changes in patterns on toe pads (which are like human fingertips). Very small changes in the timing and levels of expression of these genes affected how the different sections grew and interacted with one another. The scientists then used computer models to apply what they saw in mice to human’s more complex fingerprints, confirming that even minute changes to gene expression during development lead to different patterns."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'><sup class='bodySupscript'>1</sup>Prillaman, M. K. (2023, February 9). How fingerprints form was a mystery - until now. <span class='bodyFontItalic'>Science News</span>. <br><span target='blank' style=' word-break: break-all'>https://www.sciencenews.org/article/fingerprints-form-mystery</span></span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_whyShouldICare.svg",
+                  "altText": "A closeup of the ridge pattern of a human fingertip.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Fingerprint Patterns",
+                  "text": "<button class='glossary-text'>Fingerprint</button> identification, known as dactyloscopy, is the process of comparing two instances of <button class='glossary-text'>friction ridge</button> skin impressions to determine whether the impressions could have come from the same individual. The unique patterns of friction ridges that make up the skin surface on digits (fingers and toes), the palm of the hand, or sole of the foot, make the use of print analysis an important method of forensic science. Although prints from toes, feet and palms are unique, these are used less often for identification and therefore the focus of our discussion and experimentation will be limited to fingers and thumbs. A <span class=bodyFontBold>fingerprint</span> is the impression that is left by the skin ridge pattern, or friction ridges, present on the inner surface of a human finger. In general, friction ridge patterns are grouped into three distinct types: <span class=bodyFontBold>loops</span>, <span class=bodyFontBold>whorls</span> and <span class=bodyFontBold>arches</span>. Each pattern type has unique variations, depending on the shape and relationships of the ridges."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Loop fingerprints</button>, which make up about 60% of pattern types, are prints that recurve back on themselves to form a loop shape. A loop print can be radial, the loop pointing toward the thumb (Figure 1A); or ulnar, the loop pointing toward the pinky finger (Figure 1B)."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_001.svg",
+                  "imgDivWidth": "324px",
+                  "maxWidth": "362px",
+                  "scrollImg": true,
+                  "desc": "Figure 1A: a right thumb print with a radial loop ridge pattern. The main pattern area tends to come in from the left and go back out the left.\nFigure 1B: a right thumb print with an ulnar loop ridge pattern. The main pattern area tends to come in from the right and go back out the right.",
+                  "altText": "Figure 1A: a right thumb print with a radial loop ridge pattern. The main pattern area tends to come in from the left and go back out the left.\nFigure 1B: a right thumb print with an ulnar loop ridge pattern. The main pattern area tends to come in from the right and go back out the right."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Whorl fingerprints</button>, which make up about 35% of pattern types, are prints that form circular or spiral patterns like the water pattern that can be observed in a whirlpool. Whorls can be divided into four groups. Plain whorls contain concentric circles (Figure 2A); a central pocket loop is a loop with a whorl at the end (Figure 2B); a double loop is two loops that create an “S” pattern (Figure 2C); an accidental whorl contains irregularly shaped circles (Figure 2D)."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_002.svg",
+                  "imgDivWidth": "442px",
+                  "maxWidth": "475px",
+                  "scrollImg": true,
+                  "desc": "Figure 2A: a fingerprint with a plain whorl skin ridge pattern consisting of concentric circles. \nFigure 2B: a fingerprint with a central pocket loop skin ridge pattern consisting of a loop with a whorl at the end.\nFigure 2C: a fingerprint with a double loop skin ridge pattern consisting of two loops arranged in an S pattern.\nFigure 2D: a fingerprint with an accidental whorl skin ridge pattern consisting of irregularly shaped circles.",
+                  "altText": "Figure 2A: a fingerprint with a plain whorl skin ridge pattern consisting of concentric circles. \nFigure 2B: a fingerprint with a central pocket loop skin ridge pattern consisting of a loop with a whorl at the end.\nFigure 2C: a fingerprint with a double loop skin ridge pattern consisting of two loops arranged in an S pattern.\nFigure 2D: a fingerprint with an accidental whorl skin ridge pattern consisting of irregularly shaped circles."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<button class='glossary-text'>Arch fingerprints</button>, which make up about 5% of pattern types, contain a <span style='whiteSpace: nowrap'>wave-like</span> pattern. These prints are considered either plain (Figure 3A) or tented (Figure 3B): the classification of the arch type depends on the steepness of the arch rise."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_003.svg",
+                  "imgDivWidth": "324px",
+                  "maxWidth": "363px",
+                  "scrollImg": true,
+                  "desc": "Figure 3A: a fingerprint with a plain arch skin ridge pattern consisting of horizontal ridge lines that peak slightly in the middle.\nFigure 3B: a fingerprint with a tented arch skin ridge pattern with horizontal ridge lines that peak steeply in the middle.",
+                  "altText": "Figure 3A: a fingerprint with a plain arch skin ridge pattern consisting of horizontal ridge lines that peak slightly in the middle.\nFigure 3B: a fingerprint with a tented arch skin ridge pattern with horizontal ridge lines that peak steeply in the middle."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Identification Factors",
+                  "text": "An important factor in <button class='glossary-text'>fingerprint</button> identification is print uniqueness. Despite an estimated world population of 7.8 billion (as of March 2020) there are no reports of two people having the same fingerprints, nor has an individual ever been observed to have the same fingerprint on multiple fingers. If we assume that each person has a unique set of ten fingerprints, there are about 78 billion unique fingerprints across the world. The second important factor in fingerprint identification is print <button class='glossary-text'>permanence</button>. Throughout a person’s life, skin will regenerate about every <span style='whiteSpace: nowrap'>27 days.</span> Permanence is the principle that although a person’s skin is always changing, their fingerprints remain essentially unchanged throughout the duration of their life. During the skin regeneration process, new skin cells remain cemented in the existing <button class='glossary-text'>friction ridge</button> pattern. This ensures that, although the cells have been replaced, the fingerprint stays the same."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Under extreme circumstances, a person can deliberately remove or alter their fingerprints through chemical or surgical means; upon healing, a new friction ridge pattern caused by the procedure will persist and be unique to that individual. Additionally, rare medical conditions such as adematoglyphia and ectodermal dysplasia can cause a person to be born without fingerprints."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Marie was painting her bathroom when she accidentally made the following print on the mirror with a painted thumb. Which of the following best identifies the skin ridge pattern of this fingerprint?",
+                  "imageData": {
+                    "image": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_KCQ_001.svg",
+                    "desc": "A fingerprint with horizontal ridge lines that peak slightly in the middle.",
+                    "altText": "A fingerprint with horizontal ridge lines that peak slightly in the middle.",
+                    "imgDivWidth": "127.53px",
+                    "maxWidth": "250px"
+                  },
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "plain arch",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "tented loop",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "accidental whorl",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "plain whorl",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "radial loop",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "This fingerprint has a plain arch pattern, which is not as steep as a tented arch."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "If this fingerprint is from a left-hand finger, which of the following best identifies its skin ridge pattern?",
+                  "imageData": {
+                    "image": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_KCQ_002.svg",
+                    "desc": "A fingerprint with ridge lines that form a loop coming in from the right and going out to the right.",
+                    "altText": "A fingerprint with ridge lines that form a loop coming in from the right and going out to the right.",
+                    "imgDivWidth": "127.53px",
+                    "maxWidth": "250px"
+                  },
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "radial loop",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "double loop",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "ulnar loop",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "central pocket loop",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "plain whorl",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "When on the left hand, a loop pattern like this one is considered radial."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Loops are prints that recurve back on themselves to form a loop shape. A loop print can be radial, the loop pointing toward the thumb; or ulnar, the loop pointing toward the pinky finger. Whorls are prints that form circular or spiral patterns like the water pattern that can be observed in a whirlpool. Whorls can be divided into four groups. Plain whorls contain concentric circles, a central pocket loop is a loop with a whorl at the end, a double loop is two loops that create an “S” pattern, and an accidental whorl contains irregularly shaped circles. Arch prints contain a wave-like pattern and are considered either plain or tented, depending on the steepness of the arch rise."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Loops are prints that recurve back on themselves to form a loop shape. A loop print can be radial, the loop pointing toward the thumb; or ulnar, the loop pointing toward the pinky finger. Whorls are prints that form circular or spiral patterns like the water pattern that can be observed in a whirlpool. Whorls can be divided into four groups. Plain whorls contain concentric circles, a central pocket loop is a loop with a whorl at the end, a double loop is two loops that create an “S” pattern, and an accidental whorl contains irregularly shaped circles. Arch prints contain a wave-like pattern and are considered either plain or tented, depending on the steepness of the arch rise."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Types of Fingerprints",
+                  "text": "There are three different types of <button class='glossary-text'>fingerprints</button> that can be transferred from the finger to a surface: <button class='glossary-text'>plastic</button>, <button class='glossary-text'>patent</button>, and <button class='glossary-text'>latent fingerprints</button>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class=bodyFontBold>Plastic fingerprints</span> are three-dimensional skin ridge impressions that are formed into soft, pliable materials such as gum, freshly painted surfaces, wax, soap or clay (Figure 4). The resulting fingerprint is an indentation which mirrors the skin ridges of the finger surface. Plastic prints can be easily seen by the unaided eye and do not require additional processing to visualize."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_004.svg",
+                  "imgDivWidth": "288px",
+                  "maxWidth": "323px",
+                  "scrollImg": true,
+                  "desc": "Figure 4: A large surface of clay into which are pressed many fingerprints.",
+                  "altText": "Figure 4: A large surface of clay into which are pressed many fingerprints."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span class=bodyFontBold>Patent fingerprints</span> are formed when <button class='glossary-text'>friction ridges</button> of a finger touch a surface after the finger has been coated with a liquid such as grease, make-up, ink, blood, or paint (Figure 5). Like plastic prints, patent prints are visible to the unaided eye without any additional processing. These two types of visible prints differ in that plastic prints have been placed <span class='bodyFontItalic'>into</span> a surface, while patent prints have been placed <span class='bodyFontItalic'>onto</span> a surface."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_005.svg",
+                  "imgDivWidth": "293px",
+                  "maxWidth": "323px",
+                  "scrollImg": true,
+                  "desc": "Figure 5: Multiple handprints made in paint on paper.",
+                  "altText": "Figure 5: Multiple handprints made in paint on paper."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Latent fingerprints</button> are formed when a finger comes in contact with a surface and the sweat and oil on the skin ridges is transferred to that surface <span style='whiteSpace: nowrap'>(Figure 6).</span> The <button class='glossary-text'>friction ridges</button> on the finger surface are lined with pores. As the pores excrete sweat and oil, they coat the skin ridges and can essentially create an invisible patent print. Unlike plastic and patent prints, latent prints are invisible to the unaided eye. Therefore, additional processing is required."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_006.svg",
+                  "imgDivWidth": "288px",
+                  "maxWidth": "318px",
+                  "scrollImg": true,
+                  "desc": "Figure 6: A tall glass of a cold beverage on which are several fingerprints.",
+                  "altText": "Figure 6: A tall glass of a cold beverage on which are several fingerprints."
+                },
+                {
+                  "type": "Plain",
+                  "subTitle": "Developing a Fingerprint",
+                  "containerType": "rightContainer",
+                  "text": "Although a latent <button class='glossary-text'>fingerprint</button> can consist of many different compounds, and these compounds can vary from one individual to another, there are several classes of compounds commonly found in fingerprints: inorganic ions, organic acids, water, and lipids. When these compounds are treated with basic powder techniques or chemicals a latent fingerprint can be revealed to the observer. Water, organic acids, and inorganic ions such as Na<sup class='bodySupscript'>+</sup>, Ca2<sup class='bodySupscript'>+</sup>, K<sup class='bodySupscript'>+</sup>, Cl<sup class='bodySupscript'>-</sup>, and Mg<sup class='bodySupscript'>2+</sup>, originate from the loss of the body’s electrolytes through the sweat glands in the subcutaneous layer (Figure 7). The organic acids that may be present are acetic acid, various amino acids or lactic acid."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_007.svg",
+                  "imgDivWidth": "293px",
+                  "maxWidth": "316px",
+                  "scrollImg": true,
+                  "desc": "Figure 7: A cross section of skin with hair with the top layer labeled epidermis, the middle layer labeled dermis, and the bottom layer labeled subcutaneous layer.",
+                  "altText": "Figure 7: A cross section of skin with hair with the top layer labeled epidermis, the middle layer labeled dermis, and the bottom layer labeled subcutaneous layer."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The presence of water-soluble compounds can be used to reveal <button class='glossary-text'>fingerprints</button> by taking advantage of precipitate reactions, such as the reaction below:"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<table><tr><td>NaCl<span class='bodyFontItalic'>(aq)</span></td><td>+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>AgNO<sub class='bodysubscript'>3</sub><span class='bodyFontItalic'>(aq)</span></td><td>→&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>NaNO<sub class='bodysubscript'>3</sub><span class='bodyFontItalic'>(aq)</span></td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;&nbsp;</td><td>AgCl<span class='bodyFontItalic'>(s)</span></td></tr><tr><td>sweat from a<br>fingerprint</td><td>&nbsp;&nbsp;</td><td style='width: 103px'>solution sprayed on print by investigator</td><td></td><td>&nbsp;&nbsp;</td><td>&nbsp;&nbsp;</td><td>white solid;<br>turns black in sunlight</td></tr></table>"
+                },
+
+                {
+                  "type": "Plain",
+                  "text": "This reaction demonstrates how the precipitation of the chloride ion by the addition of silver nitrate (AgNO<sub class='bodysubscript'>3</sub>) and the formation of silver chloride (AgCl) would allow an observer to visualize a <button class='glossary-text'>latent fingerprint</button>. The processing of inorganic ions to reveal fingerprints is limited by the volatility of water, which can quickly evaporate and therefore cause deformation of <button class='glossary-text'>friction ridge</button> patterns."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Lipids, which are substances that are not soluble in water but are soluble in nonpolar solvents, include a variety of compounds such as oils, fats, and waxes. This class of compounds plays an important role in the forensic use of fingerprints as lipids are non-volatile, unlike water, and therefore remain on a surface for an extended period of time."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The first step to developing a latent fingerprint is to locate it. This is done using <button class='glossary-text'>oblique lighting</button>. A flashlight is shone onto a surface at an oblique angle, allowing latent prints to become more visible to the unaided eye prior to development (Figure 8)."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_008.svg",
+                  "imgDivWidth": "293px",
+                  "maxWidth": "317px",
+                  "scrollImg": true,
+                  "desc": "Figure 8: A tile floor from a crime scene divided into before and after photos. The before photo on the left shows two evidence placards spaced apart on the floor and an unlit flashflight on the floor pointing toward the placards. The after photo on the right shows the same scene as the before photo but with the flashlight on, revealing a shoe print next to each placard.",
+                  "altText": "Figure 8: A tile floor from a crime scene divided into before and after photos. The before photo on the left shows two evidence placards spaced apart on the floor and an unlit flashflight on the floor pointing toward the placards. The after photo on the right shows the same scene as the before photo but with the flashlight on, revealing a shoe print next to each placard."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "When an investigator dusts for fingerprints they apply a fine powder to a surface and the powder clings to any lipid compounds present, revealing the fingerprint(s) present. There are various fingerprint powders that differ in both color and material. The selection of the optimal powder depends on the contrast of the surface with the powder. Fingerprint powders are most commonly composed of carbon, charcoal, and/or finely ground aluminum. However, gold and/or red bronze, fluorescent materials, and magnetic-sensitive iron and pigment particles may be applied in order to improve visibility."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The two most common <button class='glossary-text'>fingerprint</button> powders are dual contrast and <span style='whiteSpace: nowrap'>bi-chromatic</span> powders, which are composed of carbon, charcoal, and/or finely ground aluminum. These powders provide contrast on both light and dark surfaces. Either white or black <button class='glossary-text'>backing cards</button> may be used to provide a sharp contrast with the resulting skin ridge detail (Figure 9). This eliminates the need to compare lifted prints with light-colored skin ridge patterns on a black background against rolled prints with black skin ridge patterns on a white background."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_009.svg",
+                  "imgDivWidth": "178px",
+                  "maxWidth": "199px",
+                  "scrollImg": true,
+                  "desc": "Figure 9: An investigator holding up a small rectangular card to which a developed fingerprint is affixed with clear tape.",
+                  "altText": "Figure 9: An investigator holding up a small rectangular card to which a developed fingerprint is affixed with clear tape."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "When a surface has multiple textures and/or tends to absorb the color of the powder, the fingerprint may be difficult to visualize or impossible to recover altogether. In these situations, fluorescent powder is best. Unlike <span style='whiteSpace: nowrap'>bi-chromatic</span> and dual contrast powders, fluorescent powders reveal <button class='glossary-text'>latent fingerprints</button> by developing them under UV light (Figure 10); the fingerprint is then photographed for analysis."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_010.svg",
+                  "imgDivWidth": "181px",
+                  "maxWidth": "199px",
+                  "scrollImg": true,
+                  "desc": "Figure 10: Two investigators developing fingerprints from the side of a vehicle. One investigator dusts a fingerprint brush across the vehicle while the second investigator shines a UV light on the same portion of vehicle, revealing several dusted handprints.",
+                  "altText": "Figure 10: Two investigators developing fingerprints from the side of a vehicle. One investigator dusts a fingerprint brush across the vehicle while the second investigator shines a UV light on the same portion of vehicle, revealing several dusted handprints."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Under circumstances where a bi-chromatic powder is susceptible to pooling or clinging to a surface, such as leather or rough plastic, a <span style='whiteSpace: nowrap'>magnetic-sensitive</span> powder is preferable to reveal latent <button class='glossary-text'>fingerprints</button> (Figure 11). <span style='whiteSpace: nowrap'>Magnetic-sensitive</span> powders allow for easy removal from the surface without disrupting the development of the latent print. These powders are limited by their fragility, as the fingerprint can be damaged or destroyed in the dusting process."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_011.svg",
+                  "imgDivWidth": "368px",
+                  "maxWidth": "395px",
+                  "scrollImg": true,
+                  "desc": "Figure 11: An investigator holding a magnetic fingerprint wand, to which a mass of magnetic fingerprint powder is attached at one end via magnetic attraction.",
+                  "altText": "Figure 11: An investigator holding a magnetic fingerprint wand, to which a mass of magnetic fingerprint powder is attached at one end via magnetic attraction."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "A fingerprint brush is used to deliver the fingerprint powder to the latent print. Each brush is customized to its respective powder, and the skill level and preference of the investigator. Materials such as camel, pony, or squirrel hair, fiberglass filaments, or feathers can be used when applying <span style='whiteSpace: nowrap'>bi-chromatic</span> and fluorescent powders. Magnetic powders are delivered using a magnetic wand, which attracts the magnetic filaments in the powder <span style='whiteSpace: nowrap'>(Figure 11).</span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "It is important not to overdevelop the print by using too much powder. Prior to application, the powder brush should be tapped to release excess powder. The smallest amount of powder possible should be used to develop latent prints as too much could distort or damage the print. When applying powder to a latent print, make four to six small circular strokes with the brush. Avoid making horizontal, vertical or twirling strokes with the brush as these types of movements are more likely to disrupt the fingerprint."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_VideoIcone_1.svg",
+                  "desc": "Fingerprint Powder Application",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6328153011112"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Another method for developing and preserving <button class='glossary-text'>fingerprints</button> involves exposing fingerprints to iodine fumes. Iodine (I<sub class='bodysubscript'>2</sub>) is a nonpolar compound which easily dissolves in the nonpolar lipids of fingerprints and this reaction changes the color of the print to dark brown. This method is mostly used on paper documents; however, it is considered a temporary measure as the color remains for only a few minutes. Any prints developed using the iodine fuming method must be photographed immediately. The lifetime of a fumed print can be extended by spraying the developed print with a starch solution. This creates a starch-iodine complex that appears blue but allows prints to persist much longer than prints developed using the standard fuming method."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The method an investigator chooses to reveal a latent print depends on the surface being examined and the duration of time that has passed since the print was created. Rigid surfaces that are nonabsorbent (such as tile, plastic, glass, mirrors, finished furniture and polished metals) are best suited for dusting with a fine powder. Pliable or porous surfaces that are absorbent <span style='whiteSpace: nowrap'>(such as paper, cloth, and wood)</span> are best suited for chemical development methods."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "After the <button class='glossary-text'>latent fingerprint</button> is developed, it can be lifted using clear tape, affixed to a <button class='glossary-text'>backing card</button>, and photographed. This process allows the <button class='glossary-text'>friction ridge</button> detail to be preserved for future analysis. When applying the lifting tape to the fingerprint be sure to avoid forming air bubbles. For this reason, an investigator will curve the tape prior to applying it to a print (Figure 12)."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_012.svg",
+                  "imgDivWidth": "354px",
+                  "maxWidth": "395px",
+                  "scrollImg": true,
+                  "desc": "Figure 12: An investigator holding a backing card in one hand and the card's clear tape covering in the other hand. The clear tape portion is curved and pressed against an object on the ground.",
+                  "altText": "Figure 12: An investigator holding a backing card in one hand and the card's clear tape covering in the other hand. The clear tape portion is curved and pressed against an object on the ground."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "An investigator is called to a crime scene in an apartment building. While observing the apartment for evidence, she notices a fingerprint in a half-eaten bar of chocolate on the kitchen counter. Which of the following types of fingerprints has the investigator located?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "plastic",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "patent",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "latent",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "bi-chromatic",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "accidental",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Plastic prints are those made <span class='bodyFontItalic'>into</span> a surface."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "An investigator is looking for evidence in a home invasion case. Upon shining her flashlight at a broken window, she catches a glimpse of a handprint on the glass. Which of the following types of fingerprints has the investigator located?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "plastic",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "patent",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "latent",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "bi-chromatic",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "accidental",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Latent prints are difficult to see and are made by the residue of natural compounds from the skin."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Plastic fingerprints are three-dimensional skin ridge impressions that are formed into soft, pliable materials such as gum, freshly painted surfaces, wax, soap or clay. Patent fingerprints are formed when friction ridges of a finger touch a surface after the finger has been coated with a liquid such as grease, make-up, ink, blood, or paint. Like plastic prints, patent prints are visible to the unaided eye without any additional processing. These two types of visible prints differ in that plastic prints have been placed <span class='bodyFontItalic'>into</span> a surface, while patent prints have been placed <span class='bodyFontItalic'>onto</span> a surface. Latent fingerprints are formed when a finger comes in contact with a surface and the sweat and oil on the skin ridges is transferred to that surface. The friction ridges on the finger surface are lined with pores. As the pores excrete sweat and oil, they coat the skin ridges and can essentially create an invisible patent print. Unlike plastic and patent prints, latent prints are invisible to the unaided eye. Therefore, additional processing is required."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Plastic fingerprints are three-dimensional skin ridge impressions that are formed into soft, pliable materials such as gum, freshly painted surfaces, wax, soap or clay. Patent fingerprints are formed when friction ridges of a finger touch a surface after the finger has been coated with a liquid such as grease, make-up, ink, blood, or paint. Like plastic prints, patent prints are visible to the unaided eye without any additional processing. These two types of visible prints differ in that plastic prints have been placed <span class='bodyFontItalic'>into</span> a surface, while patent prints have been placed <span class='bodyFontItalic'>onto</span> a surface. Latent fingerprints are formed when a finger comes in contact with a surface and the sweat and oil on the skin ridges is transferred to that surface. The friction ridges on the finger surface are lined with pores. As the pores excrete sweat and oil, they coat the skin ridges and can essentially create an invisible patent print. Unlike plastic and patent prints, latent prints are invisible to the unaided eye. Therefore, additional processing is required."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are no materials required for this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are no safety concerns for this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.</span>",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which type(s) of fingerprint pattern is/are most common?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "loop",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "whorl",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "arch",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "All patterns are equally common.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Loops and whorls are equally common.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best supports fingerprint identification as an important aspect of forensic science?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "An individual’s fingerprint is their unique identifier throughout their lifetime.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "An individual’s fingerprints are easily altered by damaging the skin tissue.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "An individual’s fingerprint matches the prints of family members only.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "An individual’s fingerprint is the only evidence available to forensic scientists.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "An individual’s fingerprints change over time.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "An investigator is searching for evidence in a robbery case at the bank. He notices an ink thumb print on a bill from the vault where the money was stolen. Which of the following types of fingerprints has the investigator located?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "patent",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "plastic",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "latent",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "bi-chromatic",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "accidental",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the chemical composition of a latent fingerprint?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "organic acids, electrolytes, water, lipids",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "sugars, lipids, dead skin cells",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "inorganic salts, DNA, water",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "lipids and DNA",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "These fingerprints are composed of whatever substance was on the finger.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Before an investigator develops a latent fingerprint, which of the following best describes the consideration they should take in deciding the method of development?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The type of surface being examined and the age of the print.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The type of development used is only a matter of preference.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The location of the print on the surface and the type of lighting present.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The color of the backing card and number of prints to be developed.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The experience of the investigator.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Forensics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will create and analyze a plastic print."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Activity 1",
+              "template": "VirtualLab",
+              "activityPath": "activities/580908_VIRT/activity1/story.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Forensics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will create and analyze several patent prints."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "Activity 2",
+              "template": "VirtualLab",
+              "activityPath": "activities/580908_VIRT/activity2/story.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 3",
+      "menuIcon": "core/Forensics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 3, you will create and develop a latent print in preparation for Activity 4."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 3",
+          "pages": [
+            {
+              "title": "Activity 3",
+              "template": "VirtualLab",
+              "activityPath": "activities/580908_VIRT/activity3/story.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 4",
+      "menuIcon": "core/Forensics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 4, you will locate, develop, and analyze several latent prints from a crime scene. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 4",
+          "pages": [
+            {
+              "title": "Activity 4",
+              "template": "VirtualLab",
+              "activityPath": "activities/580908_VIRT/activity4/story.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "altText": "completion",
+                  "desc": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Forensics_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "landscape A4"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "70%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1. Plastic Print"
+              },
+              {
+                "type": "DataTable",
+                "headerHidden": true,
+                "sr": 0,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "30%"
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "70%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Finger"
+                    },
+                    {
+                      "type": "input",
+                      "maxLength":10,
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Skin Ridge Pattern"
+                    },
+                    {
+                      "type": "input",
+                      "maxLength":20,
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Height (cm)"
+                    },
+                    {
+                      "type": "input",
+                      "maxLength":10,
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Width (cm)"
+                    },
+                    {
+                      "type": "input",
+                      "maxLength":10,
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 2. Patent Prints"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "header": [
+                  {
+                    "text": "Finger",
+                    "colWidth": "25%"
+                  },
+                  {
+                    "text": "Skin Ridge Pattern",
+                    "maxLength":20,
+                    "colWidth": "25%"
+                  },
+                  {
+                    "text": "Height (cm)",
+                    "maxLength":10,
+                    "colWidth": "25%"
+                  },
+                  {
+                    "text": "Width (cm)",
+                    "maxLength":10,
+                    "colWidth": "25%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Pinky"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Ring"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Middle"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Index"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Thumb"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 4"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 3. Latent Prints"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "header": [
+                  {
+                    "text": "Location",
+                    "maxLength":20,
+                    "colWidth": "26%"
+                  },
+                  {
+                    "text": "Skin Ridge Pattern",
+                    "maxLength":20,
+                    "colWidth": "26%"
+                  },
+                  {
+                    "text": "Height (cm)",
+                    "maxLength":10,
+                    "colWidth": "16%"
+                  },
+                  {
+                    "text": "Width (cm)",
+                    "maxLength":10,
+                    "colWidth": "16%"
+                  },
+                  {
+                    "text": "Victim? Y/N",
+                    "maxLength":10,
+                    "colWidth": "16%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 3000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 1. Two types of loop fingerprints",
+        "src": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_001.svg",
+        "altText": "Figure 1A: a right thumb print with a radial loop ridge pattern. The main pattern area tends to come in from the left and go back out the left.\nFigure 1B: a right thumb print with an ulnar loop ridge pattern. The main pattern area tends to come in from the right and go back out the right.",
+        "maxWidth": "362px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 2. Four types of whorl fingerprints",
+        "src": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_002.svg",
+        "altText": "Figure 2A: a fingerprint with a plain whorl skin ridge pattern consisting of concentric circles. \nFigure 2B: a fingerprint with a central pocket loop skin ridge pattern consisting of a loop with a whorl at the end.\nFigure 2C: a fingerprint with a double loop skin ridge pattern consisting of two loops arranged in an S pattern.\nFigure 2D: a fingerprint with an accidental whorl skin ridge pattern consisting of irregularly shaped circles.",
+        "maxWidth": "475px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 3. Two types of arch fingerprints",
+        "src": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_003.svg",
+        "altText": "Figure 3A: a fingerprint with a plain arch skin ridge pattern consisting of horizontal ridge lines that peak slightly in the middle.\nFigure 3B: a fingerprint with a tented arch skin ridge pattern with horizontal ridge lines that peak steeply in the middle.",
+        "maxWidth": "363px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 4. Plastic fingerprints in clay",
+        "src": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_004.svg",
+        "altText": "Figure 4: A large surface of clay into which are pressed many fingerprints.",
+        "maxWidth": "323px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 5. Patent fingerprints in paint",
+        "src": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_005.svg",
+        "altText": "Figure 5: Multiple handprints made in paint on paper.",
+        "maxWidth": "323px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 6. Latent fingerprints on a glass",
+        "src": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_006.svg",
+        "altText": "Figure 6: A tall glass of a cold beverage on which are several fingerprints.",
+        "maxWidth": "318px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 7. The layers of human skin",
+        "src": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_007.svg",
+        "altText": "Figure 7: A cross section of skin with hair with the top layer labeled epidermis, the middle layer labeled dermis, and the bottom layer labeled subcutaneous layer.",
+        "maxWidth": "316px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 8. Oblique lighting",
+        "src": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_008.svg",
+        "altText": "Figure 8: A tile floor from a crime scene divided into before and after photos. The before photo on the left shows two evidence placards spaced apart on the floor and an unlit flashflight on the floor pointing toward the placards. The after photo on the right shows the same scene as the before photo but with the flashlight on, revealing a shoe print next to each placard.",
+        "maxWidth": "317px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 9. A developed print on a backing card",
+        "src": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_009.svg",
+        "altText": "Figure 9: An investigator holding up a small rectangular card to which a developed fingerprint is affixed with clear tape.",
+        "maxWidth": "199px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 10. Developing fingerprints with UV lighting",
+        "src": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_010.svg",
+        "altText": "Figure 10: Two investigators developing fingerprints from the side of a vehicle. One investigator dusts a fingerprint brush across the vehicle while the second investigator shines a UV light on the same portion of vehicle, revealing several dusted handprints.",
+        "maxWidth": "199px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 11. Magnetic fingerprint powder on a magnetic brush",
+        "src": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_011.svg",
+        "altText": "Figure 11: An investigator holding a magnetic fingerprint wand, to which a mass of magnetic fingerprint powder is attached at one end via magnetic attraction.",
+        "maxWidth": "395px",
+        "scrollImg": true
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6328153011112",
+        "content": "Fingerprint Powder Application"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 12. Lifting a fingerprint with tape",
+        "src": "courses_2023/Forensics/580908_VIRT/580908VIRT_Forensics_fig_012.svg",
+        "altText": "Figure 12: An investigator holding a backing card in one hand and the card's clear tape covering in the other hand. The clear tape portion is curved and pressed against an object on the ground.",
+        "maxWidth": "395px",
+        "scrollImg": true
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Arch fingerprint",
+        "content": "A type of fingerprint pattern in which the friction ridges form a wave-like pattern that can vary in steepness"
+      },
+      {
+        "title": "Backing card",
+        "content": "A white or black card to which can be affixed a developed latent fingerprint after it has been lifted with tape"
+      },
+      {
+        "title": "Fingerprint",
+        "content": "The impression left by the friction ridges present on the inner surface of a human finger"
+      },
+      {
+        "title": "Friction ridge",
+        "content": "The textured surface of the skin on the digits, palms of the hands, and soles of the feet of the human body; also known as a skin ridge pattern"
+      },
+      {
+        "title": "Latent fingerprint",
+        "content": "A type of fingerprint created by the natural presence of sweat and oil on the finger at the time the print was made"
+      },
+      {
+        "title": "Loop fingerprint",
+        "content": "A type of fingerprint pattern in which the friciton ridges recurve back on themselves to form a loop shape"
+      },
+      {
+        "title": "Oblique lighting",
+        "content": "A technique for finding latent fingerprints in which a flashlight or other light source is shone on a surface at an oblique angle"
+      },
+      {
+        "title": "Patent fingerprint",
+        "content": "A type of fingerprint created by a coating of liquid on the finger at the time the print was made"
+      },
+      {
+        "title": "Permanence",
+        "content": "A principle that although an individual's skin is constantly regenerating, their fingerprints remain unchanged for the duration of their life"
+      },
+      {
+        "title": "Plastic fingerprint",
+        "content": "A type of fingerprint in which the skin ridges pattern is found as the three-dimensional impression in a pliable material"
+      },
+      {
+        "title": "Whorl fingerprint",
+        "content": "A type of fingerprint pattern in which the friction ridges form circular or spiral patterns"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

@@ -1,0 +1,2008 @@
+{
+  "locked": true,
+  "courseTitle": "Engineering a Better Air Bag",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/bodyBookmark.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Chemistry_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Chemistry",
+                "images": {
+                  "logo": "core/Chemistry_subject_icon.svg"
+                },
+                "titleName2": "Engineering a Better Air Bag",
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "This investigation is a chemical engineering challenge. The task is to investigate a less expensive and less toxic chemical air bag system for the automobile industry. An air bag restraint system will be modeled through a series of steps. First, the quantity in moles of carbon dioxide required to fill a model air bag at room temperature and pressure will be determined using the <button className='glossary-text'>Ideal Gas Law</button>. Second, the amounts of sodium bicarbonate and acetic acid reactants required to produce a sufficient volume of carbon dioxide to fill the model air bag without bursting it will be calculated. Third, the reaction will be performed to test the inflation of the prototype model air bag with the predicted reactants. The final step involves scale-up and calculation of the reactant quantities required to produce enough carbon dioxide to fill driver-side and passenger-side air bags at room temperature and pressure."
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Time Requirements",
+                  "image": "courses/580308/580308_TimeRequirement.svg",
+                  "imgDivWidth": "85%",
+                  "maxWidth": "650px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "desc": "Preparation 10 minutes, Activity 1: Stoichiometry of Reactants and Products 20 minutes, Activity 2: Testing Model Air Bags 30 minutes, Activity 3: Amount of CO2 for Full-Size Air Bags 10 minutes",
+                  "altText": "Preparation – 10 minutes, \nActivity 1: Stoichiometry of Reactants and Products – 20 minutes, \nActivity 2: Testing Model Air Bags – 30 minutes, \nActivity 3: Amount of CO2 for Full-Size Air Bags – 10 minutes"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "subTitle": "Overview Video: Engineering a Better Air Bag"
+                },
+                {
+                  "type": "Video",
+                  "containerType": "rightContainer",
+                  "desc": "Overview Video: Engineering a Better Air Bag",
+                  "imgDivWidth": "200px",
+                  "image": "courses/580308/580308_VideoIcone.svg",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6298751309001"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Determine the volume of a scale model air bag in liters.",
+                    "Apply the <button className='glossary-text'>Ideal Gas Law</button> to calculate the moles of CO<sub>2</sub> produced in a reaction.",
+                    "Calculate the stoichiometric amounts of reactants required to produce a specific quantity of product.",
+                    "Assess reactant amounts by mixing and observing the inflation of the model air bag."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "When someone thinks of an airbag, they may immediately think of the device found in cars. However, this is not the only application they have. Avalanches can quickly create a life-threatening situation for skiers as massive amounts of snow comes barreling down a mountain. If a skier is caught in this, chances are they will become buried under snow. Rescuers describe the way a skier is buried as either critical or non-critical. A critical burial occurs when the head and oral cavity are buried under snow. The mortality rate for critical burials is ten times higher when compared to non-critical burials<sup class='bodySupscript'>1</sup>. Avalanche airbags are meant to increase the chances of survival from critical burials by creating an air pocket for victims to allow easier access to the air available to them. They do this by inflating during the avalanche, then after three minutes they deflate to create an air pocket. Researchers discovered that airbag-created air pockets create an environment that would maintain normal physiology for sixty minutes<sup class='bodySupscript'>1</sup>. These minutes are certainly valuable to the victims and the rescuers searching for them in the aftermath."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span className='citation'><sup class='bodysubscript'>1</sup>McIntosh, S., Polukoff, N., Little, C., Seibert, T., & Grissom, C. (2020, September 21). <span className=bodyFontItalic>Avalanche airbags: Latest research.</span> The Avalanche Review.</br>https://theavalanchereview.org/avalanche-airbag-research/ </span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580308/580308_whyShouldICare.svg",
+                  "desc": "Snow falling down a mountain in an avalanche.",
+                  "altText": "Snow falling down a mountain in an avalanche.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "This lab illustrates how stoichiometry and the <button className='glossary-text'>Ideal Gas Law</button> can be used to predict the moles of gas needed to fill a model of an automobile air bag and how to scale up to predict the number of moles needed to fill full-size air bags.<span className=bodyParaLineBreak><button class='glossary-text'>Stoichiometry</button> is the quantitative study of a chemical reaction and is based upon the coefficients of a balanced chemical equation. Coefficients represent the molar ratios of reactants to products. These ratios predict the number of moles of reactant needed to produce a given number of moles of product. These molar amounts can be converted into grams for solids or into liters for gases at given temperatures and pressures.</span>"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What is stoichiometry?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "the quantitative study of wavelengths of light",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "the qualitative study of the products produced by chemical reactions",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "the quantitative study of a chemical reaction based on coefficients of a balanced chemical equation",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "the study of the types of bonds between atoms",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "the qualitative study of gas molecules based on chemical reactions in a closed system",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Stoichiometry is the quantitative study of a chemical reaction and is based upon the coefficients of a balanced chemical equation."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": " Why are coefficients so closely related to stoichiometry?  ",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Coefficients describe the pressure of gases in a chemical reaction.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Coefficients describe the volume of gases in a chemical reaction.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Stoichiometry does not use coefficients.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Coefficients predict the molar amounts of reactants and products.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Coefficients predict the volume of gases in a balanced chemical equation.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Coefficients represent the molar ratios of reactants to products in a balanced chemical equation. These ratios predict the number of moles of reactant needed to produce a given number of moles of product."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Stoichiometry works closely with coefficients. Coefficients represent the molar ratios of reactants to products in a balanced chemical equation. These ratios predict the number of moles of reactant needed to produce a given number of moles of product. These molar amounts can be converted into grams for solids or into liters for gases at given temperatures and pressures."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Stoichiometry works closely with coefficients. Coefficients represent the molar ratios of reactants to products in a balanced chemical equation. These ratios predict the number of moles of reactant needed to produce a given number of moles of product. These molar amounts can be converted into grams for solids or into liters for gases at given temperatures and pressures."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont...)",
+              "pageTitle": "Background (cont...)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The <button className='glossary-text'>Ideal Gas Law</button> shows the relationship of all four variables for gases in one equation. That equation is PV = nRT, where P represents pressure (in atmospheres [atm]), V represents volume (in liters), n represents the number of moles, R represents the gas law constant (0.0821 L-atm/mole·K), and T represents temperature (in degrees Kelvin)."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": " How is the Ideal Gas Law useful? ",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "It shows the relationship between four variables for gases in one equation.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "It shows the relationship between ideal gases and real gases.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "It predicts the number of moles of reactant needed to produce a given number of moles of product.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "It represents the molar ratios of reactants to products in a balanced chemical equation.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "It shows the relationship between coefficients and molar ratios.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The Ideal Gas Law shows the relationship of all four variables for gases in one equation."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "If the Ideal Gas Law shows the relationship between four variables for gases, why does it have 5 variables in its equation PV=nRT? ",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "P is not a variable but the gas law constant. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "V is not a variable but the gas law constant. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "n is not a variable but the gas law constant. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "R is not a variable but the gas law constant. ",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "T is not a variable but the gas law constant. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": " R represents the gas law constant (0.0821 L-atm/ mole·K)."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "The Ideal Gas Law equation is PV = nRT, where P represents pressure (in atmospheres [atm]), V represents volume (in liters), n represents the number of moles, R represents the gas law constant (0.0821 L-atm/ mole·K), and T represents temperature (in degrees Kelvin). "
+                },
+                {
+                  "title": "Hint",
+                  "body": "The Ideal Gas Law equation is PV = nRT, where P represents pressure (in atmospheres [atm]), V represents volume (in liters), n represents the number of moles, R represents the gas law constant (0.0821 L-atm/ mole·K), and T represents temperature (in degrees Kelvin). "
+                }
+              ]
+            },
+            {
+              "title": "Background (cont...)",
+              "pageTitle": "Background (cont...)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Air bags in automobiles activate when an accelerometer in a microchip senses an impact force equivalent to hitting a wall at a speed of 10–15 miles per hour. The accelerometer closes a switch that ignites a charge, causing a pellet of sodium azide (NaN<sub>3</sub>) to explode. This explosion releases sodium metal and harmless nitrogen gas that inflate the bag. The reaction is shown in the following equation:</span><span className=bodyParaLineBreak>2NaN<sub>3</sub>(s) ➝ 2Na(s) + 3N<sub>2</sub>(g)</span></span><span className=bodyParaLineBreak>The sodium metal produced is highly reactive and will react violently with water. Therefore, iron oxide (Fe<sub>2</sub>O<sub>3</sub>) is placed in the compartment along with the sodium azide. The sodium metal produced by the inflation reaction in turn reacts with the iron oxide to produce harmless sodium oxide (Na<sub>2</sub>O) and iron (Fe). Talcum powder or cornstarch is also released during the inflation. These substances keep the air bag pliable and lubricated during storage.</span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Sodium azide is very toxic. The fate of this compound when it is left in junked cars is a significant environmental concern. Because of sodium azide’s potential to harm the environment, manufacturers are searching for safer, “greener” reactant chemicals for air bag inflation. This lab investigates the nontoxic reaction of sodium bicarbonate and acetic acid to produce carbon dioxide gas and a harmless salt, sodium acetate.</span>"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 3",
+              "pageTitle": "Knowledge Check Question 3",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 2,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What is the role of iron oxide (Fe<sub>2</sub>O<sub>3</sub>) in automobile airbags? ",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "It keeps the airbag pliable during storage.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "It reacts with sodium metal byproduct to prevent a violent sodium-water reaction.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "It explodes, producing nitrogen gas that inflates the airbag.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "It catalyzes the reaction in the airbag.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "It reacts with sodium azide (NaN<sub>3</sub>) to produce nitrogen gas that inflates the airbag.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "An impact force triggers the explosion of sodium azide (NaN<sub>3</sub>), which produces nitrogen gas that inflates the airbag. It also produces sodium metal, which reacts violently with water. To prevent this, iron oxide (Fe<sub>2</sub>O<sub>3</sub>) is added to airbags to react with the sodium metal to produce harmless byproducts."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What is the role of sodium azide (NaN<sub>3</sub>) in automobile airbags?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "It explodes during deployment, releasing nitrogen gas that inflates the bag.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Because of its toxic nature, sodium azide is no longer used in modern airbags.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "It keeps the airbag pliable during deployment.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "It keeps the airbag lubricated during storage.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "It neutralizes the harmful nitrogen gas released by the chemical reaction during deployment.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "During deployment a pellet of sodium azide (NaN<sub>3</sub>) explodes. This explosion releases sodium metal and harmless nitrogen gas that inflate the bag."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Airbags in automobiles activate when an accelerometer in a microchip senses an impact force equivalent to hitting a wall at a speed of 10–15 miles per hour. The accelerometer closes a switch that ignites a charge, causing a pellet of sodium azide (NaN<sub>3</sub>) to explode. This explosion releases sodium metal and harmless nitrogen gas that inflate the bag. The sodium metal produced is highly reactive and will react violently with water. Therefore, iron oxide (Fe<sub>2</sub>O<sub>3</sub>) is placed in the compartment along with the sodium azide. The sodium metal produced by the inflation reaction in turn reacts with the iron oxide to produce harmless sodium oxide (Na<sub>2</sub>O) and iron (Fe)."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Airbags in automobiles activate when an accelerometer in a microchip senses an impact force equivalent to hitting a wall at a speed of 10–15 miles per hour. The accelerometer closes a switch that ignites a charge, causing a pellet of sodium azide (NaN<sub>3</sub>) to explode. This explosion releases sodium metal and harmless nitrogen gas that inflate the bag. The sodium metal produced is highly reactive and will react violently with water. Therefore, iron oxide (Fe<sub>2</sub>O<sub>3</sub>) is placed in the compartment along with the sodium azide. The sodium metal produced by the inflation reaction in turn reacts with the iron oxide to produce harmless sodium oxide (Na<sub>2</sub>O) and iron (Fe)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "desc": "This map describes the workflow for this investigation. You will start activity 1 by calculating the moles of carbon dioxide required to fill a resealable bag. Next, determine the balanced equation for the sodium bicarbonate and acetic acid reaction. Then, calculate the grams of sodium bicarbonate and volume of acetic acid needed to produce the moles of carbon dioxide required to fill the bag. In activity 2, begin by measuring out sodium bicarbonate and acetic acid. Next, combine the reactants in a resealable bag. Repeat this process for three total trials, then compare inflated bags. In activity 3, for each story problem, start by calculating the moles of carbon dioxide needed to fill the air bag. Next, calculate the grams of sodium bicarbonate needed for the reaction. Then, calculate the volume of acetic acid needed for the reaction.",
+                  "altText": "This map describes the workflow for this investigation. You will start activity 1 by calculating the moles of carbon dioxide required to fill a resealable bag. Next, determine the balanced equation for the sodium bicarbonate and acetic acid reaction. Then, calculate the grams of sodium bicarbonate and volume of acetic acid needed to produce the moles of carbon dioxide required to fill the bag. In activity 2, begin by measuring out sodium bicarbonate and acetic acid. Next, combine the reactants in a resealable bag. Repeat this process for three total trials, then compare inflated bags. In activity 3, for each story problem, start by calculating the moles of carbon dioxide needed to fill the air bag. Next, calculate the grams of sodium bicarbonate needed for the reaction. Then, calculate the volume of acetic acid needed for the reaction.",
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "containerType": "fullContainer",
+                  "image": "courses/580308/580308_ED.svg",
+                  "imgDivWidth": "77%",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "1303px",
+                  "scrollImg": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "6 Resealable plastic bags, 6 × 9 in",
+                          "image": "courses/580308/580308_material_001.svg",
+                          "url": "courses/580308/580308_material_001.svg",
+                          "altText": "6×9 inch clear plastic bags"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from chemical kit 1",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Vinegar, white distilled, 1 pt",
+                          "image": "courses/580308/580308_material_002.svg",
+                          "url": "courses/580308/580308_material_002.svg",
+                          "altText": "clear plastic bottle of vinegar"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Baking soda (sodium bicarbonate), 15 g",
+                          "image": "courses/580308/580308_material_003.svg",
+                          "url": "courses/580308/580308_material_003.svg",
+                          "altText": "baking soda in orange cardboard box"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from the equipment kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Graduated cylinder, 50 mL",
+                          "image": "courses/580308/580308_material_004.svg",
+                          "url": "courses/580308/580308_material_004.svg",
+                          "altText": "50 mL clear plastic graduated cylinder"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Electronic balance",
+                          "image": "courses/580308/580308_material_005.svg",
+                          "url": "courses/580308/580308_material_005.svg",
+                          "altText": "electronic balance"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Weighing boat",
+                          "image": "courses/580308/580308_material_006.svg",
+                          "url": "courses/580308/580308_material_006.svg",
+                          "altText": "white plastic weighing boat"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Plastic spoon",
+                          "image": "courses/580308/580308_material_007.svg",
+                          "url": "courses/580308/580308_material_007.svg",
+                          "altText": "white plastic spoon"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Beaker, 250 mL",
+                          "image": "courses/580308/580308_material_008.svg",
+                          "url": "courses/580308/580308_material_008.svg",
+                          "altText": "clear plastic beaker, 250 mL"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Thermometer",
+                          "image": "courses/580308/580308_material_009.svg",
+                          "url": "courses/580308/580308_material_009.svg",
+                          "altText": "glass thermometer with red bulb"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span> <span className=bodyParaLineBreak><span className=bodyParaLineBreak>Replacement supplies for the Engineering a Better Air Bag investigation can be ordered from Carolina Biological Supply Company, item 580308.<span className=bodyParaLineBreak></span><span className=bodyMediumSubHeading>Call:</span> 866-332-4478 to order."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Wear your safety goggles, chemical apron, and gloves at all times while conducting this investigation."
+                },
+                {
+                  "type": "Image",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "image": "core/Key_PPE.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Read all the instructions for this laboratory activity before beginning. Follow the instructions closely and observe established laboratory safety practices, including the use of appropriate personal protective equipment (PPE) described in the Safety and Procedure sections.<span className=bodyParaLineBreak>The vinegar and baking soda are not suitable for household consumption or use. They should be considered chemicals and kept away from children and pets.</span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Do not eat, drink, or chew gum while performing this activity. Wash your hands with soap and water before and after performing the activity. Clean up the work area with soap and water after completing the investigation. Keep pets and children away from lab materials and equipment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "The variable “P” in the ideal gas law equation represents which of the following?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "pressure",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "potential",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "power",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "gas law constant",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "probability",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the proper rearrangement of the ideal gas law equation to solve for temperature (T)?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "T = PV / nR",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "T = PVR / n",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "T = RP / nV",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "T = nR / PV",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "T = RV / nP",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Given the balanced equation below, how many moles of nitrogen gas (N<sub class=bodySubscript>2</sub>) are needed to inflate a 67-L driver-side air bag at standard temperature (0° C) and pressure (1 atm)?<span className=bodyParaLineBreak>2NaN<sub class=bodySubscript>3</sub> (s) --> 2Na (s) + 3 N<sub class=bodySubscript>2</sub> (g)</span>",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "2.99 moles",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "0 moles",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "0.33 moles",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "816 moles",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "6 moles",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "If a rigid rubber ball is heated, what will happen to the gas inside?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The pressure will increase.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The pressure will decrease.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The number of moles of gas will increase.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The number of moles of gas will decrease.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The volume of the gas will decrease.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "The variable of temperature (T) in the ideal gas law equation has what unit of measurement?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "degrees Kelvin",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "degrees Celsius",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "degrees Fahrenheit",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "liter-atmospheres",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "moles",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What two chemicals will you combine to create model airbags in this investigation?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "acetic acid and sodium bicarbonate",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "sodium azide and iron oxide",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "sodium oxide and iron",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "carbon dioxide and sodium acetate",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "nitrogen gas and sodium",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (3 steps)",
+              "pageTitle": "Preparation (3 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure",
+              "keyID": "preparation",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Read the procedure."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Obtain all materials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Select a clean work area."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Chemistry_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will calculate the exact stoichiometric amounts of sodium bicarbonate and acetic acid that will react to completely fill a sealed bag without bursting it. You will test these amounts in <span style='whiteSpace: nowrap'>Activity 2.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "<div className=order-list-text>A</div>&nbsp; Stoichiometry of Reactants and Products (9 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp; Stoichiometry of Reactants and Products (9 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity1",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "text": "Simulate air bag deployment by mixing reactants to fill a resealable plastic bag with carbon dioxide gas. The goal is to determine the exact stoichiometric amounts of sodium bicarbonate and acetic acid that will react to completely fill a sealed bag without bursting it."
+                      }
+                    ],
+                    "text": "The volume of each 6 × 9-inch resealable bag is 1.20 liters."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The current air pressure in inches of mercury can be found on local weather reports or by an internet search using the keywords, “air pressure for XXXXX” (where XXXXX is the local zip code)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Convert the air pressure from inches of mercury to the nearest 0.01 atmospheres using the following conversion (and record in Data Table 1):<span className=bodyParaLineBreak>_____ inches x <span className=bodyFraction><span>25.4 mm</span><span className=symbol>/</span><span className=bottom>1.00 inch</span></span> x <span className=bodyFraction><span>1.00 atm</span><span className=symbol>/</span><span className=bottom>760. mm</span></span> = _____ atm</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Measure the room temperature in °C with a thermometer. Convert to Kelvin by adding 273, and record in <span style='whiteSpace: nowrap'>Data Table 1</span> as Kelvin temperature."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the <button className='glossary-text'>Ideal Gas Law</button> to calculate the number of moles (<span class=bodyFontItalic>n</span>) of carbon dioxide required to fill a 6 × 9-inch bag. Record the number of moles (<span class=bodyFontItalic>n</span>) in Data Table 1.<span className=bodyParaLineBreak>n = <span className=bodyFraction><span>PV</span><span className=symbol>/</span><span className=bottom>RT</span></span></span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Examine the reaction of the weak base, sodium bicarbonate (NaHCO<sub class=bodySubscript>3</sub>), and the weak acid found in vinegar, acetic acid (CH<sub class=bodySubscript>3</sub>COOH). The products are the aqueous salt, sodium acetate (CH<sub class=bodySubscript>3</sub>COONa), and carbonic acid (H<sub class=bodySubscript>2</sub>CO<sub class=bodySubscript>3</sub>), an intermediate compound. This quickly breaks down into water and carbon dioxide, as shown in the following equation in <span className='bodyFontBold'>bold</span> print:"
+                  },
+                  {
+                    "type": "Box",
+                    "text": "<span className='bodyFontBold'>1. NaHCO<sub>3</sub>(s) + CH<sub>3</sub>COOH(aq) ➝ </span><span className=bodyParaLineBreak>2. H<sub>2</sub>CO<sub>3</sub>(aq) + CH<sub>3</sub>COONa(aq) ➝ </span><span className=bodyParaLineBreak><span className='bodyFontBold'>3. H<sub>2</sub>O(l) + CO<sub>2</sub>(g) + CH<sub>3</sub>COONa(aq)</span></span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "In Data Table 1, write a balanced equation for only the reactants and products in <span className='bodyFontBold'>bold</span> print shown above in lines 1 and 3. <span style='whiteSpace: nowrap'>Line 1</span> are the reactants and <span style='whiteSpace: nowrap'>line 3</span> are the products."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Beginning with the moles of carbon dioxide determined in step 5 and the balanced chemical equation, calculate the grams of sodium bicarbonate reactant [MW = 84.0 g/ mol] needed to produce this number of moles of carbon dioxide. Record your results in Data <span style='whiteSpace: nowrap'>Table 1.</span><span className=bodyParaLineBreak><span class=bodyFontItalic>grams</span> = <span className=bodyFraction><span>84.0 <span class=bodyFontItalic>g</span></span><span className=symbol>/</span><span className=bottom><span class=bodyFontItalic><sup>mol</sup>HCO</span><sub>3</sub></span></span> x <span class=bodyFontItalic><sup>mol</sup>CO</span><sub>2</sub> x <span class=bodyFontItalic>molar ratio HCO</span><sub>3</sub> : <span class=bodyFontItalic></sup>CO</span><sub>2</sub></span><span className=bodyParaLineBreak><span class=bodyFontItalic>molar ratio HCO</span><sub>3</sub> : <span class=bodyFontItalic>CO</span><sub>2</sub> = <span className=bodyFraction><span><span class=bodyFontItalic>stoichiometric coefficient HCO</span><sub>3</sub></span><span className=symbol>/</span><span className=bottom><span class=bodyFontItalic>stoichiometric coefficient CO</span><sub>2</sub></span></span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The source of acetic acid is a solution of vinegar, which is 0.833 M acetic acid. Beginning with the number of moles of carbon dioxide determined in step 5 and the balanced chemical equation, calculate the volume of vinegar solution required. Record your results in Data <span style='whiteSpace: nowrap'>Table 1.</span><span className=bodyParaLineBreak><span class=bodyFontItalic>volume mL</span> = <span className=bodyFraction><span>(<span class=bodyFontItalic><sup>mol</sup>CO</span><sub>2</sub> x <span class=bodyFontItalic>molar ratio CH</span><sub>3</sub>COOH : <span class=bodyFontItalic></sup>CO</span><sub>2</sub>)</span><span className=symbol>/</span><span className=bottom><span class='tallSubBracket'>(</span><span className='bodyFraction bodyFractionSub'><span>0.833 <span class=bodyFontItalic>mol</span></span><span className=symbol>/</span><span className=bottom>1 <span class=bodyFontItalic>L</span></span></span><span class='tallSubBracket'>)</span></span></span> x <span className=bodyFraction><span>1000 <span class=bodyFontItalic>mL</span></span><span className=symbol>/</span><span className=bottom>1 <span class=bodyFontItalic>L</span></span></span></span>"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Chemistry_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will fill resealable bags with sodium bicarbonate and acetic acid according to the calculations performed in <span style='whiteSpace: nowrap'>Activity 1.</span> You will also test increased amounts of these reactants and compare the volume and speed of inflation of the simulated air bags."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "<div className=order-list-text>A</div>&nbsp; Testing Model Air Bags (11 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp; Testing Model Air Bags (11 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity2",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the balance and a weigh boat, weigh the grams of sodium bicarbonate that was calculated in step 8 of <span style='whiteSpace: nowrap'>Activity 1.</span> Record exact mass in <span style='whiteSpace: nowrap'>Data Table 2.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the 50 mL graduated cylinder, measure out the volume of vinegar that was calculated in step 9 of <span style='whiteSpace: nowrap'>Activity 1.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Open a 6 x 9-inch resealable bag and hold it upright with the narrower 6-inch end over the edge of the 250-mL beaker. This should create a peak and two valleys in the bag. See <span style='whiteSpace: nowrap'>Figure 1.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "In the valley outside of the beaker, add the sodium bicarbonate powder. After adding the powder, hold the portion of the bag containing the powder tightly against the outside of the beaker. This will help prevent a premature reaction in the next steps."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses/580308/580308_fig_001.svg",
+                    "imgDivWidth": "260px",
+                    "maxWidth": "420px",
+                    "desc": "Figure 1. Diagram of bag setup as described in Activity 2 steps 3 through 7.",
+                    "altText": "Figure 1. Diagram of bag setup as described in Activity 2 steps 3 through 7."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Pour the vinegar into the other valley. Take care not to mix the two reactants before sealing the bag."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Carefully remove all the excess air from the bag and seal the bag. The bag must be sealed completely to avoid losing any gas during the reaction."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Pick up the bag and tilt it so that the vinegar flows over the sodium bicarbonate and begins to react."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Hold the bag by the top seal and shake the bag to mix all the reactants. The reaction should look similar to <span style='whiteSpace: nowrap'>Figure 2.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The reaction is complete when there is only a clear solution left. Leave the bag inflated for comparing to the bags in the next two steps. Record all data and observations in <span style='whiteSpace: nowrap'>Data Table 2.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat the experiment using a fresh, clean bag. Increase the amount of sodium bicarbonate by an additional 0.3 g and the vinegar by an additional 5 mL. Record exact mass of sodium bicarbonate in <span style='whiteSpace: nowrap'>Data Table 2.</span> Observe and compare how quickly and how much more the bag inflates."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses/580308/580308_fig_002.svg",
+                    "imgDivWidth": "277px",
+                    "maxWidth": "440px",
+                    "desc": "Figure 2. photo showing sample reaction within plastic bag in progress",
+                    "altText": "Figure 2. photo showing sample reaction within plastic bag in progress"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat the experiment a third time using a fresh, clean bag. Increase the amount of sodium bicarbonate over the original amount by an additional <span style='whiteSpace: nowrap'>0.5 g</span> and the vinegar by an additional <span style='whiteSpace: nowrap'>10 mL.</span> Record exact mass of sodium bicarbonate in Data <span style='whiteSpace: nowrap'>Table 2.</span> Observe and compare how quickly and how much more the bag inflates."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 3",
+      "menuIcon": "core/Chemistry_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Activity 3 is intended as an extension activity and requires the application of concepts from the Background and previous activities to solve a mathematical problem."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 3",
+          "pages": [
+            {
+              "title": "<div className=order-list-text>A</div>&nbsp; Amount of CO<sub>2</sub>&nbsp; for Full-Size Air Bags (2 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp; Amount of CO<sub>2</sub>&nbsp;for Full-Size Air Bags (2 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity3",
+              "pageData": [
+                [
+                  {
+                    "type": "PlainImage",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "text": "<span className=bodyFontBold>The following activity is intended as an extension activity and requires the application of concepts from the Background and previous activities to solve a mathematical problem.</span>"
+                      }
+                    ],
+                    "text": "The volume of a driver-side air bag is 80.0 L. Calculate the number of moles of CO<sub>2</sub> needed to fill the air bag and the grams of sodium bicarbonate and milliliters of vinegar needed for the reaction. Take a photo of your calculations and include it in your lab notebook.",
+                    "image": "core/Camera-icon.svg",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "The volume of a passenger-side air bag is 160.0 L. Calculate the number of moles of CO<sub>2</sub> needed to inflate the air bag and the grams of sodium bicarbonate and milliliters of vinegar needed for the reaction. Take a photo of your calculations and include it in your lab notebook.",
+                    "image": "core/Camera-icon.svg",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                  "text": [
+                    "Dispose of plastic bags, plastic spoon, and weighing boat.",
+                    "Rinse graduated cylinder, dry with paper towel, and return to equipment kit.",
+                    "Clean counter space.",
+                    "Leftover baking soda and vinegar should be returned to the chemical kit."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Chemistry_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "courses/580308/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2022 Carolina Biological Supply Company"
+    },
+    "pages": [
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable1",
+            "tag": "div",
+            "width": "700px",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 1: Model Air Bag"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 20,
+                "header": [
+                  {
+                    "text": "Activity",
+                    "colWidth": "50%"
+                  },
+                  {
+                    "text": "Data",
+                    "colWidth": "50%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                       "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Volume of 6 × 9 inch bag",
+                      "rowHeight": "40px",
+                      "align": "left"
+                    },
+                    {
+                      "type": "text",
+                       "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "1.20 L"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                       "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Room temperature",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                       "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Room pressure (in atm)",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                       "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Moles of CO<sub class=bodySubscript>2</sub> required to inflate bag at room temperature and pressure",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                       "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Balanced equation for the reaction of NaHCO<sub class=bodySubscript>3</sub> and CH<sub class=bodySubscript>3</sub>COOH",
+                      "align": "left"
+                    },
+                    {
+                      "type": "text",
+                       "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Include with calculations",
+                      "align": "left"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                       "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Mass of NaHCO<sub class=bodySubscript>3</sub> needed for the reaction (84.0 g/mol)",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                       "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Volume of vinegar required (0.833 M acetic acid)",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "activity1CalculationsPhoto",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Calculations Photo",
+                "text": "Show your calculations for the data in Data Table 1, including the balanced equation for the reaction. Each piece of data should be clearly labeled."
+              },
+              {
+                "type": "UploadFiles",
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable2",
+            "tag": "div",
+            "width": "800px",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 2: Model Air Bag"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 100,
+                "header": [
+                  {
+                    "text":"Trial #",
+                    "colWidth":"10%"
+                  },
+                  {
+                    "text":"NaHCO<sub class=bodySubscript>3</sub> (grams)",
+                    "maxLength": 10,
+                    "colWidth":"15%"
+                  },
+                  {
+                    "text":"Vinegar (mL)",
+                    "maxLength": 10,
+                    "colWidth":"15%"
+                  },
+                  {
+                    "text":"Observations",
+                    "colWidth": "60%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                       "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "1",
+                      "rowHeight": "100px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                       "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "2",
+                      "rowHeight": "100px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                       "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "3",
+                      "rowHeight": "100px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "calculationsPhoto1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 3 Calculations Photo 1",
+                "text": "Include a photograph of your calculations for the <span class='bodyFontBold'><span style='whiteSpace: nowrap'>80-L</span> air bag</span>. The following must be included and clearly identified:<ul> <li>Moles of CO<sub class='bodySubscript'>2</sub> required to inflate 80-L driver-side air bag at room temperature and pressure</li> <li>Balanced equation for the reaction of NaHCO<sub class='bodySubscript'>3</sub> and CH<sub class='bodySubscript'>3</sub>COOH</li> <li>Grams of NaHCO<sub class='bodySubscript'>3</sub> needed for the reaction</li> <li>mL of CH<sub class='bodySubscript'>3</sub>COOH (0.833 M) needed for the reaction</li> </ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "textAreaId": "Question1",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "calculationsPhoto2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 3 Calculations Photo 2",
+                "text": "Include a photograph of your calculations for the <span class='bodyFontBold'>160-L air bag</span>. The following must be included and clearly identified:<ul> <li>Moles of CO<sub class='bodySubscript'>2</sub> required to inflate 160-L front passenger-side air bag at room temperature and pressure</li> <li>Balanced equation for the reaction of NaHCO<sub class='bodySubscript'>3</sub> and CH<sub class='bodySubscript'>3</sub>COOH</li> <li>Grams of NaHCO<sub class='bodySubscript'>3</sub> needed for the reaction</li> <li>mL of CH<sub class='bodySubscript'>3</sub>COOH (0.833 M) needed for the reaction</li> </ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "textAreaId": "Question1",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question1",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "Based upon the observed performance of the air bag models and the amounts of sodium bicarbonate and acetic acid (vinegar) needed for an automotive air bag of 80 or 160 L, are these reactants a good substitute for sodium azide? One additional note regarding sodium azide: the rate of inflation after a triggering impact is 40 milliseconds (0.04 s)."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+
+    "pageData": [
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Periodic Table of the Elements",
+        "altText": "Periodic Table of the Elements",
+        "src": "courses/580308/Periodic_Table.svg",
+        "maxWidth": "2200px",
+        "scrollImg": true
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "content": "Investigation Overview",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6298751309001"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Experimental Design Diagram",
+        "src": "courses/580308/580308_ED.svg",
+        "altText": "This map describes the workflow for this investigation. You will start activity 1 by calculating the moles of carbon dioxide required to fill a resealable bag. Next, determine the balanced equation for the sodium bicarbonate and acetic acid reaction. Then, calculate the grams of sodium bicarbonate and volume of acetic acid needed to produce the moles of carbon dioxide required to fill the bag. In activity 2, begin by measuring out sodium bicarbonate and acetic acid. Next, combine the reactants in a resealable bag. Repeat this process for three total trials, then compare inflated bags. In activity 3, for each story problem, start by calculating the moles of carbon dioxide needed to fill the air bag. Next, calculate the grams of sodium bicarbonate needed for the reaction. Then, calculate the volume of acetic acid needed for the reaction.",
+        "maxWidth": "1303px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 1. How to add reactants to resealable bag",
+        "src": "courses/580308/580308_fig_001.svg",
+        "altText": "Figure 1. Diagram of bag setup as described in Activity 2 steps 3 through 7.",
+        "maxWidth": "420px"
+       
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 2. Inflated resealable bag",
+        "src": "courses/580308/580308_fig_002.svg",
+        "altText": "Figure 2. photo showing sample reaction within plastic bag in progress",
+        "maxWidth": "440px"
+       
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Ideal Gas Law",
+        "content": "PV = nRT; shows the relationship of four variables for gases in one equation, where P represents pressure (in atmospheres [atm]), V represents volume (in liters), n represents the number of moles, R represents the gas law constant (0.0821 L-atm/ mole·K), and T represents temperature (in degrees Kelvin)"
+      },
+      {
+        "title": "Stoichiometry",
+        "content": "The quantitative study of a chemical reaction based upon the coefficients of a balanced chemical equation"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

@@ -1,0 +1,511 @@
+/** @format */
+
+html,
+body {
+  background-color: #5aa0d6;
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+}
+
+.App {
+  position: relative;
+  background-color: transparent linear-gradient(90deg, #0e3455 0%, #5aa0d6 100%)
+    0% 0% no-repeat padding-box;
+  width: 1280px;
+  height: 610px;
+}
+
+#pre-loader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background-image: url(../public/images/core/loader.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.container-padding {
+  margin-left: 3%;
+  width: 95%;
+  /* height: 100%; */
+  height: calc(100% - 5px);
+  float: left;
+  position: relative;
+  text-align: left;
+}
+
+.teamplate-full-container {
+  width: 100%;
+  height: auto;
+  float: left;
+  position: relative;
+}
+
+.page-title-container {
+  width: 100%;
+  height: 5%;
+}
+
+.page-title {
+  font-family: Montserrat-Bold;
+  font-size: 1.1em;
+  color: rgba(0, 0, 0, 1);
+  margin-left: 5px;
+}
+
+.page-with-title-main-content-container {
+  width: 100%;
+  height: 90%;
+}
+
+.page--without-title-main-content-container {
+  width: 100%;
+  height: 100%;
+}
+
+.teamplate-left-container {
+  width: calc(50% - 25px);
+  height: auto;
+  float: left;
+  position: relative;
+  margin-right: 25px;
+}
+
+.teamplate-right-container {
+  width: calc(50% - 15px);
+  height: auto;
+  float: right;
+  position: relative;
+  margin-left: 15px;
+}
+
+.bodyFontBold {
+  font-weight: bold;
+}
+
+.bodyFontBoldItalic {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.bodyFontBoldItalicHeader {
+  font-style: italic;
+  font-family: Montserrat-Bold;
+}
+
+.bodyFontItalic {
+   font-style: italic;
+   /* font-family: 'HelveticaNeueItalic'; */
+   /* font-family: 'HelveticaNeueItalicNew'; */
+   /* font-family: 'HelveticaNeueItalicNewBold'; */
+}
+
+
+.bodyFontItalicEquation {
+  /* font-style: italic; */
+  /* font-family: 'HelveticaNeueItalic'; */
+  font-family: 'HelveticaNeueItalicNew';
+  /* font-family: 'HelveticaNeueItalicNewBold'; */
+}
+
+.bodyHeading {
+  font-family: Montserrat-Bold;
+  font-size: 1.1em;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.bodyButtonLabel {
+  font-family: Montserrat-Bold;
+  font-size: 1em;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+
+.bodyBoldSubHeading {
+  /* font-family: HelveticaNeueLTStdBd75; */
+  font-family: Montserrat-Bold;
+  font-size: 0.95em;
+  color: rgba(0, 0, 0, 1);
+}
+
+.bodyMediumSubHeading {
+  font-family: HelveticaNeueLTStdMd65;
+  font-size: 0.95em;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 1);
+}
+
+.bodyNormalSubHeading {
+  font-family: HelveticaNeueLTStd55Roman;
+  font-size: 0.85em;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 1);
+}
+
+.bodyBoldSubText {
+  font-family: HelveticaNeueLTStdMd65;
+  font-size: 0.95em;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 1);
+}
+
+.bodyPara {
+  font-family: HelveticaNeueLTStd55Roman;
+  /* font-size: 0.85em; */
+  font-size: 0.95em;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 1.3em;
+}
+
+.bodyPara pre {
+  margin-bottom: 0px;
+  font-family: HelveticaNeueLTStd55Roman;
+  font-size: 1em;
+}
+
+.bodyRoundedBox {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background: rgba(59, 191, 174, 1);
+  border-radius: 8px;
+  max-height: max-content;
+  padding: 0.5em;
+}
+
+.bodySubscript {
+  font-family: HelveticaNeueLTStd55Roman;
+  font-size: 0.65em;
+  font-weight: bold;
+  vertical-align: sub;
+  bottom: 0em;
+}
+.bodySubscriptTall {
+  font-family: HelveticaNeueLTStd55Roman;
+  font-size: 0.65em;
+  font-weight: bold;
+  bottom: 0em;
+  line-height: 1.4em;
+  vertical-align: bottom;
+}
+.bodySubscriptHeading {
+  font-family: Montserrat-Bold;
+  font-size: 0.65em;
+  font-weight: bold;
+  vertical-align: sub;
+  bottom: 0em;
+}
+.bodySupscript {
+  top: 0em;
+  font-family: HelveticaNeueLTStd55Roman;
+  font-size: 0.65em;
+  font-weight: bold;
+  vertical-align: super;
+}
+.bodySupscriptHeading {
+  top: 0em;
+  font-family: Montserrat-Bold;
+  font-size: 0.65em;
+  font-weight: bold;
+  vertical-align: super;
+}
+.bodySupscriptTall {
+  font-family: HelveticaNeueLTStd55Roman;
+  font-size: 0.65em;
+  font-weight: bold;
+  vertical-align: text-top;
+  line-height: 0px;
+  top: -5px;
+}
+
+.bodyParaLineBreak {
+  margin-top: 0.625em;
+  display: block;
+}
+
+.bodyLineBreak {
+  margin-top: 2px;
+  display: block;
+}
+
+.citation {
+  font-size: 0.75em;
+  line-height: 0.75em;
+}
+
+.bodyParaTopMargin {
+  margin-top: 2.6em;
+  display: block;
+}
+
+.bodyFraction {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  text-align-last: center;
+}
+
+.bodyFraction > span {
+  display: block;
+  padding: 0.1em;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.bodyFraction span.bottom {
+  border-top: thin solid black;
+}
+
+.bodyFraction span.symbol {
+  display: none;
+}
+
+.bodyFractionSub {
+  padding: 0em;
+  line-height: 0.8em;
+  font-size: 0.8em;
+}
+
+.small {
+  font-size: 0.7em;
+  line-height: 0.8em;
+}
+
+.tallBracket {
+  font-size: 2.5em;
+  vertical-align: text-bottom;
+}
+
+.tallSubBracket {
+  font-size: 1.5em;
+  vertical-align: text-bottom;
+}
+
+.customScrollbar {
+  scrollbar-color: #0062b8 #daecff;
+  scrollbar-width: thin;
+}
+
+ul .dashedList {
+  list-style-type: none;
+}
+ul li .dashedList :before {
+  content: "\2011";
+  position: absolute;
+  margin-left: -15px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 98, 184, 0.2);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 98, 184);
+  border-radius: 10px;
+}
+
+.buffer {
+  margin-top: 1em;
+  display: block;
+}
+
+.formula1 {
+  font-family: Montserrat-Bold;
+  color: rgba(0, 0, 0, 1);
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+
+.formula1_sub {
+  font-family: HelveticaNeueLTStd55Roman;
+  font-weight: bold;
+  vertical-align: sub;
+  font-size: 0.85em;
+  line-height: 0.85em;
+}
+/* glossary text present in screen */
+.glossary-text {
+  padding: 0;
+  font-family: HelveticaNeueLTStdMd65 !important;
+  /* font-weight: bold; */
+  text-decoration: underline;
+  /* display:inline-block; */
+  /* border-bottom:1px solid #000; */
+  /* padding-bottom:2px; */
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: #000000;
+}
+
+.resource-text {
+  padding: 0;
+  font-family: HelveticaNeueLTStdMd65 !important;
+  text-decoration: underline;
+  /* display:inline-block; */
+  border-bottom: 1px solid #000;
+  /* padding-bottom:2px; */
+  /* border-bottom: 1px solid #000; */
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: #000000;
+}
+
+.jump-to-page-button {
+  padding: 0;
+  font-family: HelveticaNeueLTStdMd65 !important;
+  text-decoration: underline;
+  /* display:inline-block; */
+  border-bottom: 1px solid #000;
+  /* padding-bottom:2px; */
+  /* border-bottom: 1px solid #000; */
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: #000000;
+}
+
+.glossary-text-underline {
+  padding: 0;
+  font-family: HelveticaNeueLTStdMd65 !important;
+  /* font-weight: bold; */
+  /* text-decoration: underline; */
+  display: inline-block;
+  /* border-bottom: 1px solid #000; */
+  /* padding-bottom:2px; */
+  cursor: pointer;
+  /* border: none; */
+  border-width: 0 0 1px 0;
+  border-color: #000;
+  background: none;
+  color: #000000;
+}
+
+.resource-text-underline {
+  padding: 0;
+  font-family: HelveticaNeueLTStdMd65 !important;
+  /* font-weight: bold; */
+  /* text-decoration: underline; */
+  display: inline-block;
+  border-bottom: 1px solid #000;
+  /* padding-bottom:2px; */
+  cursor: pointer;
+  /* border: none;
+   */
+  border-width: 0 0 1px 0;
+  border-color: #000;
+  background: none;
+  color: #000000;
+}
+
+/* Portrait iPad Normal*/
+@media only screen and (min-width: 768px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .bodyLineBreak {
+    display: inline;
+  }
+  .bodyParaTopMargin {
+    margin-top: -8px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .bodyLineBreak {
+    display: inline;
+  }
+}
+
+/* -------------------------------- */
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 1000px) and (max-height: 330px) and (orientation: landscape) {
+  .teamplate-left-container {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-right: 0;
+  }
+  .teamplate-right-container {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-left: 0;
+    /* margin-top: 10px; */
+  }
+}
+
+/* Landscape iPhone */
+@media only screen and (min-device-width: 300px) and (max-device-width: 765px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .teamplate-left-container {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-right: 0;
+  }
+  .teamplate-right-container {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-left: 0;
+    /* margin-top: 10px; */
+  }
+}
+
+/* Portrait iPhone */
+@media only screen and (min-device-width: 275px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .teamplate-left-container {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-right: 0;
+  }
+  .teamplate-right-container {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+/* Landscape iPad Normal*/
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-max-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* Portrait iPad Normal*/
+@media only screen and (min-width: 768px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-max-device-pixel-ratio: 2) and (orientation: portrait) {
+  .teamplate-left-container {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-right: 0;
+  }
+  .teamplate-right-container {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-left: 0;
+    margin-top: 0px;
+  }
+}

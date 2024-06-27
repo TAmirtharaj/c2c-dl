@@ -1,0 +1,2676 @@
+{
+  "locked": true,
+  "courseTitle": "Newton’s Second Law",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Physics_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/bodyBookmark.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/TakeSnapshot.svg",
+    "core/disposalAndCleanupIcon.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Physics_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Physics",
+                "titleName2": "Newton’s Second Law",
+                "images": {
+                  "logo": "core/Physics_Subject_Icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "This investigation explores <button class='glossary-text'>Newton’s second law of motion</button> and the relationship between force and <button class='glossary-text'>acceleration</button>. In the activity, the mass of a plastic cart is increased by adding weights in the form of washers. The cart is attached by a string to a hanging mass suspended over a pulley. As mass is transferred from the cart to the suspended weight, the cart is accelerated at an increasing rate. Students use graphical analysis to study the relationship between force and acceleration described by Newton’s second law."
+                },
+                {
+                  "type": "List",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "<a target='blank' href='images/courses_2023/Physics/580412/580412_graph_paper.pdf'>Graph paper</a> or graphing software",
+                    "Books",
+                    "Calculator or computer",
+                    "Masking tape",
+                    "Permanent marker"
+                  ]
+                },
+                {
+                  "type": "List",
+                  "title": "Optional",
+                  "text": [
+                    "Smartphone/tablet, or other digital recording device"
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Physics/580412/580412_Physics_Time-Requirement.svg",
+                  "altText": "Preparation - 15 minutes \nActivity 1: Newton’s Second Law - 45 minutes",
+                  "desc": "Preparation - 15 minutes \nActivity 1: Newton’s Second Law - 45 minutes",
+                  "containerType": "rightContainer",
+                  "imgDivWidth": "300px",
+                  "maxWidth": "390px"
+                }
+              ]
+            },
+            {
+              "waterMark": true,
+              "template": "OverView",
+              "title": "Overview (cont... )",
+              "pageTitle": "Overview (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Overview Video: Newton’s Second Law"
+                },
+                {
+                  "type": "Video",
+                  "width": "100%",
+                  "desc": "Overview Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Physics/580412/580412_Physics_VideoIcone.svg",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6338400847112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Define force according to <button class='glossary-text'>Newton’s second law of motion</button>.",
+                    "Describe the relationship between force, mass, and <button class='glossary-text'>acceleration</button> through graphical analysis.",
+                    "Measure force, calculate weight, and relate it to the SI unit of force, the <button class='glossary-text'>Newton (N)</button>."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "desc": " video link symbol, camera symbol, stopwatch symbol",
+                  "altText": " video link symbol, camera symbol, stopwatch symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "scrollImg": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Radiotherapy is a common method used to treat cancers. It involves sending a beam of radioactive particles to disrupt the DNA of cancer cells. These particles must penetrate the body, sometimes through many layers of tissues in order to reach the target cells and must, therefore, be travelling at high speeds. To reach these speeds, the particles are put through a particle accelerator that uses electric fields to exert a force on the mass of the particle and accelerate it up to high speeds. Radiation therapies can use a variety of particles, photons, electrons, or protons, depending on the treatment needed. Electrons have a very small mass, <span style='whiteSpace: nowrap'>9.11 x10<sup>-31</sup> kg,</span> and so the force needed to accelerate them is lower. However, this also means that the forces that the electrons encounter in the body from collisions with other particles and the electrostatic attraction of other electrons can more easily slow them down. This makes electrons effective for tumors on or near the skin, but not in deep tissues. While their use is not yet wide-spread, proton beams are increasingly being used to treat deep tissue tumors because, while they require more electric force to accelerate, they are heavier and so are harder to slow down or scatter from forces as they more through the body<sup>1</sup>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'><sup>1</sup>Mohan, R., & Grosshans, D. (2017). Proton therapy – present and future. <span class='bodyFontItalic'>Advanced Drug Delivery Reviews, 109,</span><span style='whiteSpace: nowrap'>26–44.</span>  <br>https://doi.org/10.1016/j.addr.2016.11.006</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580412/580412_Physics_whyShouldICare.svg",
+                  "desc": "A doctor attending to a patient lying prone within the arch of a radiotherapy machine in a hospital.",
+                  "altText": "A doctor attending to a patient lying prone within the arch of a radiotherapy machine in a hospital.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Classical mechanics</button> is the branch of physics concerned with analyzing forces, their impact on matter, and the motion of objects. The distinction “classical” means that these laws apply to systems where the effects of relativity are negligible or have little measurable impact. This is the case for most of the physical events we witness, because relativistic effects apply to objects moving near the speed of light. Most mechanical systems we study on Earth can be analyzed and described in terms of classical mechanics. Classical mechanics refers to the motion of objects that are large compared to subatomic particles and slow compared to the speed of light. The effects of <button class='glossary-text'>quantum mechanics</button> and relativity are negligible in classical mechanics."
+                },
+                {
+                  "type": "Plain",
+                  "subTitle": "Newton’s Laws",
+                  "text": "Classical mechanics is sometimes referred to as Newtonian mechanics because much of the science builds on the work of Isaac Newton, the English physicist and mathematician who lived from 1642 until 1726. When people hear the name Newton, they are likely to think of <button class='glossary-text'>Newton’s laws of motion</button>, which they may be familiar with in one form or another. These three laws describe the relationship between force, object, mass, and motion. Newton’s laws of motion are some of the most fundamental principles of physics and are crucial to the development of modern technology. Everything from the motion of planets to the operation of sophisticated engines and machines is governed by these three simple laws.</span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Newton’s first law of motion</button> relates to the concept of <button class='glossary-text'>inertia</button>, an object’s resistance to a change in motion. The first law states that an object’s motion remains unchanged unless the object is acted upon by an unbalanced force (i.e., net force)."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "A book resting on a table is being acted on by opposing and equal forces. Gravity pulls down on the book, while the table pushes up on the book with an equal amount of force. The book will remain motionless until the forces are unbalanced. Consider a rocket fired into space. In space, without friction from air resistance, once the thrust from the rocket engine stops, the rocket itself will continue to travel at a constant speed in a straight line unless the rocket is acted upon by another force. This could happen if the rocket struck another object, such as an asteroid, or if the rocket entered the gravity field of a planet causing the rocket’s path to curve."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<button class='glossary-text'>Newton’s second law of motion</button> states that the force acting on an object is related to the change in the object’s <button class='glossary-text'>momentum (Δ<span className=bodyFontItalic>p </span>)</button>, which is the product of the object’s <button class='glossary-text'>mass (<span className=bodyFontItalic>m </span>)</button> multiplied by its <button class='glossary-text'>velocity (<span className=bodyFontItalic>v </span>)</button>. <span class='bodyParaLineBreak'> Δ<span className=bodyFontItalic><span class='bodyFontBold'>p</span></span> = <span className=bodyFontItalic>m</span><span className=bodyFontItalic><span class='bodyFontBold'>v</span></span> </span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span style='padding-bottom:5px;display:block;'>Because the mass of the object remains the same, the net force changes the object’s velocity. A change in velocity is defined as <button class='glossary-text'>acceleration</button>, and Newton’s second law is often described mathematically as:</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580412/580412_Physics_Equation_001.svg",
+                  "desc": "Equation 1: Capital F equals m times a",
+                  "altText": "Equation 1: Capital F equals m times a",
+                  "imgDivWidth": "92px",
+                  "maxWidth": "135px",
+                  "scrollImg": true,
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span style='padding-top:5px;display:block;'>Where <span className=bodyFontItalic><span class='bodyFontBold'>F</span></span> is the net force acting on an object, <span className=bodyFontItalic>m</span> is the mass of the object, and <span className=bodyFontItalic><span class='bodyFontBold'>a</span></span> is the acceleration of the object due to the net force.</span>"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>Force is measured in units of <button class='glossary-text'>Newtons (N)</button>, where 1 Newton is equal to 1 kilogram multiplied by 1 m/s<sup>2</sup>. <span class='bodyParaLineBreak'>So:</span></span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580412/580412_Physics_Equation_002.svg",
+                  "desc": "Equation 2: Begin equation begin bracket vector F end bracket equals N end equation, begin equation 1 N equals 1 kilogram times 1 meter per second squared end equation",
+                  "altText": "Equation 2: Begin equation begin bracket vector F end bracket equals N end equation, begin equation 1 N equals 1 kilogram times 1 meter per second squared end equation",
+                  "imgDivWidth": "136px",
+                  "maxWidth": "190px",
+                  "scrollImg": true,
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-top:5px;display:block;'>In physics texts, vector quantities are usually indicated by printing an arrow over the variable representing the quantity, or as in this manual, placing the letter in bold italics. In the equation: <span class='bodyParaLineBreak'><span className=bodyFontItalic><span class='bodyFontBold'>F</span></span> = <span className=bodyFontItalic>m</span><span className=bodyFontItalic><span class='bodyFontBold'>a</span></span>  </span></span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "The symbols for force and <button class='glossary-text'>acceleration</button> are in bold italics because these quantities are vectors, while mass, represented by the letter <span className=bodyFontItalic>m</span>, is a <button class='glossary-text'>scalar</button> quantity."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "When a variable is written without bold print or between absolute value bars, only the magnitude of a variable is indicated.  <span class='bodyParaLineBreak'> <span className=bodyFontItalic>a</span> = 9.8 m/s<sup>2</sup> </span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The symbol <span className=bodyFontItalic><span class='bodyFontBold'>a</span></span> represents an acceleration of 9.8 m/s<sup>2</sup> in the positive direction: <span class='bodyParaLineBreak'>|<span className=bodyFontItalic><span class='bodyFontBold'>a </span></span>| = 9.8 m/s<sup>2</sup> </span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The symbol <span className=bodyFontItalic><span class='bodyFontBold'>a</span></span> inside absolute value bars indicates an acceleration of 9.8 m/s<sup>2</sup> but does not specify a direction."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "To indicate the units of a quantity, the variable representing the quantity is placed in brackets: <span class='bodyParaLineBreak'>[<span className=bodyFontItalic><span class='bodyFontBold'>F </span></span>] = N"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "This indicates that the quantity (force) is measured in units of Newtons."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Consider Figure 1. A force of 20 N is acting on an object with mass of <span style='whiteSpace: nowrap'>4 kg.</span> The <button class='glossary-text'>acceleration</button> of the object is 5 m/s<sup>2</sup>. In <span style='whiteSpace: nowrap'>Figure 2,</span> there is a <span style='whiteSpace: nowrap'>20 N</span> force applied in the forward direction and a <span style='whiteSpace: nowrap'>4 N</span> force applied in the backward direction. Therefore, the net force acting on the 4 kg object is <span style='whiteSpace: nowrap'>16 N.</span> The acceleration is 4 m/s<sup>2</sup>. It should be noted that in this activity friction is ignored, but in reality, frictional forces are always present, and frictional forces should be considered in order to calculate the net force."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580412/580412_Physics_fig_001.svg",
+                  "desc": "Figure 1: Diagram showing a forward force of 20 Newtons acting on an object with a mass of 4 kilograms, yielding an acceleration of 5 meters per second squared",
+                  "altText": "Figure 1: Diagram showing a forward force of 20 Newtons acting on an object with a mass of 4 kilograms, yielding an acceleration of 5 meters per second squared",
+                  "imgDivWidth": "200px",
+                  "maxWidth": "250px",
+                  "scrollImg": true,
+                  "width": "100%"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580412/580412_Physics_fig_002.svg",
+                  "desc": "Figure 2: Diagram showing a forward force of 20 Newtons as well as a backward force of 4 Newtons acting on an object with a mass of 4 kilograms, yielding an acceleration of 4 meters per second squared",
+                  "altText": "Figure 2: Diagram showing a forward force of 20 Newtons as well as a backward force of 4 Newtons acting on an object with a mass of 4 kilograms, yielding an acceleration of 4 meters per second squared",
+                  "imgDivWidth": "240px",
+                  "maxWidth": "300px",
+                  "scrollImg": true,
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "So, if we substitute the net force of 16 N acting on the object, and the known mass of the object, 4 kg, into the basic equation of Newton’s second law, <span style='whiteSpace: nowrap'><span className=bodyFontBoldItalic>F</span> = <span className=bodyFontItalic>m</span><span className=bodyFontBoldItalic>a</span>,</span> we can determine the object’s acceleration: <span class='bodyParaLineBreak'> 16 N = 4 kg × 4 m/s<sup>2</sup> </span>"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following is measured in Newtons (N)?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "force",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "mass",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "acceleration",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "resistance",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "velocity",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Force is measured in SI units of Newtons (N), where 1 Newton is equal to 1 kilogram multiplied by 1 m/s<sup>2</sup>."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What is the formula for calculating the net force acting on an object (<span className=bodyFontItalic>F </span>)?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "<span className=bodyFontItalic>F</span> = <span className=bodyFontItalic>ma</span>",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "<span className=bodyFontItalic>F</span> = <span className=bodyFontItalic>mv</span>",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "<span className=bodyFontItalic>F</span> = <span className=bodyFontItalic>m/v</span>",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "<span className=bodyFontItalic>F</span> = <span className=bodyFontItalic>N/ma</span>",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "<span className=bodyFontItalic>F</span> = <span className=bodyFontItalic>m/a</span>",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The net force acting on an object (<span className=bodyFontItalic>F </span>) equals the mass of the object (<span className=bodyFontItalic>m </span>) times the acceleration of the object due to the net force (<span className=bodyFontItalic>a </span>)."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Force (<span className=bodyFontItalic>F </span>) refers to the net force acting on an object, <span className=bodyFontItalic>m</span> is the mass of the object, and <span className=bodyFontItalic>a</span> is the acceleration of the object due to the net force. The Newton (N) is named after Isaac Newton; it is the unit with which force is measured, where <span style='whiteSpace: nowrap'>1 Newton</span> is equal to <span style='whiteSpace: nowrap'>1 kilogram</span> multiplied <span style='whiteSpace: nowrap'>by 1 m/s<sup>2</sup>.</span> Newton’s second law of motion states that the force acting on an object is related to the change in the object’s momentum (Δ<span className=bodyFontItalic>p </span>), which is the product of the object’s mass (<span className=bodyFontItalic>m </span>) multiplied by its velocity (<span className=bodyFontItalic>v </span>). Because the mass of the object remains the same, the net force changes the object’s velocity.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580412/580412_Physics_Equation_002.svg",
+                      "alt": "Equation 2: Begin equation begin bracket vector F end bracket equals N end equation, begin equation 1 N equals 1 kilogram times 1 meter per second squared end equation",
+                      "maxWidth": "170px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "Force (<span className=bodyFontItalic>F </span>) refers to the net force acting on an object, <span className=bodyFontItalic>m</span> is the mass of the object, and <span className=bodyFontItalic>a</span> is the acceleration of the object due to the net force. The Newton (N) is named after Isaac Newton; it is the unit with which force is measured, where <span style='whiteSpace: nowrap'>1 Newton</span> is equal to <span style='whiteSpace: nowrap'>1 kilogram</span> multiplied <span style='whiteSpace: nowrap'>by 1 m/s<sup>2</sup>.</span> Newton’s second law of motion states that the force acting on an object is related to the change in the object’s momentum (Δ<span className=bodyFontItalic>p </span>), which is the product of the object’s mass (<span className=bodyFontItalic>m </span>) multiplied by its velocity (<span className=bodyFontItalic>v </span>). Because the mass of the object remains the same, the net force changes the object’s velocity.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580412/580412_Physics_Equation_002.svg",
+                      "alt": "Equation 2: Begin equation begin bracket vector F end bracket equals N end equation, begin equation 1 N equals 1 kilogram times 1 meter per second squared end equation",
+                      "maxWidth": "170px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>On Earth, the <button class='glossary-text'>acceleration</button> due to gravity is 9.8 m/s<sup>2</sup>. The weight (<span className=bodyFontItalic>W </span>) of an object is calculated by multiplying the mass of the object by the acceleration due to gravity, represented by the symbol <span className=bodyFontItalic><span class='bodyFontBold'>g</span></span>: </span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580412/580412_Physics_Equation_003.svg",
+                  "desc": "Equation 3: g equals 9.8 meters per second squared",
+                  "altText": "Equation 3: g equals 9.8 meters per second squared",
+                  "imgDivWidth": "92px",
+                  "maxWidth": "135px",
+                  "scrollImg": true,
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-top:5px;display:block;'><span style='padding-bottom:5px;display:block;'>The weight of a 10 kg object would be 98 N: </span></span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580412/580412_Physics_Equation_004.svg",
+                  "desc": "Equation 4: capital W equals m times g equals bracket 10 kilograms close bracket times bracket 9.8 meter per second squared close bracket, equals 98 capital N",
+                  "altText": "Equation 4: capital W equals m times g equals bracket 10 kilograms close bracket times bracket 9.8 meter per second squared close bracket, equals 98 capital N",
+                  "imgDivWidth": "250px",
+                  "maxWidth": "360px",
+                  "scrollImg": true,
+                  "width": "100%"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-top:3px;display:block;'><button class='glossary-text'>Newton’s laws of motion</button> can help analyze mechanical systems. The force acting on an object or part of a system can be calculated by applying Newton’s laws. These equations can also be used to calculate the acceleration that an object will experience due to an applied force.</span>"
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span class='bodyFontBold'>Note:</span> The expression “net force” means the vector sum of all the forces acting on an object. If the net force on an object is zero, there will be no acceleration. The object would either remain still or move at a constant speed in a straight line. A change in the velocity of an object in any direction and/or speed is the result of a net or unbalanced force being applied to that object."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Newton's second law is at play in our lives every time we accelerate. Whether taking off in an airplane, or riding in an elevator, we experience net forces all the time. Simply walking, throwing a ball to a friend, riding a skateboard, etc., are all examples of forces at work in our everyday lives."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<button class='glossary-text'>Newton's third law of motion</button> states that forces occur in pairs. For every action force, there is an equal and opposite reaction force. The forces are equal in magnitude and opposite in direction."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "If a person jumps off a boat that is floating in the water, as the person moves in one direction, the boat moves in the opposite direction. Also, the person does not move as far from their starting position as they would have if they had jumped from a stationary pier."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "In this activity, you will construct a system consisting of a hanging mass attached to a wheeled cart and graphically analyze the relationship between the mass of the system and the force acting to accelerate the system."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "On Earth, what is the acceleration due to gravity?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "9.8 m/s<sup>2</sup>",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "1 kg • 1 m/s<sup>2</sup>",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "5.2 m/s<sup>2</sup>",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "[<span className=bodyFontItalic>F </span>]",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "<span className=bodyFontItalic>F</span><sub> net</sub>",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "On Earth, the acceleration due to gravity is 9.8 m/s<sup>2</sup>."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "A book on a table at rest will remain at rest until which of the following takes place?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "an unbalanced force is applied to the book",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "the net force applied to the book equals the acceleration of the object due to earth’s gravity",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "the net force applied to the book is less than zero",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "the acceleration of the object due to gravity changes",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "the weight of the object changes",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "A book on a table will remain at rest until an unbalanced force is applied to the book."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "The weight (<span className=bodyFontItalic>W </span>) of an object is calculated by multiplying the mass of the object by acceleration due to gravity, represented by the symbol <span className=bodyFontItalic>g</span>, which is equal to <span style='whiteSpace: nowrap'>9.8 m/s<sup>2</sup>.</span> A book resting on a table is being acted on by opposing and equal forces. Gravity pulls down on the book, while the table pushes up on the book with an equal amount of force. The book will remain motionless until the forces are unbalanced. Consider a rocket fired into space. In space, without friction from air resistance, once the thrust from the rocket engine stops, the rocket itself will continue to travel at a constant speed in a straight line unless the rocket is acted upon by another force. This could happen if the rocket struck another object, such as an asteroid, or if the rocket entered the gravity field of a planet causing the rocket’s path to curve.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580412/580412_Physics_Equation_003.svg",
+                      "alt": "Equation 3: g equals 9.8 meters per second squared",
+                      "maxWidth": "115px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "The weight (<span className=bodyFontItalic>W </span>) of an object is calculated by multiplying the mass of the object by acceleration due to gravity, represented by the symbol <span className=bodyFontItalic>g</span>, which is equal to <span style='whiteSpace: nowrap'>9.8 m/s<sup>2</sup>.</span> A book resting on a table is being acted on by opposing and equal forces. Gravity pulls down on the book, while the table pushes up on the book with an equal amount of force. The book will remain motionless until the forces are unbalanced. Consider a rocket fired into space. In space, without friction from air resistance, once the thrust from the rocket engine stops, the rocket itself will continue to travel at a constant speed in a straight line unless the rocket is acted upon by another force. This could happen if the rocket struck another object, such as an asteroid, or if the rocket entered the gravity field of a planet causing the rocket’s path to curve.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580412/580412_Physics_Equation_003.svg",
+                      "alt": "Equation 3: g equals 9.8 meters per second squared",
+                      "maxWidth": "115px"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "altText": "A workflow map of the investigation.  To prepare, set up the pulley on the table. Start the activity by setting up the cart with the string, then label and measure the track. Then, add washers to the cart and string, measure the mass of the cart-washer system, release the cart, and observe the system. If the cart does not accelerate when released, transfer a washer from the cart to the string. Once the cart accelerates, measure the final mass of the washers on the string, release the cart, and measure the time it takes to reach the ground. After 3 trials, transfer another washer from the cart to the string, measure the final mass of the washers on the string, release the cart, and measure the time it takes to reach the ground. After completing 3 trials each for all of the washers, calculate the force and acceleration. Next, graph force versus acceleration to determine the experimental mass of the system. Finally, calculate the percent difference between the experimental and actual mass of the system.",
+                  "desc": "A workflow map of the investigation.  To prepare, set up the pulley on the table. Start the activity by setting up the cart with the string, then label and measure the track. Then, add washers to the cart and string, measure the mass of the cart-washer system, release the cart, and observe the system. If the cart does not accelerate when released, transfer a washer from the cart to the string. Once the cart accelerates, measure the final mass of the washers on the string, release the cart, and measure the time it takes to reach the ground. After 3 trials, transfer another washer from the cart to the string, measure the final mass of the washers on the string, release the cart, and measure the time it takes to reach the ground. After completing 3 trials each for all of the washers, calculate the force and acceleration. Next, graph force versus acceleration to determine the experimental mass of the system. Finally, calculate the percent difference between the experimental and actual mass of the system.",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Physics/580412/580412_Physics_ED_001.svg",
+                  "imgDivWidth": "100%",
+                  "maxWidth": "1825px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "100%",
+                    "L": "80%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "80%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the Mechanics Module kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Dynamics cart",
+                          "image": "courses_2023/Physics/580412/580412_Physics_material_1.svg",
+                          "altText": "Molded plastic car with snap-in wheels, spring steel bumpers and a rubber stopper assembly "
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Table clamp pulley",
+                          "image": "courses_2023/Physics/580412/580412_Physics_material_2.svg",
+                          "altText": "Pulley mounted in a molded plastic clamp "
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from the core equipment set",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Tape measure",
+                          "image": "courses_2023/Physics/580412/580412_Physics_material_3.svg",
+                          "altText": "White measuring tape, 150 centimeters (60 inches)"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "String",
+                          "image": "courses_2023/Physics/580412/580412_Physics_material_4.svg",
+                          "altText": "White string on black spool"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Pocket scale",
+                          "image": "courses_2023/Physics/580412/580412_Physics_material_5.svg",
+                          "altText": "Carolina Electric Pocket Scale (being held)"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Paper clip",
+                          "image": "courses_2023/Physics/580412/580412_Physics_material_6.svg",
+                          "altText": "Paper clip"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "30 Washers/weights",
+                          "image": "courses_2023/Physics/580412/580412_Physics_material_7.svg",
+                          "altText": "7/8 inch flat large washer"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [
+                            "<a target='blank' href='images/courses_2023/Physics/580412/580412_graph_paper.pdf'>Graph paper</a> or graphing software",
+                            "Books",
+                            "Calculator or computer",
+                            "Masking tape",
+                            "Permanent marker"
+                          ]
+                        },
+                        {
+                          "type": "List",
+                          "title": "Optional",
+                          "text": [
+                            "Smartphone/tablet, or other digital recording device"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span> <span className=bodyParaLineBreak></span> <span className=bodyParaLineBreak></span>Replacement supplies for Newton’s Second Law investigation (item number 580404) can be ordered from Carolina Biological Supply Company.<span className=bodyParaLineBreak></span> <span className=bodyMediumSubHeading>Call:</span> 866.332.4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Safety goggles should be worn during this lab."
+                },
+                {
+                  "type": "Image",
+                  "desc": "goggles symbol",
+                  "altText": "goggles symbol",
+                  "image": "core/Key_Goggle.svg",
+                  "imgDivWidth": "78px",
+                  "maxWidth": "120px"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Read all the instructions for this laboratory activity before beginning. Follow the instructions closely and observe established laboratory safety practices, including the use of appropriate personal protective equipment described in the Safety and Activity section."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Safety goggles should be worn during this lab. The activities in this lab involve carts containing unsecured metal masses that move and accelerate. Take care while performing these lab activities to avoid injuring hands and fingers or feet and toes with moving or falling masses. Make sure lab area is clear of pets, children, and breakable objects."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Do not eat, drink, or chew gum while performing this activity. Wash your hands with soap and water before and after performing the activity. Clean up the work area with soap and water after completing the investigation. Keep pets and children away from lab materials and equipment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Technology",
+          "pages": [
+            {
+              "title": "Technology",
+              "pageTitle": "Technology",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "isCheckPoint": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Alternate Methods for Collecting Data Using Digital Devices",
+                  "text": "Much of the uncertainty in physics experiments arises from human reaction time error in measuring the times of events. Some of the time intervals are very short, which increases the effect of human error due to reaction time.</span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Observing the experiment from a good vantage point that removes parallax errors and recording measurements for multiple trials helps to minimize error; using a digital device as an alternate method of data collection may further minimize error. Many digital devices, such as smartphones and tablets, have cameras and software that allow the user to pause or slow down the video. If you film the activity against a scale such as a tape measure, you can use your video playback program to record position and time data. This can provide more accurate data and may eliminate the need for multiple trials."
+                },
+                {
+                  "type": "Plain",
+                  "text": "If the time on your device’s playback program is not sufficiently accurate, you may download an app such as the following free apps: <ul style='margin-bottom: 0;'><li><span class=bodyFontBold>OnForm</span><br><a target='_blank' href='https://www.hudl.com/products/technique'>iOS and Android</a></li></ul> <span class='bodyParaLineBreak'><ul><li><span class=bodyFontBold>SloPro</span><br> <a target='_blank' href='https://apps.apple.com/us/app/slopro-1000fps-slow-motion/id507232505'>iOS</a><br> <a target='_blank' href='https://slopro.en.uptodown.com/android'>Android</a></li></ul></span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Or you may upload the video to your computer. Your operating system or software suite may include video playback programs, or these programs may be available for download."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.</span>",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes inertia?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "an object’s resistance to a change in its motion",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "an object staying at rest despite unbalanced forces acting upon it",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "the unbalanced forces acting on an object",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "the mass times the acceleration of an object",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "the force of gravity attracting all objects toward the Earth",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "An 11 kg box is pushed with a force of 55 N. What is the acceleration of the box? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "5.0 m/s<sup>2</sup>",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "66 m/s<sup>2</sup>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "0.20 m/s<sup>2</sup>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "0.45 m/s<sup>2</sup>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "605 m/s<sup>2</sup>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "The SI unit Newtons (N) is equivalent to which of the following?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "kg·m/s<sup>2</sup>",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "kg·m<sup>2</sup>/s<sup>2</sup>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "m/s<sup>2</sup>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "kg",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "km·g/s<sup>2</sup>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Two students are pushing a box. Student A is pushing with 10 N to the right and Student B is pushing 15 N to the right. What is the net force on the box?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "25 N to the right",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "5 N to the left",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "5 N to the right",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "25 N to the left",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "25 N",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "If you double the force applied on an object, but keep the mass the same, what will happen to that object’s acceleration? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "It will double.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "It will quadruple.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "It will stay the same.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "It will halve.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "This is impossible; the mass cannot stay the same.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "An object on Earth has a mass of 30 kg. What is the weight of the object? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "294 N",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "980 N",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "9.8 N",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "3.1 N",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "29.4 N",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "You measure the mass of a washer to be 7.81 g. What is the mass of the wash in kilograms?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "0.00781 kg",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "0.0781 kg",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "0.000781 kg",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "78.1 kg",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "7810 kg",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is NOT a safety concern for this lab?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The lab apron and gloves must be worn at all times during this lab.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Safety goggles should be worn during this lab.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Take care to avoid injuring hands and fingers or feet and toes with moving or falling masses.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Make sure the lab area is clear of pets, children, and breakable objects.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Do not eat, drink, or chew gum while performing this activity.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (4 steps)",
+              "pageTitle": "Preparation (4 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure-resource",
+              "keyID": "page14",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Gather items listed in the Materials section."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Find a table at least 60 centimeters high."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Clear a space on the table top approximately 1‒2 meters in length and at least 10 centimeters wide. The area should be level and smooth."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The clamp pulley should attach to the end of the table with enough space for a suspended mass to fall unobstructed to the floor. <span style='whiteSpace: nowrap'>See Figure 3</span> for an example of the clamp pulley secured to a tabletop. You may place a piece of cardboard between the clamp and the table to prevent damaging the table surface."
+                  },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": "courses_2023/Physics/580412/580412_Physics_fig_003.svg",
+                    "desc": "Figure 3: Activity 1 setup which shows a clamp pully system secured to a table top; a thread runs through the pully, and on the end of the thread hangs a washer attached with a paper clip",
+                    "altText": "Figure 3: Activity 1 setup which shows a clamp pully system secured to a table top; a thread runs through the pully, and on the end of the thread hangs a washer attached with a paper clip",
+                    "imgDivWidth": "265px",
+                    "maxWidth": "330px",
+                    "scrollImg": true,
+                    "width": "100%"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will increase the mass of a plastic cart adding weights in the form of washers. You will observe the change in <button class='glossary-text'>acceleration</button> of the cart in response to the increased weight and graph the data to determine the relationship between force and acceleration described by <button class='glossary-text'>Newton’s second law of motion</button>."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "<div className=order-list-text>A</div>&nbsp;Newton’s Second Law (27 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Newton’s Second Law (27 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "page18",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Remove the rubber stopper and circular spring from the cart if attached."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "<span class='bodyFontBold'>Important:</span> Use caution when removing the spring, as it can decompress quickly and become a projectile."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Tie a string to the cart through the hole where the rubber stopper was attached."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place 2 books close together on the table near the clamp pulley, one on either side of the string. Place them close enough to the clamp to prevent the cart from running into the pulley. Make sure the books do not interfere with the movement of the string."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the cart on the table so the front edge rests against the stopping books."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Thread the string over the pulley and down to the floor."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Unbend a paper clip to make a hook where you can suspend the washers. <span style='whiteSpace: nowrap'>See Figure 3.</span>"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580412/580412_Physics_fig_003.svg",
+                    "altText": "Figure 3: Activity 1 setup which shows a clamp pully system secured to a table top; a thread runs through the pully, and on the end of the thread hangs a washer attached with a paper clip",
+                    "imgDivWidth": "265px",
+                    "maxWidth": "330px",
+                    "scrollImg": true,
+                    "width": "100%"
+                  },
+                  {
+                    "type": "Box",
+                    "text": "<span class='bodyFontBold'>Note:</span> you will have to suspend multiple washers (as indicated in <span class='bodyFontBold'>Data Table 1</span>) for various trials before you conduct the experiment and take readings."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Cut the string near the floor and tie the free end of the string to the paper clip. When the front edge of the cart rests against the books and the string is threaded over the pulley, the paper clip and the washers should be suspended just above the floor."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Roll the cart backward on the table away from the books and pulley, until the paper clip is just below, but not touching, the pulley. Place a piece of tape in front of the front edge of the cart (see the start point indicated in <span style='whiteSpace: nowrap'>Figure 4).</span> Label this tape as “start point” or <span style='whiteSpace: nowrap'>“<span className=bodyFontItalic>d</span> = 0.”</span>"
+                  },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": "courses_2023/Physics/580412/580412_Physics_fig_004.svg",
+                    "desc": "Figure 4: A diagram showing the table top and pully set up; a cart with washers is shown on the table with its intended travel pattern, showing the start point and the end point of its journey.",
+                    "altText": "Figure 4: A diagram showing the table top and pully set up; a cart with washers is shown on the table with its intended travel pattern, showing the start point and the end point of its journey.",
+                    "imgDivWidth": "465px",
+                    "maxWidth": "580px",
+                    "scrollImg": true,
+                    "width": "100%"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place a second piece of tape on the table, across the path of the cart and even with the stopping books. Label this tape as <span style='whiteSpace: nowrap'>“end point.”</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "With the tape measure, measure the displacement from the start point to the end point. If you measure the displacement in centimeters (cm) divide the number by 100 to convert the number to meters. Record this value in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Table 1</span></span> as “s (m).” This value will be the same for all trials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Add 6 large washers and 5 small washers to the cart. Add 3 small washers to the paper clip on the end of the string."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the pocket scale, measure the combined mass of the cart with all the washers, the string, and the paper clip. This is the “mass of the system,” and this mass will remain constant during the experiment. Record the mass in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Table 1.</span></span>"
+                  },
+                  {
+                    "type": "Box",
+                    "text": "<span class='bodyFontBold'>Note:</span> Your scale measures in grams. All masses should be converted to kilograms (kg). To convert a gram to a kilogram, divide the mass in grams <span style='whiteSpace: nowrap'>by 1000.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the cart behind the piece of tape, marking the start point, and suspend the paper clip with the initial 4 small washers over the pulley <span style='whiteSpace: nowrap'>(see Figure 4).</span> "
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Release the system and allow the suspended mass to fall. If the system does not move, transfer one of the smaller washers from the cart to the paper clip hook."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Once you have successfully set up the system with the initial conditions that will allow the suspended mass to accelerate the cart, use the pocket scale and measure the mass of the paper clip with the small washers. Record this value in <span style='whiteSpace: nowrap'><span class='bodyFontBold'>Data Table 1.</span></span> "
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Set up the cart, string, and suspended mass system again so that the mass on the paper clip is suspended from the pulley and the cart is immediately behind the start point as shown in Figure 4. The string should be taut enough so that there is no slack."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "imgWidth": "5.5%",
+                    "desc": "stopwatch symbol",
+                    "altText": "stopwatch symbol",
+                    "image": "core/Clock.svg",
+                    "text": "Release the cart and simultaneously start the stopwatch. Stop the stopwatch when the cart contacts the stopping books."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the time in <span class='bodyFontBold'>Data Table 1.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat Steps 16−18 two more times for a total of three trials using the same number of washers to accelerate the system. Record the times for the three in <span class='bodyFontBold'>Data Table 1.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Move one of the small washers from the cart to the paper clip."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat the procedure in Steps 15−21, collecting data for three trials with the mass of an additional washer accelerating the system until 7 washers are suspended from the paper clip."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the force (N) accelerating the cart by multiplying the mass of the suspended washers and the paper clip by the <button class='glossary-text'>acceleration</button> due to gravity <span className=bodyFontItalic><span class='bodyFontBold'>g</span></span> = 9.8 m/s<sup>2 </sup>)."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "<span class='bodyFontBold'>Note:</span> Mass is the amount of matter in an object. Weight is the force of gravity on an object, which is provided in Newtons, N: <span class='bodyParaLineBreak'>weight = force due to gravity = <span className=bodyFontItalic>m</span><span className=bodyFontItalic><span class='bodyFontBold'>g</span></span> </span> <span class='bodyParaLineBreak'><span className=bodyFontItalic><span class='bodyFontBold'>W</span></span> = <span className=bodyFontItalic><span class='bodyFontBold'>F</span></span><sub>G</sub> = <span className=bodyFontItalic>m</span><span className=bodyFontItalic><span class='bodyFontBold'>g</span></span> </span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the average time of the three trials for each iteration of the experiment. Add the times together and divide by 3 to get the average."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the square of each average time (<span className=bodyFontItalic>t</span><sup> 2</sup>)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "<span style='padding-bottom:5px;display:block;'>Calculate the acceleration of the system by using the kinematic equation: <span class='bodyParaLineBreak'> Δ<span className=bodyFontItalic><span class='bodyFontBold'>x</span></span> = <span class=bodyFraction>1<span class=symbol>/</span><span class=bottom>2</span></span> <span className=bodyFontItalic><span class='bodyFontBold'>a</span></span> <span className=bodyFontItalic>t</span><sup> 2</sup> </span>  <span class='bodyParaLineBreak'> Where Δ<span className=bodyFontItalic><span class='bodyFontBold'>x</span></span> is displacement (the distance that the cart moved from the start point to the end point), <span className=bodyFontItalic>t</span><sup> 2</sup> is the square of the time for the cart to move from the start point to the end point (in this experiment three times are averaged to minimize error) and <span className=bodyFontItalic><span class='bodyFontBold'>a</span></span> is the acceleration of the system.</span> <span class='bodyParaLineBreak'>Rearranging the preceding equation for acceleration gives:</span></span>"
+                  },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": "courses_2023/Physics/580412/580412_Physics_Equation_005.svg",
+                    "desc": "Equation 5: Acceleration equals begin fraction 2 delta x over time squared end fraction",
+                    "altText": "Equation 5: Acceleration equals begin fraction 2 delta x over time squared end fraction",
+                    "imgDivWidth": "92px",
+                    "maxWidth": "130px",
+                    "scrollImg": true,
+                    "width": "100%"
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "As the mass that is suspended over the pulley increases, the weight, or the force, accelerating the system increases, and therefore the acceleration of the system increases."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use <a target='blank' href='images/courses_2023/Physics/580412/580412_graph_paper.pdf'>graph paper</a> or graphing software to construct a graph of force (N) vs. acceleration (m/s<sup>2</sup>). The force accelerating the system in each trial is the weight of the suspended mass. The slope of the line should be the mass of the entire system. <span class='bodyParaLineBreak'>According to <button class='glossary-text'>Newton’s second law of motion</button>, the relationship between force and acceleration is given by <button class='resource-text'>Equation 1</button>:</span> <span class='bodyParaLineBreak'> <span className=bodyFontItalic><span class='bodyFontBold'>F</span></span> = <span className=bodyFontItalic>m</span><span className=bodyFontItalic><span class='bodyFontBold'>a</span></span> </span> <span class='bodyParaLineBreak'>Force is the y value in the graph and acceleration is the x value. </span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "<span style='padding-bottom:5px;display:block;'>Calculate the percent difference between the mass of the system determined experimentally using the slope of the line and the mass you recorded using the pocket scale.</span>"
+                  },
+                  {
+                    "type": "Image",
+                    "containerType": "rightContainer",
+                    "image": "courses_2023/Physics/580412/580412_Physics_Equation_006.svg",
+                    "desc": "Equation 6: Percent difference equals begin absolute value begin fraction first value minus second value over begin paren first value plus second value over 2 end paren end fraction end absolute value times 100 percent",
+                    "altText": "Equation 6: Percent difference equals begin absolute value begin fraction first value minus second value over begin paren first value plus second value over 2 end paren end fraction end absolute value times 100 percent",
+                    "imgDivWidth": "400px",
+                    "maxWidth": "590px",
+                    "scrollImg": true,
+                    "width": "100%"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                  "text": ["Return the materials to the equipment kit."]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "altText": "completion",
+                  "desc": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Physics_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "landscape A4"
+    },
+    "pages": [
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "90%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1"
+              },
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "header": [
+                  {
+                    "text": "Number of Washers",
+                    "colWidth": "5%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Suspended Mass (kg)",
+                    "colWidth": "10%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Weight* of Suspended Mass (N)",
+                    "colWidth": "10%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Trial",
+                    "colWidth": "5%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Time (s)",
+                    "colWidth": "10%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Average time, <span className=bodyFontItalic>t</span> (s)",
+                    "colWidth": "10%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Average time<sup>2</sup>, <span className=bodyFontItalic>t</span><sup>2</sup> (s<sup>2</sup>)",
+                    "colWidth": "10%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Displacement, Δ<span className=bodyFontItalic>x</span>  (m)",
+                    "colWidth": "10%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "2Δx (m)",
+                    "colWidth": "10%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Acceleration, 2Δ<span className=bodyFontItalic>x</span> / <span className=bodyFontItalic>t</span><sup>2</sup> (m/s<sup>2</sup>)",
+                    "colWidth": "10%",
+                    "maxLength": 10
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "3",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "text",
+                      "text": "1"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "2"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "3"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "4",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "text",
+                      "text": "1"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "2"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "3"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "5",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "text",
+                      "text": "1"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "2"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "3"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "6",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "text",
+                      "text": "1"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "2"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "3"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "7",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "text",
+                      "text": "1"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "rowspan": 3
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "2"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "3"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              },
+              {
+                "type": "Box",
+                "text": "*Remember the weight of an object is the mass x 9.8 m/s<sup>2</sup>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Graph",
+                "text": "Insert your graph of the force vs acceleration from Activity 1 Step 26. If you used graphing software, upload the graph image rather than the spreadsheet file."
+              },
+              {
+                "type": "Plain",
+                "text": ""
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "Question1",
+          "Question2",
+          "Question3",
+          "Question4",
+          "Question5",
+          "Question6",
+          "Question7"
+        ],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "start": "1",
+                "listType": "ordered",
+                "text": ["What was the mass of the system?"]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 250,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "start": "2",
+                "listType": "ordered",
+                "text": [
+                  "What is the value and units for the slope of the line?  What does it represent?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 1,
+                "maxLength": 250,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question3",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "start": "3",
+                "listType": "ordered",
+                "text": [
+                  "Calculate the percent difference between the mass of the system determined experimentally using the slope of the line and the mass you recorded using the pocket scale."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question3",
+                "sr": 2,
+                "maxLength": 250,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question4",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "start": "4",
+                "listType": "ordered",
+                "text": [
+                  "Newton’s Second Law states <span className=bodyFontItalic><span class='bodyFontBold'>F</span></span> = <span className=bodyFontItalic>m</span><span className=bodyFontItalic><span class='bodyFontBold'>a</span></span>. If the force applied to an object is doubled, what happens to the acceleration?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question4",
+                "sr": 3,
+                "maxLength": 250,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question5",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "start": "5",
+                "listType": "ordered",
+                "text": [
+                  "You observe a vehicle traveling on a highway.  The vehicle maintains a constant velocity.  What can you determine about the forces on the vehicle?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question5",
+                "sr": 4,
+                "maxLength": 250,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question6",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "start": "6",
+                "listType": "ordered",
+                "text": [
+                  "What are some error sources in the Second Law experiment you performed?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question6",
+                "sr": 5,
+                "maxLength": 250,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question7",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "start": "7",
+                "listType": "ordered",
+                "text": [
+                  "In this experiment, the acceleration is calculated by measuring the time for the cart to move from the start point to the end point and applying the kinematics equation: <span class='bodyParaLineBreak'> <span className=bodyFontItalic><span class='bodyFontBold'>s</span></span> = <span class=bodyFraction>1<span class=symbol>/</span><span class=bottom>2</span></span> <span className=bodyFontBoldItalic>a</span><span className=bodyFontItalic>t</span><sup>2</sup> </span> <span class='bodyParaLineBreak'>Explain how this equation is used to find the acceleration.</span>"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question7",
+                "sr": 6,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 3000,
+            "title": "Notes"
+          },
+          
+          {
+            "type": "Box",
+            "id": "Box_Note",
+            "align": "center",
+            "margin": "25px 0 0 0",
+            "text": "In order for your instructor to be able to open your video links, please select the \"Save as PDF\" option rather than \"Print to PDF\"."
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6338400847112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "PDF",
+        "thumbnailSrc": "core/PDF_icon.svg",
+        "content": "Printable Graph Paper",
+        "ref": "images/courses_2023/Physics/580412/580412_graph_paper.pdf",
+        "disableClick": true,
+        "scrollImg": true,
+        "isResource": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 1. Force",
+        "src": "courses_2023/Physics/580412/580412_Physics_Equation_001.svg",
+        "altText": "Equation 1: Capital F equals m times a ",
+        "maxWidth": "135px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 2. Newton",
+        "src": "courses_2023/Physics/580412/580412_Physics_Equation_002.svg",
+        "altText": "Equation 2: Begin equation begin bracket vector F end bracket equals N end equation, begin equation 1 N equals 1 kilogram times 1 meter per second squared end equation",
+        "maxWidth": "190px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 1. Acceleration of a mass being acted on by a single force",
+        "src": "courses_2023/Physics/580412/580412_Physics_fig_001.svg",
+        "altText": "Figure 1: Diagram showing a forward force of 20 Newtons acting on an object with a mass of 4 kilograms, yielding an acceleration of 5 meters per second squared",
+        "maxWidth": "250px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 2. Acceleration of a mass being acted on by two opposing forces",
+        "src": "courses_2023/Physics/580412/580412_Physics_fig_002.svg",
+        "altText": "Figure 2: Diagram showing a forward force of 20 Newtons as well as a backward force of 4 Newtons acting on an object with a mass of 4 kilograms, yielding an acceleration of 4 meters per second squared",
+        "maxWidth": "300px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 3. Value of gravity on Earth",
+        "src": "courses_2023/Physics/580412/580412_Physics_Equation_003.svg",
+        "altText": "Equation 3: g equals 9.8 meters per second squared",
+        "maxWidth": "135px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 4. Weight",
+        "src": "courses_2023/Physics/580412/580412_Physics_Equation_004.svg",
+        "altText": "Equation 4: capital W equals m times g equals bracket 10 kilograms close bracket times bracket 9.8 meter per second squared close bracket, equals 98 capital N",
+        "maxWidth": "360px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Experimental Design Diagram",
+        "src": "courses_2023/Physics/580412/580412_Physics_ED_001.svg",
+        "altText": "A workflow map of the investigation.  To prepare, set up the pulley on the table. Start the activity by setting up the cart with the string, then label and measure the track. Then, add washers to the cart and string, measure the mass of the cart-washer system, release the cart, and observe the system. If the cart does not accelerate when released, transfer a washer from the cart to the string. Once the cart accelerates, measure the final mass of the washers on the string, release the cart, and measure the time it takes to reach the ground. After 3 trials, transfer another washer from the cart to the string, measure the final mass of the washers on the string, release the cart, and measure the time it takes to reach the ground. After completing 3 trials each for all of the washers, calculate the force and acceleration. Next, graph force versus acceleration to determine the experimental mass of the system. Finally, calculate the percent difference between the experimental and actual mass of the system.",
+        "maxWidth": "1825px",
+        "scrollImg": true
+      },
+      {
+        "type": "Pages",
+        "disableClick": true,
+        "hideFromList": true,
+        "thumbnailSrc": "core/Page_icon.svg",
+        "content": "OnForm iOS and Android apps",
+        "ref": "https://www.hudl.com/products/technique"
+      },
+      {
+        "type": "Pages",
+        "disableClick": true,
+        "hideFromList": true,
+        "thumbnailSrc": "core/Page_icon.svg",
+        "content": "SloPro iOS app",
+        "ref": "https://apps.apple.com/us/app/slopro-1000fps-slow-motion/id507232505"
+      },
+      {
+        "type": "Pages",
+        "disableClick": true,
+        "hideFromList": true,
+        "thumbnailSrc": "core/Page_icon.svg",
+        "content": "SloPro Android app",
+        "ref": "https://slopro.en.uptodown.com/android"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 3. Pulley set up",
+        "src": "courses_2023/Physics/580412/580412_Physics_fig_003.svg",
+        "altText": "Figure 3: Activity 1 setup which shows a clamp pully system secured to a table top; a thread runs through the pully, and on the end of the thread hangs a washer attached with a paper clip",
+        "maxWidth": "330px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 4. Experimental set up",
+        "src": "courses_2023/Physics/580412/580412_Physics_fig_004.svg",
+        "altText": "Figure 4: A diagram showing the table top and pully set up; a cart with washers is shown on the table with its intended travel pattern, showing the start point and the end point of its journey.",
+        "maxWidth": "580px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 5. Acceleration for a given displacement and time where initial velocity is zero",
+        "src": "courses_2023/Physics/580412/580412_Physics_Equation_005.svg",
+        "altText": "Equation 5: Acceleration equals begin fraction 2 delta x over time squared end fraction",
+        "maxWidth": "130px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 6. Percent difference",
+        "src": "courses_2023/Physics/580412/580412_Physics_Equation_006.svg",
+        "altText": "Equation 6: Percent difference equals begin absolute value begin fraction first value minus second value over begin paren first value plus second value over 2 end paren end fraction end absolute value times 100 percent",
+        "maxWidth": "590px",
+        "scrollImg": true
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Acceleration",
+        "content": "A change in an object’s velocity"
+      },
+      {
+        "title": "Classical mechanics",
+        "content": "The branch of physics concerned with analyzing forces, their impact on matter, and the motion of objects"
+      },
+      {
+        "title": "Inertia",
+        "content": "The tendency of an object to resist change to its motion unless acted upon by a net or unbalanced force"
+      },
+      {
+        "title": "Mass (<span className=bodyFontItalic>m</span>)",
+        "content": "The quantity of matter in a physical body"
+      },
+      {
+        "title": "Momentum (Δ<span className=bodyFontItalic>p</span>)",
+        "content": "A vector, the quantity of motion of a moving body, measured as a product of its mass and velocity"
+      },
+      {
+        "title": "Newton (N)",
+        "content": "The SI unit of force; the amount of force needed to accelerate 1 kilogram (kg) of mass at a rate of 1 meter per second squared (m/s<sup>2</sup>)"
+      },
+      {
+        "title": "Newton’s first law of motion",
+        "content": "States that every object will remain at rest or in uniform motion in a straight line unless compelled to change its state by the action of an external force"
+      },
+      {
+        "title": "Newton’s laws of motion",
+        "content": "Three laws that describe the relationship between force, object, mass, and motion"
+      },
+      {
+        "title": "Newton’s second law of motion",
+        "content": "States that the force acting on an object is related to the change in the object’s momentum (Δ<span className=bodyFontItalic>p</span>), which is the product of the object’s mass (<span className=bodyFontItalic>m</span>) multiplied by its velocity (<span className=bodyFontItalic>v</span>)"
+      },
+      {
+        "title": "Newton's third law of motion",
+        "content": "States that forces occur in pairs, for every action force, there is an equal and opposite reaction force, the forces are equal in magnitude and opposite in direction"
+      },
+      {
+        "title": "Quantum mechanics",
+        "content": "The branch of mechanics that deals with the mathematical description of the physical properties of nature at the scale of atoms and subatomic particles"
+      },
+      {
+        "title": "Scalar",
+        "content": "Describes a quantity that has a magnitude but not a direction"
+      },
+      {
+        "title": "Velocity (<span className=bodyFontItalic>v</span>)",
+        "content": "The rate of change of the position of an object, refers to both the speed and direction of an object, a vector quantity"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

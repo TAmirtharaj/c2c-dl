@@ -1,0 +1,32 @@
+/** @format */
+
+.draggable-item {
+  position: absolute;
+  color: black;
+  width: 18.5vw;
+  height: 5.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: #3bbfad; 
+  border: 2px solid #707070;
+  border-radius: 5px;
+  opacity: 1;
+  line-height: 1;
+  font-size: 0.85em;
+  padding: 0;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 1000px) and (orientation: landscape) {
+  .draggable-item {
+    width: 19.5vw;
+    height: 7.5vh;
+    font-size: 0.8em;
+  }
+}
+
+.draggable-item.disabled{
+  opacity: 0;
+  pointer-events: none;
+}

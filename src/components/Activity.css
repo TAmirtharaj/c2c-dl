@@ -1,0 +1,106 @@
+.right-aligned-tabs-holder {
+  display: flex;
+  flex-direction: row-reverse;
+  --bs-gutter-x: 0 !important;
+  position: relative;
+}
+
+.right-aligned-tabs-holder .tab-content-container {
+  padding-left: 0 !important;
+  position: relative;
+  right: 0.85rem;
+}
+
+.right-aligned-tabs-holder .nav-pills .nav-link {
+  padding: 0.5rem !important;
+}
+
+.activeContainer .activeItem,
+.activeContainer .inActiveItem {
+  /* transform: translateX(-24rem); */
+  /* transform: translateX(-34.1vw); */
+  transform: translateX(-34.8vw);
+}
+
+.activeItem {
+  background-color: #fff !important;
+  z-index: 3;
+  border-left: 2px solid #5aa1db;
+  border-top: 2px solid #5aa1db;
+  border-bottom: 2px solid #5aa1db;
+}
+
+.right-aligned-tabs-holder .nav-pills .nav-link.active {
+  background-color: unset;
+  color: #fff;
+}
+
+.activeItem span {
+  color: #5aa1db !important;
+}
+.right-aligned-tabs-holder .nav-item {
+  background-color: #5aa1db;
+  width: 50px;
+  height: 50px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.right-aligned-tabs-holder .nav-item {
+  margin-bottom: 0.3rem;
+}
+
+.tab-content > .active {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  border: 2px solid #5aa1db;
+}
+
+.activity-icon-bagde {
+  color: #fff;
+}
+
+@media only screen and (max-width: 1600px) and (max-height: 900px) {
+  .activeContainer .activeItem,
+  .activeContainer .inActiveItem {
+    transform: translateX(-33.95vw);
+  }
+}
+
+@media only screen and (max-width: 1366px) and (max-height: 768px) {
+  .activeContainer .activeItem,
+  .activeContainer .inActiveItem {
+    transform: translateX(-34.7vw);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+  .right-aligned-tabs-holder {
+    left: 16%;
+  }
+}
+
+.activity-container {
+  /* width: 47%; */
+  /* float: right; */
+}
+
+.activity-icon-badge {
+  /* position: relative;
+  top: -25%;
+  right: 15%;
+  font-size: 0.8rem; */
+}
+
+.activity-card {
+  /* text-align: left; */
+  /* border: 2px solid #0062b8; */
+}
+
+.activity-heading {
+  /* color: #0062b8; */
+  /* background-color: #c6e2ff; */
+}

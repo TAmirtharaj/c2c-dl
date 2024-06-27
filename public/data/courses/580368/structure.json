@@ -1,0 +1,2764 @@
+{
+  "locked": true,
+  "courseTitle": "Determining the Ksp of Calcium Hydroxide",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/bodyBookmark.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Chemistry_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Chemistry",
+                "images": {
+                  "logo": "core/Chemistry_subject_icon.svg"
+                },
+                "titleName2": "Determining the Ksp of Calcium Hydroxide",
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this experiment, students will determine the <button className='glossary-text'>molar solubility </button> product constant <span style='whiteSpace: nowrap'>(<button className='glossary-text'>K<sub class ='bodysubscript'>sp</sub></button>)</span> of calcium hydroxide, a solid that is slightly soluble in water, by titrating a sample of calcium hydroxide with an acid. In Activity 2, a common ion will be added and the <button className='glossary-text'>solubility</button> of the new solution will be determined."
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses/580368/580368_TimeRequirement.svg",
+                  "width": "100%",
+                  "imgDivWidth": "330px",
+                  "maxWidth": "420px",
+                  "altText": "Activity 1: Titration of Saturated Calcium Hydroxide with Hydrochloric Acid – 75 minutes \nActivity 2: Titration of Saturated Calcium Hydroxide + Calcium Chloride with Hydrochloric Acid – 60 minutes"
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "title": "Needed but not supplied:",
+                  "text": ["Plain sheet of white paper", "Bottled water"]
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "title": "Overview Video: Determining the K<sub>sp</sub> of Calcium Hydroxide"
+                },
+                {
+                  "type": "Video",
+                  "containerType": "rightContainer",
+                  "width": "100%",
+                  "imgDivWidth": "200px",
+                  "image": "courses/580368/580368_VideoIcone.svg",
+                  "desc": "Overview",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6316664122112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "title": "Outcomes",
+                  "type": "List",
+                  "text": [
+                    "Calculate the <button className='glossary-text'>molar solubility</button> of a solution.",
+                    "Determine the <button className='glossary-text'>K<sub class ='bodysubscript'>sp</sub></button> of a molecule.",
+                    "Interpret the effect of a common ion on the molar solubility of a solution."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "desc": " video link symbol, camera symbol, stopwatch symbol",
+                  "altText": " video link symbol, camera symbol, stopwatch symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "scrollImg": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Understandably, the brain is one of the most protected organs in our body. One gatekeeper to this vital organ is the blood-brain barrier, which relies on <button className='glossary-text'>solubility</button> principles to function. This barrier is made up of tightly packed endothelial tissue cells in the brain’s capillaries focused on preventing harmful substances from entering while letting helpful substances through. Substances with high lipid solubility move across the blood-brain barrier by simple diffusion. This includes psychoactive drugs and ethanol, which is why such compounds have a profound effect on our bodies: they cross the blood-brain barrier so easily their uptake in the brain is only limited by the amount of cerebral blood flow<sup class ='bodysubscript'>1</sup>. "
+                },
+                {
+                  "type": "Plain",
+                  "text": "The blood-brain barrier presents a challenge when it comes to treating brain conditions with medication.  One blood-brain transport mechanism that researchers hope to leverage is called carrier-mediated transport; it allows the body to transport less soluble substances, such as glucose. It may be possible to transport medication with low solubility in a similar manner."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='citation'><sup class='bodysubscript'>1</sup>Laterra, J., Keep, R., Betz, L. A., & Goldstein, G. W. (1999). Blood-Brain Barrier. In G. J. Siegel, B. W. Agranoff, R. W. Albers, S. K. Fisher, & M. D. Uhler (Eds.), <span class= bodyFontItalic>Basic Neurochemistry: Molecular, Cellular and Medical Aspects</span> (6th ed.). essay, Lippincott-Raven.</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580368/580368_whyShouldICare.svg",
+                  "desc": "A cube of aerogel on display.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "80%",
+                  "altText": "A stylized illustration of a semi-transparent human torso with the brain and spinal cord visible."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "An important property of molecules is their <button className='glossary-text'>solubility</button>, or the degree to which they dissociate in different solvents (water, alcohols, other organic solutions, etc.). Many chemicals have some measureable solubility in a solvent. The general classifications of solubility are insoluble, slightly soluble, or soluble. Insoluble compounds have a maximum concentration (or molarity) of less than <span style='whiteSpace: nowrap'>0.01 mol/L.</span> Slightly soluble compounds have a maximum concentration between 0.01 and <span style='whiteSpace: nowrap'>0.1 mol/L,</span> whereas soluble compounds have a maximum concentration greater than <span style='whiteSpace: nowrap'>0.1 mol/L.</span> solubility is determined using an equilibrium equation between the solid molecule and its dissolved ions. An example using silver sulfide (Ag<sub class ='bodysubscript'>2</sub>S) is given below, where the “s” indicates a solid and the “aq” indicates aqueous ions."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyFontItalic'>Ag</span><sub class ='bodysubscript'>2</sub><span class='bodyFontItalic'>S </span>(s) ⟷ 2<span class='bodyFontItalic'>Ag</span><sup class ='bodysubscript'> +</sup> (aq) + <span class='bodyFontItalic'>S</span><sup class ='bodysubscript'> 2- </sup>(aq)"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Solubility is determined by the application of an equilibrium equation. Typically, an equilibrium equation is used to determine the equilibrium constant (K<sub class ='bodysubscript'>eq</sub>): "
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span class='bodyFontItalic'>K<sub class ='bodysubscript'>eq</sub></span> = <span className=bodyFraction><span>[<span class='bodyFontItalic'>A</span>]<sup class ='bodysuperscript'><span class='bodyFontItalic'>w </span></sup>[<span class='bodyFontItalic'>B</span> ]<sup class ='bodysuperscript'><span class='bodyFontItalic'>x</span></sup> </span><span className=symbol>/</span><span className=bottom>[<span class='bodyFontItalic'>C</span>]<sup class ='bodysuperscript'><span class='bodyFontItalic'>y </span></sup>[<span class='bodyFontItalic'>D</span> ]<sup class ='bodysuperscript'><span class='bodyFontItalic'>z</span></sup> </span></span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The bracketed letters indicate the concentration of each ion in a reaction, and the exponent is the stoichiometric coefficient of that ion. The products are on the top, and the reactants are on the bottom:"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span class='bodyFontItalic'>K<sub class ='bodysubscript'>eq</sub></span> = <span className=bodyFraction><span>[<span class='bodyFontItalic'>Ag</span><sup class ='bodysuperscript'> +</sup>]<sup class ='bodysuperscript'>2</sup> [<span class='bodyFontItalic'>S</span><sup class ='bodysuperscript'> 2-</sup> ]<sup class ='bodysuperscript'>1</sup> </span><span className=symbol>/</span><span className=bottom>[<span class='bodyFontItalic'>Ag</span><sub class ='bodysubscript'>2</sub><span class='bodyFontItalic'>S</span> ]<sup class ='bodysuperscript'>1</sup> </span></span>"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "However, only aqueous (dissolved) components are included in the equilibrium equation. Because <button className='glossary-text'>solubility</button> is the equilibrium between a solid and its aqueous ions, the overall equilibrium equation can be simplified: "
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyFontItalic'>K<sub class ='bodysubscript'>sp</sub></span> = <span className=bodyFraction><span>[<span class='bodyFontItalic'>A</span>]<sup class ='bodysuperscript'><span class='bodyFontItalic'>w </span></sup>[<span class='bodyFontItalic'>B</span> ]<sup class ='bodysuperscript'><span class='bodyFontItalic'>x</span></sup> </span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyFontItalic'>K<sub class ='bodysubscript'>sp</sub></span> = <span className=bodyFraction><span>[<span class='bodyFontItalic'>Ag</span><sup class ='bodysuperscript'>+</sup>]<sup class ='bodysuperscript'>2</sup> [<span class='bodyFontItalic'>S</span><sup class ='bodysuperscript'> 2-</sup>]<sup class ='bodysuperscript'>1</sup> </span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "K<sub class ='bodysubscript'>sp</sub> is known as the <button className='glossary-text'>solubility product</button>, which is the product of the concentrations of the ions from a parent molecule."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 1",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which statement best describes solubility? ",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The degree to which molecules dissociate in different solvents.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The product of the concentrations of the ions from a parent molecule.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "The experimental estimate of the equivalence point.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The number of moles of a molecule that will dissolve in 1 L of solution.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "The point at which the moles of acid are exactly equivalent to the moles of base in solution.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Solubility describes the degree to which molecules dissociate in different solvents."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 1",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following describes an ion designated “(aq)” in a chemical reaction?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "It is a dissolved component of the reaction.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "It is an undissolved component of the reaction.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "It is insoluble in water only.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "It is soluble in the gas phase only.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "It is insoluble in the gas phase only.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "An ion designated “(aq)” in a chemical reaction is an aqueous ion, meaning it is a dissolved component of the reaction."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Describing something as soluble in chemistry is describing whether something will dissolve in a particular substance. In place of dissolve, chemistry often uses the term dissociates. Solubility, then, is the degree to which molecules dissociate in different solvents (water, alcohols, other organic solutions, etc.). Many chemicals have some measurable solubility in a solvent. The general classifications of solubility are insoluble, slightly soluble, or soluble. Solubilityis determined by the application of an equilibrium equation. However, only aqueous (dissolved) components are included in the equilibrium equation. Because solubility is the equilibrium between a solid and its aqueous ions, the overall equilibrium equation can be simplified, as shown here. K<sub class ='bodysubscript'>sp</sub> is known as the solubility product, which is the product of the concentrations of the ions from a parent molecule.<br/><br/> K<sub class ='bodysubscript'>eq</sub> = <span className=bodyFraction><span>[A]<sup class ='bodysuperscript'>w</sup>[B]<sup class ='bodysuperscript'>x</sup> </span><span className=symbol>/</span><span className=bottom>[C]<sup class ='bodysuperscript'>y</sup>[D]<sup class ='bodysuperscript'>z</sup> </span></span> <br/><br/> K<sub class ='bodysubscript'>sp</sub> = <span className=bodyFraction><span>[A]<sup class ='bodysuperscript'>w</sup>[B]<sup class ='bodysuperscript'>x</sup> </span>"
+                },
+                {
+                  "title": "Hint",
+                  "body": "Describing something as soluble in chemistry is describing whether something will dissolve in a particular substance. In place of dissolve, chemistry often uses the term dissociates. Solubility, then, is the degree to which molecules dissociate in different solvents (water, alcohols, other organic solutions, etc.). Many chemicals have some measurable solubility in a solvent. The general classifications of solubility are insoluble, slightly soluble, or soluble. Solubility is determined by the application of an equilibrium equation. However, only aqueous (dissolved) components are included in the equilibrium equation. Because solubility is the equilibrium between a solid and its aqueous ions, the overall equilibrium equation can be simplified, as shown here. K<sub class ='bodysubscript'>sp</sub> is known as the solubility product, which is the product of the concentrations of the ions from a parent molecule.<br/><br/> K<sub class ='bodysubscript'>eq</sub> = <span className=bodyFraction><span>[A]<sup class ='bodysuperscript'>w</sup>[B]<sup class ='bodysuperscript'>x</sup> </span><span className=symbol>/</span><span className=bottom>[C]<sup class ='bodysuperscript'>y</sup>[D]<sup class ='bodysuperscript'>z</sup> </span></span> <br/><br/> K<sub class ='bodysubscript'>sp</sub> = <span className=bodyFraction><span>[A]<sup class ='bodysuperscript'>w</sup>[B]<sup class ='bodysuperscript'>x</sup> </span>"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "At <button className='glossary-text'>standard pressure</button> and temperature (1 atm and 20° C, respectively), Ag<sub class ='bodysubscript'>2</sub>S has a K<sub class ='bodysubscript'>sp</sub> of 6.0 × 10<sup class ='bodysuperscript'>-51</sup>. However, the <button className='glossary-text'>solubility</button> of many solids increases as the temperature of the system increases; thus, K<sub class = 'bodysubscript'>sp</sub> is a fixed value at a given temperature. The K<sub class = 'bodysubscript'>sp</sub> of Ag<sub class ='bodysubscript'>2</sub>S increases with temperature, which leads to increased solubilityof the salt. The <button className='glossary-text'>solubility product</button> can be used to determine the maximum concentration of ions in a solution. Using this information, we can determine the equilibrium concentration of Ag<sub class = 'bodysubscript'>2</sub>S in a saturated solution: "
+                },
+                {
+                  "type": "Plain",
+                  "text": "6.0 × 10<sup class ='bodysuperscript'>-51</sup> = [<span class='bodyFontItalic'>Ag</span><sup class ='bodysuperscript'>+</sup>]<sup class ='bodysuperscript'>2</sup> [<span class='bodyFontItalic'>S</span><sup class ='bodysuperscript'> 2-</sup></sup> ]<sup class ='bodysuperscript'>1</sup>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "In this example, the silver and sulfide ions have different stoichiometric ratios. The sulfide ion has the lower coefficient (1 for sulfide versus 2 for silver), so it is assigned the variable “x.” Because there are twice as many silver ions, the silver concentration is represented by “2x.” "
+                },
+                {
+                  "type": "Plain",
+                  "text": "6.0 × 10<sup class ='bodysuperscript'>-51</sup> = [2x]<sup class ='bodysuperscript'>2</sup> [x]"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Note that when solving for concentration (x), in addition to the concentration of silver being double that of sulfide, it is also raised to the second power."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Therefore, solving for x:"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "6.0 × 10<sup class ='bodysuperscript'>-51</sup> = 4x<sup class ='bodysuperscript'>3</sup> <br/> 1.5 × 10<sup class ='bodysuperscript'>-51</sup> = x<sup class ='bodysuperscript'>3</sup> <br/> 1.4 × 10<sup class ='bodysuperscript'>-17</sup> = x"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The calculations indicate that in a saturated solution of silver sulfide, there are 1.4 × 10<sup class ='bodysuperscript'>-17</sup> mol/L of sulfide ions. Thus, because there are twice as many silver ions (2x), the concentration of silver ions at equilibrium in this solution is 2.8 × 10<sup class ='bodysuperscript'>-17</sup> mol/L."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The <button className='glossary-text'>molar solubility</button> refers to the number of moles of a molecule that will dissolve in <span style='whiteSpace: nowrap'>1 L</span> of solution. In the above example, the molar solubility of silver sulfide is 1.4 x 10<sup class ='bodysuperscript'>-17</sup> mol/L. Molar solubility is determined by dividing the concentration of an ion by its stoichiometric coefficient in the parent molecule."
+                }
+              ]
+            },
+
+            {
+              "title": "Knowledge Check Question 2",
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 2",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following statements is true regarding the solubility of many solids?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The solubility increases as the temperature of the system increases.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The solubility increases as the temperature of the system decreases.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "The solubility is constant as the temperature of the system decreases.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The solubility decreases as the temperature of the system increases.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "The solubility is not related to temperature.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The solubility of many solids increases as the temperature of the system increases."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 2",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "A solid compound has a solubility product of 5.3 x 10<sup class ='bodysuperscript'>-49</sup> at 25° C. Which of the following best describes the solubility product of the compound at 100° C?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The solubility product increased.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The solubility product is constant regardless of temperature.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "The solubility product decreased.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The solubility product is constant because the compound is still a solid.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "The solubility product is always zero at 100° C.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The solubility product (K<sub class ='bodysubscript'>sp</sub>) of a solid is a fixed value at a given temperature, therefore the solubility of a compound will vary depending on the temperature at which the compound is dissolved. The solubility of many solids increases as the temperature of the system increases."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Imagine putting table salt into cold water and then putting table salt into boiling water. In which scenario does the salt dissolve fastest? The solubility of many solids, such as table salt, increases as the temperature of the system increases; thus, K<sub class ='bodysubrscript'>sp</sub> is a fixed value at a given temperature."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Imagine putting table salt into cold water and then putting table salt into boiling water. In which scenario does the salt dissolve fastest? The solubility of many solids, such as table salt, increases as the temperature of the system increases; thus, K<sub class ='bodysubscript'>sp</sub> is a fixed value at a given temperature."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, you will determine <button className='glossary-text'>K<sub class ='bodysubscript'>sp</sub></button> of calcium hydroxide by titrating a sample of saturated calcium hydroxide [Ca(OH)<sub class ='bodysubscript'>2</sub>] with hydrochloric acid. You will also determine the concentration of each ion in calcium hydroxide and the overall <button className='glossary-text'>molar solubility</button>. "
+                },
+                {
+                  "type": "Plain",
+                  "text": "A <button className='glossary-text'>titration</button> is the precise addition of a titrant, which is a solution of known concentration and composition, to an analyte, which is a solution of unknown concentration or composition. In this acid-base titration, the titrant calcium hydroxide (a base) is delivered using a syringe in order to measure the volume of base added within an error range of <span style='whiteSpace: nowrap'>(±0.1 mL).</span>"
+                },
+
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The <button className='glossary-text'>equivalence point</button> of a titration is the point at which the moles of acid are exactly equivalent to the moles of base in solution. The equivalence point is achieved when sufficient titrant has been added to react with all of the analyte in a given solution. The <button className='glossary-text'>endpoint</button> is the experimental estimate of the equivalence point. In this investigation, the endpoint is identified by a color change in the indicator solution methyl orange. The molarity and volume of the titrant are known, as well as the volume of the analyte. To determine the concentration of the analyte, you must first determine the number of moles of titrant that are needed to reach the endpoint. Next, you will use the balanced chemical equation to calculate the moles of analyte present. Finally, you will use the volume of the analyte to determine the concentration of the analyte."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, the equilibrium will be artificially shifted back toward the solid calcium hydroxide by the addition of calcium chloride. Calcium chloride is exceptionally soluble and will easily dissolve in water. This portion of the investigation demonstrates the common ion effect and its impact on the equilibrium of solutions."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyFontItalic'>Ca</span>(<span class='bodyFontItalic'>OH </span>)<sub class ='bodysubscript'>2</sub>(s) ⟷ <span class='bodyFontItalic'>Ca</span><sup class ='bodysuperscript'> 2+ </sup>(aq) + <span class='bodyFontItalic'>2OH </span> <sup class ='bodysuperscript'> - </sup>(aq)"
+                },
+                {
+                  "type": "Plain",
+                  "text": "By adding more calcium ions in Activity 2, the equilibrium shifts back toward calcium hydroxide, meaning that there should be less hydroxide ion available to react. <button className='glossary-text'>Molar solubility</button> will then be calculated for the sample under these non-standard conditions."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 3",
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 2,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 3",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following aspects about a titrant must be known to perform a titration?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "concentration, volume and composition",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "concentration only",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "volume only",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "K<sub class = 'bodysubscript'>sp</sub> and temperature",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "volume, composition and temperature",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "In a titration, the molarity, volume and composition of the titrant are known."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 3",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which statement best describes the equivalence point of a titration?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The point at which the moles of acid are equal to the moles of base in solution.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The point at which the moles of acid are less than the moles of base in solution.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "The point at which the moles of acid are greater than the moles of base in solution. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The point at which the moles of base are equal to the moles of water in solution. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "The point at which the moles of acid are equal to the moles of water in solution. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The equivalence point of a titration is the point at which the moles of acid are exactly equivalent to the moles of base in solution. The equivalence point is achieved when sufficient titrant has been added to react with all the analyte in a solution. "
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "In a titration, the molarity, volume and composition of the titrant are known, as well as the volume of analyte; however, either the concentration or composition of the analyte solution is unknown. The interaction between the titrant and analyte during the titration will yield more information about the analyte. To determine the concentration of the analyte, as you will do in this investigation, you must first determine the number of moles of titrant needed to reach the endpoint. The endpoint is the experimental estimate of the point at which the moles of acid are exactly equivalent to the moles of base in solution. Next, you will use the balanced chemical equation to calculate the moles of analyte present. Finally, you will use the volume of the analyte to determine the concentration of the analyte."
+                },
+                {
+                  "title": "Hint",
+                  "body": "In a titration, the molarity, volume and composition of the titrant are known, as well as the volume of analyte; however, either the concentration or composition of the analyte solution is unknown. The interaction between the titrant and analyte during the titration will yield more information about the analyte. To determine the concentration of the analyte, as you will do in this investigation, you must first determine the number of moles of titrant needed to reach the endpoint. The endpoint is the experimental estimate of the point at which the moles of acid are exactly equivalent to the moles of base in solution. Next, you will use the balanced chemical equation to calculate the moles of analyte present. Finally, you will use the volume of the analyte to determine the concentration of the analyte."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "desc": "This map describes the workflow for Activity 1 of this investigation. Start Activity 1 by measuring the limewater analyte into a flask and adding the methyl orange indicator to the analyte. Then, titrate the analyte with hydrochloric acid until the endpoint is reached. Next, calculate the total volume of hydrochloric acid used. Repeat the titration for a total of three trials. Then, calculate the moles of hydrogen ions delivered in each trial and the moles of hydroxide ions in each sample. Also calculate the moles of calcium ions in each sample. Next, calculate the molar solubility of limewater in each trial and the Ksp for each trial. Finally, calculate the average Ksp.",
+                  "altText": "This map describes the workflow for Activity 1 of this investigation. Start Activity 1 by measuring the limewater analyte into a flask and adding the methyl orange indicator to the analyte. Then, titrate the analyte with hydrochloric acid until the endpoint is reached. Next, calculate the total volume of hydrochloric acid used. Repeat the titration for a total of three trials. Then, calculate the moles of hydrogen ions delivered in each trial and the moles of hydroxide ions in each sample. Also calculate the moles of calcium ions in each sample. Next, calculate the molar solubility of limewater in each trial and the Ksp for each trial. Finally, calculate the average Ksp.",
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "containerType": "fullContainer",
+                  "image": "courses/580368/580368_ED_01.svg",
+                  "imgDivWidth": "70%",
+                  "imgDivWidthForTablet": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "80%"
+                  },
+                  "width": "100%",
+                  "scrollImg": true,
+                  "maxWidth": "1100px"
+                }
+              ]
+            },
+            {
+              "title": "Experimental Design (cont... )",
+              "pageTitle": "Experimental Design (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "desc": "This map depicts the workflow for Activity 2. Start Activity 2 by combining limewater and calcium chloride. Next, measure the mixture analyte into the flask and add methyl orange indicator to the analyte. Then, titrate the analyte with hydrochloric acid until the endpoint is reached. Next, calculate the total volume of hydrochloric acid used. Repeat the titrations for a total of three trials. Then, calculate the moles of hydrogen ions delivered in each trial and the moles of hydroxide ions in each sample. Also calculate the moles of calcium ions in each sample. Finally, calculate the molar solubility of limewater in each trial.",
+                  "altText": "This map depicts the workflow for Activity 2. Start Activity 2 by combining limewater and calcium chloride. Next, measure the mixture analyte into the flask and add methyl orange indicator to the analyte. Then, titrate the analyte with hydrochloric acid until the endpoint is reached. Next, calculate the total volume of hydrochloric acid used. Repeat the titrations for a total of three trials. Then, calculate the moles of hydrogen ions delivered in each trial and the moles of hydroxide ions in each sample. Also calculate the moles of calcium ions in each sample. Finally, calculate the molar solubility of limewater in each trial.",
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "containerType": "fullContainer",
+                  "image": "courses/580368/580368_ED_02.svg",
+                  "imgDivWidth": "80%",
+                  "imgDivWidthForTablet": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "80%"
+                  },
+                  "width": "100%",
+                  "scrollImg": true,
+                  "maxWidth": "1350px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Syringe, 1 mL",
+                          "image": "courses/580368/580368_material_001.svg",
+                          "url": "courses/580368/580368_material_001.svg",
+                          "altText": "Syringe, 1 mL"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Limewater (calcium hydroxide)",
+                          "image": "courses/580368/580368_material_002.svg",
+                          "url": "courses/580368/580368_material_002.svg",
+                          "altText": "Limewater"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Calcium chloride",
+                          "image": "courses/580368/580368_material_003.svg",
+                          "url": "courses/580368/580368_material_003.svg",
+                          "altText": "Calcium chloride"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Hydrochloric acid, 0.10 M",
+                          "image": "courses/580368/580368_material_004.svg",
+                          "url": "courses/580368/580368_material_004.svg",
+                          "altText": "Hydrochloric acid, 0.10 M"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Methyl orange indicator",
+                          "image": "courses/580368/580368_material_005.svg",
+                          "url": "courses/580368/580368_material_005.svg",
+                          "altText": "Methyl orange indicator"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from the equipment kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Clear plastic graduated cylinder, 10 mL",
+                          "image": "courses/580368/580368_material_006.svg",
+                          "url": "courses/580368/580368_material_006.svg",
+                          "altText": "Clear plastic graduated cylinder, 10 mL"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Glass Erlenmeyer flask, 25 mL",
+                          "image": "courses/580368/580368_material_007.svg",
+                          "url": "courses/580368/580368_material_007.svg",
+                          "altText": "Glass Erlenmeyer flask, 25 mL"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Electronic balance",
+                          "image": "courses/580368/580368_material_008.svg",
+                          "url": "courses/580368/580368_material_008.svg",
+                          "altText": "Electronic balance"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Clear plastic disposable pipet",
+                          "image": "courses/580368/580368_material_009.svg",
+                          "url": "courses/580368/580368_material_009.svg",
+                          "altText": "Clear plastic disposable pipet"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [
+                            "Plain sheet of white paper",
+                            "Bottled water"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span> <span className=bodyParaLineBreak></span> <span className=bodyParaLineBreak></span> Replacement supplies for the Determining the K<sub class = 'bodysubscript'>sp</sub> of Calcium Hydroxide kit, item number 580368, can be ordered from Carolina Biological Supply Company <span className=bodyParaLineBreak></span> <span className=bodyMediumSubHeading> Call:</span> 866-332-4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Wear your safety goggles, chemical apron, and gloves at all times while conducting this investigation."
+                },
+                {
+                  "type": "Image",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "altText": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Read all the instructions for this laboratory activity before beginning. Follow the instructions closely, and observe established laboratory safety practices, including the use of appropriate personal protective equipment (PPE) as described in the Safety and Activity sections."
+                },
+                {
+                  "type": "PlainImage",
+                  "text": "<span className = bodyBoldSubText>Hydrochloric acid</span> and <span className = bodyBoldSubText>calcium hydroxide</span> are corrosive. In the event of contact with skin or eyes, the affected area should be immediately flushed with water for 15 minutes.",
+                  "image": "core/Corrosion.svg",
+                  "imgWidth": "12%",
+                  "imgWidthForTablet": "25%",
+                  "desc": "corrosion symbol",
+                  "altText": "corrosion symbol"
+                },
+                {
+                  "type": "PlainImage",
+                  "text": "<span className = bodyBoldSubText>Calcium chloride</span> can be harmful if swallowed and is a serious eye irritant.",
+                  "image": "core/Warning.svg",
+                  "imgWidth": "12%",
+                  "desc": "warning symbol",
+                  "altText": "warning symbol"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Do not eat, drink, or chew gum while performing this activity. Wash your hands with soap and water before and after performing the activity. Clean up the work area with soap and water after completing the investigation. Keep pets and children away from lab materials and equipment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "This investigation uses a glass Erlenmeyer flask. Which of the following best describes the safe disposal of broken glass?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Use a broom and dustpan to collect the pieces of glass, place the glass in a secondary container, then place the secondary container in the household garbage.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Pick up the pieces of glass with gloved hands, then place the glass in the household garbage.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Use a broom and dustpan to collect the pieces of glass, then place the glass in the household garbage.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Pick up the pieces of glass with gloved hands, place the glass in a secondary container, then place the secondary container in a special receptacle on your school’s campus.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Use a broom and dustpan to collect the pieces of glass, then place the glass in a recycling bin.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following safety hazards are associated with the hydrochloric acid and calcium hydroxide provided in your lab kit for this investigation?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Both chemicals are corrosive.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Both chemicals are flammable.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Both chemicals are carcinogens.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Both chemicals are potential choking hazards.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Both chemicals are extremely toxic to aquatic life.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Determine the K<sub class = 'bodysubscript'>sp</sub> of calcium fluoride (CaF<sub class = 'bodysubscript'>2</sub>), given a molar solubility of 4.58 x 10<sup class = 'bodysuperscript'>-5</sup> mol/L. ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "3.84 × 10<sup class = 'bodysuperscript'>-13</sup> mol/L",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "9.16 x 10<sup class = 'bodysuperscript'>-5</sup> mol/L",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "8.39 x 10<sup class = 'bodysuperscript'>-9</sup> mol/L",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "4.58 x 10<sup class = 'bodysuperscript'>-5</sup> mol/L",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "9.52 x 10<sup class = 'bodysuperscript'>-12</sup> mol/L",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "A common ion is introduced to a solution at equilibrium. Which of the following best describes the change in equilibrium and the change in molar solubility of the molecule in this solution?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "equilibrium shifts toward the reactants; molar solubility decreases",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "equilibrium shifts toward the products; molar solubility increases",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "equilibrium shifts toward the reactants; molar solubility increases",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "equilibrium shifts toward the products; molar solubility decreases",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "equilibrium remains constant; molar solubility decreases",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Potassium periodate (KIO<sub class = 'bodysubscript'>4</sub>) has a higher K<sub class = 'bodysubscript'>sp</sub> than zinc carbonate (ZnCO<sub class = 'bodysubscript'>3</sub>). Which of the following best describes the difference between these two compounds?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Potassium periodate is more soluble in water than zinc carbonate.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Zinc carbonate is more soluble in water than potassium periodate.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Potassium periodate is more soluble in lipids than zinc carbonate.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Potassium periodate and zinc carbonate are equally soluble in water.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Zinc carbonate is more soluble at higher temperatures than potassium periodate.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following describes the chemicals you will use to perform the acid-base titration in this investigation?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Hydrochloric acid is the analyte; calcium hydroxide is the titrant; methyl orange is the indicator.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Calcium hydroxide is the analyte; hydrochloric acid is the titrant; methyl orange is the indicator.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Methyl orange is the analyte; calcium chloride is the titrant; hydrochloric acid is the indicator.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Calcium chloride is the analyte; calcium hydroxide is the titrant; hydrochloric acid is the indicator.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Hydrochloric acid is the analyte; calcium chloride is the titrant; calcium hydroxide is the indicator.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Determine the molar solubility of potassium chromate (K<sub class = 'bodysubscript'>2</sub>CrO<sub class = 'bodysubscript'>4</sub>) given a K<sub class = 'bodysubscript'>sp</sub> of 142. ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "3.29 mol/L",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "35.5 mol/L",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "5.23 mol/L",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "47.33 mol/L",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "0.24 mol/L",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the endpoint of a titration?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The experimental estimate of the equivalence point.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The point at which there is more titrant than analyte in the solution.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The point at which there is more analyte than titrant in the solution.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The total volume of titrant used in the titration.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The y-intercept of the trendline created from a graph of titration data.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (3 steps)",
+              "pageTitle": "Preparation (3 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure",
+              "keyID": "page21",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Read procedure thoroughly."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Locate and clean work area."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Gather all needed materials."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Chemistry_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will conduct three trials of a <button className='glossary-text'>titration</button> of limewater (calcium hydroxide) using hydrochloric acid as the titrant and methyl orange as the indicator. You will then calculate the <button className='glossary-text'>molar solubility</button> of limewater and the average <button className='glossary-text'>K<sub class = 'bodysubscript'>sp</sub></button>."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Titration of Saturated Calcium Hydroxide with Hydrochloric Acid (19 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp; Titration of Saturated Calcium Hydroxide with Hydrochloric Acid (19 steps) ",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "activity1",
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "  Place the 25-mL flask on the balance. Record the mass in <span style='whiteSpace: nowrap'><span className = bodyBoldSubText>Data Table 1.</span></span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Measure 3-mL of limewater with the 10-mL  graduated cylinder."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Pour the limewater into the flask."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the exact mass of the flask + limewater in <span style='whiteSpace: nowrap'><span className = bodyBoldSubText>Data Table 1.</span></span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "imgWidth": "4.5%",
+                    "text": "Add 5 drops of methyl orange to 3 mL Ca(OH)<sub class = 'bodysubscript'>2</sub>. The color should be yellow.",
+                    "image": "core/Camera-icon.svg",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Fill the syringe with hydrochloric acid, drawing the plunger back with the tip of the syringe positioned in the HCl to fill the syringe. Try to minimize the amount of air in the syringe."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "The amount of air in the syringe must be minimized. If there are any air bubbles in the syringe, empty the syringe and refill until no air bubbles are visible."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the initial volume of HCl solution in the syringe to the nearest 0.01 mL in your <span style='whiteSpace: nowrap'><span className = bodyBoldSubText>Data Table 1</span></span> for <span style='whiteSpace: nowrap'>Sample 1.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the flask containing 3 mL Ca(OH)<sub class= 'bodysubscript'>2</sub> on the white sheet of paper. The white background will make the color change more noticeable."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "Read the volume of the syringe at the edge of the plunger."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Add HCl dropwise from the syringe with constant swirling of the flask, until a single drop of HCl causes a color change that persists 20 to 30 seconds after addition. This indicates that the <button className='glossary-text'>endpoint</button> has been reached. The solution should be faintly orange or orange-red in color."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "To gain more control of single drops from the syringe, move the plunger by holding it where it enters the syringe instead of pressing the end of the plunger."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "imgWidth": "4.5%",
+                    "text": "Once the endpoint has been reached, record the final volume of HCl left in the syringe in <span style='whiteSpace: nowrap'><span className = bodyBoldSubText>Data Table 1</span></span> for <span style='whiteSpace: nowrap'>Sample 1.</span>",
+                    "image": "core/Camera-icon.svg",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the total volume of HCl that was required to reach the endpoint by subtracting the end volume from the start volume and record the volume in <span style='whiteSpace: nowrap'><span className = bodyBoldSubText>Data Table 1.</span></span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Dispose of the titrated Ca(OH)<sub class = 'bodysubscript'>2</sub> sample in the sink."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Rinse the 25-mL flask with bottled water."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat steps 1–13 for samples 2 and 3, and record the values in <span style='whiteSpace: nowrap'><span className = bodyBoldSubText>Data Table 1.</span></span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the moles of H<sup class = 'bodysuperscript'>+</sup> delivered to each sample based on your experimental data and record these values in <span className = bodyBoldSubText>Data Table 1.</span> <br/> 0.1M HCl = 0.1 moles HCl / 1 Liter solution"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the moles of OH- in each sample and record these values in <span className = bodyBoldSubText>Data Table 1.</span> <br/> H<sup class = 'bodysuperscript'>+</sup> + OH<sup class = 'bodysuperscript'>-</sup> → H<sub class = 'bodysubscript'>2</sub>O"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the moles of  Ca<sup class = 'bodysuperscript'>2+</sup> in each sample and record these values in <span className = bodyBoldSubText>Data Table 1.</span> <br/> Ca(OH)<sub class = 'bodysubscript'>2</sub> → Ca<sup class = 'bodysuperscript'> 2+</sup> + 2OH<sup class = 'bodysuperscript'> -</sup>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the <button className='glossary-text'>molar solubility</button> of Ca(OH)<sub class = 'bodysubscript'>2</sub> for each sample and record these values in <span className = bodyBoldSubText>Data Table 1.</span> <br/> Molar solubility = moles / Liter"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the <button className='glossary-text'>K<sub class = 'bodysubscript'>sp</sub></button> for each trial and the average K<sub class = 'bodysubscript'>sp</sub> and record these values in <span style='whiteSpace: nowrap'><span className = bodyBoldSubText>Data Table 1.</span></span> <br/>  K<sub class = 'bodysubscript'>sp</sub> = [Ca<sup class = 'bodysuperscript'> 2+ </sup>] [OH<sup class = 'bodysuperscript'> - </sup>]<sup class = 'bodysuperscript'>2</sup>  "
+                  },
+                  {
+                    "type": "Box",
+                    "text": "<span className = bodyBoldSubText>CAUTION: Complete all trials and calculations for Activity 1 before continuing to <span style='whiteSpace: nowrap'>Activity 2.</span> If you wish to perform any additional trials of <span style='whiteSpace: nowrap'>Activity 1,</span> do so now; the stock limewater solution will be changed permanently at the start of <span style='whiteSpace: nowrap'>Activity 2.</span></span>"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Chemistry_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will conduct <button className='glossary-text'>titration</button> trials like <span style='whiteSpace: nowrap'>Activity 1</span> but with a mixture of limewater and calcium chloride as the analyte."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "Titration of Saturated Calcium Hydroxide + Calcium Chloride with Hydrochloric Acid (24 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp; Titration of Saturated Calcium Hydroxide + Calcium Chloride with Hydrochloric Acid (24 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "activity2",
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Carefully remove the tip of the limewater bottle."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the bottle on the electronic balance and tare the balance."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Add ~0.02–0.04g of calcium chloride to the bottle."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Reinsert the dropper tip and recap the bottle."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Shake thoroughly."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Allow the bottle to sit from approximately 10 minutes."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the 25-mL flask on the balance. Record the mass in <span style='whiteSpace: nowrap'><span className = bodyBoldSubText>Data Table 2.</span></span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Measure 3 mL of calcium hydroxide + calcium chloride with the 10-mL graduated cylinder."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Pour the calcium hydroxide + calcium chloride into the flask."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the exact mass of the flask + calcium hydroxide + calcium chloride in <span style='whiteSpace: nowrap'><span className = bodyBoldSubText>Data Table 2.</span></span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Add 5 drops of methyl orange to <span style='whiteSpace: nowrap'>3 mL</span> Ca(OH)<sub class ='bodysubscript'>2</sub>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Fill the syringe with hydrochloric acid. Try to minimize the amount of air in the syringe."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record the initial volume of HCl solution in the syringe to the nearest 0.01 mL in your <span style='whiteSpace: nowrap'><span className = bodyBoldSubText>Data Table 2</span></span> for <span style='whiteSpace: nowrap'>Sample 1.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the flask containing the 3 mL Ca(OH)<sub class ='bodysubscript'>2</sub> + CaCl<sub class ='bodysubscript'>2</sub> on the white sheet of paper. The white background will make the color change more noticeable."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Add HCl dropwise from the syringe with constant swirling of the flask, until a single drop of HCl causes a color change that persists for 20 to 30 seconds after addition. This indicates that the <button className='glossary-text'>endpoint</button> has been reached."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Once the endpoint has been reached, record the final volume of HCl in the syringe in <span style='whiteSpace: nowrap'><span className = bodyBoldSubText>Data Table 2</span></span> for <span style='whiteSpace: nowrap'>Sample 1.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the total volume of HCl that was required to reach the endpoint and record the data in <span style='whiteSpace: nowrap'><span className = bodyBoldSubText>Data Table 2.</span></span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": " Dispose of the titrated Ca(OH)<sub class ='bodysubscript'>2</sub> + CaCl<sub class ='bodysubscript'>2</sub> sample in the sink."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": " Rinse the 25-mL flask."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat steps 7–19 for samples 2 and 3 on <span style='whiteSpace: nowrap'><span className = bodyBoldSubText>Data Table 2.</span></span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the moles of H<sup class ='bodysuperscript'>+</sup> delivered to each sample based on your experimental data and record these values in <span style='whiteSpace: nowrap'><span className = bodyBoldSubText>Data Table 2.</span></span> <br/> 0.1M HCl = 0.1 moles HCl / 1 Liter solution "
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the moles of OH- in each sample and record these values in <span style='whiteSpace: nowrap'><span className = bodyBoldSubText>Data Table 2.</span></span> <br/> H<sup class ='bodysuperscript'>+</sup> + OH- → H<sub class ='bodysubscript'>2</sub>O "
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the moles of Ca<sup class ='bodysuperscript'>2+</sup> in each sample and record these values in <span style='whiteSpace: nowrap'><span className = bodyBoldSubText>Data Table 2.</span></span> <br/> Ca(OH)<sub class ='bodysubscript'>2</sub> → Ca<sup class ='bodysuperscript'>2+</sup> + 2OH<sup class ='bodysuperscript'>-</sup> "
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the <button className='glossary-text'>molar solubility</button> of Ca(OH)<sub class ='bodysubscript'>2</sub> for each sample and record these values in <span style='whiteSpace: nowrap'><span className = bodyBoldSubText>Data Table 1.</span></span> <br/> Molar solubility = moles / Liter "
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup ",
+              "pageTitle": "Disposal and Cleanup ",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                  "orderedType": "1",
+                  "start": "1",
+                  "text": [
+                    "Dispose of titrated samples in the sink.",
+                    "Clean and dry the flask and return it to the equipment kit.",
+                    "The used chemical bottles can be rinsed and disposed in the trash."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Chemistry_Completion.svg",
+                  "imgDivMargin": "auto",
+                  "imgDivWidth": "55%",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2022 Carolina Biological Supply Company",
+      "altText": "Carolina Distance Learning Logo",
+      "pageSetting": "Landscape"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable1",
+            "tag": "div",
+            "width": "85%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1: Titration of Calcium Hydroxide with Hydrochloric Acids"
+              },
+              {
+                "type": "DataTable",
+
+                "tableHeight": "1.5",
+                "sr": 0,
+                "maxLength": 20,
+                "header": [
+                  { "text": "", "colWidth": "40%" },
+                  { "text": "Sample 1", "colWidth": "20%" },
+                  { "text": "Sample 2", "colWidth": "20%" },
+                  { "text": "Sample 3", "colWidth": "20%" }
+                ],
+
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Mass of Erlenmeyer Flask",
+                      "rowHeight": "60px",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Mass of Erlenmeyer Flask + Calcium Hydroxide Solution (limewater)",
+                      "rowHeight": "60px",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Mass of Calcium Hydroxide Solution",
+                      "rowHeight": "60px",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Volume of Ca(OH)<sub class = 'bodysubscript'>2</sub> Density = 1.000 g/mL",
+                      "rowHeight": "60px",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Concentration of HCl (M)",
+                      "rowHeight": "60px",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Initial HCl Volume in Syringe ",
+                      "rowHeight": "60px",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Final HCl Volume in Syringe",
+                      "rowHeight": "60px",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Volume of HCl Delivered",
+                      "rowHeight": "60px",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Moles of HCl Delivered",
+                      "rowHeight": "60px",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Moles of OH<sup class = 'bodysuperscript'>-</sup> in Sample",
+                      "rowHeight": "60px",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Moles of Ca<sup class = 'bodysuperscript'>2+</sup> in Sample",
+                      "rowHeight": "60px",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Molar Solubility (M)",
+                      "rowHeight": "60px",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Calculated K<sub class = 'bodysubscript'>sp</sub>",
+                      "rowHeight": "60px",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Average Calculated K<sub class = 'bodysubscript'>sp</sub>",
+                      "rowHeight": "60px",
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Photos",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "photo1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Step 5 Photo",
+                "text": "Insert the photo of the Erlenmeyer flask with limewater and methyl orange indicator at the start of the titration of sample 1."
+              },
+
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "photo1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Step 10 Photo",
+                "text": "Insert the photo of the Erlenmeyer flask with limewater and methyl orange indicator at the endpoint of the titration of sample 1."
+              },
+
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable2",
+            "tag": "div",
+            "width": "85%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 2: Titration of Saturated Calcium Hydroxide + Calcium Chloride"
+              },
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "sr": 0,
+                "maxLength": 20,
+
+                "header": [
+                  { "text": "", "colWidth": "40%" },
+                  { "text": "Sample 1", "colWidth": "20%" },
+                  { "text": "Sample 2", "colWidth": "20%" },
+                  { "text": "Sample 3", "colWidth": "20%" }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Mass of Erlenmeyer Flask",
+
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Mass of Erlenmeyer Flask + Calcium Hydroxide Solution ",
+
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Mass of Calcium Hydroxide Solution",
+
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Volume of Ca(OH)<sub class = 'bodysubscript'>2</sub> Density = 1.000 g/mL",
+
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Concentration of HCl (M)",
+
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Initial HCl Volume in Syringe ",
+
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Final HCl Volume in Syringe",
+
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Volume of HCl Delivered",
+
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Moles of HCl Delivered",
+
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Moles of OH<sup class = 'bodysuperscript'>-</sup> in Sample",
+
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Moles of Ca<sup class = 'bodysuperscript'>2+</sup> in Sample",
+
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "Molar Solubility (M)",
+
+                      "align": "left"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "waterMark": true,
+        "title": "Questions",
+        "textAreaId": "question_1",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "question_1",
+            "sr": 0,
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "How was the molar solubility of calcium hydroxide impacted by the addition of calcium chloride?  Why?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "question_1",
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+
+    "pageData": [
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580368/Periodic_Table.svg",
+        "content": "Periodic Table of the Elements",
+        "maxWidth": "2200px",
+        "scrollImg": true,
+        "altText": "Periodic Table of the Elements"
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6316664122112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580368/580368_ED_01.svg",
+        "content": "Experimental Design Diagram",
+        "scrollImg": true,
+        "maxWidth": "1100px",
+        "altText": "This map describes the workflow for Activity 1 of this investigation. Start Activity 1 by measuring the limewater analyte into a flask and adding the methyl orange indicator to the analyte. Then, titrate the analyte with hydrochloric acid until the endpoint is reached. Next, calculate the total volume of hydrochloric acid used. Repeat the titration for a total of three trials. Then, calculate the moles of hydrogen ions delivered in each trial and the moles of hydroxide ions in each sample. Also calculate the moles of calcium ions in each sample. Next, calculate the molar solubility of limewater in each trial and the Ksp for each trial. Finally, calculate the average Ksp."
+      },
+
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580368/580368_ED_02.svg",
+        "content": "Experimental Design Diagram (cont... )",
+        "scrollImg": true,
+        "maxWidth": "1350px",
+        "altText": "This map depicts the workflow for Activity 2. Start Activity 2 by combining limewater and calcium chloride. Next, measure the mixture analyte into the flask and add methyl orange indicator to the analyte. Then, titrate the analyte with hydrochloric acid until the endpoint is reached. Next, calculate the total volume of hydrochloric acid used. Repeat the titrations for a total of three trials. Then, calculate the moles of hydrogen ions delivered in each trial and the moles of hydroxide ions in each sample. Also calculate the moles of calcium ions in each sample. Finally, calculate the molar solubility of limewater in each trial."
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Endpoint",
+        "content": "The experimental estimate of the Equivalence point"
+      },
+      {
+        "title": "Equivalence point",
+        "content": "The point at which the moles of acid are exactly equivalent to the moles of base in solution"
+      },
+      {
+        "title": "Molar Solubility",
+        "content": "The number of moles of a molecule that will dissolve in 1 L of solution"
+      },
+      {
+        "title": "Solubility",
+        "content": "The degree to which molecules dissociate in different solvents (water, alcohols, other organic solutions, etc.)"
+      },
+      {
+        "title": "Solubility product (K<sub class = 'bodysubscript'>sp</sub>)",
+        "content": "The product of the concentrations of the ions from a parent molecule"
+      },
+      {
+        "title": "Standard pressure",
+        "content": "1 atm"
+      },
+      {
+        "title": "Standard temperature",
+        "content": "20° C"
+      },
+      {
+        "title": "Titration",
+        "content": "The precise addition of a titrant, which is a solution of known concentration and composition, to an analyte, which is a solution of unknown concentration or composition"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

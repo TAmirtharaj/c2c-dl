@@ -1,0 +1,1689 @@
+{
+  "locked": true,
+  "courseTitle": "Gravity in the Solar System Virtual Lab",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Physics_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/bodyBookmark.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/TakeSnapshot.svg",
+    "core/disposalAndCleanupIcon.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Physics_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Physics",
+                "titleName2": "Gravity in the Solar System Virtual Lab",
+                "images": {
+                  "logo": "core/Physics_Subject_Icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "waterMark": true,
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, you will learn about the role of gravity in the formation of the solar system, the movement of celestial bodies, and the <button class='glossary-text'>tides</button> on Earth. You will use a simulation to explore the relationship between a planet’s <button class='glossary-text'>mass</button> and a <button class='glossary-text'>satellite’s</button> velocity in achieving <span style='whiteSpace: nowrap'><button class='glossary-text'>orbit</button>.</span>"
+                },
+                {
+                  "type": "Plain",
+                  "title": "Needed but not supplied:",
+                  "text": "There are no materials required for this investigation."
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Physics/580901VIRT/580901VIRT_Physics_Time-Requirement.svg",
+                  "altText": "Activity 1: Tides on Earth – 30 minutes \nActivity 2: Surface Gravity of the Planets – 30 minutes \nActivity 3: Planet Mass versus Satellite Velocity – 30 minutes",
+                  "containerType": "rightContainer",
+                  "scrollImg": true,
+                  "imgDivWidth": "460px",
+                  "maxWidth": "580px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Define gravity and describe its role in the organization of the solar system.",
+                    "Define <button class='glossary-text'>orbit</button> and <button class='glossary-text'>escape velocity</button> and apply these definitions to achieve the simulated orbit of a <button class='glossary-text'>satellite</button> around a planet.",
+                    "Describe the role of gravity in <button class='glossary-text'>tide</button> formation on Earth.",
+                    "Describe the factors affecting the surface gravity of a planet."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "image": "core/Key_PPE.svg",
+                  "imgDivWidth": "430px",
+                  "maxWidth": "500px"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "desc": "video link symbol, camera symbol, stopwatch symbol",
+                  "image": "core/Key_protocol.svg",
+                  "imgDivWidth": "430px",
+                  "maxWidth": "500px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "desc": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "imgDivWidth": "430px",
+                  "maxWidth": "500px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In 2020, NASA announced the winners of the Student Payload Opportunity with Citizen Science (SPOCS). SPOCS is a program in which students enrolled in higher learning institutions design and build an experiment that was flown to fly to the International Space Station. NASA funded the flight and return of five payloads as part of their promotion of STEM engagement. The focus of SPOCS for these flights was on bacterial resistance or sustainability research in the microgravity laboratory."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The selected student teams and experiments were:"
+                },
+                {
+                  "type": "List",
+                  "text": [
+                    "Arkansas State University: Microgravity Environment Impact on Plastic Biodegradation by Galleria mellonella.",
+                    "Columbia University: Characterizing Antibiotic Resistance in Microgravity Environments (CARMEn).",
+                    "Stanford University: Biopolymer Research for In-Situ Capabilities (BRIC).",
+                    "The University of Idaho: Bacteria Resistant Polymers in Microgravity.",
+                    "The University of New Hampshire at Manchester: Novel Methods of Antibiotic Discovery in Space (NoMADS)."
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "text": "In 2021, the payloads were launched to the international space station. The experimental data is now being analyzed and published. The student researchers hope that not only will the data they gather help inform on how to make living in space more sustainable but will also provide insight that can help researchers on Earth<sup>1</sup>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'><sup class='bodysubscript'>1</sup>Smith, S. (2021). Five University Teams Prepare to Liftoff with NASA’s Student Payload Opportunity With Citizen Science. <i>NASA.</i> <br><span target='blank' style=' word-break: break-all'>https://www.nasa.gov/stem/feature/five-university-teams-prepare-to-liftoff-with-spocs</span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='citation' style='line-height: 1.1em;'>Space Station. (2022). NASA. https://blogs.nasa.gov/spacestation/tag/human-research-program/</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580901VIRT/580901VIRT_Physics_whyShouldICare.svg",
+                  "altText": "The International Space Station in orbit above Earth.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Gravity is one of the four fundamental forces in nature alongside the electromagnetic, strong, and weak forces. It is the force that keeps Earth orbiting around the Sun, pulls you and other objects to the ground, and causes objects to have <span style='whiteSpace: nowrap'><button class='glossary-text'>weight</button>.</span> It is the force pulling together all matter, or anything that has <button class='glossary-text'>mass</button> and volume. <span class='bodyFontBold'>Mass</span> refers to the amount of matter an object has: the more matter it has the greater its mass."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>Mass is often confused with <span class='bodyFontBold'>weight</span>. The difference between these two attributes is the force of gravity. For example, an apple on Earth weighs less than you and has less mass; but in space, away from Earth’s gravity, both you and the apple weigh nothing while maintaining your original masses. The relationship between mass, weight and gravity is shown in the formula for weight.</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580901VIRT/580901VIRT_Physics_Equation_01.svg",
+                  "imgDivWidth": "100px",
+                  "maxWidth": "130px",
+                  "scrollImg": true,
+                  "altText": "Equation 1: W = m x g "
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-top:5px;display:block;'><i><b>W</b></i> equals weight, <i>m</i> equals mass and <i><b>g</b></i> equals the acceleration of gravity. On Earth, gravity is a constant <span style='whiteSpace: nowrap'>9.8 meters</span> per second <span style='whiteSpace: nowrap'>squared (m/s<sup>2</sup>).</span></span>"
+                },
+             
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580901VIRT/580901VIRT_Physics_fig_001.svg",
+                  "imgDivWidth": "310px",
+                  "maxWidth": "360px",
+                  "scrollImg": true,
+                  "altText": "Figure 1: Two astronauts and multiple whole fruits floating in zero gravity within a satellite."
+                }
+         
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Ancient philosophers and early scientists believed that objects that weigh more accelerate toward the ground at a faster rate. To test this idea, <span style='whiteSpace: nowrap'>16th century</span> Italian scientist Galileo Galilei dropped objects of differing <button class='glossary-text'>weights</button> off the Leaning Tower of <span style='whiteSpace: nowrap'>Pisa – or</span> so the story goes. Regardless of the legend, Galileo, and scientists after him, demonstrated that gravity pulls on all objects with the same force. Factors such as air resistance are responsible for differences in the acceleration of objects as they fall."
+                },
+               
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>A scientist known for his work with gravity is Sir Isaac Newton. In the 17th century he developed the <button class='glossary-text'>theory of universal gravitation</button> which states that gravity acts on all matter and is a function of <button class='glossary-text'>mass</button> and distance. Every object attracts every other object with a force proportional to the product of their masses and inversely proportional to the square of the distance between them. </span>"
+                },
+             
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580901VIRT/580901VIRT_Physics_Equation_02.svg",
+                  "imgDivWidth": "110px",
+                  "maxWidth": "145px",
+                  "scrollImg": true,
+                  "altText": "Equation 2: F = G(m1 x m2) / D2"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "In other words, the greater the mass of an object the greater the gravity it exerts on the objects around it; the farther away two objects are from one another the less gravity they exert on each other. For example, the Sun - which contains more than 99% of the total mass of the solar <span style='whiteSpace: nowrap'>system - exerts</span> a gravitational force strong enough to keep the eight planets in <button class='glossary-text'>orbit</button>, but celestial bodies beyond our solar system are too far away to be influenced by the Sun’s gravity."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "More recently, scientists have theorized that the reason mass is proportional to gravity is because objects with mass emit tiny particles called <span style='whiteSpace: nowrap'><button class='glossary-text'>gravitons</button>.</span> These gravitons are responsible for gravitational attraction, hence more mass means more gravitons. These particles exist as a cloud around an object so as distance from an object increases, the density of the graviton cloud decreases along with gravitational attraction."
+                }
+          
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+             
+                {
+                  "type": "Plain",
+                  "subTitle": "Gravity in Space",
+                  "text": "Gravity played a major role in the formation of the universe and our solar system. About <span style='whiteSpace: nowrap'>4.5 billion</span> years ago, the solar system was comprised of a dense cloud of spinning gas and dust. As the matter began to come together in the cloud’s center, the greater <button class='glossary-text'>mass</button> caused gravity to increase, thus drawing in even more matter. This eventually led to an increase in pressure and the formation of the Sun. As aggregates of leftover material clumped together by the force of gravity, the planets and other objects formed. The path along which these objects in our solar system travel is the result of the massive gravity of the Sun."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The path of the planets around the Sun is called an <span style='whiteSpace: nowrap'><button class='glossary-text'>orbit</button>.</span>  An orbit is a regular, repeating path of an object in space around another object; asteroids and other small celestial bodies also orbit the Sun, while moons orbit planets. These objects in orbit are called natural <span style='whiteSpace: nowrap'><button class='glossary-text'>satellites</button>;</span> humans have also created many manmade satellites that orbit Earth. The orbits of the planets around the Sun are either circular or elliptical (oval) shaped. These orbits are also along a similar <span style='whiteSpace: nowrap'><button class='glossary-text'>orbital plane</button>,</span> meaning that the planets do not run into each other. We will continue to explore orbits later in this investigation."
+                }
+          
+              ]
+            },
+           
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "A 1-kilogram bag of flour and a 5-kilogram bag of sugar are dropped from a third-floor balcony. Gravity exerts more attractive force on which object as it is falling?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "It exerts the same amount of force on each object.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "the bag of flour",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "the bag of sugar",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Gravity has no effect on objects in free fall.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "More information is needed.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Heavier objects do not fall faster due to gravity alone as gravity exerts equal force on all objects."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "According to Newton’s Theory of Universal Gravitation, gravity can be calculated using what two aspects of objects?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "mass and distance",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "weight and volume",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "mass and volume",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "force and distance",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "density and force",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Gravity is a function of the masses of two objects and the distance between them."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Galileo, and scientists after him, have demonstrated that gravity pulls on all objects with the same force. Factors such as air resistance are responsible for differences in the acceleration of objects as they fall. In the 17th century, Sir Isaac Newton developed the theory of universal gravitation which states that gravity acts on all matter and is a function of mass and distance. Every object attracts every other object with a force proportional to the product of their masses and inversely proportional to the square of the distance between them.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580901VIRT/580901VIRT_Physics_Equation_02.svg",
+                      "alt": "Equation 2: F = G(m1 x m2) / D2",
+                      "maxWidth": "130px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "Galileo, and scientists after him, have demonstrated that gravity pulls on all objects with the same force. Factors such as air resistance are responsible for differences in the acceleration of objects as they fall. In the 17th century, Sir Isaac Newton developed the theory of universal gravitation which states that gravity acts on all matter and is a function of mass and distance. Every object attracts every other object with a force proportional to the product of their masses and inversely proportional to the square of the distance between them.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580901VIRT/580901VIRT_Physics_Equation_02.svg",
+                      "alt": "Equation 2: F = G(m1 x m2) / D2",
+                      "maxWidth": "130px"
+                    }
+                  ]
+                }
+              ]
+            },
+            
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+              
+                {
+                  "type": "Plain",
+                  "subTitle": "Effects on a Planet’s Surface",
+                  "text": "The consistent ebb and flow of the ocean <button class='glossary-text'>tides</button> on Earth is due to gravity from objects in space, namely the moon and the Sun. As you will observe in this investigation, the moon’s gravity attracts not only the water on the planet’s surface but also the planet itself to create high tides on opposite ends of the planet; consequently, low tides are found on shorelines perpendicular to high tide areas."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The Sun, which is much larger than the moon, pulls on the Earth as well. When the Sun is <span style='whiteSpace: nowrap'>in-line</span> with the moon, the combined gravity of the two objects causes higher high tides and lower low tides, called <span style='whiteSpace: nowrap'><button class='glossary-text'>spring tides</button>.</span> This can occur when the moon is on the same side as or opposite the Sun relative to Earth. When the Sun is perpendicular to the moon, its gravitational force pulls on <span style='whiteSpace: nowrap'>low-tide</span> areas of Earth causing them to become slightly higher. These <button class='glossary-text'>neap tides</button> exhibit the least difference between high and low water."
+                },
+                {
+                  "type": "Plain",
+                  "subTitle": "Celestial Motion",
+                  "containerType": "rightContainer",
+                  "text": "Although it seems like a very strange place, space still follows the same laws of physics as Earth. <span style='whiteSpace: nowrap'>Objects – including</span> those in <span style='whiteSpace: nowrap'>space - have</span> <span style='whiteSpace: nowrap'><button class='glossary-text'>inertia</button>.</span> They travel in a straight path unless acted on by a force that causes them to stop moving or to change course. Gravity is one of the forces that can influence the trajectory of objects. For example, the moons Phobos and Deimos <span style='whiteSpace: nowrap'>(Figure 2)</span> are hypothesized to be asteroids that were pulled into <button class='glossary-text'>orbit</button> around Mars."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580901VIRT/580901VIRT_Physics_fig_002.svg",
+                  "imgDivWidth": "295px",
+                  "maxWidth": "355px",
+                  "scrollImg": true,
+                  "altText": "Figure 2: The two irregularly shaped moons of Mars."
+                }
+            
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+           
+                {
+                  "type": "Plain",
+                  "text": "When an object, such as a <button class='glossary-text'>satellite</button>, travels in an <button class='glossary-text'>orbit</button> it is experiencing a balance between the pull of gravity from another object in space, such as a planet, and its own forward motion. At first, the satellite passes by a planet with a lot of <button class='glossary-text'>inertia</button>; and gravity attracts the satellite to the planet and vice versa. The satellite continues to move forward as it is being pulled toward the planet, resulting in a continuous circular <span style='whiteSpace: nowrap'>path – or</span> <span style='whiteSpace: nowrap'>orbit - of</span> the satellite around the planet <span style='whiteSpace: nowrap'>(Figure 3).</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580901VIRT/580901VIRT_Physics_fig_003.svg",
+                  "imgDivWidth": "370px",
+                  "maxWidth": "440px",
+                  "scrollImg": true,
+                  "altText": "Figure 3: Three diagrams illustrating the interaction between the inertia of a satellite and the gravities of the satellite and a larger planet. Each diagram has a large circle at its center representing the planet and at least one smaller circle representing a satellite. The leftmost diagram has a satellite above the planet, with a large arrow pointing down from the satellite to the planet and a smaller arrow pointing up from the planet to the satellite. A third arrow points away from the satellite to the right, perpendicular to the planet. The second diagram has the same set up as the first diagram but with the satellite and arrows in a repeating pattern around the planet. The third diagram is the same as the second diagram with a circle outline passing through the center of each satellite, representing the path of the satellite's orbit."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The inertia of a satellite must be strong enough to counteract the pull of gravity from the object around which it orbits. If the satellite is moving too fast, it will either pass by the object or leave its current orbit. The minimum speed required for a satellite to break free of its orbit is called the <span style='whiteSpace: nowrap'><button class='glossary-text'>escape velocity</button>.</span> If the gravity of the object is too strong relative to the satellite’s inertia, the satellite will eventually collide with the object. Collisions with other objects in the path of the satellite’s orbit could knock the satellite off course, causing it to be moved closer to or farther from the <span style='whiteSpace: nowrap'>object – which</span> will impact the influence of gravity on the satellite."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Another term for the gravity of large celestial bodies is a <span style='whiteSpace: nowrap'><button class='glossary-text'>gravity well</button>.</span> The more massive an object, the larger (or deeper) its gravity well. Figure 4 is a representation of a gravity well, with the massive object at the bottom of the well. Imagine a smaller object moving closer to the massive object along the plane: at some point the smaller object will get close enough to be sucked into the massive object as it falls down the well."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580901VIRT/580901VIRT_Physics_fig_004.svg",
+                  "imgDivWidth": "365px",
+                  "maxWidth": "420px",
+                  "scrollImg": true,
+                  "altText": "Figure 4: An illustration of a gravity well. A grid is oriented along the horzontal plane with a large dip in its center forming a well, the way a heavy mass makes a dip in a taut trampoline."
+                }
+           
+              ]
+            }
+         
+          ]
+        },
+       
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are no materials required for this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "isCheckPoint": true,
+              "template": "Background",
+              "pageData": [
+              
+                {
+                  "type": "Plain",
+                  "text": "There are no safety concerns for this investigation."
+                }
+            
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.</span>",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "During a new moon, the Sun is directly behind the moon relative to Earth causing the moon to appear dark. Which of the following tides would you expect during a new moon?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "spring tide",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "low tide",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "high tide",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "neap tide",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "no tide",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "The moon has a surface gravity of 0.17 g. Which of the following best explains why the moon’s surface gravity is less than that of Earth, which is 1g?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The moon has less mass than Earth.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The moon has more volume than Earth.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The moon is made of magnetic material that cancels out some of its gravity.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The moon weighs less than Earth.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The moon has more mass than Earth.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best explains why high tides appear in bodies of water found opposite the moon?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The moon attracts the whole Earth as well as its oceans.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The moon pushes away Earth’s oceans as strongly as it attracts them.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The Sun attracts Earth’s oceans found opposite the moon.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Earth’s gravity attracts those oceans found opposite the moon.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The Sun pushes Earth’s oceans away from it.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the motion of a satellite in orbit around a large planet?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The satellite moves forward while being pulled toward the center of the planet.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The satellite is pulled toward the center of the planet.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The satellite moves forward along a curved trajectory.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The satellite moves forward as it passes the planet.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The satellite is at rest while being pulled toward the center of the planet.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "In the year 2030, the space shuttle <i>Dauntless</i> is on its way to Mars with volunteers who will establish the first Martian colony. Part of this mission involves the shuttle achieving orbit around Mars prior to landing. The shuttle’s commander notifies his crew that the shuttle is approaching the planet faster than NASA predicted. What is the most likely outcome if the shuttle maintains its current velocity?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The shuttle will pass by Mars and not achieve orbit.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The shuttle’s velocity will decrease as it passes through Mars’ atmosphere.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The shuttle will crash into Mars and the mission will fail.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The shuttle will achieve orbit around Mars.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The shuttle’s velocity will increase as it approaches Mars.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "In the year 2030, the space shuttle <i>Dauntless</i> is on its way to Mars with volunteers who will establish the first Martian colony. Part of this mission involves the shuttle achieving orbit around Mars prior to landing. After the shuttle completes its data collection in orbit, it is time for the shuttle to make its descent to the planet’s surface.  Which of the following best describes the course of action the shuttle crew must take?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The crew will slow down the shuttle and leave orbit.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The crew will speed up the shuttle and leave orbit.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The crew will board an escape vehicle as the shuttle can never escape orbit.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The crew will eject unnecessary equipment to reduce the shuttle’s mass.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The crew will wait for another shuttle to push them out of orbit.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+  
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this simulation, you will use the sliders on the screen to explore how the gravity of the moon and Sun influence <button class='glossary-text'>tides</button> on Earth."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Activity 1",
+              "template": "VirtualLab",
+              "activityPath": "activities/580901_Phy_VIRT/activity1/story.html"
+            }
+          ]
+        }
+    
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this simulation, you will simulate an astronaut visiting different planets and using changes in your <button class='glossary-text'>weight</button> to determine the strength of each planet’s surface gravity relative to that of Earth."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "Activity 2",
+              "template": "VirtualLab",
+              "activityPath": "activities/580901_Phy_VIRT/activity2/story.html"
+            }
+          ]
+        }
+     ]
+    },
+    {
+      "title": "Activity 3",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Satellites</button> <button class='glossary-text'>orbit</button> Earth by maintaining a certain speed and distance from the planet. In this simulation, you will use the sliders on the screen to alter the velocity of a satellite as it approaches a planet of adjustable <span style='whiteSpace: nowrap'><button class='glossary-text'>mass</button>.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 3",
+          "pages": [
+            {
+              "title": "Activity 3",
+              "template": "VirtualLab",
+              "activityPath": "activities/580901_Phy_VIRT/activity3/story.html"
+            }
+          ]
+        }
+      ]
+    },
+  
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "altText": "completion",
+                  "desc": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Physics_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "landscape A4"
+    },
+    "pages": [
+  
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "Question1",
+          "Question2",
+          "Question3"
+         ],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "Summarize the role of the moon’s gravity in the formation of Earth’s tides."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "2",
+                "listType": "ordered",
+                "text": [
+                  "Describe your observations of the effects of the Sun on Earth’s tides."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 1,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question3",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "3",
+                "listType": "ordered",
+                "text": [
+                  "Explain why a harbor experiences two high tides per day."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question3",
+                "sr": 2,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+      
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "60%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 10,
+                "header": [
+                  {
+                    "text": "Planet",
+                    "colWidth": "30%"
+                  },
+                  {
+                    "text": "Scale Reading (kg)",
+                    "colWidth": "35%"
+                  },
+                  {
+                    "text": "Surface Gravity (g)",
+                    "colWidth": "35%"
+                  }
+               
+                ],
+                "tableData": [
+               
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Mercury"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Venus"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "rowHeight": "50px",
+                      "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Earth"
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "68"
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "1 g"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Mars"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Jupiter"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Saturn"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Uranus"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Neptune"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            
+            ]
+          }
+        
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "Question4"
+         ],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "start":"4",
+                "text": [
+                  "Is there a relationship between the size of a planet and the strength of its surface gravity?  Why or why not?  Support your answer with data from Data Table 1."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question4",
+                "sr": 0,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+       
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "60%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 3"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 2"
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 10,
+                "header": [
+                  {
+                    "text": "Trial",
+                    "colWidth": "10%"
+                  },
+                  {
+                    "text": "Planet Mass <br>(10<sup>24</sup> kg)",
+                    "colWidth": "30%"
+                  },
+                  {
+                    "text": "Satellite Velocity <br>(km/s)",
+                    "colWidth": "30%"
+                  },
+                  {
+                    "text": "Outcome <br>(Collision, Escape or Orbit)",
+                    "colWidth": "30%"
+                  }
+               
+                ],
+                "tableData": [
+               
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "1"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "2"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "3"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "4"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "5"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+             
+                ]
+              }
+            
+            ]
+          }
+        
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 3000,
+            "title": "Notes"
+          },
+          
+          {
+            "type": "Box",
+            "id": "Box_Note",
+            "align": "center",
+            "margin": "25px 0 0 0",
+            "text": "In order for your instructor to be able to open your video links, please select the \"Save as PDF\" option rather than \"Print to PDF\"."
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+    
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 1. Astronauts and fruit in zero gravity",
+        "src": "courses_2023/Physics/580901VIRT/580901VIRT_Physics_fig_001.svg",
+        "maxWidth": "360px",
+        "scrollImg": true,
+        "altText": "Figure 1: Two astronauts and multiple whole fruits floating in zero gravity within a satellite."
+      },
+     
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 2. The moons of Mars, Phobos and Deimos",
+        "src": "courses_2023/Physics/580901VIRT/580901VIRT_Physics_fig_002.svg",
+        "maxWidth": "355px",
+        "scrollImg": true,
+        "altText": "Figure 2: The two irregularly shaped moons of Mars."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 3. The roles of inertia and gravity in sustaining orbit",
+        "src": "courses_2023/Physics/580901VIRT/580901VIRT_Physics_fig_003.svg",
+        "maxWidth": "440px",
+        "scrollImg": true,
+        "altText": "Figure 3: Three diagrams illustrating the interaction between the inertia of a satellite and the gravities of the satellite and a larger planet. Each diagram has a large circle at its center representing the planet and at least one smaller circle representing a satellite. The leftmost diagram has a satellite above the planet, with a large arrow pointing down from the satellite to the planet and a smaller arrow pointing up from the planet to the satellite. A third arrow points away from the satellite to the right, perpendicular to the planet. The second diagram has the same set up as the first diagram but with the satellite and arrows in a repeating pattern around the planet. The third diagram is the same as the second diagram with a circle outline passing through the center of each satellite, representing the path of the satellite's orbit."
+      },
+     
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 4. Representation of a gravity well",
+        "src": "courses_2023/Physics/580901VIRT/580901VIRT_Physics_fig_004.svg",
+        "maxWidth": "420px",
+        "scrollImg": true,
+        "altText": "Figure 4: An illustration of a gravity well. A grid is oriented along the horzontal plane with a large dip in its center forming a well, the way a heavy mass makes a dip in a taut trampoline."
+      }
+
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Escape velocity",
+        "content": "The minimum speed required for a satellite to break free of its orbit"
+      },
+      {
+        "title": "Graviton",
+        "content": "A theorized particle that is emitted by matter and responsible for gravitational attraction"
+      },
+      {
+        "title": "Gravity well",
+        "content": "The pull of gravity exerted by a large body in space"
+      },
+      {
+        "title": "Inertia",
+        "content": "A property of matter by which it will continue in its existing state of rest or uniform motion in a straight line, unless that state is changed by an external net force"
+      },
+      {
+        "title": "Mass",
+        "content": "The amount of matter that makes up an object"
+      },
+      {
+        "title": "Neap tide",
+        "content": "A low tide that is higher than average because of the gravitational pull of the Sun on low-tide areas of Earth"
+      },
+      {
+        "title": "Orbit",
+        "content": "A regular, repeating path of an object in space around another object"
+      },
+      {
+        "title": "Orbital plane",
+        "content": "The geometric plane along which an orbit lies"
+      },
+      {
+        "title": "Satellite",
+        "content": "An object in orbit; can be either natural or manmade"
+      },
+      {
+        "title": "Spring tide",
+        "content": "A high tide that is higher than average, or a low tide that is lower than average, because of the combined gravitational pull of the moon and Sun along the same axis"
+      },
+      {
+        "title": "Theory of universal gravitation",
+        "content": "The scientific theory that states gravity acts on all matter and is a function of mass and distance"
+      },
+      {
+        "title": "Tide",
+        "content": "The consistent ebb or flow of an ocean on Earth caused by the gravity of the moon and Sun"
+      },
+      {
+        "title": "Weight",
+        "content": "The gravitational force with which Earth attracts an object to its center"
+      }
+   
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

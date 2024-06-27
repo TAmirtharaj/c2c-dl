@@ -1,0 +1,2326 @@
+{
+  "locked": true,
+  "courseTitle": "Laser Diffraction",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Physics_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/bodyBookmark.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/TakeSnapshot.svg",
+    "core/disposalAndCleanupIcon.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Physics_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Physics",
+                "titleName2": "Laser Diffraction",
+                "images": {
+                  "logo": "core/Physics_Subject_Icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "waterMark": false,
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, students will use a <button class='glossary-text'>diffraction grating</button> of known line density to determine the <button class='glossary-text'>wavelength</button> of a laser pointer. They will take measurements of the locations of different orders of bright spots and analyze the geometry of their experimental setup to use the formula for interference maxima."
+                },
+                {
+                  "type": "List",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Room with adjustable lighting and a large, flat surface adjacent to a wall",
+                    "Pen or pencil",
+                    "Materials to create stands for a laser pointer and diffraction grating (i.e., books, modeling clay, binder clips)",
+                    "Calculator capable of computing inverse trigonometric functions",
+                    "Digital camera or mobile device capable of taking photos",
+                    "Small flashlight or mobile device with a flashlight"
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Physics/580266/580266_Physics_Time-Requirement.svg",
+                  "altText": "Preparation - 15 minutes \nActivity 1: Exploring Laser Diffraction\nDiffraction of a Laser Beam - 20 minutes\nActivity 1: Data Analysis - 20 minutes\nExtension Activity 1 - 20 minutes",
+                  "desc": "Preparation - 15 minutes \nActivity 1: Exploring Laser Diffraction\nDiffraction of a Laser Beam - 20 minutes\nActivity 1: Data Analysis - 20 minutes\nExtension Activity 1 - 20 minutes",
+                  "containerType": "rightContainer",
+                  "imgDivWidth": "565px",
+                  "scrollImg": true,
+                  "maxWidth": "650px"
+                }
+              ]
+            },
+            {
+              "waterMark": true,
+              "template": "OverView",
+              "title": "Overview (cont... )",
+              "pageTitle": "Overview (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Overview Video: Laser Diffraction"
+                },
+                {
+                  "type": "Video",
+                  "desc": "Overview Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Physics/580266/580266_Physics_VideoIcone.svg",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6339716451112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Explain characteristics of electromagnetic waves.",
+                    "Describe, conceptually and mathematically, the superposition of two or more waves.",
+                    "Calculate the effect of electromagnetic wave propagation in vacuum and in matter.",
+                    "Describe mathematically the interference and diffraction of electromagnetic waves.",
+                    "Demonstrate, using the scientific method, an understanding of electromagnetic wave propagation by collecting and analyzing data, drawing conclusions, and documenting results."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "desc": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "desc":"video link symbol, camera symbol, stopwatch symbol"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "desc":"warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Although many people like to watch cats chase a moving laser beam, lasers are extremely useful tools in many different industries. One of the most important applications of lasers in molecular biology is the ability to sequence genomes. In DNA sequencing, the exact order of the bases in DNA are mapped. The first method of reading DNA base pairs was to radioactively label DNA and run it through a large gel and manually read it. This was a very laborious technique, and it was often difficult to distinguish individual base pairs."
+                },
+                {
+                  "type": "Plain",
+                  "text": "In 1990 the Human Genome Project was launched. This was a collaborative effort to map the entire genomes of many different organisms. To tackle this enormous endeavor, DNA sequencing needed to become more streamlined and cost-effective. The technique of Sanger DNA Sequencing was invented in 1977 - it used a laser beam to read fluorescently labeled base pairs, which then were interpreted by a computer program. Because of this technological advancement, in 2003, the Human Genome Project published the first human genome (almost complete, 90%). Although Next Generation Sequencing has built upon, advanced, and refined DNA sequencing techniques, the Sanger method is still widely used for small-scale projects."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580266/580266_Physics_whyShouldICare.svg",
+                  "desc": "A chromatogram from Sanger DNA sequencing. A series of peaks are elevated above a base line, each peak representing a different type of DNA nucleotide.",
+                  "altText": "A chromatogram from Sanger DNA sequencing. A series of peaks are elevated above a base line, each peak representing a different type of DNA nucleotide.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>A (transmission) <button class=glossary-text >diffraction grating</button> is a thin film of clear glass or plastic that has a large number of closely spaced lines etched into it. A typical grating used for optical purposes has a density of many hundreds or even thousands of lines per millimeter. When light from a bright and small source passes through a diffraction grating, it acts like a multiple-slit <button class=glossary-text >interferometer</button>, where each of the many illuminated slits acts like a separate source of light. When such a source, like a laser, shines through a diffraction grating, a very distinct multi-slit <button class=glossary-text >interference pattern</button> of almost total <button class=glossary-text >destructive interference</button> punctuated by bright dots of <button class=glossary-text >constructive interference</button> is visible. The locations of these bright spots are determined by the density of lines in the grating and the <button class=glossary-text >wavelength</button> of light incident on the grating through a formula that looks identical to the formula for the angular location of double-slit interference maxima.</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580266/580266_Equation_001.svg",
+                  "imgDivWidth": "249px",
+                  "maxWidth": "345px",
+                  "scrollImg": true,
+                  "desc": "Equation 1: n lambda equals d sine theta sub n; n equals 0, 1, 2, ellipses",
+                  "altText": "Equation 1: n lambda equals d sine theta sub n; n equals 0, 1, 2, ellipses"
+                },
+                {
+                  "type": "Plain",
+                  "text": "In this formula, d is the spacing between each slit and the adjacent slit, λ is the wavelength of light, and n is the so-called “order” of the interference peak. The 0th order, or n = 0, bright spot is the passage of the light directly through the grating and is used to define the angular location of 0 degrees."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span style='padding-bottom:5px;display:block;'>Note that each order of interference occurs symmetrically on each side of the 0th order spot and, frequently, textbooks will indicate this through an alternate form of the interference maxima equation:</span>"
+                },
+                {
+                  "type": "PlainImage",
+                  "image": "courses_2023/Physics/580266/580266_Equation_001a.svg",
+                  "containerType": "rightContainer",
+                  "imgWidth": "239px",
+                  "desc": "Equation 1a: n lambda equals d sine theta sub n; n equals 0, plus or minus 1, plus or minus 2 ellipses",
+                  "altText": "Equation 1a: n lambda equals d sine theta sub n; n equals 0, plus or minus 1, plus or minus 2 ellipses"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Where the negative orders occur are on one side of the central bright spot where angles are conventionally chosen to be negative, and the positive orders occur on the other side."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The same ideas, math, and geometry used in this diffraction grating experiment are found in several advanced and powerful scientific techniques like X-ray crystallography. In this lab, you will locate and identify bright spots and use them to calculate the wavelength of a laser pointer. You will make the angle measurements by locating the interference maxima and measuring the geometry of the experimental setup to perform a trigonometric analysis of the experiment. You will measure the sides of the right triangle defined by the higher-order dots, the central dot, and the place where the laser passes through the grating."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Blue light from a 480 nm laser passes through a diffraction grating with 200 lines/mm. How many orders of interference could be seen in this scenario?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "n = 10.4",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "n = 6.3",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "n = 3.2 ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "n = 104",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "n = 480",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "<span className=bodyFontItalic>n </span>λ = <span className=bodyFontItalic>d</span>  sinθ<br><span className=bodyFontItalic>n </span>(480×10<sub class='bodySupscript'>-9</sub> <span className=bodyFontItalic>m </span>)= <span class='tallBracket'>(</span><span class=bodyFraction> <span>1</span> <span class=symbol>/</span> <span class=bottom>200⋅1000</span> </span> <span className=bodyFontItalic>m</span><span class='tallBracket'>)</span>  sin 90<br><span className=bodyFontItalic>n</span> = 10.4<br>n = 10 is the largest order seen in this case, or 10 bright spots on either side of the central bright spot."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What color light passes through a diffraction grating of 200 lines/mm and produces 12 orders of interference?",
+                  "dataTable": {
+                    "type": "DataTable",
+                    "tableWidth": "360px",
+                    "title": "Table 1.",
+                    "allowClick": true,
+                    "header": [
+                      {
+                        "text": "Color",
+                        "colWidth": "50%"
+                      },
+                      {
+                        "text": "Wavelength",
+                        "colWidth": "50%"
+                      }
+                    ],
+                    "tableData": [
+                      [
+                        {
+                          "type": "text",
+                          "align": "center",
+                          "text": "Violet"
+                        },
+                        {
+                          "type": "text",
+                          "align": "center",
+                          "text": "380-450 nm"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "align": "center",
+                          "text": "Blue"
+                        },
+                        {
+                          "type": "text",
+                          "align": "center",
+                          "text": "450-495 nm"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "align": "center",
+                          "text": "Green"
+                        },
+                        {
+                          "type": "text",
+                          "align": "center",
+                          "text": "495-570 nm"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "align": "center",
+                          "text": "Yellow"
+                        },
+                        {
+                          "type": "text",
+                          "align": "center",
+                          "text": "570-590 nm"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "align": "center",
+                          "text": "Orange"
+                        },
+                        {
+                          "type": "text",
+                          "align": "center",
+                          "text": "590-620 nm"
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "align": "center",
+                          "text": "Red"
+                        },
+                        {
+                          "type": "text",
+                          "align": "center",
+                          "text": "620-750 nm"
+                        }
+                      ]
+                    ]
+                  },
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "violet",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "blue",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "green",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "yellow",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "red",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "<span className=bodyFontItalic>n </span>λ = <span className=bodyFontItalic>d</span> sinθ<br>12λ = <span class='tallBracket'>(</span><span class=bodyFraction> <span>1</span> <span class=symbol>/</span> <span class=bottom>200⋅1000</span> </span> <span className=bodyFontItalic>m</span><span class='tallBracket'>)</span>  sin 90<br>λ = 417  nm<br>417 nanometers is violet light."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "The easiest way to determine the number of orders of interference is to work backwards from the largest angle one could possibly see on the widest possible screen.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580266/580266_Equation_001.svg",
+                      "alt": "Equation 1: n lambda equals d sine theta sub n; n equals 0, 1, 2, ellipses",
+                      "maxWidth": "260px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "The easiest way to determine the number of orders of interference is to work backwards from the largest angle one could possibly see on the widest possible screen.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580266/580266_Equation_001.svg",
+                      "alt": "Equation 1: n lambda equals d sine theta sub n; n equals 0, 1, 2, ellipses",
+                      "maxWidth": "260px"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "altText": "A map of the procedural workflow for this investigation. To prepare, assemble the screen and diffraction grating. Then, calibrate the laser and grating. In activity 1, photograph the setup, dim the lights, and move the diffraction grating to observe the interference pattern. Next, measure the distance from the grating to the screen. Then, mark, label and measure the distance between the dots. Next, photograph the labeled screen. Then, calculate the angular location of each dot, the split spacing of the diffraction grating, and the average wavelength of the laser. Next, estimate the wavelength uncertainty. In the extension activity, make a prediction about the diffraction of white light. Then, assemble a flashlight and cardboard pinhole and repeat activity 1. Next, set up the laser with a CD or DVD and the screen, measure the location of dots and estimate the split spacing. Finally, you will remove the reflective coating from the CD or DVD and repeat activity 1.",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Physics/580266/580266_Physics_ED_001.svg",
+                  "imgDivWidth": "94%",
+                  "maxWidth": "1500px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "94%",
+                    "L": "94%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "80%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Diffraction grating",
+                          "image": "courses_2023/Physics/580266/580266_Physics_material_1.svg",
+                          "altText": "Diffraction grating mounted in a 2 by 2 inch holder"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "CD in sleeve (for extension activity)",
+                          "image": "courses_2023/Physics/580266/580266_Physics_material_2.svg",
+                          "altText": "CD in sleeve"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from the equipment kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Laser pointer",
+                          "image": "courses_2023/Physics/580266/580266_Physics_material_3.svg",
+                          "altText": "Laser pointer and two batteries"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Measuring tape",
+                          "image": "courses_2023/Physics/580266/580266_Physics_material_4.svg",
+                          "altText": "White measuring tape, 150 centimeters (60 inches)"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "2 Sheets blank white paper",
+                          "image": "courses_2023/Physics/580266/580266_Physics_material_5.svg",
+                          "altText": "White paper, 8.5 by 11 inches"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Transparent tape",
+                          "image": "courses_2023/Physics/580266/580266_Physics_material_6.svg",
+                          "altText": "Transparent tape"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [
+                            "Room with adjustable lighting and a large, flat surface adjacent to a wall",
+                            "Pen or pencil",
+                            "Materials to create stands for a laser pointer and diffraction grating (i.e., books, modeling clay, binder clips)",
+                            "Calculator capable of computing inverse trigonometric functions",
+                            "Digital camera or mobile device capable of taking photos",
+                            "Small flashlight or mobile device with a flashlight"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span> Replacement supplies for the Laser Diffraction investigation (item number 580266) can be ordered from Carolina Biological Supply Company.<span className=bodyParaLineBreak></span> <span className=bodyMediumSubHeading>Call:</span> 866.332.4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Wear your safety goggles at all times while conducting this investigation. Read all the instructions for this activity before beginning. Follow the instructions closely, and observe established laboratory safety practices, including the use of appropriate personal protective equipment."
+                },
+                {
+                  "type": "Image",
+                  "desc": "goggles symbol",
+                  "altText": "goggles symbol",
+                  "image": "core/Key_Goggle.svg",
+                  "imgDivWidth": "78px",
+                  "maxWidth": "120px"
+                },
+                
+                {
+                  "type": "Plain",
+                  "text": "Note which class (e.g., 1, 2, 3A) of laser you will be using to perform this lab, and look up the relevant safety procedures for using that laser class. In general, never point a laser directly at anyone’s face and be mindful of surfaces that can reflect the laser beam."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Do not eat, drink, or chew gum while performing this investigation. Wash your hands with soap and water before and after the investigation, and clean the work area with soap and water after finishing. Keep pets and children away from lab materials and equipment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Technology",
+          "pages": [
+            {
+              "title": "Technology",
+              "pageTitle": "Technology",
+              "showPageTitle": true,
+              "waterMark": true,
+              "isCheckPoint": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "A scientific calculator capable of computing inverse trigonometric functions is required for the data analysis section of this lab."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.</span>",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which optical phenomenon is ultimately responsible for the presence of the bright spots flanking the central fringe visible on the screen after the laser passes through the diffraction grating?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "interference",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "reflection",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "refraction",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "adsorption",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "absorption",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "A laser shines through a 1000 lines/mm diffraction grating and makes a first-order interference maximum at an angle of 32 degrees.  Based on this table, what color is the laser?",
+                      "dataTable": {
+                        "type": "DataTable",
+                        "tableWidth": "360px",
+                        "title": "Table 1.",
+                        "allowClick": true,
+                        "header": [
+                          {
+                            "text": "Color",
+                            "colWidth": "50%"
+                          },
+                          {
+                            "text": "Wavelength",
+                            "colWidth": "50%"
+                          }
+                        ],
+                        "tableData": [
+                          [
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "Violet"
+                            },
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "380-450 nm"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "Blue"
+                            },
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "450-495 nm"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "Green"
+                            },
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "495-570 nm"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "Yellow"
+                            },
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "570-590 nm"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "Orange"
+                            },
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "590-620 nm"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "Red"
+                            },
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "620-750 nm"
+                            }
+                          ]
+                        ]
+                      },
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "green",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "blue",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "yellow",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "red",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "violet",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What would you observe if you used a green laser vs a red laser in this experiment?",
+                      "dataTable": {
+                        "type": "DataTable",
+                        "title": "Table 1.",
+                        "tableWidth": "360px",
+                        "allowClick": true,
+                        "header": [
+                          {
+                            "text": "Color",
+                            "colWidth": "50%"
+                          },
+                          {
+                            "text": "Wavelength",
+                            "colWidth": "50%"
+                          }
+                        ],
+                        "tableData": [
+                          [
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "Violet"
+                            },
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "380-450 nm"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "Blue"
+                            },
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "450-495 nm"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "Green"
+                            },
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "495-570 nm"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "Yellow"
+                            },
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "570-590 nm"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "Orange"
+                            },
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "590-620 nm"
+                            }
+                          ],
+                          [
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "Red"
+                            },
+                            {
+                              "type": "text",
+                              "align": "center",
+                              "text": "620-750 nm"
+                            }
+                          ]
+                        ]
+                      },
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The dots from the green laser’s interference pattern would be more closely spaced.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The interference patterns would look the same aside from the colors of the dots.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The dots from the red laser’s interference pattern would be more closely spaced.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The dots from the green laser’s interference pattern would be further apart.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The green laser would not exhibit an interference pattern.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which answer best describes the systematic errors that could be introduced if the laser pointer is not lying flat?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "If the laser pointer is tilted either up or down, the length that the light travels from the grating to the screen will be longer than the distance that is measured along the table.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "If the laser pointer is tilted either up or down, the length that the light travels from the grating to the screen will be equal to the distance that is measured along the table.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "If the laser pointer is tilted either up or down the length that the light travels from the grating to the screen will be shorter than the distance that is measured along the table.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "If the laser pointer is tilted at an angle greater than 45 degrees, the light will not exhibit an interference pattern.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "If the laser point is tilted at an angle less than 45 degrees, the light will not exhibit an interference pattern.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Red light from a 632 nm laser passes through a diffraction grating with 250 lines/mm. How many orders of interference could be seen in this scenario?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "n = 6.3",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "n = 3.2",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "n = 732",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "n = 250",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "n = 2.5",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (12 steps)",
+              "pageTitle": "Preparation (12 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "keyID": "page14",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Read through the procedure."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Watch the following video on camera recording techniques for physics investigations:"
+                  },
+                  {
+                    "type": "Video",
+                    "width": "100%",
+                    "containerType": "rightContainer",
+                    "imgDivWidth": "200px",
+                    "image": "courses_2023/Physics/580266/580266_Physics_VideoIcone_1.svg",
+                    "desc": "Camera Recording Technique - Physics",
+                    "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6290143757001"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Locate a room in which to conduct the investigation. The room should have adjustable lighting such that the room can be darkened but remain light enough to take measurements. The room must also include a large, flat surface adjacent to a wall on which to set up the experiment (i.e., a table, desk, or countertop)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Gather the needed materials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Lay two sheets of blank white paper side by side so that the short edges of the papers are just touching."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use transparent tape to secure the sheets of paper to one another where they touch. Try not to overlap the sheets, but avoid leaving any gap between the sheets. Apply tape to only one side of the sheets. The two sheets taped together form the screen for the investigation."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use tape to attach the screen to the wall adjacent to the flat work surface. Orient the screen so the tape holding the screen together is facing toward the wall."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use items on hand (books, binder clips, modeling clay, etc.) to create a stand with which to prop up the <button class='glossary-text'>diffraction grating</button> (see Figure 1). For example, the bottom of the diffraction grating can be pinched by a binder clip that acts as a stand or the bottom edge of the diffraction grating can be pushed gently into a block of modeling clay as its stand. Regardless of the material used, there should be no obstructions when looking through the diffraction grating. The diffraction grating must be perpendicular to the work surface."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the diffraction grating with its stand on the work surface in front of the screen (see Figure 1)."
+                  },
+                  {
+                    "type": "Image",
+                    "altText": "Figure 1: labeled demonstration of laser pointer setup as described in the preparation",
+                    "containerType": "fullContainer",
+                    "image": "courses_2023/Physics/580266/580266_Physics_fig_001.svg",
+                    "imgDivWidth": "535px",
+                    "maxWidth": "680px",
+                    "scrollImg": true
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use books or other materials on hand to create a stand for the laser pointer, which is placed on the work surface in front of the diffraction grating as in Figure 1. The laser pointer must be level with and high enough above the work surface so that when the laser pointer is turned on, the beam passes through the diffraction grating and creates the interference maxima (bright dots) on the screen."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calibrate the level of the laser pointer. If the <button class='glossary-text'>interference pattern</button> appears at the same height above the work surface as the laser, the laser is level."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calibrate the level of the diffraction grating. To check for any tilt in the diffraction grating, left or right, determine if the left-and right-most interference maxima appear at the same height above the table."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will shine a laser through a <button class='glossary-text'>diffraction grating</button> on to a screen and measure the distance between the dots created by the diffraction pattern. You will then calculate the <button class='glossary-text'>wavelength</button> of light for the laser and estimate the uncertainty in this calculation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Exploring Laser Diffraction (15 steps)",
+              "pageTitle": "<span class=bodyFontBold>Exploring Laser Diffraction (15 steps)</span>",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "page17",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>A</div>&nbsp;<span class=bodyFontBold>Diffraction of a Laser Beam</span> "
+                      }
+                    ],
+                    "text": "Turn on the laser pointer as it rests on its stand. Make sure the laser pointer does not move or shake while on the stand."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Take a photograph of the experiment setup with the laser beam turned on.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Dim the lights in the work area so that the interference maxima are clearly visible but not so dark that you cannot see comfortably."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "With the laser pointer still on, place the <button class='glossary-text'>diffraction grating</button> and its stand immediately in front of the screen. Holding the diffraction grating by its stand, slowly move the diffraction grating away from the screen until the <button class='glossary-text'>interference pattern</button> on the screen is as large as possible without leaving the screen."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the measuring tape to measure the distance from the diffraction grating to the screen. Hold the measuring tape flat along the work surface parallel to the experiment setup to avoid changing the position of the diffraction grating. Record this distance, <span className=bodyFontItalic>L</span>, in <span class='bodyFontBold'>Data Table 1</span>."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "<span class=bodyFontBold>Note:</span> Specifically, <span className=bodyFontItalic>L</span> is the distance from the place where the beam passes through the diffraction grating to the central bright spot as shown in Figure 2."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using a pen or pencil, mark the location of each dot on the screen by tracing the circumference of the fringe of light around each dot."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Turn off the laser and remove the screen from the wall."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Label the order, <span className=bodyFontItalic>n</span>, of each dot on the screen. The central dot on the screen is “<span className=bodyFontItalic>n</span> = 0.” Label the dots to the left of the central dot (from right to left) “<span className=bodyFontItalic>n</span> = –1,” “<span className=bodyFontItalic>n</span> = –2,” and so on. Label the dots to the right of the central dot (from left to right) “<span className=bodyFontItalic>n</span> = 1,” “<span className=bodyFontItalic>n</span> = 2,” and so on. Refer to Figure 2."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Starting from the center of the central dot, measure the distance between the central dot and the center of each of the other dots on the screen. Label these distances on the screen. Record these values as the location of each dot in <span class='bodyFontBold'>Data Table 1</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Take a photograph of the labeled screen.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol"
+                  },
+                  {
+                    "type": "Image",
+                    "altText": "Figure 2: measuring the distance (L) from the diffraction grating to the central dot and labeling the 5 dots ordered from n equals negative 2 to n equals 2",
+                    "containerType": "fullContainer",
+                    "image": "courses_2023/Physics/580266/580266_Physics_fig_002.svg",
+                    "imgDivWidth": "420px",
+                    "maxWidth": "530px",
+                    "scrollImg": true
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "startNewNumber": true,
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>B</div>&nbsp;Data Analysis",
+                        "text": ""
+                      }
+                    ],
+                    "text": "<span style='padding-bottom:5px;display:block;'>The location of each bright dot can be used to calculate its angular location by noting that the geometry of the beam is a right triangle with an equation below. Calculate the angular location of each dot. Record the results in <span class='bodyFontBold'>Data Table 1</span>.</span>"
+                  },
+                  {
+                    "type": "Image",
+                    "altText": "Equation 2: tan theta sub n equals begin fraction x sub n over L end fraction",
+                    "containerType": "fullContainer",
+                    "image": "courses_2023/Physics/580266/580266_Equation_002.svg",
+                    "imgDivWidth": "137px",
+                    "maxWidth": "185px",
+                    "scrollImg": true
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "The slit spacing, d, is not usually given on the diffraction grating itself. Diffraction gratings are typically characterized by line density, which is the reciprocal of d. Calculate the slit spacing, d, then convert the units from mm to nm using the conversion below. Record the result in <span class='bodyFontBold'>Data Table 1</span>.<br>1 nm = 1 × 10–6 mm"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "<span style='padding-bottom:5px;display:block;'>Use the formula for the interference peaks below to calculate the laser’s <button class='glossary-text'>wavelength</button> for each dot.</span>"
+                  },
+                  {
+                    "type": "Image",
+                    "altText": "Equation 3: lambda equals begin fraction begin paren d sine theta sub n end paren over n end fraction",
+                    "containerType": "fullContainer",
+                    "image": "courses_2023/Physics/580266/580266_Equation_003.svg",
+                    "imgDivWidth": "125px",
+                    "maxWidth": "170px",
+                    "scrollImg": true
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Calculate the average of the individual calculated values for the laser wavelength to get λ <sub class='bodySubscript'>avg</sub>. Record the average in <span class='bodyFontBold'>Data Table 1</span>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "<span style='padding-bottom:5px;display:block;'>Estimate the uncertainty of your value of the wavelength, Δλ <sub class='bodySubscript'>avg</sub>, by calculating half the difference between the largest and smallest value of the wavelength using the equation below. Record the result in <span class='bodyFontBold'>Data Table 1</span>.</span>"
+                  },
+                  {
+                    "type": "Image",
+                    "altText": "Equation 4: delta lambda sub avg equals begin fraction 1 over 2 end fraction begin paren lambda sub max minus lambda sub min end paren",
+                    "containerType": "fullContainer",
+                    "image": "courses_2023/Physics/580266/580266_Equation_004.svg",
+                    "imgDivWidth": "180px",
+                    "maxWidth": "240px",
+                    "scrollImg": true
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Extension Activities",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In the Extension Activity, you will test the diffraction of white light through the <button class='glossary-text'>diffraction grating</button> using a flashlight and a cardboard pinhole. You will then use a CD or DVD and the laser pointer to observe the pattern created by the reflection grating and diffraction grating of the CD or DVD."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Extension Activities",
+          "pages": [
+            {
+              "title": "<div className=order-list-text>A</div>&nbsp;White Light Spectroscopy",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;White Light Spectroscopy",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Instead of using a monochromatic light source like a laser, repeat the experiment using a thin beam of white light. Any LED, like a phone light, will do. It just needs to be collimated by passing it through a slit as described in the procedure below. Start by making a prediction. Make sure you consider that <button class='glossary-text'>wavelength</button> appears in the formula that locates the interference maxima, and give as detailed of a prediction as you can. Then test your prediction. Construct a white light beam by shining a small flashlight or the LED light on a phone through a slit cut into a cardboard box. Place the white light up against the slit, and slowly move the light away until a tightly collimated beam of white light shines through (see Figure 3). Record your prediction and observations in the Lab Notebook."
+                },
+                {
+                  "type": "Image",
+                  "altText": "Figure 3: The back of cardboard showing a circular beam of white light shining around the slit mask.<br>The front of cardboard showing the tightly collimated beam of white light shining through the slit mask.",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580266/580266_Physics_fig_003.svg",
+                  "imgDivWidth": "433px",
+                  "maxWidth": "520px",
+                  "scrollImg": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Extension Activities (cont... )",
+          "pages": [
+            {
+              "title": "<div className=order-list-text>B</div>&nbsp;Reflection Grating CD or DVD",
+              "pageTitle": "<div className=order-list-text>B</div>&nbsp;Reflection Grating CD or DVD",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "page20",
+              "infoPopUp": "resource",
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have probably noticed the appearance of rainbows on the bottom (the side from which data is read) of a CD or DVD. This is because the closely packed lines on which the data is inscribed act as a <button class='glossary-text'>diffraction grating</button>, but instead of allowing light to transmit through the grating, the light reflects off the disc. This is an example of a reflection grating. Be careful around a reflected laser as you set up the geometry as shown in Figure 4. Measure the location of the dots on the screen. Then use this data to estimate the slit spacing on a CD or DVD. (CDs and DVDs are different—your investigation kit materials include a CD). Compare your answer to the manufacturing specifications for your chosen disc type as found online. Record your calculations in the Lab Notebook."
+                },
+                {
+                  "type": "Image",
+                  "altText": "Figure 4: A laser beam is reflected off a CD or DVD, demonstrating the distance (L) and the location of the dots on the screen",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Physics/580266/580266_Physics_fig_004.svg",
+                  "imgDivWidth": "295px",
+                  "maxWidth": "360px",
+                  "scrollImg": true
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Alternatively, if the disc can be destroyed, the CD or DVD can be turned into a diffraction grating rather than a reflection grating. Carefully peel off the label on one side of the disc and the reflective layer on the other side. The lines are still inscribed in the disc despite its transparent appearance. Set up the modified CD or DVD as shown in Figure 5 to have the disc act as a transmission diffraction grating."
+                },
+                {
+                  "type": "Image",
+                  "altText": "Figure 5: A laser beam travels through the transparent CD, demonstrating the disc as a transmission diffractive grating",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580266/580266_Physics_fig_005.svg",
+                  "imgDivWidth": "320px",
+                  "maxWidth": "381px",
+                  "scrollImg": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Return the materials to the equipment kit, and clean the area."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "altText": "completion",
+                  "desc": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Physics_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "landscape A4"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1"
+              },
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "headerHidden": true,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "19%"
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "27%"
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "29%"
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "27%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span className=bodyFontItalic>d</span> (nm) =",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10,
+                      "colspan": 3
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span className=bodyFontItalic>L</span> = ",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10,
+                      "colspan": 3
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "center",
+                      "text": "Order, <span className=bodyFontItalic>n</span>",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "align": "center",
+                      "text": "Location (mm)",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "align": "center",
+                      "text": "Angular Location (degrees)",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "align": "center",
+                      "text": "λ (nm)",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "center",
+                      "text": "+2",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "center",
+                      "text": "+1",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "center",
+                      "text": "0",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "align": "center",
+                      "text": "0",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "align": "center",
+                      "text": "0.0",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "center",
+                      "text": "-1",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "center",
+                      "text": "-2",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "",
+                      "color": "#6b6b6b"
+                    },
+                    {
+                      "type": "text",
+                      "text": "",
+                      "color": "#6b6b6b"
+                    },
+                    {
+                      "type": "text",
+                      "align": "right",
+                      "text": "λ <sub class='bodySubscript'>avg</sub>"
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "",
+                      "color": "#6b6b6b"
+                    },
+                    {
+                      "type": "text",
+                      "text": "",
+                      "color": "#6b6b6b"
+                    },
+                    {
+                      "type": "text",
+                      "align": "right",
+                      "text": "Δλ <sub class='bodySubscript'>avg</sub>"
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Photos"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert the photos of the screen from Activity 1 in the sections below."
+              },
+              {
+                "type": "Plain",
+                "text": "Activity 1 Step 2"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Activity 1 Step 10"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "QuestionE1",
+          "QuestionE2",
+          "QuestionE3",
+          "QuestionE4",
+          "QuestionE5"
+        ],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "QuestionE1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Extension Activity"
+              },
+              {
+                "type": "List",
+                "listType": "ordered",
+                "style": {
+                  "listStyleType": "\"A. \""
+                },
+                "text": [
+                  "White Light Spectroscopy"
+                ]
+              },
+              {
+                "type": "Plain",
+                "text": "Prediction:"
+              },
+              {
+                "type": "Questions",
+                "id": "QuestionE2",
+                "sr": 0,
+                "maxLength": 150,
+                "inputHeight": "20vh",
+                "placeholder": "Write your Answer here..."
+              },
+              {
+                "type": "Plain",
+                "text": "Observations:"
+              },
+              {
+                "type": "Questions",
+                "id": "QuestionE3",
+                "sr": 1,
+                "maxLength": 200,
+                "inputHeight": "30vh",
+                "placeholder": "Write your Answer here..."
+              },
+              {
+                "type": "List",
+                "listType": "ordered",
+                "style": {
+                  "listStyleType": "\"B. \""
+                },
+                "text": [
+                  "Reflection Grating CD or DVD"
+                ]
+              },
+              {
+                "type": "Plain",
+                "text": "Location of dots on screen:"
+              },
+              {
+                "type": "Questions",
+                "id": "QuestionE4",
+                "sr": 2,
+                "maxLength": 100,
+                "inputHeight": "20vh",
+                "placeholder": "Write your Answer here..."
+              },
+              {
+                "type": "Plain",
+                "text": "Slit Spacing on CD or DVD (show Calculations):"
+              },
+              {
+                "type": "Questions",
+                "id": "QuestionE5",
+                "sr": 3,
+                "maxLength": 300,
+                "inputHeight": "30vh",
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 3000,
+            "title": "Notes"
+          },
+          
+          {
+            "type": "Box",
+            "id": "Box_Note",
+            "align": "center",
+            "margin": "25px 0 0 0",
+            "text": "In order for your instructor to be able to open your video links, please select the \"Save as PDF\" option rather than \"Print to PDF\"."
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6339716451112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 1. Interference maxima",
+        "src": "courses_2023/Physics/580266/580266_Equation_001.svg",
+        "altText": "Equation 1: n lambda equals d sine theta sub n; n equals 0, 1, 2, ellipses",
+        "maxWidth": "345px",
+        "scrollImg": true
+      },
+      {
+        "type": "DataTable",
+        "thumbnailSrc": "core/Table_icon.svg",
+        "isResource": true,
+        "allowClick": true,
+        "title": "Table 1.",   
+        "tableWidth":"360px",
+        "content": "Table 1.",
+        "sr": 13,
+        "maxLength": 20,
+        "header": [
+          {
+            "text": "Color",
+            "colWidth": "50%"
+          },
+          {
+            "text": "Wavelength",
+            "colWidth": "50%"
+          }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Violet"
+            },
+            {
+              "type": "text",
+              "align": "center",
+              "text": "380-450 nm"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Blue"
+            },
+            {
+              "type": "text",
+              "align": "center",
+              "text": "450-495 nm"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Green"
+            },
+            {
+              "type": "text",
+              "align": "center",
+              "text": "495-570 nm"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Yellow"
+            },
+            {
+              "type": "text",
+              "align": "center",
+              "text": "570-590 nm"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Orange"
+            },
+            {
+              "type": "text",
+              "align": "center",
+              "text": "590-620 nm"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "align": "center",
+              "text": "Red"
+            },
+            {
+              "type": "text",
+              "align": "center",
+              "text": "620-750 nm"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Experimental Design Diagram",
+        "src": "courses_2023/Physics/580266/580266_Physics_ED_001.svg",
+        "altText": "A map of the procedural workflow for this investigation. To prepare, assemble the screen and diffraction grating. Then, calibrate the laser and grating. In activity 1, photograph the setup, dim the lights, and move the diffraction grating to observe the interference pattern. Next, measure the distance from the grating to the screen. Then, mark, label and measure the distance between the dots. Next, photograph the labeled screen. Then, calculate the angular location of each dot, the split spacing of the diffraction grating, and the average wavelength of the laser. Next, estimate the wavelength uncertainty. In the extension activity, make a prediction about the diffraction of white light. Then, assemble a flashlight and cardboard pinhole and repeat activity 1. Next, set up the laser with a CD or DVD and the screen, measure the location of dots and estimate the split spacing. Finally, you will remove the reflective coating from the CD or DVD and repeat activity 1.",
+        "maxWidth": "1500px",
+        "scrollImg": true
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6290143757001",
+        "content": "Camera Recording Techniques - Physics"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 1. Activity 1 apparatus setup",
+        "src": "courses_2023/Physics/580266/580266_Physics_fig_001.svg",
+        "altText": "Figure 1: labeled demonstration of laser pointer setup as described in the preparation",
+        "maxWidth": "680px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 2. Identifying and labeling <span style='whiteSpace: nowrap'>order (n)</span>",
+        "src": "courses_2023/Physics/580266/580266_Physics_fig_002.svg",
+        "altText": "Figure 2: measuring the distance (L) from the diffraction grating to the central dot and labeling the 5 dots ordered from n equals negative 2 to n equals 2",
+        "maxWidth": "530px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 2. Tangent",
+        "src": "courses_2023/Physics/580266/580266_Equation_002.svg",
+        "altText": "Equation 2: tan theta sub n equals begin fraction x sub n over L end fraction",
+        "maxWidth": "185px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 3. Calculating laser’s wavelength",
+        "src": "courses_2023/Physics/580266/580266_Equation_003.svg",
+        "altText": "Equation 3: lambda equals begin fraction begin paren d sine theta sub n end paren over n end fraction",
+        "maxWidth": "170px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 4. Average wavelength",
+        "src": "courses_2023/Physics/580266/580266_Equation_004.svg",
+        "altText": "Equation 4: delta lambda sub avg equals begin fraction 1 over 2 end fraction begin paren lambda sub max minus lambda sub min end paren",
+        "maxWidth": "240px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 3. Extension Activity 1A apparatus setup",
+        "src": "courses_2023/Physics/580266/580266_Physics_fig_003.svg",
+        "altText": "Figure 3: The back of cardboard showing a circular beam of white light shining around the slit mask.<br>The front of cardboard showing the tightly collimated beam of white light shining through the slit mask.",
+        "maxWidth": "520px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 4. Extension Activity 1B apparatus setup",
+        "src": "courses_2023/Physics/580266/580266_Physics_fig_004.svg",
+        "altText": "Figure 4: A laser beam is reflected off a CD or DVD, demonstrating the distance (L) and the location of the dots on the screen",
+        "maxWidth": "360px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 5. Using a CD as a transmission diffraction grating",
+        "src": "courses_2023/Physics/580266/580266_Physics_fig_005.svg",
+        "altText": "Figure 5: A laser beam travels through the transparent CD, demonstrating the disc as a transmission diffractive grating",
+        "maxWidth": "381px",
+        "scrollImg": true
+      }
+      
+      
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Constructive interference",
+        "content": "If two waves are in phase, their oscillations result in an amplitude that is larger than the individual waves"
+      },
+      {
+        "title": "Destructive interference",
+        "content": "Occurs when two waves are out of phase and cancel each other out"
+      },
+      {
+        "title": "Diffraction grating",
+        "content": "A thin film of clear glass or plastic that has a large number of closely spaced lines etched into it"
+      },
+      {
+        "title": "Interference pattern",
+        "content": "Waves that interact with each other and result in destructive and constructive interference"
+      },
+      {
+        "title": "Interferometer",
+        "content": "An instrument in which the interference of two beams of light is employed to make precise measurements"
+      },
+      {
+        "title": "Wavelength",
+        "content": "The distance between any two identical points on a waveform"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

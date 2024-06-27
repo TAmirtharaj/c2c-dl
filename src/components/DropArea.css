@@ -1,0 +1,108 @@
+/** @format */
+.drop-area {
+  display: flex;
+}
+
+.drop-text {
+  width: auto;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.drop-box-item {
+  width: 18.5vw;
+  height: 5.5vh;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.drop-box-questions {
+  position: relative;
+  width: 28.5vw;
+}
+
+.image-box {
+  display: flex;
+}
+
+.drop-box-img {
+  margin-right: 20px;
+}
+.drop-box {
+  background-color: white;
+  border: 2px dashed #707070;
+  border-radius: 5px;
+  opacity: 1;
+  position: absolute;
+}
+.drop-box-item-holder {
+  width: auto;
+  height: 5.5vh;
+  /* margin-bottom: 15px; */
+  position: absolute;
+  line-height: 1;
+}
+.drop-box-holder {
+  margin-left: 35px;
+  width: 18.5vw;
+  position: relative;
+}
+
+.sign-drop-box {
+  position: absolute;
+  vertical-align: top;
+  left: -25px;
+  cursor: default;
+  margin-bottom: -0.2em;
+  pointer-events: none;
+}
+.dropped {
+  position: absolute;
+  width: 18.5vw;
+  height: 5.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #3bbfad;
+  border: 2px solid #707070;
+  border-radius: 5px;
+  opacity: 1;
+  cursor: pointer;
+  line-height: 1;
+  color: "#000000";
+
+  font-size: 0.85em;
+}
+.drag-option.disabled {
+  pointer-events: none;
+}
+@media only screen and (min-device-width: 300px) and (max-device-width: 1000px) and (orientation: landscape) {
+  .dropped {
+    width: 19.5vw;
+    height: 7.5vh;
+    font-size: 0.8em;
+  }
+
+  .drop-box-item {
+    width: 19.5vw;
+    height: 7.5vh;
+    margin-bottom: 11px;
+  }
+
+  .drop-box-item-holder {
+    width: 32vw;
+    height: 7.5vh;
+    font-size: 0.8em;
+  }
+  .drop-box-holder {
+    /* margin-left: 65px; */
+  }
+
+  .drag_drop_holder {
+    height: 24vw;
+  }
+}

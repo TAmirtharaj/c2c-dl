@@ -1,0 +1,2614 @@
+{
+  "locked": true,
+  "courseTitle": "Ohm’s Law",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Physics_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/bodyBookmark.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/TakeSnapshot.svg",
+    "core/disposalAndCleanupIcon.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Physics_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Physics",
+                "titleName2": "Ohm’s Law",
+                "images": {
+                  "logo": "core/Physics_Subject_Icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "waterMark": true,
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this experiment, students will create various circuits and take measurements to prove <button class='glossary-text'>Ohm’s law</button>."
+                },
+                {
+                  "type": "List",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Digital camera or mobile device capable of taking photos"
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Physics/580272/580272_Physics_Time-Requirement.svg",
+                  "altText": "Activity 1: Exploring Ohm’s Law\n                 Resistors – 20 minutes \n                 Voltage Drop – 30 minutes \n                 Kirchhoff’s Equations – 40 minutes",
+                  "containerType": "rightContainer",
+                  "scrollImg": true,
+                  "imgDivWidth": "475px",
+                  "maxWidth": "520px"
+                }
+              ]
+            },
+            {
+              "waterMark": true,
+              "template": "OverView",
+              "title": "Overview (cont... )",
+              "pageTitle": "Overview (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Overview Video: Newton’s Laws of Motion"
+                },
+                {
+                  "type": "Video",
+                  "desc": "Overview Video",
+                  "imgDivWidth": "200px",
+                  "image": "courses_2023/Physics/580272/580272_Physics_VideoIcone.svg",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6338381736112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Build a circuit.",
+                    "Use <button class='glossary-text'>Ohm’s law</button> to explore the relationships between <button class='glossary-text'>current</button>, <button class='glossary-text'>resistance</button>, and <button class='glossary-text'>potential</button> differences in an electric circuit. ",
+                    "Graph current vs. resistance data.",
+                    "Determine currents in loops using Kirchhoff’s laws.",
+                    "Using the scientific method, demonstrate an understanding of circuits by collecting and analyzing data, drawing conclusions, and documenting results."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Have you ever touched a door handle or shaken someone’s hand and felt an electrical shock? These types of shocks occur because electrons are passed from the object to your hand. These types of shocks are minor and do not generally result in significant injury. Major shocks, however, are responsible for approximately 1,000 deaths every year in the United States. Of these deaths, approximately 400 are due to high-voltage electrical injuries; lightning strikes cause 50 to 300 of these events and 20% of all electrical injuries occur in children<sup class='bodySupscript'>1</sup>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Low-frequency AC causes prolonged muscle contraction, known as tetany. This contraction makes it difficult for a person being shocked to let go of the <button class='glossary-text'>current’s</button> source, thus prolonging the length of exposure and potentially increasing the tissue damage. In contrast, DC only causes a single contraction and often propels the person away from the current’s source. As a result, electrical injuries caused by <span style='whiteSpace: nowrap'>low-frequency</span> AC are three to five times more damaging than DC of equal voltage and current<sup class='bodySupscript'>1</sup>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'><sup class='bodySupscript'>1</sup> Zemaitis, M.R., Foris, L.A., Lopez, R.A., et al. (9 September 2022). Electrical Injuries. <span class='bodyFontItalic'>StatPearls.</span>.<br><span target='blank' style=' word-break: break-all'>https://www.ncbi.nlm.nih.gov/books/NBK448087/ </span></span>"
+                },
+
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580272/580272_Physics_whyShouldICare.svg",
+                  "altText": "A bolt of lightening in a dark sky.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Electrical circuits are closed-loop devices with an <button class='glossary-text'>electromotive force (emf)</button>, and electronic components and electronic components (i.e., <button class='glossary-text'>resistors</button>, <button class='glossary-text'>transistors</button>, <button class='glossary-text'>capacitors</button>, motors) to perform some task. Typically, either a battery or a power supply provides the circuit with the emf to generate <button class='glossary-text'>current</button> in the circuit. The <button class='glossary-text'>potential</button>, <span class='bodyFontItalic'>V</span>, is measured in terms of volts, defined as 1 Joule/coulomb. Current, <span class='bodyFontItalic'>I</span>, is the magnitude of the moving charge carriers in a circuit. Current is measured in the unit ampères, A, which is defined as one coulomb of charge passing a single point in one second (1 C/s). To put this into perspective, electrons have a charge of <span style='whiteSpace: nowrap'>–1.6 x 10<sup class='bodySupscript'>–19</sup></span>C, so this would represent <span style='whiteSpace: nowrap'>6.25 x 10<sup class='bodySupscript'>18</sup> electrons passing</span>  a point in one second."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Resistance</button>, <span class='bodyFontItalic'>R</span>, is a material’s opposition to the movement of charge carriers. All matter has some resistance to electrical flow measured in terms of the ohm, Ω, which is defined as 1<span class='bodyFontItalic'>V</span>/A. There are specific electronic devices that are used to reduce voltage in a circuit by converting the electronic energy to heat. These are called resistors. There are various types of resistor construction, but the ones used in this experiment are called composition resistors because of their construction. The wire leads enter into the resistor and terminate at a composite material. The composite material is a mixture of carbon dust and ceramic powders. The percentage of the ceramic dust in the resistor determines the resistance of the device. Ceramic is an insulator, impeding the charge carriers to traverse the material from carbon atom to carbon atom. A cross section of a composition resistor looks like Figure 1."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580272/580272_Physics_fig_001.svg",
+                  "imgDivWidth": "340px",
+                  "maxWidth": "385px",
+                  "scrollImg": true,
+                  "altText": "Figure 1: a cross section of a composition resistor, labeling the ceramic core, carbon film, nickel cap, lead, and protective lacquer"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "To label the <button class='glossary-text'>resistance</button> of the <button class='glossary-text'>resistor</button>, the resistor has colored bands printed on it (see Figure 2)."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580272/580272_Physics_fig_002.svg",
+                  "imgDivWidth": "340px",
+                  "maxWidth": "385px",
+                  "scrollImg": true,
+                  "altText": "Figure 2: from left to right, the brown, gray, red and silverr bands stamped on a resistor"
+                },
+                {
+                  "type": "Plain",
+                  "text": "The 4 bands, ABCD, provide the resistance in a scientific notation style: <span style='whiteSpace: nowrap'>AB × 10<sup class='bodySupscript'>C</sup> ± D Ω.</span> The first three values are determined by these colors: <span style='whiteSpace: nowrap'>black = 0,</span> <span style='whiteSpace: nowrap'>brown = 1,</span> <span style='whiteSpace: nowrap'>red = 2,</span> <span style='whiteSpace: nowrap'>orange = 3,</span> <span style='whiteSpace: nowrap'>yellow = 4,</span> <span style='whiteSpace: nowrap'>green = 5,</span> <span style='whiteSpace: nowrap'>blue = 6,</span> <span style='whiteSpace: nowrap'>violet = 7,</span> <span style='whiteSpace: nowrap'>gray = 8,</span> and <span style='whiteSpace: nowrap'>white = 9.</span> The fourth band, or tolerance, is either gold, ± 5%, or silver, ±10%."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>Equation 1 represents the relationship between <span class='bodyFontItalic'>V</span>, <span class='bodyFontItalic'>I</span>, and <span class='bodyFontItalic'>R</span>, also known as <button class='glossary-text'>Ohm’s law</button>.</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580272/580272_Equation_001.svg",
+                  "imgDivWidth": "101px",
+                  "maxWidth": "135px",
+                  "scrollImg": true,
+                  "altText": "Equation 1: V equals I times R"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span style='padding-bottom:5px;display:block;'>Sometimes circuits are more complex and cannot be readily solved by Ohm’s law. For these, we can use <button class='glossary-text'>Kirchhoff’s current and voltage laws</button>. The <button class='glossary-text'>current</button> law states that the total charge entering a circuit junction is equal to the charge leaving that junction. For the junction in Figure 3, with two entering currents (<span class='bodyFontItalic'>I</span><sub class='bodysubscript'>1</sub> and <span class='bodyFontItalic'>I</span><sub class='bodysubscript'>2</sub>) and two exiting currents (<span class='bodyFontItalic'>I</span><sub class='bodysubscript'>3</sub> and <span class='bodyFontItalic'>I</span><sub class='bodysubscript'>4</sub>), we can apply the current law.</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580272/580272_Equation_002.svg",
+                  "imgDivWidth": "152px",
+                  "maxWidth": "200px",
+                  "scrollImg": true,
+                  "altText": "Equation 2: begin equation I sub 1 plus I sub 2 equals I sub 3 plus I sub 4 end equation. Begin equation I sub 1 plus I sub 2 minus I  sub 3 minus I sub 4 equals zero end equation."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580272/580272_Physics_fig_003.svg",
+                  "imgDivWidth": "210px",
+                  "maxWidth": "235px",
+                  "scrollImg": true,
+                  "altText": "Figure 3: a junction with four currents: I sub 1 and I sub 2 leading toward the central node and I sub 3 and I sub 4 leading away from the central node"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Kirchhoff’s voltage law</button> states that in a closed loop within a circuit, the total voltage around the loop is equal to the sum of all the voltage drops in that loop. Consider the circuit in Figure 4."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580272/580272_Physics_fig_004.svg",
+                  "imgDivWidth": "340px",
+                  "maxWidth": "380px",
+                  "scrollImg": true,
+                  "altText": "Figure 4: a circuit with labeled voltage drops at each resistor"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Using both laws to solve for a circuit, you must first determine an arbitrary direction for <button class='glossary-text'>current</button> in each loop and branch. For the circuit in Figure 5, the red arrows, representing current, were chosen in the direction of the arrows. Then voltage drops were labeled at each <button class='glossary-text'>resistor</button> based upon the chosen direction of the current. Current entering the resistor is labeled (+) and exiting (–). Finally, the voltage sources are labeled as per their poles in the schematic."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580272/580272_Physics_fig_005.svg",
+                  "imgDivWidth": "420px",
+                  "maxWidth": "470px",
+                  "scrollImg": true,
+                  "altText": "Figure 5: Current loops 1, 2 and 3 with red arrows indicating current and voltage drops based on the current direction"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>Then apply Kirchhoff’s law to all but one junction. <button class='glossary-text'>Current</button> into a junction is positive and current out is negative. In this circuit, there are two junctions, B and E. At junction B, Equation 3 applies.</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580272/580272_Equation_003.svg",
+                  "imgDivWidth": "112px",
+                  "maxWidth": "155px",
+                  "scrollImg": true,
+                  "altText": "Equation 3: I sub 3 minus I sub 2 minus I sub 1 equals zero"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Finally, we can solve for the entire circuit. You must choose enough loops that encompass it though. In this case, Loops 1 and 2 suffice. There is a third loop to consider, Loop 3, but Loop 1 and Loop 2 address all parts of the circuit."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span style='padding-bottom:5px;display:block;'>Going clockwise in Loop 1 and beginning at point A, we first encounter <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>1</sub>, which has a <button class='glossary-text'>potential</button> increase (− to +), so that is +<span class='bodyFontItalic'>I</span><sub class='bodysubscript'>1</sub> <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>1</sub>. We then encounter the voltage source between B and E, which in this direction goes from + to −, so this is a voltage drop, −<span class='bodyFontItalic'>V</span><sub class='bodysubscript'>2</sub>. Next is R<sub class='bodysubscript'>3</sub>, also going from − to +, so this potential increase gives, +<span class='bodyFontItalic'>I</span><sub class='bodysubscript'>1</sub> <span class='bodyFontItalic'>R</span><sub class='bodysubscript'>3</sub>. Finally, we close the loop at V<sub class='bodysubscript'>1</sub>, which like V<sub class='bodysubscript'>2</sub>, is also a voltage drop, −<span class='bodyFontItalic'>V</span>1. Since Kirchhoff’s Law states that all voltage drops must equal zero, Equation 4 applies.</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580272/580272_Equation_004.svg",
+                  "imgDivWidth": "225px",
+                  "maxWidth": "295px",
+                  "scrollImg": true,
+                  "altText": "Equation 4: positive I sub 1 R sub 1 minus V sub 2 plus I sub 1 R sub 3 minus V sub 1 equals zero"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span style='padding-bottom:5px;display:block;'>Performing the same process around Loop 2, beginning at point B and moving clockwise, we get Equation 5.</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580272/580272_Equation_005.svg",
+                  "imgDivWidth": "181px",
+                  "maxWidth": "250px",
+                  "scrollImg": true,
+                  "altText": "Equation 5: negative I sub 2 R sub 2 minus I sub 2 R sub 4 plus V sub 2 equals zero"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Using these three equations and making appropriate substitutions, we can solve for all currents."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "imageData": {
+                    "image": "courses_2023/Physics/580272/580272_Physics_KCQ_001.svg",
+                    "altText": "A circuit schematic made up of a loop within a loop. The larger loop has a +5-volt capacitor. The nested loop consists of two parallel 2-ohm resistors.",
+                    "imgDivWidth": "270px",
+                    "maxWidth": "320px"
+                  },
+                  "question": "What is the value of the current that is going through the topmost resistor?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "2.5 A",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "1.25 A",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "5 A",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "10 A",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "20 A",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The total resistance of a circuit with resistors in parallel can be calculated by:  <span className=bodyParaLineBreak>1/<span class='bodyFontItalic'>R</span> = ½ + ½ <span className=bodyParaLineBreak><span class='bodyFontItalic'>R</span> = 1 Ω <span className=bodyParaLineBreak>Using Ohm’s law, we have:<span className=bodyParaLineBreak><span class='bodyFontItalic'><span class='bodyFontItalic'>V</span></span> = <span class='bodyFontItalic'>IR</span><span className=bodyParaLineBreak>(5V) = <span class='bodyFontItalic'>I</span>(1 Ω)<span className=bodyParaLineBreak><span class='bodyFontItalic'>I</span> = 5 A<span className=bodyParaLineBreak><button class='glossary-text'>Kirchhoff’s current law</button> states that the current entering a junction equals the sum of the current leaving the junction.  Since both resistors have the same resistance, the current splits equally and we will have 2.5 A through the 2 Ω resistor."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "imageData": {
+                    "image": "courses_2023/Physics/580272/580272_Physics_KCQ_002.svg",
+                    "altText": "A circuit schematic made up of a single loop. From the positive end to the negative end of the +20-volt capacitor, the circuit is connected to a 500-ohm resistor and a 100-ohm resistor.",
+                    "imgDivWidth": "270px",
+                    "maxWidth": "320px"
+                  },
+                  "question": "What is the voltage drop across the 500 Ω resistor?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "16.67 V",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "3.33 V",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "0.04 V",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "0.2 V",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "10 V",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The total resistance of a circuit with resistors in series can be calculated by<span className=bodyParaLineBreak><span class='bodyFontItalic'>R</span> = 500 Ω + 100 Ω = 600 Ω<span className=bodyParaLineBreak>Use Ohm’s law to calculate the current of the circuit:<span className=bodyParaLineBreak><span class='bodyFontItalic'>V = IR</span><span className=bodyParaLineBreak>20 V = <span class='bodyFontItalic'>I</span>(600 Ω)<span className=bodyParaLineBreak><span class='bodyFontItalic'>I</span> = 0.03 A<span className=bodyParaLineBreak>Use Ohm’s law again to determine the voltage drop across the 500 Ω resistor:<span className=bodyParaLineBreak><span class='bodyFontItalic'>V = IR</span><span className=bodyParaLineBreak><span class='bodyFontItalic'>V</span> = (0.03 A)(500 Ω)<span className=bodyParaLineBreak><span class='bodyFontItalic'>V</span> = 16.67 <span class='bodyFontItalic'>V</span> "
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "We can use Ohm’s law to determine the current for the entire circuit, but we must apply Kirchhoff’s current law to determine the amount of current that goes through each resistor.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580272/580272_Physics_fig_003.svg",
+                      "alt": "Figure 3: a junction with four currents: I sub 1 and I sub 2 leading toward the central node and I sub 3 and I sub 4 leading away from the central node",
+                      "maxWidth": "200px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "We can use Ohm’s law to determine the current for the entire circuit, but we must apply Kirchhoff’s current law to determine the amount of current that goes through each resistor.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Physics/580272/580272_Physics_fig_003.svg",
+                      "alt": "Figure 3: a junction with four currents: I sub 1 and I sub 2 leading toward the central node and I sub 3 and I sub 4 leading away from the central node",
+                      "maxWidth": "200px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Using a Breadboard",
+                  "text": "The breadboards in your materials kit (see Figure 6) permit you to “build” your circuit without having to permanently attach the components through soldering."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580272/580272_Physics_fig_006.svg",
+                  "imgDivWidth": "430px",
+                  "maxWidth": "500px",
+                  "scrollImg": true,
+                  "altText": "Figure 6: solderless breadboard"
+                },
+                {
+                  "type": "Plain",
+                  "text": "The breadboard has many strips of metal (copper usually) that run underneath the board. The metal strips (yellow lines) are laid out as shown in Figure 7."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580272/580272_Physics_fig_007.svg",
+                  "imgDivWidth": "500px",
+                  "maxWidth": "560px",
+                  "scrollImg": true,
+                  "altText": "Figure 7: a breadboard with the metal strips in yellow"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "These strips connect the holes on the top of the board. This makes it easy to connect components together to build circuits. To use the breadboard, the wires of components are placed in the holes (the sockets). The holes are made so that they will hold the component in place. Each hole is connected to one of the metal strips running underneath the board. Basically, those drawn lines over the holes show what holes are connected to one another. Typically, the long rows of holes on the long sides are used for power supply connections. A circuit is built by placing components and connecting them together with wires (your circuit must be a complete loop, with all “lines” connected)."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "When a path is formed by wires and components from the positive supply node to the negative supply node, we can turn on the power and <button class='glossary-text'>current</button> flows through the path and the circuit works as connected. Figure 8 provides examples of how connections are made to form series and parallel circuits."
+                },
+
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580272/580272_Physics_fig_008.svg",
+                  "imgDivWidth": "490px",
+                  "maxWidth": "560px",
+                  "scrollImg": true,
+                  "altText": "Figure 8: two breadboards: one showing connections made to form a series circuit and the other showing connections to form a parallel circuit"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "subTitle": "The DMM",
+                  "text": "The <button class='glossary-text'>Digital Multimeter (DMM)</button> is an indispensable tool in the electronics laboratory for the measurement of voltage, <button class='glossary-text'>resistance</button>, and current. First, plug the black probe into the COM (common) port of the DMM. That probe will always remain in that port no matter what measurement is being made. To measure voltage, resistance, and very small currents (milliampères), the red probe should be plugged into the port labeled VΩmA. Of course, you will need to turn the dial from the “OFF” setting to the appropriate unit and scale for measure. If your DMM displays the letters OL, you are on the wrong scale; the DMM is measuring higher than that scale will allow. If you need to measure currents larger than 200 mA, you need to plug the red probe into the port labeled 10 ADC (10 ampères max, DC). This port runs the measured current through a fuse, so if the current is too high, the fuse blows instead of the DMM. For measuring voltages and resistances, probe either side of the circuit component(s), or in other words, put the DMM in the circuit in parallel with the voltage or resistance you want to measure <span style='whiteSpace: nowrap'>(see Figure 9).</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580272/580272_Physics_fig_009.svg",
+                  "imgDivWidth": "340px",
+                  "maxWidth": "410px",
+                  "scrollImg": true,
+                  "altText": "Figure 9: a resistor with back and red arrows on either side showing the digital multimeter is part of the circuit"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "To measure <button class='glossary-text'>current</button>, the DMM needs to be <span class='bodyFontItalic'>part</span> of the circuit, connected in series. Break the circuit at the point you wish to measure the current and place the probes on either side of the break (see Figure 10)."
+                },
+                {
+                  "type": "Plain",
+                  "text": "That will ensure that the DMM is providing correct measurements. <span class=bodyFontBold>If you connect the DMM to a circuit in parallel while measuring current, you will likely destroy the DMM</span>."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Physics/580272/580272_Physics_fig_010.svg",
+                  "imgDivWidth": "340px",
+                  "maxWidth": "410px",
+                  "scrollImg": true,
+                  "altText": "Figure 10: a resistor with black and red arrows on the right, demonstrating a break in the circuit "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "altText": "A map of the procedural workflow of this investigation. In Activity 1, you will measure the resistance of the resistors. Then, you will build the diagramed circuit and measure the current. Next, you will add additional resistors in series and measure the total resistance and current. Once you have added all of the circuits, you will graph current versus 1 over resistance. Then, you will build the new diagramed circuit, attach the multimeter in series at the specified location and measure the current in the circuit at the given locations.  Next, you will disconnect the multimeter. Once you have tested all of the locations, disconnect the circuit. Then, you will design and build your own circuit with the given parameters. Next, you will draw a schematic of the circuit and photograph it. Then, you will measure the current at the specified locations. Finally, once you have tested both circuits, you will evaluate them using Kirchoff’s equations.",
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Physics/580272/580272_Physics_ED_001.svg",
+                  "imgDivWidth": "1220px",
+                  "maxWidth": "1600px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "100%",
+                    "L": "95%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "90%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Needed from the equipment kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Digital multimeter",
+                          "image": "courses_2023/Physics/580272/580272_Physics_material_1.svg",
+                          "altText": "Digital multimeter"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "2 wires, 1 red and 1 black, 6 inches",
+                          "image": "courses_2023/Physics/580272/580272_Physics_material_2.svg",
+                          "altText": "6 inch red and black wire"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "AA battery cap with bare lead wires",
+                          "image": "courses_2023/Physics/580272/580272_Physics_material_3.svg",
+                          "altText": "AA battery holder with wire"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "2 AA batteries",
+                          "image": "courses_2023/Physics/580272/580272_Physics_material_4.svg",
+                          "altText": "2 AA batteries"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Breadboard",
+                          "image": "courses_2023/Physics/580272/580272_Physics_material_5.svg",
+                          "altText": "Mini breadboard"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "2 Alligator clipped leads, 1 red and 1 black",
+                          "image": "courses_2023/Physics/580272/580272_Physics_material_6.svg",
+                          "altText": "Connector Cords (24 inch)"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Assorted resistors 47, 82, 150, 220, and 330",
+                          "image": "courses_2023/Physics/580272/580272_Physics_material_7.svg",
+                          "altText": "Resistor assortment bundle in clear plastic bag"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": [
+                            "Digital camera or mobile device capable of taking photos"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span> <span className=bodyParaLineBreak></span> <span className=bodyParaLineBreak></span> Replacement supplies for the Ohm’s Law investigation (item number 580272) can be ordered from Carolina Biological Supply Company.<span className=bodyParaLineBreak></span> <span className=bodyMediumSubHeading>Call:</span> 866.332.4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "isCheckPoint": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Wear your safety goggles at all times while conducting this investigation. Read all the instructions for the activities before beginning. Follow the instructions closely, and observe established laboratory safety practices, including the use of appropriate personal protective equipment."
+                },
+                {
+                  "type": "Image",
+                  "desc": "goggles symbol",
+                  "altText": "goggles symbol",
+                  "image": "core/Key_Goggle.svg",
+                  "imgDivWidth": "78px",
+                  "maxWidth": "120px"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Do not eat, drink, or chew gum while performing this investigation. Wash your hands with soap and water before and after the investigation and clean the work area with soap and water after finishing. Keep pets and children away from lab materials and equipment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.</span>",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the current of a circuit created with a 5 V emf and a 100 Ω resistor? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "0.05 A",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "0.5 A",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "5.0 A",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "50 A",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "500 A",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which statement about Kirchhoff’s voltage law is true?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "In a closed loop within a circuit, the total voltage around the loop is equal to the sum of all the voltage drops in that loop.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "In a closed loop within a circuit, the total voltage around the loop is equal to zero.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The total charge entering a circuit junction is equal to the charge leaving that junction.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The total charge entering a circuit junction is less than the charge leaving that junction.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The total charge entering a circuit junction is greater than the charge leaving that junction.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which statement about Kirchhoff’s current law is true?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The total charge entering a circuit junction is equal to the charge leaving that junction.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "In a closed loop within a circuit, the total voltage around the loop is equal to the sum of all the voltage drops in that loop.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "In a closed loop within a circuit, the total voltage around the loop is equal to zero.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The total charge entering a circuit junction is less than the charge leaving that junction.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The total charge entering a circuit junction is greater than the charge leaving that junction.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Consider the following circuit. What is the value of X if the current in this circuit is 0.025 A?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "imageData": {
+                        "image": "courses_2023/Physics/580272/580272_Physics_img_001.svg",
+                        "altText": "A circuit schematic made up of a +5-volt capacitor connected to a resistor labeled X.",
+                        "imgDivWidth": "70%",
+                        "maxWidth": "25%"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "200 Ω",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "0.125 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "0.005 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "1.25 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "2000 Ω",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Consider the following circuit. What is the current in this circuit?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "imageData": {
+                        "image": "courses_2023/Physics/580272/580272_Physics_KCQ_002.svg",
+                        "altText": "A circuit schematic made up of a single loop. From the positive end to the negative end of the +20-volt capacitor, the circuit is connected to a 500-ohm resistor and a 100-ohm resistor.",
+                        "imgDivWidth": "80%",
+                        "maxWidth": "30%"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "0.033 A",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "0.24 A",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": " 0.05 A",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "1.2 A",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "1200 A",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What is the current in this circuit?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "imageData": {
+                        "image": "courses_2023/Physics/580272/580272_Physics_KCQ_001.svg",
+                        "altText": "A circuit schematic made up of a loop within a loop. The larger loop has a +5-volt capacitor. The nested loop consists of two parallel 2-ohm resistors.",
+                        "imgDivWidth": "80%",
+                        "maxWidth": "30%"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "5 A",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "10 A",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "12.5 A",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "2.5A",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "1.25 A",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "How do you connect your digital multimeter when you want to measure the current going through a resistor? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "in series, next to the resistor",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "in series before the voltage source",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "in parallel with the resistor",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "in parallel with the voltage source",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "in series with the voltage source, but in parallel with the resistor",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "How do you connect your digital multimeter when you want to measure the voltage drop across a resistor?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "in parallel with the resistor",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "in parallel with the voltage source",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "in series AFTER the resistor",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "in series BEFORE the resistor",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "in series with the voltage source",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (3 steps)",
+              "pageTitle": "Preparation (3 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure",
+              "keyID": "prep",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Create a work space."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Read through the activities."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Obtain the required materials."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will build circuits, measure their <button class='glossary-text'>resistance</button>, and measure the <button class='glossary-text'>current</button> in the circuit. You will then modify the resistance of the circuits and/or the location of measurement and measure the resulting current. You will also design your own circuits, measure the currents at specified locations and use circuit diagrams and Kirchoff’s equations to evaluate your measurements."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Exploring Ohm’s Law",
+              "pageTitle": "Exploring Ohm’s Law",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "activity1",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>A</div>&nbsp;Resistors (7 steps)"
+                      }
+                    ],
+                    "text": "Insert an AA battery (1.5 volts) into the battery cap with bare wire ends."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Choose the <button class='glossary-text'>resistor</button> with the greatest <button class='glossary-text'>resistance</button>, measure its resistance, and record the measurement in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 1</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Insert the resistor into the breadboard with each end in different rows, similar to Figure 11."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580272/580272_Physics_fig_011.svg",
+                    "imgDivWidth": "530px",
+                    "maxWidth": "620px",
+                    "scrollImg": true,
+                    "altText": "Figure 11: a breadboard, showing each end of the resistor in different rows"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Create a circuit of the battery and resistor. One of the battery wires should be inserted in the row on one side of the resistor. The other battery wire should be connected in series to one of the DMM probes using alligator clip wires. The other probe of the DMM should be alligator clipped to a wire, which should be inserted into the breadboard at the other side of the resistor (see Figure 12, which has four resistors in parallel, and Figure 13)."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580272/580272_Physics_fig_012.svg",
+                    "imgDivWidth": "530px",
+                    "maxWidth": "620px",
+                    "scrollImg": true,
+                    "altText": "Figure 12: the battery and resistor circuit as described in Step 4"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580272/580272_Physics_fig_013.svg",
+                    "imgDivWidth": "530px",
+                    "maxWidth": "620px",
+                    "scrollImg": true,
+                    "altText": "Figure 13: a close view of the breadboard and the placement of the resistors and battery wires"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Turn the DMM on, and set it to the 20m setting on DCA, which will measure <button class='glossary-text'>current</button>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat Steps 2 through 5 for the remaining four resistors, adding each in series and adjusting the circuit appropriately on the breadboard. You may need to move the current scale on the DMM down to the 2000μ scale for adequate precision of measurement as the total resistance increases. Record your measurements for current in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 1</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Graph the data (<span class='bodyFontItalic'>x</span> = 1/<span class='bodyFontItalic'>R</span>, <span class='bodyFontItalic'>y</span> = <span class='bodyFontItalic'>I</span> ), and plot a linear regression through the points. The slope of this line should be V, the voltage of the battery."
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1 (cont... )",
+          "pages": [
+            {
+              "title": "Exploring Ohm’s Law",
+              "pageTitle": "Exploring Ohm’s Law",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "activity2",
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "startNewNumber": true,
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>B</div>&nbsp;Voltage Drop (13 steps)"
+                      }
+                    ],
+                    "text": "Build the circuit diagrammed in Figure 14 using the breadboard. Figure 15 shows how the circuit should appear."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580272/580272_Physics_fig_014.svg",
+                    "imgDivWidth": "250px",
+                    "maxWidth": "300px",
+                    "scrollImg": true,
+                    "altText": "Figure 14: schematic of the circuit, with 220 ohms and 330 ohms horizontally at the top, 82 ohms vertically, and 47 ohms and 150 ohms horizontally at the bottom"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580272/580272_Physics_fig_015.svg",
+                    "imgDivWidth": "530px",
+                    "maxWidth": "600px",
+                    "scrollImg": true,
+                    "altText": "Figure 15: breadboard with the circuit shown in Figure 14"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "To this circuit, add 2 AA batteries as shown in Figure 16. <span class=bodyFontBold>Do not</span> insert <span class='bodyFontItalic'>both</span> wires from each battery into the breadboard at this point."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580272/580272_Physics_fig_016.svg",
+                    "imgDivWidth": "320px",
+                    "maxWidth": "400px",
+                    "scrollImg": true,
+                    "altText": "Figure 16: the schematic from Figure 14, with plus 1.5 volts added to the right and left side"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Insert the red wire from the rightmost battery to the breadboard in the same row as the 150Ω resistor. Using the alligator clipped wires and 1 red wire, connect the DMM to this circuit in series at the point in the circuit highlighted in a red circle (see Figure 17). You will be measuring the current in the left loop."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580272/580272_Physics_fig_017.svg",
+                    "imgDivWidth": "320px",
+                    "maxWidth": "400px",
+                    "scrollImg": true,
+                    "altText": "Figure 17: Figure 16 schematic with the lower left corner circled in red"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "This should look like Figure 18. Notice the black DMM probe is clipped to the black wire of the left battery and the red probe of the DMM is connected to the breadboard in the row of the 47Ω resistor through the bare end red wire and alligator clipped red wire."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580272/580272_Physics_fig_018.svg",
+                    "imgDivWidth": "540px",
+                    "maxWidth": "620px",
+                    "scrollImg": true,
+                    "altText": "Figure 18: breadboard and DMM described in Figure 17 and Step 4"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Turn on the DMM to 20m range in DCA, and record the current in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 2</span>.</span> Turn off the DMM, and disconnect from the circuit. Disconnect the red wire of the rightmost battery from the breadboard."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Insert the black wire from the leftmost battery into the breadboard in the same row as the 47Ω resistor. Using the alligator clipped wires and 1 bare black wire, connect the DMM to this circuit <span class=bodyFontBold>in series</span> at the point in the circuit highlighted in a red circle (see Figure19). You will be measuring the current in the right loop now. In this arrangement, the black DMM probe will be clipped to a black bare end wire and inserted in the same row as the 150Ω resistor and the red probe of the DMM is connected to the right battery’s red wire via an alligator clipped wire."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580272/580272_Physics_fig_019.svg",
+                    "imgDivWidth": "320px",
+                    "maxWidth": "400px",
+                    "scrollImg": true,
+                    "altText": "Figure 19: Figure 16 schematic with the lower right corner circled in red"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Turn on the DMM to 20m range in DCA, and record the current in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 2</span>.</span> Turn off the DMM, and disconnect from the circuit. Disconnect the black wire of the left battery from the breadboard."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Finally, measure the current through the circuit’s bridge, the 82Ω resistor. Disconnect the lower wire of the 82Ω resistor from the breadboard."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Insert the left battery’s black wire into the same row with the 47Ω resistor’s end."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Insert the right battery’s red wire into the same row with the 150Ω resistor’s end."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Connect the DMM to this circuit <span class=bodyFontBold>in series</span> at the point in the circuit highlighted in a red circle by connecting one end of the red alligator clip wire to the red DMM probe and the other end to the end of the resistor and the black alligator clip wire to the black DMM probe and the other end to the end of either the 47Ω or 150Ω resistor at their junction (see Figure 20). The setup should look like Figure 21."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580272/580272_Physics_fig_020.svg",
+                    "imgDivWidth": "320px",
+                    "maxWidth": "400px",
+                    "imgDivWidthForMobile": {
+                      "P": "100%",
+                      "L": "100%"
+                    },
+                    "scrollImg": true,
+                    "altText": "Figure 20: Figure 16 schematic with the lower center bridge circled in red"
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Physics/580272/580272_Physics_fig_021.svg",
+                    "imgDivWidth": "550px",
+                    "maxWidth": "620px",
+                    "imgDivWidthForMobile": {
+                      "P": "100%",
+                      "L": "100%"
+                    },
+                    "scrollImg": true,
+                    "altText": "Figure 21: breadboard and DMM described in Figure 20 and Step 11"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Turn on the DMM to 20m range in DCA, and record the current in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 2</span>.</span> Turn off the DMM, and disconnect from the circuit. Disconnect the batteries from the circuit, and remove all resistors from the breadboard."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Using the current data and the voltage of the batteries, calculate the voltage drop across each resistor in the circuit and include in <span style='whiteSpace: nowrap'><span class=bodyFontBold>Data Table 3</span>.</span>"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1 (cont... )",
+          "pages": [
+            {
+              "title": "Exploring Ohm’s Law",
+              "pageTitle": "Exploring Ohm’s Law",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "activity3",
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "startNewNumber": true,
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "<div className=order-list-text>C</div>&nbsp;Kirchhoff’s equations (5 steps)"
+                      }
+                    ],
+                    "text": "Using the methods used in Activities A and B, create two circuits of your own design. One should use 1 battery and 4 resistors in a combination of series and parallel. The other should use both batteries and four resistors. In that circuit, there should be two distinct loops with one battery in each loop."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Draw the schematic of each circuit."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "For the first circuit, measure the current through each resistor in parallel and the circuit as a whole. Include these values in your schematic drawing."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "For the second circuit, measure the current in each loop and the bridge, if applicable. Include these values in your schematic drawing."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Using the schematic circuits you drew in Step 2, use Kirchhoff's equations to prove that these values are true using the measured resistance for each resistor from Activity A and the currents in this activity.  Then photograph your circuits and equations and upload them to the Lab Notebook.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Return the materials to the kit, and clean the area."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "altText": "completion",
+                  "desc": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Physics_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "landscape A4"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1A"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1. Current Data for Series Circuit "
+              },
+              {
+                "type": "DataTable",
+                "maxLength": 10,
+                "sr": 0,
+                "headerHidden": true,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "10%"
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "30%"
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "25%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span style='color:white; font-weight: 500;'>Resistance",
+                      "hoverText": "Resistance",
+                      "colspan": 2,
+                      "rowHeight": "45px",
+                      "color": "#6b6b6b",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "text": "<span style='color:white; font-weight: 500;'>Total Resistance of Circuit",
+                      "hoverText": "Total Resistance of Circuit",
+                      "colspan": 2,
+                      "rowHeight": "45px",
+                      "color": "#6b6b6b",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    },
+                    {
+                      "type": "text",
+                      "text": "<span style='color:white; font-weight: 500;'>Measured Current (mA) ",
+                      "hoverText": "Measured Current (mA)",
+                      "rowHeight": "45px",
+                      "color": "#6b6b6b",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd65"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span class='bodyFontItalic'>R<sub class='bodysubscript'>1</sub></span>"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "<span class='bodyFontItalic'>R<sub class='bodysubscript'>1</sub></span>"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span class='bodyFontItalic'>R<sub class='bodysubscript'>2</sub></span>"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "<span class='bodyFontItalic'>R<sub class='bodysubscript'>1</sub> + R<sub class='bodysubscript'>2</sub></span>"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span class='bodyFontItalic'>R<sub class='bodysubscript'>3</sub></span>"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "<span class='bodyFontItalic'>R<sub class='bodysubscript'>1</sub> + R<sub class='bodysubscript'>2</sub> + R<sub class='bodysubscript'>3</sub></span>"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span class='bodyFontItalic'>R<sub class='bodysubscript'>4</sub></span>"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "<span class='bodyFontItalic'>R<sub class='bodysubscript'>1</sub> + R<sub class='bodysubscript'>2</sub> + R<sub class='bodysubscript'>3</sub> + R<sub class='bodysubscript'>4</sub></span>"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span class='bodyFontItalic'>R<sub class='bodysubscript'>5</sub></span>"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "<span class='bodyFontItalic'>R<sub class='bodysubscript'>1</sub> + R<sub class='bodysubscript'>2</sub> + R<sub class='bodysubscript'>3</sub> + R<sub class='bodysubscript'>4</sub> + R<sub class='bodysubscript'>5</sub></span>"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Activity1",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1A Graph"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert the graph of <span class='bodyFontItalic'>I</span> versus 1/<span class='bodyFontItalic'>R</span> from Activity 1A Step 7. If you used graphing software, upload the graph image rather than the spreadsheet file. "
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1B"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 2. Current Data"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "header": [
+                  {
+                    "text": "Section ",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Measured Current (mA)",
+                    "colWidth": "60%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Left Loop"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Right Loop"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Bridge "
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 3. Voltage Drop Across Each Resistor in Circuit"
+              },
+              {
+                "type": "DataTable",
+                "sr": 1,
+                "header": [
+                  {
+                    "text": "Resistor",
+                    "colWidth": "20%"
+                  },
+                  {
+                    "text": "Voltage Drop (V)",
+                    "colWidth": "60%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "47 Ω"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "82 Ω"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "150 Ω"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "220 Ω"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "330 Ω"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Activity1",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1C Step 5 Photo – Circuit 1"
+              },
+              {
+                "type": "Plain",
+                "text": "Upload your schematic diagram and Kirchoff’s equations for Circuit 1.<span className=bodyParaLineBreak>Circuit 1 Diagram"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Circuit 1 Kirchoff Equations "
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Activity2",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1C Step 5 Photo – Circuit 2 "
+              },
+              {
+                "type": "Plain",
+                "text": "Upload your schematic diagram and Kirchoff’s equations for Circuit 2.<span className=bodyParaLineBreak>Circuit 2 Diagram"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Circuit 2 Kirchoff Equations"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Lab Notebook",
+        "textAreaId": ["Question1", "Question2"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "Using this circuit, calculate the current in the left loop, right loop, and the bridge section. "
+                ]
+              },
+              {
+                "type": "Image",
+                "image": "courses_2023/Physics/580272/580272_Physics_img_004.svg",
+                "imgDivWidth": "340px",
+                "maxWidth": "385px",
+                "scrollImg": true,
+                "disableClick": false,
+                "altText": "A circuit schematic made up of a left loop and a right loop. In the left loop, from the positive end to the negative end of the +1.5-volt capacitor, the circuit is connected to a 4-ohm resistor and a 6-ohm resistor. In the right loop, from the positive end to the negative end of the +3-volt capacitor, the circuit is connected to the same 6-ohm resistor as the left loop and a 3-ohm resistor."
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 100,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "2",
+                "listType": "ordered",
+                "text": [
+                  "Using Kirchhoff’s rules, determine the voltage for the unknown voltage, <span class='bodyFontItalic'>V</span>, and all the currents in the loops."
+                ]
+              },
+              {
+                "type": "Image",
+                "image": "courses_2023/Physics/580272/580272_Physics_img_005.svg",
+                "imgDivWidth": "290px",
+                "maxWidth": "340px",
+                "disableClick": false,
+                "scrollImg": true,
+                "altText": "A circuit schematic made up of a left loop and a right loop. In the left loop, the top edge has a +1-volt capacitor, and the outside edge of the loop on the positive side of the capacitor is a 5-ohm resistor. In the right loop, the outside edge of the loop has a +1.2-volt capacitor, and the top edge, on the positive side of the capacitor, has a 4-ohm resistor, while the bottom edge has a 1-ohm resistor. The shared edge on the inside of the loops has a 2-ohm resistor near the top edge and a capacitor labeled V near the bottom edge, with the positive end closest to the bottom edge. An arrow along the shared edge points to the bottom edge and is labeled 50 mA."
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 1,
+                "maxLength": 150,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 3000,
+            "title": "Notes"
+          },
+          
+          {
+            "type": "Box",
+            "id": "Box_Note",
+            "align": "center",
+            "margin": "25px 0 0 0",
+            "text": "In order for your instructor to be able to open your video links, please select the \"Save as PDF\" option rather than \"Print to PDF\"."
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6338381736112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 1. Interior view of a resistor ",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_001.svg",
+        "altText": "Figure 1: a cross section of a composition resistor, labeling the ceramic core, carbon film, nickel cap, lead, and protective lacquer",
+        "maxWidth": "400px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 2. How to read bands on a resistor",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_002.svg",
+        "altText": "Figure 2: from left to right, the brown, gray, red and silverr bands stamped on a resistor",
+        "maxWidth": "400px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 1. Ohm’s law",
+        "src": "courses_2023/Physics/580272/580272_Equation_001.svg",
+        "altText": "Equation 1: V equals I times R",
+        "maxWidth": "135px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 2. Kirchoff’s current law ",
+        "src": "courses_2023/Physics/580272/580272_Equation_002.svg",
+        "altText": "Equation 2: begin equation I sub 1 plus I sub 2 equals I sub 3 plus I sub 4 end equation. Begin equation I sub 1 plus I sub 2 minus I  sub 3 minus I sub 4 equals zero end equation.",
+        "maxWidth": "200px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 3. Representation of Kirchhoff’s current law",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_003.svg",
+        "altText": "Figure 3: a junction with four currents: I sub 1 and I sub 2 leading toward the central node and I sub 3 and I sub 4 leading away from the central node",
+        "maxWidth": "250px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 4. A circuit with labeled voltage drops at each resistor ",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_004.svg",
+        "altText": "Figure 4: a circuit with labeled voltage drops at each resistor",
+        "maxWidth": "400px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 5. Representation of Kirchhoff’s voltage law",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_005.svg",
+        "altText": "Figure 5: Current loops 1, 2 and 3 with red arrows indicating current and voltage drops based on the current direction",
+        "maxWidth": "510px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 3. Application of Kirchhoff’s current law to Figure 5",
+        "src": "courses_2023/Physics/580272/580272_Equation_003.svg",
+        "altText": "Equation 3: I sub 3 minus I sub 2 minus I sub 1 equals zero",
+        "maxWidth": "155px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 4. Application of Kirchhoff’s voltage law to Loop 1 in Figure 5",
+        "src": "courses_2023/Physics/580272/580272_Equation_004.svg",
+        "altText": "Equation 4: positive I sub 1 R sub 1 minus V sub 2 plus I sub 1 R sub 3 minus V sub 1 equals zero",
+        "maxWidth": "295px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Equation 5. Application of Kirchhoff’s voltage law to Loop 2 in Figure 5",
+        "src": "courses_2023/Physics/580272/580272_Equation_005.svg",
+        "altText": "Equation 5: negative I sub 2 R sub 2 minus I sub 2 R sub 4 plus V sub 2 equals zero",
+        "maxWidth": "250px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 6. Front view of a breadboard",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_006.svg",
+        "altText": "Figure 6: solderless breadboard",
+        "maxWidth": "650px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 7. Back view of a breadboard",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_007.svg",
+        "altText": "Figure 7: a breadboard with the metal strips in yellow",
+        "maxWidth": "650px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 8. How to make series and parallel circuits on a breadboard ",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_008.svg",
+        "altText": "Figure 8: two breadboards: one showing connections made to form a series circuit and the other showing connections to form a parallel circuit",
+        "maxWidth": "590px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 9. DMM in parallel to measure resistance (or voltage)",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_009.svg",
+        "altText": "Figure 9: a resistor with back and red arrows on either side showing the digital multimeter is part of the circuit",
+        "maxWidth": "410px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 10.  DMM in series to measure current ",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_010.svg",
+        "altText": "Figure 10: a resistor with black and red arrows on the right, demonstrating a break in the circuit",
+        "maxWidth": "410px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Experimental Design Diagram",
+        "src": "courses_2023/Physics/580272/580272_Physics_ED_001.svg",
+        "altText": "A map of the procedural workflow of this investigation. In Activity 1, you will measure the resistance of the resistors. Then, you will build the diagramed circuit and measure the current. Next, you will add additional resistors in series and measure the total resistance and current. Once you have added all of the circuits, you will graph current versus 1 over resistance. Then, you will build the new diagramed circuit, attach the multimeter in series at the specified location and measure the current in the circuit at the given locations.  Next, you will disconnect the multimeter. Once you have tested all of the locations, disconnect the circuit. Then, you will design and build your own circuit with the given parameters. Next, you will draw a schematic of the circuit and photograph it. Then, you will measure the current at the specified locations. Finally, once you have tested both circuits, you will evaluate them using Kirchoff’s equations.",
+        "maxWidth": "1600px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 11. Resistor connected to a breadboard ",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_011.svg",
+        "altText": "Figure 11: a breadboard, showing each end of the resistor in different rows",
+        "maxWidth": "620px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 12. Overall Activity 1A setup",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_012.svg",
+        "altText": "Figure 12: the battery and resistor circuit as described in Step 4",
+        "maxWidth": "620px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 13. Breadboard setup for Activity 1A",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_013.svg",
+        "altText": "Figure 13: a close view of the breadboard and the placement of the resistors and battery wires",
+        "maxWidth": "620px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 14. Resistors-only circuit schematic for Activity 1B",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_014.svg",
+        "altText": "Figure 14: schematic of the circuit, with 220 ohms and 330 ohms horizontally at the top, 82 ohms vertically, and 47 ohms and 150 ohms horizontally at the bottom",
+        "maxWidth": "300px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 15. Breadboard setup for Activity 1B",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_015.svg",
+        "altText": "Figure 15: breadboard with the circuit shown in Figure 14",
+        "maxWidth": "600px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 16. Complete circuit schematic for Activity 1B",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_016.svg",
+        "altText": "Figure 16: the schematic from Figure 14, with plus 1.5 volts added to the right and left side",
+        "maxWidth": "400px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 17. Activity 1B DMM placement to measure left loop current ",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_017.svg",
+        "altText": "Figure 17: Figure 16 schematic with the lower left corner circled in red",
+        "maxWidth": "400px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 18. Overall Activity 1B setup",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_018.svg",
+        "altText": "Figure 18: breadboard and DMM described in Figure 17 and Step 4",
+        "maxWidth": "620px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 19. Activity 1B DMM placement to measure right loop current",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_019.svg",
+        "altText": "Figure 19: Figure 16 schematic with the lower right corner circled in red",
+        "maxWidth": "400px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 20. Activity 1B DMM placement to measure bridge current ",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_020.svg",
+        "altText": "Figure 20: Figure 16 schematic with the lower right corner circled in red",
+        "maxWidth": "400px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 21. Measuring bridge current in Activity 1B",
+        "src": "courses_2023/Physics/580272/580272_Physics_fig_021.svg",
+        "altText": "Figure 21: breadboard and DMM described in Figure 20 and Step 11",
+        "maxWidth": "620px",
+        "scrollImg": true
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Capacitor",
+        "content": "A device used to store an electric charge; it consists of one or more pairs of conductors separated by an insulator"
+      },
+      {
+        "title": "Current (I)",
+        "content": "The magnitude of the moving charge carriers in a circuit"
+      },
+      {
+        "title": "Digital multimeter (DMM)",
+        "content": "A device used to measure two or more electrical values - principally voltage, current, and resistance"
+      },
+      {
+        "title": "Electromotive force (emf)",
+        "content": "The electric potential produced by either electrochemical cell or by changing the magnetic field"
+      },
+      {
+        "title": "Kirchhoff's current Law",
+        "content": "States that the current flowing into a junction must equal the current flowing out of a junction"
+      },
+      {
+        "title": "Kirchhoff's voltage law",
+        "content": "States that the sum of the electrical potential differences around any closed loop in a circuit is zero"
+      },
+      {
+        "title": "Ohm's law",
+        "content": "A law stating the relationship between voltage, current and resistance in a circuit"
+      },
+      {
+        "title": "Potential (V)",
+        "content": "The amount of work needed to move a unit charge from a reference point to a specific point against an electric field"
+      },
+      {
+        "title": "Resistance (R)",
+        "content": "A material's opposition to the movement of charge carriers"
+      },
+      {
+        "title": "Resistor",
+        "content": "An electronic device used to reduce voltage in a circuit by converting the electrical energy to heat"
+      },
+      {
+        "title": "Transistor",
+        "content": "A semiconductor device with three connections that is capable of amplification in addition to rectification"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

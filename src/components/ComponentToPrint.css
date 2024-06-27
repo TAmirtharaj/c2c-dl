@@ -1,0 +1,324 @@
+/** @format */
+
+@media all {
+  .page-break {
+    display: none;
+  }
+
+  /* .print-container {
+    position: relative;
+  } */
+
+  .print-container textarea {
+    background-color: #fff !important;
+    /* overflow: hidden; */
+  }
+
+  .tablebody-container {
+    /* top: 2em; */
+    /* position: relative */
+  }
+  .print-container li {
+    font-size: 1em !important;
+    font-family: "HelveticaNeueLTStd55Roman" !important;
+  }
+
+  .list-comp-list-item {
+    /* font-size:  1em !important; */
+    font-family: "HelveticaNeueLTStd55Roman" !important;
+  }
+  .plain-text-comp-para {
+    /* font-size:  1em !important; */
+    font-family: "HelveticaNeueLTStd55Roman" !important;
+  }
+  .bodyParaLineBreak {
+    /* font-size:  1em !important; */
+    font-family: "HelveticaNeueLTStd55Roman" !important;
+  }
+  /* .bodyPara {
+    font-family: 'Montserrat-Regular' !important;
+    font-size:  0.9em !important;
+    
+  } */
+  .date-time-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    /* margin-left: -12px; */
+  }
+
+  .user-container {
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%; */
+
+    /* color: "red"; */
+    display: "flex";
+    justify-content: "flex-end";
+    font-size: "0.9em";
+    width: "100%";
+    font-family: "Montserrat-Bold";
+  }
+
+  .date-time-label,
+  .user-name-label {
+    font-family: "Montserrat-Bold";
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    display: none;
+  }
+
+  .date-time-value,
+  .user-name-value {
+    font-family: "Montserrat-Regular";
+    width: auto;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+@media print {
+  @page {
+    size: landscape;
+  }
+}
+
+@media print {
+  html,
+  body {
+    height: initial !important;
+    overflow: initial !important;
+    -webkit-print-color-adjust: exact;
+    background-color: #ffffff;
+  }
+  * {
+    font-family: "Montserrat-Regular";
+  }
+}
+
+@media print {
+  .page-break {
+    display: block;
+    page-break-after: always;
+  }
+
+  .zoomIndex_3 {
+    /* scale: 0.5; */
+
+    /* font-size: calc(100% - 0.2em);
+     line-height:calc(100% - 0.2em) ; */
+  }
+  .zoomIndex_2 {
+    /* scale: 0.5; */
+
+    /* font-size: calc(100% - 0.1em);
+     line-height:calc(100% - 0.1em) ; */
+  }
+  @-moz-document url-prefix() {
+    .question-container {
+      display: inline-block;
+      width: 100%;
+    }
+    .question-card {
+      width: 100%;
+      display: inline-block;
+      border: 2px solid rgba(0, 0, 0, 0.125);
+    }
+    .question-body {
+      display: inline-block;
+      width: 100% !important;
+      text-align: left;
+    }
+    textarea {
+      display: inline-block;
+      width: 100% !important;
+    }
+  }
+
+  .notes-card {
+    page-break-inside: auto;
+    position: relative;
+    /* margin-top: 5%; */
+  }
+
+  .title-container {
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+
+  .title-label {
+    font-family: "Montserrat-Bold";
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  /* *this is for only first page not yet implemented */
+  /* .logo-watermark {
+    position: absolute;
+    top: 865px;
+    right: 0;
+    width: 135px;
+    height: 50px;
+  } */
+
+  /* ? for center logo */
+  .logo-watermark {
+    position: fixed;
+    top: 40%;
+    left: 10%;
+    opacity: 0.01;
+    width: 80%;
+    height: 20%;
+
+    /* transform: rotate(45deg); */
+  }
+
+  .grid-separator {
+    z-index: 10 !important;
+  }
+
+  .wrapper-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  /* !default */
+  /* .logo-watermark {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 135px;
+    height: 50px;
+  } */
+
+  /* ?for center text */
+  .copyright-content {
+    font-size: 0.8em;
+    position: fixed;
+    top: 62%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* left: 15%; */
+    opacity: 0.01;
+    /* transform: rotate(45deg); */
+  }
+
+  /* !default */
+  /* .copyright-content {
+    font-size: 0.8em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  } */
+
+  /*?for center text */
+  .title-bottom-left {
+    font-size: 0.9em;
+    position: fixed;
+    top: 60%;
+    opacity: 0.01;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* transform: rotate(45deg); */
+  }
+
+  /* !default */
+  /* .title-bottom-left {
+    font-size: 0.8em;
+    position: fixed;
+    margin-top: 10px;
+    bottom: 17px;
+    left: 0;
+  } */
+
+  .name-top-right {
+    font-size: 0.9em;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* color: "red";
+          display: "flex";
+          justify-content: "flex-end";
+          font-size: "0.9em";
+    width: "100%";
+     font-family: "Montserrat-Bold"; */
+  }
+  .user-text {
+    font-size: 1em;
+  }
+  .file-close-btn,
+  .character-count,
+  .info-go-button {
+    display: none;
+  }
+
+  table {
+    text-align: center;
+    /* z-index: 2; */
+    /* line-height: 1; */
+  }
+
+  .data-table-text-comp-heading,
+  .card-header {
+    font-weight: bold;
+  }
+
+  /* tr :nth-child(2) {
+    margin-bottom: 20px;
+    color: red;
+  } */
+
+  .data-table-text-comp-heading,
+  .card-header {
+    font-weight: bold;
+  }
+
+  .plain-text-comp-para {
+    visibility: visible;
+  }
+
+  .question-body,
+  .notes-body {
+    page-break-inside: auto;
+    /* max-height: 600px; */
+    max-height: 10%;
+    width: unset;
+  }
+  .notes-text-area {
+    overflow-y: visible;
+  }
+
+  .file {
+    top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .Plain,
+  .List {
+    width: 100%;
+  }
+}
+
+@page {
+  size: auto;
+  margin: 15mm;
+}
+
+.print-font-size {
+  word-wrap: break-word;
+}

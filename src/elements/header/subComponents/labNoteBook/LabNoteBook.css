@@ -1,0 +1,57 @@
+/** @format */
+
+.labNoteBookWrapper {
+  position: relative;
+  right: 0;
+  width: auto;
+  background-color: transparent;
+  border: none;
+  margin: 5px 15px;
+  display: inline-flex;
+  align-items: center;
+  height: calc(100% - 8px);
+}
+
+.labNoteBookIcon {
+  width: 25px;
+  position: relative;
+  margin: 0 15px;
+  bottom: 0px;
+}
+
+.labNoteBookText {
+  position: relative;
+  font-family: "HelveticaNeueLTStdMd65";
+  color: #0062b8;
+  top: 2px;
+  bottom: 0;
+  margin: auto;
+}
+
+/* Portrait iPad Normal*/
+@media only screen and (min-width: 768px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .labNoteBookIcon {
+    margin: 0 5px;
+  }
+}
+
+/* landscape iPad Normal*/
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .labNoteBookIcon {
+    margin: 0 5px;
+  }
+}
+
+/* Landscape phone */
+@media only screen and (min-device-width: 300px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .mobile .labNoteBookIcon {
+    margin: 0 5px;
+  }
+}
+
+/* Portrait phone */
+@media only screen and (min-device-width: 275px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .mobile .labNoteBookIcon {
+    margin: 0 5px;
+  }
+}

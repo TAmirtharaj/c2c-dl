@@ -1,0 +1,3436 @@
+{
+  "locked": true,
+  "courseTitle": "Cell Structure and Function",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg"
+  
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Anatomy_Physiology_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Anatomy & Physiology",
+                "titleName2": "Cell Structure and Function",
+                "images": {
+                  "launchPage": "core/Anatomy_Physiology_launchPageBg.svg",
+                  "logo": "core/Anatomy_Physiology_subject_icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "waterMark": true,
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, the student will explore the structure and function of the animal cell, particularly the selectively permeable <button class=glossary-text>plasma membrane</button>. The student will model the processes of simple <button class=glossary-text>diffusion</button> and <button class=glossary-text>osmosis</button> and assess the tonicities of aqueous solutions."
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses/580506/580506_TimeRequirement.svg",
+                  "desc": "Preparation: 30 minutes Activity 1: Simple Diffusion: 60 minutes Activity 2: Osmosis: 75 minutes",
+                  "altText": "Preparation – 30 minutes \nActivity 1: Simple Diffusion – 60 minutes \nActivity 2: Osmosis – 75 minutes",
+                  "imgDivWidth": "465px",
+                  "maxWidth": "540px"
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Tap water",
+                    "Timing device",
+                    "Paper towels",
+                    "Digital camera or mobile device capable of taking digital photos",
+                    "Pot holder or mitt (recommended but not required)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Overview (cont... )",
+              "pageTitle": "Overview (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Overview Video: Cell Structure and Function"
+                },
+                {
+                  "type": "Video",
+                 "imgDivWidth": "200px",
+                  "image":  "courses/580506/580506_VideoIcone.svg",
+                  "desc": "OverView Video",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6305649924112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "title": "Outcomes",
+                  "type": "List",
+                  "text": [
+                    "Identify the parts of an animal cell and describe their functions.",
+                    "Describe the structure of the <button class=glossary-text>plasma membrane</button> of the cell and explain why it is selectively permeable.",
+                    "Model the processes of simple <button class=glossary-text>diffusion</button> and <button class=glossary-text>osmosis</button>.",
+                    "Calculate the rate of diffusion and determine how it is affected by molecular weight.",
+                    "Assess the relative tonicities of aqueous solutions."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In the summer of 2014, a Georgia high school teen died after a day of football practice. 17-year-old Zyrees Oliver complained of cramping during practice and subsequently drank two gallons of water and two more gallons of sports drink. When he couldn’t drive himself home afterward, his mother picked him up from practice; he later collapsed at home and was rushed to the hospital via helicopter. Doctors reported that Oliver suffered swelling around the brain<sup class=bodySupscript>1</sup>.<span className=bodyParaLineBreak>How could drinking water be deadly?<span className=bodyParaLineBreak>Oliver had consumed so much water in such a short amount of time that his blood became <button class=glossary-text>hypotonic</button>. His body was not able to remove the excess water fast enough before his cells and tissues, including the tissue surrounding the brain, absorbed the water causing swelling and possibly lysis (bursting) of the cells. This swelling impaired organ function to the point of death."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='citation'><sup class ='bodysubscript'>1</sup>CBS Interactive. (2014, August 12). <span class=bodyFontItalic>Georgia teen dies from drinking too much water, Gatorade.</span> CBS News. Retrieved October 17, 2019, from<br>https://www.cbsnews.com/news/georgia-teen-dies-from-drinking-too-much-water-gatorade/ </span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580506/580506_whyShouldICare.svg",
+                  "desc": "A drinking fountain shooting a stream of water.",
+                  "altText": "A drinking fountain shooting a stream of water.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "infoPopUp": "resource",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The cell is the fundamental structural and functional unit of all living things. Although the human body is composed of an amazing variety of different, specialized cell types, all cells have certain characteristics in common. Most importantly, all animal cells possess three main components: a <button class=glossary-text>nucleus</button>, a <button class=glossary-text>cytoplasm</button>, and a <button class=glossary-text>plasma membrane</button>."
+                },
+                {
+                  "type": "Image",
+                  "desc": "Figure 1: A generalized animal cell and some of its internal organelles.",
+                  "altText": "Figure 1: A generalized animal cell and some of its internal organelles.",
+                  "image": "courses/580506/580506_fig_001.svg",
+                  "imgDivWidth": "368px",
+                  "scrollImg": true,
+                  "maxWidth": "500px"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "subTitle": "The Nucleus",
+                  "text": "The <span class=bodyFontBold>nucleus</span> houses most of the genetic material of the cell. Most of the time, the genetic material exists in the form of a threadlike complex of DNA and proteins known as <button class=glossary-text>chromatin</button>. When a cell goes through the process of division, the chromatin coils up tightly to form compact structures called <button class=glossary-text>chromosomes</button>. Within the nucleus lies at least one <button class=glossary-text>nucleolus</button>. This is where <button class=glossary-text>ribosomes</button>, the machinery of protein synthesis, are assembled. The contents of the nucleus are separated from the rest of the cell by the <button class=glossary-text>nuclear envelope</button>. This double membrane is penetrated by <button class=glossary-text>nuclear pores</button> that permit materials to pass in and out of the nucleus."
+                }
+              ]
+            },
+            {
+              "title": "The Cytoplasm",
+              "pageTitle": "The Cytoplasm",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The <button class=glossary-text>cytoplasm</button> occupies the area between the nucleus and the <span style='whiteSpace: nowrap'><button class=glossary-text>plasma membrane</button>.</span> It consists of the <button class=glossary-text>cytosol</button> (which is mostly water with dissolved ions and proteins), the protein filaments of the <button class=glossary-text>cytoskeleton</button>, and a variety of <button class=glossary-text>organelles</button>, which are specialized structures devoted to specific cellular tasks (Table 1)."
+                },
+                {
+                  "type": "DataTable",
+                  "sr": 10,
+                  "title": "Table 1.",
+                  "allowClick": true,
+                  "tableWidth": "98%",
+                   "header": [
+                      {
+                        "text": "Structure",
+                        "colWidth":"45%"
+                        
+                      },
+                      {
+                        "text": "Function",
+                        "colWidth":"55%"
+                      }
+                     
+                    ],
+                    "tableData": [
+                      [
+                        {
+                          "type": "text",
+                          "text": "Ribosomes"
+
+                        },
+                        {
+                          "type": "text",
+                          "text": "Protein synthesis"
+                        }
+                      
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Rough endoplasmic reticulum (rough ER)"
+                       },
+                        {
+                          "type": "text",
+                          "text": "Processing and transport of proteins"
+                        }
+                     
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Smooth endoplasmic reticulum (smooth ER)"
+                        
+                        },
+                        {
+                          "type": "text",
+                          "text": "Lipid and carbohydrate metabolism; detoxification"
+                        }
+                   
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Golgi apparatus"
+                        
+                        },
+                        {
+                          "type": "text",
+                          "text": "Processing and transport of proteins, especially secreted proteins"
+                        }
+                       
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Lysosomes"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Intracellular digestion"
+                         
+                        }
+                     
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Peroxisomes"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Catabolism of fatty acids"
+                        }
+                   
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Mitochondria"
+                        },
+                        {
+                          "type": "text",
+                          "text": "ATP production"
+                        }
+                   
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Centrioles"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Organization and movement of chromosomes during cell division"
+                        }
+                   
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Cilia"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Movement"
+                        }
+                   
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Flagella"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Movement"
+                        }
+                   
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Microfilaments"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Cytokinesis; changes in cell shape; cell motility"
+                        }
+                   
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Intermediate filaments"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Strength and support for cells and tissues"
+                        }
+                   
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Microtubules"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Motility (internal components of cilia and flagella); intracellular transport; chromosome movements during cell division"
+                        }
+                   
+                      ]
+                    ]
+                  
+                }
+                
+              ]
+            },
+            
+            {
+              "title": "Knowledge Check Question 1",
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 1",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "The cytosol within the cell is mostly water and most cells of the human body are bathed in extracellular fluid, which is also mostly water. How does this influence the molecules that make up the cell membrane?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Phospholipids cluster together with the hydrophilic heads pointed toward the water.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Phospholipids cluster together with the hydrophobic heads pointed toward the water.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Tightly coiled proteins and cholesterol are arranged in a fluid-mosaic model. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "RNA interacts more efficiently with DNA.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Internal membrane proteins are tightly packaged. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The phospholipid bilayer consists of two layers of phospholipids, arranged tail to tail. The hydrophobic tails associate with one another, forming the interior of the membrane. The hydrophilic head polar heads interact with the fluid inside and outside of the cell."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 1",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following is not part of the plasma membrane?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "mitochondria",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "phospholipids ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "proteins",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "cholesterol",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "hydrophobic tails",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The mitochondria is an organelle found inside the cell. The major function of mitochondria is ATP production."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "The plasma membrane is made up of phospholipids, proteins, and cholesterol. A phospholipid is a lipid made of glycerol, two fatty acid tails, and a phosphate-linked head group. A phospholipid contains a hydrophilic head that is “water-loving,” and the hydrophobic, or “water-fearing,” part of a phospholipid consists of its long, nonpolar fatty acid tails.<span class='citation'><br/><br/>Phospholipid Bilayer by OpenStax is available under Creative Commons Attribution 4.0 License at<br>https://openstax.org/books/anatomy-and-physiology/pages/3-1-the-cell-membrane.</span>",
+                  "img": [
+                    {
+                      "src": "courses/580506/580506_fig_002.svg",
+                      "alt": "Figure 2: The phospholipid bilayer structure of a cell membrane. The hydrophobic tails associate with one another to form the interior of the membrane. The hydrophilic heads form the boundary between the extracellular and intracellular environments.",
+                      "maxWidth": "474px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "The plasma membrane is made up of phospholipids, proteins, and cholesterol. A phospholipid is a lipid made of glycerol, two fatty acid tails, and a phosphate-linked head group. A phospholipid contains a hydrophilic head that is “water-loving,” and the hydrophobic, or “water-fearing,” part of a phospholipid consists of its long, nonpolar fatty acid tails.<span class='citation'><br/><br/>Phospholipid Bilayer by OpenStax is available under Creative Commons Attribution 4.0 License at<br>https://openstax.org/books/anatomy-and-physiology/pages/3-1-the-cell-membrane.</span>",
+                  "img": [
+                    {
+                      "src": "courses/580506/580506_fig_002.svg",
+                      "alt": "Figure 2: The phospholipid bilayer structure of a cell membrane. The hydrophobic tails associate with one another to form the interior of the membrane. The hydrophilic heads form the boundary between the extracellular and intracellular environments.",
+                      "maxWidth": "474px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "The Plasma Membrane",
+              "pageTitle": "The Plasma Membrane",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The <button class=glossary-text>plasma membrane</button> of the cell (also called the cell membrane or the cytoplasmic membrane) surrounds and defines each cell and separates its internal environment from the external environment. The plasma membrane is composed primarily of <button class=glossary-text>phospholipids</button>. A phospholipid molecule consists of a glycerol skeleton with two fatty acids and a phosphate group attached. The fatty acids are nonpolar hydrocarbon chains, and thus, they are <button class=glossary-text>hydrophobic</button> (i.e., repelled by water). The negatively charged phosphate group forms the polar head of the molecule and is <button class=glossary-text>hydrophilic</button> (i.e., attracted to water). Recall that the <button class=glossary-text>cytosol</button> within the cell is mostly water, and most cells of the human body are bathed in extracellular fluid, which is also mostly water. These conditions cause the phospholipid molecules to cluster together so that their hydrophilic heads are oriented toward the water and their hydrophobic tails exclude water. The resulting structure is a <button class=glossary-text>phospholipid bilayer:</button> membrane two layers of molecules, with the hydrophilic heads directed to the inside and outside of the cell and the hydrophobic tails sandwiched in between."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "desc": "Figure 2: The phospholipid bilayer structure of a cell membrane. The hydrophobic tails associate with one another to form the interior of the membrane. The hydrophilic heads form the boundary between the extracellular and intracellular environments.",
+                  "altText": "Figure 2: The phospholipid bilayer structure of a cell membrane. The hydrophobic tails associate with one another to form the interior of the membrane. The hydrophilic heads form the boundary between the extracellular and intracellular environments.",
+                  "image": "courses/580506/580506_fig_002.svg",
+                  "imgDivWidth": "437px",
+                  "scrollImg": true,
+                  "maxWidth": "490px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "The Plasma Membrane (cont... )",
+              "pageTitle": "The Plasma Membrane (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "By themselves, the <button class=glossary-text>phospholipid</button> molecules would form a relatively loose, fluid association, with a consistency similar to that of vegetable oil. However, phospholipid molecules are not the only type of molecule in the <span style='whiteSpace: nowrap'><button class=glossary-text>plasma membrane</button>.</span> In the membranes of animal cells, the phospholipids are stabilized by sterol molecules, such as cholesterol. Glycolipids, which have a carbohydrate group instead of a phosphate group, are also present in the outer portion of the bilayer.<span className=bodyParaLineBreak>Proteins constitute a major component of the plasma membrane and play important roles in cell signaling, adhesion, metabolism, and transport. <button class=glossary-text>Peripheral membrane proteins</button> are weakly associated with the membrane, whereas <button class=glossary-text>integral membrane proteins</button> are more firmly embedded. In fact, most integral membrane proteins are <button class=glossary-text>transmembrane proteins</button>, meaning that they completely span the <button class=glossary-text>phospholipid bilayer</button> and have exposed regions on both sides of the membrane. Many proteins are able to drift laterally within the phospholipid bilayer, which is why the plasma membrane is often described in terms of a <button class=glossary-text>fluid-mosaic model</button>."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "subTitle": "Cell Transport and Cell Size",
+                  "text": "All living things take in nutrients and eliminate waste. These vital functions are facilitated at the cellular level by the selectively permeable (i.e., <button class=glossary-text>semipermeable</button>) plasma membrane. The cell membrane permits the passage of molecules and ions of a certain size while restricting the passage of larger or differently charged molecules or ions. Some molecules, such as water, oxygen, and carbon dioxide, can move freely across the cell membrane’s lipid bilayer."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "These molecules move into and out of the cell by <button class=glossary-text>diffusion</button>, which can be defined as the net movement of molecules or ions down a <button class=glossary-text>concentration gradient</button>. Concentration is defined as the amount of a substance per unit volume, such as the mass of sucrose (table suguar) in a milliliter (mL) of water. So when a substance moves down a concentration gradient, it moves from a region of higher concentration to a region of lower concentration. Larger molecules, on the other hand, are excluded by the membrane and may enter or leave the cell only through processes mediated by dedicated transporter proteins located in the membrane."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will observe how <button class=glossary-text>diffusion</button> occurs in the absence of a membrane. However, diffusion across a selectively permeable membrane, such as the <button class=glossary-text>plasma membrane</button>, is subject to certain conditions. Four main factors determine the rate of diffusion of molecules or ions across a membrane:"
+                },
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                  "orderedType":"1",
+                  "start": "1",
+                   "text": [
+
+                    "The steepness of the concentration gradient: The greater the difference between the concentrations on opposite sides of the membrane, the higher the rate of diffusion.",
+                    "Temperature: Molecules and ions have more kinetic energy at higher temperatures. When molecules and ions move more rapidly, diffusion proceeds more rapidly.",
+                    "The surface area of the membrane: The greater the surface area, the higher the rate of diffusion. A greater surface area allows more molecules or ions to cross the membrane at any point in time."
+                  
+                  ]
+                },
+                {
+                  "type": "List",
+                  "containerType":"rightContainer",
+                  "listType": "ordered",
+                  "orderedType":"4",
+                  "start": "4",
+                   "text": [
+
+                    "The type of molecule or ion diffusing: Large molecules (those of higher molecular weight) tend to diffuse more slowly than smaller molecules (of lower molecular weight). If the large molecules are contained within a selectively permeable membrane, they may not be able to diffuse at all. Ions may move more readily along a charge gradient; for example, a cation (positively charged ion) may diffuse more quickly toward a region rich in anions (negatively charged ions) than toward a region with an overall positive charge. "
+                  
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 2",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "In Activity 1, you will:",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "observe how diffusion occurs in the absence of a membrane.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "use dialysis tubing to simulate the plasma membrane of a cell.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "extract DNA from an animal cell.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "explore how an imbalance of sodium can cause brain damage. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "use common household materials to create a cell membrane.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": " In Activity 1, you will calculate the rate of diffusion for different dyes in the absence of a cell membrane. "
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 2",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following characteristics will cause a molecule to diffuse slowly across a membrane?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "higher molecular weight",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "dipoles",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "lower molecular weight",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "a positive electrical charge",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "triple bonds",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Higher molecular weight molecules tend to diffuse more slowly than smaller molecules. Some large molecules, like glucose, cannot freely pass through the membrane."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "In Activity 1, you will observe how diffusion occurs in the absence of a membrane. However, there are four main factors that impact the rate the diffusion across biological membranes: the steepness of the gradient, temperature, surface area of the membrane, and the size of the molecules."
+                },
+                {
+                  "title": "Hint",
+                  "body": "In Activity 1, you will observe how diffusion occurs in the absence of a membrane. However, there are four main factors that impact the rate the diffusion across biological membranes: the steepness of the gradient, temperature, surface area of the membrane, and the size of the molecules."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class=glossary-text>Osmosis</button> is the <button class=glossary-text>diffusion</button> of water molecules across a selectively permeable membrane. The four factors listed above also apply to osmosis. The net movement of water molecules in osmosis is to the side of the selectively permeable membrane having the higher concentration of solute, and, therefore, the lower concentration of water. The <button class=glossary-text>cytoplasm</button> is an aqueous solution, consisting of water with dissolved molecules and ions. If the cell is surrounded by solute-free, pure water, the concentration of water is actually lower inside the cell compared with the outside, and the net movement of water will be into the cell. If the cell is in a solution with a high solute concentration, the concentration of water may be higher inside the cell compared with the outside, causing the net flow of water to be out of the cell.<span className=bodyParaLineBreak>The terms <button class=glossary-text>hypertonic</button>, <button class=glossary-text>hypotonic</button>, and <button class=glossary-text>isotonic</button> are used to compare aqueous solutions of varying solute concentration in which the solute cannot cross the membrane. If the solutions have the same concentration of solute, they are called <span class=bodyFontBold>isotonic</span> (iso-, “same”). When two solutions have different concentrations of a solute, the one with the higher solute concentration is called <span class=bodyFontBold>hypertonic</span> (hyper-, “above”), and the one with the lower solute concentration is called <span class=bodyFontBold>hypotonic</span> (hypo-, “below”). The hypertonic solution, which contains a higher solute concentration than the comparison solution, can also be thought of as having a lower concentration of water. In contrast, the hypotonic solution has a lower concentration of solute, but a higher concentration of water. Because the solute cannot cross the membrane, osmosis occurs between solutions of different tonicities. The water will move from the solution in which it is more concentrated to the solution in which it is less concentrated."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "In other words, water will move from the hypotonic solution to the hypertonic solution. In Figures 3 and 4, the larger black circles represent the solute molecules, and the smaller open circles represent the water molecules. The vertical center line represents a selectively permeable membrane. In Figure 3, the concentration of solute molecules is higher on the left side of the membrane, so the left side is hypertonic relative to the right side. The right side is hypotonic relative to the left side. Figure 4 shows that the left and right sides are at equilibrium and are isotonic relative to each other. The concentration of molecules on both sides of the membrane is equal."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "desc": "Figure 3: Two rectangles with different amounts of black and open circles in them.\nFigure 4: Two rectangles with the same amount of black and open circles in them.",
+                  "altText":"Figure 3: Two rectangles with different amounts of black and open circles in them.\nFigure 4: Two rectangles with the same amount of black and open circles in them.",
+                  "image": "courses/580506/580506_fig_003_4.svg",
+                  "imgDivWidth": "374px",
+                  "scrollImg": true,
+                  "maxWidth": "425px"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Osmotic pressure is the measure of a solution’s tendency to gain water when separated from pure water by a selectively permeable membrane. A solution’s osmotic pressure is proportional to its solute concentration; the greater the solute concentration, the greater the osmotic pressure and, therefore, the greater the tendency for the solution to gain water. In <button class=glossary-text>isotonic</button> solutions, water diffuses across the membrane from one solution to another at an equal rate in both directions. There is no net osmotic movement of water and no net osmotic pressure.<span className=bodyParaLineBreak>Water enters our cells passively through <button class=glossary-text>osmosis</button>. For instance, most water absorption in the digestive tract occurs in the large intestine, and there are no channels in the <button class=glossary-text>plasma membranes</button> of intestinal cells that actively transport water. While water transport relies on osmosis, there are membrane channels that actively transport sodium and other ions into the <button class=glossary-text>cytoplasm</button>, using ATP for energy. In order to manipulate the characteristics of osmosis, the concentration of solutes can be increased in the cells of the intestinal lining such that the cytoplasm becomes <button class=glossary-text>hypertonic</button> relative to the lumen of the large intestine. Then, water flows into the cells by osmosis."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The kidneys regulate the water balance in our bodies. Like the large intestine, the movement of water by osmosis is regulated by the active transport of salts. In addition, some cells of the kidneys have selective channels called aquaporins, which allow water to move across the membrane very quickly in response to osmotic pressure."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "In Activity 2, you will use dialysis tubing to simulate the plasma membrane of a cell. The flat, transparent dialysis tubing has microscopic pores that permit the passage of water, but not larger solutes such as sugars."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 3",
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 2,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 3",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Cells must use ATP to actively move solutes, such as sodium and potassium, into and out of the cell. Which of the following best describes a scenario in which too many solutes are brought into the cell?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The cytosol will become a hypertonic solution compared to the extracellular environment.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The cytosol will become an isotonic solution compared to the extracellular environment. ",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "The cytosol will become a hypotonic solution compared to the extracellular environment.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The extracellular environment will become a hypertonic solution compared to the cytosol.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "The extracellular environment and cytosol will become positively charged solutions.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "To maintain hemostasis, osmosis occurs, and water passes across the semi-permeable membrane in response to an imbalance of molecules on either side of the membrane."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 3",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "A cell model is filled with 20% sucrose solution and placed in a beaker containing 50% sucrose solution. Which of the following describes the solution in the beaker relative to the solution in the cell model?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "hypertonic",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "isotonic",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "hypotonic",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "polar",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "nonpolar",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The solution in the beaker has a higher concentration of sucrose (solute) than the solution in the cell model, therefore the solution in the beaker is considered hypertonic (hyper-, “above”)."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "If the same concentrations of solute are present inside and outside of a cell, they are called isotonic (iso-, “same”). If the concentrations of a solute are different inside and outside of the cell, the one with the higher solute concentration is called hypertonic (hyper-, “above”), and the one with the lower solute concentration is called hypotonic (hypo-, “below”). "
+                },
+                {
+                  "title": "Hint",
+                  "body": "If the same concentrations of solute are present inside and outside of a cell, they are called isotonic (iso-, “same”). If the concentrations of a solute are different inside and outside of the cell, the one with the higher solute concentration is called hypertonic (hyper-, “above”), and the one with the lower solute concentration is called hypotonic (hypo-, “below”). "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "altText": "This map describes the procedural workflow for this investigation. In activity 1, you will start by preparing a Petri dish of agarose, place dye crystals on either side of dish, and determine rate of diffusion for each dye. In Activity 2, cell models will soak in sucrose solutions of various concentrations for 1 hour. You will then calculate the change in volume of cell model to determine the tonicity of each solution bath.",
+                  "desc": "This map describes the procedural workflow for this investigation. In activity 1, you will start by preparing a Petri dish of agarose, place dye crystals on either side of dish, and determine rate of diffusion for each dye. In Activity 2, cell models will soak in sucrose solutions of various concentrations for 1 hour. You will then calculate the change in volume of cell model to determine the tonicity of each solution bath.",
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "containerType": "fullContainer",
+                  "image": "courses/580506/580506_ED.svg",
+                  "imgDivWidth": "62%",
+                  "maxWidth": "1100px",
+                  "scrollImg": true,
+                  "imgDivWidthForTablet": {
+                    "P": "100%",
+                    "L": "90%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "90%",
+                    "L": "85%"
+                  }
+              
+                  
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Sucrose, 100 g packet",
+                          "altText": "Bag of sucrose, 100 gram",
+                          "image": "courses/580506/580506_material_001.svg",
+                          "url": "courses/580506/580506_material_001.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "3 Beakers, 250 mL",
+                          "altText": "Polypropylene beaker, 250 milliliter",
+                          "image": "courses/580506/580506_material_002.svg",
+                          "url": "courses/580506/580506_material_002.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "3 Pieces of dialysis tubing, 8\"",
+                          "altText": "Dialysis tubing, 8 inches",
+                          "image": "courses/580506/580506_material_003.svg",
+                          "url": "courses/580506/580506_material_003.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Graduated cylinder, 100 mL",
+                          "altText": "Clear graduated cylinder, polypropylene, 100 milliliter",
+                          "image": "courses/580506/580506_material_004.svg",
+                          "url": "courses/580506/580506_material_004.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Graduated cylinder, 10 mL",
+                          "altText": "Clear graduated cylinder, polypropylene, 10 milliliter",
+                          "image": "courses/580506/580506_material_005.svg",
+                          "url": "courses/580506/580506_material_005.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "2 Micro spoons",
+                          "altText": "Small plastic scoop",
+                          "image": "courses/580506/580506_material_006.svg",
+                          "url": "courses/580506/580506_material_006.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "3 Weigh boats",
+                          "altText": "White plastic weigh boat",
+                          "image": "courses/580506/580506_material_007.svg",
+                          "url": "courses/580506/580506_material_007.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Grease pencil",
+                          "altText": "Black grease pencil",
+                          "image": "courses/580506/580506_material_008.svg",
+                          "url": "courses/580506/580506_material_008.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "4 Plastic cups, 10 oz",
+                          "altText": "Clear plastic cup, 10 ounce",
+                          "image": "courses/580506/580506_material_009.svg",
+                          "url": "courses/580506/580506_material_009.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "5 Pipets",
+                          "altText": "Clear plastic dropping pipet",
+                          "image": "courses/580506/580506_material_010.svg",
+                          "url": "courses/580506/580506_material_010.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Teaspoon",
+                          "altText": "Plastic measuring spoon, 5 milliliter",
+                          "image": "courses/580506/580506_material_011.svg",
+                          "url": "courses/580506/580506_material_011.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Agarose, 30 mL",
+                          "altText": "Clear bottle of agarose, 1%, 30 milliliter",
+                          "image": "courses/580506/580506_material_012.svg",
+                          "url": "courses/580506/580506_material_012.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Petri dish",
+                          "altText": "Empty clear plastic Petri dish",
+                          "image": "courses/580506/580506_material_013.svg",
+                          "url": "courses/580506/580506_material_013.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Potassium permanganate, 1 g",
+                          "altText": "Brown bottle of potassium permanganate 1 gram",
+                          "image": "courses/580506/580506_material_014.svg",
+                          "url": "courses/580506/580506_material_014.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Methylene blue, 1 g",
+                          "altText": "Brown bottle of methylene blue 1 gram",
+                          "image": "courses/580506/580506_material_015.svg",
+                          "url": "courses/580506/580506_material_015.svg"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Ruler",
+                          "altText": "Clear plastic ruler, 6 inch",
+                          "image": "courses/580506/580506_material_016.svg",
+                          "url": "courses/580506/580506_material_016.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                           "text": [
+    
+                        "Tap water",
+                        "Timing device",
+                        "Paper towels",
+                        "Digital camera or mobile device capable of taking digital photos",
+                        "Pot holder or mitt (recommended but not required)"
+                       ]
+                       }
+                    ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information: </span> <span className=bodyParaLineBreak><span className=bodyParaLineBreak>Replacement supplies for the Cell Structure and Function investigation (item number 580506) can be ordered from Carolina Biological Supply Company.<span className=bodyParaLineBreak><span className=bodyMediumSubHeading >Call:</span> 866-332-4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Safety",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Read all of the instructions for these laboratory activities before beginning. Follow the instructions closely and observe established laboratory safety practices, including the use of appropriate personal protective equipment (PPE)."
+                },
+                {
+                  "type": "Image",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Plain",
+                  "text": "Wear safety goggles, gloves, and a lab apron while performing this laboratory investigation. Work in close proximity to a sink or other source of running water. A kitchen sink sprayer or a shower may serve as an emergency eyewash station if needed."
+                },
+                
+                {
+                  "type": "PlainImage",
+                  "imgWidth": "12%",
+                  "desc":"warning symbol, flammable symbol",
+                  "altText": "warning symbol, flammable symbol",
+                  "image": [
+                    "courses/580506/580506_Warning.svg",
+                    "courses/580506/580506_Flammable.svg"
+                  ],
+                  "text": "<span class=bodyFontBold>Potassium permanganate</span> is an oxidizing agent."
+                },
+                {
+                  "type": "PlainImage",
+                  "imgWidth": "12%",
+                  "containerType": "rightContainer",
+                  "desc":"warning symbol",
+                  "altText": "warning symbol",
+                  "image": "courses/580506/580506_Warning.svg",
+                  "url": "courses/580506/580506_Warning.svg",
+                  "text": "<span class=bodyFontBold>Methylene blue</span> is an irritant of the skin, eyes, and respiratory passages; exposure may result in drowsiness or dizziness and may impair fertility or, if pregnant, cause harm to an unborn child. If either substance is inhaled, seek fresh air immediately and seek medical attention. In case of contact with the eyes, rinse immediately with plenty of water and seek medical attention. In case of contact with skin, wash immediately with soap and rinse with plenty of water. If skin irritation results, seek medical advice or attention. If swallowed, call a poison center and/or seek medical attention immediately."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Do not eat, drink, or chew gum while performing these activities. Wash your hands with soap and water before and after performing the activities. Clean up the work space with soap and water after completing the investigation. Keep pets and children away from lab materials and equipment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "KCDragAndDrop",
+                      "pageTitle": "Drag and Drop Knowledge Check Question",
+                      "purpose": "Assessment",
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "courses/580312_Investigating_Chemical_Reactions/radioButtonUnchecked.svg",
+                        "checked": "courses/580312_Investigating_Chemical_Reactions/radioButtonChecked.svg",
+                        "hover": "courses/580312_Investigating_Chemical_Reactions/radioButtonHover.svg",
+                        "correct": "courses/580312_Investigating_Chemical_Reactions/radioButtonCorrect.svg",
+                        "incorrect": "courses/580312_Investigating_Chemical_Reactions/radioButtonIncorrect.svg"
+                      },
+                      "question": "Match each cell organelle with its main function.",
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "ribosome",
+                          "answer": "protein synthesis"
+                        },
+                        {
+                          "id": 2,
+                          "text": "mitochondria",
+                          "answer": "ATP synthesis "
+                        },
+                        {
+                          "id": 3,
+                          "text": "Golgi apparatus",
+                          "answer": "protein processing and transport"
+                        },
+                        {
+                          "id": 4,
+                          "text": "nucleolus",
+                          "answer": "ribosome assembly"
+                        },
+                        {
+                          "id": 5,
+                          "text": "lysosome",
+                          "answer": "intracellular digestion"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of these cytoskeletal elements serves mainly to provide strength and support for cells and tissues? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "intermediate filaments",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "centrioles ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "microtubules ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "microfilaments ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "flagella",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is the liquid component of the cytoplasm, and consists mainly of water with dissolved ions and proteins? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "cytosol",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "chromatin ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "chromosome ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "cytoskeleton ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "centriole",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "The plasma membrane of the cell consists mainly of which of the following molecules?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "phospholipids",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "cholesterol",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "peripheral membrane proteins ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "integral membrane proteins ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "transmembrane proteins",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes osmosis?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The diffusion of water molecules across a selectively permeable membrane.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The net movement of molecules or ions down a concentration gradient. ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The net movement of molecules or ions against a concentration gradient. ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The inability of water molecules to diffuse across an impermeable membrane. ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The difference in temperature between a cell and its surroundings.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is NOT a factor that directly determines the rate of diffusion of molecules or ions across a membrane? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "the size of the container holding the membrane",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "the steepness of the concentration gradient ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "temperature ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "the type of molecule or ion diffusion ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "the surface area of the membrane",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "The salt concentration in a cell's cytoplasm is 0.9%. The cell is placed in a 10% salt solution. Which term best describes the 10% salt solution relative to the cytoplasm of the cell? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "hypertonic",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "isotonic",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "osmotic",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "hypotonic",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "turgid",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the relationship between a solution’s osmotic pressure and its solute concentration? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The osmotic pressure is proportional to the solute concentration.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The osmotic pressure is inversely proportional to the solute concentration.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The osmotic pressure is lower than the solute concentration. ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The osmotic pressure is greater than the solute concentration.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "There is no relationship between these two measurements of a solution.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the safety warning associated with the methylene blue used in this investigation?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 8,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "It is an irritant to the skin, eyes, and respiratory passages.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "It is highly flammable.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "It is an oxidizing agent.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "It is corrosive.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "It is carcinogenic if exposed to skin or eyes.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the overall purpose of the dialysis tubing experiment in Activity 2 of this investigation?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 9,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "to determine the relative tonicity of aqueous solutions",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "to calculate the percent change in mass of semi-permeable cell models",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "to calculate the sucrose concentration of aqueous solutions",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "to determine the rate of diffusion of sucrose across a semi-permeable membrane",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "to determine the rate difference between simple diffusion and osmosis",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Anatomy_Physiology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will calculate the rate of <button class=glossary-text>diffusion</button> as dyes move through an agarose gel medium by simple diffusion."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Simple Diffusion (10 steps)",
+              "keyID": "page23",
+              "title": "<div className=order-list-text>A</div>&nbsp;Simple Diffusion (10 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "Preparation"
+                      }
+                    ],
+                    "text": "Read the procedure description thoroughly and become familiar with the kit materials and procedure steps prior to beginning."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Put on PPE (safety goggles, gloves, and lab apron) and wear throughout the rest of the preparation and procedure."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "To prepare the Petri dish containing agarose:"
+                  
+                  },
+                  {
+                    "type": "List",
+                    "style": {
+                      "marginBottom": "-6px",
+                      "listStyleType": "lower-alpha"
+                    },
+                    "text": [
+                      "Loosen, but do not remove, the cap of the agarose bottle."
+                    ]
+                  },
+                  {
+                    "type": "PlainImage",
+                    "title": "<ol type='a' start='2'><li class='bodyPara'></li></ol>",
+                    "style": {
+                      "marginLeft": "-8px"
+                    },
+                    "text": "Using a microwave, heat the agarose at 30-second intervals until the agarose is completely melted. The agarose must have no lumps and should pour easily. The container will be hot, so you may wish to use a potholder or oven mitt.",
+                    "image": "core/Clock.svg",
+                    "url": "core/Clock.svg",
+                    "maxWidth": "4.5%",
+                    "desc": "stopwatch symbol",
+                    "altText": "stopwatch symbol"
+                  },
+                  {
+                    "type": "List",
+                    "orderedType": "1",
+                    "listType": "ordered",
+                    "hideTextNumber": true,
+                    "style": {
+                      "marginBottom": "-6px",
+                      "marginLeft": "-38px"
+                      
+                    },
+                    "text": [
+                      "<ol type='a' start='3'> <li>Place the Petri dish on a level surface. Remove the lid and set it aside.</li><span className=bodyParaLineBreak><li>Pour all of the melted agarose slowly into the Petri dish, making sure the bottom of the dish is evenly covered and there are no bubbles in the agarose.</li> </ol>"
+                    ]
+                  },
+           
+                 
+                  {
+                    "type": "PlainImage",
+                    "title": "<ol type='a' start='5'><li class='bodyPara'></li></ol>",
+                    "style": {
+                      "marginBottom": "8px",
+                      "marginLeft": "-10px"
+                    },
+                    "text": "Allow the Petri dish to sit undisturbed and uncovered for 25–30 minutes, or until the agarose is completely solidified.",
+                    "image": "core/Clock.svg",
+                    "url": "core/Clock.svg",
+                    "maxWidth": "4.5%",
+                    "desc": "stopwatch symbol",
+                    "altText": "stopwatch symbol"
+                  }
+              
+                ],
+                
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Turn the Petri dish upside down and use the grease pencil to draw a line down the center of the bottom of the dish, as shown in Figure 5. Then turn the Petri dish right side up (agar facing up)."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Fill a micro spoon about half full of potassium permanganate. Use a pipet to suction up the permanganate crystals and deposit the contents gently onto the surface of the agarose in the center of one side of the dish. Take care not to scatter any crystals of potassium permanganate across the surface of the agarose."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use a pipet to suction an equivalent amount of methylene blue and deposit the contents onto the surface of the agarose in the center of the opposite side of the dish."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "If scattering does occur, you may wish to try again using a clear area of the agarose surface. Just make a note of the new dye location and make sure it is as far from the other dye as possible."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Put the ruler underneath the Petri dish, and record the initial diameter of each dye ring (in mm) in <span class=bodyFontBold>Data Table 1</span>. Start the timer. Take a photo of the Petri dish.",
+                    "image": [
+                      {
+                        "img": "core/Clock.svg",
+                        "altText": "stopwatch symbol",
+                        "imgWidth": "4.5%"
+                      },
+                      {
+                        "img": "core/Camera-icon.svg",
+                        "altText": "camera symbol",
+                        "imgWidth": "4.5%"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Image",
+                    "desc": "Figure 5: Diffusion experimental setup",
+                    "altText": "Figure 5: Diffusion experimental setup",
+                    "image": "courses/580506/580506_fig_005.svg",
+                    "imgDivWidth": "386px",
+                    "maxWidth": "450px",
+                    "scrollImg": true
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Record the diameter of each dye ring in <span class=bodyFontBold>Data Table 1</span> at 15-minute intervals for 1 hour. At the end of the hour, take a final photo of the Petri dish.",
+                    "image": [
+                      {
+                        "img": "core/Clock.svg",
+                        "altText": "stopwatch symbol",
+                        "imgWidth": "4.5%"
+                      },
+                      {
+                        "img": "core/Camera-icon.svg",
+                        "altText": "camera symbol",
+                        "imgWidth": "4.5%"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Determine the rate of <button class=glossary-text>diffusion</button> for each dye using the following formula:<span className=bodyParaLineBreak>Rate of diffusion (mm/min) = <span className=bodyFraction><span>final diameter – initial diameter</span><span className=symbol>/</span><span className=bottom>time (min)</span></span><span className=bodyParaLineBreak>where time is the time in minutes when the dye front reaches the edge of the Petri dish or the hour had elapsed."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Based on the information recorded in <span class=bodyFontBold>Data Table 1</span>, determine whether the two dyes diffused at the same rate or at different rates."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Anatomy_Physiology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will observe the process of <button class=glossary-text>osmosis</button> in cell models created from dialysis tubing filled with sucrose solution. The cell models will soak in sucrose solutions of various concentrations for 1 hour. You will then calculate the change in volume of cell model to determine the tonicity of each solution bath."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "<div className=order-list-text>A</div>&nbsp;Osmosis",
+              "keyID": "page25",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp;Osmosis",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure-resource",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "title": "Preparation (5 steps)"
+                      }
+                    ],
+                    "text": "Read the procedure description thoroughly and become familiar with the kit materials and procedure steps prior to beginning."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Put on PPE (safety goggles, gloves, and lab apron) and wear throughout the rest of the preparation and procedure."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Prepare one solution of 40% sucrose and two solutions of 20% sucrose:"
+                  
+                  },
+                  {
+                    "type": "List",
+                    "listType":"ordered",
+                    "orderedType": "a",
+                    "text": [
+                      "Label two 250-mL beakers “20% sucrose” and one 250-mL beaker “40% sucrose.”",
+                      "Add five level teaspoons (20 g) of sucrose to a “20% sucrose” beaker. Add warm tap water to approximately the 90-mL mark on the beaker and stir with the teaspoon until the sugar is completely dissolved. Pour into the 100-mL graduated cylinder, and carefully add more water to reach a total volume of 100 mL. Pour back into the beaker and rinse the graduated cylinder and teaspoon with tap water.",
+                      "Repeat Step 3b to produce another beaker of 20% sucrose solution.",
+                      "Add 10 level teaspoons (40 g) of sucrose to the “40% sucrose” beaker. Add warm tap water to approximately the 90-mL mark on the beaker and stir with the teaspoon until the sugar is completely dissolved. Pour into the 100-mL graduated cylinder, and carefully add more water to reach a total volume of 100 mL. Pour back into the beaker and rinse the graduated cylinder and teaspoon with tap water.",
+                      "Allow all three sucrose solutions to cool to room temperature before starting the procedure."
+                    ],
+                    "style": {
+                      "marginBottom": "2px",
+                      "listStyle": "lower-alpha"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Label three weigh boats “A,” “B,” and “C” for each treatment."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Label three plastic cups “A,” “B,” and “C” for each treatment."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [
+                    
+                      {
+                        "type": "Plain",
+                        "title": "<span className=bodyParaLineBreak>Procedure (24 steps)"
+                      }
+                     
+                    ],
+                    "startNewNumber": true,
+                    "text": "Use the 100-mL graduated cylinder to measure 90 mL of 20% sucrose solution. Pour into Cup “A.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the 100-mL graduated cylinder to measure 90 mL of 20% sucrose solution. Pour into Cup “B.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the 100-mL graduated cylinder to measure 90 mL of 40% sucrose solution. Pour into Cup “C.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "altText": "stopwatch symbol",
+                    "image": "core/Clock.svg",
+                    "url": "core/Clock.svg",
+                    "maxWidth": "4.5%",
+                    "text": "Fill another clean plastic cup with tap water. Place the flat, transparent dialysis tubing in the water. Allow the dialysis tubing to remain in the water for at least 30 seconds."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Remove the dialysis tubing from the water, and gently roll the end of the tubing between your index finger and thumb. This should cause the dialysis tubing to open. Slightly wetting your fingers will make opening the dialysis tubing easier."
+                  },
+                  {
+                    "type": "Plain",
+                    "text": "View the following video: <span class=bodyFontBold>Opening Dialysis Tubing</span>"
+                  },
+                 
+                  {
+                    "type": "Video",
+                    "imgDivWidth": "200px",
+                    "image":  "courses/580506/580506_SafetyVideoIcone.svg",
+                    "desc": "Opening Dialysis Tubing",
+                    "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4573412134001"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Continue rolling the tubing down its length until the tubing is completely open. Tie a simple knot on one end of the dialysis tubing, as shown in Figure 6. This knot should be as close to the end as possible. Repeat this process for all three pieces of dialysis tubing."
+                  },
+                  {
+                    "type": "Image",
+                    "desc": "Figure 6: Flexible dialysis tubing knotted at one end",
+                    "altText": "Figure 6: Flexible dialysis tubing knotted at one end",
+                    "image": "courses/580506/580506_fig_006.svg",
+                    "imgDivWidth": "257px",
+                    "scrollImg": true,
+                    "maxWidth": "300px"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the 10-mL graduated cylinder to measure out 6 mL of 20% sucrose solution. Use a pipet to transfer all 6 mL into a piece of dialysis tubing. You may need to pour the last milliliter or so into the open end of the tubing."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Carefully remove almost all of the air from the space above the sucrose solution, leaving only a small bubble, so the tube will float when placed in its designated cup. To expel the air, gently squeeze upward with the thumb and index finger of one hand while supporting the filled tubing with the other hand."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Twist the top inch of the tubing and tie a simple knot at the top end, as shown in <span style='whiteSpace: nowrap'>Figure 7.</span>"
+                  },
+                  {
+                    "type": "Image",
+                    "desc": "Figure 7: Filled and knotted dialysis tubing",
+                    "altText": "Figure 7: Filled and knotted dialysis tubing",
+                    "image": "courses/580506/580506_fig_007.svg",
+                    "imgDivWidth": "257px",
+                    "scrollImg": true,
+                    "maxWidth": "280px"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Rinse the outside of the dialysis tubing with water, and gently blot it dry with a paper towel."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Place the dialysis tubing in the weigh boat labeled “A.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Repeat steps 7–10 with the next piece of dialysis tubing. Place the tubing in the weigh boat labeled “C.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Rinse the 10-mL graduated cylinder with tap water. Use it to measure out 6 mL of 40% sucrose solution. Use a new pipet to transfer all 6 mL into the last piece of dialysis tubing. Pour the last bit into the open end of the dialysis tubing if necessary. Repeat Steps 8–10, and place the tubing in the weigh boat labeled “B.”"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "altText": "camera symbol",
+                    "image": "core/TakeSnapshot.svg",
+                    "url": "core/TakeSnapshot.svg",
+                    "maxWidth": "4.5%",
+                    "text": "Take a photo of all three pieces of filled dialysis tubing sitting in their weigh boats."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Measure the volume of each solution in each tube by displacement:"
+                
+                  },
+                  {
+                    "type": "List",
+                    "listType":"ordered",
+                    "orderedType": "a",
+                    "text": [
+                      "Add 80 mL of tap water to the 100-mL graduated cylinder.",
+                      "Drop tubing “A” into the graduated cylinder and make sure the solution inside the tubing is completely submerged.",
+                      "Observe the new water level and record the value as “initial volume” in <span class=bodyFontBold>Data Table 2.</span>",
+                      "Remove the tubing from the graduated cylinder and discard the water. Dab each end of the tubing with a paper towel to remove any excess water, and place the tubing in its designated weigh boat.",
+                      "Perform Steps 15a–d for tubing pieces “B” and “C.”"
+                    ],
+                    "style": {
+                      "marginBottom": "2px",
+                      "listStyle": "lower-alpha"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Transfer the tubing pieces into the labeled cups containing the appropriate sucrose solutions as follows:"
+                 
+                  },
+                  {
+                    "type": "List",
+                    "listType":"ordered",
+                    "orderedType": "a",
+                    "text": [
+                      "Cup “A”: 20% sucrose solution in the cup and 20% sucrose solution in the dialysis tubing.",
+                      "Cup “B”: 20% sucrose solution in the cup and 40% sucrose solution in the dialysis tubing.",
+                      "Cup “C”: 40% sucrose solution in the cup and 20% sucrose solution in the dialysis tubing."
+                     
+                    ],
+                    "style": {
+                      "marginBottom": "2px",
+                      "listStyle": "lower-alpha"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "altText": "stopwatch symbol",
+                    "image": "core/Clock.svg",
+                    "url": "core/Clock.svg",
+                    "maxWidth": "4.5%",
+                    "text": "Make sure the dialysis tubing is completely submerged, and start the timer."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "altText": "stopwatch symbol",
+                    "image": "core/Clock.svg",
+                    "url": "core/Clock.svg",
+                    "maxWidth": "4.5%",
+                    "text": "Allow the tubing to sit in the cups for 1 hour."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Remove each piece of tubing from its cup, dab each end of the tubing with a paper towel to remove any excess water, and place the tubing back into its corresponding weigh boat."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "altText": "camera symbol",
+                    "image": "core/TakeSnapshot.svg",
+                    "url": "core/TakeSnapshot.svg",
+                    "maxWidth": "4.5%",
+                    "text": "Take a photo of all three pieces of filled dialysis tubing sitting in their weigh boats."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Measure the new volume of the solution in each piece of tubing."
+                  
+                  },
+                  {
+                    "type": "List",
+                    "listType":"ordered",
+                    "orderedType": "a",
+                    "text": [
+                      "Add 80 mL of tap water to the 100-mL graduated cylinder.",
+                      "Drop tubing piece “A” into the graduated cylinder and make sure it is completely submerged.",
+                      "Observe the new water level and record the value as “final volume” in <span class=bodyFontBold>Data Table 2.</span>",
+                      "Remove the tubing from the graduated cylinder, squeeze any excess water out from the ends of the tubing, and place the tubing in its designated weigh boat. Discard the water.",
+                      "Perform Steps 21a–d for tubing pieces “B” and “C.”"
+                     
+                    ],
+                    "style": {
+                      "marginBottom": "2px",
+                      "listStyle": "lower-alpha"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Determine the change in the volume of solution within each piece of dialysis tubing and record in <span class=bodyFontBold>Data <span style='whiteSpace: nowrap'>Table 2.</span></span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Determine the percentage change in the volume of solution within each piece of dialysis tubing and record in <span class=bodyFontBold>Data <span style='whiteSpace: nowrap'>Table 2.</span></span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Based on the results, determine whether the solution in each piece of tubing was <span style='whiteSpace: nowrap'><button class=glossary-text>isotonic</button>,</span> <span style='whiteSpace: nowrap'><button class=glossary-text>hypotonic</button>,</span> or <button class=glossary-text>hypertonic</button> relative to the solution in the cup. Record your conclusions in <span class=bodyFontBold>Data <span style='whiteSpace: nowrap'>Table 2.</span></span>"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                  
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                  "orderedType": "1",
+                  "start": "1",
+                  "style": {
+                    "marginBottom": "-6px"
+                  },
+                  "text": [
+                    "Keep your PPE (safety goggles, gloves, and lab apron) on throughout the disposal and cleanup process."
+                    ]
+                },
+                {
+                  "type": "PlainImage",
+                  "title": "<ol start='2'><li class='bodyPara'></li></ol>",
+                  "style": {
+                    "marginLeft": "-8px"
+                   },
+                  "text": "Carefully pour all liquids down the drain, flushing with excess tap water for at least 1 full minute.",
+                  "image": "core/Clock.svg",
+                  "maxWidth": "4.5%",
+                  "desc": "stopwatch symbol",
+                  "altText": "stopwatch symbol"
+                },
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                  "orderedType": "3",
+                  "start": "3",
+                  "text": [
+                    "The weigh boats, plastic cups, pipets, and dialysis tubing should be disposed of in the household trash.",
+                    "Secure the lid on the Petri dish of agarose, wrap in a plastic bag, and dispose of in the household trash.",
+                    "Wash and dry the teaspoon, micro spoons, beakers, and graduated cylinders.",
+                    "Store remaining materials in the materials kit bag or equipment set.",
+                    "Sanitize the work space and wash your hands."
+                    ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+ 
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Thank you",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment."
+                 
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Anatomy_Physiology_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2022 Carolina Biological Supply Company",
+      "pageSetting": "portrait"
+    },
+    "pages": [
+      {
+        "waterMark": false,
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable1",
+            "tag": "div",
+            "width":"70%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1"
+              },
+              {
+                "type": "DataTable",
+              
+                "sr": 0,
+                "maxLength": 20,
+                "header": [
+                  {
+                    "text": "Time (min)",
+                    "colWidth":"20%"
+                  },
+                  {
+                    "text":"Diameter, Potassium Permanganate (mm)",
+                    "colWidth":"40%"
+                  },
+                  { 
+                    "text":"Diameter, Methylene Blue (mm)",
+                    "colWidth":"40%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                     "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "0"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                     "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "15"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                     "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "30"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                     "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "45"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                     "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "60"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Questions",
+        "textAreaId": "question_1",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "question_1",
+            "sr": 0,
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+               
+                "orderedType": "1",
+                "listType": "ordered",
+               "text": [
+                  "The molecular weight of potassium permanganate is 158 g/mol. The molecular weight of methylene blue is 320 g/mol. Based on the information recorded in Data Table 1, what can you conclude about the relationship between molecular weight and diffusion?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "question_1",
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable2",
+            "tag": "div",
+            "width":"80%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 2"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "maxLength": 20,
+                "header": [
+                  {
+                    "text": " ",
+                    "colWidth":"25%"
+                  },
+                  {
+                    "text":"Treatment A",
+                    "colWidth":"25%"
+                  },
+                  { 
+                    "text":"Treatment B",
+                    "colWidth":"25%"
+                  },
+                  { 
+                    "text":"Treatment C",
+                    "colWidth":"25%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                     "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Solution in dialysis tubing",
+                      "rowHeight": "50px"
+                    },
+                    {
+                      "type": "text",
+                     "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "20% sucrose"
+                    },
+                    {
+                      "type": "text",
+                     "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "40% sucrose"
+                    },
+                    {
+                      "type": "text",
+                     "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "20% sucrose"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                     "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Solution in cup",
+                      "rowHeight": "50px"
+                    },
+                    {
+                      "type": "text",
+                     "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "20% sucrose"
+                    },
+                    {
+                      "type": "text",
+                     "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "20% sucrose"
+                    },
+                    {
+                      "type": "text",
+                     "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "40% sucrose"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                     "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Initial volume (V<sub>i</sub>) (mL)",
+                      "rowHeight": "50px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                     "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Final volume (V<sub>f</sub>) (mL)",
+                      "rowHeight": "50px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                     "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Change in volume (V<sub>f</sub>−V<sub>i</sub>) (mL)",
+                      "rowHeight": "50px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                     "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Percent change in volume (change in volume/V<sub>i</sub>) × 100",
+                      "rowHeight": "50px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                     "fontFamily":"HelveticaNeueLTStdMd65",
+                      "text": "Hypotonic, isotonic, or hypertonic",
+                      "rowHeight": "50px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Questions",
+        "textAreaId": "question_2",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "question_2",
+            "sr": 1,
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Question"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "2",
+                "listType": "ordered",
+                
+                "text": [
+                  "Data Table 2, what is the significance of a negative percent change in volume?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "question_2",
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Step 9 Photo"
+              },
+              {
+                "type": "Plain",
+               "text": "The entire Petri dish should be visible, and each dye should be identified. "
+              },
+              {
+                "type": "UploadFiles",
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2 Step 14 Photos"
+               
+              },
+              {
+                "type": "Plain",
+                "text": "All three pieces of filled dialysis tubing should be visible, and should be identified as A, B, or C.<br/><br/><span class='bodyFontBold'>A</span>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question1Upload",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": " ",
+                "text": "<span class='bodyFontBold'>B</span> "
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question1Upload",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": " ",
+                "text": "<span class='bodyFontBold'>C</span>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 2,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2 Step 20 Photos"
+               
+              },
+              {
+                "type": "Plain",
+                "text": "All three pieces of dialysis tubing should be visible, and the concentration of the sucrose solution in which each was immersed should be noted.<br/><br/><span class='bodyFontBold'>A</span>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question1Upload",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "",
+                "text": "<span class='bodyFontBold'>B</span>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question1Upload",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "",
+                "text": "<span class='bodyFontBold'>C</span>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 2,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6305649924112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580506/580506_fig_001.svg",
+        "scrollImg": true,
+        "maxWidth": "500px",
+        "altText": "Figure 1: A generalized animal cell and some of its internal organelles.",
+        "content": "Figure 1. An animal cell and some of its organelles"
+      },
+      {
+        "type": "DataTable",
+        "thumbnailSrc": "core/Table_icon.svg",
+        "content": "Table 1. Cell organelles and their functions",
+        "title": "Table 1.",
+        "allowClick": true,
+        "tableWidth": "98%",
+        "isResource":true ,
+         "header": [
+            {
+              "text": "Structure",
+              "colWidth":"45%"
+              
+            },
+            {
+              "text": "Function",
+              "colWidth":"55%"
+            }
+           
+          ],
+          "tableData": [
+            [
+              {
+                "type": "text",
+                "text": "Ribosomes"
+
+              },
+              {
+                "type": "text",
+                "text": "Protein synthesis"
+              }
+            
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Rough endoplasmic reticulum (rough ER)"
+             },
+              {
+                "type": "text",
+                "text": "Processing and transport of proteins"
+              }
+           
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Smooth endoplasmic reticulum (smooth ER)"
+              
+              },
+              {
+                "type": "text",
+                "text": "Lipid and carbohydrate metabolism; detoxification"
+              }
+         
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Golgi apparatus"
+              
+              },
+              {
+                "type": "text",
+                "text": "Processing and transport of proteins, especially secreted proteins"
+              }
+             
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Lysosomes"
+              },
+              {
+                "type": "text",
+                "text": "Intracellular digestion"
+               
+              }
+           
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Peroxisomes"
+              },
+              {
+                "type": "text",
+                "text": "Catabolism of fatty acids"
+              }
+         
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Mitochondria"
+              },
+              {
+                "type": "text",
+                "text": "ATP production"
+              }
+         
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Centrioles"
+              },
+              {
+                "type": "text",
+                "text": "Organization and movement of chromosomes during cell division"
+              }
+         
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Cilia"
+              },
+              {
+                "type": "text",
+                "text": "Movement"
+              }
+         
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Flagella"
+              },
+              {
+                "type": "text",
+                "text": "Movement"
+              }
+         
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Microfilaments"
+              },
+              {
+                "type": "text",
+                "text": "Cytokinesis; changes in cell shape; cell motility"
+              }
+         
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Intermediate filaments"
+              },
+              {
+                "type": "text",
+                "text": "Strength and support for cells and tissues"
+              }
+         
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Microtubules"
+              },
+              {
+                "type": "text",
+                "text": "Motility (internal components of cilia and flagella); intracellular transport; chromosome movements during cell division"
+              }
+         
+            ]
+          ]
+        
+      
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580506/580506_fig_002.svg",
+        "maxWidth": "490px",
+        "scrollImg": true,
+        "altText": "Figure 2: The phospholipid bilayer structure of a cell membrane. The hydrophobic tails associate with one another to form the interior of the membrane. The hydrophilic heads form the boundary between the extracellular and intracellular environments.",
+        "content": "Figure 2. The phospholipid bilayer"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580506/580506_fig_003.svg",
+        "maxWidth": "210px",
+        "scrollImg": true,
+        "altText": "Figure 3: Two rectangles with different amounts of black and open circles in them.",
+        "content": "Figure 3. A hypertonic solution versus a hypotonic solution"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580506/580506_ED.svg",
+        "maxWidth": "1100px",
+        "scrollImg": true,
+        "altText": "This map describes the procedural workflow for this investigation. In activity 1, you will start by preparing a Petri dish of agarose, place dye crystals on either side of dish, and determine rate of diffusion for each dye. In Activity 2, cell models will soak in sucrose solutions of various concentrations for 1 hour. You will then calculate the change in volume of cell model to determine the tonicity of each solution bath.",
+        "content": "Experimental Design Diagram"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580506/580506_fig_004.svg",
+        "maxWidth": "200px",
+        "scrollImg": true,
+        "altText": "Figure 4: Two rectangles with the same amount of black and open circles in them.",
+        "content": "Figure 4. An isotonic solution"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580506/580506_fig_005.svg",
+        "altText": "Figure 5: Diffusion experimental setup",
+        "scrollImg": true,
+        "maxWidth": "450px",
+        "content": "Figure 5. An example of Activity 1 set up"
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=4573412134001",
+        "content": "Opening Dialysis Tubing"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580506/580506_fig_006.svg",
+        "maxWidth": "300px",
+        "scrollImg": true,
+        "altText": "Figure 6: Flexible dialysis tubing knotted at one end ",
+        "content": "Figure 6. The knotted end of a dialysis tube"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580506/580506_fig_007.svg",
+        "maxWidth": "280px",
+        "scrollImg": true,
+        "altText": "Figure 7: Filled and knotted dialysis tubing",
+        "content": "Figure 7. An example of a filled dialysis tube"
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Centriole",
+        "content": "Cylindrical organelle that produces spindle fibers during cell division, occurs in pairs"
+      },
+      {
+        "title": "Chromatin",
+        "content": "A threadlike complex of DNA and proteins (histones)"
+      },
+      {
+        "title": "Chromosome",
+        "content": "Tightly coiled chromatin"
+      },
+      {
+        "title": "Cilium, plural cilia",
+        "content": "Tiny hair-like organelles on the cell surface, responsible for the movement of fluids and help maintain homeostasis "
+      },
+      {
+        "title": "Concentration gradient",
+        "content": "When the concentration of particles is higher in one area than another, particles will diffuse from areas of higher concentration to areas of lower concentration, until they are even"
+      },
+      {
+        "title": "Cytoplasm",
+        "content": "A jelly-like fluid inside the cell"
+      },
+      {
+        "title": "Cytoskeleton",
+        "content": "Network of protein filaments and tubules in the cytoplasm, gives the cell shape and structure"
+      },
+      {
+        "title": "Cytosol",
+        "content": "The water-soluble components of cell cytoplasm"
+      },
+      {
+        "title": "Diffusion",
+        "content": "The net movement of molecules or ions down a concentration gradient"
+      },
+      {
+        "title": "Flagellum, plural flagella",
+        "content": "Hairlike appendage that allows spermatozoa to swim"
+      },
+      {
+        "title": "Fluid-mosaic model",
+        "content": "The phospholipid bilayer is viscous, which allows individual phospholipids to move position (fluid) and the phospholipid bilayer is embedded with proteins (mosaic)"
+      },
+      {
+        "title": "Golgi apparatus (Golgi body)",
+        "content": "Organelle that helps process and package proteins and lipid molecules, especially secreted proteins"
+      },
+      {
+        "title": "Hydrophilic",
+        "content": "Attracted to water, \"water loving\""
+      },
+      {
+        "title": "Hydrophobic",
+        "content": "Repelled by water, \"water hating\""
+      },
+      {
+        "title": "Hypertonic",
+        "content": "Two solutions have different concentrations of a solute, the one with the higher solute concentration"
+      },
+      {
+        "title": "Hypotonic",
+        "content": "Two solutions have different concentrations of a solute, the one with the lower solute concentration"
+      },
+      {
+        "title": "Integral membrane proteins",
+        "content": "Firmly embedded in the membrane"
+      },
+      {
+        "title": "Intermediate filament",
+        "content": "Form an elaborate network in the cytoplasm, provides structure "
+      },
+      {
+        "title": "Isotonic",
+        "content": "Solutions have the same concentration of solute"
+      },
+      {
+        "title": "Lysosome",
+        "content": "Membrane-bound organelle that contains digestive enzymes, removal of worn out cellular material and pathogens"
+      },
+      {
+        "title": "Microfilament",
+        "content": "Protein filament in the cytoplasm, provides shape and structure, cytokinesis"
+      },
+      {
+        "title": "Microtubule",
+        "content": "Ridged hollow rods in the cytoplasm,  involved in mitosis, cell motility, intracellular transport, and maintenance of cell shape"
+      },
+      {
+        "title": "Mitochondrion, plural mitochondria",
+        "content": "Double-membrane-bound organelle responsible for ATP production"
+      },
+      {
+        "title": "Nuclear envelope",
+        "content": "Membrane that separates the nucleus from the cytoplasm"
+      },
+      {
+        "title": "Nuclear pore",
+        "content": "Tiny channels in the nuclear membrane that regulates the transportation of molecules between the nucleus and the cytoplasm"
+      },
+      {
+        "title": "Nucleolus",
+        "content": "A structure found in the cell's nucleus, produces and assembles ribosomes"
+      },
+      {
+        "title": "Nucleus",
+        "content": "Membrane-enclosed organelle that contains genetic material"
+      },
+      {
+        "title": "Organelle",
+        "content": "A specialized structure that performs a specific function inside the cell (\"little organ\")"
+      },
+      {
+        "title": "Osmosis",
+        "content": "The diffusion of water across a semi-permeable membrane"
+      },
+      {
+        "title": "Peripheral membrane proteins",
+        "content": "Weakly associated with the membrane"
+      },
+      {
+        "title": "Peroxisome",
+        "content": "Membrane-bound  organelle that breaks down fatty acids"
+      },
+      {
+        "title": "Phospholipid",
+        "content": "Consists of a glycerol skeleton with two fatty acids and a phosphate group attached"
+      },
+      {
+        "title": "Phospholipid bilayer",
+        "content": "Two layers of molecules, with the hydrophilic heads directed to the inside and outside of the cell and the hydrophobic tails sandwiched in between."
+      },
+      {
+        "title": "Plasma membrane",
+        "content": "Surrounds and defines each cell, separates its internal environment from the external environment"
+      },
+      {
+        "title": "Ribosome",
+        "content": "A complex molecular machine that produces proteins"
+      },
+      {
+        "title": "Rough endoplasmic reticulum (rough ER, RER)",
+        "content": "Organelle that is involved with protein synthesis-with surface ribosomes"
+      },
+      {
+        "title": "Semipermeable",
+        "content": "Allows for certain substances to pass through it but not others"
+      },
+      {
+        "title": "Smooth endoplasmic reticulum (smooth ER, SER)",
+        "content": "Organelle  that is involved in the production of hormones, lipids, and in some cells, waste removal-without surface ribosomes"
+      },
+      {
+        "title": "Transmembrane proteins",
+        "content": "Completely span the phospholipid bilayer and have exposed regions on both sides of the membrane"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

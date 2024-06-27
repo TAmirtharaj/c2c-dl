@@ -1,0 +1,2165 @@
+{
+  "locked": true,
+  "courseTitle": "Human Evolution Virtual Lab",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Biology_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/bodyBookmark.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/TakeSnapshot.svg",
+    "core/disposalAndCleanupIcon.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Biology_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Biology",
+                "titleName2": "Human Evolution Virtual Lab",
+                "images": {
+                  "logo": "core/Biology_subject_icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, you are introduced to evolutionary principles, <button class='glossary-text'>fossils</button>, and the physical changes in extinct human ancestors. You will observe skull characteristics to build a <button class='glossary-text'>cladogram</button> showing the relationship between humans and our living and extinct ancestors."
+                },
+                {
+                  "type": "List",
+                  "title": "Needed but not supplied:",
+                  "text": ["Blank sheet of paper", "Pen or pencil"]
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Biology/580249_VIRT/580249VIRT_Time-Requirement.svg",
+                  "altText": "Preparation – 15 minutes \nActivity 1 – 60 minutes",
+                  "containerType": "rightContainer",
+                  "imgDivWidth": "249px",
+                  "maxWidth": "300px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Describe how <button class='glossary-text'>fossils</button> are formed, and their ability to provide evidence of evolutionary relationships.",
+                    "Define the difference between <button class='glossary-text'>hominins</button> and <button class='glossary-text'>hominids</button>.",
+                    "Describe the morphological changes in hominins and hominids over time, especially in terms of skull morphology.",
+                    "Describe the purpose of a <button class='glossary-text'>cladogram</button> and interpret evolutionary relationships presented in cladograms.",
+                    "Construct a cladogram using observations of hominid skull morphology."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "As early <span class='bodyFontItalic'>Homo</span> species migrated out of Africa, they grew bigger and evolved larger, more complex brains. Larger brains can process more information, allowing <span class='bodyFontItalic'>Homo sapiens</span> to form social interactions and respond to unfamiliar habitats."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Six to two million years ago, early humans began to walk upright and make simple tools, but brain size increased only slightly<sup className=bodySupscript>1</sup>. From two million to 800,000 years ago early humans began migrating across the earth, correlating to an increase in body size and brain mass. After this period, from 800,000-200,000 years ago, the human brain began to grow rapidly from a volume of 650 cc to 1,500 cc. This increase in brain size may have been due to the decrease in large prey: as such prey became scarce, early humans needed to become smarter hunters of small game<sup className=bodySupscript>2</sup>. However, as humans moved into an agricultural setting, the brain decreased to the modern size of 1300 -1400 cc. Since domesticated plants and animals do not run away, maintaining a larger brain was not an efficient use of energy, of which large brains need a lot<sup className=bodySupscript>2</sup>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='citation' style='line-height: 1.1em;'><span class='bodyParaLineBreak'><sup className=bodySupscript>1</sup>Human Origins. (2021). Human Characteristics: Brains. <span class='bodyFontItalic'>Smithsonian Institution.</span><br><span target='blank' style=' word-break: break-all'>https://humanorigins.si.edu/human-characteristics/brains</span></span><span class='bodyParaLineBreak'><sup className=bodySupscript>2</sup>Ben-Dor, M. & Barkai, R. (2021). Prey Size Decline as a Unifying Ecological Selecting Agent in Pleistocene Human Evolution. <span class='bodyFontItalic'>Quaternary</span>, 4(1), 7. MDPI AG.<br><span target='blank' style=' word-break: break-all'>http://dx.doi.org/10.3390/quat4010007</span></span></span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "/courses_2023/Biology/580249_VIRT/580249VIRT_Bio_whyShouldICare.svg",
+                  "desc": "A preserved Homo sapiens skull.",
+                  "altText": "A preserved Homo sapiens skull.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Evolution</button> is the idea that all life on Earth shares a common ancestor. This means that all organisms found on Earth are related. Different, or unique, features develop over time through a process of random modification occurring as organisms reproduce and pass down their genetic information from one generation to the next. Scientists study these features to determine how closely organisms are related to one another."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Phylogenetic trees</button>, like Figure 1, are used to represent evolutionary relationships between species. The root or base of the tree represents the common ancestor, and the branches represent the descendants of that ancestor. Time moves forward from the base of the tree to the tips of the branches."
+                },
+                {
+                  "type": "Plain",
+                  "subTitle": "Fossils",
+                  "text": "<button class='glossary-text'>Fossils</button> are a record of the life that existed thousands, even millions of years ago. Although almost all living organisms are capable of being fossilized, the circumstances to achieve this must be just right. Most commonly a plant or animal dies in a watery environment, becoming buried in mud and silt. Over time, as sediment continues to build upon the buried organism, sedimentary rock forms with the organism's remains encased within the rock.<span className=bodyParaLineBreak>Only some parts of an organism can become fossilized. Because soft parts (internal organs, muscle, skin) decay rapidly, they are rarely fossilized. Organisms made up of only soft parts, such as jellyfish or worms, leave virtually no trace in the fossil record. Hard parts (bones, shells) are more resilient and can be slowly replaced by minerals as they decay. Once fossilized, these structures are made of rock rather than cells.<span className=bodyParaLineBreak>Due to the specific circumstances and body structures required for fossilization, the fossil record represents only a small percentage of the extinct life that once lived on the earth. And the fossils excavated to date represent only a fraction of the total fossil record. Despite its incomplete nature, the fossil record gives scientists a unique snapshot into the morphology, habitats and behaviors of ancient ancestral species, without which we would not have a glimpse into the evolutionary pasts of modern organisms."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_001.svg",
+                  "imgDivWidth": "560px",
+                  "maxWidth": "704px",
+                  "scrollImg": true,
+                  "altText": "Figure 1: An illustrated tree labeled with a taxon at the end of each branch and characteristics along the larger branches.",
+                  "desc": "Figure 1: An illustrated tree labeled with a taxon at the end of each branch and characteristics along the larger branches.",
+                  "width": "100%",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Most <button class='glossary-text'>fossils</button> form in sedimentary rock, but even this method of preservation can be accomplished in a variety of ways. And organisms can be preserved in substances other than rock."
+                },
+                {
+                  "type": "List",
+                  "text": [
+                    "An entire organism, in just the right circumstances, can be preserved when it becomes encased in ice or volcanic ash, or submerged in a bog. For example, in 1991 hikers in the Italian Alps stumbled across a well-preserved natural human mummy who lived sometime between 3100 and 3400 BCE.",
+                    "<button class='glossary-text'>Permineralization</button> is a type of fossilization that occurs when minerals carried by water replace the organic matter of an organism. Petrified wood is formed by permineralization.",
+                    "<button class='glossary-text'>Natural casts</button> are fossils that form when flowing water removes all the original bone or tissue, leaving just an impression in the sediment. This can be filled by minerals, thus recreating the original shape of the organism. Many regions that are dry land today were covered by water millions of years ago. Fossils of extinct ocean life are common where these ancient bodies of water used to be found (Figure 2)."
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_002.svg",
+                  "imgDivWidth": "437px",
+                  "scrollImg": true,
+                  "desc": "Figure 2: Many fossilized casts of spiral shells.",
+                  "altText": "Figure 2: Many fossilized casts of spiral shells.",
+                  "maxWidth": "528px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "<button class='glossary-text'>Trace fossils</button> do not contain organisms themselves, but they provide scientists with a record of the activity of extinct species. Examples of trace fossils include nests, burrows, imprints of leaves and footprints (Figure 3)."
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_003.svg",
+                  "imgDivWidth": "433px",
+                  "style": { "marginLeft": "27px" },
+                  "scrollImg": true,
+                  "desc": "Figure 3: Fossilized leaf impressions.",
+                  "altText": "Figure 3: Fossilized leaf impressions.",
+                  "maxWidth": "530px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "text": [
+                    "In rare circumstances, an organism can become trapped in tree resin, which hardens into <button class='glossary-text'>amber</button> after the tree becomes buried underground."
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_004.svg",
+                  "imgDivWidth": "441px",
+                  "style": { "marginLeft": "27px" },
+                  "scrollImg": true,
+                  "desc": "Figure 4: An insect encased in translucent amber.",
+                  "altText": "Figure 4: An insect encased in translucent amber.",
+                  "maxWidth": "530px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following best describes the significance of the fossil record in studying evolution?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The fossil record provides physical evidence of ancestral species that can be compared to modern species.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The fossil record is the only evidence that supports evolution as a principle of biology.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "The fossil record provides a comprehensive history of ancient life on Earth.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The fossil record provides snapshots of ancient life on Earth, and how little ancestral species have changed over time.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "The fossil record is incomplete and does not provide enough information to make any comparisons.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The ancestral species preserved in the fossil record provide physical evidence that can be compared to the morphologies of modern species."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following is one of the reasons why fossils are so rare?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Fossilization requires specific environmental conditions.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Fossilization only occurs during the formation of sedimentary rock.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Most existing fossils have already been excavated.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Only certain soft tissues are readily fossilized.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Fossilization only occurs during the formation of metamorphic rock.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Fossils are only formed when hard body structures are preserved under specific environmental conditions."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Fossils are a record of the life that existed thousands, even millions of years ago. Although almost all living organisms are capable of being fossilized, the circumstances to achieve this must be just right. Most commonly a plant or animal dies in a watery environment, becoming buried in mud and silt. Over time, as sediment continues to build upon the buried organism, sedimentary rock forms with the organism's remains encased within the rock. Hard parts (bones, shells) are resilient and can be slowly replaced by minerals as they decay. Once fossilized, these structures are made of rock rather than cells. Organisms made up of only soft parts, such as jellyfish or worms, leave virtually no trace in the fossil record. The fossil record gives scientists a unique snapshot into the morphology, habitats and behaviors of ancient ancestral species, without which we would not have a glimpse into the evolutionary pasts of modern organisms."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Fossils are a record of the life that existed thousands, even millions of years ago. Although almost all living organisms are capable of being fossilized, the circumstances to achieve this must be just right. Most commonly a plant or animal dies in a watery environment, becoming buried in mud and silt. Over time, as sediment continues to build upon the buried organism, sedimentary rock forms with the organism's remains encased within the rock. Hard parts (bones, shells) are resilient and can be slowly replaced by minerals as they decay. Once fossilized, these structures are made of rock rather than cells. Organisms made up of only soft parts, such as jellyfish or worms, leave virtually no trace in the fossil record. The fossil record gives scientists a unique snapshot into the morphology, habitats and behaviors of ancient ancestral species, without which we would not have a glimpse into the evolutionary pasts of modern organisms."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Hominins and Hominids",
+                  "text": "When describing humans and their ancestors, there are two terms that are commonly used. <button class='glossary-text'>Hominin</button> describes humans (<i>Homo sapiens</i>) and all our close extinct relatives. <button class='glossary-text'>Hominid</button> describes humans, our close extinct relatives, and all modern and extinct great apes (orangutans, gorillas, chimpanzees, etc.).<span className=bodyParaLineBreak>The differentiation between hominins and hominids is a fairly recent change in the scientific community and often these terms are still used interchangeably. While it is not incorrect to refer to extinct human relatives as hominids, it is technically less accurate than the term hominin. You will focus on hominins in this Background section but will explore hominids as well during the virtual lab activity."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Figure 5 shows some of the species in the hominin group. Notice the differences in the size and shape of the skulls between species. Here are some of the changes that took place over the course of human <button class='glossary-text'>evolution</button>."
+                },
+                {
+                  "type": "List",
+                  "text": [
+                    "<i>Sahelanthropus tchadensis</i> (Figure 5a) is an extinct species that dates to about the time the lineages that led to chimpanzees and humans diverged.",
+                    "<i>Australopithecus africanus</i> (Figure 5b) is an extinct species of the australopithecines that exhibits both human- and ape-like characteristics. <i>Au. africanus</i> has a rounder cranium and smaller teeth than older australopithecines, but still retains relatively long arms, a strongly sloping face and pronounced jaw.",
+                    "<i>Homo erectus</i> (Figure 5c) is a species of archaic humans to which the earliest use of hand axes is attributed. This is also the first species believed to have expanded beyond Africa.",
+                    "<i>Homo neanderthalensis</i> (Figure 5d) is the closest extinct human relative. Neanderthals had brains that were as large as ours, sometimes larger. They used sophisticated tools, built shelters and fires, and made and wore clothing.",
+                    "<i>Homo sapiens</i> (Figure 5e) is the species all modern humans belong to. Considering the relatively large size of the human brain, the human skull is unique in that it is thin-walled and highly vaulted, with a flat, almost vertical forehead. The heavy brows and jaws of earlier hominins are diminished in humans."
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_005.svg",
+                  "imgDivWidth": "497px",
+                  "maxWidth": "645px",
+                  "scrollImg": true,
+                  "altText": "Figure 5: Five preserved hominin skulls labeled with their species name and date. From left to right, Sahelanthropus tchadensis, dated to 7-6 million years ago; Autralopithecus africanus, dated to 2,500,000 years ago; Homo erectus, dated to 1,000,000 years ago; Homo neanderthalensis, dated to 50,000 years ago; Homo sapiens, dated to 30,000-10,000 years ago.",
+                  "desc": "Figure 5: Five preserved hominin skulls labeled with their species name and date. From left to right, Sahelanthropus tchadensis, dated to 7-6 million years ago; Autralopithecus africanus, dated to 2,500,000 years ago; Homo erectus, dated to 1,000,000 years ago; Homo neanderthalensis, dated to 50,000 years ago; Homo sapiens, dated to 30,000-10,000 years ago.",
+                  "width": "100%",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of these traits diminished in early humans as hominins evolved?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "heavy brow and jaw",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "brain size",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "tool-making",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "leg length",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "childhood length",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The heavy brows and jaws of earlier hominins are diminished in humans."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which species is the closest extinct relative to humans (<span class='bodyFontItalic'>Homo sapiens</span>)?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "<span class='bodyFontItalic'>Homo neanderthalensis</span>",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "<span class='bodyFontItalic'>Homo erectus</span>",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "<span class='bodyFontItalic'>Australopithecus africanus</span>",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "<span class='bodyFontItalic'>Sahelanthropus tchadensis</span>",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "<span class='bodyFontItalic'>Pan troglodytes</span>",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "<span class='bodyFontItalic'>Homo neanderthalensis</span> is the closest extinct human relative. Chimpanzees (<span class='bodyFontItalic'>Pan troglodytes</span>) are the closest living relatives to humans."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "<ul><li><i>Sahelanthropus tchadensis</i> (Figure 5a) is an extinct species that dates to about the time the lineages that led to chimpanzees and humans diverged.</li><li><i>Australopithecus africanus</i> (Figure 5b) is an extinct species of the australopithecines that exhibits both human- and ape-like characteristics. Au. africanus has a rounder cranium and smaller teeth than older australopithecines, but still retains relatively long arms, a strongly sloping face and pronounced jaw.</li><li><i>Homo erectus</i> (Figure 5c) is a species of archaic humans to which the earliest use of hand axes is attributed. This is also the first species believed to have expanded beyond Africa.</li><li><i>Homo neanderthalensis</i> (Figure 5d) is the closest extinct human relative. Neanderthals had brains that were as large as ours, sometimes larger. They used sophisticated tools, built shelters and fires, and made and wore clothing.</li><li><i>Homo sapiens</i> (Figure 5e) is the species all modern humans belong to. Considering the relatively large size of the human brain, the human skull is unique in that it is thin-walled and highly vaulted, with a flat, almost vertical forehead. The heavy brows and jaws of earlier hominins are diminished in humans.</li></ul>",
+                  "img": [
+                    {
+                      "src": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_005.svg",
+                      "alt": "Figure 5: Five preserved hominin skulls labeled with their species name and date. From left to right, Sahelanthropus tchadensis, dated to 7-6 million years ago; Autralopithecus africanus, dated to 2,500,000 years ago; Homo erectus, dated to 1,000,000 years ago; Homo neanderthalensis, dated to 50,000 years ago; Homo sapiens, dated to 30,000-10,000 years ago.",
+                      "maxWidth": "450px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "<ul><li><i>Sahelanthropus tchadensis</i> (Figure 5a) is an extinct species that dates to about the time the lineages that led to chimpanzees and humans diverged.</li><li><i>Australopithecus africanus</i> (Figure 5b) is an extinct species of the australopithecines that exhibits both human- and ape-like characteristics. Au. africanus has a rounder cranium and smaller teeth than older australopithecines, but still retains relatively long arms, a strongly sloping face and pronounced jaw.</li><li><i>Homo erectus</i> (Figure 5c) is a species of archaic humans to which the earliest use of hand axes is attributed. This is also the first species believed to have expanded beyond Africa.</li><li><i>Homo neanderthalensis</i> (Figure 5d) is the closest extinct human relative. Neanderthals had brains that were as large as ours, sometimes larger. They used sophisticated tools, built shelters and fires, and made and wore clothing.</li><li><i>Homo sapiens</i> (Figure 5e) is the species all modern humans belong to. Considering the relatively large size of the human brain, the human skull is unique in that it is thin-walled and highly vaulted, with a flat, almost vertical forehead. The heavy brows and jaws of earlier hominins are diminished in humans.</li></ul>",
+                  "img": [
+                    {
+                      "src": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_005.svg",
+                      "alt": "Figure 5: Five preserved hominin skulls labeled with their species name and date. From left to right, Sahelanthropus tchadensis, dated to 7-6 million years ago; Autralopithecus africanus, dated to 2,500,000 years ago; Homo erectus, dated to 1,000,000 years ago; Homo neanderthalensis, dated to 50,000 years ago; Homo sapiens, dated to 30,000-10,000 years ago.",
+                      "maxWidth": "450px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Cladograms",
+                  "text": "<button class='glossary-text'>Cladograms</button>, like the vertebrate cladogram in Figure 6, are branching diagrams that organize relationships among species. The closer two species are on the cladogram, the more closely they are related. This means these lineages diverged, or split, more recently. A <button class='glossary-text'>clade</button> is a grouping that includes an ancestor and all its descendants. Clades can be nested within one another. The sparrow and mouse could be grouped together as a clade because they include all the species in the cladogram with lungs. The perch, sparrow, and mouse could be grouped together as another clade because they include all the species in the cladogram with bones. Notice that the first clade is nested within the second clade."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_006.svg",
+                  "imgDivWidth": "405px",
+                  "maxWidth": "494px",
+                  "scrollImg": true,
+                  "altText": "Figure 6: A cladogram depicting the evolutionary relationships between a lancelet, shark, perch, sparrow, and mouse;  key characteristics are mapped on the cladogram.",
+                  "desc": "Figure 6: A cladogram depicting the evolutionary relationships between a lancelet, shark, perch, sparrow, and mouse;  key characteristics are mapped on the cladogram.",
+                  "width": "100%",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In order to build these family trees, scientists start by collecting evidence about the species they are interested in organizing. Historically, scientists viewed morphological (physical) similarities as indicators of relatedness; as time went on, other evidence was used to establish evolutionary relationships, such as behavioral traits and genetic sequences. They would look for <button class='glossary-text'>homologous structures</button>, i.e., structures that organisms have in common; presumably, these structures were inherited from a common ancestor. These traits, or characters, are also called <button class='glossary-text'>shared derived characters</button> because not only are they shared between more than one lineage, but also these lineages were derived from the <button class='glossary-text'>evolution</button> of the character, which sets members of that <button class='glossary-text'>clade</button> apart from other clades.<span className=bodyParaLineBreak>An important aspect of <button class='glossary-text'>cladograms</button> is that they are not set in stone, but rather are hypotheses illustrating relationships between groups of organisms based on evidence. Two cladograms for the same set of species may look different from each other depending on the evidence used to organize them. In Figure 7, cladogram A was created based on the ecological strategies of the species as measured by molecular and dietary data, whereas cladogram B was created based on the standard evolutionary relationships between these species."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_007.svg",
+                  "imgDivWidth": "562px",
+                  "maxWidth": "645px",
+                  "scrollImg": true,
+                  "altText": "Figure 7: Two cladograms showing the relationships between the same eleven porpoises. The first cladogram uses ecological strategy evidence, the second cladogram is the standard phylogeny of these species.",
+                  "desc": "Figure 7: Two cladograms showing the relationships between the same eleven porpoises. The first cladogram uses ecological strategy evidence, the second cladogram is the standard phylogeny of these species. ",
+                  "width": "100%",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "How to Build a Cladogram",
+                  "text": "As an example, a <button class='glossary-text'>cladogram</button> of plant groups will be constructed using the following steps."
+                },
+                {
+                  "type": "List",
+                  "orderedType": "1",
+                  "listType": "ordered",
+                  "text": [
+                    "Create a table and record the organisms on one axis, and a list of potential characters on the other axis. This is called a character matrix (Figure 8). Record a \"0\" if an organism does not have the character, and a \"1\" if the organism has the character. Calculate the sum of all the values for each organism at the bottom of your matrix. Which plant group has a total of zero?",
+                    "You should have identified mosses as the organism with no points on your character matrix. Mosses do not have any of the chosen characters in common with the other groups. This means that mosses are the most different from the other plant groups and therefore represent the <button class='glossary-text'>outgroup</button> of our cladogram. Draw a branch at the base of your cladogram and label it \"Mosses\" as in <button class='resource-text'>Figure 9</button>.",
+                    "Identify the plant group with the next highest character total after mosses. What is the only character from the matrix that this plant group possesses? Notice that this character is shared by the other plants as well. Draw a second branch farther along the cladogram and label it \"Ferns\". On the trunk of the cladogram, add a label indicating the <button class='glossary-text'>shared derived character</button> that separates all other organisms from the outgroup."
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_008.svg",
+                  "imgDivWidth": "624px",
+                  "maxWidth": "824px",
+                  "scrollImg": true,
+                  "altText": "Figure 8: A table with four columns and four rows. The columns are labeled mosses, pine trees, flowering plants and ferns. The rows are labeled vascular tissue, flowers, seeds, and total. Mosses have zeroes for each row. Pine trees have a one for vascular tissue, a zero for flowers, a one for seeds, and a two for the total. Flowering plants have a one for the first three rows and a three for the total. Ferns have a one for vascular tissue, zeroes for flowers and seeds, and a one for the total.",
+                  "desc": "Figure 8: A table with four columns and four rows. The columns are labeled mosses, pine trees, flowering plants and ferns. The rows are labeled vascular tissue, flowers, seeds, and total. Mosses have zeroes for each row. Pine trees have a one for vascular tissue, a zero for flowers, a one for seeds, and a two for the total. Flowering plants have a one for the first three rows and a three for the total. Ferns have a one for vascular tissue, zeroes for flowers and seeds, and a one for the total.",
+                  "width": "100%",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "List",
+                  "orderedType": "1",
+                  "listType": "ordered",
+                  "start": 4,
+                  "text": [
+                    "Repeat Step 3 to identify the next highest scoring plant group in the character matrix. Draw and label this plant's branch farther along the <button class='glossary-text'>cladogram</button> and include the next <button class='glossary-text'>shared derived character</button>. With a larger collection of organisms, you would continue adding organisms to the cladogram until there was one organism left.",
+                    "The last organism in your character matrix should have the highest point total. This means that it has all the characters from the matrix and therefore should be farthest along the cladogram. This indicates the organism evolved more recently. Follow the same steps as before to add this last organism to the cladogram with its derived character. Notice that this character is not shared with any other plant lineages in Figure&nbsp;9."
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_009.svg",
+                  "imgDivWidth": "530px",
+                  "maxWidth": "647px",
+                  "scrollImg": true,
+                  "altText": "Figure 9: A cladogram diagram showing one line drawn at a forty five degree angle from bottom left to top right. A second line extends from the first line at a forty five degree angle from near the bottom of the first line toward the top left. The end of the second line is labeled mosses. A third line extends from further along the first line at a forty five degree angle toward the top left. The end of the third line is labeled ferns. A circle labeled vascular tissue lies on the first line between the second and third lines. A fourth line extends from the first line at a forty five degree angle toward the top left. The end of the fourth line is labeled pine trees. A circle labeled seeds lies on the first line between the third and fourth lines. The end of the first line is labeled flowering plants. A circle labeled flowers lies on the first line between the fourth line and the end of the first line.",
+                  "desc": "Figure 9: A cladogram diagram showing one line drawn at a forty five degree angle from bottom left to top right. A second line extends from the first line at a forty five degree angle from near the bottom of the first line toward the top left. The end of the second line is labeled mosses. A third line extends from further along the first line at a forty five degree angle toward the top left. The end of the third line is labeled ferns. A circle labeled vascular tissue lies on the first line between the second and third lines. A fourth line extends from the first line at a forty five degree angle toward the top left. The end of the fourth line is labeled pine trees. A circle labeled seeds lies on the first line between the third and fourth lines. The end of the first line is labeled flowering plants. A circle labeled flowers lies on the first line between the fourth line and the end of the first line.",
+                  "width": "100%",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Now that you have built a <button class='glossary-text'>cladogram</button>, you can begin to visualize the evolutionary relationships between different species. The branching points on cladograms are called <button class='glossary-text'>nodes</button>. Nodes denote a speciation event in which a common ancestor splits into two or more species through random mutation. In the generalized cladogram in Figure 10, Species A and B are <button class='glossary-text'>sister groups</button>, meaning they share one or more derived characters. Node “a” represents the common ancestor to A and B. Node \"b\" represents the common ancestor to A, B, and C. Each node not only represents a speciation event, but also the common ancestor of the groups created from that event."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_010.svg",
+                  "imgDivWidth": "405px",
+                  "maxWidth": "471px",
+                  "scrollImg": true,
+                  "altText": "Figure 10: A cladogram showing synapomorphies for the following clades (organisms): mouse, sparrow, perch, shark, and lancelet.",
+                  "desc": "Figure 10: A cladogram showing synapomorphies for the following clades (organisms): mouse, sparrow, perch, shark, and lancelet.",
+                  "width": "100%",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 3",
+              "pageTitle": "Knowledge Check Question 3",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 2,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which statement is true about the figures below?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Figure 11 displays the same evolutionary relationships as in Figure 10.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Figure 11 has a different common ancestor for Taxa C and D than Figure 10.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Figure 11 has a different common ancestor for Taxa A and B than Figure 10.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Figure 11 has a different common ancestor for Taxa C and B than Figure 10.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Figure 11 has a different common ancestor for Taxa A and D than Figure 10.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Trees can be drawn in a variety of ways. Figure 11 represents exactly the same information as in Figure 10."
+                  },
+                  "imageData": {
+                    "image": [
+                      {
+                        "src": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_010.svg",
+                        "maxWidth": "471px",
+                        "imgDivWidth": "60%",
+                        "scrollImg": true,
+                        "desc": "Figure 10: A cladogram showing synapomorphies for the following clades (organisms): mouse, sparrow, perch, shark, and lancelet.",
+                        "altText": "Figure 10: A cladogram showing synapomorphies for the following clades (organisms): mouse, sparrow, perch, shark, and lancelet."
+                      },
+                      {
+                        "src": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_011.svg",
+                        "maxWidth": "471px",
+                        "imgDivWidth": "70%",
+                        "scrollImg": true,
+                        "desc": "Figure 11: A phylogenetic tree of 8 taxa with boxy branches. The branch for taxon A extends up and to the left. The other 7 taxa are at the ends of branches extending up and to the right from this left-most branch. The taxa of these branches, in order from closest to furthest from taxon A, are B, C, E – from which branch extends a small branch with taxon D, G – from which branch extends a small branch with taxon F, and H. At the node where taxa A and B split is a lowercase A. At the node where taxon C and the branch leading to taxa A and split is a lowercase B. At the node where the branch leading to taxa D and E splits from the branch leading to taxa C, B, and A is a lowercase C.",
+                        "altText": "Figure 11: A phylogenetic tree of 8 taxa with boxy branches. The branch for taxon A extends up and to the left. The other 7 taxa are at the ends of branches extending up and to the right from this left-most branch. The taxa of these branches, in order from closest to furthest from taxon A, are B, C, E – from which branch extends a small branch with taxon D, G – from which branch extends a small branch with taxon F, and H. At the node where taxa A and B split is a lowercase A. At the node where taxon C and the branch leading to taxa A and split is a lowercase B. At the node where the branch leading to taxa D and E splits from the branch leading to taxa C, B, and A is a lowercase C."
+                      }
+                    ],
+                    "desc": [
+                      "Figure 10: A cladogram showing synapomorphies for the following clades (organisms): mouse, sparrow, perch, shark, and lancelet.",
+                      "Figure 11: A phylogenetic tree of 8 taxa with boxy branches. The branch for taxon A extends up and to the left. The other 7 taxa are at the ends of branches extending up and to the right from this left-most branch. The taxa of these branches, in order from closest to furthest from taxon A, are B, C, E – from which branch extends a small branch with taxon D, G – from which branch extends a small branch with taxon F, and H. At the node where taxa A and B split is a lowercase A. At the node where taxon C and the branch leading to taxa A and split is a lowercase B. At the node where the branch leading to taxa D and E splits from the branch leading to taxa C, B, and A is a lowercase C."
+                    ],
+                    "altText": [
+                      "Figure 10: A cladogram showing synapomorphies for the following clades (organisms): mouse, sparrow, perch, shark, and lancelet.",
+                      "Figure 11: A phylogenetic tree of 8 taxa with boxy branches. The branch for taxon A extends up and to the left. The other 7 taxa are at the ends of branches extending up and to the right from this left-most branch. The taxa of these branches, in order from closest to furthest from taxon A, are B, C, E – from which branch extends a small branch with taxon D, G – from which branch extends a small branch with taxon F, and H. At the node where taxa A and B split is a lowercase A. At the node where taxon C and the branch leading to taxa A and split is a lowercase B. At the node where the branch leading to taxa D and E splits from the branch leading to taxa C, B, and A is a lowercase C."
+                    ],
+                    "imgDivWidth": "289px"
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following is the most recent common ancestor for taxa A and B?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "node a",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "node b",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "node c",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "taxon C",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "taxon H",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Taxon C is the most recent common ancestor of taxa A and B."
+                  },
+                  "imageData": {
+                    "image": [
+                      {
+                        "src": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_011.svg",
+                        "maxWidth": "471px",
+                        "imgDivWidth": "60%",
+                        "scrollImg": true,
+                        "desc": "Figure 11: A phylogenetic tree of 8 taxa with boxy branches. The branch for taxon A extends up and to the left. The other 7 taxa are at the ends of branches extending up and to the right from this left-most branch. The taxa of these branches, in order from closest to furthest from taxon A, are B, C, E – from which branch extends a small branch with taxon D, G – from which branch extends a small branch with taxon F, and H. At the node where taxa A and B split is a lowercase A. At the node where taxon C and the branch leading to taxa A and split is a lowercase B. At the node where the branch leading to taxa D and E splits from the branch leading to taxa C, B, and A is a lowercase C.",
+                        "altText": "Figure 11: A phylogenetic tree of 8 taxa with boxy branches. The branch for taxon A extends up and to the left. The other 7 taxa are at the ends of branches extending up and to the right from this left-most branch. The taxa of these branches, in order from closest to furthest from taxon A, are B, C, E – from which branch extends a small branch with taxon D, G – from which branch extends a small branch with taxon F, and H. At the node where taxa A and B split is a lowercase A. At the node where taxon C and the branch leading to taxa A and split is a lowercase B. At the node where the branch leading to taxa D and E splits from the branch leading to taxa C, B, and A is a lowercase C."
+                      }
+                    ],
+                    "desc": [
+                      "Figure 11: A phylogenetic tree of 8 taxa with boxy branches. The branch for taxon A extends up and to the left. The other 7 taxa are at the ends of branches extending up and to the right from this left-most branch. The taxa of these branches, in order from closest to furthest from taxon A, are B, C, E – from which branch extends a small branch with taxon D, G – from which branch extends a small branch with taxon F, and H. At the node where taxa A and B split is a lowercase A. At the node where taxon C and the branch leading to taxa A and split is a lowercase B. At the node where the branch leading to taxa D and E splits from the branch leading to taxa C, B, and A is a lowercase C."
+                    ],
+                    "altText": [
+                      "Figure 11: A phylogenetic tree of 8 taxa with boxy branches. The branch for taxon A extends up and to the left. The other 7 taxa are at the ends of branches extending up and to the right from this left-most branch. The taxa of these branches, in order from closest to furthest from taxon A, are B, C, E – from which branch extends a small branch with taxon D, G – from which branch extends a small branch with taxon F, and H. At the node where taxa A and B split is a lowercase A. At the node where taxon C and the branch leading to taxa A and split is a lowercase B. At the node where the branch leading to taxa D and E splits from the branch leading to taxa C, B, and A is a lowercase C."
+                    ],
+                    "imgDivWidth": "289px"
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "By charting the characters and character states for a group of organisms, a hypothesis of the evolutionary relationships between these organisms can be constructed. This hypothesis is called a phylogeny. A cladogram resembles a family tree, with all the current living species in the youngest generation. Related organisms and their common ancestor are organized into clades, which can be graphically depicted using a cladogram.  A clade is a monophyletic group that comprises a group of a common ancestor and all its descendants. In Figure 11, taxa A and B form a clade joined at node a; this node represents the most recent common ancestor of both taxa. Taxa A, B, and C also form a clade joined at node b, and this node represents the most recent common ancestor of all three taxa."
+                },
+                {
+                  "title": "Hint",
+                  "body": "By charting the characters and character states for a group of organisms, a hypothesis of the evolutionary relationships between these organisms can be constructed. This hypothesis is called a phylogeny. A cladogram resembles a family tree, with all the current living species in the youngest generation. Related organisms and their common ancestor are organized into clades, which can be graphically depicted using a cladogram.  A clade is a monophyletic group that comprises a group of a common ancestor and all its descendants. In Figure 11, taxa A and B form a clade joined at node a; this node represents the most recent common ancestor of both taxa. Taxa A, B, and C also form a clade joined at node b, and this node represents the most recent common ancestor of all three taxa."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Needed but not supplied:",
+                  "text": "<ul><li>Blank sheet of paper</li><li>Pen or pencil</li>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "isCheckPoint": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are no safety concerns for this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.</span>",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is/are considered part of the hominin group?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "<i>Homo erectus</i>",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "all great apes",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "chimpanzees",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "gorillas",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "orangutans",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following structures is most likely to become fossilized under the right conditions?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "a shell",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "a heart",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "hair",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "an eye",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "skin",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the representation of time on a phylogenetic tree?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Time moves forward from the base of the tree to the tips of the branches.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Time moves backward from the tips of the branches to the base of the tree.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Time is not represented on a phylogenetic tree.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Time moves forward along some branches and backward along others.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Time moves forward along each branch independent of other branches.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following preservation methods does NOT preserve the organism itself?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "natural casting",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "permineralization",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "amber preservation",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "bog preservation",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "ice preservation",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following describes the difference between hominins and hominids?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Hominid includes all modern and extinct great apes, but hominin does not.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Hominid includes humans (<i>Homo sapiens</i>), but hominin does not.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Hominid includes only living human relatives; hominin includes only extinct human relatives.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Hominid includes human relatives after 200,000 years ago; hominin includes human relatives before 200,000 years ago.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Hominid includes all members of genus Homo; hominin includes all members of family Hominidae.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following evidences did scientists first use to establish evolutionary relationships between species?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "homologous structures",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "analogous structures",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "molecular data",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "behavioral data",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "habitat similarities",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes a cladogram?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "a hypothesis",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "a scientific theory",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "a law of nature",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "a dichotomous key",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "a hierarchy",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Compared to the other groups in a cladogram, the outgroup lacks which of the following?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "shared derived characters",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "nodes",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "a phylogenetic tree",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "a character matrix",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "a closest living relative",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation",
+              "pageTitle": "Preparation (1 step)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure",
+              "keyID": "preparation",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Learn about specific skull features using the interactive on the next page. You will compare these characteristics in the <button class='glossary-text'>hominid</button> skulls in Activity 1."
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (cont... )",
+              "template": "VirtualLab",
+              "activityPath": "activities/580249_VIRT/skullInteractive/story.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Biology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this activity, you will develop your own <button class='glossary-text'>cladogram</button> for humans (Homo sapiens) and some of our living and extinct <button class='glossary-text'>hominid</button> relatives. You will examine hominid skulls to identify <button class='glossary-text'>shared derived characters</button> for the cladogram."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Activity 1",
+              "pageTitle": "Activity 1 (3 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity1",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use the five sets of <button class='glossary-text'>hominid</button> skull photos and videos to make observations about the similarities and differences in morphology between them. The skull icon can be used to help you find the terms to accurately describe certain parts of the skull. You are <span class=bodyFontBold>not</span> limited in your observations to only these structures."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "In the Lab Notebook, fill out <span class='bodyFontBold'>Data Table 1</span> to create a character matrix for the hominid skulls. You must describe at least four characters in your table. If you do not describe a fifth character, fill in that row with either a blank space or \"n/a\". Then add up the total number of character points for each hominid."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "On a sheet of paper, draw a hominid <button class='glossary-text'>cladogram</button> based on the characters in <span class='bodyFontBold'>Data Table 1</span>. You may use the steps in the How to Build a Cladogram example in the Background. You must have at least four <button class='glossary-text'>shared derived characters</button> to define the evolutionary relationships between the hominids."
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity Simulation",
+          "pages": [
+            {
+              "title": "Activity Simulation",
+              "template": "VirtualLab",
+              "activityPath": "activities/580249_VIRT/activity1/story.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "altText": "completion",
+                  "desc": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Biology_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "70%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1. Hominid Character Matrix"
+              },
+              {
+                "type": "DataTable",
+                "allowClick": true,
+                "tableHeight": "1.5",
+                "headerHidden": true,
+                "header": [
+                  {
+                    "text": "",
+                    "colWidth": "20%",
+                    "maxLength": 30
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "16%",
+                    "maxLength": 2
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "16%",
+                    "maxLength": 2
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "16%",
+                    "maxLength": 2
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "16%",
+                    "maxLength": 2
+                  },
+                  {
+                    "text": "",
+                    "colWidth": "16%",
+                    "maxLength": 2
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "<span style='color:white; font-weight: 500;'>Characters",
+                      "hoverText": "Characters",
+                      "rowspan": 2,
+                      "borderBottom": "medium",
+                      "color": "#6b6b6b",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd45"
+                    },
+                    {
+                      "type": "text",
+                      "text": "<span style='color:white; font-weight: 500;'>Hominid Skull",
+                      "hoverText": "Hominid Skull",
+                      "colspan": 5,
+                      "rowHeight": "40px",
+                      "color": "#6b6b6b",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd45"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "color": "#6b6b6b",
+                      "rowHeight": "40px",
+                      "text": "<span style='color:white; font-weight: 500;'>A",
+                      "hoverText": "A",
+                      "borderBottom": "medium",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd45"
+                    },
+                    {
+                      "type": "text",
+                      "color": "#6b6b6b",
+                      "text": "<span style='color:white; font-weight: 500;'>B",
+                      "hoverText": "B",
+                      "borderBottom": "medium",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd45"
+                    },
+                    {
+                      "type": "text",
+                      "color": "#6b6b6b",
+                      "text": "<span style='color:white; font-weight: 500;'>C",
+                      "hoverText": "C",
+                      "borderBottom": "medium",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd45"
+                    },
+                    {
+                      "type": "text",
+                      "color": "#6b6b6b",
+                      "text": "<span style='color:white; font-weight: 500;'>D",
+                      "hoverText": "D",
+                      "borderBottom": "medium",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd45"
+                    },
+                    {
+                      "type": "text",
+                      "color": "#6b6b6b",
+                      "text": "<span style='color:white; font-weight: 500;'>E",
+                      "hoverText": "E",
+                      "borderBottom": "medium",
+                      "align": "center",
+                      "fontFamily": "HelveticaNeueLTStdMd45"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "borderBottom": "medium",
+                      "text": ""
+                    },
+                    {
+                      "borderBottom": "medium",
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "borderBottom": "medium",
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "borderBottom": "medium",
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "borderBottom": "medium",
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "borderBottom": "medium",
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "align": "center",
+                      "text": "TOTAL"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "ActivityUpload1",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Cladogram"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert a photo of your hominid cladogram. You must have at least 4 characters on your cladogram."
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 1. Evolution as a tree",
+        "src": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_001.svg",
+        "altText": "Figure 1: An illustrated tree labeled with a taxon at the end of each branch and characteristics along the larger branches.",
+        "maxWidth": "704px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 2. Natural casts of shells",
+        "src": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_002.svg",
+        "altText": "Figure 2: Many fossilized casts of spiral shells.",
+        "maxWidth": "528px",
+        "scrollImg": true
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 3. Trace fossils of leaves",
+        "src": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_003.svg",
+        "altText": "Figure 3: Fossilized leaf impressions.",
+        "scrollImg": true,
+        "maxWidth": "530px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 4. An insect in amber",
+        "src": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_004.svg",
+        "altText": "Figure 4: An insect encased in translucent amber.",
+        "scrollImg": true,
+        "maxWidth": "530px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 5. Examples of hominins",
+        "src": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_005.svg",
+        "altText": "Figure 5: Five preserved hominin skulls labeled with their species name and date. From left to right, Sahelanthropus tchadensis, dated to 7-6 million years ago; Autralopithecus africanus, dated to 2,500,000 years ago; Homo erectus, dated to 1,000,000 years ago; Homo neanderthalensis, dated to 50,000 years ago; Homo sapiens, dated to 30,000-10,000 years ago.",
+        "scrollImg": true,
+        "maxWidth": "645px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 6. A vertebrate cladogram",
+        "src": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_006.svg",
+        "altText": "Figure 6: A cladogram depicting the evolutionary relationships between a lancelet, shark, perch, sparrow, and mouse;  key characteristics are mapped on the cladogram.",
+        "scrollImg": true,
+        "maxWidth": "494px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 7. Two cladogram hypotheses",
+        "src": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_007.svg",
+        "altText": "Figure 7: Two cladograms showing the relationships between the same eleven porpoises. The first cladogram uses ecological strategy evidence, the second cladogram is the standard phylogeny of these species.",
+        "scrollImg": true,
+        "maxWidth": "645px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 8. Character matrix example",
+        "src": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_008.svg",
+        "altText": "Figure 8: A table with four columns and four rows. The columns are labeled mosses, pine trees, flowering plants and ferns. The rows are labeled vascular tissue, flowers, seeds, and total. Mosses have zeroes for each row. Pine trees have a one for vascular tissue, a zero for flowers, a one for seeds, and a two for the total. Flowering plants have a one for the first three rows and a three for the total. Ferns have a one for vascular tissue, zeroes for flowers and seeds, and a one for the total.",
+        "scrollImg": true,
+        "maxWidth": "824px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 9. Cladogram example",
+        "src": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_009.svg",
+        "altText": "Figure 9: A cladogram diagram showing one line drawn at a forty five degree angle from bottom left to top right. A second line extends from the first line at a forty five degree angle from near the bottom of the first line toward the top left. The end of the second line is labeled mosses. A third line extends from further along the first line at a forty five degree angle toward the top left. The end of the third line is labeled ferns. A circle labeled vascular tissue lies on the first line between the second and third lines. A fourth line extends from the first line at a forty five degree angle toward the top left. The end of the fourth line is labeled pine trees. A circle labeled seeds lies on the first line between the third and fourth lines. The end of the first line is labeled flowering plants. A circle labeled flowers lies on the first line between the fourth line and the end of the first line.",
+        "scrollImg": true,
+        "maxWidth": "647px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 10. Nodes on a cladogram",
+        "src": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_010.svg",
+        "altText": "Figure 10: A cladogram showing synapomorphies for the following clades (organisms): mouse, sparrow, perch, shark, and lancelet.",
+        "scrollImg": true,
+        "maxWidth": "471px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 11. Nodes on a cladogram",
+        "src": "courses_2023/Biology/580249_VIRT/580249VIRT_Bio_fig_011.svg",
+        "altText": "Figure 11: A cladogram showing synapomorphies for the following clades (organisms): mouse, sparrow, perch, shark, and lancelet.",
+        "scrollImg": true,
+        "maxWidth": "471px"
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Amber",
+        "content": "Fossilized tree resin"
+      },
+      {
+        "title": "Clade",
+        "content": "A group that comprises of a common ancestor and all its descendants; also called a monophyletic group"
+      },
+      {
+        "title": "Cladogram",
+        "content": "A branching diagram organizing relationships among taxa"
+      },
+      {
+        "title": "Evolution",
+        "content": "The history of life on Earth and the processes that led to its diversity"
+      },
+      {
+        "title": "Fossil",
+        "content": "Any preserved remains, impression, or trace of a once-living thing from a past geological age"
+      },
+      {
+        "title": "Hominid",
+        "content": "Describes humans, our close extinct relatives, and all modern and extinct great apes"
+      },
+      {
+        "title": "Hominin",
+        "content": "Describes humans and all our close extinct relatives"
+      },
+      {
+        "title": "Homologous structure",
+        "content": "A structure that organisms have in common, presumably due to a common ancestor"
+      },
+      {
+        "title": "Natural cast",
+        "content": "A type of fossil formed by the mineralization of the impression of an organism"
+      },
+      {
+        "title": "Node",
+        "content": "A branching point on a cladogram; it represents a speciation event and the presence of a common ancestor between the taxa resulting from the event"
+      },
+      {
+        "title": "Outgroup",
+        "content": "A taxon that is known to be outside the group of taxa being examined"
+      },
+      {
+        "title": "Permineralization",
+        "content": "A type of fossilization in which minerals in water replace the organic matter of an organism"
+      },
+      {
+        "title": "Phylogenetic tree",
+        "content": "A representation of ancestral relatedness of groups of organisms"
+      },
+      {
+        "title": "Shared derived character",
+        "content": "A trait shared between more than one lineage, which lineages are derived from the evolution of the trait; used to distinguish a clade"
+      },
+      {
+        "title": "Sister group",
+        "content": "A group that shares one or more derived characters"
+      },
+      {
+        "title": "Trace fossil",
+        "content": "A type of fossil that preserves imprints of leaves or footprints, or evidence of activity such as nests or burrows"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

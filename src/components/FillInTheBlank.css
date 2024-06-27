@@ -1,0 +1,80 @@
+.fill-in-the-blank-component {
+  font-family: "Montserrat-Regular";
+  /* width: 1000px; */
+  /* height: 1.7em; */
+  /* border:2px solid red; */
+  /* align-self: start;
+    justify-content: left; */
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  align-items: flex-start;
+}
+
+.text {
+  font-family: "Montserrat-Bold";
+  font-size: 1.1em;
+  color: #000000;
+  /* display: inline; */
+  vertical-align: text-bottom;
+  /* white-space: nowrap; */
+  white-space: normal;
+  /* text-wrap: wrap; */
+  min-width: fit-content;
+  text-align: left;
+}
+
+.fib-textarea-component {
+  height: 86%;
+  /* width: 100%; */
+  /* font-family: "Montserrat-Regular"; */
+  /* font-family: 'HelveticaNeueLTStd55Roman'; */
+  background: none;
+  border: none;
+  color: #000000;
+  position: relative;
+  vertical-align: text-bottom;
+  bottom: -10%;
+}
+
+.underLine {
+  width: 100%;
+  height: 2px;
+  top: -1%;
+  background: #000;
+  position: relative;
+  /* display: inline; */
+}
+
+.input-holder {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  /* border: 2px solid blue; */
+  background: #ffffff;
+}
+
+/* Landscape iPhone */
+@media only screen and (min-device-width: 300px) and (max-device-width: 850px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .text {
+    font-family: "Montserrat-Bold";
+    font-size: 1.1em;
+    color: #000000;
+    line-height: 1.3em;
+    /* display: inline; */
+    vertical-align: text-bottom;
+    /* white-space: nowrap; */
+    white-space: normal;
+    /* text-wrap: wrap; */
+    min-width: fit-content;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fill-in-the-blank-component {
+    display: block !important;
+  }
+}

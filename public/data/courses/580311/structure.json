@@ -1,0 +1,2768 @@
+{
+  "locked": true,
+  "courseTitle": "Balancing Chemical Equations (Dry Lab)",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/bodyBookmark.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Chemistry_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Chemistry (Dry Lab)",
+                "images": {
+                  "logo": "core/Chemistry_subject_icon.svg"
+                },
+                "titleName2": "Balancing Chemical Equations",
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this activity, manipulatives are used to balance chemical equations and provide an understanding of the <button class='glossary-text'>Law of Conservation of Mass</button>. These tools aid in the visualization of the number of <button class='glossary-text'>atoms</button> present on each side of a chemical reaction."
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses/580311/580311_TimeRequirement.svg",
+                  "imgDivWidth": "300px",
+                  "desc": "Preparation: 5 minutes, Activity: 55 minutes",
+                  "altText": "Preparation – 5 minutes, \nActivity – 55 minutes",
+                  "maxWidth": "370px"
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Printer paper, 3 sheets",
+                    "Scissors",
+                    "Pencil",
+                    "<a target='blank' href='images/courses/580311/580311_Img_001.pdf'>Printed atom marker sheet</a>",
+                    "<a target='blank' href='images/courses/580311/580311_Img_002.pdf'>Printed balancing equations mat</a>"
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "title": "Overview Video: Balancing Chemical Equations (Dry Lab)"
+                },
+                {
+                  "type": "Video",
+                  "containerType": "rightContainer",
+                  "imgDivWidth": "200px",
+                  "desc": "Overview Video",
+                  "image": "courses/580311/580311_VideoIcone.svg",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6311690012112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Define <button class='glossary-text'>atom</button>, <button class='glossary-text'>element</button>, <button class='glossary-text'>molecule</button>, and <button class='glossary-text'>compound</button>.",
+                    "Apply the use of <button class='glossary-text'>coefficients</button> and <button class='glossary-text'>subscripts</button> to balance chemical equations.",
+                    "Predict the <button class='glossary-text'>products</button> for simple chemical reactions."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "430px",
+                  "altText": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "desc": " video link symbol, camera symbol, stopwatch symbol",
+                  "altText": " video link symbol, camera symbol, stopwatch symbol",
+                  "maxWidth": "500px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "430px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidth": "430px",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "scrollImg": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Balancing chemical equations is the application of the <button class='glossary-text'>law of conservation of mass</button>, stating mass is neither created nor destroyed. When it comes to exercise and weight loss, this law still applies. The question of where fat goes when one loses weight was asked of 150 healthcare professionals, such as doctors and dieticians, in a 2014 survey; however, over half the participants held the erroneous view that the missing fat is transformed into energy or heat<sup class='bodySupscript'>1</sup>. This notion flies in the face of the law of conservation of mass! So, when you lose weight, where does the fat go?"
+                },
+                {
+                  "type": "Plain",
+                  "text": "We can find a clue to this puzzle in the commonly used phrase “burning fat”: the metabolization of fat is a similar reaction to that of combustion in which fuel in the presence of oxygen breaks down into water and carbon dioxide. When you exercise, or simply go about your day, water and carbon dioxide leave the body during exhalation; water also leaves the body through other excretory processes. When you do the math, burning 10 kg of fat requires 29 kg of oxygen to be inhaled and produces 28 kg of carbon dioxide and 11 kg of water<sup class='bodySupscript'>1</sup>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='citation'><sup class='bodysubscript'>1</sup>UNSWnews. (2014, December 16). <span class='bodyFontItalic'>When you lose weight, where does the fat go?</span> EurekAlert!<br/> https://www.eurekalert.org/news-releases/809042</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580311/580311_whyShouldICare.svg",
+                  "desc": "The torso of a man with his shirt pulled up to expose his midriff. The man holds a tape measure around his waist.",
+                  "altText": "The torso of a man with his shirt pulled up to expose his midriff. The man holds a tape measure around his waist.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "80%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The ability to balance equations is an essential skill in carrying out a chemical reaction. Balanced equations are necessary to determine the amount of <button class='glossary-text'>product</button> that can be produced in a chemical reaction and to ensure that the appropriate amounts of <button class='glossary-text'>reactants</button> are added to allow reactions to occur. A chemical equation is a visual representation of a chemical reaction and is written much like a mathematical equation. Substances (reactants) are combined to produce one or more new substances (product[s]). Instead of the equal sign that would be used in a mathematical equation, an arrow links the left side of the equation, where the reactants are, and the right side of the equation, where the product(s) is, and indicates the direction of the reaction. A simple chemical equation can be written as follows:"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyFontBold'>A + B → AB</span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The <button class='glossary-text'>Law of Conservation of Mass</button> states that mass is neither created nor destroyed during ordinary (i.e., nonnuclear) chemical reactions or physical changes. After the introduction of Dalton’s atomic theory, the wording of the law was revised to more specifically state that <button class='glossary-text'>atoms</button> are neither created nor destroyed during a chemical reaction. The changes that occur during any reaction are simply rearrangements of the atoms."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "An <span class='bodyFontBold'>atom</span> is the smallest unit of an <button class='glossary-text'>element</button> that retains the chemical properties of that element. An <span class='bodyFontBold'>element</span> is a pure substance that consists of only one type of atom. A <button class='glossary-text'>molecule</button> is the smallest unit of a <button class='glossary-text'>compound</button> that retains the chemical properties of that compound. A <span class='bodyFontBold'>compound</span> is a substance that consists of identical molecules composed of two or more elements."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What is an element?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The smallest unit of an element that retains the chemical properties of that element.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The smallest unit of a compound that retains the chemical properties of that compound.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "A pure substance that consists of only one type of atom.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "A unit that goes into a chemical reaction.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "A unit that is produced by a chemical reaction.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "An element is a pure substance that consists of only one type of atom."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What is an atom?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "A visual representation of a chemical reaction.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "A pure substance that consists of only one type of element.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "A unit in chemistry that indicates how many elements are present.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The smallest unit of an element that retains the chemical properties of that element.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "A number placed before the chemical symbol for an element.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "An atom is the smallest unit of an element that retains the chemical properties of that element."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "An atom is the smallest unit of an element that retains the chemical properties of that element. An element is a pure substance that consists of only one type of atom. A molecule is the smallest unit of a compound that retains the chemical properties of that compound. A compound is a substance that consists of identical molecules composed of two or more elements."
+                },
+                {
+                  "title": "Hint",
+                  "body": "An atom is the smallest unit of an element that retains the chemical properties of that element. An element is a pure substance that consists of only one type of atom. A molecule is the smallest unit of a compound that retains the chemical properties of that compound. A compound is a substance that consists of identical molecules composed of two or more elements."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The same number of <button class='glossary-text'>atoms</button> of each <button class='glossary-text'>element</button> is present before and after a chemical reaction occurs. This is represented by a <button class='glossary-text'>balanced chemical equation</button>. Numbers, called <button class='glossary-text'>coefficients</button>, are placed before the symbol for an element or the formula for a <button class='glossary-text'>compound</button> in a chemical equation. Coefficients indicate the number of <button class='glossary-text'>molecules</button> of a compound, or the number of atoms of an element that is not part of a molecule or compound, present in the reaction. <button class='glossary-text'>Subscripts</button> indicate the number of atoms of a particular element in a molecule."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Identify the coefficient for carbon dioxide (CO<sub class='bodySubscript'>2</sub>) in the following balanced equation:<br />C<sub class='bodySubscript'>3</sub>H<sub class='bodySubscript'>8</sub> + 5 H<sub class='bodySubscript'>2</sub> → 4 H<sub class='bodySubscript'>2</sub>O + 3 CO<sub class='bodySubscript'>2</sub>",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "3",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "C",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "2",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "8",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "4",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Numbers, called coefficients, are placed before the symbol for an element or the formula for a compound in a chemical equation."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "How many hydrogen (H) atoms are on the left side of this equation?<br />C<sub class='bodySubscript'>3</sub>H<sub class='bodySubscript'>8</sub> + 5 H<sub class='bodySubscript'>2</sub> → 4 H<sub class='bodySubscript'>2</sub>O + 3 CO<sub class='bodySubscript'>2</sub>",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "18",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "10",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "8",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "2",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "4",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Subscripts indicate the number of atoms of a particular element in a molecule. So, there are eight hydrogen atoms in the first reactant. And although there are only two hydrogen atoms in the second reactant, there are five of these molecules in the balanced reaction; so there are 10 hydrogen atoms from the second reactant for a total of 18 hydrogen atoms on the left side of the equation."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "The same number of atoms of each element is present before and after a chemical reaction occurs. This is represented by a balanced chemical equation. Numbers, called coefficients, are placed before the symbol for an element or the formula for a compound in a chemical equation. Coefficients indicate the number of molecules of a compound, or the number of atoms of an element that is not part of a molecule or compound, present in the reaction. Subscripts indicate the number of atoms of a particular element in a molecule."
+                },
+                {
+                  "title": "Hint",
+                  "body": "The same number of atoms of each element is present before and after a chemical reaction occurs. This is represented by a balanced chemical equation. Numbers, called coefficients, are placed before the symbol for an element or the formula for a compound in a chemical equation. Coefficients indicate the number of molecules of a compound, or the number of atoms of an element that is not part of a molecule or compound, present in the reaction. Subscripts indicate the number of atoms of a particular element in a molecule."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "image": "courses/580311/580311_Eqation_001.svg",
+                  "imgDivWidth": "50%",
+                  "desc": "coefficients versus subscripts of a water molecule",
+                  "altText": "coefficients versus subscripts of a water molecule",
+                  "maxWidth": "325px",
+                  "disableClick": false
+                },
+                {
+                  "type": "Plain",
+                  "text": "A chemical equation in which the number of <button class='glossary-text'>atoms</button> of each <button class='glossary-text'>element</button> on the left (<button class='glossary-text'>reactant</button>) side of the equation is not equal to the number of atoms of that element on the right (<button class='glossary-text'>product</button>) side of the equation is unbalanced. An unbalanced chemical equation does not obey the <button class='glossary-text'>Law of Conservation of Mass</button>. In the following example, the number of each type of atom on each side of the equation is counted using tally marks and recorded in Tally <span style='whiteSpace: nowrap'>Table 1</span>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyFontBold'>H<sub class='bodySubscript'>2</sub>O + Fe → Fe<sub class='bodySubscript'>2</sub>O<sub class='bodySubscript'>3</sub> + H<sub class='bodySubscript'>2</sub></span>"
+                },
+                {
+                  "type": "DataTable",
+                  "sr": 1,
+                  "containerType": "rightContainer",
+                  "title": "<span title='A table tallying the number of atoms of each element in the unbalanced chemical reaction between water and iron metal.'>Tally Table 1</span>",
+                  "tableWidth": "99%",
+                  "tableMaxWidth": "500px",
+                  "allowClick": true,
+                  "header": [
+                    {
+                      "text": "Number of Atoms in Reactants (left)",
+                      "colWidth": "40%"
+                    },
+                    {
+                      "text": "Atomic Symbol",
+                      "colWidth": "20%"
+                    },
+                    {
+                      "text": "Number of Atoms in Products (right)",
+                      "colWidth": "40%"
+                    }
+                  ],
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "text": "<img draggable=false src='images/courses/580311/580311_Eqation_003.svg' height='22px' style='display: inline-block' />",
+                        "hoverText": "tally mark of 2 = 2"
+                      },
+                      {
+                        "type": "text",
+                        "text": "H"
+                      },
+                      {
+                        "type": "text",
+                        "text": "<img draggable=false src='images/courses/580311/580311_Eqation_003.svg' height='22px' style='display: inline-block' />",
+                        "hoverText": "tally mark of 2 = 2"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "<img draggable=false src='images/courses/580311/580311_Eqation_004.svg' height='22px' style='display: inline-block' />",
+                        "hoverText": "tally mark of 1 = 1"
+                      },
+                      {
+                        "type": "text",
+                        "text": "O"
+                      },
+                      {
+                        "type": "text",
+                        "text": "<img draggable=false src='images/courses/580311/580311_Eqation_005.svg' height='22px' style='display: inline-block' />",
+                        "hoverText": "tally mark of 3 = 3"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "<img draggable=false src='images/courses/580311/580311_Eqation_004.svg' height='22px' style='display: inline-block' />",
+                        "hoverText": "tally mark of 1 = 1"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Fe"
+                      },
+                      {
+                        "type": "text",
+                        "text": "<img draggable=false src='images/courses/580311/580311_Eqation_003.svg' height='22px' style='display: inline-block' />",
+                        "hoverText": "tally mark of 2 = 2"
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "For example, if we were to change the <button class='glossary-text'>subscript</button> in the formula for water (H<sub class='bodySubscript'>2</sub>O) to “3” (H<sub class='bodySubscript'>3</sub>O), we would no longer have <span style='whiteSpace: nowrap'>water—we</span> would have hydronium."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In a <button class='glossary-text'>balanced chemical equation</button>, the number of <button class='glossary-text'>atoms</button> of each <button class='glossary-text'>element</button> is the same on the left and right sides of the equation. When a chemical equation is balanced, the <button class='glossary-text'>Law of Conservation of Mass</button> is obeyed. <button class='glossary-text'>Coefficients</button> may be adjusted to balance a chemical equation, but <button class='glossary-text'>subscripts</button>, which are intrinsic to the structure of the <button class='glossary-text'>molecule</button>, must remain unchanged."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The equation is balanced by adjusting coefficients associated with the element or <button class='glossary-text'>compound</button> in a chemical equation. This equation indicates there are three molecules of water present:"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyFontBold'>3H<sub class='bodySubscript'>2</sub>O + 2Fe → Fe<sub class='bodySubscript'>2</sub>O<sub class='bodySubscript'>3</sub> + 3H<sub class='bodySubscript'>2</sub></span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "One water molecule (H<sub class='bodySubscript'>2</sub>O) consists of two hydrogen atoms (2H) and one oxygen atom (O), so 3 water molecules would contain <span style='whiteSpace: nowrap'>3 × 2 hydrogen</span> atoms and <span style='whiteSpace: nowrap'>3 × 1 oxygen</span> atoms. Thus, there are 6 hydrogen atoms and 3 oxygen atoms represented in 3H<sub class='bodySubscript'>2</sub>O. Note that coefficients, can be changed in order to make an equation balanced. Subscripts, however, cannot be changed to balance the equation because that would change the molecule present."
+                },
+                {
+                  "type": "DataTable",
+                  "sr": 2,
+                  "containerType": "rightContainer",
+                  "title": "<span title='A table tallying the number of atoms of each element in the balanced chemical reaction between water and iron metal.'>Tally Table 2</span>",
+                  "tableWidth": "99%",
+                  "tableMaxWidth": "500px",
+                  "allowClick": true,
+                  "header": [
+                    {
+                      "text": "Number of Atoms in Reactants (left)",
+                      "colWidth": "40%"
+                    },
+                    {
+                      "text": "Atomic Symbol",
+                      "colWidth": "20%"
+                    },
+                    {
+                      "text": "Number of Atoms in Products (right)",
+                      "colWidth": "40%"
+                    }
+                  ],
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "text": "<img draggable=false src='images/courses/580311/580311_Eqation_006.svg' height='22px' style='display: inline-block' />",
+                        "hoverText": "tally mark of 6 = 6"
+                      },
+                      {
+                        "type": "text",
+                        "text": "H"
+                      },
+                      {
+                        "type": "text",
+                        "text": "<img draggable=false src='images/courses/580311/580311_Eqation_006.svg' height='22px' style='display: inline-block' />",
+                        "hoverText": "tally mark of 6 = 6"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "<img draggable=false src='images/courses/580311/580311_Eqation_005.svg' height='22px' style='display: inline-block' />",
+                        "hoverText": "tally mark of 3 = 3"
+                      },
+                      {
+                        "type": "text",
+                        "text": "O"
+                      },
+                      {
+                        "type": "text",
+                        "text": "<img draggable=false src='images/courses/580311/580311_Eqation_005.svg' height='22px' style='display: inline-block' />",
+                        "hoverText": "tally mark of 3 = 3"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "<img draggable=false src='images/courses/580311/580311_Eqation_003.svg' height='22px' style='display: inline-block' />",
+                        "hoverText": "tally mark of 2 = 2"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Fe"
+                      },
+                      {
+                        "type": "text",
+                        "text": "<img draggable=false src='images/courses/580311/580311_Eqation_003.svg' height='22px' style='display: inline-block' />",
+                        "hoverText": "tally mark of 2 = 2"
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "Any change to a coefficient affects the number of atoms of every element in the formula."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "List",
+                  "title": "<span class=bodyBoldSubHeading>Steps for balancing a basic chemical equation</span>",
+                  "listType": "ordered",
+                  "text": [
+                    "Write the unbalanced equation for the reaction. Place the <button class='glossary-text'>reactants</button> on the left side of the arrow and the <button class='glossary-text'>products</button> on the right side of the arrow.",
+                    "Tally the number of <button class='glossary-text'>atoms</button> of each <button class='glossary-text'>element</button> on both sides of the equation.<br/><ol type='a'> <li>If the same number of atoms of each element appears on both sides of the equation, the formula is balanced. No more steps are necessary.</li> <li>If the numbers of the atoms are <span class='bodyFontBold'>not</span> equal, the <button class='glossary-text'>coefficients</button> must be adjusted to balance the equation.</li> </ol>",
+                    "Starting with atoms that appear in only one substance on each side of the arrow, adjust coefficients for each formula in order to make the number of atoms on both sides equal.",
+                    "Continue adjusting the coefficients until the number of atoms of each element is the same on both sides of the equation."
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 3",
+              "pageTitle": "Knowledge Check Question 3",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 2,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What is the first recommended step when balancing a basic chemical equation?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Remove subscripts from both sides of the chemical equation.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Write the unbalanced equation for the reaction.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Tally the number of atoms of each element on the reactants side of the equation.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Tally the number of atoms of each element on the products side of the equation.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Adjust coefficients on both sides of the chemical equation.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The first recommended step when balancing a basic chemical equation is to write the unbalanced equation for the reaction. Place the reactants on the left side of the arrow and the products on the right side of the arrow."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "You are balancing a chemical equation in which there are more iron (Fe) atoms on the left side of the equation than on the right side. Which of the following steps will balance the number of iron atoms in the equation?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Adjust the coefficients in the equation.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Adjust the subscripts in the equation.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Add a new product to the right side of the equation.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Reverse the direction of the arrow in the equation.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Change the chemical symbol in one of the products containing iron.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "When balancing a chemical equation, coefficients can be adjusted, subscripts cannot."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Begin balancing a basic chemical equation by writing the unbalanced equation for the reaction. Place the reactants on the left side of the arrow and the products on the right side of the arrow. Then, tally the number of atoms of each element on both sides of the equation. If the same number of atoms of each element appears on both sides of the equation, the reaction is balanced. No more steps are necessary. If the numbers of atoms are not equal, the coefficients must be adjusted to balance the equation. Coefficients, rather than subscripts, are adjusted to obey the law of conservation of mass. Subscripts are intrinsic to the structure of the molecule and therefore must remain unchanged."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Begin balancing a basic chemical equation by writing the unbalanced equation for the reaction. Place the reactants on the left side of the arrow and the products on the right side of the arrow. Then, tally the number of atoms of each element on both sides of the equation. If the same number of atoms of each element appears on both sides of the equation, the reaction is balanced. No more steps are necessary. If the numbers of atoms are not equal, the coefficients must be adjusted to balance the equation. Coefficients, rather than subscripts, are adjusted to obey the law of conservation of mass. Subscripts are intrinsic to the structure of the molecule and therefore must remain unchanged."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "desc": "This map describes the workflow for this investigation. Before starting the activity, print the pages for the investigation materials and cut out model pieces by color. You will start the activity by transcribing the chemical equation to the mat. Assign a color to each chemical element in the equation. Next, use model pieces to count the atoms in the equation. Determine if the equation is balanced. If it is not balanced, use model pieces to add molecules to the equation. When the equation is balanced, determine the coefficients of the balanced equation. Finally, photograph the balanced equation.",
+                  "altText": "This map describes the workflow for this investigation. Before starting the activity, print the pages for the investigation materials and cut out model pieces by color. You will start the activity by transcribing the chemical equation to the mat. Assign a color to each chemical element in the equation. Next, use model pieces to count the atoms in the equation. Determine if the equation is balanced. If it is not balanced, use model pieces to add molecules to the equation. When the equation is balanced, determine the coefficients of the balanced equation. Finally, photograph the balanced equation.",
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "containerType": "fullContainer",
+                  "image": "courses/580311/580311_ED.svg",
+                  "imgDivWidth": "75%",
+                  "imgDivWidthForTablet": {
+                    "P": "95%",
+                    "L": "95%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "maxWidth": "1200px",
+                  "scrollImg": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "List",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Printer paper, 3 sheets",
+                    "Scissors",
+                    "Pencil",
+                    "<a target='blank' href='images/courses/580311/580311_Img_001.pdf'>Printed atom marker sheet</a>",
+                    "<a target='blank' href='images/courses/580311/580311_Img_002.pdf'>Printed balancing equations mat</a>"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are no safety concerns for this lab."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span class=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "During ordinary chemical reactions, atoms are neither created nor destroyed. What is the name of this law?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "law of conservation of mass",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "law of conservation of energy",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "law of conservation of compounds",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Newton’s law of conservation",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "ideal gas law",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best defines a compound?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "two or more types of atoms chemically combined in definite proportions",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "multiple atoms of the same element combined in definite proportions",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "multiple atoms of only one type of element",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "the smallest particle of an element retaining the element’s chemical properties",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "a portion of a molecule retaining the molecule’s chemical properties",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "How many copper atoms are needed to balance this equation?<br />_Cu + O<sub class='bodySubscript'>2</sub> --> 2 CuO",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "2",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "1",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "3",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "4",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "5",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "How many total molecules are present in “4 C<sub class='bodySubscript'>6</sub>H<sub class='bodySubscript'>12</sub>O<sub class='bodySubscript'>6</sub>”?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "4",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "1",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "6",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "12",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "24",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "What do the numbers in subscript stand for in a chemical formula?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "the number of each atom present",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "the amount of molecules present",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "the size of the atom",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "the charge of the atom",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "the total number of molecules in a chemical reaction",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Water (H<sub class='bodySubscript'>2</sub>O) in this chemical equation is considered which of the following?<br />3 H<sub class='bodySubscript'>2</sub>O + 2 Fe --> Fe<sub class='bodySubscript'>2</sub>O<sub class='bodySubscript'>3</sub> + 3 H<sub class='bodySubscript'>2</sub>",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "a reactant",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "a product",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "a coefficient",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "an atom",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "an element",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (4 steps)",
+              "pageTitle": "Preparation (4 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure",
+              "keyID": "preparation",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Read through the activity."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Print out the <a target='blank' href='images/courses/580311/580311_Img_002.pdf'>Balancing Chemical Equations Mat</a> and the <a target='blank' href='images/courses/580311/580311_Img_001.pdf'>atom markers</a>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Clear a work area."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Cut out the <button class='glossary-text'>atom</button> markers in the following quantities:<span class=bodyParaLineBreak><ol type='a'><li>10 red ‘R’ atoms</li><span class=bodyParaLineBreak><li>10 blue ‘B’ atoms</li><span class=bodyParaLineBreak><li>10 green ‘G’ atoms</li><span class=bodyParaLineBreak><li>10 yellow ‘Y’ atoms</li><span class=bodyParaLineBreak><li>20 white ‘W’ atoms</li></ol>",
+
+                    "typeAfter": [
+                      {
+                        "type": "Box",
+                        "text": "<ul> <li>Remember that <button class='glossary-text'>subscripts</button> are intrinsic to the structure of the substance, and <button class='glossary-text'>coefficients</button> show the number of atoms or <button class='glossary-text'>molecules</button> of each substance present in the reaction.</li> <li><button class='glossary-text'>Elements</button> must be present in equal amounts on the <button class='glossary-text'>reactant</button> and <button class='glossary-text'>product</button> sides of the equation to comply with the <button class='glossary-text'>Law of Conservation of Mass</button>.</li> <li>Coefficients cannot be added between elements in a <button class='glossary-text'>compound</button> (e.g., between H<sub class='bodySubscript'>2</sub> and O in H<sub class='bodySubscript'>2</sub>O). The atoms in compounds are held together by bonds, and function as a unit.</li> </ul>"
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Chemistry_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will use colored paper squares to <span style='whiteSpace: nowrap'>color-code</span> and tally the <button class='glossary-text'>atoms</button> in each <button class='glossary-text'>molecule</button> on both sides of an <span style='whiteSpace: nowrap'>instructor-provided</span> chemical equation in order to determine any <button class='glossary-text'>coefficients</button> and balance the equation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Activity 1",
+              "pageTitle": "<div class=order-list-text>A</div>&nbsp; Activity (12 steps)",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "keyID": "activity1",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Write the five colors (red, blue, green, yellow, and white) of the model pieces in the “Color” column of the Tally Table on the <a target='blank' href='images/courses/580311/580311_Img_002.pdf'>Balancing Equations Mat</a>."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Write the symbols/formulas for the <button class='glossary-text'>reactants</button> and <button class='glossary-text'>products</button> of your <span class='bodyFontBold'><span style='whiteSpace: nowrap'>instructor-supplied</span> equations</span> on the Balancing Equations Mat. Write on the lines above the four boxes, not in the boxes. Leave the lines labeled “<button class='glossary-text'>Coefficient</button>” blank at this time."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Assign a different color to each <button class='glossary-text'>atom</button> in the equation. In the “Atomic Symbol” column of the Tally Table, write the symbol for the atom beside the assigned color. Due to their abundance, it is recommended to use red pieces to represent oxygen and the white pieces to represent hydrogen whenever those atoms are present in the reaction."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Group the <button class='glossary-text'>molecules</button> according to the equation based on the colors that were assigned to the atoms in the appropriate squares on the mat."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "Look only at the number of atoms present in each molecule; for this activity, the shape and arrangement do not matter."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Count the atoms of each color on both sides of the equation. In the Tally Table, record the number of atoms of each color on the left side and the right side of the equation. Record these values under the “Left Tally” and “Right Tally” columns."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "If each <button class='glossary-text'>element</button> has an equal number of atoms on the left (reactant) and right (product) sides, the equation is balanced."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "typeBefore": [
+                      {
+                        "type": "Plain",
+                        "subTitle": "If the equation is balanced, go to Step 9."
+                      }
+                    ],
+                    "text": "If the number of atoms of each element is not the same on both sides, make additional molecules and add them to the appropriate box. Adjust the tally numbers to reflect the new number(s) of atoms."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Continue this process until the number of atoms on each side is the same."
+                  },
+                  {
+                    "type": "Box",
+                    "text": "Start the balancing process with the atoms that appear in only one molecule on each side of the equation. Remember, only adjust the number of molecules (coefficients). Molecules cannot be broken apart or rearranged."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Once the equation is balanced, write the total number of molecules in each box on the line above the box labeled “Coefficient.” Record the balanced chemical equation in <span class=bodyFontBold>Data <span style='whiteSpace: nowrap'>Table 1</span>.</span>"
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Take a photograph of the Balancing Equations Mat with the equation properly balanced and the model pieces in their appropriate groupings.",
+                    "image": "core/Camera-icon.svg",
+                    "imgWidth": "4.5%",
+                    "altText": "camera symbol"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Remove the model pieces from the mat, and reorganize the pieces into groups again by color."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Erase all information from the mat, with the exception of the colors of the model pieces. Repeat this activity for each instructor-supplied equation. For additional practice, your instructor may ask you to balance chemical equations without using the modeling set. After balancing these additional equations on the Balancing Equations Mat, record them in <span class=bodyFontBold>Data <span style='whiteSpace: nowrap'>Table 2</span>.</span>"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup",
+              "pageTitle": "Disposal and Cleanup",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                  "text": [
+                    "Discard or recycle the atom markers and balancing equations mat.",
+                    "Clean your work area and return any supplies used."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Chemistry_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2022 Carolina Biological Supply Company",
+      "pageSetting": "landscape a3"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable1",
+            "tag": "div",
+            "width": "100%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 1",
+                "text": "Balance the instructor-supplied equations using the model pieces and Balancing Equations Mat."
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "maxLength": 10,
+                "header": [
+                  {
+                    "text": "Coefficient for Reactant 1",
+                    "colWidth": "10%",
+                    "maxLength": 5
+                  },
+                  {
+                    "text": "Reactant 1",
+                    "colWidth": "12%"
+                  },
+                  {
+                    "text": "Plus",
+                    "colWidth": "4%"
+                  },
+                  {
+                    "text": "Coefficient for Reactant 2",
+                    "colWidth": "10%",
+                    "maxLength": 5
+                  },
+                  {
+                    "text": "Reactant 2",
+                    "colWidth": "12%"
+                  },
+                  {
+                    "text": "Yields",
+                    "colWidth": "4%"
+                  },
+                  {
+                    "text": "Coefficient for Product 1",
+                    "colWidth": "10%",
+                    "maxLength": 5
+                  },
+                  {
+                    "text": "Product 1",
+                    "colWidth": "12%"
+                  },
+                  {
+                    "text": "Plus",
+                    "colWidth": "4%"
+                  },
+                  {
+                    "text": "Coefficient for Product 2",
+                    "colWidth": "10%",
+                    "maxLength": 5
+                  },
+                  {
+                    "text": "Product 2",
+                    "colWidth": "12%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "→"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "→"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "→"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "→"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "→"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "→"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "→"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "→"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "→"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "→"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "photo1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Step 10 Photo",
+                "text": "Upload a photo of the completed mat and modeling pieces for one of the balanced equations."
+              },
+              {
+                "type": "UploadFiles",
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable2",
+            "width": "100%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 2",
+                "text": "Practice balancing additional instructor-supplied equations <span class='bodyFontBold'>without using the model set</span>."
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "maxLength": 10,
+                "header": [
+                  {
+                    "text": "Coefficient for Reactant 1",
+                    "colWidth": "10%",
+                    "maxLength": 5
+                  },
+                  {
+                    "text": "Reactant 1",
+                    "colWidth": "12%"
+                  },
+                  {
+                    "text": "Plus",
+                    "colWidth": "4%"
+                  },
+                  {
+                    "text": "Coefficient for Reactant 2",
+                    "colWidth": "10%",
+                    "maxLength": 5
+                  },
+                  {
+                    "text": "Reactant 2",
+                    "colWidth": "12%"
+                  },
+                  {
+                    "text": "Yields",
+                    "colWidth": "4%"
+                  },
+                  {
+                    "text": "Coefficient for Product 1",
+                    "colWidth": "10%",
+                    "maxLength": 5
+                  },
+                  {
+                    "text": "Product 1",
+                    "colWidth": "12%"
+                  },
+                  {
+                    "text": "Plus",
+                    "colWidth": "4%"
+                  },
+                  {
+                    "text": "Coefficient for Product 2",
+                    "colWidth": "10%",
+                    "maxLength": 5
+                  },
+                  {
+                    "text": "Product 2",
+                    "colWidth": "12%"
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "→"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "→"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "→"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "→"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "→"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "fontFamily": "HelveticaNeueLTStdMd65",
+                      "text": "+"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "pageData": [
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580311/Periodic_Table.svg",
+        "content": "Periodic Table of the Elements",
+        "altText": "Periodic Table of the Elements",
+        "maxWidth": "2200px",
+        "scrollImg": true
+      },
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6311690012112",
+        "content": "Investigation Overview"
+      },
+      {
+        "thumbnailSrc": "core/Table_icon.svg",
+        "content": "Tally Table 1. Counting tallies for atoms in an unbalanced equation",
+        "type": "DataTable",
+        "title": "<span title='A table tallying the number of atoms of each element in the unbalanced chemical reaction between water and iron metal.'>Tally Table 1</span>",
+        "tableWidth": "99%",
+        "tableMaxWidth": "500px",
+        "allowClick": true,
+        "isResource": true,
+        "header": [
+          {
+            "text": "Number of Atoms in Reactants (left)",
+            "colWidth": "40%"
+          },
+          {
+            "text": "Atomic Symbol",
+            "colWidth": "20%"
+          },
+          {
+            "text": "Number of Atoms in Products (right)",
+            "colWidth": "40%"
+          }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "text": "<img draggable=false src='images/courses/580311/580311_Eqation_003.svg' height='22px' style='display: inline-block' />",
+              "hoverText": "tally mark of 2 = 2"
+            },
+            {
+              "type": "text",
+              "text": "H"
+            },
+            {
+              "type": "text",
+              "text": "<img draggable=false src='images/courses/580311/580311_Eqation_003.svg' height='22px' style='display: inline-block' />",
+              "hoverText": "tally mark of 2 = 2"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "<img draggable=false src='images/courses/580311/580311_Eqation_004.svg' height='22px' style='display: inline-block' />",
+              "hoverText": "tally mark of 1 = 1"
+            },
+            {
+              "type": "text",
+              "text": "O"
+            },
+            {
+              "type": "text",
+              "text": "<img draggable=false src='images/courses/580311/580311_Eqation_005.svg' height='22px' style='display: inline-block' />",
+              "hoverText": "tally mark of 3 = 3"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "<img draggable=false src='images/courses/580311/580311_Eqation_004.svg' height='22px' style='display: inline-block' />",
+              "hoverText": "tally mark of 1 = 1"
+            },
+            {
+              "type": "text",
+              "text": "Fe"
+            },
+            {
+              "type": "text",
+              "text": "<img draggable=false src='images/courses/580311/580311_Eqation_003.svg' height='22px' style='display: inline-block' />",
+              "hoverText": "tally mark of 2 = 2"
+            }
+          ]
+        ]
+      },
+      {
+        "thumbnailSrc": "core/Table_icon.svg",
+        "content": "Tally Table 2. Counting tallies for atoms in a balanced equation",
+        "type": "DataTable",
+        "title": "<span title='A table tallying the number of atoms of each element in the balanced chemical reaction between water and iron metal.'>Tally Table 2</span>",
+        "tableWidth": "99%",
+        "tableMaxWidth": "500px",
+        "allowClick": true,
+        "isResource": true,
+        "header": [
+          {
+            "text": "Number of Atoms in Reactants (left)",
+            "colWidth": "40%"
+          },
+          {
+            "text": "Atomic Symbol",
+            "colWidth": "20%"
+          },
+          {
+            "text": "Number of Atoms in Products (right)",
+            "colWidth": "40%"
+          }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "text": "<img draggable=false src='images/courses/580311/580311_Eqation_006.svg' height='22px' style='display: inline-block' />",
+              "hoverText": "tally mark of 6 = 6"
+            },
+            {
+              "type": "text",
+              "text": "H"
+            },
+            {
+              "type": "text",
+              "text": "<img draggable=false src='images/courses/580311/580311_Eqation_006.svg' height='22px' style='display: inline-block' />",
+              "hoverText": "tally mark of 6 = 6"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "<img draggable=false src='images/courses/580311/580311_Eqation_005.svg' height='22px' style='display: inline-block' />",
+              "hoverText": "tally mark of 3 = 3"
+            },
+            {
+              "type": "text",
+              "text": "O"
+            },
+            {
+              "type": "text",
+              "text": "<img draggable=false src='images/courses/580311/580311_Eqation_005.svg' height='22px' style='display: inline-block' />",
+              "hoverText": "tally mark of 3 = 3"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "<img draggable=false src='images/courses/580311/580311_Eqation_003.svg' height='22px' style='display: inline-block' />",
+              "hoverText": "tally mark of 2 = 2"
+            },
+            {
+              "type": "text",
+              "text": "Fe"
+            },
+            {
+              "type": "text",
+              "text": "<img draggable=false src='images/courses/580311/580311_Eqation_003.svg' height='22px' style='display: inline-block' />",
+              "hoverText": "tally mark of 2 = 2"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580311/580311_ED.svg",
+        "content": "Experimental Design Diagram",
+        "altText": "This map describes the workflow for this investigation. Before starting the activity, print the pages for the investigation materials and cut out model pieces by color. You will start the activity by transcribing the chemical equation to the mat. Assign a color to each chemical element in the equation. Next, use model pieces to count the atoms in the equation. Determine if the equation is balanced. If it is not balanced, use model pieces to add molecules to the equation. When the equation is balanced, determine the coefficients of the balanced equation. Finally, photograph the balanced equation.",
+        "maxWidth": "1200px",
+        "scrollImg": true
+      },
+      {
+        "type": "PDF",
+        "thumbnailSrc": "core/PDF_icon.svg",
+        "src": "courses/580311/580311_Img_001.svg",
+        "content": "Atom Markers",
+        "ref": "images/courses/580311/580311_Img_001.pdf",
+        "altText": "Atom Markers",
+        "disableClick": true,
+        "scrollImg": true,
+        "isResource": true,
+        "maxWidth": "600px"
+      },
+      {
+        "type": "PDF",
+        "thumbnailSrc": "core/PDF_icon.svg",
+        "src": "courses/580311/580311_Img_002.svg",
+        "content": "Balancing Chemical Equations Mat",
+        "ref": "images/courses/580311/580311_Img_002.pdf",
+        "disableClick": true,
+        "isResource": true,
+        "altText": "Balancing Chemical Equations Mat",
+        "scrollImg": true,
+        "maxWidth": "600px"
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Atom",
+        "content": "The smallest unit of an element that retains the chemical properties of that element"
+      },
+      {
+        "title": "Balanced chemical equation",
+        "content": "The number of atoms of each element is the same on the left and right sides of the equation"
+      },
+      {
+        "title": "Coefficients",
+        "content": "Number placed before the symbol for an element or the formula for a compound in a chemical equation"
+      },
+      {
+        "title": "Compound",
+        "content": "A substance that consists of identical molecules composed of two or more elements"
+      },
+      {
+        "title": "Element",
+        "content": "A pure substance that consists of only one type of atom"
+      },
+      {
+        "title": "Law of Conservation of Mass",
+        "content": "States that atoms are neither created nor destroyed during a chemical reaction; the changes that occur during any reaction are simply rearrangements of the atoms"
+      },
+
+      {
+        "title": "Molecule",
+        "content": "The smallest unit of a compound that retains the chemical properties of that compound"
+      },
+      {
+        "title": "Product",
+        "content": "A substance produced in a chemical reaction"
+      },
+      {
+        "title": "Reactants",
+        "content": "Substances consumed in a chemical reaction to generate product"
+      },
+
+      {
+        "title": "Subscripts",
+        "content": "Numbers that indicate the number of atoms of a particular element in a molecule"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

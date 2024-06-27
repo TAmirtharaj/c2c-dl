@@ -1,0 +1,4427 @@
+{
+  "locked": true,
+  "courseTitle": "Ecological Succession",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg",
+      "altText":"Carolina Distance Learning Logo"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/bodyBookmark.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Env_Sci_launchPageBg.svg",
+              "altText":"Stylized picture of a rocky mountain in the background with evergreens along its base, lining a stream with small rapids that lead to a waterfall",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Environmental Science",
+                "images": {
+                  "launchPage": "core/Env_Sci_launchPageBg.svg",
+                  "logo": "core/Env_Sci_Subject_Icon.svg"
+                },
+                "titleName2": "Ecological Succession",
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "All living organisms need energy and nutrients to grow. Using a small amount of mud and water from a local pond, lake, or stream, students will design a miniature ecosystem, known as a <button class='glossary-text'>Winogradsky column</button>, by adding several sources of nutrients from which naturally present bacteria may thrive. Students will observe on a weekly basis how different processes drive changes in bacterial diversity and growth throughout an ecosystem. As a result, students will gain insight into how different organisms rely on the growth of others to thrive, as nutrients will be made available by recycling within this self-contained ecosystem."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Env_Sci/580825/580825_Env_Sci_Time-Requirement.svg",
+                  "width": "100%",
+                  "imgDivWidth": "404px",
+                  "scrollImg": true,
+                  "maxWidth": "470px",
+                  "altText": "Preparation - 20 minutes\nActivity 1: Setting Up the Winogradsky Column - 2 hours\nActivity 2: Observing the Winogradsky Column Over Time - 15 minutes per day for 8 weeks*"
+                
+                },
+                {
+                  "type":"Plain",
+                  "containerType": "rightContainer",
+                  "text":" "
+                },
+                {
+                  "type":"Box",
+                  "containerType": "rightContainer",
+                  "text":"*Observations should be repeated on the same day of the week for 8 weeks following setup of the Winogradsky column."
+                },
+                {
+                  "type": "List",
+                  "title": "Needed but not supplied:",
+                  "text": 
+                  [
+                    "Natural water source, such as a pond, lake, or stream",
+                    "Bucket that can hold 8 cups of mud",
+                    "Clear 2-liter empty soda bottle",
+                    "Small container with a secure lid (enough to hold ~500 mL)",
+                    "Bowl",
+                    "Measuring cup",
+                    "Digital camera or mobile device capable of taking photos",
+                    "Aluminum foil or plastic wrap",
+                    "Scissors or a utility knife",
+                    "Rubber band",
+                    "Timer or stopwatch"
+                  ]
+                }
+              ]
+            },
+            {
+              "waterMark": true,
+              "template": "OverView",
+              "title": "Overview (cont...)",
+              "pageTitle": "Overview (cont...)",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Overview Video: Ecological Succession"
+                },
+                {
+                  "type": "Video",
+                  "imgDivWidth": "40%",
+                  "imgDivWidthForTablet": {
+                    "P": "40%",
+                    "L": "40%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "80%",
+                    "L": "40%"
+                  },
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "image": "courses_2023/Env_Sci/580825/580825_Env_Sci_VideoIcone.svg",
+                  "desc": "OverView Video",
+                  "url": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6336985780112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "waterMark": true,
+              "template": "Outcomes",
+              "showPageTitle": true,
+              "pageData": [
+                {
+                  
+                  "type": "List",
+                  "text": [
+                    "Create a <button class='glossary-text'>Winogradsky column</button> to study the <button class='glossary-text'>ecological succession</button> of <button class='glossary-text'>microorganisms</button>.",
+                    "Describe the role of <button class='glossary-text'>prokaryotes</button> in the environment and their importance to life on Earth.",
+                    "Deduce whether <button class='glossary-text'>aerobic</button> or <button class='glossary-text'>anaerobic</button>  respiration is occurring in different areas of a model ecosystem based on weekly observation."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Catastrophic wildfires have increased in recent years and around the world, particularly in the American West. Climate-change-fueled droughts, invasive species, and forestry management practices have all contributed to this trend, which is likely to continue into the near future. Under normal circumstances, fire is a healthy part of a forest’s lifecycle: fires clear out old trees and provide nutrients needed for new growth. Then the process of secondary succession usually begins immediately, and the forest recovers quickly. However, catastrophic wildfires often burn hotter, longer, and over larger areas, which can make it difficult for the forest to recover, especially if the soils are damaged. These areas are then prone to landslides, increased drought, and even desertification. Ecologists can mimic the natural process of ecological succession in forests with techniques such as transplanting important pioneer species from recovering areas to damaged areas, restoring soil nutrients, or reintroducing ecosystem engineers (like prairie dogs and beavers) to speed up grass colonization. This active ecological succession allows scientists mitigate the damage from man-made catastrophes."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Env_Sci/580825/580825_Env_Sci_whyShouldICare.svg",
+                  "desc": "A forest recovering from a fire.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "altText": "A forest recovering from a fire."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp":"resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Microbiology is the study of <button class='glossary-text'>microorganisms</button> (microbes or bacteria). Microbes are in the air we breathe and in the food we eat; they are all around us. These organisms are more diverse than all other “higher” organisms (such as plants and animals) <i>combined</i>. They live almost everywhere—from soil to water to air—and even in the most extreme places, such as in volcanoes and glaciers. They are <button class='glossary-text'>prokaryotes</button>—single-celled organisms lacking membrane-bound organelles—that play vital roles in the environment."
+                },
+                {
+                  "type": "Plain",
+                  "text": "When microbes <button class='glossary-text'>decompose</button> (breakdown) <button class='glossary-text'>organic material</button> (compounds that come from the remains or waste of organisms such as plants and animals), they obtain energy from the material and their environment. Some nutrients are released as byproducts, and the organic material is then consumed by other organisms. In this way, nutrients are cycled throughout an ecosystem. Also, some microbes are photosynthetic—they can use the sun’s energy to convert carbon dioxide and water into oxygen and glucose, further cycling energy through a food web."
+                },
+                {
+                  "type": "Plain",
+                  "subTitle": "The Winogradsky Column",
+                  "text": "<button class='glossary-text'>Ecological succession</button> is the change in species structure in an ecosystem over time. This process is important to investigate because it helps maintain healthy ecosystems and can give insight into the balance established by respiration and generation of metabolic byproducts by organisms within a community."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Observing changes due to microbial interactions is a vital part of understanding how organisms rely on each other for survival. Some of these processes are <button class='glossary-text'>aerobic</button> (respiration with oxygen see Figure 1), and others are <button class='glossary-text'>anaerobic</button> (respiration in the absence of oxygen). In the late 1800s, microbiologist Sergei Winogradsky pioneered an experimental system composed mostly of soil (mud or sediment) and water from a natural water source. Now referred to as a <button class='glossary-text'>Winogradsky column</button>, nutrient cycling carried out by microbes occurs differentially throughout this miniature ecosystem model."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Env_Sci/580825/580825_Env_Sci_fig_001.svg",
+                  "imgDivWidth": "494px",
+                  "scrollImg": true,
+                  "maxWidth": "615px",
+                  "desc": "Figure 1: The chemical equation for aerobic respiration in which the oxidation of glucose sugar produces carbon dioxide and the reduction of oxygen produces water.",
+                  "altText": "Figure 1: The chemical equation for aerobic respiration in which the oxidation of glucose sugar produces carbon dioxide and the reduction of oxygen produces water."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                
+                {
+                  "type": "Plain",
+                  "text": "A variety of <button class='glossary-text'>microorganisms</button> live within the mud and water mixture in the column, and while they are not visible to the naked eye, different colors can be observed in a sample when the microbes grow closely together in high quantities. Because different species thrive in different conditions, microbes present will either be well-adapted or outcompeted by other organisms throughout the column, which creates “pockets” of different microenvironments. The ability to survive in a particular environment and produce viable offspring when other organisms cannot is known as <button class='glossary-text'>natural selection</button>—one of the principles that guides <button class='glossary-text'>ecological succession</button>. Microbes cause conditions to change in this type of environment by consuming all the oxygen in certain layers of the column, which then only allows for survival of organisms that can perform other types of respiration."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following best describes ecological succession?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "It is a change in the species structure of an ecosystem over time.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "It is the restoration of a healthy ecosystem due to human intervention.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "It is the degradation of an ecosystem by an invasive species.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "It is a buildup of microbes in soil over time.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "It is an increase in the organic material output of a microbial ecosystem.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Ecological succession is the change in the species structure in an ecosystem over time."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 1",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "A Winogradsky column is a miniature ecosystem model that showcases which of the following?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "nutrient cycling by microbes",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "aerobic respiration by algae",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "plant photosynthesis",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "decomposition of microplastics",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "the flow of water through soil",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "A Winogradsky column shows differential nutrient cycling by microbes."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Ecological succession is the change in species structure in an ecosystem over time. This process is important to investigate because it helps maintain healthy ecosystems and can give insight into the balance established by respiration and generation of metabolic byproducts by organisms within a community. In the late 1800s, microbiologist Sergei Winogradsky pioneered an experimental system composed mostly of soil (mud or sediment) and water from a natural water source. Now referred to as a Winogradsky column, nutrient cycling carried out by microbes occurs differentially throughout this miniature ecosystem model."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Ecological succession is the change in species structure in an ecosystem over time. This process is important to investigate because it helps maintain healthy ecosystems and can give insight into the balance established by respiration and generation of metabolic byproducts by organisms within a community. In the late 1800s, microbiologist Sergei Winogradsky pioneered an experimental system composed mostly of soil (mud or sediment) and water from a natural water source. Now referred to as a Winogradsky column, nutrient cycling carried out by microbes occurs differentially throughout this miniature ecosystem model."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                
+                {
+                  "type": "Plain",
+                  "text": "Another way to think about ecological succession is to picture a full-grown forest that has been burned down by a fire. This disturbance will not only immediately remove multiple plant species from the environment but will also force other organisms out of the forest because of their inability to survive in its current condition. However, organisms that can still fulfill their <button class='glossary-text'>niche</button>, or role in an environment, will survive and thrive in that area, thus influencing the way the ecosystem redevelops. In this instance, <button class='glossary-text'>natural selection</button> dictates that only certain organisms will adapt to the substantial changes in their surrounding environment."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Within the <button class='glossary-text'>Winogradsky column</button>, <button class='glossary-text'>biogeochemical cycling</button>, which involves the constant recycling of nutrients and chemicals through the living and nonliving parts of an ecosystem (such as the nitrogen cycling in Figure 2), is constantly occurring. Microbes must consume specific nutrients (e.g., carbon, oxygen, and sulfur) to grow. By using an environmental soil and water sample to make a Winogradsky column, these nutrients will be continuously recycled throughout the ecosystem due to the microbes’ natural growth pattern. With potting soil, however, many of these nutrients and minerals have been removed, which would negatively affect the microbes present and result in an artificial biogeochemical cycle."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Env_Sci/580825/580825_Env_Sci_fig_002.svg",
+                  "imgDivWidth": "500px",
+                  "scrollImg": true,
+                  "maxWidth": "615px",
+                  "disc": "Figure 2: An illustration of the nitrogen cycle showing the processes of fixation, ammonification, nitrification, assimilation, and denitrification.",
+                  "altText": "Figure 2: An illustration of the nitrogen cycle showing the processes of fixation, ammonification, nitrification, assimilation, and denitrification."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                
+                {
+                  "type": "Plain",
+                  "text": "Consider the <button class='glossary-text'>Winogradsky column</button> to be a “mini pond.” The bottom layer is supplemented with an initial carbon/cellulose source (filter paper), calcium sulfate as a sulfur source (for alternative respiration), and calcium carbonate as an additional carbon source. The added cellulose acts as a food source that triggers rapid microbial growth, leading to oxygen depletion in the bottom of the column due to the excess number of organisms competing for oxygen to respire. This oxygen consumption creates an anaerobic environment that can be tolerated only by organisms that perform fermentation or anaerobic respiration. Higher layers of the column are slightly <button class='glossary-text'>aerobic</button> (due to the lack of cellulose farther up in the column), which generates a gradient of available oxygen among the layers. Thus, this ecosystem provides a favorable environment for microbes with <i>any</i> level of oxygen requirement because each layer contains a different amount of oxygen."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<button class='glossary-text'>Anaerobic</button> conditions near the bottom of the column allow microbes that can use alternative respiration to flourish and break down the cellulose into carbon dioxide. Some microbes may also degrade the organic compounds into glucose, through fermentation, which is eventually released as ethanol or other acidic byproducts. For example, species of the anaerobic <i>Clostridium</i> genus, which often appear black in a Winogradsky column, release large amounts of carbon dioxide from the breakdown of shredded filter paper. Byproducts from both fermentation and anaerobic respiration are then used as carbon and energy sources by other organisms, such as species in the <i>Desulfovibrio</i> genus (found in the deepest layer of the column), which combines these compounds with sulfur instead of oxygen to respire. This type of respiration produces high levels of hydrogen sulfide (H<sub>2</sub>S) gas in the bottom of the column, which can react with iron present, leading to black coloration in the lowest layers. The newly produced H<sub>2</sub>S is then metabolized by photosynthetic bacteria in the higher mud levels of the column. Using sunlight (or a similar light source) and calcium carbonate, these microbes produce organic molecules for energy through photosynthesis. Photosynthetic sulfur bacteria are either green or purple, classified by how much sulfur they can tolerate."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                
+                {
+                  "type": "Plain",
+                  "text": "<i>Chlorobium</i> is a common genus of green sulfur bacteria found in this environment; <i>Chromatium</i> is a common purple sulfur bacterial genus often found in this environment. The amount of H<sub>2</sub>S present (high H<sub>2</sub>S at the bottom and low H<sub>2</sub>S at the top of the column) determines which type of sulfur bacteria will be in that area of the column. Green sulfur bacteria typically have a higher sulfur tolerance than purple sulfur bacteria."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Higher in the column where H<sub>2</sub>S levels are extremely low, nonsulfur bacteria (such as species from the reddish-purple bacterial genus <i>Rhodomicrobium</i>) grow in the absence of oxygen. They also perform <button class='glossary-text'>anaerobic</button> respiration, but they use byproducts other than H<sub>2</sub>S to complete this process. At the interface of the anaerobic soil and the <button class='glossary-text'>aerobic</button> pond water, bacteria that oxidize sulfur (such as the white-colored <i>Beggiatoa</i> genus of microbes) can be found. In the water itself, many microorganisms that use sunlight and oxygen to respire—including many types of photosynthetic cyanobacteria and algae—will flourish. Some small crustaceans, which may appear as small specks swimming in the water column, may be found here as well. Also, worms can be seen forming tracks in the upper layers of the sediment due to the presence of oxygen in this region of the column."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "In this investigation, you will observe the Winogradsky column on a weekly basis and record evidence of bacterial succession based on the descriptions and colors of possible microbial species and their respiration processes. See Figure 3 to look further in depth at the differing layers and their possible components in this ecosystem."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Env_Sci/580825/580825_Env_Sci_fig_003.svg",
+                  "imgDivWidth": "318px",
+                  "scrollImg": true,
+                  "maxWidth": "395px",
+                  "desc": "Figure 3: A Winogradsky column with five layers of microbial growth. The bottom to top, the layers contain sulfate-reducing bacteria, green photosynthetic bacteria, purple photosynthetic bacteria, non-sulfur photosynthetic bacteria, and cyanobacteria and algae. The levels of oxygen increase as you move up the column and the levels of hydrogen sulfide increase as you move down the column.",
+                  "altText": "Figure 3: A Winogradsky column with five layers of microbial growth. The bottom to top, the layers contain sulfate-reducing bacteria, green photosynthetic bacteria, purple photosynthetic bacteria, non-sulfur photosynthetic bacteria, and cyanobacteria and algae. The levels of oxygen increase as you move up the column and the levels of hydrogen sulfide increase as you move down the column."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following best describes the gradient within the layers of a Winogradsky column?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "an oxygen gradient",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "a glucose gradient",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "a sulfur gradient",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "a viral gradient",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "a color gradient",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "A Winogradsky column provides a favorable environment for microbes with any level of oxygen requirement because each layer contains a different amount of oxygen."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "pageTitle": "Knowledge Check Question 2",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following lists the initial energy sources placed at the bottom of a Winogradsky column?",
+                  "instructionText": "",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "calcium sulfate, calcium carbonate, and cellulose",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "sucrose, lactose, and glucose",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "cellulose, calcium carbonate, and hydrogen sulfide",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "glucose, cellulose, and water",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "calcium carbonate, calcium sulfate, and calcium chloride",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The bottom layer is supplemented with an initial carbon/cellulose source, calcium sulfate as a sulfur source (for anaerobic respiration), and calcium carbonate as an additional carbon source. "
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "The bottom layer is supplemented with an initial carbon/cellulose source (filter paper), calcium sulfate as a sulfur source (for alternative respiration), and calcium carbonate as an additional carbon source. The added cellulose acts as a food source that triggers rapid microbial growth, leading to oxygen depletion in the bottom of the column as excess organisms compete for oxygen. This oxygen consumption creates an anaerobic environment that can be tolerated only by organisms that perform fermentation or anaerobic respiration. Higher layers of the column are slightly aerobic, which generates a gradient of available oxygen among the layers. Thus, this ecosystem provides a favorable environment for microbes with any level of oxygen requirement because each layer contains a different amount of oxygen. ",
+                  "img": [
+                    {
+                      "src": "courses_2023/Env_Sci/580825/580825_Env_Sci_fig_003.svg",
+                      "alt": "Figure 3: A Winogradsky column with five layers of microbial growth. The bottom to top, the layers contain sulfate-reducing bacteria, green photosynthetic bacteria, purple photosynthetic bacteria, non-sulfur photosynthetic bacteria, and cyanobacteria and algae. The levels of oxygen increase as you move up the column and the levels of hydrogen sulfide increase as you move down the column.",
+                      "maxWidth": "359px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "Byproducts from both fermentation and anaerobic respiration are used as carbon and energy sources by other organisms, such as those found in the deepest layer of the column, which combine these compounds with sulfur instead of oxygen to respire. This type of respiration produces high levels of hydrogen sulfide (H<sub>2</sub>S) gas in the bottom of the column. The newly produced H<sub>2</sub>S gas is then metabolized by photosynthetic bacteria in the higher mud levels of the column.",
+                  "img": [
+                    {
+                      "src": "courses_2023/Env_Sci/580825/580825_Env_Sci_fig_003.svg",
+                      "alt": "Figure 3: A Winogradsky column with five layers of microbial growth. The bottom to top, the layers contain sulfate-reducing bacteria, green photosynthetic bacteria, purple photosynthetic bacteria, non-sulfur photosynthetic bacteria, and cyanobacteria and algae. The levels of oxygen increase as you move up the column and the levels of hydrogen sulfide increase as you move down the column..",
+                      "maxWidth": "359px"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Experimental Design",
+          "pages": [
+            {
+              "title": "Experimental Design",
+              "pageTitle": "Experimental Design",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "ExperimentalDesign",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "desc": "A map of the procedural workflow of this investigation. To prepare, you will shred the filter paper and cut the top off a 2-liter bottle. In activity 1, you will collect surface water and substrate from an environmental water source. Then, you will add the microbe energy source material to half the substrate and layer it at the bottom of the bottle. Next, you will layer the unaltered substrate over the substrate mixture. Then you will add the surface sample water to the bottle and cover the top of the assembled Winogradsky column. In activity 2, you will leave the column undisturbed in a window and record your observations once a week for 8 weeks.",
+                  "altText": "A map of the procedural workflow of this investigation. To prepare, you will shred the filter paper and cut the top off a 2-liter bottle. In activity 1, you will collect surface water and substrate from an environmental water source. Then, you will add the microbe energy source material to half the substrate and layer it at the bottom of the bottle. Next, you will layer the unaltered substrate over the substrate mixture. Then you will add the surface sample water to the bottle and cover the top of the assembled Winogradsky column. In activity 2, you will leave the column undisturbed in a window and record your observations once a week for 8 weeks.",
+                  "zoom": {
+                    "width": "100%",
+                    "height": "100%"
+                  },
+                  "containerType": "fullContainer",
+                  "image": "courses_2023/Env_Sci/580825/580825_Env_Sci_ED_001.svg",
+                  "imgDivWidth": "98%",
+                  "imgDivWidthForTablet": {
+                    "P": "100%",
+                    "L": "100%"
+                  },
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "80%"
+                  },
+                  "width": "100%",
+                  "scrollImg": true,
+                  "maxWidth": "1656px",
+                  "style":{
+                    "margin-top": "32px"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<span className=bodyFontItalic>Select each tab to continue</span>"
+                },
+                {
+                  "type": "Tab",
+                  "title": "Materials",
+                  "tabs": [
+                    {
+                      "title": "Included in the materials kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Calcium sulfate, <span style='whiteSpace: nowrap'>5 g</span>",
+                          "image": "courses_2023/Env_Sci/580825/580825_Env_Sci_material_1.svg",
+                          "url": "courses_2023/Env_Sci/580825/580825_Env_Sci_material_1.svg",
+                          "altText": " Calcium sulfate in brown envelope, 5 grams"
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Calcium carbonate, <span style='whiteSpace: nowrap'>5 g</span>",
+                          "image": "courses_2023/Env_Sci/580825/580825_Env_Sci_material_2.svg",
+                          "url": "courses_2023/Env_Sci/580825/580825_Env_Sci_material_2.svg",
+                          "altText": " Calcium carbonate in brown envelope, 5 grams "
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "5 Pieces of filter paper",
+                          "image": "courses_2023/Env_Sci/580825/580825_Env_Sci_material_3.svg",
+                          "url": "courses_2023/Env_Sci/580825/580825_Env_Sci_material_3.svg",
+                          "altText": " White circular filter paper "
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed from the equipment kit",
+                      "content": [
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Permanent marker",
+                          "image": "courses_2023/Env_Sci/580825/580825_Env_Sci_material_4.svg",
+                          "url": "courses_2023/Env_Sci/580825/580825_Env_Sci_material_4.svg",
+                          "altText": " Sharpie permanent marker "
+                        },
+                        {
+                          "type": "ImageWithLabel",
+                          "label": "Ruler",
+                          "image": "courses_2023/Env_Sci/580825/580825_Env_Sci_material_5.svg",
+                          "url": "courses_2023/Env_Sci/580825/580825_Env_Sci_material_5.svg",
+                          "altText": " Clear plastic ruler, 6 inch "
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Needed but not supplied",
+                      "content": [
+                        {
+                          "type": "List",
+                          "text": 
+                          [
+                            "Natural water source, such as a pond, lake, or stream",
+                            "Bucket that can hold 8 cups of mud",
+                            "Clear 2-liter empty soda bottle",
+                            "Small container with a secure lid (enough to hold ~500 mL)",
+                            "Bowl",
+                            "Measuring cup",
+                            "Digital camera or mobile device capable of taking photos",
+                            "Aluminum foil or plastic wrap",
+                            "Scissors or a utility knife",
+                            "Rubber band",
+                            "Timer or stopwatch"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Box",
+                  "containerType": "rightContainer",
+                  "text": "<span style={width:25%}><span className=bodyBoldSubHeading>Reorder Information:</span> <span className=bodyParaLineBreak></span> <span className=bodyParaLineBreak></span> Replacement supplies for the Ecological Succession investigation (item number 580825) can be ordered from Carolina Biological Supply Company. <span className=bodyParaLineBreak></span> <span className=bodyMediumSubHeading> Call:</span> 866-332-4478 to order.</span>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Safety",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Read all the instructions for the laboratory activities before beginning. Follow the instructions closely, and observe established laboratory safety practices, including the use of appropriate personal protective equipment (PPE)."
+                },
+                {
+                  "type": "Image",
+                  "image": "core/Key_PPE.svg",
+                  "imgDivWidth": "66%",
+                  "maxWidth": "500px",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "altText": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Gloves, goggles, and a lab apron are required when handling the calcium carbonate and calcium sulfate reagents."
+                },
+                {
+                  "type": "PlainImage",
+                  "text": "Handle calcium carbonate and calcium sulfate with caution. Avoid inhaling these chemicals. Always wear gloves while performing activities with these chemicals because they can irritate skin.",
+                  "image": "core/Warning.svg",
+                  "imgWidth": "12%",
+                  "desc": "warning symbol",
+                  "altText": "warning symbol"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "<span className='bodyFontBold'>Never conduct fieldwork on your own, especially in remote areas; always take a responsible partner with you</span>. Prepare and leave a field safety plan, complete with planned survey locations and expected return time, with a responsible party. Wear appropriate clothing (long pants and closetoed shoes are usually best), sunblock, and insect repellant if necessary. Be familiar with the potential hazards in your chosen survey areas. Please review the “Field Work” portion of the <i>Laboratory Safety Manual</i> or your school’s specific safety guidelines for more information. Make sure that you are healthy enough to participate in fieldwork. If in doubt, consult your medical practitioner."
+                }
+                ,
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Do not eat, drink, or chew gum while performing these activities. Wash your hands with soap and water before and after performing each activity. Clean the work area with soap and water after completing the investigation. Keep pets and children away from lab materials and equipment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which bacteria genus can be found at the interface between anaerobic soil and aerobic pond water?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "<span className=bodyFontItalic>Beggiatoa</span>",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "<span className=bodyFontItalic>Rhodomicrium</span>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "<span className=bodyFontItalic>Chromatium</span>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "<span className=bodyFontItalic>Chlorobium</span>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "<span className=bodyFontItalic>Desulfovibrio</span>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following organisms CANNOT survive in anaerobic conditions?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "<span className=bodyFontItalic>Cyanobacteria</span>",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "<span className=bodyFontItalic>Clostridium</span>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "<span className=bodyFontItalic>Chromatium</span>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "<span className=bodyFontItalic>Chlorobium</span>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "<span className=bodyFontItalic>Desulfovibrio</span>",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following processes creates different microenvironments and guides ecological succession in all types of environments?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "natural selection",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "anaerobic respiration",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "biogeochemical cycling",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "human intervention",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "carbon fixation",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Why must you use environmental soil rather than potting soil to build your Winogradsky column?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Many of the nutrients and minerals have been removed from potting soil, resulting in artificial biogeochemical cycles.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Potting soil is artificially sterilized and so contains no starting microbes to colonize the column.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Most potting soils are anaerobic, preventing the growth of aerobic bacteria in the column.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Too many nutrients have been added to potting soil, resulting in Chromatium overgrowth and eutrophication.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Since potting soil is artificially created, it is an environmental hazard and cannot be returned to the environment. ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following statements about established Winogradsky columns is NOT true?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Sulfur levels decrease as you go lower in the column.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Small crustaceans may be seen swimming in the water column.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "It may contain microbes that can grow in the absence of oxygen and sulfur.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "It may contain photosynthetic microbes.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Oxygen levels increase as you go higher in the column.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is NOT a safety requirement when conducting field work in remote areas?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Disinfect all samples thoroughly with bleach upon your return.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Take a responsible partner along with you.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Prepare a written safety plan and leave it with a responsible party.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Wear appropriate clothing such as long pants and outdoor shoes.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Familiarize yourself with any potential hazards in your chosen survey area.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the safety hazards describes the calcium carbonate and calcium sulfate provided in your lab kit for this investigation?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "They are skin irritants.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "They are corrosive materials.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "They are flammable.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "They are environmental hazards.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "They are choking hazards.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following colors, when observed in the layers of a Winogradsky column, is most likely to indicate high levels of hydrogen sulfide (H<sub>2</sub>S) gas?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "black",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "green",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "purple",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "white",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "red",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Preparation",
+      "menuIcon": "core/PrepartionIcon.svg",
+      "pages": [
+        {
+          "title": "Preparation",
+          "pages": [
+            {
+              "title": "Preparation (05 steps)",
+              "pageTitle": "Preparation (05 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "procedure-resource",
+              "keyID": "preparation",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Read through the activities."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Obtain all materials."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Clean and sanitize your work area."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Shred the filter paper, or cut it into small pieces."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Use scissors or a utility knife to cut off the top portion of the soda bottle so that the bottle is in the shape of a column. The bottle will act as your <button class='glossary-text'>Winogradsky column</button> (see Figure 4)."
+                  },
+                  {
+                    "type": "Image",
+                    "image": "courses_2023/Env_Sci/580825/580825_Env_Sci_fig_004.svg",
+                    "imgDivWidth": "286px",
+                    "scrollImg": true,
+                    "maxWidth": "355px",
+                    "disc": "Figure 4: A soda bottle with the top portion cut off using scissors",
+                    "altText": "Figure 4: A soda bottle with the top portion cut off using scissors"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Env_Sci_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will collect mud samples from a stream, lake, or pond and build a <button class='glossary-text'>Winogradsky column</button> using a modified 2-liter soda bottle."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Synthesis of Biodiesel (13 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp; Setting Up the Winogradsky Column (13 steps) ",
+              "showPageTitle": true,
+              "waterMark": false,
+              "keyID": "activity1",
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Take the bucket, small container with the lid, and measuring cup to a stream, lake, or pond."
+                  }
+                ],
+
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Go to the edge of the body of water, and collect surface water in the small container. Secure the lid."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "With the measuring cup, dig into the bottom of the mud/sand/substrate beneath the surface of the water to scoop out 8 cups of the solid mixture. Place the mixture in the bucket."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Bring the materials back to your indoor work space for further setup."
+                  }
+                ],
+                [
+                  { 
+                    "type": "Box", 
+                    "text": "<div style='display:flex;flex-direction:column'><img style='margin-right:5px;' width='390px'src='./images/core/Key_PPE.svg' title='goggles symbol, gloves symbol, apron symbol' alt='image goggles symbol, gloves symbol, apron symbol'><div><br>Make sure to wear PPE for this part of the procedure.</span></div></div>" 
+                  },
+                  
+                  {
+                    "type": "Plain",
+                    "text": "Place half the mud (4 cups) into the bowl, and mix the shredded filter paper, calcium sulfate, and calcium carbonate into the mud using your <b>gloved</b> hands."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Pack down the mud in the cut soda bottle (the <button class='glossary-text'>Winogradsky column</button>), filling approximately one-third of the bottle. With a marker, make a small mark on the soda bottle at the top of this layer."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Add the remaining 4 cups of mud (that is not supplemented with any extra compounds) to the column, and pack it down so that the column is filled to approximately 5 cm from the top."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Next, pour some of the water from the small container into the column, leaving approximately 2 cm of room at the top. Let the mixture settle for 30 minutes. If there is less than 2 cm of room at the top of the bottle after 30 minutes, pour off the excess water. If there is more than 2 cm of room, add more water to reach this depth.",
+                    "image": "core/Clock.svg",
+                    "desc": "stopwatch symbol",
+                    "altText": "stopwatch symbol",
+                    "imgWidth": "4.5%"
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Cover the top of the column with aluminum foil or plastic wrap, and secure it with a rubber band."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Set the Winogradsky column in front of a window."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Label the side of the column that faces the window “Light” and the side that faces away from the window “Dark.” If sunlight hits the column on both sides, cover one side with aluminum foil to ensure its full darkness."
+                  }
+                ],
+                [
+                  {
+                    "type": "Plain",
+                    "text": "Record observations of the column for Day 1 in <b>Data Table 1</b>. Propose a hypothesis for what will happen over time in the Winogradsky column on the light vs. dark sides."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Allow the Winogradsky column to sit undisturbed at the window for 8 weeks.",
+                    "image": "core/Clock.svg",
+                    "desc": "stopwatch symbol",
+                    "altText": "stopwatch symbol",
+                    "imgWidth": "4.5%"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Env_Sci_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will observe the column you set up in Activity 1 on a weekly basis for 8 weeks. You will record evidence of bacterial succession based on the descriptions and colors of possible microbial species and their respiration processes described in the Background section."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "Testing for Quality (02 steps)",
+              "pageTitle": "<div className=order-list-text>A</div>&nbsp; Observing the Winogradsky Column Over Time (02 steps)",
+              "showPageTitle": true,
+              "waterMark": true,
+              "keyID": "activity2",
+              "infoPopUp": "procedure",
+              "template": "ActivityAndPreparation",
+              "pageData": [
+                [
+                  {
+                    "type": "Plain",
+                    "text": "In <span className='bodyFontBold'>Data Table 1</span>, record observations of the column on a weekly basis and predict possible organisms present based on the respiration processes that may be occurring (due to the colors that are present over time)."
+                  }
+                ],
+                [
+                  {
+                    "type": "PlainImage",
+                    "text": "Take a photograph of the light side of the column and the dark side during each weekly observation.",
+                    "image": "core/Camera-icon.svg",
+                    "desc": "camera symbol",
+                    "altText": "camera symbol",
+                    "imgWidth": "4.5%"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disposal and Cleanup",
+      "menuIcon": "core/disposalAndCleanupIcon.svg",
+      "pages": [
+        {
+          "title": "Disposal and Cleanup",
+          "pages": [
+            {
+              "title": "Disposal and Cleanup ",
+              "pageTitle": "Disposal and Cleanup ",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "DisposalAndCleanup",
+              "pageData": [
+                
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                    "hideTextNumber": true,
+                    "style": {
+                      "marginBottom": "-6px",
+                      "marginLeft": "-38px"
+                      
+                    },
+                  "text": [
+                    "<ol start='1'><li>Dispose of the contents of the <button class='glossary-text'>Winogradsky column</button> in the household trash.</li></ol>"
+                  ]
+                },
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                    "hideTextNumber": true,
+                    "style": {
+                      "marginBottom": "-6px",
+                      "marginLeft": "-38px"
+                      
+                    },
+                  "text": [
+                    "<ol start='2'><li>Return the marker and ruler to the equipment kit.</li></ol>"
+                  ]
+                },
+                {
+                  "type": "List",
+                  "listType": "ordered",
+                    "hideTextNumber": true,
+                    "style": {
+                      "marginBottom": "-6px",
+                      "marginLeft": "-38px"
+                      
+                    },
+                  "text": [
+                    "<ol start='3'><li>Clean and sanitize the work space.</li></ol>"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Env_Sci_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMrgin":"auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "courses/580825/logo.png",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "altText": "Carolina Distance Learning Logo",
+      "pageSetting": "Landscape"
+   
+    },
+    "pages": 
+    [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable0",
+            "tag": "div",
+            "width": "80%",
+            "pageData": [
+              
+              {
+                "type": "Plain",
+                "title": "Data Table 1"
+              },
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "header": [
+                  {
+                    "text": "Day/Week",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Description of Location",
+                    "colWidth": "13%"
+                  },
+                  {
+                    "text": "Colors",
+                    "colWidth": "16%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Possible Organisms (if applicable)",
+                    "colWidth": "15%",
+                    "maxLength": 100
+                  },
+                  {
+                    "text": "Respiration Type",
+                    "colWidth": "15%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Comments/Notes",
+                    "colWidth": "15%",
+                    "maxLength": 200
+                   
+                  }
+                ],
+
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Example",
+                      "rowHeight":"40px",
+                      "rowspan":6
+                    },
+
+                    {
+                      "type": "text",
+                      "text": "Dark bottom",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Black"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Clostridium"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Anaerobic"
+                    },
+                    {
+                      "type": "text",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light bottom",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Black"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Clostridium"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Anaerobic"
+                    },
+                    {
+                      "type": "text",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Dark middle",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "text",
+                      "text": "None"
+                    },
+                    {
+                      "type": "text",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light middle",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "text",
+                      "text": "None"
+                    },
+                    {
+                      "type": "text",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Dark top",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "text",
+                      "text": "None"
+                    },
+                    {
+                      "type": "text",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light top",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "text",
+                      "text": "None"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Crustaceans"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Aerobic"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Small specks in water column"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Day 1",
+                      "rowspan":6,
+                      "rowHeight":"40px"
+                    },
+
+                    {
+                      "type": "text",
+                      "text": "Dark bottom",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light bottom",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Dark middle",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light middle",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Dark top",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light top",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "dataTable1",
+            "tag": "div",
+            "width": "80%",
+            "pageData": [
+              
+              {
+                "type": "Plain",
+                "title": "Data Table 1 continued"
+              },
+              {
+                "type": "DataTable",
+                "sr":0,
+                "tableHeight": "1.5",
+                "header": [
+                  {
+                    "text": "Day/Week",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Description of Location",
+                    "colWidth": "13%"
+                  },
+                  {
+                    "text": "Colors",
+                    "colWidth": "16%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Possible Organisms (if applicable)",
+                    "colWidth": "15%",
+                    "maxLength": 100
+                  },
+                  {
+                    "text": "Respiration Type",
+                    "colWidth": "15%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Comments/Notes",
+                    "colWidth": "15%",
+                    "maxLength": 200
+                   
+                  }
+                ],
+
+                "tableData": [
+                  
+                  [
+                    {
+                      "type": "text",
+                      "text": "Week 1",
+                      "rowspan":6,
+                      "rowHeight":"40px"
+                    },
+
+                    {
+                      "type": "text",
+                      "text": "Dark bottom",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light bottom",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Dark middle",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light middle",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Dark top",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light top",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "dataTable2",
+            "tag": "div",
+            "width": "80%",
+            "pageData": [
+              
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "sr":1,
+                "maxLength": 10,
+                "header": [
+                  {
+                    "text": "Day/Week",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Description of Location",
+                    "colWidth": "13%"
+                  },
+                  {
+                    "text": "Colors",
+                    "colWidth": "16%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Possible Organisms (if applicable)",
+                    "colWidth": "15%",
+                    "maxLength": 100
+                  },
+                  {
+                    "text": "Respiration Type",
+                    "colWidth": "15%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Comments/Notes",
+                    "colWidth": "15%",
+                    "maxLength": 200
+                   
+                  }
+                ],
+
+                "tableData":  [
+                  
+                  [
+                    {
+                      "type": "text",
+                      "text": "Week 2",
+                      "rowspan":6,
+                      "rowHeight":"40px"
+                    },
+
+                    {
+                      "type": "text",
+                      "text": "Dark bottom",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light bottom",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Dark middle",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light middle",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Dark top",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light top",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "dataTable3",
+            "tag": "div",
+            "width": "80%",
+            "pageData": [
+              
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "sr":2,
+                "maxLength": 10,
+                "header": [
+                  {
+                    "text": "Day/Week",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Description of Location",
+                    "colWidth": "13%"
+                  },
+                  {
+                    "text": "Colors",
+                    "colWidth": "16%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Possible Organisms (if applicable)",
+                    "colWidth": "15%",
+                    "maxLength": 100
+                  },
+                  {
+                    "text": "Respiration Type",
+                    "colWidth": "15%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Comments/Notes",
+                    "colWidth": "15%",
+                    "maxLength": 200
+                   
+                  }
+                ],
+
+                "tableData":  [
+                  
+                  [
+                    {
+                      "type": "text",
+                      "text": "Week 3",
+                      "rowspan":6,
+                      "rowHeight":"40px"
+                    },
+
+                    {
+                      "type": "text",
+                      "text": "Dark bottom",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light bottom",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Dark middle",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light middle",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Dark top",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light top",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "dataTable4",
+            "tag": "div",
+            "width": "80%",
+            "pageData": [
+              
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "sr":3,
+                "maxLength": 10,
+                "header": [
+                  {
+                    "text": "Day/Week",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Description of Location",
+                    "colWidth": "13%"
+                  },
+                  {
+                    "text": "Colors",
+                    "colWidth": "16%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Possible Organisms (if applicable)",
+                    "colWidth": "15%",
+                    "maxLength": 100
+                  },
+                  {
+                    "text": "Respiration Type",
+                    "colWidth": "15%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Comments/Notes",
+                    "colWidth": "15%",
+                    "maxLength": 200
+                   
+                  }
+                ],
+
+                "tableData":  [
+                  
+                  [
+                    {
+                      "type": "text",
+                      "text": "Week 4",
+                      "rowspan":6,
+                      "rowHeight":"40px"
+                    },
+
+                    {
+                      "type": "text",
+                      "text": "Dark bottom",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light bottom",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Dark middle",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light middle",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Dark top",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light top",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "dataTable5",
+            "tag": "div",
+            "width": "80%",
+            "pageData": [
+              
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "sr":4,
+                "maxLength": 10,
+                "header": [
+                  {
+                    "text": "Day/Week",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Description of Location",
+                    "colWidth": "13%"
+                  },
+                  {
+                    "text": "Colors",
+                    "colWidth": "16%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Possible Organisms (if applicable)",
+                    "colWidth": "15%",
+                    "maxLength": 100
+                  },
+                  {
+                    "text": "Respiration Type",
+                    "colWidth": "15%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Comments/Notes",
+                    "colWidth": "15%",
+                    "maxLength": 200
+                   
+                  }
+                ],
+
+                "tableData":  [
+                  
+                  [
+                    {
+                      "type": "text",
+                      "text": "Week 5",
+                      "rowspan":6,
+                      "rowHeight":"40px"
+                    },
+
+                    {
+                      "type": "text",
+                      "text": "Dark bottom",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light bottom",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Dark middle",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light middle",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Dark top",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light top",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "dataTable6",
+            "tag": "div",
+            "width": "80%",
+            "pageData": [
+              
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "sr":5,
+                "maxLength": 10,
+                "header": [
+                  {
+                    "text": "Day/Week",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Description of Location",
+                    "colWidth": "13%"
+                  },
+                  {
+                    "text": "Colors",
+                    "colWidth": "16%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Possible Organisms (if applicable)",
+                    "colWidth": "15%",
+                    "maxLength": 100
+                  },
+                  {
+                    "text": "Respiration Type",
+                    "colWidth": "15%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Comments/Notes",
+                    "colWidth": "15%",
+                    "maxLength": 200
+                   
+                  }
+                ],
+
+                "tableData":  [
+                  
+                  [
+                    {
+                      "type": "text",
+                      "text": "Week 6",
+                      "rowspan":6,
+                      "rowHeight":"40px"
+                    },
+
+                    {
+                      "type": "text",
+                      "text": "Dark bottom",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light bottom",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Dark middle",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light middle",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Dark top",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light top",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "dataTable7",
+            "tag": "div",
+            "width": "80%",
+            "pageData": [
+              
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "sr":6,
+                "maxLength": 10,
+                "header": [
+                  {
+                    "text": "Day/Week",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Description of Location",
+                    "colWidth": "13%"
+                  },
+                  {
+                    "text": "Colors",
+                    "colWidth": "16%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Possible Organisms (if applicable)",
+                    "colWidth": "15%",
+                    "maxLength": 100
+                  },
+                  {
+                    "text": "Respiration Type",
+                    "colWidth": "15%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Comments/Notes",
+                    "colWidth": "15%",
+                    "maxLength": 200
+                   
+                  }
+                ],
+
+                "tableData": [
+                  
+                  [
+                    {
+                      "type": "text",
+                      "text": "Week 7",
+                      "rowspan":6,
+                      "rowHeight":"40px"
+                    },
+
+                    {
+                      "type": "text",
+                      "text": "Dark bottom",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light bottom",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Dark middle",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light middle",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Dark top",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light top",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "dataTable8",
+            "tag": "div",
+            "width": "80%",
+            "pageData": [
+              
+              {
+                "type": "DataTable",
+                "tableHeight": "1.5",
+                "sr":7,
+                "maxLength": 10,
+                "header": [
+                  {
+                    "text": "Day/Week",
+                    "colWidth": "15%"
+                  },
+                  {
+                    "text": "Description of Location",
+                    "colWidth": "13%"
+                  },
+                  {
+                    "text": "Colors",
+                    "colWidth": "16%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Possible Organisms (if applicable)",
+                    "colWidth": "15%",
+                    "maxLength": 100
+                  },
+                  {
+                    "text": "Respiration Type",
+                    "colWidth": "15%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Comments/Notes",
+                    "colWidth": "15%",
+                    "maxLength": 200
+                   
+                  }
+                ],
+
+                "tableData":  [
+                  
+                  [
+                    {
+                      "type": "text",
+                      "text": "Week 8",
+                      "rowspan":6,
+                      "rowHeight":"40px"
+                    },
+
+                    {
+                      "type": "text",
+                      "text": "Dark bottom",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light bottom",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Dark middle",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light middle",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Dark top",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ],
+                  [
+                    
+                    {
+                      "type": "text",
+                      "text": "Light top",
+                      "rowHeight":"40px"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 10
+                    },
+                    {
+                      "type": "input",
+                      "text": "",
+                      "maxLength": 200
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Photo1",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2 Step 2 Photos - Week 1 "
+              },
+              {
+                "type": "Plain",
+                "text": "Insert the photos of the light and dark side of the column in Week 1."
+              },
+              {
+                "type": "Plain",
+                "subTitle": "Week 1 – Light Side"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Photo2",
+            "width":"55%",
+            "pageData": [
+              
+              
+              {
+                "type": "Plain",
+                "subTitle": "Week 1 – Dark Side"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Photo3",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2 Step 2 Photos - Week 2  "
+              },
+              {
+                "type": "Plain",
+                "text": "Insert the photos of the light and dark side of the column in Week 2."
+              },
+              {
+                "type": "Plain",
+                "subTitle": "Week 2 – Light Side"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Photo4",
+            "width":"55%",
+            "pageData": [
+              
+              
+              {
+                "type": "Plain",
+                "subTitle": "Week 2 – Dark Side"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Photo5",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2 Step 2 Photos - Week 3  "
+              },
+              {
+                "type": "Plain",
+                "text": "Insert the photos of the light and dark side of the column in Week 2."
+              },
+              {
+                "type": "Plain",
+                "subTitle": "Week 3 – Light Side"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Photo6",
+            "width":"55%",
+            "pageData": [
+              
+              
+              {
+                "type": "Plain",
+                "subTitle": "Week 3 – Dark Side"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Photo7",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2 Step 2 Photos - Week 4"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert the photos of the light and dark side of the column in Week 2."
+              },
+              {
+                "type": "Plain",
+                "subTitle": "Week 4 – Light Side"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Photo8",
+            "width":"55%",
+            "pageData": [
+              
+              
+              {
+                "type": "Plain",
+                "subTitle": "Week 4 – Dark Side"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Photo9",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2 Step 2 Photos - Week 5 "
+              },
+              {
+                "type": "Plain",
+                "text": "Insert the photos of the light and dark side of the column in Week 2."
+              },
+              {
+                "type": "Plain",
+                "subTitle": "Week 5 – Light Side"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Photo10",
+            "width":"55%",
+            "pageData": [
+              
+              
+              {
+                "type": "Plain",
+                "subTitle": "Week 5 – Dark Side"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Photo11",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2 Step 2 Photos - Week 6"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert the photos of the light and dark side of the column in Week 2."
+              },
+              {
+                "type": "Plain",
+                "subTitle": "Week 6 – Light Side"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Photo12",
+            "width":"55%",
+            "pageData": [
+              
+              
+              {
+                "type": "Plain",
+                "subTitle": "Week 6 – Dark Side"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Photo13",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2 Step 2 Photos - Week 7 "
+              },
+              {
+                "type": "Plain",
+                "text": "Insert the photos of the light and dark side of the column in Week 2."
+              },
+              {
+                "type": "Plain",
+                "subTitle": "Week 7 – Light Side"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Photo14",
+            "width":"55%",
+            "pageData": [
+              
+              
+              {
+                "type": "Plain",
+                "subTitle": "Week 7 – Dark Side"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Photo15",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2 Step 2 Photos - Week 8"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert the photos of the light and dark side of the column in Week 2."
+              },
+              {
+                "type": "Plain",
+                "subTitle": "Week 8 – Light Side"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Photo16",
+            "width":"55%",
+            "pageData": [
+              
+              
+              {
+                "type": "Plain",
+                "subTitle": "Week 8 – Dark Side"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Questions",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question1",
+            "tag": "div",
+            "width": "65%",
+            "pageData": [
+               
+              
+              {
+                "type":"Plain",
+                "title":"Questions"
+              },
+              
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "start": "1",
+                "text": ["How has your Winogradsky column changed over the past 8 weeks? Mention any changes in color, scent, mud volume, or water clarity characteristics. Also, was your hypothesis regarding the comparison of the light and dark sides correct? Explain."]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "tag": "div",
+            "width": "65%",
+            "pageData": [
+               
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "start": "2",
+                "text": ["How is ecological succession displayed in the Winogradsky column? What makes the ability of some microbes to thrive in aerobic AND anaerobic conditions so crucial in any ecosystem? "]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 1,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question3",
+            "tag": "div",
+            "width": "65%",
+            "pageData": [
+             
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "start": "3",
+                "text": ["Real-life application – When running a particular experiment, do all scientists get the same results?  For example, when constructing a Winogradsky column in different areas of the world, mud and water from different sources are used.  How would the source of the sample affect the experiment, and how do scientists ensure that their own results are accurate?  "]
+              },
+              {
+                "type": "Questions",
+                "id": "Question3",
+                "sr": 2,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+
+    "pageData": [
+      {
+        "type": "Videos",
+        "thumbnailSrc": "core/Video_icon.svg",
+        "src": "https://players.brightcove.net/17907428001/HJ2y9UNi_default/index.html?videoId=6336985780112",
+        "content": "Investigation Overview"
+      },
+      {
+        "type": "Images",
+        "desc": "The chemical formula for methoxide synthesis",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Env_Sci/580825/580825_Env_Sci_fig_001.svg",
+        "scrollImg": true,
+        "maxWidth": "615px",
+        "content": "Figure 1. Formula for aerobic respiration",
+        "altText": "Figure 1: The chemical equation for aerobic respiration in which the oxidation of glucose sugar produces carbon dioxide and the reduction of oxygen produces water."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Env_Sci/580825/580825_Env_Sci_fig_002.svg",
+        "content": "Figure 2. Biogeochemical cycling of nitrogen",
+        "scrollImg": true,
+        "maxWidth": "615px",
+        "altText": "Figure 2: An illustration of the nitrogen cycle showing the processes of fixation, ammonification, nitrification, assimilation, and denitrification. "
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Env_Sci/580825/580825_Env_Sci_fig_003.svg",
+        "content": "Figure 3. Winogradsky column diagram ",
+        "scrollImg": true,
+        "maxWidth": "395px",
+        "altText": "Figure 3: A Winogradsky column with five layers of microbial growth. The bottom to top, the layers contain sulfate-reducing bacteria, green photosynthetic bacteria, purple photosynthetic bacteria, non-sulfur photosynthetic bacteria, and cyanobacteria and algae. The levels of oxygen increase as you move up the column and the levels of hydrogen sulfide increase as you move down the column."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Env_Sci/580825/580825_Env_Sci_ED_001.svg",
+        "content": "Experimental Design Diagram",
+        "scrollImg": true,
+        "maxWidth": "1656px",
+        "altText": "A map of the procedural workflow of this investigation. To prepare, you will shred the filter paper and cut the top off a 2-liter bottle. In activity 1, you will collect surface water and substrate from an environmental water source. Then, you will add the microbe energy source material to half the substrate and layer it at the bottom of the bottle. Next, you will layer the unaltered substrate over the substrate mixture. Then you will add the surface sample water to the bottle and cover the top of the assembled Winogradsky column. In activity 2, you will leave the column undisturbed in a window and record your observations once a week for 8 weeks."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Env_Sci/580825/580825_Env_Sci_fig_004.svg",
+        "content": "Figure 4. Soda bottle preparation",
+        "scrollImg": true,
+        "maxWidth": "355px",
+        "altText": "Figure 4: A soda bottle with the top portion cut off using scissors"
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Aerobic",
+        "content": "Describes cellular respiration requiring oxygen as the final electron acceptor"
+      },
+      {
+        "title": "Anaerobic",
+        "content": "Describes cellular respiration that does not require oxygen, but rather organic or inorganic molecules, as the final electron acceptor"
+      },
+      {
+        "title": "Biogeochemical cycling",
+        "content": "Any of the natural pathways by which essential elements of living matter are circulated"
+      },
+      {
+        "title": "Decompose",
+        "content": "To break down into component elements or simpler constituents"
+      },
+      {
+        "title": "Ecological succession",
+        "content": "The change in the species structure of an ecosystem over time"
+      },
+      {
+        "title": "Microorganism",
+        "content": "A broad term used to describe an organism belonging to a diverse group of organisms and infectious particles too small to be seen with the unaided eye"
+      },
+      {
+        "title": "Natural selection",
+        "content": "The process in which organisms better adapted to their environment tend to survive and produce more offspring"
+      },
+      {
+        "title": "Niche",
+        "content": "The specific role of a species in its environment"
+      },
+      {
+        "title": "Organic material",
+        "content": "Compounds that come from the remains or waste of organisms such as plants and animals"
+      },
+      {
+        "title": "Prokaryote",
+        "content": "A single-celled organism lacking membrane-bound organelles"
+      },
+      {
+        "title": "Winogradsky column",
+        "content": "A miniature ecosystem model comprised of mud and additional variables in order to study ecological succession amongst microbes"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

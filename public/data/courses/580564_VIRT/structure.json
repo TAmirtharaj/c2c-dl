@@ -1,0 +1,2926 @@
+{
+  "locked": true,
+  "courseTitle": "Introduction to Histology Virtual Lab",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/bodyBookmark.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Anatomy_Physiology_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Anatomy & Physiology",
+                "images": {
+                  "logo": "core/Anatomy_Physiology_subject_icon.svg"
+                },
+                "titleName2": "Introduction to Histology Virtual Lab",
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "waterMark": true,
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, you will learn the features and functions of the four main tissue types of the human body – <button class='glossary-text'>epithelial</button>, <button class='glossary-text'>connective</button>, <button class='glossary-text'>muscle</button>, and <button class='glossary-text'>nervous tissue</button>. You will also learn the basics of microscopy. Then, you will examine several examples of human tissue using a virtual microscope."
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses/580564_VIRT/580564_VIRT_TimeRequirement.svg",
+                  "width": "100%",
+                  "imgDivWidth": "300px",
+                  "maxWidth": "320px",
+                  "scrollImg": true,
+                  "altText": "Activity 1: Microscope Tutorial – 15 minutes\nActivity 2: Observing Different Tissue Types – 60 minutes",
+                  "desc": "Activity 1: Microscope Tutorial – 15 minutes\nActivity 2: Observing Different Tissue Types – 60 minutes"
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "title": "Needed but not supplied:",
+                  "text": [
+                    "Paper",
+                    "Colored pencils",
+                    "Digital camera or mobile device capable of taking photos"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "title": "Outcomes",
+                  "type": "List",
+                  "text": [
+                    "Identify the parts of a compound microscope and describe their functions.",
+                    "Calculate total magnification.",
+                    "Explain the significance of <button class='glossary-text'>resolution</button> and <button class='glossary-text'>depth of field</button>.",
+                    "Describe proper use and care of the microscope.",
+                    "List, compare, and contrast the four major tissue types.",
+                    "Identify the different types of <button class='glossary-text'>epithelial</button>, <button class='glossary-text'>connective</button>,  <button class='glossary-text'>muscle</button>, and <button class='glossary-text'>nervous tissues</button>.",
+                    "Describe the functions of the different types of epithelial, connective, muscle, and nervous tissues."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "17th century Italian biologist and physician, Marcello Malpighi, is referred to as the founder of microscopical anatomy and histology. Malpighi used microscopes to first study the respiratory mechanisms of insects. He then studied frogs, sheep, and other mammals, including humans; he noticed capillary structures and described a complex network of how <button class='glossary-text'>blood</button> and oxygen moved through the body. This network is now referred to as a closed circulatory system, rather than an open circulatory system in which blood comes from the liver or spleen and pools in open spaces in the body."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Although the exact mechanism is not fully understood, researchers have recently identified that lung macrophages originate in the liver (the cells of which are shown here). Macrophages are an important component of the immune system, especially in the lungs where they fight viruses, bacteria, and fungi that are inhaled. Lung macrophages start from precursor cells in a fetus' liver. Once an infant takes its first breath, these cells migrate to the lungs and are stimulated to become macrophages. Later in life, these macrophages become monocytes and are also found in the blood<sup class='bodySupscript'>1</sup>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'><sup class='bodySupscript'>1</sup>Evren, E., Ringqvist, E., Doisne, J., Thaller, A., Sleiers, N., Flavell, R.A., Di Santo, J.P., & Willinger, T. (2022). CD116 fetal precursors migrate to the perinatal lung and give rise to human alveolar macrophages. <span class='bodyFontItalic'>Journal of Experimental Medicine</span>. 219 (2) DOI: 10.1084/jem.20210987</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580564_VIRT/580564_VIRT_whyShouldICare.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "desc": "A micrograph cross section of liver tissue.",
+                  "altText": "A micrograph cross section of liver tissue."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle":"Histology: The Study of Tissues",
+                  "text": "Tissues are groups of specialized cells that work together for a common function. In humans, combinations of different types of tissues make up organs, and groups of organs function together in organ systems. For example, the digestive system is made up of many organs, including the esophagus, stomach, small intestine, and large intestine. Each of these organs is made up of different types of tissue."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The four main types of tissue are epithelial, muscle, nervous, and connective. Each tissue has unique functions, and each occurs to some extent in most organs."
+                },
+                {
+                  "type": "List",
+                  "text": [
+                    "<button class='glossary-text'>Epithelial tissue</button> covers the outside of the body and lines the organs and cavities within the body. This tissue type often serves as a barrier.",
+                    "<button class='glossary-text'>Muscle tissue</button> is made up of cells capable of contracting when stimulated by the nervous system. Muscle tissue brings about body movement and controls organ size and shape."
+                  ]
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "text": [
+                    "<button class='glossary-text'>Nervous tissue</button> senses stimuli and carries impulses to centers where they can be processed and a response can be formed. Nervous tissue makes up the <button class='glossary-text'>nerves</button>, spinal cord, and brain.",
+                    "<button class='glossary-text'>Connective tissues</button> are a diverse group of tissues that link and support other tissues. Connective tissue cells usually secrete a nonliving material, an <span class=bodyFontBold>extracellular matrix</span> <button class='glossary-text'>(ECM)</button>, that actually performs the functions of support and connection."
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "subTitle":"Epithelial Tissue",
+                  "text": "Epithelial tissues, also known as epithelia, are composed of cells tightly arranged into sheets. Epithelia usually function as barriers to protect against mechanical injuries, fluid loss, and microorganisms."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Epithelial tissues can be subdivided depending on the number of cell layers present. <button class='glossary-text'>Simple epithelium</button> consists of only one layer of epithelial cells, while <button class='glossary-text'>stratified epithelium</button> consists of two or more layers of cells."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Epithelia can then be classified based on cell shape and number of cell layers. <button class='glossary-text'>Squamous epithelium</button> is composed of cells that have a flattened shape like tiles. <button class='glossary-text'>Cuboidal epithelium</button> is composed of cells that are cube shaped. When viewed from one side (as one does with a microscope), cuboidal cells appear to be square. <button class='glossary-text'>Columnar epithelium</button> is composed of cells that have an elongated shape. When viewed from one side, columnar cells appear rectangular."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Most <button class='glossary-text'>epithelial tissues</button> are classified by both the predominant cell shape and the number of layers, as summarized in Figure 1. For example, <button class='glossary-text'>simple cuboidal epithelium</button> (see Figure 2) consists of a single layer of cube-shaped cells. This type of epithelium is found in the lining of small ducts and tubules, such as those of the kidneys. <button class='glossary-text'>Simple columnar epithelium</button> (see <button class='resource-text'>Figure 3</button>) is a single layer of elongated cells. This type of epithelium is found in the lining of the intestine. <button class='glossary-text'>Stratified squamous epithelium</button> (see <button class='resource-text'>Figure 4</button>) is made up of several layers of cells that are roughly cuboidal at the base of the epithelium but go on to become progressively more flattened as they form the surface of the tissue. This type of epithelium makes up the epidermis, the outermost layer of the skin. Figure 4 depicts the epidermis at the surface of the skin and the dermis (a connective tissue layer) underneath."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580564_VIRT/580564_VIRT_fig_001.svg",
+                  "imgDivWidth": "560px",
+                  "maxWidth": "640px",
+                  "scrollImg": true,
+                  "desc": "Figure 1: Drawings of the different types of epithelial tissues based on cell shape and arrangement. Squamous epithelia (left) are composed of flattened cells, cuboidal epithelia (middle) are composed of cube-shaped cells, and columnar epithelia (right) are composed of elongated cells.",
+                  "altText": "Figure 1: Drawings of the different types of epithelial tissues based on cell shape and arrangement. Squamous epithelia (left) are composed of flattened cells, cuboidal epithelia (middle) are composed of cube-shaped cells, and columnar epithelia (right) are composed of elongated cells.",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580564_VIRT/580564_VIRT_fig_002.svg",
+                  "imgDivWidth": "398px",
+                  "maxWidth": "460px",
+                  "scrollImg": true,
+                  "desc": "Figure 2: Photo of simple cuboidal epithelium, taken through a microscope using high magnification. The cells appear to be square in shape. Each cuboidal cell has a prominent, rounded nucleus at its center.",
+                  "altText": "Figure 2: Photo of simple cuboidal epithelium, taken through a microscope using high magnification. The cells appear to be square in shape. Each cuboidal cell has a prominent, rounded nucleus at its center."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "image": "courses/580564_VIRT/580564_VIRT_fig_003.svg",
+                  "imgDivWidth": "288px",
+                  "maxWidth": "325px",
+                  "scrollImg": true,
+                  "desc": "Figure 3: Photo of simple columnar epithelium taken through a microscope using high magnification. The cells appear to be rectangular in shape. The oval-shaped nuclei are all about the same distance from the base of the sheet of epithelium.",
+                  "altText": "Figure 3: Photo of simple columnar epithelium taken through a microscope using high magnification. The cells appear to be rectangular in shape. The oval-shaped nuclei are all about the same distance from the base of the sheet of epithelium."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580564_VIRT/580564_VIRT_fig_004.svg",
+                  "imgDivWidth": "493px",
+                  "maxWidth": "530px",
+                  "scrollImg": true,
+                  "desc": "Figure 4: Photo of stratified squamous epithelium taken through a microscope using low magnification. Layers of epithelial cells become progressively more flattened from the base of the tissue to its surface. Underneath the epithelial tissue is a layer of dense irregular connective tissue, with fibers oriented in many different directions.",
+                  "altText": "Figure 4: Photo of stratified squamous epithelium taken through a microscope using low magnification. Layers of epithelial cells become progressively more flattened from the base of the tissue to its surface. Underneath the epithelial tissue is a layer of dense irregular connective tissue, with fibers oriented in many different directions.",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Pseudostratified columnar epithelium</button> can be challenging to classify. This type of <button class='glossary-text'>epithelial tissue</button> has the appearance of stratified tissue yet consists of a single layer of cells. Unlike <button class='glossary-text'>simple columnar epithelium</button>, in which the cell nuclei are located toward the base of the epithelium, the nuclei of pseudostratified columnar epithelial cells may be near the base, near the surface, or in between, thereby creating the illusion of multiple layers. Pseudostratified columnar epithelium lines much of the respiratory system. When this type of epithelial tissue has cilia on the free surface, it is known as pseudostratified ciliated columnar epithelium (see Figure 5)."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580564_VIRT/580564_VIRT_fig_005.svg",
+                  "imgDivWidth": "405px",
+                  "maxWidth": "430px",
+                  "scrollImg": true,
+                  "desc": "Figure 5: Photo of pseudostratified ciliated columnar epithelium taken with a microscope using high magnification, showing a single layer of columnar cells, with cell shapes distorted due to the presence of nuclei at varying distances from the base of the tissue.",
+                  "altText": "Figure 5: Photo of pseudostratified ciliated columnar epithelium taken with a microscope using high magnification, showing a single layer of columnar cells, with cell shapes distorted due to the presence of nuclei at varying distances from the base of the tissue.",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What do simple cuboidal epithelium and simple columnar epithelium have in common?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Both are a single layer of cells.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Both can be classified as pseudostratified.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Both can be classified as muscle cells.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Both can be found in the kidneys.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Both can be found in the nervous system.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Simple cuboidal epithelium consists of a single layer of cube-shaped cells. Simple columnar epithelium is a single layer of elongated cells."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following describes stratified epithelium?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "It consists of two or more layers of cells.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "It consists of a single layer of cells.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "It consists of complex nerve endings.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "It has the appearance of complex tissue yet consists of a single layer of cells.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "It has a cloud-like appearance.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Simple epithelium consists of only one layer of epithelial cells, while stratified epithelium consists of two or more layers of cells."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Epithelia can then be classified based on cell shape and the number of cell layers. Squamous epithelium is composed of cells that have a flattened shape like tiles. Cuboidal epithelium is composed of cells that are cube shaped. When viewed from one side, cuboidal cells appear square. Columnar epithelium is composed of cells that have an elongated shape. When viewed from one side, a columnar cell appears as rectangular. Most epithelial tissues are classified by both the predominant cell shape and the number of layers.",
+                  "img": [
+                    {
+                      "src": "courses/580564_VIRT/580564_VIRT_fig_001.svg",
+                      "alt": "Figure 1: Drawings of the different types of epithelial tissues based on cell shape and arrangement. Squamous epithelia (left) are composed of flattened cells, cuboidal epithelia (middle) are composed of cube-shaped cells, and columnar epithelia (right) are composed of elongated cells.",
+                      "maxWidth": "632px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "Epithelia can then be classified based on cell shape and the number of cell layers. Squamous epithelium is composed of cells that have a flattened shape like tiles. Cuboidal epithelium is composed of cells that are cube shaped. When viewed from one side, cuboidal cells appear square. Columnar epithelium is composed of cells that have an elongated shape. When viewed from one side, a columnar cell appears as rectangular. Most epithelial tissues are classified by both the predominant cell shape and the number of layers.",
+                  "img": [
+                    {
+                      "src": "courses/580564_VIRT/580564_VIRT_fig_001.svg",
+                      "alt": "Figure 1: Drawings of the different types of epithelial tissues based on cell shape and arrangement. Squamous epithelia (left) are composed of flattened cells, cuboidal epithelia (middle) are composed of cube-shaped cells, and columnar epithelia (right) are composed of elongated cells.",
+                      "maxWidth": "632px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle":"Muscle Tissue",
+                  "text": "<button class='glossary-text'>Muscle tissue</button> consists of long, slender cells referred to as muscle fibers, which are arranged parallel to each other. Its main function is to create movement. There are three types of muscle tissue: <button class='glossary-text'>skeletal</button>, <button class='glossary-text'>cardiac</button>, and <button class='glossary-text'>smooth muscle</button>. Skeletal muscle (see Figure 6) is made up of long, striated (striped) cells that are sometimes called muscle fibers. Skeletal muscle is attached to <button class='glossary-text'>bone</button> and is responsible for voluntary movement. Nuclei are found along the sides of skeletal muscle fibers. A single fiber may contain multiple nuclei."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580564_VIRT/580564_VIRT_fig_006.svg",
+                  "imgDivWidth": "393px",
+                  "maxWidth": "430px",
+                  "scrollImg": true,
+                  "desc": "Figure 6: Photo of skeletal muscle tissue viewed with a microscope using very high magnification. Each cell has clearly defined, alternating dark and light striations, or stripes. There are multiple nuclei per cell; the nuclei are oval and flattened in shape.",
+                  "altText": "Figure 6: Photo of skeletal muscle tissue viewed with a microscope using very high magnification. Each cell has clearly defined, alternating dark and light striations, or stripes. There are multiple nuclei per cell; the nuclei are oval and flattened in shape."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Cardiac muscle</button> (see Figure 7) makes up the wall of the heart and is also striated. However, the striations are often not as pronounced as those of <button class='glossary-text'>skeletal muscle</button>. The fibers are arranged parallel to one another, but individual fibers often split into branches. Each fiber may contain one or two nuclei. The contraction of cardiac muscle is involuntary. The ends of cardiac muscle cells are joined by intercalated disks that contain cell junctions that strengthen the tissue and facilitate the transmission of electrical current needed for coordinated contraction."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580564_VIRT/580564_VIRT_fig_007.svg",
+                  "imgDivWidth": "393px",
+                  "maxWidth": "430px",
+                  "scrollImg": true,
+                  "desc": "Figure 7: Photo of cardiac muscle tissue viewed with a microscope using very high magnification showing fibers parallel to one another but split into branches and containing one or two nuclei",
+                  "altText": "Figure 7: Photo of cardiac muscle tissue viewed with a microscope using very high magnification showing fibers parallel to one another but split into branches and containing one or two nuclei"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Smooth muscle</button> (see Figure 8) is found in the walls of most internal organs and lacks striations. Depending on their location, the smooth muscle cells may be slender and spindle shaped, as in the gastrointestinal tract; short and thick, as in the walls of small arteries; or folded and twisted, as in the walls of large arteries. Individual cells tend to be densely packed and connected to adjacent cells at overlapping regions. This type of muscle contracts more slowly than <button class='glossary-text'>skeletal</button> and <button class='glossary-text'>cardiac muscle</button>. Smooth muscle is responsible for involuntary movements."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580564_VIRT/580564_VIRT_fig_008.svg",
+                  "imgDivWidth": "405px",
+                  "maxWidth": "430px",
+                  "scrollImg": true,
+                  "desc": "Figure 8: Nuclei of smooth muscle cells. These cells show a very elongated fusiform nucleus that contains small nucleoli. The small incisures in the nucleus surface are due to a contraction of the fiber.",
+                  "altText": "Figure 8: Nuclei of smooth muscle cells. These cells show a very elongated fusiform nucleus that contains small nucleoli. The small incisures in the nucleus surface are due to a contraction of the fiber.",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc-resource",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following describes smooth muscle?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "It lacks striation.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "It is attached to bone.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "It is heavily striated.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "It is joined by intercalated disks.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "It moves voluntarily.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Smooth muscle is found in the walls of most internal organs and lacks striations."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following best categorizes the three types of muscle tissue?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Skeletal muscle is voluntary while cardiac and smooth muscle are involuntary.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Skeletal muscle is striated while cardiac and smooth muscle lack striations.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Skeletal and cardiac muscle are lightly striated and smooth muscle is heavily striated.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Skeletal muscle and smooth muscle are multinucleated while cardiac muscle is mononucleated.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Skeletal muscle and smooth muscle are involuntary while cardiac muscle is voluntary.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Skeletal muscle is responsible for voluntary body movements while cardiac and smooth muscle are responsible for the involuntary movements of certain organs."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Muscle tissue consists of long, slender cells referred to as muscle fibers, which are arranged parallel to each other. Its main function is to create movement. There are three types of muscle tissue: skeletal, cardiac, and smooth muscle. Skeletal muscle is attached to bone and is responsible for voluntary movement. In contrast, cardiac muscle, though also striated, moves involuntarily. The ends of cardiac muscle cells are joined by intercalated disks that contain cell junctions that strengthen the tissue and facilitate the transmission of electrical current needed for coordinated contraction. Smooth muscle is also an involuntary muscle type. Smooth muscle cells may be slender, and spindle shaped, as in the gastrointestinal tract; short and thick, as in the walls of small arteries; or folded and twisted, as in the walls of large arteries.",
+                  "img": [
+                    {
+                      "src": "courses/580564_VIRT/580564_VIRT_fig_008.svg",
+                      "alt": "Figure 8: Nuclei of smooth muscle cells. These cells show a very elongated fusiform nucleus that contains small nucleoli. The small incisures in the nucleus surface are due to a contraction of the fiber.",
+                      "maxWidth": "442px"
+                    }
+                  ]
+                },
+                {
+                  "title": "Hint",
+                  "body": "Muscle tissue consists of long, slender cells referred to as muscle fibers, which are arranged parallel to each other. Its main function is to create movement. There are three types of muscle tissue: skeletal, cardiac, and smooth muscle. Skeletal muscle is attached to bone and is responsible for voluntary movement. In contrast, cardiac muscle, though also striated, moves involuntarily. The ends of cardiac muscle cells are joined by intercalated disks that contain cell junctions that strengthen the tissue and facilitate the transmission of electrical current needed for coordinated contraction. Smooth muscle is also an involuntary muscle type. Smooth muscle cells may be slender, and spindle shaped, as in the gastrointestinal tract; short and thick, as in the walls of small arteries; or folded and twisted, as in the walls of large arteries.",
+                  "img": [
+                    {
+                      "src": "courses/580564_VIRT/580564_VIRT_fig_008.svg",
+                      "alt": "Figure 8: Nuclei of smooth muscle cells. These cells show a very elongated fusiform nucleus that contains small nucleoli. The small incisures in the nucleus surface are due to a contraction of the fiber.",
+                      "maxWidth": "442px"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle":"Connective Tissue",
+                  "text": "Connective tissue is present throughout the body and connects, supports, or separates the different tissues or organs. The varieties of connective tissue range from fluid to solid in consistency. However, all <button class='glossary-text'>connective tissues</button> share two major components: the cells themselves and an extracellular material they secrete—the <button class='glossary-text'>ECM</button>. It is the ECM’s makeup that is largely responsible for the properties of the connective tissue. The ECM consists of <button class='glossary-text'>ground substance</button> and fibers. In most connective tissues, the ground substance is mostly water with added polysaccharide and protein molecules for stability. <button class='glossary-text'>Connective tissue fibers</button> consist of protein. Three different connective tissues illustrate the diversity of this major tissue type: <button class='glossary-text'>adipose tissue</button>, <button class='glossary-text'>bone</button>, and <button class='glossary-text'>blood</button>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class=bodyFontBold>Adipose tissue</span> (see Figure 9) is a specialized form of connective tissue that stores fat in <button class='glossary-text'>adipocytes</button>. Adipose tissue protects internal organs, insulates the body, and stores energy as fat molecules. Each adipocyte contains a large lipid-filled vesicle. Adipocytes do not normally reproduce but are long-lived, functioning for many years."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580564_VIRT/580564_VIRT_fig_009.svg",
+                  "imgDivWidth": "393px",
+                  "scrollImg": true,
+                  "maxWidth": "430px",
+                  "desc": "Figure 9: Photo of adipose tissue, viewed with a microscope using high magnification. It resembles Bubble Wrap® packing material, with each cell forming an individual bubble. The interior of each cell is clear and colorless due to the abundance of lipids. The cytoplasm and nucleus of each cell is pushed to the sides, forming a pink ring around the edges of the bubble.",
+                  "altText": "Figure 9: Photo of adipose tissue, viewed with a microscope using high magnification. It resembles Bubble Wrap® packing material, with each cell forming an individual bubble. The interior of each cell is clear and colorless due to the abundance of lipids. The cytoplasm and nucleus of each cell is pushed to the sides, forming a pink ring around the edges of the bubble."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Bone</button> is a specialized type of dense connective tissue with a <button class='glossary-text'>ground substance</button> containing mineral salts, such as calcium phosphate, and fibers made up of the protein collagen. The minerals give bone its hardness, while the collagen fibers give it strength and resiliency. Bone supports the body, protects internal organs, provides for muscle attachment, and serves as a calcium reservoir.<span class=bodyParaLineBreak>There are two main types of bone tissue: <button class='glossary-text'>compact bone</button> and <button class='glossary-text'>spongy bone</button>. Compact bone is the harder, denser bone type and forms the “shell” of most bones. Spongy bone is softer and less dense, and tends to fill the “shells” of compact bone.</span><span class=bodyParaLineBreak>Compact bone consists of repeating units called <button class='glossary-text'>osteons</button> (see Figure 10). Each osteon consists of concentric layers of mineralized <button class='glossary-text'>ECM</button>, known as <button class='glossary-text'>lamellae</button> (singular, <span class='bodyFontItalic'>lamella</span>), deposited around a <button class='glossary-text'>central canal</button>. This canal contains <button class='glossary-text'>blood</button> vessels and <button class='glossary-text'>nerves</button> that serve the bone cells. Bone-forming cells, called <button class='glossary-text'>osteoblasts</button>, deposit the ECM around the central canal. Osteoblasts secrete the ECM and ultimately surround themselves with the mineralized material, forming pockets called <button class='glossary-text'>lacunae</button> (singular, <span class='bodyFontItalic'>lacuna</span>). Once osteoblasts are surrounded by the ECM, the cells are called <button class='glossary-text'>osteocytes</button>. Narrow connections called <button class='glossary-text'>canaliculi</button> (singular, <span class='bodyFontItalic'>canaliculus</span>) extend from lacunae and connect osteocytes to each other and to the central canal.</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580564_VIRT/580564_VIRT_fig_010.svg",
+                  "imgDivWidth": "405px",
+                  "maxWidth": "430px",
+                  "scrollImg": true,
+                  "desc": "Figure 10: Photo of compact bone tissue viewed under a microscope using high magnification. Parts of several osteons are visible, with an entire example in the center of the photo. It appears as a series of dark concentric circles against a pale background. The circles are the concentric lamellae. Between each of the lamellae are dark, roughly ovoid spaces called lacunae. Each lacuna has tiny crevices radiating from it called canaliculi. A large, dark, circular space, which is the central canal, is at the center of the osteon.",
+                  "altText": "Figure 10: Photo of compact bone tissue viewed under a microscope using high magnification. Parts of several osteons are visible, with an entire example in the center of the photo. It appears as a series of dark concentric circles against a pale background. The circles are the concentric lamellae. Between each of the lamellae are dark, roughly ovoid spaces called lacunae. Each lacuna has tiny crevices radiating from it called canaliculi. A large, dark, circular space, which is the central canal, is at the center of the osteon.",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Blood</button> (see Figure 11) is a connective tissue with a liquid <button class='glossary-text'>ECM</button>, called <button class='glossary-text'>plasma</button>, which is made up of water, salts, nutrients, and an assortment of dissolved proteins. Suspended in the plasma are two types of cells—<button class='glossary-text'>erythrocytes</button> (red blood cells) and <button class='glossary-text'>leukocytes</button> (white blood cells)—as well as cell fragments called <button class='glossary-text'>platelets</button>."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Erythrocytes in mammals are biconcave disks that lack a nucleus and contain the protein molecule hemoglobin, which gives blood its red color and binds to oxygen, thus enabling red blood cells to transport oxygen to all the cells of the body. The main function of leukocytes is to protect the body against certain types of disease, particularly microbial infection. Platelets are tiny cell fragments produced and released by specialized cells in the <button class='glossary-text'>bone</button> marrow. Platelets function in blood clotting."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580564_VIRT/580564_VIRT_fig_011.svg",
+                  "imgDivWidth": "387px",
+                  "maxWidth": "410px",
+                  "scrollImg": true,
+                  "desc": "Figure 11: Photo of blood taken with a microscope using high magnification. Erythrocytes are the most abundant cell type. When viewed from above, an erythrocyte appears as a pink disk with a central indentation and no cell nucleus. Three leukocytes are present. They are larger than the erythrocytes, and each has a large, dark nucleus. Two leukocytes have a light-pink cytoplasm, and the other has a dark-purple cytoplasm. A few platelets are scattered among the blood cells. Each appears as a tiny pink spot.",
+                  "altText": "Figure 11: Photo of blood taken with a microscope using high magnification. Erythrocytes are the most abundant cell type. When viewed from above, an erythrocyte appears as a pink disk with a central indentation and no cell nucleus. Three leukocytes are present. They are larger than the erythrocytes, and each has a large, dark nucleus. Two leukocytes have a light-pink cytoplasm, and the other has a dark-purple cytoplasm. A few platelets are scattered among the blood cells. Each appears as a tiny pink spot."
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 3",
+              "pageTitle": "Knowledge Check Question 3",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 2,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "What is adipose tissue?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "A specialized connective tissue that stores fat.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The minerals that give bone its hardness.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "The harder, denser bone type that covers most bones.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "A connective tissue type with a liquid extracellular matrix (ECM).",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "The site of connective tissue cell maturation.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Adipose tissue is a specialized form of connective tissue that stores fat in adipocytes."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following best describes the function of connective tissues, despite its diversity?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "They connect, support, or separate tissues and organs.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "They flow through vessels or ducts throughout the body.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "They are made up of an extracellular matrix lacking ground substance.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "They serve as a covering for internal organs.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "They transport nutrients and waste between organ systems.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Although very different in structure and appearance, connective tissues are unified by a common function. They connect, support or separate the different tissues or organs of the body."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Three different connective tissues illustrate the diversity of this major tissue type: adipose tissue, bone, and blood. Adipose tissue protects internal organs, insulates the body, and stores energy as fat molecules. Each adipocyte contains a large lipid-filled vesicle. Bone is a specialized type of dense connective tissue with a ground substance containing mineral salts, such as calcium phosphate, and fibers made up of the protein collagen. The minerals give bone its hardness, while the collagen fibers give it strength and resiliency. Bone supports the body, protects internal organs, provides for muscle attachment, and serves as a calcium reservoir. Blood is a connective tissue with a liquid ECM, called plasma, which is made up of water, salts, nutrients, and an assortment of dissolved proteins. The cells suspended in the plasma serve to transport oxygen to cells and protect the body against certain types of disease."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Three different connective tissues illustrate the diversity of this major tissue type: adipose tissue, bone, and blood. Adipose tissue protects internal organs, insulates the body, and stores energy as fat molecules. Each adipocyte contains a large lipid-filled vesicle. Bone is a specialized type of dense connective tissue with a ground substance containing mineral salts, such as calcium phosphate, and fibers made up of the protein collagen. The minerals give bone its hardness, while the collagen fibers give it strength and resiliency. Bone supports the body, protects internal organs, provides for muscle attachment, and serves as a calcium reservoir. Blood is a connective tissue with a liquid ECM, called plasma, which is made up of water, salts, nutrients, and an assortment of dissolved proteins. The cells suspended in the plasma serve to transport oxygen to cells and protect the body against certain types of disease."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle":"Nervous Tissue",
+                  "text": "<button class='glossary-text'>Nervous tissue</button> is found throughout the body. <button class='glossary-text'>Nerves</button> receive and transmit stimuli by converting a stimulus, whether chemical or physical in nature, into an electrical impulse conducted by <button class='glossary-text'>neurons</button>.</span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class=bodyFontBold>Neurons</span> (see Figure 12), also called nerve cells, are the functional units of nervous tissue. A neuron consists of a cell body, dendrites, and an axon. Dendrites carry impulses to the cell body. An axon transmits impulses away from that cell body toward another cell body or an effector, a muscle or organ that responds to the impulse."
+                },
+                {
+                  "type": "Plain",
+                  "text": "An axon is usually much longer than a dendrite and may be up to a meter in length. A long axon may be wrapped in an insulating layer called a myelin sheath. Multiple myelinated (myelincovered) axons can be arranged in rope like bundles covered in connective tissue, called <span class=bodyFontBold>nerves</span>."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580564_VIRT/580564_VIRT_fig_012.svg",
+                  "imgDivWidth": "405px",
+                  "maxWidth": "435px",
+                  "scrollImg": true,
+                  "desc": "Figure 12: A typical neuron showing its major parts. The cell body is an enlarged region containing a round cell nucleus. Extending from the cell body are several short, slender branching structures called dendrites. Also extending from the cell body is a single, much longer, slender structure called the axon. It branches at the opposite end of the cell body and has a small swelling at the end of each branch. These swellings represent the axon terminals. There is a segmented layer wrapped around the axon, covering it from a point soon after it emerges from the cell body all the way to where it branches out to form axon terminals. This layer is the myelin sheath. Each segment of the sheath has its own nucleus, because each segment is a single very flattened cell that is wrapped several times around the axon terminal, much like a bandage wrapped around a finger.",
+                  "altText": "Figure 12: A typical neuron showing its major parts. The cell body is an enlarged region containing a round cell nucleus. Extending from the cell body are several short, slender branching structures called dendrites. Also extending from the cell body is a single, much longer, slender structure called the axon. It branches at the opposite end of the cell body and has a small swelling at the end of each branch. These swellings represent the axon terminals. There is a segmented layer wrapped around the axon, covering it from a point soon after it emerges from the cell body all the way to where it branches out to form axon terminals. This layer is the myelin sheath. Each segment of the sheath has its own nucleus, because each segment is a single very flattened cell that is wrapped several times around the axon terminal, much like a bandage wrapped around a finger.",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Nerves</button> carry sensory impulses to the brain and spinal cord and transmit motor responses from the brain and spinal cord to effector organs. <button class='glossary-text'>Nervous tissue</button> also contains cells known as <button class='glossary-text'>neuroglia</button> (also called glial cells or glia) that provide structural and metabolic support for <button class='glossary-text'>neurons</button>. For example, the myelin sheath that covers a long axon is formed by a number of individual glia known as Schwann cells. Figure 13 depicts nervous tissue from the interior of the spinal cord. The neurons are large and have been stained dark blue. The neuroglia are much more numerous, but only their tiny, dark nuclei can be distinguished."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580564_VIRT/580564_VIRT_fig_013.svg",
+                  "imgDivWidth": "393px",
+                  "maxWidth": "415px",
+                  "scrollImg": true,
+                  "desc": "Figure 13: Photo of nervous tissue viewed with a microscope using very high magnification. The tissue is from the interior of the spinal cord and demonstrates the larger neurons and the more numerous neuroglia.",
+                  "altText": "Figure 13: Photo of nervous tissue viewed with a microscope using very high magnification. The tissue is from the interior of the spinal cord and demonstrates the larger neurons and the more numerous neuroglia."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle":"The Microscope",
+                  "text": "Microscopes are used to observe objects that are too small to be seen (or too small to be seen in detail) with the unaided eye.<span class=bodyParaLineBreak>Compound microscopes (see Figure 14) are used to view small objects. Objects that are viewed under a compound microscope are typically mounted on a microscope <button class='glossary-text'>slide</button> (a small, rectangular piece of glass) and then covered with a thin, protective piece of glass called a <button class='glossary-text'>coverslip</button>.</span><span class=bodyParaLineBreak>Specimens intended for viewing with a compound light microscope are typically thin and may also be chemically cleared. This allows light to pass through the specimen with a minimum of light scattering. Scattering of light rays results in a loss of <button class='glossary-text'>resolution</button> (the ability to distinguish between two adjacent objects). The lower the resolution of an image, the more blurry it appears.</span><span class=bodyParaLineBreak>Specimens are often stained with one or more dyes during preparation of the microscope slide. Most specimens, especially after they have been preserved and processed into thin sections, have little if any color. This results in very little contrast when the specimen is viewed. Dyes add contrast for greater ease of viewing.</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses/580564_VIRT/580564_VIRT_fig_014.svg",
+                  "imgDivWidth": "528px",
+                  "maxWidth": "560px",
+                  "scrollImg": true,
+                  "desc": "Figure 14: A typical compound microscope with the following parts labeled: ocular lens, eyepiece, body tube, arm, nosepiece, objective, stage, stage clip, coarse adjustment, fine adjustment, condenser, diaphragm, light source, and base",
+                  "altText": "Figure 14: A typical compound microscope with the following parts labeled: ocular lens, eyepiece, body tube, arm, nosepiece, objective, stage, stage clip, coarse adjustment, fine adjustment, condenser, diaphragm, light source, and base",
+                  "imgDivWidthForMobile": {
+                    "P": "100%",
+                    "L": "100%"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle":"Operating a Microscope",
+                  "text": "To observe objects under a microscope, you must first become familiar with the parts of a microscope. The shape and location of the major parts of a microscope can vary, so if you have trouble locating a component on your microscope, consult the instructions that came with your instrument.</span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Every microscope possesses at least one <button class='glossary-text'>eyepiece</button> that contains an ocular lens. Those with only a single eyepiece are known as <button class='glossary-text'>monocular</button> microscopes. Many compound microscopes are <button class='glossary-text'>binocular</button> microscopes and have two eyepieces that you look through with both eyes as you would with a pair of binoculars. The long cylinder extending from the eyepiece is called the <button class='glossary-text'>body tube</button>, or monocular tube. If there are two eyepieces and tubes, these are called binocular tubes. At the opposite end of the tube(s) are a series of magnifying lenses called <button class='glossary-text'>objectives</button>. Each objective lens magnifies objects to a different power. The lowest power is usually 4× and is referred to as the <button class='glossary-text'>scanning objective</button>. Next is the low power objective, most commonly having a magnification of 10x. The high power objective (or high-dry objective) usually has a magnification of 40x. Some microscopes have an even more powerful objective—the oil immersion objective—that typically has a magnification of 100x. The oil immersion objective will not be used for this investigation. The objective used to view an object can be changed by rotating the revolving <button class='glossary-text'>nosepiece</button> located near the bottom of the tube above the stage. Most modern microscopes are <button class='glossary-text'>parfocal</button>, which means that if the image is focused, it should remain in focus when you change the objective with minimal fine-tuning using the fine adjustment knob."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle":"Depth of Field",
+                  "text": "It is important to remember that the objects observed under a microscope are three-dimensional. An object may appear flat, especially after being pressed under a <button class='glossary-text'>coverslip</button>. However, when magnified, the depth of the material on the <button class='glossary-text'>slide</button> becomes more apparent. When you view an object and only part of it is in focus, you are observing the limits of the microscope’s <button class='glossary-text'>depth of field</button>, which refers to the thickness (or depth) of an area under the microscope that can be viewed in focus. The depth of field is more shallow on high power than on low power. For example, when you view an object under high power, less of it is in focus at one time than when the same object is viewed under low power. The microscope also has a <button class='glossary-text'>field of view</button>. This is the circle of light you see when you look through the lens system of the microscope. The field of view gets smaller as you use more powerful <button class='glossary-text'>objectives</button>, so it is important to always center objects in the middle of the field of view before switching from a lower-powered objective to a higher-powered one.</span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "subTitle":"Calculating Magnification",
+                  "text": "An object is magnified by both the ocular lens and the objective lens of the microscope. To determine the total magnification, multiply the magnification power of the ocular lens (which is printed near the lens) by the magnification power of the objective lens being used to view the object.</span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Total Magnification = (ocular lens power) × (objective lens power)"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "For example, if human <button class='glossary-text'>blood</button> cells are being viewed using the 40× objective lens with a microscope that has a 10× ocular lens, the total magnification of the blood cells is <span style='whiteSpace: nowrap'>40 × 10 = 400×.</span>"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Greater magnification does not always produce better viewing. A clear, sharp 200× image is more useful than a blurry 600× image. As magnification increases, the amount of light entering the lens decreases. Therefore, objects viewed at higher power will appear darker and may be less clear. By adjusting the <button class='glossary-text'>diaphragm</button>, you can increase or decrease the amount of light directed onto the slide."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle":"Basic Care and Handling of a Microscope and Microscope Slides",
+                  "text": "Microscopes are expensive, delicate pieces of equipment. Follow these guidelines to keep your microscope and <button class='glossary-text'>slides</button> in the best possible condition.</span><ul><li>Never touch the lenses of the microscope with your fingers.</li><li>Use only lens paper to clean the lenses since fibers in paper towels or toilet paper can scratch the glass.</li><li>When storing a microscope, rotate the <button class='glossary-text'>nosepiece</button> so that it is on the lowest power objective.</li><li>Keep the microscope covered when not in use to keep dust away.</li><li>Transport a microscope by using one hand to hold the scope by the arm and the other hand to support the base.</li><li>Store microscope slides out of direct light to prevent stained specimens from fading.</li></ul>"
+                },
+                {
+                  "containerType": "rightContainer",
+                  "title": "Table 1.",
+                  "sr": 11,
+                  "allowClick": true,
+                  "type": "DataTable",
+                  "tableHeight": "1.5",
+                  "tableWidth": "680px",
+                  "maxLength": 20,
+                  "header": [
+                    { "text": "Microscope Part", "colWidth": "40%" },
+                    { "text": "Function", "colWidth": "60%" }
+                  ],
+                  "tableData": [
+                    [
+                      {
+                        "type": "text",
+                        "text": "Eyepiece"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Contains ocular lens<span class=bodyParaLineBreak>A microscope with one eyepiece (and one ocular lens) is monocular. A microscope with two eyepieces (and two ocular lenses) is binocular.",
+                        "hoverText": "Contains ocular lens\nA microscope with one eyepiece (and one ocular lens) is monocular. A microscope with two eyepieces (and two ocular lenses) is binocular."
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Ocular lens"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Lens you look through; usually 10× power"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Body tube"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Holds the eyepiece"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Nosepiece"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Holds the objective lenses"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Objective lenses<br>&nbsp;&nbsp;&nbsp;Scanning<br>&nbsp;&nbsp;&nbsp;Low power<br>&nbsp;&nbsp;&nbsp;High (high-dry) power",
+                        "hoverText": "Objective lenses\nScanning\nLow power\nHigh (high-dry) power"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Magnify specimen<br/>Magnifies 4× the actual size<br/>Magnifies 10× the actual size<br/>Magnifies 40× the actual size",
+                        "hoverText": "Magnify specimen\nMagnifies 4× the actual size\nMagnifies 10× the actual size\nMagnifies 40× the actual size"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Stage"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Holds the microscope slide or specimen"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Stage clip"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Secures the slide on the stage"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Condenser"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Condenses light from the light source into a narrow beam"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Diaphragm"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Regulates the amount of light passing through the specimen"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Light source"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Source of light (usually an electric-powered light bulb)"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Coarse adjustment knob"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Used first to focus the specimen; not used for the high power objective lens"
+                      }
+                    ],
+                    [
+                      {
+                        "type": "text",
+                        "text": "Fine adjustment knob"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Used to make minor adjustments in focusing; only adjustment used with the high power objective lens"
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 4",
+              "pageTitle": "Knowledge Check Question 4",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 3,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Which of the following suggestions will keep a microscope slide in the best possible condition?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Keep it out of sunlight.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Leave it on the microscope stage when not in use.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Clean it with a very strong alcohol.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Disinfect it with bleach.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Blow on it before each use.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Store microscope slides out of direct light to prevent stained specimens from fading."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "How should you carry the microscope?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Hold it by the arm with one hand and support the base with the other hand.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Hold it by the arm with one hand and carry the power cord with the other hand.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Hold it by the base with two hands.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Hold it by the nosepiece with one hand and support the base with the other hand.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Hold it by the arm tightly with two hands.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Transport a microscope by using one hand to hold the arm and the other hand to support the base."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "Microscopes are expensive, delicate pieces of equipment. Never touch the lenses of the microscope with your fingers. Use only lens paper to clean the lenses since fibers in paper towels or toilet paper can scratch the glass. When storing a microscope, rotate the nosepiece so that it is on the lowest power objective. Keep the microscope covered when not in use to keep dust away. Microscope slides are also delicate. Store microscope slides out of direct light to prevent stained specimens from fading."
+                },
+                {
+                  "title": "Hint",
+                  "body": "Microscopes are expensive, delicate pieces of equipment. Never touch the lenses of the microscope with your fingers. Use only lens paper to clean the lenses since fibers in paper towels or toilet paper can scratch the glass. When storing a microscope, rotate the nosepiece so that it is on the lowest power objective. Keep the microscope covered when not in use to keep dust away. Microscope slides are also delicate. Store microscope slides out of direct light to prevent stained specimens from fading."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "List",
+                  "title": "<span className=bodyBoldSubHeading>Needed but not supplied</span>",
+                  "text": [
+                    "Paper",
+                    "Colored pencils",
+                    "Digital camera or mobile device capable of taking photos"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are no safety concerns for this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span class=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following is NOT a major tissue type?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "skeletal tissue",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "muscle tissue",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "epithelial tissue",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "nervous tissue",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "connective tissue",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "An epithelial tissue with three layers of cells would be described as which of the following?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "stratified",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "simple",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "superior",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "stacked",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "strict",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the difference between simple columnar epithelium and pseudostratified columnar epithelium?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "The former has nuclei near the base while the latter has nuclei throughout.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "The former has spherical cells while the latter has elongated cells.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "The former is found in the skin while the latter is found in the heart.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "The former is the immature version of the latter.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "The former has one cell layer while the latter has two cell layers.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following describes striated muscle(s)?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "skeletal muscle and cardiac muscle",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "cardiac muscle and smooth muscle",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "skeletal muscle only",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "cardiac muscle only",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "smooth muscle only",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Despite the variation in appearance of different connective tissues, what component(s) do they all have in common?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "cells and an extracellular matrix",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "extracellular matrix only",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "intercalated discs between cells",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "fibers and ground substance",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "ground substance only",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following tissues is NOT considered a type of connective tissue?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "glia",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "bone",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "adipose",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "blood",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "cartilage",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following terms refers to multiple myelinated axons arranged in rope-like bundles surrounded by connective tissue?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 6,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "nerves",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "glia",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Schwann cells",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "osteons",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "squamous epithelium",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following describes the formula for calculating the total magnification of an object under a microscope?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 7,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "(ocular lens power) x (objective lens power)",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "(ocular lens power) / (objective lens power)",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "[(ocular lens power) x (objective lens power)] / 2",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "(ocular lens power) + (objective lens power)",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "[(ocular lens power) / (objective lens power)] x 100",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following scenarios describes inappropriate handling of a microscope or its equipment?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 8,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Nick holds his microscope by the arm as he walks to the storage cabinet.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Lyle stores microscope slides in a drawer away from direct sunlight.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Isaiah stores his microscope with the nosepiece on the lowest power objective.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Raul borrows some lens paper from a friend to clean his microscope lenses.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Ahmed takes the plastic cover off his microscope before using it.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Anatomy_Physiology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 1, you will complete a tutorial of the virtual microscope."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Activity 1",
+              "template": "VirtualLab",
+              "activityPath": "activities/580564_VIRT/activity1/story.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Anatomy_Physiology_ActivityIcon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In Activity 2, you will view and sketch examples of different tissue types under magnification. The total magnification used for each drawing and the characteristics of each tissue will be recorded in <span class=bodyFontBold>Data Table 1</span>."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "Activity 2",
+              "template": "VirtualLab",
+              "activityPath": "activities/580564_VIRT/activity2/story.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Anatomy_Physiology_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2022 Carolina Biological Supply Company"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Activity2",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2"
+              },
+              {
+                "type": "Plain",
+                "title": "Data Table 1"
+              },
+              {
+                "type": "Box",
+                "text": "Total magnification = (eyepiece lens power) x (objective lens power)<span class=bodyParaLineBreak>The eyepiece lens power of the virtual microscope is 10X.</span>"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "maxLength": 20,
+                "header": [
+                  {
+                    "text": "Tissue type",
+                    "colWidth": "33%"
+                  },
+                  {
+                    "text": "Magnification used",
+                    "colWidth": "33%"
+                  },
+                  {
+                    "text": "Tissue comparison:<br> What makes this tissue stand out?",
+                    "colWidth": "34%",
+                    "maxLength": 200
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "text",
+                      "text": "Simple cuboidal epithelium"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Simple columnar epithelium"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Pseudostratified ciliated columnar epithelium"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Human skin"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Skeletal muscle"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Smooth muscle"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Cardiac muscle"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Mammalian nerve fibers"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Bone"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text",
+                      "text": "Blood"
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "ActivityUpload1",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 2 Photos"
+              },
+              {
+                "type": "Plain",
+                "text": "Insert your photo of each tissue drawing in the appropriate sections below. Each drawing should identify the structure(s) listed."
+              },
+              {
+                "type": "Plain",
+                "text": "Simple cuboidal epithelium slide<span class=bodyParaLineBreak><ul><li>Simple cuboidal epithelium</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "ActivityUpload2",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Simple columnar epithelium slide<span class=bodyParaLineBreak><ul><li>Simple columnar epithelium</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "ActivityUpload3",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Pseudostratified ciliated columnar epithelium slide<span class=bodyParaLineBreak><ul><li>Pseudostratified ciliated columnar epithelium</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 2,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "ActivityUpload4",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Skin slide<span class=bodyParaLineBreak><ul><li>Epithelial tissue</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 3,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "ActivityUpload5",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Skeletal muscle slide<span class=bodyParaLineBreak><ul><li>Muscle fiber</li><li>Striations</li><li>Nuclei</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 4,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "ActivityUpload6",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Smooth muscle slide<span class=bodyParaLineBreak><ul><li>Muscle fiber</li><li>Nuclei</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 5,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "ActivityUpload7",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Cardiac muscle slide<span class=bodyParaLineBreak><ul><li>Muscle fiber</li><li>Striations</li><li>Nuclei</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 6,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "ActivityUpload8",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Mammalian nerve fibers slide<span class=bodyParaLineBreak><ul><li>Neurons</li><li>Neuroglia</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 7,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "ActivityUpload9",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Bone slide<span class=bodyParaLineBreak><ul><li>Osteon</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 8,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "ActivityUpload10",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Blood slide<span class=bodyParaLineBreak><ul><li>Erythrocyte</li><li>Leukocyte</li><li>Platelet</li></ul>"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 9,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "waterMark": false,
+        "title": "Questions",
+        "textAreaId": ["Question1", "Question2", "Question3"],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "id": "Question1",
+            "width": "65%",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "start": "1",
+                "text": [
+                  "How would you classify the epithelial cells you observed in the human skin slide? Explain your reasoning."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "start": "2",
+                "text": [
+                  "Why must specimens viewed with a compound light microscope be thin and/or chemically cleared? Why are they often stained with dyes?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 0,
+                "maxLength": 1000,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 1000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580564_VIRT/580564_VIRT_fig_001.svg",
+        "content": "Figure 1. Types of epithelia",
+        "scrollImg": true,
+        "maxWidth": "640px",
+        "altText": "Figure 1: Drawings of the different types of epithelial tissues based on cell shape and arrangement. Squamous epithelia (left) are composed of flattened cells, cuboidal epithelia (middle) are composed of cube-shaped cells, and columnar epithelia (right) are composed of elongated cells."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580564_VIRT/580564_VIRT_fig_002.svg",
+        "content": "Figure 2. Simple cuboidal epithelium micrograph",
+        "scrollImg": true,
+        "maxWidth": "460px",
+        "altText": "Figure 2: Photo of simple cuboidal epithelium, taken through a microscope using high magnification. The cells appear to be square in shape. Each cuboidal cell has a prominent, rounded nucleus at its center."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580564_VIRT/580564_VIRT_fig_003.svg",
+        "content": "Figure 3. Simple columnar epithelium micrograph",
+        "scrollImg": true,
+        "maxWidth": "325px",
+        "altText": "Figure 3: Photo of simple columnar epithelium taken through a microscope using high magnification. The cells appear to be rectangular in shape. The oval-shaped nuclei are all about the same distance from the base of the sheet of epithelium."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580564_VIRT/580564_VIRT_fig_004.svg",
+        "content": "Figure 4. Stratified squamous epithelium micrograph",
+        "scrollImg": true,
+        "maxWidth": "530px",
+        "altText": "Figure 4: Photo of stratified squamous epithelium taken through a microscope using low magnification. Layers of epithelial cells become progressively more flattened from the base of the tissue to its surface. Underneath the epithelial tissue is a layer of dense irregular connective tissue, with fibers oriented in many different directions."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580564_VIRT/580564_VIRT_fig_005.svg",
+        "content": "Figure 5. Pseudostratified ciliated columnar epithelium micrograph",
+        "scrollImg": true,
+        "maxWidth": "430px",
+        "altText": "Figure 5: Photo of pseudostratified ciliated columnar epithelium taken with a microscope using high magnification, showing a single layer of columnar cells, with cell shapes distorted due to the presence of nuclei at varying distances from the base of the tissue."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580564_VIRT/580564_VIRT_fig_006.svg",
+        "content": "Figure 6. Skeletal muscle micrograph",
+        "scrollImg": true,
+        "maxWidth": "430px",
+        "altText": "Figure 6: Photo of skeletal muscle tissue viewed with a microscope using very high magnification. Each cell has clearly defined, alternating dark and light striations, or stripes. There are multiple nuclei per cell; the nuclei are oval and flattened in shape."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580564_VIRT/580564_VIRT_fig_007.svg",
+        "content": "Figure 7. Cardiac muscle micrograph",
+        "scrollImg": true,
+        "maxWidth": "430px",
+        "altText": "Figure 7: Photo of cardiac muscle tissue viewed with a microscope using very high magnification showing fibers parallel to one another but split into branches and containing one or two nuclei"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580564_VIRT/580564_VIRT_fig_008.svg",
+        "content": "Figure 8. Smooth muscle micrograph",
+        "scrollImg": true,
+        "maxWidth": "430px",
+        "altText": "Figure 8: Nuclei of smooth muscle cells. These cells show a very elongated fusiform nucleus that contains small nucleoli. The small incisures in the nucleus surface are due to a contraction of the fiber."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580564_VIRT/580564_VIRT_fig_009.svg",
+        "content": "Figure 9. Adipose tissue micrograph",
+        "scrollImg": true,
+        "maxWidth": "430px",
+        "altText": "Figure 9: Photo of adipose tissue, viewed with a microscope using high magnification. It resembles Bubble Wrap® packing material, with each cell forming an individual bubble. The interior of each cell is clear and colorless due to the abundance of lipids. The cytoplasm and nucleus of each cell is pushed to the sides, forming a pink ring around the edges of the bubble."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580564_VIRT/580564_VIRT_fig_010.svg",
+        "content": "Figure 10. Compact bone micrograph",
+        "scrollImg": true,
+        "maxWidth": "430px",
+        "altText": "Figure 10: Photo of compact bone tissue viewed under a microscope using high magnification. Parts of several osteons are visible, with an entire example in the center of the photo. It appears as a series of dark concentric circles against a pale background. The circles are the concentric lamellae. Between each of the lamellae are dark, roughly ovoid spaces called lacunae. Each lacuna has tiny crevices radiating from it called canaliculi. A large, dark, circular space, which is the central canal, is at the center of the osteon. "
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580564_VIRT/580564_VIRT_fig_011.svg",
+        "content": "Figure 11. Blood smear micrograph",
+        "scrollImg": true,
+        "maxWidth": "410px",
+        "altText": "Figure 11: Photo of blood taken with a microscope using high magnification. Erythrocytes are the most abundant cell type. When viewed from above, an erythrocyte appears as a pink disk with a central indentation and no cell nucleus. Three leukocytes are present. They are larger than the erythrocytes, and each has a large, dark nucleus. Two leukocytes have a light-pink cytoplasm, and the other has a dark-purple cytoplasm. A few platelets are scattered among the blood cells. Each appears as a tiny pink spot."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580564_VIRT/580564_VIRT_fig_012.svg",
+        "content": "Figure 12. The parts of a neuron",
+        "scrollImg": true,
+        "maxWidth": "435px",
+        "altText": "Figure 12: A typical neuron showing its major parts. The cell body is an enlarged region containing a round cell nucleus. Extending from the cell body are several short, slender branching structures called dendrites. Also extending from the cell body is a single, much longer, slender structure called the axon. It branches at the opposite end of the cell body and has a small swelling at the end of each branch. These swellings represent the axon terminals. There is a segmented layer wrapped around the axon, covering it from a point soon after it emerges from the cell body all the way to where it branches out to form axon terminals. This layer is the myelin sheath. Each segment of the sheath has its own nucleus, because each segment is a single very flattened cell that is wrapped several times around the axon terminal, much like a bandage wrapped around a finger."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580564_VIRT/580564_VIRT_fig_013.svg",
+        "content": "Figure 13. Nervous tissue micrograph",
+        "scrollImg": true,
+        "maxWidth": "415px",
+        "altText": "Figure 13: Photo of nervous tissue viewed with a microscope using very high magnification. The tissue is from the interior of the spinal cord and demonstrates the larger neurons and the more numerous neuroglia."
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses/580564_VIRT/580564_VIRT_fig_014.svg",
+        "content": "Figure 14. A compound microscope",
+        "scrollImg": true,
+        "maxWidth": "560px",
+        "altText": "Figure 14: A typical compound microscope with the following parts labeled: ocular lens, eyepiece, body tube, arm, nosepiece, objective, stage, stage clip, coarse adjustment, fine adjustment, condenser, diaphragm, light source, and base"
+      },
+      {
+        "type": "DataTable",
+        "thumbnailSrc": "core/Table_icon.svg",
+        "isResource": true,
+        "allowClick": true,
+        "title": "Table 1.",
+        "sr": 12,
+        "tableWidth": "680px",
+        "content": "Table 1. The parts of a compound microscope",
+        "header": [
+          {
+            "text": "Microscope Part",
+            "hoverText": "Microscope Part",
+            "colWidth": "40%"
+          },
+          { "text": "Function", "colWidth": "60%" }
+        ],
+        "tableData": [
+          [
+            {
+              "type": "text",
+              "text": "Eyepiece"
+            },
+            {
+              "type": "text",
+              "text": "Contains ocular lens<span class=bodyParaLineBreak>A microscope with one eyepiece (and one ocular lens) is monocular. A microscope with two eyepieces (and two ocular lenses) is binocular.",
+              "hoverText": "Contains ocular lens\nA microscope with one eyepiece (and one ocular lens) is monocular. A microscope with two eyepieces (and two ocular lenses) is binocular."
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Ocular lens"
+            },
+            {
+              "type": "text",
+              "text": "Lens you look through; usually 10× power"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Body tube"
+            },
+            {
+              "type": "text",
+              "text": "Holds the eyepiece"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Nosepiece"
+            },
+            {
+              "type": "text",
+              "text": "Holds the objective lenses"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Objective lenses<br>&nbsp;&nbsp;&nbsp;Scanning<br>&nbsp;&nbsp;&nbsp;Low power<br>&nbsp;&nbsp;&nbsp;High (high-dry) power",
+              "hoverText": "Objective lenses\nScanning\nLow power\nHigh (high-dry) power"
+            },
+            {
+              "type": "text",
+              "text": "Magnify specimen<br/>Magnifies 4× the actual size<br/>Magnifies 10× the actual size<br/>Magnifies 40× the actual size",
+              "hoverText": "Magnify specimen\nMagnifies 4× the actual size\nMagnifies 10× the actual size\nMagnifies 40× the actual size"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Stage"
+            },
+            {
+              "type": "text",
+              "text": "Holds the microscope slide or specimen"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Stage clip"
+            },
+            {
+              "type": "text",
+              "text": "Secures the slide on the stage"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Condenser"
+            },
+            {
+              "type": "text",
+              "text": "Condenses light from the light source into a narrow beam"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Diaphragm"
+            },
+            {
+              "type": "text",
+              "text": "Regulates the amount of light passing through the specimen"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Light source"
+            },
+            {
+              "type": "text",
+              "text": "Source of light (usually an electric-powered light bulb)"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Coarse adjustment knob"
+            },
+            {
+              "type": "text",
+              "text": "Used first to focus the specimen; not used for the high power objective lens"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Fine adjustment knob"
+            },
+            {
+              "type": "text",
+              "text": "Used to make minor adjustments in focusing; only adjustment used with the high power objective lens"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Adipocytes",
+        "content": "Cells specialized for the storage of fat in adipose tissue"
+      },
+      {
+        "title": "Adipose tissue",
+        "content": "A specialized form of connective tissue that stores fat in adipocytes"
+      },
+      {
+        "title": "Binocular",
+        "content": "Refers to a microscope that has two eyepieces"
+      },
+      {
+        "title": "Blood",
+        "content": "Connective tissue with a liquid ECM; it contains water, salts, nutrients, an assortment of dissolved proteins, erythrocytes (red blood cells), leukocytes (white blood cells), and platelets"
+      },
+      {
+        "title": "Body tube",
+        "content": "The long cylinder extending from the eyepiece of a microscope"
+      },
+      {
+        "title": "Bone",
+        "content": "A specialized type of dense connective tissue with a ground substance containing mineral salts, such as calcium phosphate, and fibers made up of the protein collagen"
+      },
+      {
+        "title": "Canaliculi",
+        "content": "The narrow connections that extend from lacunae and connect osteocytes to each other and to the central canal"
+      },
+      {
+        "title": "Cardiac muscle tissue",
+        "content": "The type of muscle tissue that makes up the walls of the heart, and has striations (stripes) that are often not as pronounced as those of skeletal muscle; its fibers are arranged parallel to one another, but individual fibers often split into branches"
+      },
+      {
+        "title": "Central canal",
+        "content": "A canal in compact bone that contains blood vessels and nerves that serve the bone cells in compound bone"
+      },
+      {
+        "title": "Columnar epithelium",
+        "content": "A type of epithelial tissue composed of cells with an elongated shape; when viewed from one side, the constituent cells appear rectangular"
+      },
+      {
+        "title": "Compact bone",
+        "content": "The type of bone that is harder and denser than spongy bone, and which forms the “shell” of most bones"
+      },
+      {
+        "title": "Connective tissues",
+        "content": "The diverse group of tissues that link and support other tissues"
+      },
+      {
+        "title": "Connective tissue fibers",
+        "content": "Long, thin strings of protein such as collagen or elastin which are secreted by connective tissue cells into the extracellular matrix (ECM)"
+      },
+      {
+        "title": "Coverslip",
+        "content": "A thin, protective piece of glass that covers the specimen mounted on a microscope slide"
+      },
+      {
+        "title": "Cuboidal epithelium",
+        "content": "A type of epithelial tissue composed of cells that are cube-shaped"
+      },
+      {
+        "title": "Depth of field",
+        "content": "The thickness (or depth) of an area under the microscope that can be viewed in focus"
+      },
+      {
+        "title": "Diaphragm",
+        "content": "The part of a microscope used to increase or decrease the amount of light directed onto the slide"
+      },
+      {
+        "title": "ECM",
+        "content": "The network of ground substance and fibers secreted by connective tissue cells, and which is largely responsible for the properties of connective tissues; stands for extracellular matrix"
+      },
+      {
+        "title": "Epithelial tissue",
+        "content": "A type of connective tissue that is widespread throughout the body, covers all outer surfaces, and lines body cavities and hollow organs"
+      },
+      {
+        "title": "Erythrocytes",
+        "content": "A type of blood cell that does not have a nucleus, but contains hemoglobin that transports oxygen and carbon dioxide to and from the tissues; also called a red blood cell (RBC)"
+      },
+      {
+        "title": "Eyepiece",
+        "content": "The part of a microscope that contains an ocular lens; there may be more than one eyepiece on a microscope"
+      },
+      {
+        "title": "Field of view",
+        "content": "The circle of light that can be seen through the lens system of the microscope"
+      },
+      {
+        "title": "Ground substance",
+        "content": "A component of ECM made up of mostly water with added polysaccharide and protein molecules for stability"
+      },
+      {
+        "title": "Lacunae",
+        "content": "The pockets in compound bone that form when osteoblasts surround themselves with their secreted ECM; singular, lacuna"
+      },
+      {
+        "title": "Lamellae",
+        "content": "The concentric layers of mineralized ECM that make up each osteon in compound bone; singular, lamella"
+      },
+      {
+        "title": "Leukocytes",
+        "content": "A type of blood cell that functions as part of the body's immune system; also called white blood cells (WBC)"
+      },
+      {
+        "title": "Monocular",
+        "content": "Refers to a microscope with a single eyepiece"
+      },
+      {
+        "title": "Muscle tissue",
+        "content": "A type of connective tissue made up of cells capable of contracting when stimulated by the nervous system"
+      },
+      {
+        "title": "Nerves",
+        "content": "A type of nervous tissue; they are rope-like bundles of myelinated axons that transmit impulses of sensation to the brain or spinal cord, and impulses from these to the muscles and organs"
+      },
+      {
+        "title": "Nervous tissue",
+        "content": "A type of connective tissue that senses stimuli, and carries impulses to centers where they can be processed and a response can be formed"
+      },
+      {
+        "title": "Neuroglia",
+        "content": "A type of nervous tissue cell that provides structural and metabolic support for neurons; also called glial cells or glia"
+      },
+      {
+        "title": "Neurons",
+        "content": "A type of nervous tissue cell that receives and transmits electrochemical signals (nerve impulses)"
+      },
+      {
+        "title": "Nosepiece",
+        "content": "The part of a microscope that houses the objectives and can be rotated to change the objective in use; it is located near the bottom of the body tube above the stage"
+      },
+      {
+        "title": "Objectives",
+        "content": "The series of magnifying lenses on a microscope; they are located on the nosepiece"
+      },
+      {
+        "title": "Osteoblasts",
+        "content": "A type of bone tissue cell that forms bone and deposits ECM around the central canal"
+      },
+      {
+        "title": "Osteocytes",
+        "content": "A type of bone tissue cell; they are osteoblasts surrounded by their secreted ECM"
+      },
+      {
+        "title": "Osteons",
+        "content": "The repeating units of compound bone that consist of lamellae deposited around a central canal"
+      },
+      {
+        "title": "Parfocal",
+        "content": "Describes the ability of a microscope to maintain the focus of an image,  with minimal fine-tuning, when the objective is changed"
+      },
+      {
+        "title": "Plasma",
+        "content": "A type of blood tissue that is the colorless, fluid part of blood"
+      },
+      {
+        "title": "Platelets",
+        "content": "A component of blood that are tiny cell fragments that, along with fibrin from plasma, help stop bleeding when a blood vessel is injured"
+      },
+      {
+        "title": "Pseudostratified columnar epithelium",
+        "content": "A type of epithelial tissue that has the appearance of stratified tissue, yet consists of a single layer of cells"
+      },
+      {
+        "title": "Resolution",
+        "content": "The ability to distinguish between two adjacent objects"
+      },
+      {
+        "title": "Scanning objective",
+        "content": "The lowest-power objective of a microscope; it is usually 4×"
+      },
+      {
+        "title": "Simple columnar epithelium",
+        "content": "A type of epithelial tissue that is a single layer of elongated cells"
+      },
+      {
+        "title": "Simple cuboidal epithelium",
+        "content": "A type of epithelial tissue that consists of a single layer of cube-shaped cells"
+      },
+      {
+        "title": "Simple epithelium",
+        "content": "A category of epithelial tissue; these tissues have one layer of epithelial cells"
+      },
+      {
+        "title": "Skeletal muscle tissue",
+        "content": "A type of muscle tissue made up of long, striated (striped) cells that are sometimes called muscle fibers"
+      },
+      {
+        "title": "Slide",
+        "content": "A small, rectangular piece of glass onto which specimens are mounted for viewing under a compound microscope"
+      },
+      {
+        "title": "Smooth muscle",
+        "content": "A type of muscle tissue found in the walls of most internal organs and which lacks striations (stripes); the cells have different shapes depending on their location in the body"
+      },
+      {
+        "title": "Spongy bone",
+        "content": "The type of bone tissue that is softer and less dense than compound bone; it is often located in the ends of long bones"
+      },
+      {
+        "title": "Squamous epithelium",
+        "content": "A type of epithelial tissue composed of cells that have a flattened, tile-like shape"
+      },
+      {
+        "title": "Stratified epithelium",
+        "content": "A category of epithelial tissue; these tissues have two or more layers of cells"
+      },
+      {
+        "title": "Stratified squamous epithelium",
+        "content": "A type of epithelial tissue made up of several layers of cells that are roughly cuboidal at the base of the epithelium, but go on to become progressively more flattened as they form the surface of the tissue; it makes up the epidermis, the outermost layer of the skin"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

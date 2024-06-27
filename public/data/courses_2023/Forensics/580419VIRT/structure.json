@@ -1,0 +1,2504 @@
+{
+  "locked": true,
+  "courseTitle": "Collecting Forensic Evidence Virtual Lab",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/bodyBookmark.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Forensics_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Forensics",
+                "images": {
+                  "logo": "core/Forensics_Subject_Icon.svg"
+                },
+                "titleName2": "Collecting Forensic Evidence Virtual Lab",
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "waterMark": true,
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The process of collecting and preserving forensic evidence is critical to determining a person’s guilt or innocence. In this investigation, you will learn about and simulate the process of securing and documenting a crime scene, as well as collecting and preserving evidence."
+                },
+                {
+                  "type": "List",
+                  "title": "Needed but not supplied",
+                  "text": [
+                    "Blank sheet of paper",
+                    "Drawing materials (pencil, pen, eraser, ruler, etc.)"
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_Time-Requirement.svg",
+                  "desc": "Activity 1: Evidence Collection – 100 minutes",
+                  "altText": "Activity 1: Evidence Collection – 100 minutes",
+                  "width": "100%",
+                  "imgDivWidth": "120px",
+                  "maxWidth": "140px",
+                  "scrollImg": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "title": "Outcomes",
+                  "type": "List",
+                  "text": [
+                    "Describe the importance of securing and documenting a crime scene.",
+                    "Describe the procedure for taking notes on, photographing, and sketching a crime scene.",
+                    "Properly secure and document a simulated crime scene.",
+                    "Properly secure and document evidence found at a simulated crime scene."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "image": "core/Key_PPE.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "desc": "goggles symbol, gloves symbol, apron symbol"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "image": "core/Key_protocol.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "desc":"video link symbol, camera symbol, stopwatch symbol"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "maxWidth": "500px",
+                  "imgDivWidth": "430px",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "desc":"warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In 1995, Krystal Beslanowitch’s body was found near the Provo River in Utah. She was seventeen years old and had died from pulverizing blows to her head. Bloody rocks were collected from the crime scene, but there wasn’t much evidence to work with. The investigation went cold when all leads ended in dead-ends. However, the invention of the forensic vacuum helped solve the cold case in 2013."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The M-Vac<sup>®</sup> is a tool that can suck up trace amounts of DNA on a variety of surfaces. In the Beslanowitch case, “touch DNA” (DNA that is left behind when someone touches an object) was obtained from the rock that had been used to kill Krystal Beslanowitch. The DNA evidence collected matched Joseph Michael Simpson, who had worked in the area at the time. On September 29, 2016, a jury found Simpson guilty of the murder of Krystal Beslanowitch."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Fretwell, Courtney J. (2020). The Murder of Krystal Beslanowitch. <span className='bodyFontItalic'>Forensic Tales.</span><span class='bodyParaLineBreak' style=' word-break: break-all'>https://forensictales.com/the-murder-of-krystal-beslanowitch/</span></span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_whyShouldICare.svg",
+                  "desc": "A river flowing over rocks.",
+                  "altText": "A river flowing over rocks.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The type of call a police officer is dispatched to will determine where crime scene duties fall on their list of priorities. The safety of the police officer, the victims, and all those in the immediate area take priority. However, once control of the situation is obtained – which includes providing first aid, removing victims from the scene, and tracking the suspect – first responders can focus on preserving the crime scene."
+                },
+                {
+                  "type": "Plain",
+                  "text": "The initial involvement in crime scene preservation revolves around three basic duties:"
+                },
+                {
+                  "type": "List",
+                  "text": [
+                    "Establish a <button class='glossary-text'>perimeter</button>",
+                    "Find out the suspects’ movements",
+                    "See any unauthorized persons away from the crime scene"
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "text": "The <span class='bodyFontBold'>perimeter</span> of a crime scene is established by a police officer cordoning off the site using tape or barriers, with a single path in and out. This process limits who enters the scene and reduces the potential of damaging or destroying evidence."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_001.svg",
+                  "imgDivWidth": "350px",
+                  "scrollImg": true,
+                  "desc": "Figure 1: A line of police tape suspended around a residence creating a perimeter. Two police vehicles are parked between the residence and the perimeter.",
+                  "altText": "Figure 1: A line of police tape suspended around a residence creating a perimeter. Two police vehicles are parked between the residence and the perimeter.",
+                  "maxWidth": "420px"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The site will hold both the evidence of the suspect’s physical presence and what they carried away on their person as they left the crime scene. Evidence may consist of fabric or carpet fibers, soil, animal fur, human hair, blood, bullets, gunshot residues, etc. What other pieces of evidence might you look for at a crime scene?"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Once the crime scene has been isolated and secured, a crime scene investigator can begin to thoroughly document the area through visual methods such as photography, videography, and sketches. Additionally, descriptive narratives containing factual information are recorded. These records allow for detectives to recreate the scene as part of the investigation and can be used during the criminal trial if needed. The notes that are taken by either the initial responding officers or the investigators in charge are not only the first account of the crime scene itself, but also potential testimony of witnesses and suspects in court. Therefore, the notes taken should detail every step and process of the investigation."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Upon arrival, the initial reasoning officer should note or log dispatch information such as:"
+                },
+                {
+                  "type": "List",
+                  "text": [
+                    "the address/location",
+                    "time",
+                    "date",
+                    "type of call",
+                    "parties involved"
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The officer should observe and note the initial state of the crime scene. Such observations include:"
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "text": [
+                    "signs of forced entry at doors",
+                    "windows being open or closed",
+                    "lights being on or off"
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The officer should look, listen, and smell as they assess the scene not only as part of the note-taking process, but also to ensure the safety of the officer and others who may be present at the scene. They should also be aware of and take note of any persons or vehicles leaving the crime scene."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The notes should be taken in a bound notebook with numbered pages using black or blue ink. It is important that if mistakes are made, they are crossed out using a single line, never erased. This limits the possibility the notes are tampered with and preserves all the details collected. When taking notes, it is important to keep in mind that they may be revisited by anyone involved with the investigation and/or possible criminal trial weeks, months, even years later, so it is crucial that all notes be as detailed as possible. Over time, the ability to analyze or interpret evidence in an investigation may improve with the development of more accurate instrumentation or as new facts come to light. However, the data collected at the crime scene should remain true and unchanged."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Photography",
+                  "text": "An important part of the documentation of a crime scene is photography. When documenting the crime scene with photographs, take the following into consideration:"
+                },
+                {
+                  "type": "List",
+                  "text": [
+                    "Disturbing the crime scene is minimized by taking the designated safe route when moving through the scene.",
+                    "If it is necessary to alter the crime scene, for example to place placards or disassemble equipment, take photographs of the scene before and after the alteration. Include a scale when appropriate.",
+                    "Photographs should never be deleted if using a digital camera - from neither the camera nor the digital memory. If using film, prints or negatives should not be discarded.",
+                    "When taking photographs of evidence such as fingerprints, footprints, shoe prints, or tire tracks, use a tripod with the camera placed at a 90-degree angle and shoot with a cable release or the camera’s timer feature.",
+                    "Interior photographs should be taken in a vertical orientation to capture the full length of a wall in a photo."
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "text": "The photography session should occur in an uninterrupted, systematic, and focused manner. The photography route should move from the exterior to the interior of the crime scene, and from general to specific focus. Photographs of transient objects, such as bloodstains or latent prints, should be taken as soon as possible. The following considerations should be taken when planning the photography route:"
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "text": [
+                    "How did the victim or suspect arrive at or leave the scene?",
+                    "How was the crime committed?",
+                    "Which items were handled?",
+                    "Which items were moved?",
+                    "Which items are broken or stained?"
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "When taking photographs of the crime scene it is important to consider the lighting and camera angle. Often the most appropriate type of lighting is front lighting, which places the camera, lens, and flash or light source directly in front of the object of the photo. <button class='glossary-text'>Oblique lighting</button> is used for three-dimensional objects and is recommended to observe details such as tool marks, surface irregularities or textures, vehicle damage, and when photographing polished surfaces or small spaces, like closets. Side or oblique lighting places the camera directly in front of the object while the flash or light source is placed to the side of the object, anywhere from 45-90 degrees <span style='white-space: nowrap'>(Figure 2).</span> The angle you use will depend on the object and the shadow detail you are looking to create."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_002.svg",
+                  "imgDivWidth": "350px",
+                  "scrollImg": true,
+                  "desc": "Figure 2: A tile floor from a crime scene divided into before and after photos. The before photo on the left shows two evidence placards spaced apart on the floor and an unlit flashflight on the floor pointing toward the placards. The after photo on the right shows the same scene as the before photo but with the flashlight on, revealing a shoe print next to each placard.",
+                  "altText": "Figure 2: A tile floor from a crime scene divided into before and after photos. The before photo on the left shows two evidence placards spaced apart on the floor and an unlit flashflight on the floor pointing toward the placards. The after photo on the right shows the same scene as the before photo but with the flashlight on, revealing a shoe print next to each placard.",
+                  "maxWidth": "420px"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Overall photographs</button> provide documentation of the area surrounding the scene from its <button class='glossary-text'>perimeter</button>, from multiple locations and angles. These photos should be overlapping and represent a 360-degree perspective of the crime scene. These photos will include the exteriors of buildings, cars, both sides of entries and exits, bystanders, landmarks, and identifying marks such as house numbers and license plates. Overall photographs can also be of smaller “sub-scenes” that exist within the larger scene, such as a room within a building in which the crime was committed. For indoor scenes, a photograph is taken from each corner of a room, looking into the room. Such interior photos should be taken using a vertical orientation to capture the full length of a wall. Capturing all views of the scene is important: as the investigation process proceeds, what may have seemed unimportant initially may turn out to be valuable information."
+                },
+                {
+                  "type": "Plain",
+                  "text": "<button class='glossary-text'>Midrange photographs</button> establish the relationship between the objects or reference points in the scene. Such photographs of transient evidence (such as blood) should be obtained from a position that shows the spatter relative to other objects in the area and perpendicular to the spatter. <button class='glossary-text'>Close-up photographs</button> provide the details of the evidence objects. These photographs include a carefully placed ruler and are obtained with the camera perpendicular to the object. It is important that the ruler be on the same plane as the object to avoid any distortion or parallax in the ruler markings."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Once the initial overall photographs are obtained, the process is repeated with placards visible in the overall, midrange, and close-up photographs used as evidence identifiers. The placards and/or rulers must be placed in close proximity to the subject of the photograph. Additionally, any related information, observations, and/or time are recorded within a notebook as the photographs are taken."
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "subTitle": "Sketching",
+                  "text": "When spatial relationships or proportional measurements are needed of such things as bullet trajectory angles or to reconstruct accident details, a sketch of a crime scene is required. The first sketch, also known as the rough sketch, is drawn before anything is moved or destroyed, and after photographs of the crime scene are taken. The sketch includes a scene outline with the location of objects and evidence clearly marked. The finished sketch is derived from the rough sketch, so it is important to include as much detail as possible. Details that may be included are the outside of the drawn crime scene, measurements for dimensions of rooms, furniture, doors and windows, and distances between objects, entrances and exits, bodies and persons, location of bullets and cartridges, etc."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "Prior to starting a sketch, it is important to determine the appropriate scale. For outdoor scenes, it is common that one inch equals 20 feet. However, for indoor scenes, one-eighth inch equals one foot. The units of measurement should also be indicated: metric (meters, centimeters) or English (feet, inches). The appropriate scale for a sketch will fit the scene to the sketch paper. To do this, first identify the longest measurement at the scene, then divide this value by the length of the longest side of the paper. The resulting value will indicate the scale of your sketch. For example, if the largest measurement at the crime scene is 200 feet, and the longest side of your paper is 10 inches, your sketch will fit on the paper if it is at least 20 times smaller than the actual crime scene, or one inch equals 20 feet."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_003.svg",
+                  "imgDivWidth": "470px",
+                  "scrollImg": true,
+                  "desc": "Figure 3: A crime scene sketch showing the schematic of an apartment and the location of a victim and pieces of evidence. The sketch includes a title block, magnetic north arrow, and a legend.",
+                  "altText": "Figure 3: A crime scene sketch showing the schematic of an apartment and the location of a victim and pieces of evidence. The sketch includes a title block, magnetic north arrow, and a legend.",
+                  "maxWidth": "564px"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "Figure 3 shows an example of a crime scene sketch. Every sketch should feature a title block in the corner with the following information:"
+                },
+                {
+                  "type": "List",
+                  "containerType": "rightContainer",
+                  "text": [
+                    "Case number",
+                    "Location/address",
+                    "Location within building",
+                    "Date/time of sketch",
+                    "Offense",
+                    "Victim or scene portrayed",
+                    "Name of sketcher",
+                    "Name(s) of officers measuring area",
+                    "Scale"
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The magnetic north direction is also included on any sketch. The legend simplifies the process of creating an accurate sketch by replacing artistic renderings with symbols. A symbol, number or letter may be assigned and then identified in the legend. Evidence is always identified by numbers. If a scene is more complex, the legend may be recorded on a second sheet. The second sheet must be identified with the same title block as recorded on the sketch it accompanies."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are four types of sketches. A <button class='glossary-text'>perspective sketch</button> shows objects of evidence as they would appear to the eye with reference to relative distance by incorporating a vanishing point <span style='white-space: nowrap'>(Figure 4).</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_004.svg",
+                  "imgDivWidth": "355px",
+                  "scrollImg": true,
+                  "desc": "Figure 4: A perspective sketch of a crime scene showing a kitchen and a victim on the floor.",
+                  "altText": "Figure 4: A perspective sketch of a crime scene showing a kitchen and a victim on the floor.",
+                  "maxWidth": "425px"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "A <button class='glossary-text'>projection sketch</button> has only one viewpoint and shows objects on one plane <span style='white-space: nowrap'>(Figure 5).</span> Often these sketches show the horizontal plane (bird’s eye view) but the vertical plane (side view) can be depicted as well."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_005.svg",
+                  "imgDivWidth": "350px",
+                  "scrollImg": true,
+                  "desc": "Figure 5: A projection sketch of a crime scene showing the rear of a car parked outside steps leading up to the front of a house.",
+                  "altText": "Figure 5: A projection sketch of a crime scene showing the rear of a car parked outside steps leading up to the front of a house.",
+                  "maxWidth": "420px"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "A <button class='glossary-text'>schematic sketch</button> is useful for depicting a sequence of events, such as the trajectory of a bullet through a crime scene location <span style='white-space: nowrap'>(Figure 6).</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_006.svg",
+                  "imgDivWidth": "420px",
+                  "scrollImg": true,
+                  "desc": "Figure 6: A schematic sketch of an apartment and the location of a victim and pieces of evidence.",
+                  "altText": "Figure 6: A schematic sketch of an apartment and the location of a victim and pieces of evidence.",
+                  "maxWidth": "420px"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "In circumstances when it is required to describe or document a small area that is not easily incorporated in a perspective or <button class='glossary-text'>projection sketch</button>, a <button class='glossary-text'>detailed sketch</button> may be appropriate <span style='white-space: nowrap'>(Figure 7).</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_007.svg",
+                  "imgDivWidth": "280px",
+                  "scrollImg": true,
+                  "desc": "Figure 7: A detailed sketch of the front of a revolver hand gun covered in blood spatter.",
+                  "altText": "Figure 7: A detailed sketch of the front of a revolver hand gun covered in blood spatter.",
+                  "maxWidth": "336px"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Taking Measurements",
+                  "text": "It is crucial that accurate measurements are obtained for sketches. In the <button class='glossary-text'>triangulation method</button>, measurements are taken from two fixed points to each piece of evidence <span style='white-space: nowrap'>(Figure 8).</span>"
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_008.svg",
+                  "imgDivWidth": "310px",
+                  "scrollImg": true,
+                  "desc": "Figure 8: A diagram of the triangulation method. Reference point A, reference point B, and the center of a knife form the three points of a triangle. Reference point A is 5 feet 7 inches from the knife. Reference point B is 7 inches from the knife.",
+                  "altText": "Figure 8: A diagram of the triangulation method. Reference point A, reference point B, and the center of a knife form the three points of a triangle. Reference point A is 5 feet 7 inches from the knife. Reference point B is 7 inches from the knife.",
+                  "maxWidth": "372px"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The <button class='glossary-text'>rectangular coordinate method</button> is used when measuring the distance to an object from two mutually perpendicular objects, such as walls that meet at a 90-degree angle <span style='white-space: nowrap'>(Figure 9).</span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_009.svg",
+                  "imgDivWidth": "330px",
+                  "scrollImg": true,
+                  "desc": "Figure 9: A diagram of the rectangular coordinate method. Baseline 1 is a horizontal line above Baseline 2, which is vertical. The top end of Baseline 2 is connected to the left end of Baseline 1 to form a corner. Each baseline is perpendicular to the center of a knife. The knife is 3 feet 6 inches from Baseline 1, and 4 feet from Baseline 2.",
+                  "altText": "Figure 9: A diagram of the rectangular coordinate method. Baseline 1 is a horizontal line above Baseline 2, which is vertical. The top end of Baseline 2 is connected to the left end of Baseline 1 to form a corner. Each baseline is perpendicular to the center of a knife. The knife is 3 feet 6 inches from Baseline 1, and 4 feet from Baseline 2.",
+                  "maxWidth": "396px"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In circumstances where there is only one fixed reference point present, usually in an outdoor scene, the <button class='glossary-text'>polar coordinate method</button> is most appropriate <span style='white-space: nowrap'>(Figure 10).</span> In this method, both the distance and angle of an object are determined relative to the single reference point. The angle is measured using either a large protractor or a compass."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_010.svg",
+                  "imgDivWidth": "310px",
+                  "scrollImg": true,
+                  "desc": "Figure 10: A diagram of the polar coordinate method. The center of a knife is 5 feet 4 inches away from a reference point along a wall. The imaginary line between the knife and the reference point is at a 50-degree angle to the length of the wall.",
+                  "altText": "Figure 10: A diagram of the polar coordinate method. The center of a knife is 5 feet 4 inches away from a reference point along a wall. The imaginary line between the knife and the reference point is at a 50-degree angle to the length of the wall.",
+                  "maxWidth": "372px"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The <button class='glossary-text'>transecting baseline method</button> is used when a crime scene contains many objects and other measuring techniques are not appropriate <span style='white-space: nowrap'>(Figure 11).</span> First, a tape measure is placed so that it crosses the entire area being measured. This tape becomes the baseline for all other measurements in the scene. The remaining measurements are made by laying down another tape measure perpendicular to the baseline and measuring out to the desired object."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_011.svg",
+                  "imgDivWidth": "310px",
+                  "scrollImg": true,
+                  "desc": "Figure 11: A diagram of the transecting baseline method. A baseline extends horizontally from a fixed point on the left. The baseline is perpendicular to a knife. The center of the knife is 3 feet 6 inches from the baseline, and this distance transects the baseline 4 feet from the fixed point.",
+                  "altText": "Figure 11: A diagram of the transecting baseline method. A baseline extends horizontally from a fixed point on the left. The baseline is perpendicular to a knife. The center of the knife is 3 feet 6 inches from the baseline, and this distance transects the baseline 4 feet from the fixed point.",
+                  "maxWidth": "372px"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Detective Curtis has taken the following photograph as part of his investigation. Which of the following best describes this type of crime scene photo?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "mid-range",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "overall",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "close-up",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "schematic",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "detailed",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "imageData": {
+                    "image": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_KCQ_001.svg",
+                    "desc": "A photograph looking down at a desk and the floor within an office. On the visible portion of the desk are a lanyard with keys and ID badge and a pair of sunglasses. On the floor is a stick figure made of masking tape representing a crime scene victim. On the floor over the victim’s right shoulder is a metal water bottle. Behind the victim against a wall is a bike. Each item in the photo is labeled with a numbered evidence placard placed next to it.",
+                    "altText": "A photograph looking down at a desk and the floor within an office. On the visible portion of the desk are a lanyard with keys and ID badge and a pair of sunglasses. On the floor is a stick figure made of masking tape representing a crime scene victim. On the floor over the victim’s right shoulder is a metal water bottle. Behind the victim against a wall is a bike. Each item in the photo is labeled with a numbered evidence placard placed next to it.",
+                    "imgDivWidth": "350px",
+                    "maxWidth": "530px",
+                    "scrollImg": true
+                  },
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "This photograph is considered mid-range as it shows evidence in relation to one another and the victim without showing the full crime scene."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Officer Winters is placing evidence placards at a crime scene. Based on the nature of the crime, she needs to open a refrigerator at the scene in order to identify and document the evidence inside. Which of the following actions would best document this portion of the crime scene?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Photograph the refrigerator before and after opening it.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Record that the refrigerator was opened in her notebook.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Draw a sketch of what she predicts is inside the refrigerator.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Place a placard next to the refrigerator but do not open it.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Photograph the outside of the refrigerator before shipping it to a forensics lab.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "If a crime scene needs to be altered to collect evidence, before and after photos will record the scene with and without the alteration."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "An important part of the documentation of a crime scene is photography. When documenting the crime scene with photographs, follow an established route and, if it is necessary to alter the crime scene, take photographs of the scene before and after the alteration. Overall photographs provide documentation of the area surrounding the scene from its perimeter, from multiple locations and angles. These photos should be overlapping and represent a 360-degree perspective of the crime scene. Midrange photographs establish the relationship between the objects or reference points in the scene. Close-up photographs provide the details of the evidence objects. These photographs include a carefully placed ruler and are obtained with the camera perpendicular to the object."
+                },
+                {
+                  "title": "Hint",
+                  "body": "An important part of the documentation of a crime scene is photography. When documenting the crime scene with photographs, follow an established route and, if it is necessary to alter the crime scene, take photographs of the scene before and after the alteration. Overall photographs provide documentation of the area surrounding the scene from its perimeter, from multiple locations and angles. These photos should be overlapping and represent a 360-degree perspective of the crime scene. Midrange photographs establish the relationship between the objects or reference points in the scene. Close-up photographs provide the details of the evidence objects. These photographs include a carefully placed ruler and are obtained with the camera perpendicular to the object."
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Searching for Evidence",
+                  "text": "A thorough search of a crime scene is important to ensure that all of the relevant evidence is recognized, documented and collected. There are four main strategies for searching a crime scene; the ideal search method is dependent on the location and the number of officials available to conduct the search."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Also called a strip search, a <button class='glossary-text'>lane search</button> involves officials walking in parallel along defined lanes in the same direction <span style='white-space: nowrap'>(Figure 12).</span> Stakes or strings can define these lanes, or officials can walk shoulder to shoulder (or at arm’s length) as they cover the entire crime scene together."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_012.svg",
+                  "imgDivWidth": "270px",
+                  "scrollImg": true,
+                  "desc": "Figure 12: Within a rectangle, near its right side, are two perpendicular dotted line arrows that start along the rectangle's bottom edge and extend up beyond the rectangle's top edge, where they curve back down into the rectangle, still perpendicular to their existing lines.",
+                  "altText": "Figure 12: Within a rectangle, near its right side, are two perpendicular dotted line arrows that start along the rectangle's bottom edge and extend up beyond the rectangle's top edge, where they curve back down into the rectangle, still perpendicular to their existing lines.",
+                  "maxWidth": "324px"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "In a <span class='bodyFontBold'>grid search</span>, officials conduct a lane search in one direction, and then a second lane search of the same scene perpendicular to the first search <span style='white-space: nowrap'>(Figure 13).</span> This method is more thorough than the lane method; however, it takes twice as long to complete."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_013.svg",
+                  "imgDivWidth": "270px",
+                  "scrollImg": true,
+                  "desc": "Figure 13: A dotted line arrow meanders horizontally across a rectangle, forming a series of horizontal parallel lines from bottom to top. The same arrow then meanders vertically across the rectangle, forming a series of vertical parallel lines from right to left.",
+                  "altText": "Figure 13: A dotted line arrow meanders horizontally across a rectangle, forming a series of horizontal parallel lines from bottom to top. The same arrow then meanders vertically across the rectangle, forming a series of vertical parallel lines from right to left.",
+                  "maxWidth": "324px"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In a <button class='glossary-text'>zone search</button>, or quadrant search, the crime scene is divided into adjacent zones <span style='white-space: nowrap'>(Figure 14).</span> Each zone can also be divided into smaller zones for smaller teams to search more thoroughly."
+                },
+                {
+                  "type": "Image",
+                  "image": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_014.svg",
+                  "imgDivWidth": "270px",
+                  "scrollImg": true,
+                  "desc": "Figure 14: A square is divided into 4 equal zones by two perpendicular lines transecting at the square's center. The bottom right zone is divided into 4 equal zones by two perpendicular dotted lines transecting at the zone's center.",
+                  "altText": "Figure 14: A square is divided into 4 equal zones by two perpendicular lines transecting at the square's center. The bottom right zone is divided into 4 equal zones by two perpendicular dotted lines transecting at the zone's center.",
+                  "maxWidth": "324px"
+                },
+                {
+                  "type": "Plain",
+                  "containerType": "rightContainer",
+                  "text": "The <button class='glossary-text'>spiral search</button> method involves an official moving either inward through the crime scene from the boundary to the center, or outward through the scene from the center to the boundary <span style='white-space: nowrap'>(Figure 15).</span> An outward spiral search may result in the destruction of evidence as the searcher moves to the center of the scene to begin the search."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_015.svg",
+                  "imgDivWidth": "270px",
+                  "scrollImg": true,
+                  "desc": "Figure 15: A square within which is an inward spiral that starts at the bottom right edge of the square and ends at the square's center.",
+                  "altText": "Figure 15: A square within which is an inward spiral that starts at the bottom right edge of the square and ends at the square's center.",
+                  "maxWidth": "324px"
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Handling Physical Evidence",
+                  "text": "One of the most important factors of an investigation is the proper handling of physical evidence. The accurate and timely collection of evidence allows the scene to be reconstructed, which will help determine if a crime has been committed; if so, the evidence will also aid in identifying suspects, motive, etc. Each item that is identified as evidence must be logged with an <button class='glossary-text'>evidence tag</button> (or property tag), such as the one in <span style='white-space: nowrap'>Figure 16.</span> Each item of evidence is assigned a unique identification number and placed in evidence packaging before being removed from the crime scene. Each of the items of evidence collected will ultimately be listed on a comprehensive evidence report that includes each item’s number, location, time of collection, collector’s name, and description of appearance. Evidence packaging allows for tracking and establishing a <button class='glossary-text'>chain of custody</button>, which is a chronological record of the person(s) who has handled the item. This record preserves the integrity of the item as evidence."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_016.svg",
+                  "imgDivWidth": "350px",
+                  "scrollImg": true,
+                  "desc": "Figure 16: An illustration of an evidence tag with blank fields for describing the evidence and its collection, as well as the chain of custody.",
+                  "altText": "Figure 16: An illustration of an evidence tag with blank fields for describing the evidence and its collection, as well as the chain of custody.",
+                  "maxWidth": "420px"
+                },
+                {
+                  "type": "Plain",
+                  "text": "Isolating evidence in its own packaging prevents cross-contamination and the loss of any information associated with the item. There are several tools and types of packaging an investigator can use to collect and preserve evidence. The most common contents of an evidence collection kit include:"
+                },
+                {
+                  "type": "List",
+                  "text": [
+                    "paper envelopes (various sizes)",
+                    "glass/plastic containers with lids",
+                    "sealable plastic bags (various sizes)",
+                    "paper bindles (for folding evidence into)",
+                    "sterile scrapers",
+                    "evidence labels",
+                    "evidence seals"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "infoPopUp": "resource",
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "How a police department chooses to package and label evidence depends on the needs of their crime laboratory and the storage requirements of each item. The following are guidelines for collecting and packaging the most common evidence items."
+                },
+                {
+                  "type": "List",
+                  "text": [
+                    "Small glass fragments are placed in bindles and/or small sealed containers. Large fragments are packaged in boxes with padding to avoid breakage.",
+                    "Hair and fibers are placed in bindles, or folded pieces of paper, which are then placed into envelopes. If the hair or fiber is caught on an object or dried into a bloodstain, the entire object is collected.",
+                    "Clothing is carefully placed into evidence bags without being folded. Folding clothing items can cause trace evidence to be transferred from one part of the item to another.",
+                    "Blood that is still wet is picked up using a sterile gauze pad or cotton swab and allowed to dry. Then the gauze/swab can be placed in a vial or envelope. Drying blood prior to storage prevents mold growth, which would invalidate the evidence.",
+                    "If blood is dried on an object, the entire object is collected. Blood dried onto surfaces, such as walls or floors, can be sampled with a sterile scraper onto a bindle, which is then folded and placed into an envelope."
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "text": "After evidence is placed into its appropriate storage container, it is sealed with tape and initialed by the investigator <span style='white-space: nowrap'>(Figure 17).</span> This process limits evidence tampering."
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_017.svg",
+                  "imgDivWidth": "380px",
+                  "scrollImg": true,
+                  "desc": "Figure 17: An investigator wearing latex gloves holds a paper evidence bag sealed with official tape.",
+                  "altText": "Figure 17: An investigator wearing latex gloves holds a paper evidence bag sealed with official tape.",
+                  "maxWidth": "456px"
+                },
+                {
+                  "type":"Plain",
+                  "containerType": "rightContainer",
+                  "text":"<span style='line-height: normal' class='bodyParaLineBreak citation'>Resealable bag vector created by vectorpocket available at</br><span style='word-break: break-all'>https://www.freepik.com/free-vector/product-packaging-types-with-transparent-plastic-packets-bags-with-resealable-ziplock_4393780.htm.</span></br>The original image was cropped, and transparency increased.</span>"
+                }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 2",
+              "pageTitle": "Knowledge Check Question 2",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 1,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Detective Gupta is reinvestigating a crime from several years ago. As he examines the evidence related to the case, he wonders who handled these items last. Which of the following best describes how the detective could discover this information?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "Review the chain of custody information on each evidence tag.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "Ask his commanding officer to look up the information in a database.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "Consult the notes taken by the original investigators.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "Consult the testimonies of witnesses to the crime.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "Find the initials of the official who originally sealed each evidence container.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Evidence tags and reports provide chain of custody information."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "Detective Lee is dropping off collected evidence at the local crime laboratory for processing. But she does not surrender one of the items as it appears to have been tampered with. Which of the following would most likely indicate that the item was tampered with post-collection?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "The seal on the item’s packaging is broken.",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "The chain of custody log is blank.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "The item in question is clothing that was not folded upon collection.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "The detective’s partner forgot to record the item on the final evidence report.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "The item in question was placed in inappropriate packaging for the evidence type.",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "The evidence is sealed after it is initially collected. A broken seal after collection but before examination suggests tampering."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "One of the most important factors of an investigation is the proper handling of physical evidence. Each item that is identified as evidence must be logged with an evidence tag (or property tag). Each item of evidence is assigned a unique identification number and placed in evidence packaging before being removed from the crime scene. Each of the items of evidence collected will ultimately be listed on a comprehensive evidence report that includes each item’s number, location, time of collection, collector’s name, and description of appearance. Evidence packaging allows for tracking and establishing a chain of custody, which is a chronological record of the person(s) who has handled the item. This record preserves the integrity of the item as evidence. After evidence is placed into its appropriate storage container, it is sealed with tape and initialed by the investigator, which limits evidence tampering."
+                },
+                {
+                  "title": "Hint",
+                  "body": "One of the most important factors of an investigation is the proper handling of physical evidence. Each item that is identified as evidence must be logged with an evidence tag (or property tag). Each item of evidence is assigned a unique identification number and placed in evidence packaging before being removed from the crime scene. Each of the items of evidence collected will ultimately be listed on a comprehensive evidence report that includes each item’s number, location, time of collection, collector’s name, and description of appearance. Evidence packaging allows for tracking and establishing a chain of custody, which is a chronological record of the person(s) who has handled the item. This record preserves the integrity of the item as evidence. After evidence is placed into its appropriate storage container, it is sealed with tape and initialed by the investigator, which limits evidence tampering."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "subTitle": "Needed but not supplied"
+                },
+                {
+                  "type": "List",
+                  "text": [
+                    "Blank sheet of paper",
+                    "Drawing materials (pencil, pen, eraser, ruler, etc.)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "isCheckPoint": true,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are no safety concerns for this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Officer Royal is the first to arrive at a home that was broken into in the middle of the night. Which of the following is one of the very first actions the officer should take at the crime scene?",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Record dispatch information in his notebook.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Identify and preserve evidence from the scene.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Request additional officers be sent to his location.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Sketch the crime scene from multiple points of view.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Establish a chain of custody for any collected evidence.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Detective Nolan is interviewing the neighbors in an apartment building where a tenant was found dead. As she makes notes in her notebook, she realizes she has recorded some erroneous information. How should Detective Nolan indicate that this information is incorrect?",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Cross out the incorrect information with a single line.",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Cross out the incorrect information with multiple lines so it cannot be read.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Erase the incorrect information.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Tear out the page with the incorrect information and rewrite her notes.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Highlight the incorrect information with a colored marker.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the information that should always be included with a crime scene sketch?",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "the direction of magnetic north, a legend, a title block",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "a legend, the name of the sketcher, the distances between evidence items",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "the crime scene from both perspective and projecting points of view",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "a title block containing the date/time of the sketch and the case number",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "the GPS coordinates of the crime scene",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Sergeant Cho is documenting a hit and run case. A group of minors were vandalizing Farmer Jensen’s corn field by driving their truck through it. When police arrived, the truck fled and hit Jensen in the process. The only fixed point in or near the field where the accident occurred is Jensen’s mailbox. Which measuring technique should Sergeant Cho use to determine the dimensions of the crime scene?",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "polar coordinate method",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "rectangular coordinate method",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "triangulation method",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "transecting baseline method",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "grid method",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Ted is a newly hired crime scene investigator who just completed school. On his first case, he notices several officers placing evidence placards as they move parallel to one another across the crime scene. Which of the following search methods did Ted observe?",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "lane search",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "zone search",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "grid search",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "spiral search",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "rectangular search",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Officer Murray is instructed by the lead investigator to identify evidence in the northwest quadrant of the crime scene. Three other officers are each assigned their own quadrants to search. In which search method is the officer participating?",
+                      "shuffle": false,
+                      "assessmentRef": 5,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "zone search",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "lane search",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "grid search",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "spiral search",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "rectangular search",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Forensics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this activity, you are the lead investigator at a crime scene. You will document the scene using notes, photography, and a sketch, as well as search for, collect, and document evidence from the scene."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            {
+              "title": "Activity 1",
+              "template": "VirtualLab",
+              "activityPath": "activities/580419VIRT/activity1/story.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "title": "Thank you",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "desc": "completion",
+                  "altText": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Forensics_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "courses_2023/Forensics/580102/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "portrait a4"
+    },
+    "pages": [
+      {
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "Question1"
+        ],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1"
+              },
+              {
+                "type": "FillInBlank",
+                "maxLength": 50,
+                "id": 0,
+                "sr": 0,
+                "text": "Name",
+                "flag": "labnotebook"
+              },
+              {
+                "type": "FillInBlank",
+                "maxLength": 50,
+                "id": 1,
+                "sr": 1,
+                "text": "Date",
+                "flag": "labnotebook"
+              },
+              {
+                "type": "FillInBlank",
+                "maxLength": 50,
+                "id": 2,
+                "sr": 2,
+                "text": "Time",
+                "flag": "labnotebook"
+              },
+              {
+                "type": "FillInBlank",
+                "maxLength": 100,
+                "id": 3,
+                "sr": 3,
+                "text": "Location",
+                "flag": "labnotebook"
+              },
+              {
+                "type": "Plain",
+                "text": "<span class='text' style='font-size: 1.14em;'>Condition of the scene :</span>"
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 300,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "Question2",
+          "Question3"
+        ],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "sr": 0,
+            "width": "80%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 1. Evidence Collection"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "header": [
+                  {
+                    "text": "Marker #",
+                    "colWidth": "10%",
+                    "maxLength": 3
+                  },
+                  {
+                    "text": "Description",
+                    "colWidth": "30%",
+                    "maxLength": 100
+                  },
+                  {
+                    "text": "Condition",
+                    "colWidth": "60%",
+                    "maxLength": 250
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "<span class='text' style='font-size: 1.14em;'>Victim Observations :"
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 0,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "<span class='text' style='font-size: 1.14em;'>Other Observations :"
+              },
+              {
+                "type": "Questions",
+                "id": "Question3",
+                "sr": 1,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "80%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Data Table 2. Evidence Tags"
+              },
+              {
+                "type": "DataTable",
+                "sr": 0,
+                "header": [
+                  {
+                    "text": "Item No.",
+                    "colWidth": "10%",
+                    "maxLength": 3
+                  },
+                  {
+                    "text": "Date of Collection",
+                    "colWidth": "15%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Time of Collection",
+                    "colWidth": "15%",
+                    "maxLength": 10
+                  },
+                  {
+                    "text": "Description of Evidence",
+                    "colWidth": "30%",
+                    "maxLength": 50
+                  },
+                  {
+                    "text": "Location of Collection",
+                    "colWidth": "30%",
+                    "maxLength": 50
+                  }
+                ],
+                "tableData": [
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ],
+                  [
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    },
+                    {
+                      "type": "input",
+                      "text": ""
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "Question4",
+          "Question5",
+          "Question6",
+          "Question7"
+        ],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "start": "1",
+                "text": [
+                  "When recording observations and crime scene notes if an error is made, what should the investigator do and why?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question4",
+                "sr": 0,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "start": "2",
+                "text": [
+                  "Which crime scene search method did you select during the activity? Explain the reasoning behind your choice."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question5",
+                "sr": 1,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "start": "3",
+                "text": [
+                  "Why is it important to obtain overall, midrange and close-up photos of a crime scene?"
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question6",
+                "sr": 2,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "start": "4",
+                "text": [
+                  "Which type of crime scene sketch did you choose to create for the scene in this activity? Explain the reasoning behind your choice."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question7",
+                "sr": 3,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Sketch",
+                "text": "Insert a scan or photo of your sketch of the crime scene from the simulation. Your sketch should include a title block, magnetic north (the direction of which is up to you since this information is not given) and a legend (if appropriate). Do not use a screenshot of the simulation as a substitute for this sketch."
+              },
+              {
+                "type": "UploadFiles",
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Photos – Overall",
+                "text": "Insert your screenshots representing overall photographs of the crime scene in the appropriate sections below."
+              },
+              {
+                "type": "Plain",
+                "text": "View from Entrance"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "View from Exit"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "View from Corner 1"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 2,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "View from Corner 2"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 3,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "View from Corner 3"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 4,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "View from Corner 4"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 5,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Photos – Midrange",
+                "text": "Insert your screenshots representing midrange photographs of the victim and evidence in the appropriate sections below."
+              },
+              {
+                "type": "Plain",
+                "text": "Victim Midrange"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Evidence 1 Midrange"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Evidence 2 Midrange"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 2,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Evidence 3 Midrange"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 3,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Evidence 4 Midrange"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 4,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Activity 1 Photos – Close-up",
+                "text": "Insert your screenshots representing close-up photographs of the victim and evidence in the appropriate sections below."
+              },
+              {
+                "type": "Plain",
+                "text": "Victim Close-up"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 0,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Evidence 1 Close-up"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 1,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Evidence 2 Close-up"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 2,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Evidence 3 Close-up"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 3,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "width": "55%",
+            "pageData": [
+              {
+                "type": "Plain",
+                "text": "Evidence 4 Close-up"
+              },
+              {
+                "type": "UploadFiles",
+                "sr": 4,
+                "text": "Click on the browse button to upload the file",
+                "fileType": "image/*"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 3000,
+            "title": "Notes"
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_001.svg",
+        "content": "Figure 1. A crime scene perimeter",
+        "scrollImg": true,
+        "altText": "Figure 1: A line of police tape suspended around a residence creating a perimeter. Two police vehicles are parked between the residence and the perimeter.",
+        "maxWidth": "420px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_002.svg",
+        "content": "Figure 2. Oblique lighting",
+        "scrollImg": true,
+        "altText": "Figure 2: A tile floor from a crime scene divided into before and after photos. The before photo on the left shows two evidence placards spaced apart on the floor and an unlit flashflight on the floor pointing toward the placards. The after photo on the right shows the same scene as the before photo but with the flashlight on, revealing a shoe print next to each placard.",
+        "maxWidth": "420px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_003.svg",
+        "content": "Figure 3. A crime scene sketch",
+        "scrollImg": true,
+        "altText": "Figure 3: A crime scene sketch showing the schematic of an apartment and the location of a victim and pieces of evidence. The sketch includes a title block, magnetic north arrow, and a legend.",
+        "maxWidth": "564px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_004.svg",
+        "content": "Figure 4. A perspective sketch",
+        "scrollImg": true,
+        "altText": "Figure 4: A perspective sketch of a crime scene showing a kitchen and a victim on the floor.",
+        "maxWidth": "425px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_005.svg",
+        "content": "Figure 5. A projection sketch",
+        "scrollImg": true,
+        "altText": "Figure 5: A projection sketch of a crime scene showing the rear of a car parked outside steps leading up to the front of a house.",
+        "maxWidth": "420px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_006.svg",
+        "content": "Figure 6. A schematic sketch",
+        "scrollImg": true,
+        "altText": "Figure 6: A schematic sketch of an apartment and the location of a victim and pieces of evidence.",
+        "maxWidth": "504px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_007.svg",
+        "content": "Figure 7. A detailed sketch",
+        "scrollImg": true,
+        "altText": "Figure 7: A detailed sketch of the front of a revolver hand gun covered in blood spatter.",
+        "maxWidth": "336px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_008.svg",
+        "content": "Figure 8. The triangulation method",
+        "scrollImg": true,
+        "altText": "Figure 8: A diagram of the triangulation method. Reference point A, reference point B, and the center of a knife form the three points of a triangle. Reference point A is 5 feet 7 inches from the knife. Reference point B is 7 inches from the knife.",
+        "maxWidth": "372px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_009.svg",
+        "content": "Figure 9. The rectangular coordinate method",
+        "scrollImg": true,
+        "altText": "Figure 9: A diagram of the rectangular coordinate method. Baseline 1 is a horizontal line above Baseline 2, which is vertical. The top end of Baseline 2 is connected to the left end of Baseline 1 to form a corner. Each baseline is perpendicular to the center of a knife. The knife is 3 feet 6 inches from Baseline 1, and 4 feet from Baseline 2.",
+        "maxWidth": "396px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_010.svg",
+        "content": "Figure 10. The polar coordinate method",
+        "scrollImg": true,
+        "altText": "Figure 10: A diagram of the polar coordinate method. The center of a knife is 5 feet 4 inches away from a reference point along a wall. The imaginary line between the knife and the reference point is at a 50-degree angle to the length of the wall.",
+        "maxWidth": "372px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_011.svg",
+        "content": "Figure 11. The transecting baseline method",
+        "scrollImg": true,
+        "altText": "Figure 11: A diagram of the transecting baseline method. A baseline extends horizontally from a fixed point on the left. The baseline is perpendicular to a knife. The center of the knife is 3 feet 6 inches from the baseline, and this distance transects the baseline 4 feet from the fixed point.",
+        "maxWidth": "372px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_012.svg",
+        "content": "Figure 12. Lane search pattern",
+        "scrollImg": true,
+        "altText": "Figure 12: Within a rectangle, near its right side, are two perpendicular dotted line arrows that start along the rectangle's bottom edge and extend up beyond the rectangle's top edge, where they curve back down into the rectangle, still perpendicular to their existing lines.",
+        "maxWidth": "324px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_013.svg",
+        "content": "Figure 13. Grid search pattern",
+        "scrollImg": true,
+        "altText": "Figure 13: A dotted line arrow meanders horizontally across a rectangle, forming a series of horizontal parallel lines from bottom to top. The same arrow then meanders vertically across the rectangle, forming a series of vertical parallel lines from right to left.",
+        "maxWidth": "324px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_014.svg",
+        "content": "Figure 14. Zone search pattern",
+        "scrollImg": true,
+        "altText": "Figure 14: A square is divided into 4 equal zones by two perpendicular lines transecting at the square's center. The bottom right zone is divided into 4 equal zones by two perpendicular dotted lines transecting at the zone's center.",
+        "maxWidth": "324px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_015.svg",
+        "content": "Figure 15. Spiral search pattern",
+        "scrollImg": true,
+        "altText": "Figure 15: A square within which is an inward spiral that starts at the bottom right edge of the square and ends at the square's center.",
+        "maxWidth": "324px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_016.svg",
+        "content": "Figure 16. Evidence tag",
+        "scrollImg": true,
+        "altText": "Figure 16: An illustration of an evidence tag with blank fields for describing the evidence and its collection, as well as the chain of custody.",
+        "maxWidth": "420px"
+      },
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "src": "courses_2023/Forensics/580419VIRT/580419VIRT_Forensics_fig_017.svg",
+        "content": "Figure 17. Sealed evidence bag",
+        "scrollImg": true,
+        "altText": "Figure 17: An investigator wearing latex gloves holds a paper evidence bag sealed with official tape.",
+        "maxWidth": "456px"
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Chain of custody",
+        "content": "A chronological record of those who have handled the item as evidence"
+      },
+      {
+        "title": "Close-up photograph",
+        "content": "A photograph showing details of an evidence object, including scale"
+      },
+      {
+        "title": "Detailed sketch",
+        "content": "A type of sketch that shows a small area of, or a single object within, a crime scene"
+      },
+      {
+        "title": "Evidence tag",
+        "content": "A document that accompanies each piece of physical evidence collected from a crime scene, and that describes the nature of the evidence item and its collection; also called a property tag"
+      },
+      {
+        "title": "Grid method",
+        "content": "A search method in which officers conduct a lane search in one direction  and then a second lane search of the same scene perpendicular to the first search"
+      },
+      {
+        "title": "Lane search",
+        "content": "A search method in which officers walk in parallel along defined lanes in the same direction; also called a strip search"
+      },
+      {
+        "title": "Midrange photograph",
+        "content": "A photograph that establishes a relationship between an object(s) or reference point(s) in a crime scene"
+      },
+      {
+        "title": "Oblique lighting",
+        "content": "A type of lighting that comes from placing the light source to the side of the object at 45-90 degrees; also known as side lighting"
+      },
+      {
+        "title": "Overall photograph",
+        "content": "A photograph that documents the area surrounding a crime scene from its perimeter and, when overlapped with multiple overall photographs, provides a 360-degree pespective of the scene"
+      },
+      {
+        "title": "Perimeter",
+        "content": "The boundaries of a crime scene established by a police officer cordoning off the site using tape or barriers such that there is a single path in and out"
+      },
+      {
+        "title": "Perspective sketch",
+        "content": "A type of sketch that shows objects of evidence as they would appear to the eye with reference to relative distance by incorporating a vanishing point"
+      },
+      {
+        "title": "Polar coordinate method",
+        "content": "A strategy for taking the measurements of a crime scene in which the distance and angle of an object to a single fixed reference point is measured"
+      },
+      {
+        "title": "Projection sketch",
+        "content": "A type of sketch that shows only one viewpoint and where the objects are on the same plane; such sketches that depict the vertical plane are called elevation sketches"
+      },
+      {
+        "title": "Rectangular coordinate method",
+        "content": "A strategy for taking the measurements of a crime scene in which the distance to an object from two mutually perpendicular objects, such as walls that meet at a 90 degree angle, is taken"
+      },
+      {
+        "title": "Schematic sketch",
+        "content": "A type of sketch that shows the layout of rooms and walkways in a building or other structure from a bird's eye view, much like a blueprint"
+      },
+      {
+        "title": "Spiral search",
+        "content": "A search method in which an officer moves either inward through the crime scene from the boundary to the center, or outward through the scene from the center to the boundary"
+      },
+      {
+        "title": "Transecting baseline method",
+        "content": "A strategy for taking the measurements of a crime scene in which a baseline is placed in the crime scene, and the distance from each piece of evidence to the baseline is measured"
+      },
+      {
+        "title": "Triangulation method",
+        "content": "A strategy for taking the measurements of crime scene in which measurements are taken from two fixed points to each piece of evidence"
+      },
+      {
+        "title": "Zone search",
+        "content": "A search method in which the crime scene is divided into adjacent zones, each of which is searched; also called a quadrant search"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

@@ -1,0 +1,1146 @@
+{
+  "locked": true,
+  "courseTitle": "Introduction to the Solar System Virtual Lab",
+  "footerData": {
+    "images": {
+      "logo": "core/footerLogo.svg"
+    }
+  },
+  "preloadImages": [
+    "core/Physics_launchPageBg.svg",
+    "core/menuIcon.svg",
+    "core/fontSetter.svg",
+    "core/fontPlus.svg",
+    "core/fontMinus.svg",
+    "core/menuIconH.svg",
+    "core/separatorImg.svg",
+    "core/exitImage.svg",
+    "core/resourceImage.svg",
+    "core/resourceImageH.svg",
+    "core/helpImage.svg",
+    "core/helpImageH.svg",
+    "core/moreBtn.svg",
+    "core/moreBtnOpen.svg",
+    "core/back.svg",
+    "core/backH.svg",
+    "core/LabNoteIcon.svg",
+    "core/next.svg",
+    "core/nextH.svg",
+    "core/moreBtnTabComp.svg",
+    "core/moreBtnOpenTabComp.svg",
+    "core/LabNoteIcon.svg",
+    "core/LabNoteIconH.svg",
+    "core/bodyBookmark.svg",
+    "core/labNotebookPreviousIcon.svg",
+    "core/labNotebookPreviousIconH.svg",
+    "core/labNotebookNextIcon.svg",
+    "core/labNotebookNextIconH.svg",
+    "core/tickSymbol.svg",
+    "core/wrongSymbol.svg",
+    "core/TakeSnapshot.svg",
+    "core/disposalAndCleanupIcon.svg"
+  ],
+  "headerData": {
+    "images": {
+      "menuIcon": "core/menuIcon.svg",
+      "menuIconH": "core/menuIconH.svg",
+      "separatorImage": "core/separatorImg.svg",
+      "exitImage": "core/exitImage.svg",
+      "resourceImage": "core/resourceImage.svg",
+      "resourceImageH": "core/resourceImageH.svg",
+      "helpImage": "core/helpImage.svg",
+      "helpImageH": "core/helpImageH.svg",
+      "moreBtnImage": "core/moreBtn.svg",
+      "fontSetter": "core/fontSetter.svg",
+      "fontMinus": "core/fontMinus.svg",
+      "fontPlus": "core/fontPlus.svg",
+      "moreBtnOpenImage": "core/moreBtnOpen.svg",
+      "glossaryImage": "core/glossaryImage.svg",
+      "glossaryImageH": "core/glossaryImageH.svg"
+    }
+  },
+  "pages": [
+    {
+      "title": "Pre-Lab",
+      "menuIcon": "core/PreLabIcon.svg",
+      "pages": [
+        {
+          "title": "Title",
+          "pages": [
+            {
+              "title": "Title",
+              "waterMark": true,
+              "waterMarkImage": "core/Physics_launchPageBg.svg",
+              "waterMarkClass": "bgBodyHolderFullScreen",
+              "template": "LaunchTemplate",
+              "pageData": {
+                "titleName0": "Physics",
+                "titleName2": "Introduction to the Solar System Virtual Lab",
+                "images": {
+                  "logo": "core/Physics_Subject_Icon.svg"
+                },
+                "titleName3": "Click next button to continue."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "waterMark": true,
+              "showPageTitle": true,
+              "template": "OverView",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this investigation, you will compare the relative sizes of the <button class='glossary-text'>planets</button> to better understand the scale of the <button class='glossary-text'>solar system</button>. Then you will simulate travel to each planet to experience the distance between planets and learn about their attributes."
+                },
+                {
+                  "type": "Plain",
+                  "title": "Needed but not supplied",
+                  "text": "There are no materials required for this investigation."
+                },
+                {
+                  "type": "Image",
+                  "title": "Time Requirements",
+                  "image": "courses_2023/Physics/580900VIRT/580900VIRT_Physics_Time-Requirement.svg",
+                  "altText": "Activity 1 – The Size and Scale of the Planets – 30 minutes \nActivity 2 – The Distance Between and Composition of the Planetss – 30 minutes",
+                  "containerType": "rightContainer",
+                  "scrollImg": true,
+                  "imgDivWidth": "310px",
+                  "maxWidth": "400px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Outcomes",
+          "pages": [
+            {
+              "title": "Outcomes",
+              "pageTitle": "Outcomes",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Outcomes",
+              "pageData": [
+                {
+                  "type": "List",
+                  "text": [
+                    "Describe trends in the composition of the <button class='glossary-text'>planets</button> in the <button class='glossary-text'>solar system</button>.",
+                    "Describe the general formation of the universe and solar system.",
+                    "Identify trends in the differences between planets in the solar system."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key",
+          "pages": [
+            {
+              "title": "Key",
+              "pageTitle": "Key",
+              "showPageTitle": true,
+              "template": "Key",
+              "pageData": [
+                {
+                  "type": "Image",
+                  "subTitle": "Personal protective equipment (PPE)",
+                  "altText": "goggles symbol, gloves symbol, apron symbol",
+                  "desc": "goggles symbol, gloves symbol, apron symbol",
+                  "image": "core/Key_PPE.svg",
+                  "imgDivWidth": "430px",
+                  "maxWidth": "500px"
+                },
+                {
+                  "type": "Image",
+                  "subTitle": "Protocol symbols",
+                  "altText": "video link symbol, camera symbol, stopwatch symbol",
+                  "desc": "video link symbol, camera symbol, stopwatch symbol",
+                  "image": "core/Key_protocol.svg",
+                  "imgDivWidth": "430px",
+                  "maxWidth": "500px"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "subTitle": "Hazard pictograms",
+                  "image": "core/Key_Hazard.svg",
+                  "altText": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",
+                  "desc": "warning symbol, corrosion symbol, flammable symbol, toxic symbol, environment symbol, health hazard symbol",                
+                  "imgDivWidth": "430px",
+                  "maxWidth": "500px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why Should I Care",
+          "pages": [
+            {
+              "title": "Why Should I Care",
+              "pageTitle": "Why Should I Care",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "WhyShouldICare",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In 2030, NASA’s Europa Clipper spacecraft will reach Jupiter’s <button class='glossary-text'>moon</button> Europa. The spacecraft has a payload of nine scientific instruments. Scientists hope that Clipper will provide detailed images and other scientific data about Jupiter and its moons."
+                },
+                {
+                  "type": "Plain",
+                  "text": "Data collected on previous missions to Europa suggest that the moon may contain a salty ocean below the frozen surface. Europa has a crust made up of blocks of ice, which are thought to break apart. This breaking apart allows for interactions between the ocean and the thin ice sheet. It is hypothesized that this ocean may provide conditions that are suitable for life. The Clipper spacecraft will collect detailed surface images, and magnetometers will study the ice thickness and the ocean’s depth and salinity. "
+                },
+                {
+                  "type": "Plain",
+                  "text": "In this false-color image, reddish-brown areas represent non-ice material resulting from the geologic activity. White areas are rays of material ejected during the formation of the Pwyll impact crater. Icy plains are shown in blue tones to distinguish possibly coarse-grained ice (dark blue) from fine-grained ice (light blue). Long, dark lines are ridges and fractures in the crust, some of which are more than <span style='whiteSpace: nowrap'>1,850 miles</span> long. These images were obtained by NASA's Galileo spacecraft from 1996-1997 at a distance of <span style='whiteSpace: nowrap'>417,489 miles.</span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'>Citation: Europa Clipper: Exploring Jupiter’s Icy Moon. (2023). Europa up close. <i>NASA.</i> <br><span target='blank' style=' word-break: break-all'>https://europa.nasa.gov/why-europa/europa-up-close/</span>"
+                },
+                {
+                  "type": "Plain",
+                  "text": "<span class='bodyParaLineBreak citation' style='line-height: 1.1em;'>Image citation: NASA/JPL/University of Arizona. (2017). NASA. <br><span target='blank' style=' word-break: break-all'>https://www.nasa.gov/multimedia/imagegallery/image_feature_1339.html </span>"
+                },
+                {
+                  "type": "Image",
+                  "containerType": "rightContainer",
+                  "image": "courses_2023/Physics/580900VIRT/580900VIRT_Physics_whyShouldICare.svg",
+                  "altText": "A split-image photograph of the surface of Europa. The image on the left shows surface details like ridges, fractures and craters. The image on the right shows the entirety of Europa in outer space.",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto",
+                  "width": "100%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "pages": [
+            {
+              "title": "Background",
+              "pageTitle": "Background",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "The theory that describes the origin of the universe and its subsequent expansion is the <button class='glossary-text'>big bang theory</button>. It was first proposed by astronomer Georges Lemaître in 1927. Two years later astronomer Edwin Hubble observed that other galaxies were moving away from our own, suggesting that not only is the universe still expanding, but also that the universe must have been much closer together at one time in its existence. In its early iterations, the big bang theory hypothesized that all of the matter and energy in the universe began as a single point, or singularity, that then expanded into an extremely hot and dense universe. Calculations made and data collected since then have caused scientists to reject the idea of a singularity, however there is no consensus on an alternative for the state of the universe prior to its expansion. "
+                },
+                {
+                  "type": "Plain",
+                  "text": "One thing scientists can agree on is that the universe began very hot and dense and has expanded and cooled to its current state – which is still expanding. Prior to this expansion, it is hypothesized that the universe underwent a phase of cosmic inflation. There is little data to suggest where the inflationary state came from, but a universe born of expansion from an inflated state, rather than a singularity, explains phenomena such as the uniform temperature of the universe and its perfect spatial flatness."
+                },
+                {
+                  "type": "Plain",
+                  "containerType":"rightContainer",
+                  "text": "After the formation of the universe, the matter in the universe came together to form atoms, molecules, and ultimately celestial bodies such as <button class='glossary-text'>asteroids</button>, <button class='glossary-text'>planets</button> and <button class='glossary-text'>stars</button>. Follow the simulation on the next page to take a look at how our own star – the Sun – and the planets in its <button class='glossary-text'>solar system</button> took shape. "
+                }
+              ]
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "The Formation of the Solar System",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "VirtualLab",
+              "activityPath": "activities/580900_Phy_VIRT/Solar_System/story.html"
+            },
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "waterMark": false,
+              "template": "Background",
+              "pageData": [
+             
+                {
+                  "type": "Plain",
+                  "subTitle": "Stars",
+                  "text": "At the center of our <button class='glossary-text'>solar system</button> is the Sun, which is one of many <button class='glossary-text'>stars</button> in our galaxy. A star is a hot ball of gas, mainly hydrogen and helium, held together by its own gravity. Stars form in dust clouds in space: when enough matter clumps together the mass is sufficient that the gas and dust begin to contract under its own gravitational pull. As the matter becomes denser, the pressure increases and thus the temperature. This hot mass is known as a protostar and becomes a star as more gas and dust are pulled into it, further increasing its pressure and temperature. Over time, the protostar will reach temperatures in the millions of degrees Celsius, resulting in the fusion of hydrogen nuclei. The intense heat generated by nuclear fusion causes the gases in the mass to expand and a star is born."
+                },
+                {
+                  "type": "Plain",
+                  "text": "There are seven main types of stars, classified in order of decreasing temperature. The hottest stars appear blue; colder stars, such as our Sun, appear white or yellow; the coldest stars are red. Stars are also described by their size using the terms dwarf (small) and giant or supergiant (large). The Sun is a dwarf star. Stars are important building blocks in the universe. When a star eventually runs out of nuclei to fuse, it dies and – in the case of a large star – becomes a supernova explosion that sends dust and gas across the galaxy. The particles from the supernova then become the seeds for the formation of new stars and <button class='glossary-text'>planets</button>."
+                },
+                {
+                  "type": "Plain",
+                  "subTitle": "Planets and Moons",
+                  "containerType":"rightContainer",
+                  "text": "Our solar system is made up of a star, the Sun, surrounded by eight large celestial bodies known as <span class=bodyFontBold>planets</span>. What defines a planet became a hot topic in 2006 when the International Astronomical Union (IAU) revised the definition, causing Pluto to lose its planet status. A planet must do three things:"
+                },
+                {
+                  "type": "List",
+                  "containerType":"rightContainer",
+                  "listType":"ordered",
+                  "orderedType": "1",
+                  "text": [
+                    "It must orbit a star.",
+                    "It must be large enough to have gravity sufficient to create a spherical shape.",
+                    "It must be large enough that its gravity has cleared the neighborhood of its orbit of other similarly sized objects."
+              
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "containerType":"rightContainer",
+                  "text": "The definition of a planet has changed over time as scientists have gained a better understanding of the objects in the solar system. The ancient Greeks considered Earth’s <button class='glossary-text'>moon</button> and the Sun to be planets, but not Earth as it was believed to be the central object around which all others orbited. The geocentric model of the solar system was rejected in the 17th century when the telescope allowed astronomers to gather evidence that the planets orbit the Sun. This is known as the <button class='glossary-text'>heliocentric theory</button>."
+                }
+              ]
+            },
+            
+            {
+              "title": "Background (cont... )",
+              "pageTitle": "Background (cont... )",
+              "showPageTitle": true,
+              "infoPopUp": "resource",
+              "waterMark": true,
+              "template": "Background",
+              "pageData": [
+             {
+              "type":"Plain",
+              "text":"Pluto was named the ninth <button class='glossary-text'>planet</button> in the <button class='glossary-text'>solar system</button> after its discovery <span style='whiteSpace: nowrap'>in 1930.</span> Although much smaller than Mercury, the next smallest planet, and lacking similarities to the other eight planets, Pluto’s planethood was not seriously challenged until the 1990s when advances in telescope technology revealed new objects in Pluto’s neighborhood. In the region beyond Neptune’s orbit, the <button class='glossary-text'>Kuiper Belt</button>, scientists identified thousands of celestial bodies, Kuiper Belt Objects (KBO). When a KBO of similar size to Pluto was discovered in 2005, the IAU met to redefine planet and established a new type of celestial body – dwarf planet. Pluto is now one of several dwarf planets in the solar system."
+             },
+             {
+              "type":"Plain",
+              "text":"While planets orbit a <button class='glossary-text'>star</button> – in our case the Sun – <button class='glossary-text'>moons</button> orbit planets and other celestial bodies. Also known as natural satellites, moons come in many shapes and sizes. Most moons do not have an atmosphere, but some of them do; some moons even feature unique phenomena such as hidden oceans. Although the majority of moons in the solar system are found orbiting the two largest planets, Jupiter and Saturn, the number of moons around an object is by no means proportional to the size of the object. "
+             },
+             {
+              "type":"Plain",
+              "subTitle": "Other Celestial Bodies",
+              "text":"<button class='glossary-text'>Asteroids</button> are the rocky, airless leftovers from the early formation of the solar system. Also known as minor planets, these objects are most commonly found in our solar system in the region between Mars and Jupiter."
+             },
+             {
+              "type":"Plain",
+              "containerType":"rightContainer",
+              "text":"Frozen bodies of gas, rock and dust that orbit the Sun are <span style='whiteSpace: nowrap'><button class='glossary-text'>comets</button>.</span> When comets heat up from orbiting closer to the Sun, they eject dust and gas that form a tail stretching millions of miles."
+             },
+             {
+              "type":"Plain",
+              "containerType":"rightContainer",
+              "text":"Rocky debris in space, called <button class='glossary-text'>meteoroids</button>, can range in size from a grain of sand to a car. As they burn up passing through a planet’s atmosphere, these debris or “shooting <button class='glossary-text'>stars</button>” are <button class='glossary-text'>meteors</button> (Figure 1). The remains of meteoroids on a planet’s surface are considered <button class='glossary-text'>meteorites</button>."
+             },
+             {
+               "type": "Image",
+               "containerType": "rightContainer",
+               "image": "courses_2023/Physics/580900VIRT/580900VIRT_Physics_fig_001.svg",
+               "imgDivWidth": "450px",
+               "maxWidth": "520px",
+               "scrollImg": true,
+               "altText": "Figure 1: A meteor shower made up of several streaks of light in a starry night sky."
+             }
+              ]
+            },
+            {
+              "title": "Knowledge Check Question 1",
+              "pageTitle": "Knowledge Check Question 1",
+              "showPageTitle": true,
+              "waterMark": true,
+              "infoPopUp": "kc",
+              "template": "KnowledgeCheck",
+              "isKnowledgeCheck": true,
+              "kcRef": 0,
+              "pageData": [
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "A new celestial object has been identified in the solar system. It orbits Uranus and has a size similar to that of Pluto. Which of the following best categorizes this object?",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "moon",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "star",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "dwarf planet",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "asteroid",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "meteoroid",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "Objects that orbit planets are classified as moons."
+                  }
+                },
+                {
+                  "type": "KC",
+                  "queType": "radio",
+                  "purpose": "KC",
+                  "radioButtonStates": {
+                    "tick": "core/tickSymbol.svg",
+                    "wrong": "core/wrongSymbol.svg",
+                    "unChecked": "core/radioButtonUnchecked.svg",
+                    "checked": "core/radioButtonChecked.svg",
+                    "hover": "core/radioButtonHover.svg",
+                    "correct": "core/radioButtonCorrect.svg",
+                    "incorrect": "core/radioButtonIncorrect.svg"
+                  },
+                  "question": "While observing the night sky with a telescope, you notice a bright object flash across the sky. The next day, you watch a news report describing the presence of a large hot rock that landed suddenly overnight – you suspect this is your bright object. Which of the following best describes the object you saw that night? ",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "meteor",
+                      "correct": true,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 2,
+                      "text": "meteoroid",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 3,
+                      "text": "asteroid",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 4,
+                      "text": "comet",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    },
+                    {
+                      "id": 5,
+                      "text": "moon",
+                      "correct": false,
+                      "img": "core/radioButtonUnchecked.svg"
+                    }
+                  ],
+                  "feedbackData": {
+                    "title": "Feedback",
+                    "text": "When burning through the atmosphere, rocky space debris are considered meteors."
+                  }
+                }
+              ],
+              "hintData": [
+                {
+                  "title": "Hint",
+                  "body": "There are many different types of celestial objects in space. A star is a hot ball of gas, mainly hydrogen and helium, held together by its own gravity. The Sun in our solar system is a star. It is orbited by eight large celestial bodies known as planets, which each have sufficient gravity for a spherical shape and to clear its own orbit of other similarly sized objects. Many of these planets have moons, or natural satellites, that orbit them. Then there are other objects that orbit the Sun – asteroids (rocky leftovers of the solar system’s formation), comets (frozen bodies of gas and rock), and meteoroids (rocky space debris). Terms such as “meteor” and “meteorite” refer to meteoroids as they burn through Earth’s atmosphere or after they have landed on Earth, respectively."
+                },
+                {
+                  "title": "Hint",
+                  "body": "There are many different types of celestial objects in space. A star is a hot ball of gas, mainly hydrogen and helium, held together by its own gravity. The Sun in our solar system is a star. It is orbited by eight large celestial bodies known as planets, which each have sufficient gravity for a spherical shape and to clear its own orbit of other similarly sized objects. Many of these planets have moons, or natural satellites, that orbit them. Then there are other objects that orbit the Sun – asteroids (rocky leftovers of the solar system’s formation), comets (frozen bodies of gas and rock), and meteoroids (rocky space debris). Terms such as “meteor” and “meteorite” refer to meteoroids as they burn through Earth’s atmosphere or after they have landed on Earth, respectively."
+                }
+              ]
+            }
+          ]
+        },
+       
+        {
+          "title": "Materials",
+          "pages": [
+            {
+              "title": "Materials",
+              "pageTitle": "Materials",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Materials",
+              "autoCompletion": false,
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "There are no materials required for this investigation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safety",
+          "pages": [
+            {
+              "title": "Safety",
+              "pageTitle": "Safety",
+              "showPageTitle": true,
+              "waterMark": true,
+              "isCheckPoint": true,
+              "template": "Background",
+              "pageData": [
+              
+                {
+                  "type": "Plain",
+                  "text": "There are no safety concerns for this investigation."
+                }
+            
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pre-Lab Assessment",
+          "pages": [
+            {
+              "title": "Assessment",
+              "waterMark": true,
+              "template": "Assessment",
+              "isAssessment": true,
+              "isHidden": true,
+              "pageData": [
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Introduction",
+                  "text": "Directions: Complete this pre-lab assessment to continue to the rest of the investigation. You will need a score of 100% to pass the assessment. This assessment can be attempted as many times as necessary to achieve a passing score. You may return to the pre-lab sections to study before each attempt.<span className=bodyParaLineBreak>For each question, select your response and then click Submit to see how you did. Click Next to continue to the next question. A final results page will appear upon completion of this assessment with your overall performance.</span>",
+                  "btnTitle": "Start"
+                },
+                {
+                  "assestmentData": [
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the composition of our Sun?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 0,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "hydrogen atoms fusing into helium ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "expanding dust and gases ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "superheated rocky debris ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "electromagnetic radiation and nuclear energy ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "molten metal surrounding a rocky core ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following lies beyond Neptune’s orbit? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 1,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "the Kuiper Belt ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "the asteroid belt ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "the Sun ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "the planets of our solar system ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "the solar system ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following reasons describes why Pluto is no longer classified as a true planet of our solar system? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 2,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "Its differences from the other planets classify it as a dwarf planet. ",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "Changes to its orbit have caused it to drift too far away from the rest of the solar system. ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "It broke apart and is now considered a Kuiper Belt Object (KBO). ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Scientists felt it would be easier for students to learn about eight planets rather than nine. ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "Advances in telescope technology revealed it to be one of Neptune’s moons.",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the Sun? ",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 3,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "a small yellow star that is not as hot as other stars",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "a large blue star that is hotter than most other stars",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "a small blue star that is hotter than most other stars",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "a large yellow star that is hotter than most other stars",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "a large yellow start that is not as hot as other stars",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "MCSS",
+                      "purpose": "Assessment",
+                      "queType": "radio",
+                      "question": "Which of the following best describes the initial state of the universe?",
+                      "instructionText": "",
+                      "shuffle": false,
+                      "assessmentRef": 4,
+                      "radioButtonStates": {
+                        "tick": "core/tickSymbol.svg",
+                        "wrong": "core/wrongSymbol.svg",
+                        "unChecked": "core/radioButtonUnchecked.svg",
+                        "checked": "core/radioButtonChecked.svg",
+                        "hover": "core/radioButtonHover.svg",
+                        "correct": "core/radioButtonCorrect.svg",
+                        "incorrect": "core/radioButtonIncorrect.svg"
+                      },
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "hot, dense, expanding",
+                          "correct": true,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 2,
+                          "text": "cold and expanding",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 3,
+                          "text": "cold and dense ",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 4,
+                          "text": "hot and thin",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        },
+                        {
+                          "id": 5,
+                          "text": "cold, thin, expanding",
+                          "correct": false,
+                          "img": "core/radioButtonUnchecked.svg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Plain",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "Congratulations!!! You passed the Pre-lab Assessment."
+                },
+                {
+                  "type": "TextAndButton",
+                  "title": "Pre-Lab Assessment Result",
+                  "text": "You have not passed the pre-lab assessment. You must score 100% to unlock the rest of the investigation. Please review the pre-lab sections again before re-attempting this assessment. You have unlimited attempts to pass this assessment. Click the Review Pre-Lab button to be returned to the start of the pre-lab section.",
+                  "btnTitle": "Review Pre-Lab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+  
+    {
+      "title": "Activity 1",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this simulation, you will observe the relative size and scale of the <button class='glossary-text'>planets</button> in the <button class='glossary-text'>solar system</button>. You will match each planet’s name to the silhouette to which you think it belongs. When the planet and the silhouette match up, the image of the planet will replace the silhouette."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 1",
+          "pages": [
+            
+            {
+              "title": "Activity 1",
+              "template": "VirtualLab",
+              "activityPath": "activities/580900_Phy_VIRT/activity1/story.html"
+            }
+          ]
+        }
+    
+      ]
+    },
+    {
+      "title": "Activity 2",
+      "menuIcon": "core/Physics_Activity_Icon.svg",
+      "pages": [
+        {
+          "title": "Overview",
+          "pages": [
+            {
+              "title": "Overview",
+              "pageTitle": "Overview",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Safety",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "In this simulation, you will experience the relative distance between the <button class='glossary-text'>planets</button> in the <button class='glossary-text'>solar system</button>. The simulation starts at the Sun and moves to each planet in turn. After you arrive at each planet, you will be presented with facts about its composition, movement, and satellites. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Activity 2",
+          "pages": [
+            {
+              "title": "Activity 2",
+              "template": "VirtualLab",
+              "activityPath": "activities/580900_Phy_VIRT/activity2/story.html"
+            }
+          ]
+        }
+     ]
+    },
+    
+    {
+      "title": "Completion",
+      "isHidden": true,
+      "pages": [
+        {
+          "title": "Completion",
+          "pages": [
+            {
+              "title": "Completion",
+              "pageTitle": "Thank you",
+              "showPageTitle": true,
+              "waterMark": true,
+              "template": "Completion",
+              "pageData": [
+                {
+                  "type": "Plain",
+                  "text": "You have reached the end of the investigation. Follow your instructors directions to submit this assignment.",
+                  "confirmationMessage": "Are you sure you want to submit your work? You will not be able to edit the lab notebook after submitting your work."
+                },
+                {
+                  "type": "Image",
+                  "altText": "completion",
+                  "desc": "completion",
+                  "containerType": "rightContainer",
+                  "image": "core/Physics_Completion.svg",
+                  "imgDivWidth": "55%",
+                  "imgDivMargin": "auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labNotebookData": {
+    "title": "Lab Notebook",
+    "printLayoutData": {
+      "logo": "core/logo.svg",
+      "userLabel": "Student Name : ",
+      "userGoBtn": "GO",
+      "dateTimeLocale": "en-US",
+      "dateTimeLabel": "Date & Time : ",
+      "copyright": "&copy; 2023 Carolina Biological Supply Company",
+      "pageSetting": "landscape A4"
+    },
+    "pages": [
+      {
+        "waterMark": true,
+        "title": "Lab Notebook",
+        "textAreaId": [
+          "Question1",
+          "Question2",
+          "Question3",
+          "Question4"
+       ],
+        "pageData": [
+          {
+            "type": "Wrapper",
+            "width": "65%",
+            "id": "Question1",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "Plain",
+                "title": "Questions"
+              },
+              {
+                "type": "List",
+                "orderedType": "1",
+                "listType": "ordered",
+                "text": [
+                  "Describe your observations about the relative size and scale of the planets. "
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question1",
+                "sr": 0,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          
+          {
+            "type": "Wrapper",
+            "id": "Question2",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "2",
+                "listType": "ordered",
+                "text": [
+                  "Describe your observations about the relative distance between planets."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question2",
+                "sr": 1,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question3",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "3",
+                "listType": "ordered",
+                "text": [
+                  "Describe your observations about the rocky planets (Mercury, Venus, Earth, Mars)."
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question3",
+                "sr": 2,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          },
+          {
+            "type": "Wrapper",
+            "id": "Question4",
+            "tag": "div",
+            "pageData": [
+              {
+                "type": "List",
+                "orderedType": "1",
+                "start": "4",
+                "listType": "ordered",
+                "text": [
+                  "Describe your observations about the gas giants (Jupiter, Saturn, Uranus, Neptune). "
+                ]
+              },
+              {
+                "type": "Questions",
+                "id": "Question4",
+                "sr": 3,
+                "maxLength": 500,
+                "placeholder": "Write your Answer here..."
+              }
+            ]
+          }
+      
+        ]
+      },
+      {
+        "title": "Lab Notebook",
+        "textAreaId": "Notes",
+        "pageData": [
+          {
+            "type": "Notes",
+            "id": "notes_area",
+            "maxLength": 3000,
+            "title": "Notes"
+          },
+          
+          {
+            "type": "Box",
+            "id": "Box_Note",
+            "align": "center",
+            "margin": "25px 0 0 0",
+            "text": "In order for your instructor to be able to open your video links, please select the \"Save as PDF\" option rather than \"Print to PDF\"."
+          },
+          {
+            "type": "Print",
+            "title": "Print",
+            "btnTitle": "Print"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "imageThumbnailSrc": "core/Image_icon.svg",
+    "videoThumbnailSrc": "core/Video_icon.svg",
+    "pageData": [
+    
+      {
+        "type": "Images",
+        "thumbnailSrc": "core/Image_icon.svg",
+        "content": "Figure 1. A meteor shower",
+        "src": "courses_2023/Physics/580900VIRT/580900VIRT_Physics_fig_001.svg",
+        "maxWidth": "520px",
+        "scrollImg": true,
+        "altText": "Figure 1: A meteor shower made up of several streaks of light in a starry night sky."
+      }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "data": [
+      {
+        "title": "Asteroid",
+        "content": "A rocky, airless celestial object; it is most commonly found in our solar system in the region between Mars and Juipter; also called a minor planet"
+      },
+      {
+        "title": "Big bang theory",
+        "content": "The scientific theory that describes the origin of the universe and its subsequent expansion"
+      },
+      {
+        "title": "Comet",
+        "content": "A frozen body of gas, rock, and dust that can eject tails of dust and gas when heated"
+      },
+      {
+        "title": "Heliocentric theory",
+        "content": "The scientific theory that describes the Sun as the center of our solar system and Earth as a planet orbiting the Sun"
+      },
+      {
+        "title": "Kuiper Belt",
+        "content": "The region of the solar system beyond Neptune's orbit"
+      },
+      {
+        "title": "Meteor",
+        "content": "A meteoroid as it burns in a planet's atmosphere, giving off a tail of debris; also called a shooting star"
+      },
+      {
+        "title": "Meteorite",
+        "content": "The remains of a meteoroid on a planet's surface"
+      },
+      {
+        "title": "Meteoroid",
+        "content": "A piece of rocky celestial debris"
+      },
+      {
+        "title": "Moon",
+        "content": "A large celestial object that orbits a planet; also called a natural satellite"
+      },
+      {
+        "title": "Planet",
+        "content": "An object that orbits a star and is large enough to have gravity sufficient to create a spherical shape as well as clear the neighborhood of its orbit of other similarly sized objects"
+      },
+      {
+        "title": "Solar system",
+        "content": "A gravitationally bound system of a star and the planets that orbit it"
+      },
+      {
+        "title": "Star",
+        "content": "A hot ball of gas held together by its own gravity"
+      }
+    ]
+  },
+  "info": {
+    "src": "core/Information-Initial.svg",
+    "hoverSrc": "core/Information-Hower.svg",
+    "resource": {
+      "text": "You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "kc": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question."
+    },
+    "kc-resource": {
+      "text": "Use the Reset button to try this question again. Use the Hint button to revisit the question concept(s). After opening the hint, you will be presented with a new question to attempt. You may continue to access the hint as you answer the new question.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    },
+    "procedure": {
+      "text": "You can track completion of each step by clicking on the step number."
+    },
+    "procedure-resource": {
+      "text": "You can track completion of each step by clicking on the step number.<span class='bodyParaLineBreak'></span>You can find a complete list of the figures, tables and videos in this investigation using the Resources icon. ",
+      "src": "core/resourceImage.svg"
+    }
+  }
+}

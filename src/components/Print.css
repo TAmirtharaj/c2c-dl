@@ -1,0 +1,24 @@
+.print-button {
+  margin-top: 5px;
+  min-width: 120px;
+  height: 40px;
+  position: relative;
+  font-family: 'Montserrat-Bold';
+}
+
+.disable-print{
+  /* background: red; */
+  opacity: 0.5;
+  pointer-events: none;
+}
+.print-class {
+  @media print{@page {size: landscape}}
+}
+
+  table { page-break-after:auto }
+  tr    { page-break-inside:avoid; page-break-after:auto }
+  td    { page-break-inside:avoid; page-break-after:auto }
+  thead { display:table-header-group }
+  tfoot { display:table-footer-group }
+  textarea { page-break-inside:auto; }
+  .notes-container { page-break-after: avoid; }

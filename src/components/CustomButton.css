@@ -1,0 +1,27 @@
+.custom-button {
+  background: #5aa0d6;
+  color: #ffffff;
+  border-radius: 28px;
+  min-width: 130px;
+  height: 36px;
+  font-family: HelveticaNeueLTStd55Roman;
+  border-color: transparent;
+  font-size: 20px;
+  cursor: pointer;
+}
+.icon-button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  min-height: 25px;
+  min-width: 37px;
+}
+
+/* This hover will only work for desktops which has hover. And remove if you have any other hover codes for this class/id */
+@media (hover: hover) {
+  .custom-button:hover {
+    color: #5aa0d6;
+    background: #ffffff;
+    border: solid 2px #5aa0d6;
+  }
+}
